@@ -1,0 +1,40 @@
+name: Update data
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Every 4 hours at minute 5
+    - cron: '5 */4 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node (for Vega rendering via npx)
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run pull-servers script
+        shell: pwsh
+        run: ./pull-servers.ps1
+
+      - name: Generate report
+        shell: pwsh
+        run: ./generate-report.ps1
+
+      - name: Commit and push if changed
+        shell: bash
+        run: |
+          git config user.name "Automated"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          timestamp=$(date --iso-8601=seconds)
+          git commit -m "Latest data: ${timestamp}" || exit 0
+          git push
