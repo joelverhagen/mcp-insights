@@ -4,6 +4,8 @@ Automated (every 4 hours) pull of the public Model Context Protocol registry plu
 
 **See the latest detailed report (chart + stats) in [`summary.md`](./summary.md).**
 
+This project is inspired by pub.dev's wonderful [pub_insights](https://github.com/loic-sharma/pub_insights) project.
+
 ## What This Repo Produces
 - `servers.json` - full server objects (sorted)
 - `servers.csv` - compact tabular subset
