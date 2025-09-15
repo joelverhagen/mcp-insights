@@ -312,7 +312,18 @@ foreach ($g in $byName) {
 }
 
 $domainStats = $domainCounts.GetEnumerator() | ForEach-Object {
-    [PSCustomObject]@{ Domain = $_.Key; UniqueServerNames = $_.Value.Count }
+    $domain = $_.Key
+    $nameSet = $_.Value
+    $catSet = [System.Collections.Generic.HashSet[string]]::new()
+    foreach ($n in $nameSet) {
+        if ($nameClassifications.ContainsKey($n)) {
+            $c = $nameClassifications[$n].Category
+            if ($c) { $catSet.Add($c) | Out-Null }
+        }
+    }
+    if ($catSet.Count -eq 0) { $catSet.Add('none') | Out-Null }
+    $catList = ($catSet | Sort-Object) -join ', '
+    [PSCustomObject]@{ Domain = $domain; UniqueServerNames = $nameSet.Count; Categories = $catList }
 } | Sort-Object -Property UniqueServerNames, Domain -Descending | Select-Object -First 20
 
 # Build summary.md content
@@ -329,16 +340,6 @@ $md += "- Total unique server names: $totalUniqueNames"
 $md += "- Date range: $firstDate to $lastDate"
 $md += "- Peak day: $($maxEntry.Date) with $($maxEntry.UniqueCount) unique server names"
 $md += "- Average unique server names per day: $avg"
-
-# Compute simple growth between first and last day
-$firstCount = ($series | Select-Object -First 1).UniqueCount
-$lastCount = ($series | Select-Object -Last 1).UniqueCount
-if ($firstCount -ne 0) {
-    $pct = [math]::Round((($lastCount - $firstCount) / $firstCount) * 100,2)
-    $md += "- Change from first to last day: $pct% ($firstCount -> $lastCount)"
-} else {
-    $md += "- Change from first to last day: N/A (first day had zero unique servers)"
-}
 
 $md += ""
 $md += "## Top 5 busiest days"
@@ -358,14 +359,14 @@ if ($categoryCounts.Count -eq 0) { $md += "| (none) | 0 | 0% |" }
 $md += ""
 $md += "## Top 20 domains by unique server names"
 $md += ""
-$md += "| Domain | Unique Server Names |"
-$md += "|--------|---------------------:|"
+$md += "| Domain | Unique Server Names | Categories |"
+$md += "|--------|---------------------:|------------|"
 if ($domainStats -and $domainStats.Count -gt 0) {
     foreach ($d in $domainStats) {
-        $md += "| $($d.Domain) | $($d.UniqueServerNames) |"
+        $md += "| $($d.Domain) | $($d.UniqueServerNames) | $($d.Categories) |"
     }
 } else {
-    $md += "| (none) | 0 |"
+    $md += "| (none) | 0 | (none) |"
 }
 
 # Save summary.md
