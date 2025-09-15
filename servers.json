@@ -12501,5 +12501,39 @@
         "is_latest": true
       }
     }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+    "name": "ai.smithery/MetehanGZL-pokemcp",
+    "description": "Provide detailed Pokémon data and information through a standardized MCP interface. Enable LLMs an…",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/MetehanGZL/PokeMCP",
+      "source": "github"
+    },
+    "version": "1.0.0",
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://server.smithery.ai/@MetehanGZL/pokemcp/mcp",
+        "headers": [
+          {
+            "description": "Bearer token for Smithery authentication",
+            "is_required": true,
+            "value": "Bearer {smithery_api_key}",
+            "is_secret": true,
+            "name": "Authorization"
+          }
+        ]
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "id": "ace42071-ecbd-472a-9738-a4701d427aef",
+        "published_at": "2025-09-15T17:56:16.252320146Z",
+        "updated_at": "2025-09-15T17:56:16.252320146Z",
+        "is_latest": true
+      }
+    }
   }
 ]
