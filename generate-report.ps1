@@ -313,7 +313,7 @@ foreach ($g in $byName) {
 
 $domainStats = $domainCounts.GetEnumerator() | ForEach-Object {
     [PSCustomObject]@{ Domain = $_.Key; UniqueServerNames = $_.Value.Count }
-} | Sort-Object -Property UniqueServerNames -Descending | Select-Object -First 20
+} | Sort-Object -Property UniqueServerNames, Domain -Descending | Select-Object -First 20
 
 # Build summary.md content
 $md = @()

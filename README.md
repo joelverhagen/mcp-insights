@@ -8,7 +8,6 @@ Automated (every 4 hours) pull of the public Model Context Protocol registry plu
 - `servers.json` - full server objects (sorted)
 - `servers.csv` - compact tabular subset
 - `servers-per-day.svg` - unique servers per day (line + 7‑day moving average)
-- `servers-per-day.vl.json` - underlying Vega-Lite spec
 - `summary.md` - quick facts, top days, category breakdown
 
 ## How It Works
