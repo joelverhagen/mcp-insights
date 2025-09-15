@@ -53,7 +53,7 @@ function Invoke-GetWithRetry {
 
     $headers = @{
         'Accept' = 'application/json'
-        'User-Agent' = 'mcp-server-reader/1.0 (https://github.com/modelcontextprotocol)'
+        'User-Agent' = 'data-mcp-registry/0.1 (https://github.com/joelverhagen/data-mcp-registry)'
     }
 
     for ($i = 1; $i -le $Attempts; $i++) {
