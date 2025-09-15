@@ -7,45 +7,44 @@
   "data": {
     "values": [
       {
-        "count": 1,
-        "date": "2025-09-08"
+        "date": "2025-09-08",
+        "count": 1
       },
       {
-        "count": 55,
-        "date": "2025-09-09"
+        "date": "2025-09-09",
+        "count": 55
       },
       {
-        "count": 51,
-        "date": "2025-09-10"
+        "date": "2025-09-10",
+        "count": 51
       },
       {
-        "count": 36,
-        "date": "2025-09-11"
+        "date": "2025-09-11",
+        "count": 36
       },
       {
-        "count": 33,
-        "date": "2025-09-12"
+        "date": "2025-09-12",
+        "count": 33
       },
       {
-        "count": 20,
-        "date": "2025-09-13"
+        "date": "2025-09-13",
+        "count": 20
       },
       {
-        "count": 18,
-        "date": "2025-09-14"
+        "date": "2025-09-14",
+        "count": 18
       },
       {
-        "count": 19,
-        "date": "2025-09-15"
+        "date": "2025-09-15",
+        "count": 20
       }
     ]
   },
   "transform": [
     {
-      "sort": [
-        {
-          "field": "date"
-        }
+      "frame": [
+        -6,
+        0
       ],
       "window": [
         {
@@ -54,9 +53,10 @@
           "field": "count"
         }
       ],
-      "frame": [
-        -6,
-        0
+      "sort": [
+        {
+          "field": "date"
+        }
       ]
     },
     {
@@ -69,15 +69,15 @@
       ]
     },
     {
+      "sort": [
+        {
+          "field": "date"
+        }
+      ],
       "window": [
         {
           "as": "rowNumber",
           "op": "row_number"
-        }
-      ],
-      "sort": [
-        {
-          "field": "date"
         }
       ]
     },
@@ -102,213 +102,213 @@
   "layer": [
     {
       "mark": {
-        "interpolate": "monotone",
+        "color": "#4e79a7",
         "opacity": 0.18,
-        "type": "area",
-        "color": "#4e79a7"
+        "interpolate": "monotone",
+        "type": "area"
       },
       "encoding": {
-        "y": {
-          "type": "quantitative",
-          "axis": {
-            "grid": true,
-            "title": "Unique server names"
-          },
-          "field": "count"
-        },
         "x": {
           "type": "temporal",
           "axis": {
-            "grid": false,
-            "format": "%Y-%m-%d",
+            "title": "Date",
             "labelAngle": -45,
-            "title": "Date"
+            "format": "%Y-%m-%d",
+            "grid": false
           },
           "field": "date"
-        }
-      }
-    },
-    {
-      "mark": {
-        "interpolate": "monotone",
-        "strokeWidth": 2,
-        "type": "line",
-        "stroke": "#4e79a7"
-      },
-      "encoding": {
+        },
         "y": {
           "type": "quantitative",
+          "axis": {
+            "title": "Unique server names",
+            "grid": true
+          },
           "field": "count"
-        },
-        "x": {
-          "type": "temporal",
-          "field": "date"
         }
       }
     },
     {
       "mark": {
-        "interpolate": "monotone",
         "strokeWidth": 2,
-        "type": "line",
+        "stroke": "#4e79a7",
+        "interpolate": "monotone",
+        "type": "line"
+      },
+      "encoding": {
+        "x": {
+          "field": "date",
+          "type": "temporal"
+        },
+        "y": {
+          "field": "count",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "mark": {
+        "strokeWidth": 2,
         "stroke": "#d62728",
+        "interpolate": "monotone",
+        "type": "line",
         "strokeDash": [
           6,
           4
         ]
       },
       "encoding": {
-        "y": {
-          "type": "quantitative",
-          "field": "ma7"
-        },
         "x": {
-          "type": "temporal",
-          "field": "date"
+          "field": "date",
+          "type": "temporal"
+        },
+        "y": {
+          "field": "ma7",
+          "type": "quantitative"
         }
       }
     },
     {
       "mark": {
-        "size": 50,
         "filled": true,
+        "color": "#4e79a7",
         "type": "point",
-        "color": "#4e79a7"
-      },
-      "selection": {
-        "hover": {
-          "empty": "none",
-          "type": "single",
-          "nearest": true,
-          "on": "mouseover"
-        }
+        "size": 50
       },
       "encoding": {
         "y": {
-          "type": "quantitative",
-          "field": "count"
+          "field": "count",
+          "type": "quantitative"
         },
         "tooltip": [
           {
-            "type": "temporal",
             "title": "Date",
+            "type": "temporal",
             "field": "date"
           },
           {
-            "type": "quantitative",
             "title": "Daily unique",
+            "type": "quantitative",
             "field": "count"
           },
           {
-            "type": "quantitative",
             "title": "7d avg",
+            "type": "quantitative",
             "field": "ma7"
           }
         ],
         "x": {
-          "type": "temporal",
-          "field": "date"
+          "field": "date",
+          "type": "temporal"
         },
         "opacity": {
           "condition": {
-            "value": 1,
-            "selection": "hover"
+            "selection": "hover",
+            "value": 1
           },
           "value": 0.55
+        }
+      },
+      "selection": {
+        "hover": {
+          "nearest": true,
+          "empty": "none",
+          "on": "mouseover",
+          "type": "single"
         }
       }
     },
     {
       "mark": {
         "size": 140,
-        "shape": "diamond",
-        "type": "point",
         "filled": true,
-        "stroke": "#b36b00",
+        "type": "point",
         "strokeWidth": 1.5,
-        "color": "#ff9900"
+        "color": "#ff9900",
+        "stroke": "#b36b00",
+        "shape": "diamond"
       },
       "encoding": {
         "y": {
-          "type": "quantitative",
-          "field": "count"
+          "field": "count",
+          "type": "quantitative"
         },
         "opacity": {
           "condition": {
-            "test": "datum.isPeak == true",
-            "value": 1
+            "value": 1,
+            "test": "datum.isPeak == true"
           },
           "value": 0
         },
-        "x": {
-          "type": "temporal",
-          "field": "date"
-        },
         "tooltip": [
           {
-            "type": "temporal",
             "title": "Peak date",
+            "type": "temporal",
             "field": "date"
           },
           {
-            "type": "quantitative",
             "title": "Peak unique count",
+            "type": "quantitative",
             "field": "count"
           }
-        ]
-      }
-    },
-    {
-      "mark": {
-        "strokeDash": [
-          4,
-          4
         ],
-        "color": "#d62728",
-        "type": "rule",
-        "strokeWidth": 1.5
-      },
-      "encoding": {
-        "y": {
-          "datum": 29.12
+        "x": {
+          "field": "date",
+          "type": "temporal"
         }
       }
     },
     {
       "mark": {
-        "dx": 6,
-        "type": "text",
-        "fontSize": 12,
         "color": "#d62728",
-        "align": "left",
-        "dy": -6
+        "strokeDash": [
+          4,
+          4
+        ],
+        "strokeWidth": 1.5,
+        "type": "rule"
       },
+      "encoding": {
+        "y": {
+          "datum": 29.25
+        }
+      }
+    },
+    {
       "transform": [
         {
           "filter": "datum.isLast == true"
         }
       ],
+      "mark": {
+        "dy": -6,
+        "align": "left",
+        "type": "text",
+        "dx": 6,
+        "color": "#d62728",
+        "fontSize": 12
+      },
       "encoding": {
         "y": {
-          "datum": 29.12
+          "datum": 29.25
         },
         "text": {
-          "value": "Avg: 29.12"
+          "value": "Avg: 29.25"
         },
         "x": {
-          "type": "temporal",
-          "field": "date"
+          "field": "date",
+          "type": "temporal"
         }
       }
     }
   ],
   "config": {
     "axis": {
+      "labelFont": "Segoe UI",
+      "titleFont": "Segoe UI",
       "tickColor": "#bbb",
       "labelFontSize": 11,
       "titleFontSize": 13,
-      "titleFont": "Segoe UI",
-      "labelFont": "Segoe UI",
       "domainColor": "#888"
     },
     "view": {
