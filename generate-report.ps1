@@ -271,7 +271,7 @@ foreach ($g in $byName) {
 # Aggregate counts per category (unique names)
 $categoryCounts = $nameClassifications.Values | Group-Object -Property Category | ForEach-Object {
     [PSCustomObject]@{ Category = $_.Name; UniqueNames = $_.Count }
-} | Sort-Object -Property UniqueNames -Descending
+} | Sort-Object -Property UniqueNames, Category -Descending
 
 $categoryTotal = ($nameClassifications.Count)
 foreach ($row in $categoryCounts) {
