@@ -7,52 +7,52 @@
   "data": {
     "values": [
       {
-        "date": "2025-09-08",
-        "count": 1
+        "count": 1,
+        "date": "2025-09-08"
       },
       {
-        "date": "2025-09-09",
-        "count": 55
+        "count": 55,
+        "date": "2025-09-09"
       },
       {
-        "date": "2025-09-10",
-        "count": 51
+        "count": 51,
+        "date": "2025-09-10"
       },
       {
-        "date": "2025-09-11",
-        "count": 36
+        "count": 36,
+        "date": "2025-09-11"
       },
       {
-        "date": "2025-09-12",
-        "count": 33
+        "count": 33,
+        "date": "2025-09-12"
       },
       {
-        "date": "2025-09-13",
-        "count": 20
+        "count": 20,
+        "date": "2025-09-13"
       },
       {
-        "date": "2025-09-14",
-        "count": 18
+        "count": 18,
+        "date": "2025-09-14"
       },
       {
-        "date": "2025-09-15",
-        "count": 20
+        "count": 20,
+        "date": "2025-09-15"
       }
     ]
   },
   "transform": [
     {
+      "window": [
+        {
+          "field": "count",
+          "as": "ma7",
+          "op": "mean"
+        }
+      ],
       "frame": [
         -6,
         0
       ],
-      "window": [
-        {
-          "op": "mean",
-          "as": "ma7",
-          "field": "count"
-        }
-      ],
       "sort": [
         {
           "field": "date"
@@ -62,9 +62,9 @@
     {
       "joinaggregate": [
         {
-          "op": "argmax",
+          "field": "count",
           "as": "peakRow",
-          "field": "count"
+          "op": "argmax"
         }
       ]
     },
@@ -76,17 +76,17 @@
       ],
       "window": [
         {
-          "as": "rowNumber",
-          "op": "row_number"
+          "op": "row_number",
+          "as": "rowNumber"
         }
       ]
     },
     {
       "joinaggregate": [
         {
-          "op": "max",
+          "field": "rowNumber",
           "as": "lastRow",
-          "field": "rowNumber"
+          "op": "max"
         }
       ]
     },
@@ -102,38 +102,38 @@
   "layer": [
     {
       "mark": {
-        "color": "#4e79a7",
-        "opacity": 0.18,
         "interpolate": "monotone",
-        "type": "area"
+        "color": "#4e79a7",
+        "type": "area",
+        "opacity": 0.18
       },
       "encoding": {
         "x": {
+          "field": "date",
           "type": "temporal",
           "axis": {
             "title": "Date",
-            "labelAngle": -45,
             "format": "%Y-%m-%d",
+            "labelAngle": -45,
             "grid": false
-          },
-          "field": "date"
+          }
         },
         "y": {
+          "field": "count",
           "type": "quantitative",
           "axis": {
             "title": "Unique server names",
             "grid": true
-          },
-          "field": "count"
+          }
         }
       }
     },
     {
       "mark": {
-        "strokeWidth": 2,
-        "stroke": "#4e79a7",
         "interpolate": "monotone",
-        "type": "line"
+        "strokeWidth": 2,
+        "type": "line",
+        "stroke": "#4e79a7"
       },
       "encoding": {
         "x": {
@@ -148,10 +148,10 @@
     },
     {
       "mark": {
-        "strokeWidth": 2,
-        "stroke": "#d62728",
         "interpolate": "monotone",
+        "strokeWidth": 2,
         "type": "line",
+        "stroke": "#d62728",
         "strokeDash": [
           6,
           4
@@ -169,104 +169,104 @@
       }
     },
     {
-      "mark": {
-        "filled": true,
-        "color": "#4e79a7",
-        "type": "point",
-        "size": 50
-      },
-      "encoding": {
-        "y": {
-          "field": "count",
-          "type": "quantitative"
-        },
-        "tooltip": [
-          {
-            "title": "Date",
-            "type": "temporal",
-            "field": "date"
-          },
-          {
-            "title": "Daily unique",
-            "type": "quantitative",
-            "field": "count"
-          },
-          {
-            "title": "7d avg",
-            "type": "quantitative",
-            "field": "ma7"
-          }
-        ],
-        "x": {
-          "field": "date",
-          "type": "temporal"
-        },
-        "opacity": {
-          "condition": {
-            "selection": "hover",
-            "value": 1
-          },
-          "value": 0.55
-        }
-      },
       "selection": {
         "hover": {
-          "nearest": true,
-          "empty": "none",
           "on": "mouseover",
-          "type": "single"
+          "type": "single",
+          "empty": "none",
+          "nearest": true
         }
-      }
-    },
-    {
-      "mark": {
-        "size": 140,
-        "filled": true,
-        "type": "point",
-        "strokeWidth": 1.5,
-        "color": "#ff9900",
-        "stroke": "#b36b00",
-        "shape": "diamond"
       },
       "encoding": {
+        "tooltip": [
+          {
+            "field": "date",
+            "type": "temporal",
+            "title": "Date"
+          },
+          {
+            "field": "count",
+            "type": "quantitative",
+            "title": "Daily unique"
+          },
+          {
+            "field": "ma7",
+            "type": "quantitative",
+            "title": "7d avg"
+          }
+        ],
         "y": {
           "field": "count",
           "type": "quantitative"
         },
-        "opacity": {
-          "condition": {
-            "value": 1,
-            "test": "datum.isPeak == true"
-          },
-          "value": 0
-        },
-        "tooltip": [
-          {
-            "title": "Peak date",
-            "type": "temporal",
-            "field": "date"
-          },
-          {
-            "title": "Peak unique count",
-            "type": "quantitative",
-            "field": "count"
-          }
-        ],
         "x": {
           "field": "date",
           "type": "temporal"
+        },
+        "opacity": {
+          "value": 0.55,
+          "condition": {
+            "value": 1,
+            "selection": "hover"
+          }
+        }
+      },
+      "mark": {
+        "color": "#4e79a7",
+        "filled": true,
+        "type": "point",
+        "size": 50
+      }
+    },
+    {
+      "mark": {
+        "strokeWidth": 1.5,
+        "type": "point",
+        "shape": "diamond",
+        "filled": true,
+        "stroke": "#b36b00",
+        "size": 140,
+        "color": "#ff9900"
+      },
+      "encoding": {
+        "tooltip": [
+          {
+            "field": "date",
+            "type": "temporal",
+            "title": "Peak date"
+          },
+          {
+            "field": "count",
+            "type": "quantitative",
+            "title": "Peak unique count"
+          }
+        ],
+        "y": {
+          "field": "count",
+          "type": "quantitative"
+        },
+        "x": {
+          "field": "date",
+          "type": "temporal"
+        },
+        "opacity": {
+          "value": 0,
+          "condition": {
+            "test": "datum.isPeak == true",
+            "value": 1
+          }
         }
       }
     },
     {
       "mark": {
+        "strokeWidth": 1.5,
         "color": "#d62728",
+        "type": "rule",
         "strokeDash": [
           4,
           4
-        ],
-        "strokeWidth": 1.5,
-        "type": "rule"
+        ]
       },
       "encoding": {
         "y": {
@@ -280,39 +280,39 @@
           "filter": "datum.isLast == true"
         }
       ],
-      "mark": {
-        "dy": -6,
-        "align": "left",
-        "type": "text",
-        "dx": 6,
-        "color": "#d62728",
-        "fontSize": 12
-      },
       "encoding": {
         "y": {
           "datum": 29.25
         },
-        "text": {
-          "value": "Avg: 29.25"
-        },
         "x": {
           "field": "date",
           "type": "temporal"
+        },
+        "text": {
+          "value": "Avg: 29.25"
         }
+      },
+      "mark": {
+        "type": "text",
+        "dx": 6,
+        "dy": -6,
+        "color": "#d62728",
+        "fontSize": 12,
+        "align": "left"
       }
     }
   ],
   "config": {
-    "axis": {
-      "labelFont": "Segoe UI",
-      "titleFont": "Segoe UI",
-      "tickColor": "#bbb",
-      "labelFontSize": 11,
-      "titleFontSize": 13,
-      "domainColor": "#888"
-    },
     "view": {
       "stroke": "transparent"
+    },
+    "axis": {
+      "domainColor": "#888",
+      "labelFont": "Segoe UI",
+      "tickColor": "#bbb",
+      "labelFontSize": 11,
+      "titleFont": "Segoe UI",
+      "titleFontSize": 13
     }
   }
 }
