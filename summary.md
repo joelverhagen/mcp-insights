@@ -1,6 +1,6 @@
 # Servers published summary
 
-Generated on: 2025-09-15T16:56:29.2586946+00:00
+Generated on: 2025-09-15T17:15:11.8846453+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
@@ -31,3 +31,28 @@ Generated on: 2025-09-15T16:56:29.2586946+00:00
 | mcpb+npm+oci | 3 | 1.42% |
 | mcpb | 2 | 0.95% |
 | none | 1 | 0.47% |
+
+## Top 20 domains by unique server names
+
+| Domain | Unique Server Names |
+|--------|---------------------:|
+| smithery.ai | 53 |
+| waystation.ai | 12 |
+| huoshuiai42.github.io | 5 |
+| mintmcp.com | 4 |
+| bytedance.github.io | 4 |
+| cyanheads.github.io | 3 |
+| b1ff.github.io | 3 |
+| domdomegg.github.io | 3 |
+| ruvnet.github.io | 3 |
+| stefanoamorelli.github.io | 2 |
+| joelverhagen.github.io | 2 |
+| shawndurrani.ai | 2 |
+| shalevshalit.github.io | 2 |
+| spences10.github.io | 2 |
+| yuna0x0.github.io | 2 |
+| formulahendry.github.io | 2 |
+| jkakar.github.io | 2 |
+| henilcalagiya.github.io | 2 |
+| savhascelik.github.io | 1 |
+| minnas.io | 1 |
