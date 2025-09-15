@@ -1,6 +1,6 @@
 # Servers published summary
 
-Generated on: 2025-09-15T17:22:47.9124111+00:00
+Generated on: 2025-09-15T17:29:55.8687947+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
@@ -10,7 +10,6 @@ Generated on: 2025-09-15T17:22:47.9124111+00:00
 - Date range: 2025-09-08 to 2025-09-15
 - Peak day: 2025-09-09 with 55 unique server names
 - Average unique server names per day: 29.25
-- Change from first to last day: 1900% (1 -> 20)
 
 ## Top 5 busiest days
 - 2025-09-09: 55 unique servers
@@ -34,25 +33,25 @@ Generated on: 2025-09-15T17:22:47.9124111+00:00
 
 ## Top 20 domains by unique server names
 
-| Domain | Unique Server Names |
-|--------|---------------------:|
-| smithery.ai | 53 |
-| waystation.ai | 12 |
-| huoshuiai42.github.io | 5 |
-| mintmcp.com | 4 |
-| bytedance.github.io | 4 |
-| ruvnet.github.io | 3 |
-| domdomegg.github.io | 3 |
-| cyanheads.github.io | 3 |
-| b1ff.github.io | 3 |
-| yuna0x0.github.io | 2 |
-| stefanoamorelli.github.io | 2 |
-| spences10.github.io | 2 |
-| shawndurrani.ai | 2 |
-| shalevshalit.github.io | 2 |
-| joelverhagen.github.io | 2 |
-| jkakar.github.io | 2 |
-| henilcalagiya.github.io | 2 |
-| formulahendry.github.io | 2 |
-| zine.ai | 1 |
-| zhongweili.github.io | 1 |
+| Domain | Unique Server Names | Categories |
+|--------|---------------------:|------------|
+| smithery.ai | 53 | remote |
+| waystation.ai | 12 | remote |
+| huoshuiai42.github.io | 5 | pypi |
+| mintmcp.com | 4 | remote |
+| bytedance.github.io | 4 | npm |
+| ruvnet.github.io | 3 | npm |
+| domdomegg.github.io | 3 | mcpb+npm+oci, nuget, pypi |
+| cyanheads.github.io | 3 | npm |
+| b1ff.github.io | 3 | npm |
+| yuna0x0.github.io | 2 | mcpb+npm+oci |
+| stefanoamorelli.github.io | 2 | npm, pypi |
+| spences10.github.io | 2 | npm |
+| shawndurrani.ai | 2 | npm, remote |
+| shalevshalit.github.io | 2 | npm |
+| joelverhagen.github.io | 2 | nuget |
+| jkakar.github.io | 2 | none, npm |
+| henilcalagiya.github.io | 2 | pypi |
+| formulahendry.github.io | 2 | npm |
+| zine.ai | 1 | remote |
+| zhongweili.github.io | 1 | pypi |
