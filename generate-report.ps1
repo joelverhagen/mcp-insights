@@ -284,6 +284,37 @@ $namesWithRemote = ($nameClassifications.Keys | Where-Object { $jsonCategoryMap.
 Write-Host "Unique names with at least one package category: $namesWithPkg" -ForegroundColor Cyan
 Write-Host "Unique names with remote definitions: $namesWithRemote" -ForegroundColor Cyan
 
+# Derive top domains (normalized) from unique server names
+# Each server Name is assumed to start with a reversed domain segment (e.g. "io.github.example/whatever").
+# We take the substring before the first '/', lowercase it, reverse the dot segments to restore the canonical domain
+# (e.g. "io.github.example" -> "example.github.io"), then count how many unique server names map to that domain.
+$domainCounts = @{}
+foreach ($g in $byName) {
+    $fullName = $g.Name
+    if (-not $fullName) { continue }
+    $prefix = ($fullName -split '/',2)[0]
+    if (-not $prefix) { continue }
+    # strip any port if present
+    $prefix = ($prefix -split ':',2)[0]
+    $prefix = $prefix.ToLowerInvariant()
+    $parts = $prefix -split '\.'
+    if ($parts.Length -gt 1) {
+        $rev = $parts.Clone()
+        [array]::Reverse($rev)
+        $normDomain = ($rev -join '.')
+    } else {
+        $normDomain = $prefix
+    }
+    if (-not $domainCounts.ContainsKey($normDomain)) {
+        $domainCounts[$normDomain] = [System.Collections.Generic.HashSet[string]]::new()
+    }
+    $domainCounts[$normDomain].Add($fullName) | Out-Null
+}
+
+$domainStats = $domainCounts.GetEnumerator() | ForEach-Object {
+    [PSCustomObject]@{ Domain = $_.Key; UniqueServerNames = $_.Value.Count }
+} | Sort-Object -Property UniqueServerNames -Descending | Select-Object -First 20
+
 # Build summary.md content
 $md = @()
 $md += "# Servers published summary"
@@ -323,6 +354,19 @@ foreach ($row in $categoryCounts) {
     $md += "| $($row.Category) | $($row.UniqueNames) | $($row.Percent)% |"
 }
 if ($categoryCounts.Count -eq 0) { $md += "| (none) | 0 | 0% |" }
+
+$md += ""
+$md += "## Top 20 domains by unique server names"
+$md += ""
+$md += "| Domain | Unique Server Names |"
+$md += "|--------|---------------------:|"
+if ($domainStats -and $domainStats.Count -gt 0) {
+    foreach ($d in $domainStats) {
+        $md += "| $($d.Domain) | $($d.UniqueServerNames) |"
+    }
+} else {
+    $md += "| (none) | 0 |"
+}
 
 # Save summary.md
 try {

@@ -2,6 +2,9 @@ name: Update data
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
   schedule:
     # Every 4 hours at minute 5
     - cron: '5 */4 * * *'
