@@ -2,14 +2,14 @@
 
 Automated (every 4 hours) pull of the public Model Context Protocol registry plus a generated daily trend chart and stats.
 
-See the latest detailed report (chart + stats) in `summary.md`.
+**See the latest detailed report (chart + stats) in [`summary.md`](./summary.md).**
 
 ## What This Repo Produces
-- `servers.json` – full server objects (sorted)
-- `servers.csv` – compact tabular subset
-- `servers-per-day.svg` – unique servers per day (line + 7‑day moving average)
-- `servers-per-day.vl.json` – underlying Vega-Lite spec
-- `summary.md` – quick facts, top days, category breakdown
+- `servers.json` - full server objects (sorted)
+- `servers.csv` - compact tabular subset
+- `servers-per-day.svg` - unique servers per day (line + 7‑day moving average)
+- `servers-per-day.vl.json` - underlying Vega-Lite spec
+- `summary.md` - quick facts, top days, category breakdown
 
 ## How It Works
 1. `pull-servers.ps1` pages `/v0/servers`, retries on errors / 429, validates `published_at`, outputs JSON + CSV.
