@@ -44,6 +44,27 @@ function ConvertTo-DateTime {
 }
 
 $records = @()
+$jsonCategoryMap = @{} # name -> object with PackageCategories (HashSet) and HasRemote
+
+# Helper to derive package categories from a JSON server object
+function Get-PackageCategoriesFromJsonObject {
+    param([psobject]$obj)
+    $categories = [System.Collections.Generic.HashSet[string]]::new()
+    if ($obj.packages) {
+        foreach ($pkg in $obj.packages) {
+            $rt = $pkg.registry_type
+            if (-not $rt -and $pkg.registryType) { $rt = $pkg.registryType }
+            if ($rt) { $categories.Add($rt.ToLowerInvariant()) | Out-Null }
+        }
+    }
+    return ,$categories
+}
+
+function Get-HasRemoteFromJsonObject {
+    param([psobject]$obj)
+    if ($obj.remotes -and $obj.remotes.Count -gt 0) { return $true }
+    return $false
+}
 
 if (Test-Path $CsvPath) {
     Write-Host "Reading CSV: $CsvPath"
@@ -65,14 +86,23 @@ if (Test-Path $JsonPath) {
     Write-host "Reading JSON: $JsonPath"
     try {
         $json = Get-Content -Raw -Path $JsonPath | ConvertFrom-Json
-        if ($json -is [System.Management.Automation.PSObject] -and $json.Count -gt 0) {
+    # $json can be an array of PSObjects; check for IEnumerable with count
+        if ($json -and ($json -is [System.Collections.IEnumerable]) -and $json.Count -gt 0) {
             foreach ($item in $json) {
-                $name = $item.name
-                if (-not $name) { $name = $item.Name }
+                $name = $item.name; if (-not $name) { $name = $item.Name }
                 $p = $item.published_at; if (-not $p) { $p = $item.publishedAt }
                 $dt = ConvertTo-DateTime $p
                 if ($null -ne $dt -and $name) {
                     $records += [PSCustomObject]@{ Name = $name; PublishedAt = $dt }
+                }
+                if ($name) {
+                    if (-not $jsonCategoryMap.ContainsKey($name)) {
+                        $jsonCategoryMap[$name] = [PSCustomObject]@{ PackageCategories = [System.Collections.Generic.HashSet[string]]::new(); HasRemote = $false }
+                    }
+                    $entry = $jsonCategoryMap[$name]
+                    $pkgCats = Get-PackageCategoriesFromJsonObject -obj $item
+                    foreach ($c in $pkgCats) { if ($c) { $entry.PackageCategories.Add($c) | Out-Null } }
+                    if ((Get-HasRemoteFromJsonObject -obj $item)) { $entry.HasRemote = $true }
                 }
             }
         }
@@ -212,6 +242,48 @@ try {
     Write-Warning "Exception during Vega rendering: $_"
 }
 
+# Derive classification per unique server name
+# Strategy: for each unique Name, union all package categories observed; set HasRemote true if any record has remote.
+$byName = $records | Group-Object -Property Name
+$nameClassifications = @{}
+foreach ($g in $byName) {
+    $name = $g.Name
+    $unionCats = [System.Collections.Generic.HashSet[string]]::new()
+    $anyRemote = $false
+    if ($jsonCategoryMap.ContainsKey($name)) {
+        $entry = $jsonCategoryMap[$name]
+        foreach ($c in $entry.PackageCategories) { if ($c) { $unionCats.Add($c) | Out-Null } }
+        if ($entry.HasRemote) { $anyRemote = $true }
+    }
+    # Determine final category label
+    $label = $null
+    if ($unionCats.Count -gt 0) {
+        if ($unionCats.Count -eq 1) { $label = ($unionCats | Select-Object -First 1) }
+        else { $label = ($unionCats | Sort-Object) -join '+' }
+    } elseif ($anyRemote) {
+        $label = 'remote'
+    } else {
+        $label = 'none'
+    }
+    $nameClassifications[$name] = [PSCustomObject]@{ Name = $name; Category = $label }
+}
+
+# Aggregate counts per category (unique names)
+$categoryCounts = $nameClassifications.Values | Group-Object -Property Category | ForEach-Object {
+    [PSCustomObject]@{ Category = $_.Name; UniqueNames = $_.Count }
+} | Sort-Object -Property UniqueNames -Descending
+
+$categoryTotal = ($nameClassifications.Count)
+foreach ($row in $categoryCounts) {
+    $row | Add-Member -NotePropertyName Percent -NotePropertyValue ([math]::Round(($row.UniqueNames / $categoryTotal) * 100,2)) -Force
+}
+
+# Debug stats (comment out later if noisy)
+$namesWithPkg = ($nameClassifications.Keys | Where-Object { $jsonCategoryMap.ContainsKey($_) -and $jsonCategoryMap[$_].PackageCategories.Count -gt 0 }).Count
+$namesWithRemote = ($nameClassifications.Keys | Where-Object { $jsonCategoryMap.ContainsKey($_) -and $jsonCategoryMap[$_].HasRemote }).Count
+Write-Host "Unique names with at least one package category: $namesWithPkg" -ForegroundColor Cyan
+Write-Host "Unique names with remote definitions: $namesWithRemote" -ForegroundColor Cyan
+
 # Build summary.md content
 $md = @()
 $md += "# Servers published summary"
@@ -241,6 +313,16 @@ $md += ""
 $md += "## Top 5 busiest days"
 $top5 = $series | Sort-Object -Property UniqueCount -Descending | Select-Object -First 5
 foreach ($t in $top5) { $md += "- $($t.Date): $($t.UniqueCount) unique servers" }
+
+$md += ""
+$md += "## Unique server names by category"
+$md += ""
+$md += "| Category | Unique Server Names | % of Total |"
+$md += "|----------|---------------------:|-----------:|"
+foreach ($row in $categoryCounts) {
+    $md += "| $($row.Category) | $($row.UniqueNames) | $($row.Percent)% |"
+}
+if ($categoryCounts.Count -eq 0) { $md += "| (none) | 0 | 0% |" }
 
 # Save summary.md
 try {

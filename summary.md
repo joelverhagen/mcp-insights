@@ -1,6 +1,6 @@
 # Servers published summary
 
-Generated on: 2025-09-15T12:41:05.0110849-04:00
+Generated on: 2025-09-15T12:52:45.3457994-04:00
 
 ![Unique servers per day](servers-per-day.svg)
 
@@ -18,3 +18,16 @@ Generated on: 2025-09-15T12:41:05.0110849-04:00
 - 2025-09-11: 36 unique servers
 - 2025-09-12: 33 unique servers
 - 2025-09-13: 20 unique servers
+
+## Unique server names by category
+
+| Category | Unique Server Names | % of Total |
+|----------|---------------------:|-----------:|
+| remote | 96 | 45.71% |
+| npm | 73 | 34.76% |
+| pypi | 24 | 11.43% |
+| oci | 6 | 2.86% |
+| nuget | 5 | 2.38% |
+| mcpb+npm+oci | 3 | 1.43% |
+| mcpb | 2 | 0.95% |
+| none | 1 | 0.48% |
