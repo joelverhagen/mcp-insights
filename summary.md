@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2025-09-16T08:35:51.4978867+00:00
+Generated on: 2025-09-16T12:55:14.1468123+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 315
-- Total unique server names: 220
+- Total records processed: 319
+- Total unique server names: 222
 - Date range: 2025-09-08 to 2025-09-16
 - Peak day: 2025-09-09 with 55 unique server names
-- Average unique server names per day: 27.44
+- Average unique server names per day: 27.67
 
 ## Top 5 busiest days
 - 2025-09-09: 55 unique servers
@@ -22,20 +22,20 @@ Generated on: 2025-09-16T08:35:51.4978867+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| remote | 104 | 47.27% |
-| npm | 74 | 33.64% |
-| pypi | 25 | 11.36% |
-| oci | 6 | 2.73% |
-| nuget | 5 | 2.27% |
-| mcpb+npm+oci | 3 | 1.36% |
-| mcpb | 2 | 0.91% |
+| remote | 106 | 47.75% |
+| npm | 74 | 33.33% |
+| pypi | 25 | 11.26% |
+| oci | 6 | 2.7% |
+| nuget | 5 | 2.25% |
+| mcpb+npm+oci | 3 | 1.35% |
+| mcpb | 2 | 0.9% |
 | none | 1 | 0.45% |
 
 ## Top 20 domains by unique server names
 
 | Domain | Unique Server Names | Categories |
 |--------|---------------------:|------------|
-| smithery.ai | 58 | remote |
+| smithery.ai | 60 | remote |
 | waystation.ai | 12 | remote |
 | huoshuiai42.github.io | 5 | pypi |
 | mintmcp.com | 4 | remote |
