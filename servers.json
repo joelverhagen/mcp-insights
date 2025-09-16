@@ -2112,35 +2112,6 @@
   },
   {
     "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
-    "name": "io.github.dockersamples/mcp-docker-release-information",
-    "description": "MCP server providing Docker Desktop release notes and security information.",
-    "status": "active",
-    "repository": {
-      "url": "https://github.com/dockersamples/mcp-docker-release-information",
-      "source": "github"
-    },
-    "version": "0.2.0",
-    "packages": [
-      {
-        "registry_type": "oci",
-        "identifier": "dockersamples/mcp-docker-release-information",
-        "version": "0.2.0",
-        "transport": {
-          "type": "stdio"
-        }
-      }
-    ],
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "id": "d8cd8b14-0050-458f-9a86-2ecd60df7b1b",
-        "published_at": "2025-09-10T15:23:14.335332844Z",
-        "updated_at": "2025-09-10T18:54:52.777673838Z",
-        "is_latest": false
-      }
-    }
-  },
-  {
-    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
     "name": "ai.smithery/smithery-ai-cookbook-python-quickstart",
     "description": "A simple MCP server built with FastMCP and python",
     "status": "active",
@@ -2170,35 +2141,6 @@
         "id": "fb85b1a6-168c-4775-ae6b-2ab63c5506c2",
         "published_at": "2025-09-10T16:07:02.461934808Z",
         "updated_at": "2025-09-10T16:07:02.461934808Z",
-        "is_latest": true
-      }
-    }
-  },
-  {
-    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
-    "name": "io.github.dockersamples/mcp-docker-release-information",
-    "description": "MCP server providing Docker Desktop release notes and security information.",
-    "status": "active",
-    "repository": {
-      "url": "https://github.com/dockersamples/mcp-docker-release-information",
-      "source": "github"
-    },
-    "version": "0.3.0",
-    "packages": [
-      {
-        "registry_type": "oci",
-        "identifier": "dockersamples/mcp-docker-release-information",
-        "version": "0.3.0",
-        "transport": {
-          "type": "stdio"
-        }
-      }
-    ],
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "id": "71de5a2a-6cfb-4250-a196-f93080ecc860",
-        "published_at": "2025-09-10T18:54:52.764339069Z",
-        "updated_at": "2025-09-10T18:54:52.764339069Z",
         "is_latest": true
       }
     }
@@ -2280,6 +2222,35 @@
         "id": "ef18922c-2269-41c8-9e37-770f5dc2fbb6",
         "published_at": "2025-09-10T15:16:37.815857232Z",
         "updated_at": "2025-09-11T00:59:36.881548344Z",
+        "is_latest": false
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+    "name": "io.github.dockersamples/mcp-docker-release-information",
+    "description": "MCP server providing Docker Desktop release notes and security information.",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/dockersamples/mcp-docker-release-information",
+      "source": "github"
+    },
+    "version": "0.2.0",
+    "packages": [
+      {
+        "registry_type": "oci",
+        "identifier": "dockersamples/mcp-docker-release-information",
+        "version": "0.2.0",
+        "transport": {
+          "type": "stdio"
+        }
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "id": "d8cd8b14-0050-458f-9a86-2ecd60df7b1b",
+        "published_at": "2025-09-10T15:23:14.335332844Z",
+        "updated_at": "2025-09-10T18:54:52.777673838Z",
         "is_latest": false
       }
     }
@@ -2522,6 +2493,35 @@
         "id": "21d4f4da-932c-4f65-8b5f-9cc4e24b7406",
         "published_at": "2025-09-10T18:26:59.341637458Z",
         "updated_at": "2025-09-10T18:26:59.341637458Z",
+        "is_latest": true
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+    "name": "io.github.dockersamples/mcp-docker-release-information",
+    "description": "MCP server providing Docker Desktop release notes and security information.",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/dockersamples/mcp-docker-release-information",
+      "source": "github"
+    },
+    "version": "0.3.0",
+    "packages": [
+      {
+        "registry_type": "oci",
+        "identifier": "dockersamples/mcp-docker-release-information",
+        "version": "0.3.0",
+        "transport": {
+          "type": "stdio"
+        }
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "id": "71de5a2a-6cfb-4250-a196-f93080ecc860",
+        "published_at": "2025-09-10T18:54:52.764339069Z",
+        "updated_at": "2025-09-10T18:54:52.764339069Z",
         "is_latest": true
       }
     }
@@ -3780,6 +3780,33 @@
     }
   },
   {
+    "name": "io.github.ruvnet/claude-flow",
+    "description": "AI orchestration with hive-mind swarms, neural networks, and 87 MCP tools for enterprise dev.",
+    "repository": {
+      "url": "",
+      "source": ""
+    },
+    "version": "2.0.0-alpha.104",
+    "packages": [
+      {
+        "registry_type": "npm",
+        "identifier": "claude-flow",
+        "version": "2.0.0-alpha.104",
+        "transport": {
+          "type": "stdio"
+        }
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "id": "d04e69ef-3bd3-4216-8145-928c3c775ee8",
+        "published_at": "2025-09-10T16:20:48.985187906Z",
+        "updated_at": "2025-09-10T16:46:39.972611608Z",
+        "is_latest": false
+      }
+    }
+  },
+  {
     "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
     "name": "net.gepuro.mcp-company-lens-v1/company-lens-mcp-registry",
     "description": "Search Japanese company database",
@@ -4266,33 +4293,6 @@
         "published_at": "2025-09-10T16:00:22.183688927Z",
         "updated_at": "2025-09-10T16:00:22.183688927Z",
         "is_latest": true
-      }
-    }
-  },
-  {
-    "name": "io.github.ruvnet/claude-flow",
-    "description": "AI orchestration with hive-mind swarms, neural networks, and 87 MCP tools for enterprise dev.",
-    "repository": {
-      "url": "",
-      "source": ""
-    },
-    "version": "2.0.0-alpha.104",
-    "packages": [
-      {
-        "registry_type": "npm",
-        "identifier": "claude-flow",
-        "version": "2.0.0-alpha.104",
-        "transport": {
-          "type": "stdio"
-        }
-      }
-    ],
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "id": "d04e69ef-3bd3-4216-8145-928c3c775ee8",
-        "published_at": "2025-09-10T16:20:48.985187906Z",
-        "updated_at": "2025-09-10T16:46:39.972611608Z",
-        "is_latest": false
       }
     }
   },
@@ -5367,110 +5367,6 @@
   },
   {
     "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
-    "name": "ai.smithery/CryptoCultCurt-appfolio-mcp-server",
-    "description": "Provide seamless access to Appfolio Property Manager Reporting API through a standardized MCP serv…",
-    "status": "active",
-    "repository": {
-      "url": "https://github.com/CryptoCultCurt/appfolio-mcp-server",
-      "source": "github"
-    },
-    "version": "1.0.1",
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://server.smithery.ai/@CryptoCultCurt/appfolio-mcp-server/mcp",
-        "headers": [
-          {
-            "description": "Bearer token for Smithery authentication",
-            "is_required": true,
-            "value": "Bearer {smithery_api_key}",
-            "is_secret": true,
-            "name": "Authorization"
-          }
-        ]
-      }
-    ],
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "id": "fd5f5556-3f1d-46a1-8b5d-90f1f3d66078",
-        "published_at": "2025-09-11T00:42:54.55597845Z",
-        "updated_at": "2025-09-11T00:42:54.55597845Z",
-        "is_latest": true
-      }
-    }
-  },
-  {
-    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
-    "name": "io.github.indragiek/uniprof",
-    "description": "Universal CPU profiler designed for humans and AI agents",
-    "status": "active",
-    "repository": {
-      "url": "https://github.com/indragiek/uniprof",
-      "source": "github"
-    },
-    "version": "0.3.4",
-    "packages": [
-      {
-        "registry_type": "npm",
-        "registry_base_url": "https://registry.npmjs.org",
-        "identifier": "uniprof",
-        "version": "0.3.4",
-        "transport": {
-          "type": "stdio"
-        },
-        "package_arguments": [
-          {
-            "value": "mcp",
-            "type": "positional"
-          },
-          {
-            "value": "run",
-            "type": "positional"
-          }
-        ]
-      }
-    ],
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "id": "14b08127-6083-4132-a35f-34eb832f08c4",
-        "published_at": "2025-09-11T00:59:36.873368238Z",
-        "updated_at": "2025-09-11T00:59:36.873368238Z",
-        "is_latest": true
-      }
-    }
-  },
-  {
-    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
-    "name": "ai.mcpcap/mcpcap",
-    "description": "An MCP server for analyzing PCAP files.",
-    "status": "active",
-    "repository": {
-      "url": "https://github.com/mcpcap/mcpcap",
-      "source": "github"
-    },
-    "version": "0.4.3",
-    "packages": [
-      {
-        "registry_type": "pypi",
-        "registry_base_url": "https://pypi.org",
-        "identifier": "mcpcap",
-        "version": "0.4.3",
-        "transport": {
-          "type": "stdio"
-        }
-      }
-    ],
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "id": "2aa61ac7-1ddc-4b02-9493-2bf42458130c",
-        "published_at": "2025-09-11T01:00:19.713725403Z",
-        "updated_at": "2025-09-11T01:06:15.729222586Z",
-        "is_latest": false
-      }
-    }
-  },
-  {
-    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
     "name": "io.github.huoshuiai42/huoshui-pdf-translator",
     "description": "An MCP server that provides PDF translation service",
     "status": "active",
@@ -5703,6 +5599,110 @@
         "published_at": "2025-09-11T00:37:16.035462939Z",
         "updated_at": "2025-09-11T00:37:16.035462939Z",
         "is_latest": true
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+    "name": "ai.smithery/CryptoCultCurt-appfolio-mcp-server",
+    "description": "Provide seamless access to Appfolio Property Manager Reporting API through a standardized MCP serv…",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/CryptoCultCurt/appfolio-mcp-server",
+      "source": "github"
+    },
+    "version": "1.0.1",
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://server.smithery.ai/@CryptoCultCurt/appfolio-mcp-server/mcp",
+        "headers": [
+          {
+            "description": "Bearer token for Smithery authentication",
+            "is_required": true,
+            "value": "Bearer {smithery_api_key}",
+            "is_secret": true,
+            "name": "Authorization"
+          }
+        ]
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "id": "fd5f5556-3f1d-46a1-8b5d-90f1f3d66078",
+        "published_at": "2025-09-11T00:42:54.55597845Z",
+        "updated_at": "2025-09-11T00:42:54.55597845Z",
+        "is_latest": true
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+    "name": "io.github.indragiek/uniprof",
+    "description": "Universal CPU profiler designed for humans and AI agents",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/indragiek/uniprof",
+      "source": "github"
+    },
+    "version": "0.3.4",
+    "packages": [
+      {
+        "registry_type": "npm",
+        "registry_base_url": "https://registry.npmjs.org",
+        "identifier": "uniprof",
+        "version": "0.3.4",
+        "transport": {
+          "type": "stdio"
+        },
+        "package_arguments": [
+          {
+            "value": "mcp",
+            "type": "positional"
+          },
+          {
+            "value": "run",
+            "type": "positional"
+          }
+        ]
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "id": "14b08127-6083-4132-a35f-34eb832f08c4",
+        "published_at": "2025-09-11T00:59:36.873368238Z",
+        "updated_at": "2025-09-11T00:59:36.873368238Z",
+        "is_latest": true
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+    "name": "ai.mcpcap/mcpcap",
+    "description": "An MCP server for analyzing PCAP files.",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/mcpcap/mcpcap",
+      "source": "github"
+    },
+    "version": "0.4.3",
+    "packages": [
+      {
+        "registry_type": "pypi",
+        "registry_base_url": "https://pypi.org",
+        "identifier": "mcpcap",
+        "version": "0.4.3",
+        "transport": {
+          "type": "stdio"
+        }
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "id": "2aa61ac7-1ddc-4b02-9493-2bf42458130c",
+        "published_at": "2025-09-11T01:00:19.713725403Z",
+        "updated_at": "2025-09-11T01:06:15.729222586Z",
+        "is_latest": false
       }
     }
   },
@@ -5982,6 +5982,37 @@
         "id": "7bf7e778-039a-4420-b96b-c614bef2f879",
         "published_at": "2025-09-11T05:56:37.073750488Z",
         "updated_at": "2025-09-11T05:56:37.073750488Z",
+        "is_latest": true
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+    "name": "com.falkordb/QueryWeaver",
+    "description": "An MCP server for Text2SQL: transforms natural language into SQL using graph schema understanding.",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/FalkorDB/QueryWeaver",
+      "source": "github"
+    },
+    "version": "0.0.11",
+    "packages": [
+      {
+        "registry_type": "oci",
+        "registry_base_url": "https://docker.io",
+        "identifier": "falkordb/queryweaver",
+        "version": "0.0.11",
+        "transport": {
+          "type": "streamable-http",
+          "url": "https://localhost:5000/mcp"
+        }
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "id": "7128a4ba-390a-458f-b95a-46c72c7a0b81",
+        "published_at": "2025-09-11T06:54:10.018880049Z",
+        "updated_at": "2025-09-11T06:54:10.018880049Z",
         "is_latest": true
       }
     }
@@ -6574,66 +6605,6 @@
   },
   {
     "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
-    "name": "ai.tickettailor/mcp",
-    "description": "Provides event organisers with tools to interact with a Ticket Tailor box office account.",
-    "status": "active",
-    "repository": {
-      "url": "",
-      "source": ""
-    },
-    "version": "1.0.0",
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://mcp.tickettailor.ai/mcp"
-      },
-      {
-        "type": "sse",
-        "url": "https://mcp.tickettailor.ai/sse"
-      }
-    ],
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "id": "5fae66cd-f99b-40e6-a097-3990537cd513",
-        "published_at": "2025-09-12T10:10:54.1887638Z",
-        "updated_at": "2025-09-12T10:10:54.1887638Z",
-        "is_latest": true
-      }
-    }
-  },
-  {
-    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
-    "name": "com.falkordb/QueryWeaver",
-    "description": "An MCP server for Text2SQL: transforms natural language into SQL using graph schema understanding.",
-    "status": "active",
-    "repository": {
-      "url": "https://github.com/FalkorDB/QueryWeaver",
-      "source": "github"
-    },
-    "version": "0.0.11",
-    "packages": [
-      {
-        "registry_type": "oci",
-        "registry_base_url": "https://docker.io",
-        "identifier": "falkordb/queryweaver",
-        "version": "0.0.11",
-        "transport": {
-          "type": "streamable-http",
-          "url": "https://localhost:5000/mcp"
-        }
-      }
-    ],
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "id": "7128a4ba-390a-458f-b95a-46c72c7a0b81",
-        "published_at": "2025-09-11T06:54:10.018880049Z",
-        "updated_at": "2025-09-11T06:54:10.018880049Z",
-        "is_latest": true
-      }
-    }
-  },
-  {
-    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
     "name": "io.github.pshivapr/selenium-mcp",
     "description": "Selenium Tools for MCP",
     "status": "active",
@@ -6983,6 +6954,35 @@
         "id": "a953ea94-b7e7-415c-8766-33c4d5b64b4d",
         "published_at": "2025-09-11T18:24:40.318380733Z",
         "updated_at": "2025-09-11T18:24:40.318380733Z",
+        "is_latest": true
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+    "name": "ai.tickettailor/mcp",
+    "description": "Provides event organisers with tools to interact with a Ticket Tailor box office account.",
+    "status": "active",
+    "repository": {
+      "url": "",
+      "source": ""
+    },
+    "version": "1.0.0",
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.tickettailor.ai/mcp"
+      },
+      {
+        "type": "sse",
+        "url": "https://mcp.tickettailor.ai/sse"
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "id": "5fae66cd-f99b-40e6-a097-3990537cd513",
+        "published_at": "2025-09-12T10:10:54.1887638Z",
+        "updated_at": "2025-09-12T10:10:54.1887638Z",
         "is_latest": true
       }
     }
@@ -13070,6 +13070,81 @@
         "id": "99be110f-d865-4733-88b2-97fc2f9750de",
         "published_at": "2025-09-16T12:14:42.162775887Z",
         "updated_at": "2025-09-16T12:14:42.162775887Z",
+        "is_latest": true
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+    "name": "io.github.containers/kubernetes-mcp-server",
+    "description": "An MCP server that provides [describe what your server does]",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/containers/kubernetes-mcp-server",
+      "source": "github"
+    },
+    "version": "1.0.0",
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "id": "8858e484-2e5e-4166-b39f-7f1002fa27a4",
+        "published_at": "2025-09-16T13:06:55.742929857Z",
+        "updated_at": "2025-09-16T13:06:55.742929857Z",
+        "is_latest": true
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+    "name": "io.github.containers/kubernetes-mcp-server",
+    "description": "A Model Context Protocol (MCP) server for Kubernetes and OpenShift",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/containers/kubernetes-mcp-server",
+      "source": "github"
+    },
+    "version": "0.0.50",
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "id": "00636d73-03c1-4107-a591-84b271cd1646",
+        "published_at": "2025-09-16T13:14:05.094878294Z",
+        "updated_at": "2025-09-16T13:14:05.094878294Z",
+        "is_latest": false
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+    "name": "io.github.nerfels/mind-map",
+    "description": "Experimental code intelligence platform for Claude Code with AST parsing and context analysis",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/nerfels/mind-map",
+      "source": "github"
+    },
+    "version": "1.12.13",
+    "packages": [
+      {
+        "registry_type": "npm",
+        "registry_base_url": "https://registry.npmjs.org",
+        "identifier": "mind-map-mcp",
+        "version": "1.12.13",
+        "transport": {
+          "type": "stdio"
+        },
+        "environment_variables": [
+          {
+            "description": "Project root directory for MCP to analyze (optional - uses current working directory if not specified)",
+            "format": "string",
+            "name": "MCP_PROJECT_ROOT"
+          }
+        ]
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "id": "3b9a8107-0e4f-4b30-b1af-004ba2e5db16",
+        "published_at": "2025-09-16T16:29:26.08179909Z",
+        "updated_at": "2025-09-16T16:29:26.08179909Z",
         "is_latest": true
       }
     }
