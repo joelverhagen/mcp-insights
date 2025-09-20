@@ -5465,30 +5465,34 @@
   },
   {
     "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
-    "name": "ai.toolprint/hypertool-mcp",
-    "description": "Dynamically expose tools from proxied servers based on an Agent Persona",
+    "name": "ai.smithery/CryptoCultCurt-appfolio-mcp-server",
+    "description": "Provide seamless access to Appfolio Property Manager Reporting API through a standardized MCP serv…",
     "status": "active",
     "repository": {
-      "url": "https://github.com/toolprint/hypertool-mcp",
+      "url": "https://github.com/CryptoCultCurt/appfolio-mcp-server",
       "source": "github"
     },
-    "version": "0.0.42",
-    "packages": [
+    "version": "1.0.1",
+    "remotes": [
       {
-        "registry_type": "npm",
-        "registry_base_url": "https://registry.npmjs.org",
-        "identifier": "@toolprint/hypertool-mcp",
-        "version": "0.0.42",
-        "transport": {
-          "type": "stdio"
-        }
+        "type": "streamable-http",
+        "url": "https://server.smithery.ai/@CryptoCultCurt/appfolio-mcp-server/mcp",
+        "headers": [
+          {
+            "description": "Bearer token for Smithery authentication",
+            "is_required": true,
+            "value": "Bearer {smithery_api_key}",
+            "is_secret": true,
+            "name": "Authorization"
+          }
+        ]
       }
     ],
     "_meta": {
       "io.modelcontextprotocol.registry/official": {
-        "id": "8177937a-2aa9-4956-8578-5e07976a1e25",
-        "published_at": "2025-09-10T22:05:20.655840343Z",
-        "updated_at": "2025-09-10T22:05:20.655840343Z",
+        "id": "fd5f5556-3f1d-46a1-8b5d-90f1f3d66078",
+        "published_at": "2025-09-11T00:42:54.55597845Z",
+        "updated_at": "2025-09-11T00:42:54.55597845Z",
         "is_latest": true
       }
     }
@@ -5687,6 +5691,36 @@
   },
   {
     "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+    "name": "ai.toolprint/hypertool-mcp",
+    "description": "Dynamically expose tools from proxied servers based on an Agent Persona",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/toolprint/hypertool-mcp",
+      "source": "github"
+    },
+    "version": "0.0.42",
+    "packages": [
+      {
+        "registry_type": "npm",
+        "registry_base_url": "https://registry.npmjs.org",
+        "identifier": "@toolprint/hypertool-mcp",
+        "version": "0.0.42",
+        "transport": {
+          "type": "stdio"
+        }
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "id": "8177937a-2aa9-4956-8578-5e07976a1e25",
+        "published_at": "2025-09-10T22:05:20.655840343Z",
+        "updated_at": "2025-09-10T22:05:20.655840343Z",
+        "is_latest": true
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
     "name": "io.github.koki-develop/esa-mcp-server",
     "description": "A Model Context Protocol (MCP) server for esa.io",
     "status": "active",
@@ -5726,40 +5760,6 @@
         "id": "60eaa6b1-e687-49a0-a783-95e6033bc0c6",
         "published_at": "2025-09-11T00:37:16.035462939Z",
         "updated_at": "2025-09-11T00:37:16.035462939Z",
-        "is_latest": true
-      }
-    }
-  },
-  {
-    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
-    "name": "ai.smithery/CryptoCultCurt-appfolio-mcp-server",
-    "description": "Provide seamless access to Appfolio Property Manager Reporting API through a standardized MCP serv…",
-    "status": "active",
-    "repository": {
-      "url": "https://github.com/CryptoCultCurt/appfolio-mcp-server",
-      "source": "github"
-    },
-    "version": "1.0.1",
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://server.smithery.ai/@CryptoCultCurt/appfolio-mcp-server/mcp",
-        "headers": [
-          {
-            "description": "Bearer token for Smithery authentication",
-            "is_required": true,
-            "value": "Bearer {smithery_api_key}",
-            "is_secret": true,
-            "name": "Authorization"
-          }
-        ]
-      }
-    ],
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "id": "fd5f5556-3f1d-46a1-8b5d-90f1f3d66078",
-        "published_at": "2025-09-11T00:42:54.55597845Z",
-        "updated_at": "2025-09-11T00:42:54.55597845Z",
         "is_latest": true
       }
     }
@@ -15324,8 +15324,8 @@
       "io.modelcontextprotocol.registry/official": {
         "id": "1cbefa81-a37b-45ad-bca6-cefce39cad21",
         "published_at": "2025-09-17T15:39:49.253376736Z",
-        "updated_at": "2025-09-17T15:39:49.253376736Z",
-        "is_latest": true
+        "updated_at": "2025-09-20T10:45:00.302258169Z",
+        "is_latest": false
       }
     }
   },
@@ -17676,8 +17676,8 @@
       "io.modelcontextprotocol.registry/official": {
         "id": "f0660545-d885-4892-a54a-f86134e56047",
         "published_at": "2025-09-18T22:05:09.292804039Z",
-        "updated_at": "2025-09-18T22:05:09.292804039Z",
-        "is_latest": true
+        "updated_at": "2025-09-20T10:35:19.813843542Z",
+        "is_latest": false
       }
     }
   },
@@ -19888,6 +19888,156 @@
         "id": "443e7b8a-779a-45a3-af72-6920083bb317",
         "published_at": "2025-09-20T06:29:35.18499785Z",
         "updated_at": "2025-09-20T06:29:35.18499785Z",
+        "is_latest": true
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+    "name": "com.driflyte/driflyte-mcp-server",
+    "description": "Driflyte MCP server which lets AI assistants query topic-specific knowledge from web and GitHub.",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/serkan-ozal/driflyte-mcp-server",
+      "source": "github"
+    },
+    "version": "0.0.18",
+    "packages": [
+      {
+        "registry_type": "npm",
+        "registry_base_url": "https://registry.npmjs.org",
+        "identifier": "@driflyte/mcp-server",
+        "version": "0.0.18",
+        "runtime_hint": "npx",
+        "transport": {
+          "type": "stdio"
+        }
+      }
+    ],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.driflyte.com/mcp"
+      },
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.driflyte.com/openai"
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "id": "11e180e3-c035-41fa-b4e4-5866525a817a",
+        "published_at": "2025-09-20T09:03:36.622899248Z",
+        "updated_at": "2025-09-20T09:03:36.622899248Z",
+        "is_latest": true
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+    "name": "ai.smithery/ramadasmr-networkcalc-mcp",
+    "description": "Look up DNS information for any domain to troubleshoot issues and gather insights. Get fast, relia…",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/ramadasmr/networkcalc-mcp",
+      "source": "github"
+    },
+    "version": "1.13.0",
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://server.smithery.ai/@ramadasmr/networkcalc-mcp/mcp",
+        "headers": [
+          {
+            "description": "Bearer token for Smithery authentication",
+            "is_required": true,
+            "value": "Bearer {smithery_api_key}",
+            "is_secret": true,
+            "name": "Authorization"
+          }
+        ]
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "id": "874b81fc-3ec9-41f2-bcd0-4317bc8c1f8c",
+        "published_at": "2025-09-20T10:10:47.321873085Z",
+        "updated_at": "2025-09-20T10:10:47.321873085Z",
+        "is_latest": true
+      }
+    }
+  },
+  {
+    "name": "io.github.OtherVibes/mcp-as-a-judge",
+    "description": "MCP as a Judge: a behavioral MCP that strengthens AI coding assistants via explicit LLM evaluations",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/OtherVibes/mcp-as-a-judge",
+      "source": "github"
+    },
+    "version": "0.3.20",
+    "packages": [
+      {
+        "registry_type": "pypi",
+        "identifier": "mcp-as-a-judge",
+        "version": "0.3.20",
+        "transport": {
+          "type": "stdio"
+        }
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "id": "863d79d0-6104-4bda-ad5d-58888d8fd3b6",
+        "published_at": "2025-09-20T10:35:19.80792562Z",
+        "updated_at": "2025-09-20T10:35:19.80792562Z",
+        "is_latest": true
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+    "name": "io.github.karanb192/reddit-mcp-buddy",
+    "description": "Reddit MCP server - browse posts, search content, analyze users.",
+    "repository": {
+      "url": "",
+      "source": ""
+    },
+    "version": "1.1.1",
+    "packages": [
+      {
+        "registry_type": "npm",
+        "identifier": "reddit-mcp-buddy",
+        "version": "1.1.1",
+        "transport": {
+          "type": "stdio"
+        }
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "id": "5677b351-373d-4137-bc58-28f1ba0d105d",
+        "published_at": "2025-09-20T10:45:00.297359799Z",
+        "updated_at": "2025-09-20T10:45:00.297359799Z",
+        "is_latest": true
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+    "name": "io.github.Synclub-tech/synclub-dxt",
+    "description": "SynClub MCP Server for AI-powered comic creation with script generation and image tools",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/Synclub-tech/Synclub-dxt",
+      "source": "github"
+    },
+    "version": "0.6.0",
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "id": "fcbfdd48-ec43-41b0-b8b0-ed36c8d0436d",
+        "published_at": "2025-09-20T11:20:51.672215792Z",
+        "updated_at": "2025-09-20T11:20:51.672215792Z",
         "is_latest": true
       }
     }
