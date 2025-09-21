@@ -52,7 +52,7 @@ function Get-PackageCategoriesFromJsonObject {
     $categories = [System.Collections.Generic.HashSet[string]]::new()
     if ($obj.packages) {
         foreach ($pkg in $obj.packages) {
-            $rt = $pkg.registry_type
+            $rt = $pkg.registryType
             if (-not $rt -and $pkg.registryType) { $rt = $pkg.registryType }
             if ($rt) { $categories.Add($rt.ToLowerInvariant()) | Out-Null }
         }
@@ -71,7 +71,7 @@ if (Test-Path $CsvPath) {
     try {
         Import-Csv -Path $CsvPath | ForEach-Object {
             $name = $_.name
-            $p = $_.published_at
+            $p = $_.publishedAt
             $dt = ConvertTo-DateTime $p
             if ($null -ne $dt -and $name) {
                 $records += [PSCustomObject]@{ Name = $name; PublishedAt = $dt }
@@ -90,7 +90,7 @@ if (Test-Path $JsonPath) {
         if ($json -and ($json -is [System.Collections.IEnumerable]) -and $json.Count -gt 0) {
             foreach ($item in $json) {
                 $name = $item.name; if (-not $name) { $name = $item.Name }
-                $p = $item.published_at; if (-not $p) { $p = $item.publishedAt }
+                $p = $item.publishedAt; if (-not $p) { $p = $item.publishedAt }
                 $dt = ConvertTo-DateTime $p
                 if ($null -ne $dt -and $name) {
                     $records += [PSCustomObject]@{ Name = $name; PublishedAt = $dt }

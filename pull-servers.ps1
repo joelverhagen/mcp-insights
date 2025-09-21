@@ -211,9 +211,12 @@ try {
         [PSCustomObject]@{
             name = $_.name
             version = $_.version
-            id = if ($meta) { $meta.id } else { $null }
+            status = $_.status
+            serverId = if ($meta) { $meta.serverId } else { $null }
+            versionId = if ($meta) { $meta.versionId } else { $null }
             publishedAt = if ($meta) { $meta.publishedAt } else { $null }
             updatedAt = if ($meta) { $meta.updatedAt } else { $null }
+            isLatest = if ($meta) { $meta.isLatest } else { $null }
         }
     }
 
