@@ -165,21 +165,21 @@ if ($FilterActive) {
     Write-Verbose "Filtered active servers: $($allServers.Count) (from $countBefore)"
 }
 
-# Require published_at to be present for every server and error out if missing.
+# Require publishedAt to be present for every server and error out if missing.
 $missing = $allServers | Where-Object {
-    -not ($_. _meta -and $_._meta.'io.modelcontextprotocol.registry/official' -and $_._meta.'io.modelcontextprotocol.registry/official'.published_at)
+    -not ($_. _meta -and $_._meta.'io.modelcontextprotocol.registry/official' -and $_._meta.'io.modelcontextprotocol.registry/official'.publishedAt)
 }
 if ($missing -and $missing.Count -gt 0) {
     $first = $missing[0]
     $identity = if ($first.name) { "name='$($first.name)'" } else { "index=$([Array]::IndexOf($allServers, $first))" }
-    throw "Missing required published_at in _meta.io.modelcontextprotocol.registry/official for server $identity. Aborting."
+    throw "Missing required publishedAt in _meta.io.modelcontextprotocol.registry/official for server $identity. Aborting."
 }
 
-# Sort by published_at as strings (ISO 8601 UTC strings sort lexicographically correctly).
+# Sort by publishedAt as strings (ISO 8601 UTC strings sort lexicographically correctly).
 # To make ordering deterministic for equal timestamps, pre-sort by name ascending so
 # name acts as a stable tie-breaker.
 $allServers = $allServers | Sort-Object -Property 'name'
-$sorted = $allServers | Sort-Object -Property { $_._meta.'io.modelcontextprotocol.registry/official'.published_at }
+$sorted = $allServers | Sort-Object -Property { $_._meta.'io.modelcontextprotocol.registry/official'.publishedAt }
 
 # Write formatted JSON (increase depth to accommodate nested objects)
 $depth = 100
@@ -212,8 +212,8 @@ try {
             name = $_.name
             version = $_.version
             id = if ($meta) { $meta.id } else { $null }
-            published_at = if ($meta) { $meta.published_at } else { $null }
-            updated_at = if ($meta) { $meta.updated_at } else { $null }
+            publishedAt = if ($meta) { $meta.publishedAt } else { $null }
+            updatedAt = if ($meta) { $meta.updatedAt } else { $null }
         }
     }
 
