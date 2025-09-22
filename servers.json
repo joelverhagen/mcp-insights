@@ -3469,248 +3469,7 @@
         "serverId": "be9105fb-f8cb-4151-b6f8-21b49fd71fed",
         "versionId": "288ccf72-1fde-4754-8d0e-9d67a9795125",
         "publishedAt": "2025-09-10T14:44:46.398091571Z",
-        "updatedAt": "2025-09-10T14:44:46.398091571Z",
-        "isLatest": true
-      }
-    }
-  },
-  {
-    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
-    "name": "io.github.JustasMonkev/mcp-accessibility-scanner",
-    "description": "MCP server for automated web accessibility scanning with Playwright and Axe-core.",
-    "status": "active",
-    "repository": {
-      "url": "https://github.com/JustasMonkev/mcp-accessibility-scanner",
-      "source": "github"
-    },
-    "version": "1.1.1",
-    "packages": [
-      {
-        "registryType": "npm",
-        "registryBaseUrl": "https://registry.npmjs.org",
-        "identifier": "mcp-accessibility-scanner",
-        "version": "1.1.1",
-        "transport": {
-          "type": "stdio"
-        }
-      }
-    ],
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "serverId": "ea401f8e-2bc1-4042-a8d0-3339441a3ace",
-        "versionId": "6f372f99-089b-4cc7-a9b6-b3fcbd39074b",
-        "publishedAt": "2025-09-10T15:19:19.721714851Z",
-        "updatedAt": "2025-09-10T15:19:19.721714851Z",
-        "isLatest": true
-      }
-    }
-  },
-  {
-    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
-    "name": "io.github.dockersamples/mcp-docker-release-information",
-    "description": "MCP server providing Docker Desktop release notes and security information.",
-    "status": "active",
-    "repository": {
-      "url": "https://github.com/dockersamples/mcp-docker-release-information",
-      "source": "github"
-    },
-    "version": "0.2.0",
-    "packages": [
-      {
-        "registryType": "oci",
-        "identifier": "dockersamples/mcp-docker-release-information",
-        "version": "0.2.0",
-        "transport": {
-          "type": "stdio"
-        }
-      }
-    ],
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "serverId": "fe7a5c36-265f-4e7b-a3ad-ef2c4c95f241",
-        "versionId": "d8cd8b14-0050-458f-9a86-2ecd60df7b1b",
-        "publishedAt": "2025-09-10T15:23:14.335332844Z",
-        "updatedAt": "2025-09-10T18:54:52.777673838Z",
-        "isLatest": false
-      }
-    }
-  },
-  {
-    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
-    "name": "io.github.timheuer/sampledotnetmcpserver",
-    "description": "Sample .NET MCP Server",
-    "repository": {
-      "url": "https://github.com/timheuer/sampledotnetmcpserver",
-      "source": "github"
-    },
-    "version": "0.1.18-beta",
-    "packages": [
-      {
-        "registryType": "nuget",
-        "identifier": "TimHeuer.SampleDotnetMcpServer",
-        "version": "0.1.18-beta",
-        "transport": {
-          "type": "stdio"
-        }
-      }
-    ],
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "serverId": "98619929-a570-46c1-8e35-4cde888731ee",
-        "versionId": "b0d7e2ec-250a-42a7-bc01-198e42672eeb",
-        "publishedAt": "2025-09-10T15:31:23.614864173Z",
-        "updatedAt": "2025-09-10T16:00:22.19485388Z",
-        "isLatest": false
-      }
-    }
-  },
-  {
-    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
-    "name": "io.github.motherduckdb/mcp-server-motherduck",
-    "description": "Fast analytics and data processing with DuckDB and MotherDuck",
-    "status": "active",
-    "repository": {
-      "url": "https://github.com/motherduckdb/mcp-server-motherduck",
-      "source": "github"
-    },
-    "version": "0.6.4",
-    "packages": [
-      {
-        "registryType": "pypi",
-        "registryBaseUrl": "https://pypi.org",
-        "identifier": "mcp-server-motherduck",
-        "version": "0.6.4",
-        "transport": {
-          "type": "stdio"
-        },
-        "packageArguments": [
-          {
-            "description": "Transport type for MCP server",
-            "default": "stdio",
-            "choices": [
-              "stdio",
-              "sse",
-              "stream"
-            ],
-            "type": "named",
-            "name": "--transport"
-          },
-          {
-            "description": "Port to listen on for sse and stream transport mode",
-            "format": "number",
-            "default": "8000",
-            "type": "named",
-            "name": "--port"
-          },
-          {
-            "description": "Path to local DuckDB database file or MotherDuck database",
-            "default": "md:",
-            "type": "named",
-            "name": "--db-path"
-          },
-          {
-            "description": "Access token to use for MotherDuck database connections",
-            "isSecret": true,
-            "type": "named",
-            "name": "--motherduck-token"
-          },
-          {
-            "description": "Flag for connecting to DuckDB or MotherDuck in read-only mode",
-            "type": "named",
-            "name": "--read-only"
-          },
-          {
-            "description": "Home directory for DuckDB",
-            "type": "named",
-            "name": "--home-dir"
-          },
-          {
-            "description": "Flag for connecting to MotherDuck in SaaS mode (disables filesystem and write permissions for local DuckDB)",
-            "type": "named",
-            "name": "--saas-mode"
-          },
-          {
-            "description": "Enable JSON responses for HTTP stream (only supported for stream transport)",
-            "type": "named",
-            "name": "--json-response"
-          }
-        ],
-        "environmentVariables": [
-          {
-            "description": "Access token to use for MotherDuck database connections",
-            "isSecret": true,
-            "name": "motherduck_token"
-          },
-          {
-            "description": "Home directory for DuckDB (used as default if --home-dir not specified)",
-            "name": "HOME"
-          }
-        ]
-      }
-    ],
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "serverId": "304e5985-b5e2-4759-ac4b-cf56b86e8c64",
-        "versionId": "b9848a83-605f-4cb3-a9b1-2ed5dd02dd56",
-        "publishedAt": "2025-09-10T15:38:28.952824815Z",
-        "updatedAt": "2025-09-10T15:38:28.952824815Z",
-        "isLatest": true
-      }
-    }
-  },
-  {
-    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
-    "name": "io.minnas/mcp",
-    "description": "Share prompts and context with your team and discover community collections.",
-    "status": "active",
-    "repository": {
-      "url": "https://github.com/sensoris/minnas-service",
-      "source": "github"
-    },
-    "version": "1.0.0",
-    "remotes": [
-      {
-        "type": "sse",
-        "url": "https://api.minnas.io/mcp"
-      }
-    ],
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "serverId": "33e1232b-4b00-46fc-9460-452cae6bdcb5",
-        "versionId": "5b990a17-1e02-4112-9d51-50e0ce0bc8bd",
-        "publishedAt": "2025-09-10T15:43:19.145095272Z",
-        "updatedAt": "2025-09-18T16:40:24.246590894Z",
-        "isLatest": false
-      }
-    }
-  },
-  {
-    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
-    "name": "io.github.chris-schra/mcp-funnel",
-    "description": "MCP proxy that aggregates multiple servers with tool filtering and customization",
-    "status": "active",
-    "repository": {
-      "url": "https://github.com/chris-schra/mcp-funnel",
-      "source": "github"
-    },
-    "version": "0.0.6",
-    "packages": [
-      {
-        "registryType": "npm",
-        "registryBaseUrl": "https://registry.npmjs.org",
-        "identifier": "mcp-funnel",
-        "version": "0.0.6",
-        "transport": {
-          "type": "stdio"
-        }
-      }
-    ],
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "serverId": "1efb077e-f618-4258-8924-6e3dae14ef8b",
-        "versionId": "a8a5c761-c1dc-4d1d-9100-b57df4c9ec0d",
-        "publishedAt": "2025-09-17T18:33:35.912597Z",
-        "updatedAt": "2025-09-17T18:55:31.893305521Z",
+        "updatedAt": "2025-09-22T20:19:27.627630397Z",
         "isLatest": false
       }
     }
@@ -3970,6 +3729,216 @@
   },
   {
     "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+    "name": "io.github.JustasMonkev/mcp-accessibility-scanner",
+    "description": "MCP server for automated web accessibility scanning with Playwright and Axe-core.",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/JustasMonkev/mcp-accessibility-scanner",
+      "source": "github"
+    },
+    "version": "1.1.1",
+    "packages": [
+      {
+        "registryType": "npm",
+        "registryBaseUrl": "https://registry.npmjs.org",
+        "identifier": "mcp-accessibility-scanner",
+        "version": "1.1.1",
+        "transport": {
+          "type": "stdio"
+        }
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "ea401f8e-2bc1-4042-a8d0-3339441a3ace",
+        "versionId": "6f372f99-089b-4cc7-a9b6-b3fcbd39074b",
+        "publishedAt": "2025-09-10T15:19:19.721714851Z",
+        "updatedAt": "2025-09-10T15:19:19.721714851Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+    "name": "io.github.dockersamples/mcp-docker-release-information",
+    "description": "MCP server providing Docker Desktop release notes and security information.",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/dockersamples/mcp-docker-release-information",
+      "source": "github"
+    },
+    "version": "0.2.0",
+    "packages": [
+      {
+        "registryType": "oci",
+        "identifier": "dockersamples/mcp-docker-release-information",
+        "version": "0.2.0",
+        "transport": {
+          "type": "stdio"
+        }
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "fe7a5c36-265f-4e7b-a3ad-ef2c4c95f241",
+        "versionId": "d8cd8b14-0050-458f-9a86-2ecd60df7b1b",
+        "publishedAt": "2025-09-10T15:23:14.335332844Z",
+        "updatedAt": "2025-09-10T18:54:52.777673838Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+    "name": "io.github.timheuer/sampledotnetmcpserver",
+    "description": "Sample .NET MCP Server",
+    "repository": {
+      "url": "https://github.com/timheuer/sampledotnetmcpserver",
+      "source": "github"
+    },
+    "version": "0.1.18-beta",
+    "packages": [
+      {
+        "registryType": "nuget",
+        "identifier": "TimHeuer.SampleDotnetMcpServer",
+        "version": "0.1.18-beta",
+        "transport": {
+          "type": "stdio"
+        }
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "98619929-a570-46c1-8e35-4cde888731ee",
+        "versionId": "b0d7e2ec-250a-42a7-bc01-198e42672eeb",
+        "publishedAt": "2025-09-10T15:31:23.614864173Z",
+        "updatedAt": "2025-09-10T16:00:22.19485388Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+    "name": "io.github.motherduckdb/mcp-server-motherduck",
+    "description": "Fast analytics and data processing with DuckDB and MotherDuck",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/motherduckdb/mcp-server-motherduck",
+      "source": "github"
+    },
+    "version": "0.6.4",
+    "packages": [
+      {
+        "registryType": "pypi",
+        "registryBaseUrl": "https://pypi.org",
+        "identifier": "mcp-server-motherduck",
+        "version": "0.6.4",
+        "transport": {
+          "type": "stdio"
+        },
+        "packageArguments": [
+          {
+            "description": "Transport type for MCP server",
+            "default": "stdio",
+            "choices": [
+              "stdio",
+              "sse",
+              "stream"
+            ],
+            "type": "named",
+            "name": "--transport"
+          },
+          {
+            "description": "Port to listen on for sse and stream transport mode",
+            "format": "number",
+            "default": "8000",
+            "type": "named",
+            "name": "--port"
+          },
+          {
+            "description": "Path to local DuckDB database file or MotherDuck database",
+            "default": "md:",
+            "type": "named",
+            "name": "--db-path"
+          },
+          {
+            "description": "Access token to use for MotherDuck database connections",
+            "isSecret": true,
+            "type": "named",
+            "name": "--motherduck-token"
+          },
+          {
+            "description": "Flag for connecting to DuckDB or MotherDuck in read-only mode",
+            "type": "named",
+            "name": "--read-only"
+          },
+          {
+            "description": "Home directory for DuckDB",
+            "type": "named",
+            "name": "--home-dir"
+          },
+          {
+            "description": "Flag for connecting to MotherDuck in SaaS mode (disables filesystem and write permissions for local DuckDB)",
+            "type": "named",
+            "name": "--saas-mode"
+          },
+          {
+            "description": "Enable JSON responses for HTTP stream (only supported for stream transport)",
+            "type": "named",
+            "name": "--json-response"
+          }
+        ],
+        "environmentVariables": [
+          {
+            "description": "Access token to use for MotherDuck database connections",
+            "isSecret": true,
+            "name": "motherduck_token"
+          },
+          {
+            "description": "Home directory for DuckDB (used as default if --home-dir not specified)",
+            "name": "HOME"
+          }
+        ]
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "304e5985-b5e2-4759-ac4b-cf56b86e8c64",
+        "versionId": "b9848a83-605f-4cb3-a9b1-2ed5dd02dd56",
+        "publishedAt": "2025-09-10T15:38:28.952824815Z",
+        "updatedAt": "2025-09-10T15:38:28.952824815Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+    "name": "io.minnas/mcp",
+    "description": "Share prompts and context with your team and discover community collections.",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/sensoris/minnas-service",
+      "source": "github"
+    },
+    "version": "1.0.0",
+    "remotes": [
+      {
+        "type": "sse",
+        "url": "https://api.minnas.io/mcp"
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "33e1232b-4b00-46fc-9460-452cae6bdcb5",
+        "versionId": "5b990a17-1e02-4112-9d51-50e0ce0bc8bd",
+        "publishedAt": "2025-09-10T15:43:19.145095272Z",
+        "updatedAt": "2025-09-18T16:40:24.246590894Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
     "name": "com.pga/pga-golf",
     "description": "PGA's official MCP Server for all things golf-related. Find a coach, play golf, improve your game.",
     "status": "active",
@@ -4065,6 +4034,42 @@
   },
   {
     "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+    "name": "ai.smithery/smithery-ai-cookbook-python-quickstart",
+    "description": "A simple MCP server built with FastMCP and python",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/smithery-ai/smithery-cookbook",
+      "source": "github",
+      "subfolder": "servers/python/quickstart"
+    },
+    "version": "1.13.1",
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://server.smithery.ai/@smithery-ai/cookbook-python-quickstart/mcp",
+        "headers": [
+          {
+            "description": "Bearer token for Smithery authentication",
+            "isRequired": true,
+            "value": "Bearer {smithery_api_key}",
+            "isSecret": true,
+            "name": "Authorization"
+          }
+        ]
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "5706bb0e-05a5-41cf-84d4-f2d1f88c7e0e",
+        "versionId": "fb85b1a6-168c-4775-ae6b-2ab63c5506c2",
+        "publishedAt": "2025-09-10T16:07:02.461934808Z",
+        "updatedAt": "2025-09-10T16:07:02.461934808Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
     "name": "io.coupler/remote-mcp-server",
     "description": "Coupler.io remote MCP server",
     "status": "active",
@@ -4085,6 +4090,418 @@
         "versionId": "975e0708-c43d-42ba-a27f-6d69f7c8e91a",
         "publishedAt": "2025-09-10T16:12:03.417415684Z",
         "updatedAt": "2025-09-10T16:12:03.417415684Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+    "name": "io.github.ruvnet/flow-nexus",
+    "description": "Cloud-powered AI platform with multi-agent swarms, sandboxes, and workflow automation",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/ruvnet/flow-nexus",
+      "source": "github"
+    },
+    "version": "0.1.121",
+    "packages": [
+      {
+        "registryType": "npm",
+        "registryBaseUrl": "https://registry.npmjs.org",
+        "identifier": "flow-nexus",
+        "version": "0.1.121",
+        "transport": {
+          "type": "stdio"
+        },
+        "environmentVariables": [
+          {
+            "description": "API key for Flow Nexus authentication",
+            "format": "string",
+            "isSecret": true,
+            "name": "FLOW_NEXUS_API_KEY"
+          },
+          {
+            "description": "Base URL for Flow Nexus API",
+            "format": "string",
+            "name": "FLOW_NEXUS_BASE_URL"
+          },
+          {
+            "description": "E2B API key for sandbox creation",
+            "format": "string",
+            "isSecret": true,
+            "name": "E2B_API_KEY"
+          },
+          {
+            "description": "Anthropic API key for Claude integration",
+            "format": "string",
+            "isSecret": true,
+            "name": "ANTHROPIC_API_KEY"
+          }
+        ]
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "b3bb56af-1134-4509-8d39-6e0ea641e4f1",
+        "versionId": "2052b35f-4321-4d32-88b9-0c4ca09771a0",
+        "publishedAt": "2025-09-10T16:22:10.934865687Z",
+        "updatedAt": "2025-09-10T16:22:10.934865687Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+    "name": "io.github.rfdez/pvpc-mcp-server",
+    "description": "Fetch the Voluntary Price for the Small Consumer (PVPC) published daily by Red Eléctrica.",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/rfdez/pvpc-mcp-server",
+      "source": "github"
+    },
+    "version": "3.2.2",
+    "packages": [
+      {
+        "registryType": "npm",
+        "registryBaseUrl": "https://registry.npmjs.org",
+        "identifier": "@rfdez/pvpc-mcp-server",
+        "version": "3.2.2",
+        "runtimeHint": "npx",
+        "transport": {
+          "type": "stdio"
+        },
+        "packageArguments": [
+          {
+            "description": "Use stdio transport type for MCP server",
+            "value": "stdio",
+            "type": "named",
+            "name": "--transport"
+          },
+          {
+            "description": "ESIOS API key for authentication",
+            "isRequired": true,
+            "isSecret": true,
+            "type": "named",
+            "name": "--api-key"
+          }
+        ]
+      },
+      {
+        "registryType": "npm",
+        "registryBaseUrl": "https://registry.npmjs.org",
+        "identifier": "@rfdez/pvpc-mcp-server",
+        "version": "3.2.2",
+        "runtimeHint": "npx",
+        "transport": {
+          "type": "streamable-http",
+          "url": "http://127.0.0.1:8080/mcp",
+          "headers": [
+            {
+              "description": "ESIOS API key for authentication",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "X-API-Key"
+            }
+          ]
+        },
+        "packageArguments": [
+          {
+            "description": "Use HTTP transport type for MCP server",
+            "value": "http",
+            "type": "named",
+            "name": "--transport"
+          },
+          {
+            "description": "Port for HTTP transport",
+            "default": "8080",
+            "type": "named",
+            "name": "--port"
+          }
+        ]
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "9c2d3dad-6914-4484-b9e2-2393f397e1cf",
+        "versionId": "511f2dc8-4b9d-4e80-a0eb-4abb26a36c74",
+        "publishedAt": "2025-09-10T16:28:04.867936223Z",
+        "updatedAt": "2025-09-10T16:53:23.925845807Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+    "name": "dev.rostro/rostro",
+    "description": "Turn any LLM multimodal; generate images, voices, videos, 3D models, music, and more.",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/francis-ros/rostro-mcp-server",
+      "source": "github"
+    },
+    "version": "1.0.0",
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://proto.rostro.dev/mcp"
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "ad9fa350-fafb-4e58-a075-a28c9d358ed3",
+        "versionId": "48f54e2e-d42d-4182-9598-351aa48f7a0c",
+        "publishedAt": "2025-09-10T16:44:28.57398885Z",
+        "updatedAt": "2025-09-10T16:44:28.57398885Z",
+        "isLatest": true
+      },
+      "io.modelcontextprotocol.registry/publisher-provided": {
+        "build_info": {
+          "commit": "f7e8d9c2b1a0",
+          "deployment_id": "remote-fs-deploy-456",
+          "region": "us-west-2",
+          "timestamp": "2023-12-05T08:45:00Z"
+        },
+        "tool": "cloud-deployer",
+        "version": "2.4.0"
+      }
+    }
+  },
+  {
+    "name": "io.github.ruvnet/claude-flow",
+    "description": "AI orchestration with hive-mind swarms, neural networks, and 87 MCP tools for enterprise dev.",
+    "repository": {
+      "url": "",
+      "source": ""
+    },
+    "version": "2.0.0-alpha.105",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "claude-flow",
+        "version": "2.0.0-alpha.105",
+        "transport": {
+          "type": "stdio"
+        }
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "8362811b-c6cc-401d-92d9-6288295e9104",
+        "versionId": "aca46879-069c-4052-99a4-b6941bc6fb26",
+        "publishedAt": "2025-09-10T16:46:39.96638146Z",
+        "updatedAt": "2025-09-10T16:55:33.075242785Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+    "name": "io.ignission/mcp",
+    "description": "TikTok video data analytics and content strategy tools",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/ignission-io/mcp",
+      "source": "github"
+    },
+    "version": "1.0.0",
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.ignission.io/mcp"
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "83c33312-203b-4245-a0d8-94f9a453b4fa",
+        "versionId": "d544bbcc-44e2-4774-b097-e886b50dd022",
+        "publishedAt": "2025-09-10T16:49:33.978580087Z",
+        "updatedAt": "2025-09-10T16:49:33.978580087Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+    "name": "io.github.rfdez/pvpc-mcp-server",
+    "description": "Retrieve daily PVPC electricity tariffs for 2.0 TD consumers, published by Red Eléctrica.",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/rfdez/pvpc-mcp-server",
+      "source": "github"
+    },
+    "version": "3.2.3",
+    "packages": [
+      {
+        "registryType": "npm",
+        "registryBaseUrl": "https://registry.npmjs.org",
+        "identifier": "@rfdez/pvpc-mcp-server",
+        "version": "3.2.3",
+        "runtimeHint": "npx",
+        "transport": {
+          "type": "stdio"
+        },
+        "packageArguments": [
+          {
+            "description": "Use stdio transport type for MCP server",
+            "value": "stdio",
+            "type": "named",
+            "name": "--transport"
+          },
+          {
+            "description": "ESIOS API key for authentication",
+            "isRequired": true,
+            "isSecret": true,
+            "type": "named",
+            "name": "--api-key"
+          }
+        ]
+      },
+      {
+        "registryType": "npm",
+        "registryBaseUrl": "https://registry.npmjs.org",
+        "identifier": "@rfdez/pvpc-mcp-server",
+        "version": "3.2.3",
+        "runtimeHint": "npx",
+        "transport": {
+          "type": "streamable-http",
+          "url": "http://127.0.0.1:8080/mcp",
+          "headers": [
+            {
+              "description": "ESIOS API key for authentication",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "X-API-Key"
+            }
+          ]
+        },
+        "packageArguments": [
+          {
+            "description": "Use HTTP transport type for MCP server",
+            "value": "http",
+            "type": "named",
+            "name": "--transport"
+          },
+          {
+            "description": "Port for HTTP transport",
+            "default": "8080",
+            "type": "named",
+            "name": "--port"
+          }
+        ]
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "9c2d3dad-6914-4484-b9e2-2393f397e1cf",
+        "versionId": "f9fca6a5-fbdc-4dbe-b28c-ff352d059d7b",
+        "publishedAt": "2025-09-10T16:53:23.880648467Z",
+        "updatedAt": "2025-09-10T16:53:23.880648467Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+    "name": "io.github.ruvnet/claude-flow",
+    "description": "AI orchestration with hive-mind swarms, neural networks, and 87 MCP tools for enterprise dev.",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/ruvnet/claude-flow",
+      "source": "github"
+    },
+    "version": "2.0.0-alpha.106",
+    "packages": [
+      {
+        "registryType": "npm",
+        "registryBaseUrl": "https://registry.npmjs.org",
+        "identifier": "claude-flow",
+        "version": "2.0.0-alpha.106",
+        "transport": {
+          "type": "stdio"
+        },
+        "environmentVariables": [
+          {
+            "description": "Anthropic API key for Claude AI models",
+            "format": "string",
+            "isSecret": true,
+            "name": "ANTHROPIC_API_KEY"
+          },
+          {
+            "description": "Operation mode: development, production, or test",
+            "format": "string",
+            "name": "CLAUDE_FLOW_MODE"
+          },
+          {
+            "description": "Path for persistent memory storage",
+            "format": "string",
+            "name": "CLAUDE_FLOW_MEMORY_PATH"
+          },
+          {
+            "description": "Maximum number of concurrent agents",
+            "format": "string",
+            "name": "CLAUDE_FLOW_MAX_AGENTS"
+          },
+          {
+            "description": "MCP server port",
+            "format": "string",
+            "name": "CLAUDE_FLOW_PORT"
+          },
+          {
+            "description": "GitHub personal access token for repository operations",
+            "format": "string",
+            "isSecret": true,
+            "name": "GITHUB_TOKEN"
+          },
+          {
+            "description": "Flow Nexus cloud platform API key",
+            "format": "string",
+            "isSecret": true,
+            "name": "FLOW_NEXUS_API_KEY"
+          }
+        ]
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "8362811b-c6cc-401d-92d9-6288295e9104",
+        "versionId": "9623b70e-af1d-48ac-8338-e37ef96ca8cf",
+        "publishedAt": "2025-09-10T16:55:33.070739114Z",
+        "updatedAt": "2025-09-10T16:59:34.223138386Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+    "name": "ai.smithery/rfdez-pvpc-mcp-server",
+    "description": "Retrieve daily PVPC electricity tariffs for 2.0 TD consumers, published by Red Eléctrica.",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/rfdez/pvpc-mcp-server",
+      "source": "github"
+    },
+    "version": "3.2.3",
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://server.smithery.ai/@rfdez/pvpc-mcp-server/mcp",
+        "headers": [
+          {
+            "description": "Bearer token for Smithery authentication",
+            "isRequired": true,
+            "value": "Bearer {smithery_api_key}",
+            "isSecret": true,
+            "name": "Authorization"
+          }
+        ]
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "351f53a0-7d2d-40aa-adeb-a203878ff560",
+        "versionId": "24646991-b0ea-4ad2-b588-37034ff85880",
+        "publishedAt": "2025-09-10T16:57:17.590562136Z",
+        "updatedAt": "2025-09-10T16:57:17.590562136Z",
         "isLatest": true
       }
     }
@@ -4156,42 +4573,6 @@
     }
   },
   {
-    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
-    "name": "ai.smithery/smithery-ai-cookbook-python-quickstart",
-    "description": "A simple MCP server built with FastMCP and python",
-    "status": "active",
-    "repository": {
-      "url": "https://github.com/smithery-ai/smithery-cookbook",
-      "source": "github",
-      "subfolder": "servers/python/quickstart"
-    },
-    "version": "1.13.1",
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://server.smithery.ai/@smithery-ai/cookbook-python-quickstart/mcp",
-        "headers": [
-          {
-            "description": "Bearer token for Smithery authentication",
-            "isRequired": true,
-            "value": "Bearer {smithery_api_key}",
-            "isSecret": true,
-            "name": "Authorization"
-          }
-        ]
-      }
-    ],
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "serverId": "5706bb0e-05a5-41cf-84d4-f2d1f88c7e0e",
-        "versionId": "fb85b1a6-168c-4775-ae6b-2ab63c5506c2",
-        "publishedAt": "2025-09-10T16:07:02.461934808Z",
-        "updatedAt": "2025-09-10T16:07:02.461934808Z",
-        "isLatest": true
-      }
-    }
-  },
-  {
     "name": "io.github.ruvnet/claude-flow",
     "description": "AI orchestration with hive-mind swarms, neural networks, and 87 MCP tools for enterprise dev.",
     "repository": {
@@ -4221,80 +4602,90 @@
   },
   {
     "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
-    "name": "dev.rostro/rostro",
-    "description": "Turn any LLM multimodal; generate images, voices, videos, 3D models, music, and more.",
+    "name": "io.github.ruvnet/claude-flow",
+    "description": "AI orchestration with hive-mind swarms, neural networks, and 87 MCP tools for enterprise dev.",
     "status": "active",
     "repository": {
-      "url": "https://github.com/francis-ros/rostro-mcp-server",
-      "source": "github"
+      "url": "https://github.com/ruvnet/claude-flow",
+      "source": "github",
+      "id": "854513237"
     },
-    "version": "1.0.0",
-    "remotes": [
+    "version": "2.0.0-alpha.107",
+    "packages": [
       {
-        "type": "streamable-http",
-        "url": "https://proto.rostro.dev/mcp"
-      }
-    ],
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "serverId": "ad9fa350-fafb-4e58-a075-a28c9d358ed3",
-        "versionId": "48f54e2e-d42d-4182-9598-351aa48f7a0c",
-        "publishedAt": "2025-09-10T16:44:28.57398885Z",
-        "updatedAt": "2025-09-10T16:44:28.57398885Z",
-        "isLatest": true
-      },
-      "io.modelcontextprotocol.registry/publisher-provided": {
-        "build_info": {
-          "commit": "f7e8d9c2b1a0",
-          "deployment_id": "remote-fs-deploy-456",
-          "region": "us-west-2",
-          "timestamp": "2023-12-05T08:45:00Z"
+        "registryType": "npm",
+        "registryBaseUrl": "https://registry.npmjs.org",
+        "identifier": "claude-flow",
+        "version": "2.0.0-alpha.107",
+        "transport": {
+          "type": "stdio"
         },
-        "tool": "cloud-deployer",
-        "version": "2.4.0"
-      }
-    }
-  },
-  {
-    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
-    "name": "io.ignission/mcp",
-    "description": "TikTok video data analytics and content strategy tools",
-    "status": "active",
-    "repository": {
-      "url": "https://github.com/ignission-io/mcp",
-      "source": "github"
-    },
-    "version": "1.0.0",
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://mcp.ignission.io/mcp"
+        "environmentVariables": [
+          {
+            "description": "Anthropic API key for Claude AI models",
+            "format": "string",
+            "isSecret": true,
+            "name": "ANTHROPIC_API_KEY"
+          },
+          {
+            "description": "Operation mode: development, production, or test",
+            "format": "string",
+            "name": "CLAUDE_FLOW_MODE"
+          },
+          {
+            "description": "Path for persistent memory storage",
+            "format": "string",
+            "name": "CLAUDE_FLOW_MEMORY_PATH"
+          },
+          {
+            "description": "Maximum number of concurrent agents",
+            "format": "string",
+            "name": "CLAUDE_FLOW_MAX_AGENTS"
+          },
+          {
+            "description": "MCP server port",
+            "format": "string",
+            "name": "CLAUDE_FLOW_PORT"
+          },
+          {
+            "description": "GitHub personal access token for repository operations",
+            "format": "string",
+            "isSecret": true,
+            "name": "GITHUB_TOKEN"
+          },
+          {
+            "description": "Flow Nexus cloud platform API key",
+            "format": "string",
+            "isSecret": true,
+            "name": "FLOW_NEXUS_API_KEY"
+          }
+        ]
       }
     ],
     "_meta": {
       "io.modelcontextprotocol.registry/official": {
-        "serverId": "83c33312-203b-4245-a0d8-94f9a453b4fa",
-        "versionId": "d544bbcc-44e2-4774-b097-e886b50dd022",
-        "publishedAt": "2025-09-10T16:49:33.978580087Z",
-        "updatedAt": "2025-09-10T16:49:33.978580087Z",
+        "serverId": "8362811b-c6cc-401d-92d9-6288295e9104",
+        "versionId": "5db5281e-f8b9-49a8-bf3d-b15b911f634a",
+        "publishedAt": "2025-09-10T16:59:34.218265771Z",
+        "updatedAt": "2025-09-10T16:59:34.218265771Z",
         "isLatest": true
       }
     }
   },
   {
     "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
-    "name": "ai.smithery/rfdez-pvpc-mcp-server",
-    "description": "Retrieve daily PVPC electricity tariffs for 2.0 TD consumers, published by Red Eléctrica.",
+    "name": "ai.smithery/kwp-lab-rss-reader-mcp",
+    "description": "Track and browse RSS feeds with ease. Fetch the latest entries from any feed URL and extract full…",
     "status": "active",
     "repository": {
-      "url": "https://github.com/rfdez/pvpc-mcp-server",
+      "url": "https://github.com/kwp-lab/rss-reader-mcp",
       "source": "github"
     },
-    "version": "3.2.3",
+    "version": "1.0.0",
     "remotes": [
       {
         "type": "streamable-http",
-        "url": "https://server.smithery.ai/@rfdez/pvpc-mcp-server/mcp",
+        "url": "https://server.smithery.ai/@kwp-lab/rss-reader-mcp/mcp",
         "headers": [
           {
             "description": "Bearer token for Smithery authentication",
@@ -4308,10 +4699,10 @@
     ],
     "_meta": {
       "io.modelcontextprotocol.registry/official": {
-        "serverId": "351f53a0-7d2d-40aa-adeb-a203878ff560",
-        "versionId": "24646991-b0ea-4ad2-b588-37034ff85880",
-        "publishedAt": "2025-09-10T16:57:17.590562136Z",
-        "updatedAt": "2025-09-10T16:57:17.590562136Z",
+        "serverId": "54da6e94-f93f-428a-b621-c78b20a29b93",
+        "versionId": "7f80c7e7-1906-4315-a639-9a82089224b2",
+        "publishedAt": "2025-09-10T17:02:25.896522471Z",
+        "updatedAt": "2025-09-10T17:02:25.896522471Z",
         "isLatest": true
       }
     }
@@ -4347,6 +4738,209 @@
         "versionId": "e9fd4b99-b11b-481e-8b72-3a3348f0ca2b",
         "publishedAt": "2025-09-10T17:03:02.996324887Z",
         "updatedAt": "2025-09-10T17:03:02.996324887Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "name": "io.github.ruvnet/ruv-swarm",
+    "description": "Neural network swarm orchestration with WebAssembly acceleration and MCP integration",
+    "repository": {
+      "url": "",
+      "source": ""
+    },
+    "version": "1.0.18",
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "ed5d3336-d432-45a4-93c3-4274d45f82ea",
+        "versionId": "0a9cda7f-2b73-4839-844b-6582f335de42",
+        "publishedAt": "2025-09-10T17:15:32.69690433Z",
+        "updatedAt": "2025-09-10T17:21:34.92137012Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "name": "io.github.ruvnet/ruv-swarm",
+    "description": "Neural network swarm orchestration with WebAssembly acceleration and MCP integration",
+    "repository": {
+      "url": "https://github.com/ruvnet/ruv-FANN",
+      "source": "github",
+      "subfolder": "ruv-swarm"
+    },
+    "version": "1.0.19",
+    "packages": [
+      {
+        "registryType": "npm",
+        "registryBaseUrl": "https://registry.npmjs.org",
+        "identifier": "ruv-swarm",
+        "version": "1.0.19",
+        "transport": {
+          "type": "stdio"
+        },
+        "environmentVariables": [
+          {
+            "description": "Log level for ruv-swarm operations",
+            "format": "string",
+            "default": "info",
+            "choices": [
+              "debug",
+              "info",
+              "warn",
+              "error"
+            ],
+            "name": "RUV_SWARM_LOG_LEVEL"
+          },
+          {
+            "description": "Database path for persistence storage",
+            "format": "string",
+            "name": "RUV_SWARM_DB_PATH"
+          },
+          {
+            "description": "Enable WebAssembly SIMD optimizations",
+            "format": "boolean",
+            "default": "true",
+            "choices": [
+              "true",
+              "false"
+            ],
+            "name": "RUV_SWARM_ENABLE_SIMD"
+          }
+        ]
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "ed5d3336-d432-45a4-93c3-4274d45f82ea",
+        "versionId": "160a7800-734c-43ab-84ba-81d2f04c042d",
+        "publishedAt": "2025-09-10T17:21:34.916674805Z",
+        "updatedAt": "2025-09-10T17:21:34.916674805Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+    "name": "ai.smithery/kesslerio-attio-mcp-server",
+    "description": "Enable AI assistants to interact directly with your Attio CRM data through natural language querie…",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/kesslerio/attio-mcp-server",
+      "source": "github"
+    },
+    "version": "0.2.0",
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://server.smithery.ai/@kesslerio/attio-mcp-server/mcp",
+        "headers": [
+          {
+            "description": "Bearer token for Smithery authentication",
+            "isRequired": true,
+            "value": "Bearer {smithery_api_key}",
+            "isSecret": true,
+            "name": "Authorization"
+          }
+        ]
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "c51d51d3-40b1-40ff-bf9f-d7564e1c3872",
+        "versionId": "fca4551c-4c86-485f-a548-9263a147effb",
+        "publishedAt": "2025-09-10T17:52:23.110357722Z",
+        "updatedAt": "2025-09-10T17:52:23.110357722Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+    "name": "io.github.ryanbaumann/platform-ai",
+    "description": "Google Maps Platform Code Assist MCP",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/googlemaps/platform-ai",
+      "source": "github"
+    },
+    "version": "0.2.0",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "@googlemaps/code-assist-mcp",
+        "version": "0.2.0",
+        "transport": {
+          "type": "stdio"
+        }
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "cbcbdd1a-d310-451f-9843-c83edf658b11",
+        "versionId": "7b66d3bf-72fa-4832-87fa-c80a60668aae",
+        "publishedAt": "2025-09-10T17:56:34.808006126Z",
+        "updatedAt": "2025-09-10T17:56:34.808006126Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+    "name": "ai.zine/mcp",
+    "description": "Your memory, everywhere AI goes. Build knowledge once, access it via MCP anywhere.",
+    "status": "active",
+    "repository": {
+      "url": "",
+      "source": ""
+    },
+    "version": "1.0.1",
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://www.zine.ai/mcp"
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "4ebda2a7-88c7-4ff1-8333-09bca54fecbf",
+        "versionId": "11139d6c-3cd1-43a3-bedf-94c30ba8b55b",
+        "publishedAt": "2025-09-10T18:02:28.773521652Z",
+        "updatedAt": "2025-09-10T18:02:28.773521652Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+    "name": "ai.smithery/PabloLec-keyprobe-mcp",
+    "description": "Audit certificates and keystores to surface expiry risks, weak algorithms, and misconfigurations.…",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/PabloLec/KeyProbe-MCP",
+      "source": "github"
+    },
+    "version": "1.13.1",
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://server.smithery.ai/@PabloLec/keyprobe-mcp/mcp",
+        "headers": [
+          {
+            "description": "Bearer token for Smithery authentication",
+            "isRequired": true,
+            "value": "Bearer {smithery_api_key}",
+            "isSecret": true,
+            "name": "Authorization"
+          }
+        ]
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "771d6227-76a6-49f4-9aeb-de301d6a9439",
+        "versionId": "14b6f291-19f8-4bfc-9e64-82cc728c7708",
+        "publishedAt": "2025-09-10T18:08:11.479456255Z",
+        "updatedAt": "2025-09-10T18:08:11.479456255Z",
         "isLatest": true
       }
     }
@@ -4650,6 +5244,83 @@
   },
   {
     "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+    "name": "com.enigma/enigma-mcp-server",
+    "description": "An MCP server that provides access to trusted data about business identity and activity",
+    "status": "active",
+    "repository": {
+      "url": "",
+      "source": ""
+    },
+    "version": "1.0.0-build1",
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.enigma.com/http"
+      },
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.enigma.com/http-key",
+        "headers": [
+          {
+            "description": "Token of Enigma API key. Used to enable authentication without presenting the user with an oAuth login.",
+            "isRequired": true,
+            "isSecret": true,
+            "name": "x-api-key"
+          }
+        ]
+      },
+      {
+        "type": "sse",
+        "url": "https://mcp.enigma.com/sse"
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "2a1822b0-c0d6-414c-9ee2-ea1851f35f28",
+        "versionId": "b5c49bdf-07bc-478b-9048-23590f4052fb",
+        "publishedAt": "2025-09-10T19:23:14.035830574Z",
+        "updatedAt": "2025-09-10T19:23:14.035830574Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+    "name": "ai.smithery/brave",
+    "description": "Visit https://brave.com/search/api/ for a free API key. Search the web, local businesses, images,…",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/brave/brave-search-mcp-server",
+      "source": "github"
+    },
+    "version": "1.3.7",
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://server.smithery.ai/brave/mcp",
+        "headers": [
+          {
+            "description": "Bearer token for Smithery authentication",
+            "isRequired": true,
+            "value": "Bearer {smithery_api_key}",
+            "isSecret": true,
+            "name": "Authorization"
+          }
+        ]
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "72fbc728-2894-4a60-aaf5-44d616ddd249",
+        "versionId": "2ad4f9a6-1c40-4839-948a-9749d9435395",
+        "publishedAt": "2025-09-10T19:25:38.948771647Z",
+        "updatedAt": "2025-09-12T14:23:41.796186943Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
     "name": "io.github.spences10/mcp-omnisearch",
     "description": "MCP server for integrating Omnisearch with LLMs",
     "status": "active",
@@ -4849,97 +5520,18 @@
   },
   {
     "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
-    "name": "io.github.rfdez/pvpc-mcp-server",
-    "description": "Fetch the Voluntary Price for the Small Consumer (PVPC) published daily by Red Eléctrica.",
-    "status": "active",
-    "repository": {
-      "url": "https://github.com/rfdez/pvpc-mcp-server",
-      "source": "github"
-    },
-    "version": "3.2.2",
-    "packages": [
-      {
-        "registryType": "npm",
-        "registryBaseUrl": "https://registry.npmjs.org",
-        "identifier": "@rfdez/pvpc-mcp-server",
-        "version": "3.2.2",
-        "runtimeHint": "npx",
-        "transport": {
-          "type": "stdio"
-        },
-        "packageArguments": [
-          {
-            "description": "Use stdio transport type for MCP server",
-            "value": "stdio",
-            "type": "named",
-            "name": "--transport"
-          },
-          {
-            "description": "ESIOS API key for authentication",
-            "isRequired": true,
-            "isSecret": true,
-            "type": "named",
-            "name": "--api-key"
-          }
-        ]
-      },
-      {
-        "registryType": "npm",
-        "registryBaseUrl": "https://registry.npmjs.org",
-        "identifier": "@rfdez/pvpc-mcp-server",
-        "version": "3.2.2",
-        "runtimeHint": "npx",
-        "transport": {
-          "type": "streamable-http",
-          "url": "http://127.0.0.1:8080/mcp",
-          "headers": [
-            {
-              "description": "ESIOS API key for authentication",
-              "isRequired": true,
-              "isSecret": true,
-              "name": "X-API-Key"
-            }
-          ]
-        },
-        "packageArguments": [
-          {
-            "description": "Use HTTP transport type for MCP server",
-            "value": "http",
-            "type": "named",
-            "name": "--transport"
-          },
-          {
-            "description": "Port for HTTP transport",
-            "default": "8080",
-            "type": "named",
-            "name": "--port"
-          }
-        ]
-      }
-    ],
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "serverId": "9c2d3dad-6914-4484-b9e2-2393f397e1cf",
-        "versionId": "511f2dc8-4b9d-4e80-a0eb-4abb26a36c74",
-        "publishedAt": "2025-09-10T16:28:04.867936223Z",
-        "updatedAt": "2025-09-10T16:53:23.925845807Z",
-        "isLatest": false
-      }
-    }
-  },
-  {
-    "name": "io.github.ruvnet/claude-flow",
-    "description": "AI orchestration with hive-mind swarms, neural networks, and 87 MCP tools for enterprise dev.",
+    "name": "io.github.karanb192/reddit-buddy-mcp",
+    "description": "Reddit MCP server - browse posts, search content, analyze users.",
     "repository": {
       "url": "",
       "source": ""
     },
-    "version": "2.0.0-alpha.105",
+    "version": "1.0.6-test.7",
     "packages": [
       {
         "registryType": "npm",
-        "identifier": "claude-flow",
-        "version": "2.0.0-alpha.105",
+        "identifier": "@karanb192/reddit-buddy-mcp",
+        "version": "1.0.6-test.7",
         "transport": {
           "type": "stdio"
         }
@@ -4947,161 +5539,41 @@
     ],
     "_meta": {
       "io.modelcontextprotocol.registry/official": {
-        "serverId": "8362811b-c6cc-401d-92d9-6288295e9104",
-        "versionId": "aca46879-069c-4052-99a4-b6941bc6fb26",
-        "publishedAt": "2025-09-10T16:46:39.96638146Z",
-        "updatedAt": "2025-09-10T16:55:33.075242785Z",
-        "isLatest": false
-      }
-    }
-  },
-  {
-    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
-    "name": "io.github.rfdez/pvpc-mcp-server",
-    "description": "Retrieve daily PVPC electricity tariffs for 2.0 TD consumers, published by Red Eléctrica.",
-    "status": "active",
-    "repository": {
-      "url": "https://github.com/rfdez/pvpc-mcp-server",
-      "source": "github"
-    },
-    "version": "3.2.3",
-    "packages": [
-      {
-        "registryType": "npm",
-        "registryBaseUrl": "https://registry.npmjs.org",
-        "identifier": "@rfdez/pvpc-mcp-server",
-        "version": "3.2.3",
-        "runtimeHint": "npx",
-        "transport": {
-          "type": "stdio"
-        },
-        "packageArguments": [
-          {
-            "description": "Use stdio transport type for MCP server",
-            "value": "stdio",
-            "type": "named",
-            "name": "--transport"
-          },
-          {
-            "description": "ESIOS API key for authentication",
-            "isRequired": true,
-            "isSecret": true,
-            "type": "named",
-            "name": "--api-key"
-          }
-        ]
-      },
-      {
-        "registryType": "npm",
-        "registryBaseUrl": "https://registry.npmjs.org",
-        "identifier": "@rfdez/pvpc-mcp-server",
-        "version": "3.2.3",
-        "runtimeHint": "npx",
-        "transport": {
-          "type": "streamable-http",
-          "url": "http://127.0.0.1:8080/mcp",
-          "headers": [
-            {
-              "description": "ESIOS API key for authentication",
-              "isRequired": true,
-              "isSecret": true,
-              "name": "X-API-Key"
-            }
-          ]
-        },
-        "packageArguments": [
-          {
-            "description": "Use HTTP transport type for MCP server",
-            "value": "http",
-            "type": "named",
-            "name": "--transport"
-          },
-          {
-            "description": "Port for HTTP transport",
-            "default": "8080",
-            "type": "named",
-            "name": "--port"
-          }
-        ]
-      }
-    ],
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "serverId": "9c2d3dad-6914-4484-b9e2-2393f397e1cf",
-        "versionId": "f9fca6a5-fbdc-4dbe-b28c-ff352d059d7b",
-        "publishedAt": "2025-09-10T16:53:23.880648467Z",
-        "updatedAt": "2025-09-10T16:53:23.880648467Z",
+        "serverId": "9b13d420-4d1e-424e-9af2-bc9336c12892",
+        "versionId": "37a73b98-7065-4144-8bd2-9b7aa57340a5",
+        "publishedAt": "2025-09-15T07:27:45.7983415Z",
+        "updatedAt": "2025-09-15T07:27:45.7983415Z",
         "isLatest": true
       }
     }
   },
   {
     "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
-    "name": "io.github.ruvnet/claude-flow",
-    "description": "AI orchestration with hive-mind swarms, neural networks, and 87 MCP tools for enterprise dev.",
+    "name": "io.github.chris-schra/mcp-funnel",
+    "description": "MCP proxy that aggregates multiple servers with tool filtering and customization",
     "status": "active",
     "repository": {
-      "url": "https://github.com/ruvnet/claude-flow",
+      "url": "https://github.com/chris-schra/mcp-funnel",
       "source": "github"
     },
-    "version": "2.0.0-alpha.106",
+    "version": "0.0.6",
     "packages": [
       {
         "registryType": "npm",
         "registryBaseUrl": "https://registry.npmjs.org",
-        "identifier": "claude-flow",
-        "version": "2.0.0-alpha.106",
+        "identifier": "mcp-funnel",
+        "version": "0.0.6",
         "transport": {
           "type": "stdio"
-        },
-        "environmentVariables": [
-          {
-            "description": "Anthropic API key for Claude AI models",
-            "format": "string",
-            "isSecret": true,
-            "name": "ANTHROPIC_API_KEY"
-          },
-          {
-            "description": "Operation mode: development, production, or test",
-            "format": "string",
-            "name": "CLAUDE_FLOW_MODE"
-          },
-          {
-            "description": "Path for persistent memory storage",
-            "format": "string",
-            "name": "CLAUDE_FLOW_MEMORY_PATH"
-          },
-          {
-            "description": "Maximum number of concurrent agents",
-            "format": "string",
-            "name": "CLAUDE_FLOW_MAX_AGENTS"
-          },
-          {
-            "description": "MCP server port",
-            "format": "string",
-            "name": "CLAUDE_FLOW_PORT"
-          },
-          {
-            "description": "GitHub personal access token for repository operations",
-            "format": "string",
-            "isSecret": true,
-            "name": "GITHUB_TOKEN"
-          },
-          {
-            "description": "Flow Nexus cloud platform API key",
-            "format": "string",
-            "isSecret": true,
-            "name": "FLOW_NEXUS_API_KEY"
-          }
-        ]
+        }
       }
     ],
     "_meta": {
       "io.modelcontextprotocol.registry/official": {
-        "serverId": "8362811b-c6cc-401d-92d9-6288295e9104",
-        "versionId": "9623b70e-af1d-48ac-8338-e37ef96ca8cf",
-        "publishedAt": "2025-09-10T16:55:33.070739114Z",
-        "updatedAt": "2025-09-10T16:59:34.223138386Z",
+        "serverId": "1efb077e-f618-4258-8924-6e3dae14ef8b",
+        "versionId": "a8a5c761-c1dc-4d1d-9100-b57df4c9ec0d",
+        "publishedAt": "2025-09-17T18:33:35.912597Z",
+        "updatedAt": "2025-09-17T18:55:31.893305521Z",
         "isLatest": false
       }
     }
@@ -5133,478 +5605,6 @@
         "versionId": "f243a724-e41c-4616-887e-93520187cf34",
         "publishedAt": "2025-09-18T05:18:13.769559Z",
         "updatedAt": "2025-09-18T05:18:13.769559Z",
-        "isLatest": true
-      }
-    }
-  },
-  {
-    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
-    "name": "io.github.ruvnet/flow-nexus",
-    "description": "Cloud-powered AI platform with multi-agent swarms, sandboxes, and workflow automation",
-    "status": "active",
-    "repository": {
-      "url": "https://github.com/ruvnet/flow-nexus",
-      "source": "github"
-    },
-    "version": "0.1.121",
-    "packages": [
-      {
-        "registryType": "npm",
-        "registryBaseUrl": "https://registry.npmjs.org",
-        "identifier": "flow-nexus",
-        "version": "0.1.121",
-        "transport": {
-          "type": "stdio"
-        },
-        "environmentVariables": [
-          {
-            "description": "API key for Flow Nexus authentication",
-            "format": "string",
-            "isSecret": true,
-            "name": "FLOW_NEXUS_API_KEY"
-          },
-          {
-            "description": "Base URL for Flow Nexus API",
-            "format": "string",
-            "name": "FLOW_NEXUS_BASE_URL"
-          },
-          {
-            "description": "E2B API key for sandbox creation",
-            "format": "string",
-            "isSecret": true,
-            "name": "E2B_API_KEY"
-          },
-          {
-            "description": "Anthropic API key for Claude integration",
-            "format": "string",
-            "isSecret": true,
-            "name": "ANTHROPIC_API_KEY"
-          }
-        ]
-      }
-    ],
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "serverId": "b3bb56af-1134-4509-8d39-6e0ea641e4f1",
-        "versionId": "2052b35f-4321-4d32-88b9-0c4ca09771a0",
-        "publishedAt": "2025-09-10T16:22:10.934865687Z",
-        "updatedAt": "2025-09-10T16:22:10.934865687Z",
-        "isLatest": true
-      }
-    }
-  },
-  {
-    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
-    "name": "io.github.ruvnet/claude-flow",
-    "description": "AI orchestration with hive-mind swarms, neural networks, and 87 MCP tools for enterprise dev.",
-    "status": "active",
-    "repository": {
-      "url": "https://github.com/ruvnet/claude-flow",
-      "source": "github",
-      "id": "854513237"
-    },
-    "version": "2.0.0-alpha.107",
-    "packages": [
-      {
-        "registryType": "npm",
-        "registryBaseUrl": "https://registry.npmjs.org",
-        "identifier": "claude-flow",
-        "version": "2.0.0-alpha.107",
-        "transport": {
-          "type": "stdio"
-        },
-        "environmentVariables": [
-          {
-            "description": "Anthropic API key for Claude AI models",
-            "format": "string",
-            "isSecret": true,
-            "name": "ANTHROPIC_API_KEY"
-          },
-          {
-            "description": "Operation mode: development, production, or test",
-            "format": "string",
-            "name": "CLAUDE_FLOW_MODE"
-          },
-          {
-            "description": "Path for persistent memory storage",
-            "format": "string",
-            "name": "CLAUDE_FLOW_MEMORY_PATH"
-          },
-          {
-            "description": "Maximum number of concurrent agents",
-            "format": "string",
-            "name": "CLAUDE_FLOW_MAX_AGENTS"
-          },
-          {
-            "description": "MCP server port",
-            "format": "string",
-            "name": "CLAUDE_FLOW_PORT"
-          },
-          {
-            "description": "GitHub personal access token for repository operations",
-            "format": "string",
-            "isSecret": true,
-            "name": "GITHUB_TOKEN"
-          },
-          {
-            "description": "Flow Nexus cloud platform API key",
-            "format": "string",
-            "isSecret": true,
-            "name": "FLOW_NEXUS_API_KEY"
-          }
-        ]
-      }
-    ],
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "serverId": "8362811b-c6cc-401d-92d9-6288295e9104",
-        "versionId": "5db5281e-f8b9-49a8-bf3d-b15b911f634a",
-        "publishedAt": "2025-09-10T16:59:34.218265771Z",
-        "updatedAt": "2025-09-10T16:59:34.218265771Z",
-        "isLatest": true
-      }
-    }
-  },
-  {
-    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
-    "name": "ai.smithery/kwp-lab-rss-reader-mcp",
-    "description": "Track and browse RSS feeds with ease. Fetch the latest entries from any feed URL and extract full…",
-    "status": "active",
-    "repository": {
-      "url": "https://github.com/kwp-lab/rss-reader-mcp",
-      "source": "github"
-    },
-    "version": "1.0.0",
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://server.smithery.ai/@kwp-lab/rss-reader-mcp/mcp",
-        "headers": [
-          {
-            "description": "Bearer token for Smithery authentication",
-            "isRequired": true,
-            "value": "Bearer {smithery_api_key}",
-            "isSecret": true,
-            "name": "Authorization"
-          }
-        ]
-      }
-    ],
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "serverId": "54da6e94-f93f-428a-b621-c78b20a29b93",
-        "versionId": "7f80c7e7-1906-4315-a639-9a82089224b2",
-        "publishedAt": "2025-09-10T17:02:25.896522471Z",
-        "updatedAt": "2025-09-10T17:02:25.896522471Z",
-        "isLatest": true
-      }
-    }
-  },
-  {
-    "name": "io.github.ruvnet/ruv-swarm",
-    "description": "Neural network swarm orchestration with WebAssembly acceleration and MCP integration",
-    "repository": {
-      "url": "https://github.com/ruvnet/ruv-FANN",
-      "source": "github",
-      "subfolder": "ruv-swarm"
-    },
-    "version": "1.0.19",
-    "packages": [
-      {
-        "registryType": "npm",
-        "registryBaseUrl": "https://registry.npmjs.org",
-        "identifier": "ruv-swarm",
-        "version": "1.0.19",
-        "transport": {
-          "type": "stdio"
-        },
-        "environmentVariables": [
-          {
-            "description": "Log level for ruv-swarm operations",
-            "format": "string",
-            "default": "info",
-            "choices": [
-              "debug",
-              "info",
-              "warn",
-              "error"
-            ],
-            "name": "RUV_SWARM_LOG_LEVEL"
-          },
-          {
-            "description": "Database path for persistence storage",
-            "format": "string",
-            "name": "RUV_SWARM_DB_PATH"
-          },
-          {
-            "description": "Enable WebAssembly SIMD optimizations",
-            "format": "boolean",
-            "default": "true",
-            "choices": [
-              "true",
-              "false"
-            ],
-            "name": "RUV_SWARM_ENABLE_SIMD"
-          }
-        ]
-      }
-    ],
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "serverId": "ed5d3336-d432-45a4-93c3-4274d45f82ea",
-        "versionId": "160a7800-734c-43ab-84ba-81d2f04c042d",
-        "publishedAt": "2025-09-10T17:21:34.916674805Z",
-        "updatedAt": "2025-09-10T17:21:34.916674805Z",
-        "isLatest": true
-      }
-    }
-  },
-  {
-    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
-    "name": "ai.smithery/kesslerio-attio-mcp-server",
-    "description": "Enable AI assistants to interact directly with your Attio CRM data through natural language querie…",
-    "status": "active",
-    "repository": {
-      "url": "https://github.com/kesslerio/attio-mcp-server",
-      "source": "github"
-    },
-    "version": "0.2.0",
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://server.smithery.ai/@kesslerio/attio-mcp-server/mcp",
-        "headers": [
-          {
-            "description": "Bearer token for Smithery authentication",
-            "isRequired": true,
-            "value": "Bearer {smithery_api_key}",
-            "isSecret": true,
-            "name": "Authorization"
-          }
-        ]
-      }
-    ],
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "serverId": "c51d51d3-40b1-40ff-bf9f-d7564e1c3872",
-        "versionId": "fca4551c-4c86-485f-a548-9263a147effb",
-        "publishedAt": "2025-09-10T17:52:23.110357722Z",
-        "updatedAt": "2025-09-10T17:52:23.110357722Z",
-        "isLatest": true
-      }
-    }
-  },
-  {
-    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
-    "name": "ai.zine/mcp",
-    "description": "Your memory, everywhere AI goes. Build knowledge once, access it via MCP anywhere.",
-    "status": "active",
-    "repository": {
-      "url": "",
-      "source": ""
-    },
-    "version": "1.0.1",
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://www.zine.ai/mcp"
-      }
-    ],
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "serverId": "4ebda2a7-88c7-4ff1-8333-09bca54fecbf",
-        "versionId": "11139d6c-3cd1-43a3-bedf-94c30ba8b55b",
-        "publishedAt": "2025-09-10T18:02:28.773521652Z",
-        "updatedAt": "2025-09-10T18:02:28.773521652Z",
-        "isLatest": true
-      }
-    }
-  },
-  {
-    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
-    "name": "com.enigma/enigma-mcp-server",
-    "description": "An MCP server that provides access to trusted data about business identity and activity",
-    "status": "active",
-    "repository": {
-      "url": "",
-      "source": ""
-    },
-    "version": "1.0.0-build1",
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://mcp.enigma.com/http"
-      },
-      {
-        "type": "streamable-http",
-        "url": "https://mcp.enigma.com/http-key",
-        "headers": [
-          {
-            "description": "Token of Enigma API key. Used to enable authentication without presenting the user with an oAuth login.",
-            "isRequired": true,
-            "isSecret": true,
-            "name": "x-api-key"
-          }
-        ]
-      },
-      {
-        "type": "sse",
-        "url": "https://mcp.enigma.com/sse"
-      }
-    ],
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "serverId": "2a1822b0-c0d6-414c-9ee2-ea1851f35f28",
-        "versionId": "b5c49bdf-07bc-478b-9048-23590f4052fb",
-        "publishedAt": "2025-09-10T19:23:14.035830574Z",
-        "updatedAt": "2025-09-10T19:23:14.035830574Z",
-        "isLatest": false
-      }
-    }
-  },
-  {
-    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
-    "name": "ai.smithery/brave",
-    "description": "Visit https://brave.com/search/api/ for a free API key. Search the web, local businesses, images,…",
-    "status": "active",
-    "repository": {
-      "url": "https://github.com/brave/brave-search-mcp-server",
-      "source": "github"
-    },
-    "version": "1.3.7",
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://server.smithery.ai/brave/mcp",
-        "headers": [
-          {
-            "description": "Bearer token for Smithery authentication",
-            "isRequired": true,
-            "value": "Bearer {smithery_api_key}",
-            "isSecret": true,
-            "name": "Authorization"
-          }
-        ]
-      }
-    ],
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "serverId": "72fbc728-2894-4a60-aaf5-44d616ddd249",
-        "versionId": "2ad4f9a6-1c40-4839-948a-9749d9435395",
-        "publishedAt": "2025-09-10T19:25:38.948771647Z",
-        "updatedAt": "2025-09-12T14:23:41.796186943Z",
-        "isLatest": false
-      }
-    }
-  },
-  {
-    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
-    "name": "io.github.karanb192/reddit-buddy-mcp",
-    "description": "Reddit MCP server - browse posts, search content, analyze users.",
-    "repository": {
-      "url": "",
-      "source": ""
-    },
-    "version": "1.0.6-test.7",
-    "packages": [
-      {
-        "registryType": "npm",
-        "identifier": "@karanb192/reddit-buddy-mcp",
-        "version": "1.0.6-test.7",
-        "transport": {
-          "type": "stdio"
-        }
-      }
-    ],
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "serverId": "9b13d420-4d1e-424e-9af2-bc9336c12892",
-        "versionId": "37a73b98-7065-4144-8bd2-9b7aa57340a5",
-        "publishedAt": "2025-09-15T07:27:45.7983415Z",
-        "updatedAt": "2025-09-15T07:27:45.7983415Z",
-        "isLatest": true
-      }
-    }
-  },
-  {
-    "name": "io.github.ruvnet/ruv-swarm",
-    "description": "Neural network swarm orchestration with WebAssembly acceleration and MCP integration",
-    "repository": {
-      "url": "",
-      "source": ""
-    },
-    "version": "1.0.18",
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "serverId": "ed5d3336-d432-45a4-93c3-4274d45f82ea",
-        "versionId": "0a9cda7f-2b73-4839-844b-6582f335de42",
-        "publishedAt": "2025-09-10T17:15:32.69690433Z",
-        "updatedAt": "2025-09-10T17:21:34.92137012Z",
-        "isLatest": false
-      }
-    }
-  },
-  {
-    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
-    "name": "io.github.ryanbaumann/platform-ai",
-    "description": "Google Maps Platform Code Assist MCP",
-    "status": "active",
-    "repository": {
-      "url": "https://github.com/googlemaps/platform-ai",
-      "source": "github"
-    },
-    "version": "0.2.0",
-    "packages": [
-      {
-        "registryType": "npm",
-        "identifier": "@googlemaps/code-assist-mcp",
-        "version": "0.2.0",
-        "transport": {
-          "type": "stdio"
-        }
-      }
-    ],
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "serverId": "cbcbdd1a-d310-451f-9843-c83edf658b11",
-        "versionId": "7b66d3bf-72fa-4832-87fa-c80a60668aae",
-        "publishedAt": "2025-09-10T17:56:34.808006126Z",
-        "updatedAt": "2025-09-10T17:56:34.808006126Z",
-        "isLatest": true
-      }
-    }
-  },
-  {
-    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
-    "name": "ai.smithery/PabloLec-keyprobe-mcp",
-    "description": "Audit certificates and keystores to surface expiry risks, weak algorithms, and misconfigurations.…",
-    "status": "active",
-    "repository": {
-      "url": "https://github.com/PabloLec/KeyProbe-MCP",
-      "source": "github"
-    },
-    "version": "1.13.1",
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://server.smithery.ai/@PabloLec/keyprobe-mcp/mcp",
-        "headers": [
-          {
-            "description": "Bearer token for Smithery authentication",
-            "isRequired": true,
-            "value": "Bearer {smithery_api_key}",
-            "isSecret": true,
-            "name": "Authorization"
-          }
-        ]
-      }
-    ],
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "serverId": "771d6227-76a6-49f4-9aeb-de301d6a9439",
-        "versionId": "14b6f291-19f8-4bfc-9e64-82cc728c7708",
-        "publishedAt": "2025-09-10T18:08:11.479456255Z",
-        "updatedAt": "2025-09-10T18:08:11.479456255Z",
         "isLatest": true
       }
     }
@@ -22933,8 +22933,8 @@
         "serverId": "98619929-a570-46c1-8e35-4cde888731ee",
         "versionId": "75f4d79f-8e5a-4a80-a9e5-4f4dddac7693",
         "publishedAt": "2025-09-22T16:13:17.246045769Z",
-        "updatedAt": "2025-09-22T16:13:17.246045769Z",
-        "isLatest": true
+        "updatedAt": "2025-09-22T17:04:35.121526999Z",
+        "isLatest": false
       }
     }
   },
@@ -22967,6 +22967,220 @@
         "versionId": "f89004b6-43a1-45b6-9f72-ccecbe1cbbc3",
         "publishedAt": "2025-09-22T16:27:58.086742779Z",
         "updatedAt": "2025-09-22T16:27:58.086742779Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+    "name": "io.github.timheuer/sampledotnetmcpserver",
+    "description": "Sample .NET MCP Server",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/timheuer/sampledotnetmcpserver",
+      "source": "github"
+    },
+    "version": "0.1.57-beta",
+    "packages": [
+      {
+        "registryType": "nuget",
+        "registryBaseUrl": "https://api.nuget.org",
+        "identifier": "TimHeuer.SampleDotnetMcpServer",
+        "version": "0.1.57-beta",
+        "transport": {
+          "type": "stdio"
+        }
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "98619929-a570-46c1-8e35-4cde888731ee",
+        "versionId": "55d97a83-7c7b-4baf-b70f-e1676a8b667a",
+        "publishedAt": "2025-09-22T17:04:35.115505274Z",
+        "updatedAt": "2025-09-22T17:04:35.115505274Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "$schema": "https://registry.modelcontextprotocol.io/schema/mcp-server-v0.json",
+    "name": "io.github.Lungshot/ninjaone",
+    "description": "MCP server for NinjaONE RMM with device management, monitoring, and automation",
+    "repository": {
+      "url": "",
+      "source": ""
+    },
+    "version": "1.2.9",
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "32389d4c-f3b8-4702-87a7-d6880ecd8bb2",
+        "versionId": "13fa19a2-024f-412b-93dd-41620933bc23",
+        "publishedAt": "2025-09-22T17:51:28.941427211Z",
+        "updatedAt": "2025-09-22T17:51:28.941427211Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+    "name": "com.proxylink-mcp/mcp-server",
+    "description": "ProxyLink MCP server for finding and booking home service professionals",
+    "repository": {
+      "url": "",
+      "source": ""
+    },
+    "version": "2.0.0",
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://proxylink-mcp.com"
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "64947ce8-2b37-40dc-bb5b-5e1885fff32b",
+        "versionId": "e2cfc1a9-8122-4a46-86f2-0fe3c9c658fa",
+        "publishedAt": "2025-09-22T18:02:54.12402967Z",
+        "updatedAt": "2025-09-22T18:02:54.12402967Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+    "name": "com.gibsonai/mcp",
+    "description": "GibsonAI MCP server: manage your databases with natural language",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/gibsonai/mcp",
+      "source": "github"
+    },
+    "version": "1.0.0",
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.gibsonai.com/"
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "a136b4b2-643a-4374-a70f-c490b07bbf90",
+        "versionId": "b74b994f-aced-4deb-b0a1-74b976056214",
+        "publishedAt": "2025-09-22T18:43:05.221834159Z",
+        "updatedAt": "2025-09-22T18:43:05.221834159Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+    "name": "io.github.MR901/plots-mcp",
+    "description": "MCP server for data visualization with Mermaid charts.",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/MR901/plots-mcp",
+      "source": "github"
+    },
+    "version": "0.0.1",
+    "packages": [
+      {
+        "registryType": "pypi",
+        "registryBaseUrl": "https://pypi.org",
+        "identifier": "mcp-plots",
+        "version": "0.0.1",
+        "transport": {
+          "type": "stdio"
+        }
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "bdbc2c30-2654-4e63-a034-aa20c09e8dbf",
+        "versionId": "48d478fe-9fb1-4b8c-9132-3b0e3e22b2ca",
+        "publishedAt": "2025-09-22T19:25:51.843169807Z",
+        "updatedAt": "2025-09-22T19:25:51.843169807Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+    "name": "com.xcodebuildmcp/XcodeBuildMCP",
+    "description": "XcodeBuildMCP provides tools for Xcode project management, simulator management, and app utilities.",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/cameroncooke/XcodeBuildMCP",
+      "source": "github",
+      "id": "945551361"
+    },
+    "version": "1.14.1",
+    "packages": [
+      {
+        "registryType": "npm",
+        "registryBaseUrl": "https://registry.npmjs.org",
+        "identifier": "xcodebuildmcp",
+        "version": "1.14.1",
+        "runtimeHint": "npx",
+        "transport": {
+          "type": "stdio"
+        },
+        "environmentVariables": [
+          {
+            "description": "Enable experimental xcodemake incremental builds (true/false or 1/0).",
+            "format": "boolean",
+            "default": "false",
+            "choices": [
+              "true",
+              "false",
+              "1",
+              "0"
+            ],
+            "name": "INCREMENTAL_BUILDS_ENABLED"
+          },
+          {
+            "description": "Enable AI-powered dynamic tool discovery to load only relevant workflows.",
+            "format": "boolean",
+            "default": "false",
+            "choices": [
+              "true",
+              "false"
+            ],
+            "name": "XCODEBUILDMCP_DYNAMIC_TOOLS"
+          },
+          {
+            "description": "Comma-separated list of workflows to load in Static Mode (e.g., 'simulator,device,project-discovery').",
+            "format": "string",
+            "name": "XCODEBUILDMCP_ENABLED_WORKFLOWS"
+          },
+          {
+            "description": "Disable Sentry error reporting (preferred flag).",
+            "format": "boolean",
+            "default": "false",
+            "choices": [
+              "true",
+              "false"
+            ],
+            "name": "XCODEBUILDMCP_SENTRY_DISABLED"
+          },
+          {
+            "description": "Enable verbose debug logging from the server.",
+            "format": "boolean",
+            "default": "false",
+            "choices": [
+              "true",
+              "false"
+            ],
+            "name": "XCODEBUILDMCP_DEBUG"
+          }
+        ]
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "be9105fb-f8cb-4151-b6f8-21b49fd71fed",
+        "versionId": "1796acca-2fb5-431d-9fd0-4f5f5be0f020",
+        "publishedAt": "2025-09-22T20:19:27.621246958Z",
+        "updatedAt": "2025-09-22T20:19:27.621246958Z",
         "isLatest": true
       }
     }
