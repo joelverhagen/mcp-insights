@@ -4095,6 +4095,34 @@
     }
   },
   {
+    "name": "io.github.ruvnet/claude-flow",
+    "description": "AI orchestration with hive-mind swarms, neural networks, and 87 MCP tools for enterprise dev.",
+    "repository": {
+      "url": "",
+      "source": ""
+    },
+    "version": "2.0.0-alpha.104",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "claude-flow",
+        "version": "2.0.0-alpha.104",
+        "transport": {
+          "type": "stdio"
+        }
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "8362811b-c6cc-401d-92d9-6288295e9104",
+        "versionId": "d04e69ef-3bd3-4216-8145-928c3c775ee8",
+        "publishedAt": "2025-09-10T16:20:48.985187906Z",
+        "updatedAt": "2025-09-10T16:46:39.972611608Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
     "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
     "name": "io.github.ruvnet/flow-nexus",
     "description": "Cloud-powered AI platform with multi-agent swarms, sandboxes, and workflow automation",
@@ -4147,122 +4175,6 @@
         "publishedAt": "2025-09-10T16:22:10.934865687Z",
         "updatedAt": "2025-09-10T16:22:10.934865687Z",
         "isLatest": true
-      }
-    }
-  },
-  {
-    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
-    "name": "dev.rostro/rostro",
-    "description": "Turn any LLM multimodal; generate images, voices, videos, 3D models, music, and more.",
-    "status": "active",
-    "repository": {
-      "url": "https://github.com/francis-ros/rostro-mcp-server",
-      "source": "github"
-    },
-    "version": "1.0.0",
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://proto.rostro.dev/mcp"
-      }
-    ],
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "serverId": "ad9fa350-fafb-4e58-a075-a28c9d358ed3",
-        "versionId": "48f54e2e-d42d-4182-9598-351aa48f7a0c",
-        "publishedAt": "2025-09-10T16:44:28.57398885Z",
-        "updatedAt": "2025-09-10T16:44:28.57398885Z",
-        "isLatest": true
-      },
-      "io.modelcontextprotocol.registry/publisher-provided": {
-        "build_info": {
-          "commit": "f7e8d9c2b1a0",
-          "deployment_id": "remote-fs-deploy-456",
-          "region": "us-west-2",
-          "timestamp": "2023-12-05T08:45:00Z"
-        },
-        "tool": "cloud-deployer",
-        "version": "2.4.0"
-      }
-    }
-  },
-  {
-    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
-    "name": "io.ignission/mcp",
-    "description": "TikTok video data analytics and content strategy tools",
-    "status": "active",
-    "repository": {
-      "url": "https://github.com/ignission-io/mcp",
-      "source": "github"
-    },
-    "version": "1.0.0",
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://mcp.ignission.io/mcp"
-      }
-    ],
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "serverId": "83c33312-203b-4245-a0d8-94f9a453b4fa",
-        "versionId": "d544bbcc-44e2-4774-b097-e886b50dd022",
-        "publishedAt": "2025-09-10T16:49:33.978580087Z",
-        "updatedAt": "2025-09-10T16:49:33.978580087Z",
-        "isLatest": true
-      }
-    }
-  },
-  {
-    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
-    "name": "net.gepuro.mcp-company-lens-v1/company-lens-mcp-registry",
-    "description": "Search Japanese company database",
-    "status": "active",
-    "repository": {
-      "url": "https://github.com/gepuro/company-lens-mcp-registry",
-      "source": "github"
-    },
-    "version": "1.0.0",
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://mcp-company-lens-v1.gepuro.net/mcp"
-      }
-    ],
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "serverId": "67d420d6-f9da-4488-b264-88c4d6126171",
-        "versionId": "87793efe-79b4-4e91-8012-6a5cc6abe61e",
-        "publishedAt": "2025-09-13T02:14:01.9221662Z",
-        "updatedAt": "2025-09-13T02:14:01.9221662Z",
-        "isLatest": true
-      }
-    }
-  },
-  {
-    "name": "io.github.ruvnet/claude-flow",
-    "description": "AI orchestration with hive-mind swarms, neural networks, and 87 MCP tools for enterprise dev.",
-    "repository": {
-      "url": "",
-      "source": ""
-    },
-    "version": "2.0.0-alpha.104",
-    "packages": [
-      {
-        "registryType": "npm",
-        "identifier": "claude-flow",
-        "version": "2.0.0-alpha.104",
-        "transport": {
-          "type": "stdio"
-        }
-      }
-    ],
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "serverId": "8362811b-c6cc-401d-92d9-6288295e9104",
-        "versionId": "d04e69ef-3bd3-4216-8145-928c3c775ee8",
-        "publishedAt": "2025-09-10T16:20:48.985187906Z",
-        "updatedAt": "2025-09-10T16:46:39.972611608Z",
-        "isLatest": false
       }
     }
   },
@@ -4348,6 +4260,96 @@
   },
   {
     "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+    "name": "dev.rostro/rostro",
+    "description": "Turn any LLM multimodal; generate images, voices, videos, 3D models, music, and more.",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/francis-ros/rostro-mcp-server",
+      "source": "github"
+    },
+    "version": "1.0.0",
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://proto.rostro.dev/mcp"
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "ad9fa350-fafb-4e58-a075-a28c9d358ed3",
+        "versionId": "48f54e2e-d42d-4182-9598-351aa48f7a0c",
+        "publishedAt": "2025-09-10T16:44:28.57398885Z",
+        "updatedAt": "2025-09-10T16:44:28.57398885Z",
+        "isLatest": true
+      },
+      "io.modelcontextprotocol.registry/publisher-provided": {
+        "build_info": {
+          "commit": "f7e8d9c2b1a0",
+          "deployment_id": "remote-fs-deploy-456",
+          "region": "us-west-2",
+          "timestamp": "2023-12-05T08:45:00Z"
+        },
+        "tool": "cloud-deployer",
+        "version": "2.4.0"
+      }
+    }
+  },
+  {
+    "name": "io.github.ruvnet/claude-flow",
+    "description": "AI orchestration with hive-mind swarms, neural networks, and 87 MCP tools for enterprise dev.",
+    "repository": {
+      "url": "",
+      "source": ""
+    },
+    "version": "2.0.0-alpha.105",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "claude-flow",
+        "version": "2.0.0-alpha.105",
+        "transport": {
+          "type": "stdio"
+        }
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "8362811b-c6cc-401d-92d9-6288295e9104",
+        "versionId": "aca46879-069c-4052-99a4-b6941bc6fb26",
+        "publishedAt": "2025-09-10T16:46:39.96638146Z",
+        "updatedAt": "2025-09-10T16:55:33.075242785Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+    "name": "io.ignission/mcp",
+    "description": "TikTok video data analytics and content strategy tools",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/ignission-io/mcp",
+      "source": "github"
+    },
+    "version": "1.0.0",
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.ignission.io/mcp"
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "83c33312-203b-4245-a0d8-94f9a453b4fa",
+        "versionId": "d544bbcc-44e2-4774-b097-e886b50dd022",
+        "publishedAt": "2025-09-10T16:49:33.978580087Z",
+        "updatedAt": "2025-09-10T16:49:33.978580087Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
     "name": "io.github.rfdez/pvpc-mcp-server",
     "description": "Retrieve daily PVPC electricity tariffs for 2.0 TD consumers, published by Red Eléctrica.",
     "status": "active",
@@ -4428,6 +4430,67 @@
   },
   {
     "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+    "name": "ai.smithery/rfdez-pvpc-mcp-server",
+    "description": "Retrieve daily PVPC electricity tariffs for 2.0 TD consumers, published by Red Eléctrica.",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/rfdez/pvpc-mcp-server",
+      "source": "github"
+    },
+    "version": "3.2.3",
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://server.smithery.ai/@rfdez/pvpc-mcp-server/mcp",
+        "headers": [
+          {
+            "description": "Bearer token for Smithery authentication",
+            "isRequired": true,
+            "value": "Bearer {smithery_api_key}",
+            "isSecret": true,
+            "name": "Authorization"
+          }
+        ]
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "351f53a0-7d2d-40aa-adeb-a203878ff560",
+        "versionId": "24646991-b0ea-4ad2-b588-37034ff85880",
+        "publishedAt": "2025-09-10T16:57:17.590562136Z",
+        "updatedAt": "2025-09-10T16:57:17.590562136Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+    "name": "net.gepuro.mcp-company-lens-v1/company-lens-mcp-registry",
+    "description": "Search Japanese company database",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/gepuro/company-lens-mcp-registry",
+      "source": "github"
+    },
+    "version": "1.0.0",
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp-company-lens-v1.gepuro.net/mcp"
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "67d420d6-f9da-4488-b264-88c4d6126171",
+        "versionId": "87793efe-79b4-4e91-8012-6a5cc6abe61e",
+        "publishedAt": "2025-09-13T02:14:01.9221662Z",
+        "updatedAt": "2025-09-13T02:14:01.9221662Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
     "name": "io.github.stefanoamorelli/fred-mcp-server",
     "description": "Federal Reserve Economic Data (FRED) MCP Server - Access all 800,000+ economic time series",
     "status": "active",
@@ -4463,34 +4526,6 @@
         "publishedAt": "2025-09-14T11:16:38.3334627Z",
         "updatedAt": "2025-09-14T11:16:38.3334627Z",
         "isLatest": true
-      }
-    }
-  },
-  {
-    "name": "io.github.ruvnet/claude-flow",
-    "description": "AI orchestration with hive-mind swarms, neural networks, and 87 MCP tools for enterprise dev.",
-    "repository": {
-      "url": "",
-      "source": ""
-    },
-    "version": "2.0.0-alpha.105",
-    "packages": [
-      {
-        "registryType": "npm",
-        "identifier": "claude-flow",
-        "version": "2.0.0-alpha.105",
-        "transport": {
-          "type": "stdio"
-        }
-      }
-    ],
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "serverId": "8362811b-c6cc-401d-92d9-6288295e9104",
-        "versionId": "aca46879-069c-4052-99a4-b6941bc6fb26",
-        "publishedAt": "2025-09-10T16:46:39.96638146Z",
-        "updatedAt": "2025-09-10T16:55:33.075242785Z",
-        "isLatest": false
       }
     }
   },
@@ -4562,41 +4597,6 @@
         "publishedAt": "2025-09-10T16:55:33.070739114Z",
         "updatedAt": "2025-09-10T16:59:34.223138386Z",
         "isLatest": false
-      }
-    }
-  },
-  {
-    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
-    "name": "ai.smithery/rfdez-pvpc-mcp-server",
-    "description": "Retrieve daily PVPC electricity tariffs for 2.0 TD consumers, published by Red Eléctrica.",
-    "status": "active",
-    "repository": {
-      "url": "https://github.com/rfdez/pvpc-mcp-server",
-      "source": "github"
-    },
-    "version": "3.2.3",
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://server.smithery.ai/@rfdez/pvpc-mcp-server/mcp",
-        "headers": [
-          {
-            "description": "Bearer token for Smithery authentication",
-            "isRequired": true,
-            "value": "Bearer {smithery_api_key}",
-            "isSecret": true,
-            "name": "Authorization"
-          }
-        ]
-      }
-    ],
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "serverId": "351f53a0-7d2d-40aa-adeb-a203878ff560",
-        "versionId": "24646991-b0ea-4ad2-b588-37034ff85880",
-        "publishedAt": "2025-09-10T16:57:17.590562136Z",
-        "updatedAt": "2025-09-10T16:57:17.590562136Z",
-        "isLatest": true
       }
     }
   },
@@ -4821,97 +4821,6 @@
   },
   {
     "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
-    "name": "io.github.jkakar/recipe-mcp",
-    "description": "Generate and remix recipes using cookwith.co",
-    "status": "active",
-    "repository": {
-      "url": "https://github.com/blaideinc/recipe-mcp",
-      "source": "github"
-    },
-    "version": "1.0.3",
-    "packages": [
-      {
-        "registryType": "npm",
-        "registryBaseUrl": "https://registry.npmjs.org",
-        "identifier": "@cookwith/recipe-mcp",
-        "version": "1.0.3",
-        "transport": {
-          "type": "stdio"
-        }
-      }
-    ],
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "serverId": "c3b3c3c7-4e0d-4529-bc19-85c18239baf4",
-        "versionId": "94e6cd5b-6def-4054-bf2d-91c8c31205a5",
-        "publishedAt": "2025-09-11T18:30:58.5302013Z",
-        "updatedAt": "2025-09-11T18:33:51.807883948Z",
-        "isLatest": false
-      }
-    }
-  },
-  {
-    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
-    "name": "io.github.karanb192/reddit-buddy-mcp",
-    "description": "Reddit MCP server - browse posts, search content, analyze users.",
-    "repository": {
-      "url": "",
-      "source": ""
-    },
-    "version": "1.0.6-test.7",
-    "packages": [
-      {
-        "registryType": "npm",
-        "identifier": "@karanb192/reddit-buddy-mcp",
-        "version": "1.0.6-test.7",
-        "transport": {
-          "type": "stdio"
-        }
-      }
-    ],
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "serverId": "9b13d420-4d1e-424e-9af2-bc9336c12892",
-        "versionId": "37a73b98-7065-4144-8bd2-9b7aa57340a5",
-        "publishedAt": "2025-09-15T07:27:45.7983415Z",
-        "updatedAt": "2025-09-15T07:27:45.7983415Z",
-        "isLatest": true
-      }
-    }
-  },
-  {
-    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
-    "name": "io.github.macuse-app/macuse",
-    "description": "Bridges AI assistants with native macOS functionality through the Model Context Protocol (MCP).",
-    "status": "active",
-    "repository": {
-      "url": "https://github.com/macuse-app/macuse",
-      "source": "github"
-    },
-    "version": "1.0.1",
-    "packages": [
-      {
-        "registryType": "mcpb",
-        "identifier": "https://github.com/macuse-app/macuse/releases/download/v1.0.1/macuse-1.0.1.mcpb",
-        "version": "1.0.1",
-        "fileSha256": "9e3444c567c66a57d15657dca437dbdb9560d16f00e6d4ac3d95ea795b9b482e",
-        "transport": {
-          "type": "stdio"
-        }
-      }
-    ],
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "serverId": "a455293b-e253-41df-b711-6569dc5eb957",
-        "versionId": "f243a724-e41c-4616-887e-93520187cf34",
-        "publishedAt": "2025-09-18T05:18:13.769559Z",
-        "updatedAt": "2025-09-18T05:18:13.769559Z",
-        "isLatest": true
-      }
-    }
-  },
-  {
-    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
     "name": "ai.smithery/kesslerio-attio-mcp-server",
     "description": "Enable AI assistants to interact directly with your Attio CRM data through natural language querie…",
     "status": "active",
@@ -4972,37 +4881,6 @@
         "publishedAt": "2025-09-10T17:56:34.808006126Z",
         "updatedAt": "2025-09-10T17:56:34.808006126Z",
         "isLatest": true
-      }
-    }
-  },
-  {
-    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
-    "name": "io.github.chris-schra/mcp-funnel",
-    "description": "MCP proxy that aggregates multiple servers with tool filtering and customization",
-    "status": "active",
-    "repository": {
-      "url": "https://github.com/chris-schra/mcp-funnel",
-      "source": "github"
-    },
-    "version": "0.0.6",
-    "packages": [
-      {
-        "registryType": "npm",
-        "registryBaseUrl": "https://registry.npmjs.org",
-        "identifier": "mcp-funnel",
-        "version": "0.0.6",
-        "transport": {
-          "type": "stdio"
-        }
-      }
-    ],
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "serverId": "1efb077e-f618-4258-8924-6e3dae14ef8b",
-        "versionId": "a8a5c761-c1dc-4d1d-9100-b57df4c9ec0d",
-        "publishedAt": "2025-09-17T18:33:35.912597Z",
-        "updatedAt": "2025-09-17T18:55:31.893305521Z",
-        "isLatest": false
       }
     }
   },
@@ -5606,6 +5484,128 @@
         "publishedAt": "2025-09-10T21:06:07.509501146Z",
         "updatedAt": "2025-09-12T18:25:16.141869963Z",
         "isLatest": false
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+    "name": "io.github.jkakar/recipe-mcp",
+    "description": "Generate and remix recipes using cookwith.co",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/blaideinc/recipe-mcp",
+      "source": "github"
+    },
+    "version": "1.0.3",
+    "packages": [
+      {
+        "registryType": "npm",
+        "registryBaseUrl": "https://registry.npmjs.org",
+        "identifier": "@cookwith/recipe-mcp",
+        "version": "1.0.3",
+        "transport": {
+          "type": "stdio"
+        }
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "c3b3c3c7-4e0d-4529-bc19-85c18239baf4",
+        "versionId": "94e6cd5b-6def-4054-bf2d-91c8c31205a5",
+        "publishedAt": "2025-09-11T18:30:58.5302013Z",
+        "updatedAt": "2025-09-11T18:33:51.807883948Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+    "name": "io.github.karanb192/reddit-buddy-mcp",
+    "description": "Reddit MCP server - browse posts, search content, analyze users.",
+    "repository": {
+      "url": "",
+      "source": ""
+    },
+    "version": "1.0.6-test.7",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "@karanb192/reddit-buddy-mcp",
+        "version": "1.0.6-test.7",
+        "transport": {
+          "type": "stdio"
+        }
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "9b13d420-4d1e-424e-9af2-bc9336c12892",
+        "versionId": "37a73b98-7065-4144-8bd2-9b7aa57340a5",
+        "publishedAt": "2025-09-15T07:27:45.7983415Z",
+        "updatedAt": "2025-09-15T07:27:45.7983415Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+    "name": "io.github.chris-schra/mcp-funnel",
+    "description": "MCP proxy that aggregates multiple servers with tool filtering and customization",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/chris-schra/mcp-funnel",
+      "source": "github"
+    },
+    "version": "0.0.6",
+    "packages": [
+      {
+        "registryType": "npm",
+        "registryBaseUrl": "https://registry.npmjs.org",
+        "identifier": "mcp-funnel",
+        "version": "0.0.6",
+        "transport": {
+          "type": "stdio"
+        }
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "1efb077e-f618-4258-8924-6e3dae14ef8b",
+        "versionId": "a8a5c761-c1dc-4d1d-9100-b57df4c9ec0d",
+        "publishedAt": "2025-09-17T18:33:35.912597Z",
+        "updatedAt": "2025-09-17T18:55:31.893305521Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+    "name": "io.github.macuse-app/macuse",
+    "description": "Bridges AI assistants with native macOS functionality through the Model Context Protocol (MCP).",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/macuse-app/macuse",
+      "source": "github"
+    },
+    "version": "1.0.1",
+    "packages": [
+      {
+        "registryType": "mcpb",
+        "identifier": "https://github.com/macuse-app/macuse/releases/download/v1.0.1/macuse-1.0.1.mcpb",
+        "version": "1.0.1",
+        "fileSha256": "9e3444c567c66a57d15657dca437dbdb9560d16f00e6d4ac3d95ea795b9b482e",
+        "transport": {
+          "type": "stdio"
+        }
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "a455293b-e253-41df-b711-6569dc5eb957",
+        "versionId": "f243a724-e41c-4616-887e-93520187cf34",
+        "publishedAt": "2025-09-18T05:18:13.769559Z",
+        "updatedAt": "2025-09-18T05:18:13.769559Z",
+        "isLatest": true
       }
     }
   },
@@ -22162,8 +22162,8 @@
         "serverId": "78162e28-0738-46be-b2ef-b1c6469a1616",
         "versionId": "b9c67f43-e6e5-412b-b3bf-49d3ea88c530",
         "publishedAt": "2025-09-21T13:59:09.345933804Z",
-        "updatedAt": "2025-09-21T13:59:09.345933804Z",
-        "isLatest": true
+        "updatedAt": "2025-09-22T08:33:07.216891447Z",
+        "isLatest": false
       }
     }
   },
@@ -22610,6 +22610,58 @@
         "versionId": "7805cd90-e4d5-4446-9a63-05e56d06ae87",
         "publishedAt": "2025-09-22T00:26:57.630168405Z",
         "updatedAt": "2025-09-22T00:26:57.630168405Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+    "name": "dev.composio.rube/rube",
+    "description": "Connect your AI to 500+ apps like Gmail, Slack, GitHub, and Notion with streamable HTTP transport.",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/ComposioHQ/Rube",
+      "source": "github"
+    },
+    "version": "0.0.2",
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://rube.composio.dev/mcp"
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "2a705690-7684-4f32-9c2d-05a9080c5b72",
+        "versionId": "c1c6f9d2-07ef-4d93-a5e6-67ddbfbd33bb",
+        "publishedAt": "2025-09-22T06:16:36.167908046Z",
+        "updatedAt": "2025-09-22T06:16:36.167908046Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+    "name": "io.github.kevincogan/demo-mcp-server",
+    "description": "Demo server entry for local testing",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/kevincogan/demo-mcp-server",
+      "source": "github"
+    },
+    "version": "1.0.3",
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://kevincogan.github.io/mcp"
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "78162e28-0738-46be-b2ef-b1c6469a1616",
+        "versionId": "bbcdf831-c7bf-4c52-affb-3750b146a001",
+        "publishedAt": "2025-09-22T08:33:07.198215918Z",
+        "updatedAt": "2025-09-22T08:33:07.198215918Z",
         "isLatest": true
       }
     }
