@@ -2,6 +2,8 @@
 
 Automated (every 4 hours) pull of the public Model Context Protocol registry plus a generated daily trend chart and stats.
 
+[![Update data](https://github.com/joelverhagen/mcp-insights/actions/workflows/update-data.yml/badge.svg?event=schedule)](https://github.com/joelverhagen/mcp-insights/actions/workflows/update-data.yml)
+
 **See the latest detailed report (chart + stats) in [`summary.md`](./summary.md).**
 
 This project is inspired by pub.dev's wonderful [pub_insights](https://github.com/loic-sharma/pub_insights) project.
