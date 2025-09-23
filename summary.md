@@ -1,6 +1,6 @@
 # Servers published summary
 
-Generated on: 2025-09-23T16:34:31.9218488+00:00
+Generated on: 2025-09-23T20:29:59.8964000+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
