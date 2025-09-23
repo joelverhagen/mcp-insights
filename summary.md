@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2025-09-23T04:31:45.4583439+00:00
+Generated on: 2025-09-23T08:35:14.1982325+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 583
-- Total unique server names: 363
+- Total records processed: 588
+- Total unique server names: 367
 - Date range: 2025-09-08 to 2025-09-23
 - Peak day: 2025-09-09 with 54 unique server names
-- Average unique server names per day: 27
+- Average unique server names per day: 27.31
 
 ## Top 5 busiest days
 - 2025-09-09: 54 unique servers
@@ -22,15 +22,15 @@ Generated on: 2025-09-23T04:31:45.4583439+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| remote | 181 | 49.86% |
-| npm | 108 | 29.75% |
-| pypi | 37 | 10.19% |
-| oci | 13 | 3.58% |
-| none | 8 | 2.2% |
-| mcpb | 7 | 1.93% |
-| nuget | 5 | 1.38% |
-| mcpb+npm+oci | 3 | 0.83% |
-| oci+pypi | 1 | 0.28% |
+| remote | 184 | 50.14% |
+| npm | 108 | 29.43% |
+| pypi | 38 | 10.35% |
+| oci | 13 | 3.54% |
+| none | 8 | 2.18% |
+| mcpb | 7 | 1.91% |
+| nuget | 5 | 1.36% |
+| mcpb+npm+oci | 3 | 0.82% |
+| oci+pypi | 1 | 0.27% |
 
 ## Top 20 domains by unique server names
 
@@ -45,6 +45,7 @@ Generated on: 2025-09-23T04:31:45.4583439+00:00
 | jkawamoto.github.io | 3 | mcpb |
 | domdomegg.github.io | 3 | mcpb+npm+oci, nuget, pypi |
 | cyanheads.github.io | 3 | npm |
+| biodnd.com | 3 | remote |
 | b1ff.github.io | 3 | npm |
 | yuna0x0.github.io | 2 | mcpb+npm+oci |
 | stefanoamorelli.github.io | 2 | npm, pypi |
@@ -55,4 +56,3 @@ Generated on: 2025-09-23T04:31:45.4583439+00:00
 | joelverhagen.github.io | 2 | nuget |
 | jkakar.github.io | 2 | none, npm |
 | henilcalagiya.github.io | 2 | pypi |
-| formulahendry.github.io | 2 | npm |
