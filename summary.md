@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2025-09-23T12:54:40.6945731+00:00
+Generated on: 2025-09-23T16:34:31.9218488+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 601
-- Total unique server names: 373
+- Total records processed: 605
+- Total unique server names: 376
 - Date range: 2025-09-08 to 2025-09-23
 - Peak day: 2025-09-09 with 54 unique server names
-- Average unique server names per day: 27.75
+- Average unique server names per day: 27.94
 
 ## Top 5 busiest days
 - 2025-09-09: 54 unique servers
@@ -22,13 +22,13 @@ Generated on: 2025-09-23T12:54:40.6945731+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| remote | 185 | 49.6% |
-| npm | 109 | 29.22% |
-| pypi | 39 | 10.46% |
-| oci | 13 | 3.49% |
-| none | 11 | 2.95% |
-| mcpb | 7 | 1.88% |
-| nuget | 5 | 1.34% |
+| remote | 186 | 49.47% |
+| npm | 109 | 28.99% |
+| pypi | 39 | 10.37% |
+| oci | 13 | 3.46% |
+| none | 13 | 3.46% |
+| mcpb | 7 | 1.86% |
+| nuget | 5 | 1.33% |
 | mcpb+npm+oci | 3 | 0.8% |
 | oci+pypi | 1 | 0.27% |
 
@@ -53,6 +53,6 @@ Generated on: 2025-09-23T12:54:40.6945731+00:00
 | spences10.github.io | 2 | npm |
 | shawndurrani.ai | 2 | npm, remote |
 | shalevshalit.github.io | 2 | npm |
+| ptyagiegnyte.github.io | 2 | none |
 | mr901.github.io | 2 | pypi |
 | karanb192.github.io | 2 | npm |
-| joelverhagen.github.io | 2 | nuget |
