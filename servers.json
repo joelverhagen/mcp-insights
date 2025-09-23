@@ -2491,8 +2491,8 @@
         "serverId": "770f5812-1f2f-46c7-bef9-e05f6d62f304",
         "versionId": "c9fdc775-1ff6-4c60-a696-58b5a07ab59e",
         "publishedAt": "2025-09-09T18:15:23.108331317Z",
-        "updatedAt": "2025-09-09T18:15:23.108331317Z",
-        "isLatest": true
+        "updatedAt": "2025-09-22T21:07:57.610560832Z",
+        "isLatest": false
       }
     }
   },
@@ -4095,6 +4095,34 @@
     }
   },
   {
+    "name": "io.github.ruvnet/claude-flow",
+    "description": "AI orchestration with hive-mind swarms, neural networks, and 87 MCP tools for enterprise dev.",
+    "repository": {
+      "url": "",
+      "source": ""
+    },
+    "version": "2.0.0-alpha.104",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "claude-flow",
+        "version": "2.0.0-alpha.104",
+        "transport": {
+          "type": "stdio"
+        }
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "8362811b-c6cc-401d-92d9-6288295e9104",
+        "versionId": "d04e69ef-3bd3-4216-8145-928c3c775ee8",
+        "publishedAt": "2025-09-10T16:20:48.985187906Z",
+        "updatedAt": "2025-09-10T16:46:39.972611608Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
     "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
     "name": "io.github.ruvnet/flow-nexus",
     "description": "Cloud-powered AI platform with multi-agent swarms, sandboxes, and workflow automation",
@@ -4263,34 +4291,6 @@
         },
         "tool": "cloud-deployer",
         "version": "2.4.0"
-      }
-    }
-  },
-  {
-    "name": "io.github.ruvnet/claude-flow",
-    "description": "AI orchestration with hive-mind swarms, neural networks, and 87 MCP tools for enterprise dev.",
-    "repository": {
-      "url": "",
-      "source": ""
-    },
-    "version": "2.0.0-alpha.105",
-    "packages": [
-      {
-        "registryType": "npm",
-        "identifier": "claude-flow",
-        "version": "2.0.0-alpha.105",
-        "transport": {
-          "type": "stdio"
-        }
-      }
-    ],
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "serverId": "8362811b-c6cc-401d-92d9-6288295e9104",
-        "versionId": "aca46879-069c-4052-99a4-b6941bc6fb26",
-        "publishedAt": "2025-09-10T16:46:39.96638146Z",
-        "updatedAt": "2025-09-10T16:55:33.075242785Z",
-        "isLatest": false
       }
     }
   },
@@ -4579,12 +4579,12 @@
       "url": "",
       "source": ""
     },
-    "version": "2.0.0-alpha.104",
+    "version": "2.0.0-alpha.105",
     "packages": [
       {
         "registryType": "npm",
         "identifier": "claude-flow",
-        "version": "2.0.0-alpha.104",
+        "version": "2.0.0-alpha.105",
         "transport": {
           "type": "stdio"
         }
@@ -4593,9 +4593,9 @@
     "_meta": {
       "io.modelcontextprotocol.registry/official": {
         "serverId": "8362811b-c6cc-401d-92d9-6288295e9104",
-        "versionId": "d04e69ef-3bd3-4216-8145-928c3c775ee8",
-        "publishedAt": "2025-09-10T16:20:48.985187906Z",
-        "updatedAt": "2025-09-10T16:46:39.972611608Z",
+        "versionId": "aca46879-069c-4052-99a4-b6941bc6fb26",
+        "publishedAt": "2025-09-10T16:46:39.96638146Z",
+        "updatedAt": "2025-09-10T16:55:33.075242785Z",
         "isLatest": false
       }
     }
@@ -23181,6 +23181,57 @@
         "versionId": "1796acca-2fb5-431d-9fd0-4f5f5be0f020",
         "publishedAt": "2025-09-22T20:19:27.621246958Z",
         "updatedAt": "2025-09-22T20:19:27.621246958Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+    "name": "com.close/close-mcp",
+    "description": "Close CRM to manage your sales pipeline. Learn more at https://close.com or https://mcp.close.com",
+    "status": "active",
+    "repository": {
+      "url": "",
+      "source": ""
+    },
+    "version": "1.0.1",
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.close.com/mcp"
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "770f5812-1f2f-46c7-bef9-e05f6d62f304",
+        "versionId": "2f86faac-87bf-49e5-bcec-e439687e0923",
+        "publishedAt": "2025-09-22T21:07:57.602590144Z",
+        "updatedAt": "2025-09-22T21:07:57.602590144Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+    "name": "com.findyourfivepm/mcp-server",
+    "description": "Discover cities where it's currently 5PM around the world with timezone and location data.",
+    "repository": {
+      "url": "",
+      "source": ""
+    },
+    "version": "1.0.2",
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.findyourfivepm.com"
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "53546a6e-b9a2-42c2-80e8-25de952fc608",
+        "versionId": "89638680-b5e8-4024-a01a-767b19552328",
+        "publishedAt": "2025-09-23T00:32:16.764241388Z",
+        "updatedAt": "2025-09-23T00:32:16.764241388Z",
         "isLatest": true
       }
     }
