@@ -978,13 +978,13 @@
   {
     "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
     "name": "app.getdialer/dialer",
-    "description": "An MCP server that provides lets you make outbound phone calls using your own phone number",
+    "description": "An MCP server that provides your you make outbound phone calls using your own phone number",
     "status": "active",
     "repository": {
       "url": "",
       "source": ""
     },
-    "version": "1.0.1",
+    "version": "1.0.0",
     "remotes": [
       {
         "type": "streamable-http",
@@ -998,10 +998,10 @@
     "_meta": {
       "io.modelcontextprotocol.registry/official": {
         "serverId": "c8eaffb8-57a8-4d66-8a32-fa6e25f5bcb9",
-        "versionId": "faa26cb9-3aad-415e-aece-f715fff5fe5e",
-        "publishedAt": "2025-09-09T00:16:49.107842808Z",
-        "updatedAt": "2025-09-09T00:16:49.107842808Z",
-        "isLatest": true
+        "versionId": "04f25b17-331d-48d7-b08b-37baece208a7",
+        "publishedAt": "2025-09-08T23:47:09.452137971Z",
+        "updatedAt": "2025-09-09T00:16:49.162620072Z",
+        "isLatest": false
       }
     }
   },
@@ -1037,13 +1037,13 @@
   {
     "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
     "name": "app.getdialer/dialer",
-    "description": "An MCP server that provides your you make outbound phone calls using your own phone number",
+    "description": "An MCP server that provides lets you make outbound phone calls using your own phone number",
     "status": "active",
     "repository": {
       "url": "",
       "source": ""
     },
-    "version": "1.0.0",
+    "version": "1.0.1",
     "remotes": [
       {
         "type": "streamable-http",
@@ -1057,10 +1057,10 @@
     "_meta": {
       "io.modelcontextprotocol.registry/official": {
         "serverId": "c8eaffb8-57a8-4d66-8a32-fa6e25f5bcb9",
-        "versionId": "04f25b17-331d-48d7-b08b-37baece208a7",
-        "publishedAt": "2025-09-08T23:47:09.452137971Z",
-        "updatedAt": "2025-09-09T00:16:49.162620072Z",
-        "isLatest": false
+        "versionId": "faa26cb9-3aad-415e-aece-f715fff5fe5e",
+        "publishedAt": "2025-09-09T00:16:49.107842808Z",
+        "updatedAt": "2025-09-09T00:16:49.107842808Z",
+        "isLatest": true
       }
     }
   },
@@ -2783,6 +2783,45 @@
   },
   {
     "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+    "name": "io.github.pshivapr/selenium-mcp",
+    "description": "Selenium Tools for MCP",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/pshivapr/selenium-mcp",
+      "source": "github"
+    },
+    "version": "0.3.9",
+    "packages": [
+      {
+        "registryType": "npm",
+        "registryBaseUrl": "https://registry.npmjs.org",
+        "identifier": "selenium-webdriver-mcp",
+        "version": "0.3.9",
+        "transport": {
+          "type": "stdio"
+        },
+        "environmentVariables": [
+          {
+            "description": "Your API key for the service",
+            "format": "string",
+            "isSecret": true,
+            "name": "YOUR_API_KEY"
+          }
+        ]
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "e6648a72-6a2f-4b64-991e-4be3ed59ed3c",
+        "versionId": "cc6f63b8-d592-4ca8-9440-9e3be35be2c8",
+        "publishedAt": "2025-09-09T19:08:26.435100548Z",
+        "updatedAt": "2025-09-11T13:43:51.367329854Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
     "name": "com.mintmcp/gmail",
     "description": "A MintMCP server for Gmail that lets you search, read, and draft emails and replies.",
     "status": "active",
@@ -2844,45 +2883,6 @@
         "publishedAt": "2025-09-14T11:16:38.3334627Z",
         "updatedAt": "2025-09-14T11:16:38.3334627Z",
         "isLatest": true
-      }
-    }
-  },
-  {
-    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
-    "name": "io.github.pshivapr/selenium-mcp",
-    "description": "Selenium Tools for MCP",
-    "status": "active",
-    "repository": {
-      "url": "https://github.com/pshivapr/selenium-mcp",
-      "source": "github"
-    },
-    "version": "0.3.9",
-    "packages": [
-      {
-        "registryType": "npm",
-        "registryBaseUrl": "https://registry.npmjs.org",
-        "identifier": "selenium-webdriver-mcp",
-        "version": "0.3.9",
-        "transport": {
-          "type": "stdio"
-        },
-        "environmentVariables": [
-          {
-            "description": "Your API key for the service",
-            "format": "string",
-            "isSecret": true,
-            "name": "YOUR_API_KEY"
-          }
-        ]
-      }
-    ],
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "serverId": "e6648a72-6a2f-4b64-991e-4be3ed59ed3c",
-        "versionId": "cc6f63b8-d592-4ca8-9440-9e3be35be2c8",
-        "publishedAt": "2025-09-09T19:08:26.435100548Z",
-        "updatedAt": "2025-09-11T13:43:51.367329854Z",
-        "isLatest": false
       }
     }
   },
@@ -25186,6 +25186,64 @@
         "versionId": "ef17379f-744b-45e4-9785-ca0048d9f4c6",
         "publishedAt": "2025-09-25T12:29:09.239297696Z",
         "updatedAt": "2025-09-25T12:29:09.239297696Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+    "name": "com.tableall/mcp",
+    "description": "Access Japan's finest Michelin-starred restaurants. Search, check availability, and browse menus.",
+    "repository": {
+      "url": "",
+      "source": ""
+    },
+    "version": "1.0.0",
+    "remotes": [
+      {
+        "type": "sse",
+        "url": "https://mcp.tableall.com/sse"
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "905c32bd-7f6a-495f-ae25-f2a1716b7ff2",
+        "versionId": "68fd2769-066d-4c66-b197-45cd1c664388",
+        "publishedAt": "2025-09-25T13:06:07.208445287Z",
+        "updatedAt": "2025-09-25T13:06:07.208445287Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+    "name": "technology.draup/api-server",
+    "description": "Global labour & market data for skills, workforce, planning, stakeholders, jobs, news & profiles",
+    "repository": {
+      "url": "",
+      "source": ""
+    },
+    "version": "1.0.0",
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.draup.technology/mcp/",
+        "headers": [
+          {
+            "description": "Get the API key from Draup Support (support@draup.com)",
+            "isRequired": true,
+            "isSecret": true,
+            "name": "X-API-Key"
+          }
+        ]
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "df95026a-1446-48e1-b7fc-5f97736668cf",
+        "versionId": "23c1cf54-2ea0-4625-aa2e-4450bf8877be",
+        "publishedAt": "2025-09-25T15:32:50.991403872Z",
+        "updatedAt": "2025-09-25T15:32:50.991403872Z",
         "isLatest": true
       }
     }
