@@ -32,13 +32,13 @@
   {
     "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
     "name": "io.github.savhascelik/meta-api-mcp-server",
-    "description": "A configuration-driven Meta API Gateway server for the Model Context Protocol (MCP).",
+    "description": "You can connect any API to LLMs. This enables AI to interact directly with APIs",
     "status": "active",
     "repository": {
       "url": "https://github.com/savhascelik/meta-api-mcp-server",
       "source": "github"
     },
-    "version": "1.0.0",
+    "version": "1.0.1",
     "packages": [
       {
         "registryType": "npm",
@@ -62,10 +62,10 @@
     "_meta": {
       "io.modelcontextprotocol.registry/official": {
         "serverId": "0c6c810c-c7b3-48ce-b343-dce410026b01",
-        "versionId": "8d2ec6b3-7e55-40b9-8d76-7e45f5063e29",
-        "publishedAt": "2025-09-09T04:02:19.493255754Z",
-        "updatedAt": "2025-09-09T04:14:51.989316259Z",
-        "isLatest": false
+        "versionId": "3e81fe2c-e973-4e0e-8aa1-d4c20b9aa106",
+        "publishedAt": "2025-09-09T04:14:51.983727698Z",
+        "updatedAt": "2025-09-09T04:14:51.983727698Z",
+        "isLatest": true
       }
     }
   },
@@ -145,13 +145,13 @@
   {
     "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
     "name": "io.github.savhascelik/meta-api-mcp-server",
-    "description": "You can connect any API to LLMs. This enables AI to interact directly with APIs",
+    "description": "A configuration-driven Meta API Gateway server for the Model Context Protocol (MCP).",
     "status": "active",
     "repository": {
       "url": "https://github.com/savhascelik/meta-api-mcp-server",
       "source": "github"
     },
-    "version": "1.0.1",
+    "version": "1.0.0",
     "packages": [
       {
         "registryType": "npm",
@@ -175,10 +175,10 @@
     "_meta": {
       "io.modelcontextprotocol.registry/official": {
         "serverId": "0c6c810c-c7b3-48ce-b343-dce410026b01",
-        "versionId": "3e81fe2c-e973-4e0e-8aa1-d4c20b9aa106",
-        "publishedAt": "2025-09-09T04:14:51.983727698Z",
-        "updatedAt": "2025-09-09T04:14:51.983727698Z",
-        "isLatest": true
+        "versionId": "8d2ec6b3-7e55-40b9-8d76-7e45f5063e29",
+        "publishedAt": "2025-09-09T04:02:19.493255754Z",
+        "updatedAt": "2025-09-09T04:14:51.989316259Z",
+        "isLatest": false
       }
     }
   },
@@ -978,13 +978,13 @@
   {
     "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
     "name": "app.getdialer/dialer",
-    "description": "An MCP server that provides your you make outbound phone calls using your own phone number",
+    "description": "An MCP server that provides lets you make outbound phone calls using your own phone number",
     "status": "active",
     "repository": {
       "url": "",
       "source": ""
     },
-    "version": "1.0.0",
+    "version": "1.0.1",
     "remotes": [
       {
         "type": "streamable-http",
@@ -998,10 +998,10 @@
     "_meta": {
       "io.modelcontextprotocol.registry/official": {
         "serverId": "c8eaffb8-57a8-4d66-8a32-fa6e25f5bcb9",
-        "versionId": "04f25b17-331d-48d7-b08b-37baece208a7",
-        "publishedAt": "2025-09-08T23:47:09.452137971Z",
-        "updatedAt": "2025-09-09T00:16:49.162620072Z",
-        "isLatest": false
+        "versionId": "faa26cb9-3aad-415e-aece-f715fff5fe5e",
+        "publishedAt": "2025-09-09T00:16:49.107842808Z",
+        "updatedAt": "2025-09-09T00:16:49.107842808Z",
+        "isLatest": true
       }
     }
   },
@@ -1037,13 +1037,13 @@
   {
     "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
     "name": "app.getdialer/dialer",
-    "description": "An MCP server that provides lets you make outbound phone calls using your own phone number",
+    "description": "An MCP server that provides your you make outbound phone calls using your own phone number",
     "status": "active",
     "repository": {
       "url": "",
       "source": ""
     },
-    "version": "1.0.1",
+    "version": "1.0.0",
     "remotes": [
       {
         "type": "streamable-http",
@@ -1057,10 +1057,10 @@
     "_meta": {
       "io.modelcontextprotocol.registry/official": {
         "serverId": "c8eaffb8-57a8-4d66-8a32-fa6e25f5bcb9",
-        "versionId": "faa26cb9-3aad-415e-aece-f715fff5fe5e",
-        "publishedAt": "2025-09-09T00:16:49.107842808Z",
-        "updatedAt": "2025-09-09T00:16:49.107842808Z",
-        "isLatest": true
+        "versionId": "04f25b17-331d-48d7-b08b-37baece208a7",
+        "publishedAt": "2025-09-08T23:47:09.452137971Z",
+        "updatedAt": "2025-09-09T00:16:49.162620072Z",
+        "isLatest": false
       }
     }
   },
@@ -2783,45 +2783,6 @@
   },
   {
     "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
-    "name": "io.github.pshivapr/selenium-mcp",
-    "description": "Selenium Tools for MCP",
-    "status": "active",
-    "repository": {
-      "url": "https://github.com/pshivapr/selenium-mcp",
-      "source": "github"
-    },
-    "version": "0.3.9",
-    "packages": [
-      {
-        "registryType": "npm",
-        "registryBaseUrl": "https://registry.npmjs.org",
-        "identifier": "selenium-webdriver-mcp",
-        "version": "0.3.9",
-        "transport": {
-          "type": "stdio"
-        },
-        "environmentVariables": [
-          {
-            "description": "Your API key for the service",
-            "format": "string",
-            "isSecret": true,
-            "name": "YOUR_API_KEY"
-          }
-        ]
-      }
-    ],
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "serverId": "e6648a72-6a2f-4b64-991e-4be3ed59ed3c",
-        "versionId": "cc6f63b8-d592-4ca8-9440-9e3be35be2c8",
-        "publishedAt": "2025-09-09T19:08:26.435100548Z",
-        "updatedAt": "2025-09-11T13:43:51.367329854Z",
-        "isLatest": false
-      }
-    }
-  },
-  {
-    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
     "name": "com.mintmcp/gmail",
     "description": "A MintMCP server for Gmail that lets you search, read, and draft emails and replies.",
     "status": "active",
@@ -2883,6 +2844,45 @@
         "publishedAt": "2025-09-14T11:16:38.3334627Z",
         "updatedAt": "2025-09-14T11:16:38.3334627Z",
         "isLatest": true
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+    "name": "io.github.pshivapr/selenium-mcp",
+    "description": "Selenium Tools for MCP",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/pshivapr/selenium-mcp",
+      "source": "github"
+    },
+    "version": "0.3.9",
+    "packages": [
+      {
+        "registryType": "npm",
+        "registryBaseUrl": "https://registry.npmjs.org",
+        "identifier": "selenium-webdriver-mcp",
+        "version": "0.3.9",
+        "transport": {
+          "type": "stdio"
+        },
+        "environmentVariables": [
+          {
+            "description": "Your API key for the service",
+            "format": "string",
+            "isSecret": true,
+            "name": "YOUR_API_KEY"
+          }
+        ]
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "e6648a72-6a2f-4b64-991e-4be3ed59ed3c",
+        "versionId": "cc6f63b8-d592-4ca8-9440-9e3be35be2c8",
+        "publishedAt": "2025-09-09T19:08:26.435100548Z",
+        "updatedAt": "2025-09-11T13:43:51.367329854Z",
+        "isLatest": false
       }
     }
   },
@@ -24421,8 +24421,8 @@
         "serverId": "a90d8a5b-ca0c-4e52-a82c-36027fdf7de2",
         "versionId": "35610df8-a6ad-400b-bab0-58cb21d0c5c5",
         "publishedAt": "2025-09-24T12:57:07.916238607Z",
-        "updatedAt": "2025-09-24T12:57:07.916238607Z",
-        "isLatest": true
+        "updatedAt": "2025-09-25T16:53:34.191488001Z",
+        "isLatest": false
       }
     }
   },
@@ -25244,6 +25244,37 @@
         "versionId": "23c1cf54-2ea0-4625-aa2e-4450bf8877be",
         "publishedAt": "2025-09-25T15:32:50.991403872Z",
         "updatedAt": "2025-09-25T15:32:50.991403872Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+    "name": "io.github.ChromeDevTools/chrome-devtools-mcp",
+    "description": "MCP server for Chrome DevTools",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "source": "github"
+    },
+    "version": "0.3.0",
+    "packages": [
+      {
+        "registryType": "npm",
+        "registryBaseUrl": "https://registry.npmjs.org",
+        "identifier": "chrome-devtools-mcp",
+        "version": "0.3.0",
+        "transport": {
+          "type": "stdio"
+        }
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "a90d8a5b-ca0c-4e52-a82c-36027fdf7de2",
+        "versionId": "f4ea0e52-ac79-498a-a98c-2c1a7db86913",
+        "publishedAt": "2025-09-25T16:53:34.180042992Z",
+        "updatedAt": "2025-09-25T16:53:34.180042992Z",
         "isLatest": true
       }
     }
