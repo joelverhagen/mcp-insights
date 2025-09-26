@@ -2822,6 +2822,124 @@
   },
   {
     "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+    "name": "com.mintmcp/gcal",
+    "description": "A MintMCP server that works with Google Calendar to manage event listing, reading, and updates.",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/mintmcp/mcp",
+      "source": "github"
+    },
+    "version": "1.0.0",
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://gcal.mintmcp.com/mcp"
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "7b265ff1-5cd1-43fe-92c4-54cc6a0fd4d7",
+        "versionId": "a7aa8d87-ead3-4ee3-9021-f41edf303f72",
+        "publishedAt": "2025-09-09T19:28:43.15437668Z",
+        "updatedAt": "2025-09-09T19:35:28.126060102Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+    "name": "com.mintmcp/gcal",
+    "description": "A MCP server that works with Google Calendar to manage event listing, reading, and updates.",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/mintmcp/mcp",
+      "source": "github"
+    },
+    "version": "1.0.2",
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://gcal.mintmcp.com/mcp"
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "7b265ff1-5cd1-43fe-92c4-54cc6a0fd4d7",
+        "versionId": "899391c2-e787-4df6-9788-0fcb0e1f086d",
+        "publishedAt": "2025-09-09T19:36:27.962358954Z",
+        "updatedAt": "2025-09-09T19:42:00.468110436Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+    "name": "com.mintmcp/gcal",
+    "description": "A MCP server that works with Google Calendar to manage event listing, reading, and updates.",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/mintmcp/servers",
+      "source": "github"
+    },
+    "version": "1.0.3",
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://gcal.mintmcp.com/mcp"
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "7b265ff1-5cd1-43fe-92c4-54cc6a0fd4d7",
+        "versionId": "bde26216-0984-4c1d-bc1c-7d9096688a79",
+        "publishedAt": "2025-09-09T19:42:00.464295781Z",
+        "updatedAt": "2025-09-09T19:49:54.017385171Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+    "name": "io.github.stefanoamorelli/fred-mcp-server",
+    "description": "Federal Reserve Economic Data (FRED) MCP Server - Access all 800,000+ economic time series",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/stefanoamorelli/fred-mcp-server",
+      "source": "github"
+    },
+    "version": "1.0.1",
+    "packages": [
+      {
+        "registryType": "npm",
+        "registryBaseUrl": "https://registry.npmjs.org",
+        "identifier": "fred-mcp-server",
+        "version": "1.0.1",
+        "transport": {
+          "type": "stdio"
+        },
+        "environmentVariables": [
+          {
+            "description": "Your FRED API key to access the API",
+            "isRequired": true,
+            "format": "string",
+            "isSecret": true,
+            "name": "FRED_API_KEY"
+          }
+        ]
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "a5d0ce37-1375-4d4e-ba5a-2fc31c5083a0",
+        "versionId": "b5251106-16c6-40e7-89d7-b123841d18ea",
+        "publishedAt": "2025-09-14T11:16:38.3334627Z",
+        "updatedAt": "2025-09-14T11:16:38.3334627Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
     "name": "com.mintmcp/gmail",
     "description": "A MintMCP server for Gmail that lets you search, read, and draft emails and replies.",
     "status": "active",
@@ -2881,32 +2999,6 @@
       "url": "https://github.com/mintmcp/mcp",
       "source": "github"
     },
-    "version": "1.0.0",
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://gcal.mintmcp.com/mcp"
-      }
-    ],
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "serverId": "7b265ff1-5cd1-43fe-92c4-54cc6a0fd4d7",
-        "versionId": "a7aa8d87-ead3-4ee3-9021-f41edf303f72",
-        "publishedAt": "2025-09-09T19:28:43.15437668Z",
-        "updatedAt": "2025-09-09T19:35:28.126060102Z",
-        "isLatest": false
-      }
-    }
-  },
-  {
-    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
-    "name": "com.mintmcp/gcal",
-    "description": "A MintMCP server that works with Google Calendar to manage event listing, reading, and updates.",
-    "status": "active",
-    "repository": {
-      "url": "https://github.com/mintmcp/mcp",
-      "source": "github"
-    },
     "version": "1.0.1",
     "remotes": [
       {
@@ -2920,32 +3012,6 @@
         "versionId": "3295b540-5655-4ddd-9726-8dd060e7e05a",
         "publishedAt": "2025-09-09T19:35:28.121701943Z",
         "updatedAt": "2025-09-09T19:36:28.010860991Z",
-        "isLatest": false
-      }
-    }
-  },
-  {
-    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
-    "name": "com.mintmcp/gcal",
-    "description": "A MCP server that works with Google Calendar to manage event listing, reading, and updates.",
-    "status": "active",
-    "repository": {
-      "url": "https://github.com/mintmcp/servers",
-      "source": "github"
-    },
-    "version": "1.0.3",
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://gcal.mintmcp.com/mcp"
-      }
-    ],
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "serverId": "7b265ff1-5cd1-43fe-92c4-54cc6a0fd4d7",
-        "versionId": "bde26216-0984-4c1d-bc1c-7d9096688a79",
-        "publishedAt": "2025-09-09T19:42:00.464295781Z",
-        "updatedAt": "2025-09-09T19:49:54.017385171Z",
         "isLatest": false
       }
     }
@@ -2972,72 +3038,6 @@
         "versionId": "16f913d5-3f6f-450c-b786-76d38d374b10",
         "publishedAt": "2025-09-09T19:44:30.662664985Z",
         "updatedAt": "2025-09-09T19:49:24.179849796Z",
-        "isLatest": false
-      }
-    }
-  },
-  {
-    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
-    "name": "io.github.stefanoamorelli/fred-mcp-server",
-    "description": "Federal Reserve Economic Data (FRED) MCP Server - Access all 800,000+ economic time series",
-    "status": "active",
-    "repository": {
-      "url": "https://github.com/stefanoamorelli/fred-mcp-server",
-      "source": "github"
-    },
-    "version": "1.0.1",
-    "packages": [
-      {
-        "registryType": "npm",
-        "registryBaseUrl": "https://registry.npmjs.org",
-        "identifier": "fred-mcp-server",
-        "version": "1.0.1",
-        "transport": {
-          "type": "stdio"
-        },
-        "environmentVariables": [
-          {
-            "description": "Your FRED API key to access the API",
-            "isRequired": true,
-            "format": "string",
-            "isSecret": true,
-            "name": "FRED_API_KEY"
-          }
-        ]
-      }
-    ],
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "serverId": "a5d0ce37-1375-4d4e-ba5a-2fc31c5083a0",
-        "versionId": "b5251106-16c6-40e7-89d7-b123841d18ea",
-        "publishedAt": "2025-09-14T11:16:38.3334627Z",
-        "updatedAt": "2025-09-14T11:16:38.3334627Z",
-        "isLatest": true
-      }
-    }
-  },
-  {
-    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
-    "name": "com.mintmcp/gcal",
-    "description": "A MCP server that works with Google Calendar to manage event listing, reading, and updates.",
-    "status": "active",
-    "repository": {
-      "url": "https://github.com/mintmcp/mcp",
-      "source": "github"
-    },
-    "version": "1.0.2",
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://gcal.mintmcp.com/mcp"
-      }
-    ],
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "serverId": "7b265ff1-5cd1-43fe-92c4-54cc6a0fd4d7",
-        "versionId": "899391c2-e787-4df6-9788-0fcb0e1f086d",
-        "publishedAt": "2025-09-09T19:36:27.962358954Z",
-        "updatedAt": "2025-09-09T19:42:00.468110436Z",
         "isLatest": false
       }
     }
@@ -25672,6 +25672,37 @@
         "versionId": "119af48a-b211-4120-b0d0-e75cec3e205a",
         "publishedAt": "2025-09-26T04:11:38.085711256Z",
         "updatedAt": "2025-09-26T04:11:38.085711256Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+    "name": "io.github.formulahendry/spec-driven-development",
+    "description": "MCP Server that facilitates spec-driven development workflows, not just Vibe Coding.",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/formulahendry/mcp-server-spec-driven-development",
+      "source": "github"
+    },
+    "version": "0.1.1",
+    "packages": [
+      {
+        "registryType": "npm",
+        "registryBaseUrl": "https://registry.npmjs.org",
+        "identifier": "mcp-server-spec-driven-development",
+        "version": "0.1.1",
+        "transport": {
+          "type": "stdio"
+        }
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "c8642940-bb9d-4325-9fa2-5eb093eece1e",
+        "versionId": "5f774f6f-239b-45a6-a509-b1936e0e2422",
+        "publishedAt": "2025-09-26T06:51:26.732082358Z",
+        "updatedAt": "2025-09-26T06:51:26.732082358Z",
         "isLatest": true
       }
     }
