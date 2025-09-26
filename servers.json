@@ -1356,8 +1356,8 @@
         "serverId": "c232e17d-152d-41f2-a532-85e8fa68d73e",
         "versionId": "aac509bd-d725-46a5-9533-655552ccbdb8",
         "publishedAt": "2025-09-24T07:04:32.1707733Z",
-        "updatedAt": "2025-09-24T07:04:32.1707733Z",
-        "isLatest": true
+        "updatedAt": "2025-09-26T10:12:11.960195457Z",
+        "isLatest": false
       }
     }
   },
@@ -2822,6 +2822,32 @@
   },
   {
     "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+    "name": "com.mintmcp/gmail",
+    "description": "A MintMCP server for Gmail that lets you search, read, and draft emails and replies.",
+    "status": "active",
+    "repository": {
+      "url": "",
+      "source": ""
+    },
+    "version": "1.0.0",
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://gmail.mintmcp.com/mcp"
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "108ee330-287d-40a7-98c6-6806dbb9eeac",
+        "versionId": "77c15324-cc34-417a-800f-673c2c44909b",
+        "publishedAt": "2025-09-09T19:20:31.788880118Z",
+        "updatedAt": "2025-09-09T19:25:39.937486339Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
     "name": "com.mintmcp/gcal",
     "description": "A MintMCP server that works with Google Calendar to manage event listing, reading, and updates.",
     "status": "active",
@@ -2842,6 +2868,32 @@
         "versionId": "a7aa8d87-ead3-4ee3-9021-f41edf303f72",
         "publishedAt": "2025-09-09T19:28:43.15437668Z",
         "updatedAt": "2025-09-09T19:35:28.126060102Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+    "name": "com.mintmcp/gcal",
+    "description": "A MintMCP server that works with Google Calendar to manage event listing, reading, and updates.",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/mintmcp/mcp",
+      "source": "github"
+    },
+    "version": "1.0.1",
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://gcal.mintmcp.com/mcp"
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "7b265ff1-5cd1-43fe-92c4-54cc6a0fd4d7",
+        "versionId": "3295b540-5655-4ddd-9726-8dd060e7e05a",
+        "publishedAt": "2025-09-09T19:35:28.121701943Z",
+        "updatedAt": "2025-09-09T19:36:28.010860991Z",
         "isLatest": false
       }
     }
@@ -2881,7 +2933,7 @@
       "url": "https://github.com/mintmcp/servers",
       "source": "github"
     },
-    "version": "1.0.3",
+    "version": "1.0.4",
     "remotes": [
       {
         "type": "streamable-http",
@@ -2891,10 +2943,10 @@
     "_meta": {
       "io.modelcontextprotocol.registry/official": {
         "serverId": "7b265ff1-5cd1-43fe-92c4-54cc6a0fd4d7",
-        "versionId": "bde26216-0984-4c1d-bc1c-7d9096688a79",
-        "publishedAt": "2025-09-09T19:42:00.464295781Z",
-        "updatedAt": "2025-09-09T19:49:54.017385171Z",
-        "isLatest": false
+        "versionId": "56080a46-21d6-48d2-91ff-ae1b9cb378b5",
+        "publishedAt": "2025-09-09T19:49:54.013255259Z",
+        "updatedAt": "2025-09-09T19:49:54.013255259Z",
+        "isLatest": true
       }
     }
   },
@@ -2944,32 +2996,6 @@
     "description": "A MintMCP server for Gmail that lets you search, read, and draft emails and replies.",
     "status": "active",
     "repository": {
-      "url": "",
-      "source": ""
-    },
-    "version": "1.0.0",
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://gmail.mintmcp.com/mcp"
-      }
-    ],
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "serverId": "108ee330-287d-40a7-98c6-6806dbb9eeac",
-        "versionId": "77c15324-cc34-417a-800f-673c2c44909b",
-        "publishedAt": "2025-09-09T19:20:31.788880118Z",
-        "updatedAt": "2025-09-09T19:25:39.937486339Z",
-        "isLatest": false
-      }
-    }
-  },
-  {
-    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
-    "name": "com.mintmcp/gmail",
-    "description": "A MintMCP server for Gmail that lets you search, read, and draft emails and replies.",
-    "status": "active",
-    "repository": {
       "url": "https://github.com/mintmcp/mcp",
       "source": "github"
     },
@@ -2993,13 +3019,13 @@
   {
     "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
     "name": "com.mintmcp/gcal",
-    "description": "A MintMCP server that works with Google Calendar to manage event listing, reading, and updates.",
+    "description": "A MCP server that works with Google Calendar to manage event listing, reading, and updates.",
     "status": "active",
     "repository": {
-      "url": "https://github.com/mintmcp/mcp",
+      "url": "https://github.com/mintmcp/servers",
       "source": "github"
     },
-    "version": "1.0.1",
+    "version": "1.0.3",
     "remotes": [
       {
         "type": "streamable-http",
@@ -3009,9 +3035,9 @@
     "_meta": {
       "io.modelcontextprotocol.registry/official": {
         "serverId": "7b265ff1-5cd1-43fe-92c4-54cc6a0fd4d7",
-        "versionId": "3295b540-5655-4ddd-9726-8dd060e7e05a",
-        "publishedAt": "2025-09-09T19:35:28.121701943Z",
-        "updatedAt": "2025-09-09T19:36:28.010860991Z",
+        "versionId": "bde26216-0984-4c1d-bc1c-7d9096688a79",
+        "publishedAt": "2025-09-09T19:42:00.464295781Z",
+        "updatedAt": "2025-09-09T19:49:54.017385171Z",
         "isLatest": false
       }
     }
@@ -3065,32 +3091,6 @@
         "publishedAt": "2025-09-09T19:49:24.175897882Z",
         "updatedAt": "2025-09-09T19:53:13.48979916Z",
         "isLatest": false
-      }
-    }
-  },
-  {
-    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
-    "name": "com.mintmcp/gcal",
-    "description": "A MCP server that works with Google Calendar to manage event listing, reading, and updates.",
-    "status": "active",
-    "repository": {
-      "url": "https://github.com/mintmcp/servers",
-      "source": "github"
-    },
-    "version": "1.0.4",
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://gcal.mintmcp.com/mcp"
-      }
-    ],
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "serverId": "7b265ff1-5cd1-43fe-92c4-54cc6a0fd4d7",
-        "versionId": "56080a46-21d6-48d2-91ff-ae1b9cb378b5",
-        "publishedAt": "2025-09-09T19:49:54.013255259Z",
-        "updatedAt": "2025-09-09T19:49:54.013255259Z",
-        "isLatest": true
       }
     }
   },
@@ -19374,8 +19374,8 @@
         "serverId": "fe2e0e07-1466-499a-bcdd-16d07b8ccb40",
         "versionId": "0d2d9f39-6ac9-452e-b1d9-41ebc0147c5c",
         "publishedAt": "2025-09-19T13:21:42.73531992Z",
-        "updatedAt": "2025-09-19T13:21:42.73531992Z",
-        "isLatest": true
+        "updatedAt": "2025-09-26T09:53:32.930134233Z",
+        "isLatest": false
       }
     }
   },
@@ -25703,6 +25703,215 @@
         "versionId": "5f774f6f-239b-45a6-a509-b1936e0e2422",
         "publishedAt": "2025-09-26T06:51:26.732082358Z",
         "updatedAt": "2025-09-26T06:51:26.732082358Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+    "name": "io.github.brave/brave-search-mcp-server",
+    "description": "Brave Search MCP Server: web results, images, videos, rich results, AI summaries, and more.",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/brave/brave-search-mcp-server",
+      "source": "github"
+    },
+    "version": "2.0.24",
+    "packages": [
+      {
+        "registryType": "npm",
+        "registryBaseUrl": "https://registry.npmjs.org",
+        "identifier": "@brave/brave-search-mcp-server",
+        "version": "2.0.24",
+        "transport": {
+          "type": "stdio"
+        },
+        "environmentVariables": [
+          {
+            "description": "Your API key for the service",
+            "isRequired": true,
+            "format": "string",
+            "isSecret": true,
+            "name": "BRAVE_API_KEY"
+          }
+        ]
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "fe2e0e07-1466-499a-bcdd-16d07b8ccb40",
+        "versionId": "0ceb28e5-5c88-4b82-b336-f17305b7802b",
+        "publishedAt": "2025-09-26T09:53:32.927168719Z",
+        "updatedAt": "2025-09-26T09:53:32.927168719Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+    "name": "com.iunera/druid-mcp-server",
+    "description": "AI-powered MCP server for Apache Druid cluster management and analytic",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/iunera/druid-mcp-server",
+      "source": "github"
+    },
+    "version": "1.3.0",
+    "packages": [
+      {
+        "registryType": "oci",
+        "registryBaseUrl": "https://docker.io",
+        "identifier": "iunera/druid-mcp-server",
+        "version": "1.3.0",
+        "runtimeHint": "docker",
+        "transport": {
+          "type": "stdio"
+        },
+        "environmentVariables": [
+          {
+            "description": "Druid router URL for connecting to the Druid cluster",
+            "format": "string",
+            "name": "DRUID_ROUTER_URL"
+          },
+          {
+            "description": "Username for Druid authentication (optional)",
+            "format": "string",
+            "name": "DRUID_AUTH_USERNAME"
+          },
+          {
+            "description": "Password for Druid authentication (optional)",
+            "format": "string",
+            "name": "DRUID_AUTH_PASSWORD"
+          },
+          {
+            "description": "Enable SSL/TLS support for Druid connections",
+            "format": "boolean",
+            "name": "DRUID_SSL_ENABLED"
+          },
+          {
+            "description": "Skip SSL certificate verification (for development/testing only)",
+            "format": "boolean",
+            "name": "DRUID_SSL_SKIP_VERIFICATION"
+          },
+          {
+            "description": "Enable read-only mode (only GET requests and SQL queries allowed)",
+            "format": "boolean",
+            "name": "DRUID_MCP_READONLY_ENABLED"
+          }
+        ]
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "c232e17d-152d-41f2-a532-85e8fa68d73e",
+        "versionId": "7c033a77-bdc0-4bad-9429-f0681867d7da",
+        "publishedAt": "2025-09-26T10:12:11.95384206Z",
+        "updatedAt": "2025-09-26T10:12:11.95384206Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+    "name": "com.windowsforum/mcp-server",
+    "description": "MCP server for WindowsForum.com with search, document retrieval, and real-time forum analytics.",
+    "repository": {
+      "url": "",
+      "source": ""
+    },
+    "version": "1.0.0",
+    "remotes": [
+      {
+        "type": "sse",
+        "url": "https://mcp.windowsforum.com"
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "f9cf3fb8-4d15-4be5-a6f0-e8de8c767e62",
+        "versionId": "b7a28107-65d9-4139-a093-7b19c7ab5e01",
+        "publishedAt": "2025-09-26T10:44:10.416999243Z",
+        "updatedAt": "2025-09-26T10:44:10.416999243Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+    "name": "io.github.clappia-dev/clappia-mcp",
+    "description": "An MCP server that provides integration with Clappia platform",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/clappia-dev/clappia-mcp",
+      "source": "github"
+    },
+    "version": "1.0.0",
+    "packages": [
+      {
+        "registryType": "oci",
+        "registryBaseUrl": "https://docker.io",
+        "identifier": "okaru413/clappia-mcp",
+        "version": "1.0.0",
+        "transport": {
+          "type": "stdio"
+        },
+        "environmentVariables": [
+          {
+            "description": "Your API key for the Clappia platform",
+            "isRequired": true,
+            "format": "string",
+            "isSecret": true,
+            "name": "CLAPPIA_API_KEY"
+          }
+        ]
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "4bff99c9-1d7d-42e1-987b-7aef50507115",
+        "versionId": "9ab0a049-8e8c-4bb3-8fdc-e1ff7638582a",
+        "publishedAt": "2025-09-26T11:05:30.583562476Z",
+        "updatedAt": "2025-09-26T11:05:30.583562476Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+    "name": "io.github.pree-dew/mcp-bookmark",
+    "description": "MCP Server for adding bookmarks in openai RAG",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/pree-dew/mcp-bookmark",
+      "source": "github"
+    },
+    "version": "0.1.1",
+    "packages": [
+      {
+        "registryType": "pypi",
+        "registryBaseUrl": "https://pypi.org",
+        "identifier": "mcp-bookmark-server",
+        "version": "0.1.1",
+        "transport": {
+          "type": "stdio"
+        },
+        "environmentVariables": [
+          {
+            "description": "open ai api key",
+            "isRequired": true,
+            "format": "string",
+            "isSecret": true,
+            "name": "OPENAI_API_KEY"
+          }
+        ]
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "39628bbb-4f3d-4ff1-b12e-637f5d3d604e",
+        "versionId": "dd2b7e15-a6f4-420b-bd79-2268233c4de1",
+        "publishedAt": "2025-09-26T11:24:18.288443922Z",
+        "updatedAt": "2025-09-26T11:24:18.288443922Z",
         "isLatest": true
       }
     }
