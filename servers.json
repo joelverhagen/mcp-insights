@@ -2826,6 +2826,32 @@
     "description": "A MintMCP server for Gmail that lets you search, read, and draft emails and replies.",
     "status": "active",
     "repository": {
+      "url": "",
+      "source": ""
+    },
+    "version": "1.0.0",
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://gmail.mintmcp.com/mcp"
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "108ee330-287d-40a7-98c6-6806dbb9eeac",
+        "versionId": "77c15324-cc34-417a-800f-673c2c44909b",
+        "publishedAt": "2025-09-09T19:20:31.788880118Z",
+        "updatedAt": "2025-09-09T19:25:39.937486339Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+    "name": "com.mintmcp/gmail",
+    "description": "A MintMCP server for Gmail that lets you search, read, and draft emails and replies.",
+    "status": "active",
+    "repository": {
       "url": "https://github.com/mintmcp/mcp",
       "source": "github"
     },
@@ -2952,32 +2978,6 @@
   },
   {
     "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
-    "name": "com.mintmcp/gmail",
-    "description": "A MCP server for Gmail that lets you search, read, and draft emails and replies.",
-    "status": "active",
-    "repository": {
-      "url": "https://github.com/mintmcp/servers",
-      "source": "github"
-    },
-    "version": "1.0.4",
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://gmail.mintmcp.com/mcp"
-      }
-    ],
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "serverId": "108ee330-287d-40a7-98c6-6806dbb9eeac",
-        "versionId": "f2712336-6ab8-4d62-8e75-63b1da189866",
-        "publishedAt": "2025-09-09T19:49:24.175897882Z",
-        "updatedAt": "2025-09-09T19:53:13.48979916Z",
-        "isLatest": false
-      }
-    }
-  },
-  {
-    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
     "name": "io.github.stefanoamorelli/fred-mcp-server",
     "description": "Federal Reserve Economic Data (FRED) MCP Server - Access all 800,000+ economic time series",
     "status": "active",
@@ -3018,32 +3018,6 @@
   },
   {
     "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
-    "name": "com.mintmcp/gmail",
-    "description": "A MintMCP server for Gmail that lets you search, read, and draft emails and replies.",
-    "status": "active",
-    "repository": {
-      "url": "",
-      "source": ""
-    },
-    "version": "1.0.0",
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://gmail.mintmcp.com/mcp"
-      }
-    ],
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "serverId": "108ee330-287d-40a7-98c6-6806dbb9eeac",
-        "versionId": "77c15324-cc34-417a-800f-673c2c44909b",
-        "publishedAt": "2025-09-09T19:20:31.788880118Z",
-        "updatedAt": "2025-09-09T19:25:39.937486339Z",
-        "isLatest": false
-      }
-    }
-  },
-  {
-    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
     "name": "com.mintmcp/gcal",
     "description": "A MCP server that works with Google Calendar to manage event listing, reading, and updates.",
     "status": "active",
@@ -3064,6 +3038,32 @@
         "versionId": "899391c2-e787-4df6-9788-0fcb0e1f086d",
         "publishedAt": "2025-09-09T19:36:27.962358954Z",
         "updatedAt": "2025-09-09T19:42:00.468110436Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+    "name": "com.mintmcp/gmail",
+    "description": "A MCP server for Gmail that lets you search, read, and draft emails and replies.",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/mintmcp/servers",
+      "source": "github"
+    },
+    "version": "1.0.4",
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://gmail.mintmcp.com/mcp"
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "108ee330-287d-40a7-98c6-6806dbb9eeac",
+        "versionId": "f2712336-6ab8-4d62-8e75-63b1da189866",
+        "publishedAt": "2025-09-09T19:49:24.175897882Z",
+        "updatedAt": "2025-09-09T19:53:13.48979916Z",
         "isLatest": false
       }
     }
@@ -25501,6 +25501,177 @@
         "versionId": "f42395cc-06b2-47b9-8179-e6514b5d3c15",
         "publishedAt": "2025-09-26T00:34:47.31329374Z",
         "updatedAt": "2025-09-26T00:34:47.31329374Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+    "name": "io.github.moonolgerd/game-mcp",
+    "description": "Discovers and manages installed games on Windows from Steam, Epic, GOG, Xbox, and other platforms.",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/moonolgerd/game-mcp",
+      "source": "github"
+    },
+    "version": "1.0.0",
+    "packages": [
+      {
+        "registryType": "nuget",
+        "registryBaseUrl": "https://api.nuget.org",
+        "identifier": "GameMcpServer",
+        "version": "1.0.0",
+        "runtimeHint": "dnx",
+        "transport": {
+          "type": "stdio"
+        }
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "17f8d7dd-aee5-4178-8529-a539bd7f2e5d",
+        "versionId": "ea99bfc2-2130-4bea-afef-1cb087e4011d",
+        "publishedAt": "2025-09-26T02:51:31.883953733Z",
+        "updatedAt": "2025-09-26T02:51:31.883953733Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+    "name": "io.github.guanqun-yang/mcp-server-r-counter",
+    "description": "A MCP Server Counting Number of r's for a Given Query",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/guanqun-yang/mcp-server-r-counter",
+      "source": "github"
+    },
+    "version": "0.0.3",
+    "packages": [
+      {
+        "registryType": "pypi",
+        "registryBaseUrl": "https://pypi.org",
+        "identifier": "mcp-server-r-counter",
+        "version": "0.0.3",
+        "transport": {
+          "type": "stdio"
+        }
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "d25dab7d-1a05-4679-b314-a2911998f316",
+        "versionId": "72ce38fd-8465-4198-b8fd-5dc4fac8dce3",
+        "publishedAt": "2025-09-26T03:25:25.186688278Z",
+        "updatedAt": "2025-09-26T03:25:25.186688278Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+    "name": "io.github.BenAHammond/code-auditor-mcp",
+    "description": "Code Quality Auditor: Analyze code for SOLID principles, DRY violations, and more",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/BenAHammond/code-auditor-mcp",
+      "source": "github"
+    },
+    "version": "1.0.0",
+    "packages": [
+      {
+        "registryType": "npm",
+        "registryBaseUrl": "https://registry.npmjs.org",
+        "identifier": "code-auditor-mcp",
+        "version": "1.17.1",
+        "transport": {
+          "type": "stdio"
+        }
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "da4e7c0a-854f-46b7-86ab-35564aa3069f",
+        "versionId": "79ecb8eb-6d8d-4e4e-84f7-9dc334e6ce8f",
+        "publishedAt": "2025-09-26T03:37:09.745161864Z",
+        "updatedAt": "2025-09-26T03:37:09.745161864Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+    "name": "ai.wild-card/deepcontext",
+    "description": "Advanced codebase indexing and semantic search MCP server",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/Wildcard-Official/deepcontext",
+      "source": "github"
+    },
+    "version": "0.1.15",
+    "packages": [
+      {
+        "registryType": "npm",
+        "registryBaseUrl": "https://registry.npmjs.org",
+        "identifier": "@wildcard-ai/deepcontext",
+        "version": "0.1.15",
+        "transport": {
+          "type": "stdio"
+        },
+        "environmentVariables": [
+          {
+            "description": "Jina AI API key for embeddings generation",
+            "format": "string",
+            "isSecret": true,
+            "name": "JINA_API_KEY"
+          },
+          {
+            "description": "Turbopuffer API key for vector storage",
+            "format": "string",
+            "isSecret": true,
+            "name": "TURBOPUFFER_API_KEY"
+          },
+          {
+            "description": "Wildcard API key for authentication",
+            "format": "string",
+            "isSecret": true,
+            "name": "WILDCARD_API_KEY"
+          }
+        ]
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "1da9f9fc-d0ac-4297-a05e-024691f97791",
+        "versionId": "31e49446-90e7-4f3c-a043-11512243977b",
+        "publishedAt": "2025-09-26T03:44:16.929896103Z",
+        "updatedAt": "2025-09-26T03:44:16.929896103Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+    "name": "xyz.dreamtap/mcp",
+    "description": "Dreamtap provides sources of inspiration to your AI to make it more creative.",
+    "status": "active",
+    "repository": {
+      "url": "https://github.com/salexashenko/dreamtap",
+      "source": "github"
+    },
+    "version": "0.1.0",
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://dreamtap.xyz/mcp"
+      }
+    ],
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "serverId": "0b59e2af-1e92-4a6d-91cf-d53b76041d07",
+        "versionId": "119af48a-b211-4120-b0d0-e75cec3e205a",
+        "publishedAt": "2025-09-26T04:11:38.085711256Z",
+        "updatedAt": "2025-09-26T04:11:38.085711256Z",
         "isLatest": true
       }
     }
