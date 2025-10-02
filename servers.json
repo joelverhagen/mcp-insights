@@ -2342,41 +2342,6 @@
         "url": "https://github.com/brave/brave-search-mcp-server",
         "source": "github"
       },
-      "version": "2.0.7",
-      "remotes": [
-        {
-          "type": "streamable-http",
-          "url": "https://server.smithery.ai/brave/mcp",
-          "headers": [
-            {
-              "description": "Bearer token for Smithery authentication",
-              "isRequired": true,
-              "value": "Bearer {smithery_api_key}",
-              "isSecret": true,
-              "name": "Authorization"
-            }
-          ]
-        }
-      ]
-    },
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "status": "active",
-        "publishedAt": "2025-09-19T11:31:50.983916Z",
-        "updatedAt": "2025-09-19T11:38:30.021907Z",
-        "isLatest": false
-      }
-    }
-  },
-  {
-    "server": {
-      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
-      "name": "ai.smithery/brave",
-      "description": "Visit https://brave.com/search/api/ for a free API key. Search the web, local businesses, images,…",
-      "repository": {
-        "url": "https://github.com/brave/brave-search-mcp-server",
-        "source": "github"
-      },
       "version": "2.0.10",
       "remotes": [
         {
@@ -3374,6 +3339,39 @@
         "status": "active",
         "publishedAt": "2025-10-02T07:15:10.498525Z",
         "updatedAt": "2025-10-02T07:15:10.498525Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+      "name": "ai.smithery/arjunkmrm-time",
+      "description": "Get the current time anywhere and access concise timezone information. Set your preferred timezone…",
+      "repository": {
+        "url": "https://github.com/arjunkmrm/time",
+        "source": "github"
+      },
+      "version": "1.15.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://server.smithery.ai/@arjunkmrm/time/mcp",
+          "headers": [
+            {
+              "description": "Bearer token for Smithery authentication",
+              "value": "Bearer {smithery_api_key}",
+              "name": "Authorization"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-02T08:35:12.663422Z",
+        "updatedAt": "2025-10-02T08:35:12.663422Z",
         "isLatest": true
       }
     }
