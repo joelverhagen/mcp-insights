@@ -1428,41 +1428,6 @@
   {
     "server": {
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
-      "name": "ai.smithery/browserbasehq-mcp-browserbase",
-      "description": "Provides cloud browser automation capabilities using Stagehand and Browserbase, enabling LLMs to i…",
-      "repository": {
-        "url": "https://github.com/browserbase/mcp-server-browserbase",
-        "source": "github"
-      },
-      "version": "2.0.0",
-      "remotes": [
-        {
-          "type": "streamable-http",
-          "url": "https://server.smithery.ai/@browserbasehq/mcp-browserbase/mcp",
-          "headers": [
-            {
-              "description": "Bearer token for Smithery authentication",
-              "isRequired": true,
-              "value": "Bearer {smithery_api_key}",
-              "isSecret": true,
-              "name": "Authorization"
-            }
-          ]
-        }
-      ]
-    },
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "status": "active",
-        "publishedAt": "2025-09-16T17:17:18.587292Z",
-        "updatedAt": "2025-09-16T17:17:18.587292Z",
-        "isLatest": true
-      }
-    }
-  },
-  {
-    "server": {
-      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "ai.smithery/Kryptoskatt-mcp-server",
       "description": "Enable AI assistants to interact seamlessly with the DefiLlama API by translating MCP tool calls i…",
       "repository": {
@@ -2412,76 +2377,6 @@
         "url": "https://github.com/brave/brave-search-mcp-server",
         "source": "github"
       },
-      "version": "2.0.8",
-      "remotes": [
-        {
-          "type": "streamable-http",
-          "url": "https://server.smithery.ai/brave/mcp",
-          "headers": [
-            {
-              "description": "Bearer token for Smithery authentication",
-              "isRequired": true,
-              "value": "Bearer {smithery_api_key}",
-              "isSecret": true,
-              "name": "Authorization"
-            }
-          ]
-        }
-      ]
-    },
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "status": "active",
-        "publishedAt": "2025-09-19T11:38:30.012332Z",
-        "updatedAt": "2025-09-19T12:13:23.265367Z",
-        "isLatest": false
-      }
-    }
-  },
-  {
-    "server": {
-      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
-      "name": "ai.smithery/brave",
-      "description": "Visit https://brave.com/search/api/ for a free API key. Search the web, local businesses, images,…",
-      "repository": {
-        "url": "https://github.com/brave/brave-search-mcp-server",
-        "source": "github"
-      },
-      "version": "2.0.9",
-      "remotes": [
-        {
-          "type": "streamable-http",
-          "url": "https://server.smithery.ai/brave/mcp",
-          "headers": [
-            {
-              "description": "Bearer token for Smithery authentication",
-              "isRequired": true,
-              "value": "Bearer {smithery_api_key}",
-              "isSecret": true,
-              "name": "Authorization"
-            }
-          ]
-        }
-      ]
-    },
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "status": "active",
-        "publishedAt": "2025-09-19T12:13:23.217248Z",
-        "updatedAt": "2025-09-19T13:27:13.291855Z",
-        "isLatest": false
-      }
-    }
-  },
-  {
-    "server": {
-      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
-      "name": "ai.smithery/brave",
-      "description": "Visit https://brave.com/search/api/ for a free API key. Search the web, local businesses, images,…",
-      "repository": {
-        "url": "https://github.com/brave/brave-search-mcp-server",
-        "source": "github"
-      },
       "version": "2.0.10",
       "remotes": [
         {
@@ -3380,6 +3275,105 @@
         "status": "active",
         "publishedAt": "2025-10-02T04:20:15.678667Z",
         "updatedAt": "2025-10-02T04:20:15.678667Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+      "name": "ai.smithery/arjunkmrm-brave-search-mcp-server",
+      "description": "Search the web, images, videos, news, and local businesses with robust filters, freshness controls…",
+      "repository": {
+        "url": "https://github.com/arjunkmrm/brave-search-mcp-server",
+        "source": "github"
+      },
+      "version": "2.0.25",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://server.smithery.ai/@arjunkmrm/brave-search-mcp-server/mcp",
+          "headers": [
+            {
+              "description": "Bearer token for Smithery authentication",
+              "value": "Bearer {smithery_api_key}",
+              "name": "Authorization"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-02T06:39:58.418517Z",
+        "updatedAt": "2025-10-02T06:39:58.418517Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+      "name": "ai.smithery/222wcnm-bilistalkermcp",
+      "description": "Track Bilibili creators and get the latest updates on videos, dynamics, and articles. Fetch user p…",
+      "repository": {
+        "url": "https://github.com/222wcnm/BiliStalkerMCP",
+        "source": "github"
+      },
+      "version": "1.15.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://server.smithery.ai/@222wcnm/bilistalkermcp/mcp",
+          "headers": [
+            {
+              "description": "Bearer token for Smithery authentication",
+              "value": "Bearer {smithery_api_key}",
+              "name": "Authorization"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-02T06:57:33.936879Z",
+        "updatedAt": "2025-10-02T06:57:33.936879Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+      "name": "ai.smithery/FelixYifeiWang-felix-mcp-smithery",
+      "description": "Streamline your workflow with Felix. Integrate it into your workspace and tailor its behavior to y…",
+      "repository": {
+        "url": "https://github.com/FelixYifeiWang/felix-mcp-smithery",
+        "source": "github"
+      },
+      "version": "1.0.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://server.smithery.ai/@FelixYifeiWang/felix-mcp-smithery/mcp",
+          "headers": [
+            {
+              "description": "Bearer token for Smithery authentication",
+              "value": "Bearer {smithery_api_key}",
+              "name": "Authorization"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-02T07:15:10.498525Z",
+        "updatedAt": "2025-10-02T07:15:10.498525Z",
         "isLatest": true
       }
     }
