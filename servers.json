@@ -1421,7 +1421,7 @@
         "status": "active",
         "publishedAt": "2025-09-16T12:14:42.162776Z",
         "updatedAt": "2025-09-16T12:14:42.162776Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -2294,41 +2294,6 @@
         "status": "active",
         "publishedAt": "2025-09-19T09:33:46.34143Z",
         "updatedAt": "2025-09-19T09:40:01.090665Z",
-        "isLatest": false
-      }
-    }
-  },
-  {
-    "server": {
-      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
-      "name": "ai.smithery/brave",
-      "description": "Visit https://brave.com/search/api/ for a free API key. Search the web, local businesses, images,…",
-      "repository": {
-        "url": "https://github.com/brave/brave-search-mcp-server",
-        "source": "github"
-      },
-      "version": "2.0.6",
-      "remotes": [
-        {
-          "type": "streamable-http",
-          "url": "https://server.smithery.ai/brave/mcp",
-          "headers": [
-            {
-              "description": "Bearer token for Smithery authentication",
-              "isRequired": true,
-              "value": "Bearer {smithery_api_key}",
-              "isSecret": true,
-              "name": "Authorization"
-            }
-          ]
-        }
-      ]
-    },
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "status": "active",
-        "publishedAt": "2025-09-19T09:40:01.083926Z",
-        "updatedAt": "2025-09-19T11:31:51.128069Z",
         "isLatest": false
       }
     }
@@ -3372,6 +3337,39 @@
         "status": "active",
         "publishedAt": "2025-10-02T08:35:12.663422Z",
         "updatedAt": "2025-10-02T08:35:12.663422Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+      "name": "ai.smithery/IlyaGusev-academia_mcp",
+      "description": "Search arXiv and ACL Anthology, retrieve citations and references, and browse web sources to accel…",
+      "repository": {
+        "url": "https://github.com/IlyaGusev/academia_mcp",
+        "source": "github"
+      },
+      "version": "1.16.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://server.smithery.ai/@IlyaGusev/academia_mcp/mcp",
+          "headers": [
+            {
+              "description": "Bearer token for Smithery authentication",
+              "value": "Bearer {smithery_api_key}",
+              "name": "Authorization"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-02T18:00:50.572805Z",
+        "updatedAt": "2025-10-02T18:00:50.572805Z",
         "isLatest": true
       }
     }
