@@ -1131,41 +1131,6 @@
   {
     "server": {
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
-      "name": "ai.smithery/blbl147-xhs-mcp",
-      "description": "搜索笔记、浏览首页推荐、查看笔记内容与评论，并发表你的评论。直接在工作流中与小红书内容互动，高效跟进话题。",
-      "repository": {
-        "url": "https://github.com/blbl147/xhs-mcp",
-        "source": "github"
-      },
-      "version": "1.6.0",
-      "remotes": [
-        {
-          "type": "streamable-http",
-          "url": "https://server.smithery.ai/@blbl147/xhs-mcp/mcp",
-          "headers": [
-            {
-              "description": "Bearer token for Smithery authentication",
-              "isRequired": true,
-              "value": "Bearer {smithery_api_key}",
-              "isSecret": true,
-              "name": "Authorization"
-            }
-          ]
-        }
-      ]
-    },
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "status": "active",
-        "publishedAt": "2025-09-15T03:34:24.676763Z",
-        "updatedAt": "2025-09-15T03:34:24.676763Z",
-        "isLatest": true
-      }
-    }
-  },
-  {
-    "server": {
-      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "ai.shawndurrani/mcp-registry",
       "description": "Search the public MCP Registry; discover servers and copy SSE URLs.",
       "repository": {
@@ -2196,76 +2161,6 @@
   {
     "server": {
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
-      "name": "ai.smithery/blacklotusdev8-test_m",
-      "description": "Greet anyone by name with a friendly hello. Scrape webpages to extract content for quick reference…",
-      "repository": {
-        "url": "https://github.com/blacklotusdev8/test_m",
-        "source": "github"
-      },
-      "version": "1.14.0",
-      "remotes": [
-        {
-          "type": "streamable-http",
-          "url": "https://server.smithery.ai/@blacklotusdev8/test_m/mcp",
-          "headers": [
-            {
-              "description": "Bearer token for Smithery authentication",
-              "isRequired": true,
-              "value": "Bearer {smithery_api_key}",
-              "isSecret": true,
-              "name": "Authorization"
-            }
-          ]
-        }
-      ]
-    },
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "status": "active",
-        "publishedAt": "2025-09-19T19:12:16.602435Z",
-        "updatedAt": "2025-09-19T19:12:16.602435Z",
-        "isLatest": true
-      }
-    }
-  },
-  {
-    "server": {
-      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
-      "name": "ai.smithery/blockscout-mcp-server",
-      "description": "Provide AI agents and automation tools with contextual access to blockchain data including balance…",
-      "repository": {
-        "url": "https://github.com/blockscout/mcp-server",
-        "source": "github"
-      },
-      "version": "1.13.1",
-      "remotes": [
-        {
-          "type": "streamable-http",
-          "url": "https://server.smithery.ai/@blockscout/mcp-server/mcp",
-          "headers": [
-            {
-              "description": "Bearer token for Smithery authentication",
-              "isRequired": true,
-              "value": "Bearer {smithery_api_key}",
-              "isSecret": true,
-              "name": "Authorization"
-            }
-          ]
-        }
-      ]
-    },
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "status": "active",
-        "publishedAt": "2025-09-20T00:50:33.619952Z",
-        "updatedAt": "2025-09-20T00:50:33.619952Z",
-        "isLatest": true
-      }
-    }
-  },
-  {
-    "server": {
-      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "ai.smithery/anirbanbasu-pymcp",
       "description": "Primarily to be used as a template repository for developing MCP servers with FastMCP in Python, P…",
       "repository": {
@@ -2837,39 +2732,6 @@
   {
     "server": {
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
-      "name": "ai.smithery/bielacki-igdb-mcp-server",
-      "description": "Explore and discover video games from the Internet Game Database. Search titles, view detailed inf…",
-      "repository": {
-        "url": "https://github.com/bielacki/igdb-mcp-server",
-        "source": "github"
-      },
-      "version": "1.14.0",
-      "remotes": [
-        {
-          "type": "streamable-http",
-          "url": "https://server.smithery.ai/@bielacki/igdb-mcp-server/mcp",
-          "headers": [
-            {
-              "description": "Bearer token for Smithery authentication",
-              "value": "Bearer {smithery_api_key}",
-              "name": "Authorization"
-            }
-          ]
-        }
-      ]
-    },
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "status": "active",
-        "publishedAt": "2025-09-29T21:24:56.528261Z",
-        "updatedAt": "2025-09-29T21:24:56.528261Z",
-        "isLatest": true
-      }
-    }
-  },
-  {
-    "server": {
-      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "ai.smithery/aamangeldi-dad-jokes-mcp",
       "description": "Get a random dad joke or search by keyword to fit any moment. Retrieve specific jokes by ID for re…",
       "repository": {
@@ -3293,7 +3155,7 @@
         "status": "active",
         "publishedAt": "2025-10-03T07:10:16.958159Z",
         "updatedAt": "2025-10-03T07:10:16.958159Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -3359,6 +3221,138 @@
         "status": "active",
         "publishedAt": "2025-10-03T08:18:08.952463Z",
         "updatedAt": "2025-10-03T08:18:08.952463Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+      "name": "ai.smithery/arjunkmrm-test01",
+      "description": "Get the current time in any timezone. Explore concise timezone info to pick the right region. Simp…",
+      "repository": {
+        "url": "https://github.com/arjunkmrm/time",
+        "source": "github"
+      },
+      "version": "1.15.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://server.smithery.ai/@arjunkmrm/test01/mcp",
+          "headers": [
+            {
+              "description": "Bearer token for Smithery authentication",
+              "value": "Bearer {smithery_api_key}",
+              "name": "Authorization"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-03T09:01:40.590024Z",
+        "updatedAt": "2025-10-03T09:01:40.590024Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+      "name": "ai.smithery/arjunkmrm-local02",
+      "description": "Get the current time in your chosen timezone and view common timezone information. Simplify schedu…",
+      "repository": {
+        "url": "https://github.com/arjunkmrm/time",
+        "source": "github"
+      },
+      "version": "1.15.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://server.smithery.ai/@arjunkmrm/local02/mcp",
+          "headers": [
+            {
+              "description": "Bearer token for Smithery authentication",
+              "value": "Bearer {smithery_api_key}",
+              "name": "Authorization"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-03T09:02:26.911871Z",
+        "updatedAt": "2025-10-03T09:02:26.911871Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+      "name": "ai.smithery/ChiR24-unreal_mcp",
+      "description": "Control Unreal Engine to browse assets, import content, and manage levels and sequences. Automate…",
+      "repository": {
+        "url": "https://github.com/ChiR24/Unreal_mcp",
+        "source": "github"
+      },
+      "version": "0.4.5",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://server.smithery.ai/@ChiR24/unreal_mcp/mcp",
+          "headers": [
+            {
+              "description": "Bearer token for Smithery authentication",
+              "value": "Bearer {smithery_api_key}",
+              "name": "Authorization"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-03T09:43:19.045226Z",
+        "updatedAt": "2025-10-03T09:43:19.045226Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+      "name": "ai.smithery/arjunkmrm-local001",
+      "description": "Get the current time in your preferred timezone or any region you specify. Browse concise informat…",
+      "repository": {
+        "url": "https://github.com/arjunkmrm/time",
+        "source": "github"
+      },
+      "version": "1.15.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://server.smithery.ai/@arjunkmrm/local001/mcp",
+          "headers": [
+            {
+              "description": "Bearer token for Smithery authentication",
+              "value": "Bearer {smithery_api_key}",
+              "name": "Authorization"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-03T12:44:39.189348Z",
+        "updatedAt": "2025-10-03T12:44:39.189348Z",
         "isLatest": true
       }
     }
