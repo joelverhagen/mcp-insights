@@ -2237,76 +2237,6 @@
         "url": "https://github.com/brave/brave-search-mcp-server",
         "source": "github"
       },
-      "version": "2.0.4",
-      "remotes": [
-        {
-          "type": "streamable-http",
-          "url": "https://server.smithery.ai/brave/mcp",
-          "headers": [
-            {
-              "description": "Bearer token for Smithery authentication",
-              "isRequired": true,
-              "value": "Bearer {smithery_api_key}",
-              "isSecret": true,
-              "name": "Authorization"
-            }
-          ]
-        }
-      ]
-    },
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "status": "active",
-        "publishedAt": "2025-09-19T09:19:58.329764Z",
-        "updatedAt": "2025-09-19T09:33:46.378866Z",
-        "isLatest": false
-      }
-    }
-  },
-  {
-    "server": {
-      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
-      "name": "ai.smithery/brave",
-      "description": "Visit https://brave.com/search/api/ for a free API key. Search the web, local businesses, images,…",
-      "repository": {
-        "url": "https://github.com/brave/brave-search-mcp-server",
-        "source": "github"
-      },
-      "version": "2.0.5",
-      "remotes": [
-        {
-          "type": "streamable-http",
-          "url": "https://server.smithery.ai/brave/mcp",
-          "headers": [
-            {
-              "description": "Bearer token for Smithery authentication",
-              "isRequired": true,
-              "value": "Bearer {smithery_api_key}",
-              "isSecret": true,
-              "name": "Authorization"
-            }
-          ]
-        }
-      ]
-    },
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "status": "active",
-        "publishedAt": "2025-09-19T09:33:46.34143Z",
-        "updatedAt": "2025-09-19T09:40:01.090665Z",
-        "isLatest": false
-      }
-    }
-  },
-  {
-    "server": {
-      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
-      "name": "ai.smithery/brave",
-      "description": "Visit https://brave.com/search/api/ for a free API key. Search the web, local businesses, images,…",
-      "repository": {
-        "url": "https://github.com/brave/brave-search-mcp-server",
-        "source": "github"
-      },
       "version": "2.0.10",
       "remotes": [
         {
@@ -3370,6 +3300,73 @@
         "status": "active",
         "publishedAt": "2025-10-02T18:00:50.572805Z",
         "updatedAt": "2025-10-02T18:00:50.572805Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+      "name": "ai.smithery/afgong-sqlite-mcp-server",
+      "description": "Explore your Messages SQLite database to browse tables and inspect schemas with ease. Run flexible…",
+      "repository": {
+        "url": "https://github.com/afgong/sqlite-mcp-server",
+        "source": "github",
+        "subfolder": "sqlite-explorer-fastmcp-mcp-server"
+      },
+      "version": "1.16.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://server.smithery.ai/@afgong/sqlite-mcp-server/mcp",
+          "headers": [
+            {
+              "description": "Bearer token for Smithery authentication",
+              "value": "Bearer {smithery_api_key}",
+              "name": "Authorization"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-02T21:47:24.293477Z",
+        "updatedAt": "2025-10-02T21:47:24.293477Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+      "name": "ai.smithery/BowenXU0126-aistudio_hw3",
+      "description": "Send personalized greetings with optional pirate flair. Compose friendly salutations for any name…",
+      "repository": {
+        "url": "https://github.com/BowenXU0126/aistudio_hw3",
+        "source": "github"
+      },
+      "version": "1.16.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://server.smithery.ai/@BowenXU0126/aistudio_hw3/mcp",
+          "headers": [
+            {
+              "description": "Bearer token for Smithery authentication",
+              "value": "Bearer {smithery_api_key}",
+              "name": "Authorization"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-03T00:54:01.690641Z",
+        "updatedAt": "2025-10-03T00:54:01.690641Z",
         "isLatest": true
       }
     }
