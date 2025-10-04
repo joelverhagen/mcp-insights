@@ -930,41 +930,6 @@
   {
     "server": {
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
-      "name": "ai.smithery/aryankeluskar-poke-video-mcp",
-      "description": "Search your Flashback video library with natural language to instantly find relevant moments. Get…",
-      "repository": {
-        "url": "https://github.com/aryankeluskar/poke-video-mcp",
-        "source": "github"
-      },
-      "version": "1.14.0",
-      "remotes": [
-        {
-          "type": "streamable-http",
-          "url": "https://server.smithery.ai/@aryankeluskar/poke-video-mcp/mcp",
-          "headers": [
-            {
-              "description": "Bearer token for Smithery authentication",
-              "isRequired": true,
-              "value": "Bearer {smithery_api_key}",
-              "isSecret": true,
-              "name": "Authorization"
-            }
-          ]
-        }
-      ]
-    },
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "status": "active",
-        "publishedAt": "2025-09-14T17:42:05.006814Z",
-        "updatedAt": "2025-09-14T17:42:05.006814Z",
-        "isLatest": true
-      }
-    }
-  },
-  {
-    "server": {
-      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "ai.smithery/BigVik193-reddit-user-mcp",
       "description": "Browse and manage Reddit posts, comments, and threads. Fetch user activity, explore hot/new/rising…",
       "repository": {
@@ -2056,41 +2021,6 @@
   {
     "server": {
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
-      "name": "ai.smithery/arjunkmrm-watch2",
-      "description": "Get the current time in your chosen timezone. Browse available continents and regions to pick the…",
-      "repository": {
-        "url": "https://github.com/arjunkmrm/clock",
-        "source": "github"
-      },
-      "version": "1.14.1",
-      "remotes": [
-        {
-          "type": "streamable-http",
-          "url": "https://server.smithery.ai/@arjunkmrm/watch2/mcp",
-          "headers": [
-            {
-              "description": "Bearer token for Smithery authentication",
-              "isRequired": true,
-              "value": "Bearer {smithery_api_key}",
-              "isSecret": true,
-              "name": "Authorization"
-            }
-          ]
-        }
-      ]
-    },
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "status": "active",
-        "publishedAt": "2025-09-19T08:31:21.361328Z",
-        "updatedAt": "2025-09-19T08:31:21.361328Z",
-        "isLatest": true
-      }
-    }
-  },
-  {
-    "server": {
-      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "ai.smithery/anirbanbasu-frankfurtermcp",
       "description": "A MCP server for the Frankfurter API for currency exchange rates.",
       "repository": {
@@ -2500,39 +2430,6 @@
   {
     "server": {
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
-      "name": "ai.smithery/arjunkmrm-test2",
-      "description": "Greet anyone by name with a friendly message. Explore the origin of 'Hello, World' to add context…",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
-      "version": "1.0.0",
-      "remotes": [
-        {
-          "type": "streamable-http",
-          "url": "https://server.smithery.ai/@arjunkmrm/test2/mcp",
-          "headers": [
-            {
-              "description": "Bearer token for Smithery authentication",
-              "value": "Bearer {smithery_api_key}",
-              "name": "Authorization"
-            }
-          ]
-        }
-      ]
-    },
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "status": "active",
-        "publishedAt": "2025-09-29T10:33:30.587409Z",
-        "updatedAt": "2025-09-29T10:33:30.587409Z",
-        "isLatest": true
-      }
-    }
-  },
-  {
-    "server": {
-      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "ai.smithery/anirbanbasu-frankfurtermcp",
       "description": "A MCP server for the Frankfurter API for currency exchange rates.",
       "repository": {
@@ -2592,40 +2489,6 @@
         "status": "active",
         "publishedAt": "2025-09-29T12:13:12.824688Z",
         "updatedAt": "2025-09-29T12:13:12.824688Z",
-        "isLatest": true
-      }
-    }
-  },
-  {
-    "server": {
-      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
-      "name": "ai.smithery/arjunkmrm-tutorials",
-      "description": "Analyze stocks and SEC filings to surface key insights, from price and volume to insider activity…",
-      "repository": {
-        "url": "https://github.com/arjunkmrm/tutorials",
-        "source": "github",
-        "subfolder": "smithery-example/financial-server"
-      },
-      "version": "1.15.0",
-      "remotes": [
-        {
-          "type": "streamable-http",
-          "url": "https://server.smithery.ai/@arjunkmrm/tutorials/mcp",
-          "headers": [
-            {
-              "description": "Bearer token for Smithery authentication",
-              "value": "Bearer {smithery_api_key}",
-              "name": "Authorization"
-            }
-          ]
-        }
-      ]
-    },
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "status": "active",
-        "publishedAt": "2025-09-29T12:55:16.098975Z",
-        "updatedAt": "2025-09-29T12:55:16.098975Z",
         "isLatest": true
       }
     }
@@ -2890,39 +2753,6 @@
         "status": "active",
         "publishedAt": "2025-10-02T07:15:10.498525Z",
         "updatedAt": "2025-10-02T07:15:10.498525Z",
-        "isLatest": true
-      }
-    }
-  },
-  {
-    "server": {
-      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
-      "name": "ai.smithery/arjunkmrm-time",
-      "description": "Get the current time anywhere and access concise timezone information. Set your preferred timezone…",
-      "repository": {
-        "url": "https://github.com/arjunkmrm/time",
-        "source": "github"
-      },
-      "version": "1.15.0",
-      "remotes": [
-        {
-          "type": "streamable-http",
-          "url": "https://server.smithery.ai/@arjunkmrm/time/mcp",
-          "headers": [
-            {
-              "description": "Bearer token for Smithery authentication",
-              "value": "Bearer {smithery_api_key}",
-              "name": "Authorization"
-            }
-          ]
-        }
-      ]
-    },
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "status": "active",
-        "publishedAt": "2025-10-02T08:35:12.663422Z",
-        "updatedAt": "2025-10-02T08:35:12.663422Z",
         "isLatest": true
       }
     }
@@ -3353,6 +3183,171 @@
         "status": "active",
         "publishedAt": "2025-10-04T01:51:32.373165Z",
         "updatedAt": "2025-10-04T01:51:32.373165Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+      "name": "ai.smithery/arjunkmrm-py-test-0",
+      "description": "Send personalized greetings by name, with an optional pirate tone. Generate greeting prompts and e…",
+      "repository": {
+        "url": "",
+        "source": ""
+      },
+      "version": "1.16.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://server.smithery.ai/@arjunkmrm/py-test-0/mcp",
+          "headers": [
+            {
+              "description": "Bearer token for Smithery authentication",
+              "value": "Bearer {smithery_api_key}",
+              "name": "Authorization"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-04T02:06:51.365096Z",
+        "updatedAt": "2025-10-04T02:06:51.365096Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+      "name": "ai.smithery/arjunkmrm-mango-sago",
+      "description": "Create cheerful, personalized greetings in seconds. Switch to playful pirate-speak for extra flair…",
+      "repository": {
+        "url": "https://github.com/arjunkmrm/mango-sago",
+        "source": "github"
+      },
+      "version": "1.16.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://server.smithery.ai/@arjunkmrm/mango-sago/mcp",
+          "headers": [
+            {
+              "description": "Bearer token for Smithery authentication",
+              "value": "Bearer {smithery_api_key}",
+              "name": "Authorization"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-04T02:20:25.785458Z",
+        "updatedAt": "2025-10-04T02:20:25.785458Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+      "name": "ai.smithery/aicastle-school-openai-api-agent-project11",
+      "description": "Fetch the latest available stock quotes by ticker symbol across international markets. Check price…",
+      "repository": {
+        "url": "https://github.com/aicastle-school/openai-api-agent-project",
+        "source": "github"
+      },
+      "version": "1.14.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://server.smithery.ai/@aicastle-school/openai-api-agent-project11/mcp",
+          "headers": [
+            {
+              "description": "Bearer token for Smithery authentication",
+              "value": "Bearer {smithery_api_key}",
+              "name": "Authorization"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-04T02:42:49.15996Z",
+        "updatedAt": "2025-10-04T02:42:49.15996Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+      "name": "ai.smithery/arjunkmrm-py-test-2",
+      "description": "Greet people by name with friendly, customizable messages. Toggle Pirate Mode to speak like a swas…",
+      "repository": {
+        "url": "https://github.com/arjunkmrm/mango-sago",
+        "source": "github"
+      },
+      "version": "1.16.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://server.smithery.ai/@arjunkmrm/py-test-2/mcp",
+          "headers": [
+            {
+              "description": "Bearer token for Smithery authentication",
+              "value": "Bearer {smithery_api_key}",
+              "name": "Authorization"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-04T03:00:46.274065Z",
+        "updatedAt": "2025-10-04T03:00:46.274065Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+      "name": "ai.smithery/aicastle-school-openai-api-agent-project",
+      "description": "Fetch current stock prices and key data for symbols across global markets. Look up companies like…",
+      "repository": {
+        "url": "https://github.com/aicastle-school/openai-api-agent-project",
+        "source": "github"
+      },
+      "version": "1.14.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://server.smithery.ai/@aicastle-school/openai-api-agent-project/mcp",
+          "headers": [
+            {
+              "description": "Bearer token for Smithery authentication",
+              "value": "Bearer {smithery_api_key}",
+              "name": "Authorization"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-04T03:03:54.256827Z",
+        "updatedAt": "2025-10-04T03:03:54.256827Z",
         "isLatest": true
       }
     }
