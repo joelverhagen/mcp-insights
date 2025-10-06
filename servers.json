@@ -3190,39 +3190,6 @@
   {
     "server": {
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
-      "name": "ai.smithery/arjunkmrm-py-test-2",
-      "description": "Greet people by name with friendly, customizable messages. Toggle Pirate Mode to speak like a swas…",
-      "repository": {
-        "url": "https://github.com/arjunkmrm/mango-sago",
-        "source": "github"
-      },
-      "version": "1.16.0",
-      "remotes": [
-        {
-          "type": "streamable-http",
-          "url": "https://server.smithery.ai/@arjunkmrm/py-test-2/mcp",
-          "headers": [
-            {
-              "description": "Bearer token for Smithery authentication",
-              "value": "Bearer {smithery_api_key}",
-              "name": "Authorization"
-            }
-          ]
-        }
-      ]
-    },
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "status": "active",
-        "publishedAt": "2025-10-04T03:00:46.274065Z",
-        "updatedAt": "2025-10-04T03:00:46.274065Z",
-        "isLatest": true
-      }
-    }
-  },
-  {
-    "server": {
-      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
       "name": "ai.smithery/aicastle-school-openai-api-agent-project",
       "description": "Fetch current stock prices and key data for symbols across global markets. Look up companies like…",
       "repository": {
@@ -3348,6 +3315,39 @@
         "status": "active",
         "publishedAt": "2025-10-05T15:14:35.748005Z",
         "updatedAt": "2025-10-05T15:14:35.748005Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+      "name": "ai.smithery/Artin0123-gemini-image-mcp-server",
+      "description": "Analyze images and videos with Gemini to get fast, reliable visual insights. Handle content from U…",
+      "repository": {
+        "url": "https://github.com/Artin0123/gemini-image-mcp-server",
+        "source": "github"
+      },
+      "version": "1.2.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://server.smithery.ai/@Artin0123/gemini-image-mcp-server/mcp",
+          "headers": [
+            {
+              "description": "Bearer token for Smithery authentication",
+              "value": "Bearer {smithery_api_key}",
+              "name": "Authorization"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-06T07:34:28.779387Z",
+        "updatedAt": "2025-10-06T07:34:28.779387Z",
         "isLatest": true
       }
     }
