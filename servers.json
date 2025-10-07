@@ -1241,7 +1241,7 @@
         "status": "active",
         "publishedAt": "2025-09-09T06:51:49.988573Z",
         "updatedAt": "2025-09-09T06:51:49.988573Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -17926,7 +17926,7 @@
         "status": "active",
         "publishedAt": "2025-09-18T21:32:17.512332Z",
         "updatedAt": "2025-09-18T21:32:17.512332Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -43002,6 +43002,183 @@
         "status": "active",
         "publishedAt": "2025-10-07T15:57:33.366017Z",
         "updatedAt": "2025-10-07T15:57:33.366017Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+      "name": "ai.smithery/Artin0123-gemini-image-mcp-server",
+      "description": "Analyze images and videos with Gemini to get fast, reliable visual insights. Handle content from U…",
+      "repository": {
+        "url": "https://github.com/Artin0123/gemini-vision-mcp",
+        "source": "github"
+      },
+      "version": "0.0.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://server.smithery.ai/@Artin0123/gemini-image-mcp-server/mcp",
+          "headers": [
+            {
+              "description": "Bearer token for Smithery authentication",
+              "value": "Bearer {smithery_api_key}",
+              "name": "Authorization"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-07T17:47:25.005282Z",
+        "updatedAt": "2025-10-07T17:47:25.005282Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+      "name": "ai.smithery/Parc-Dev-task-breakdown-server",
+      "description": "Break down complex problems into clear, actionable steps. Adapt on the fly by iterating, revising,…",
+      "repository": {
+        "url": "",
+        "source": ""
+      },
+      "version": "1.0.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://server.smithery.ai/@Parc-Dev/task-breakdown-server/mcp",
+          "headers": [
+            {
+              "description": "Bearer token for Smithery authentication",
+              "value": "Bearer {smithery_api_key}",
+              "name": "Authorization"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-07T18:37:20.988548Z",
+        "updatedAt": "2025-10-07T18:37:20.988548Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "com.supabase/mcp",
+      "description": "MCP server for interacting with the Supabase platform",
+      "repository": {
+        "url": "https://github.com/supabase-community/supabase-mcp",
+        "source": "github",
+        "subfolder": "packages/mcp-server-supabase"
+      },
+      "version": "0.5.6",
+      "websiteUrl": "https://supabase.com/mcp",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@supabase/mcp-server-supabase",
+          "version": "0.5.6",
+          "runtimeHint": "npx",
+          "transport": {
+            "type": "stdio"
+          },
+          "runtimeArguments": [
+            {
+              "description": "Supabase project reference ID",
+              "format": "string",
+              "type": "named",
+              "name": "--project-ref"
+            },
+            {
+              "description": "Enable read-only mode",
+              "format": "boolean",
+              "type": "named",
+              "name": "--read-only"
+            },
+            {
+              "description": "Comma-separated list of features to enable",
+              "format": "string",
+              "type": "named",
+              "name": "--features"
+            },
+            {
+              "description": "Custom API URL",
+              "format": "string",
+              "type": "named",
+              "name": "--api-url"
+            }
+          ],
+          "environmentVariables": [
+            {
+              "description": "Personal access token for Supabase API",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "SUPABASE_ACCESS_TOKEN"
+            }
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.supabase.com/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-07T18:43:17.850411Z",
+        "updatedAt": "2025-10-07T18:43:17.850411Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.mobile-next/mobile-mcp",
+      "description": "MCP server for iOS and Android Mobile Development, Automation and Testing",
+      "repository": {
+        "url": "https://github.com/mobile-next/mobile-mcp",
+        "source": "github"
+      },
+      "version": "0.0.31",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@mobilenext/mobile-mcp",
+          "version": "0.0.31",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "name": ""
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-07T20:11:57.116929Z",
+        "updatedAt": "2025-10-07T20:11:57.116929Z",
         "isLatest": true
       }
     }
