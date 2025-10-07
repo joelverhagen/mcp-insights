@@ -2525,39 +2525,6 @@
   {
     "server": {
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
-      "name": "ai.smithery/arjunkmrm-local01",
-      "description": "Greet people warmly or roast them with playful banter. Explore the origin of 'Hello, World' for qu…",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
-      "version": "1.0.0",
-      "remotes": [
-        {
-          "type": "streamable-http",
-          "url": "https://server.smithery.ai/@arjunkmrm/local01/mcp",
-          "headers": [
-            {
-              "description": "Bearer token for Smithery authentication",
-              "value": "Bearer {smithery_api_key}",
-              "name": "Authorization"
-            }
-          ]
-        }
-      ]
-    },
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "status": "active",
-        "publishedAt": "2025-10-02T04:20:15.678667Z",
-        "updatedAt": "2025-10-02T04:20:15.678667Z",
-        "isLatest": true
-      }
-    }
-  },
-  {
-    "server": {
-      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
       "name": "ai.smithery/arjunkmrm-brave-search-mcp-server",
       "description": "Search the web, images, videos, news, and local businesses with robust filters, freshness controls…",
       "repository": {
@@ -2849,39 +2816,6 @@
         "status": "active",
         "publishedAt": "2025-10-03T07:12:00.299485Z",
         "updatedAt": "2025-10-03T07:12:00.299485Z",
-        "isLatest": true
-      }
-    }
-  },
-  {
-    "server": {
-      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
-      "name": "ai.smithery/arjunkmrm-local02",
-      "description": "Get the current time in your chosen timezone and view common timezone information. Simplify schedu…",
-      "repository": {
-        "url": "https://github.com/arjunkmrm/time",
-        "source": "github"
-      },
-      "version": "1.15.0",
-      "remotes": [
-        {
-          "type": "streamable-http",
-          "url": "https://server.smithery.ai/@arjunkmrm/local02/mcp",
-          "headers": [
-            {
-              "description": "Bearer token for Smithery authentication",
-              "value": "Bearer {smithery_api_key}",
-              "name": "Authorization"
-            }
-          ]
-        }
-      ]
-    },
-    "_meta": {
-      "io.modelcontextprotocol.registry/official": {
-        "status": "active",
-        "publishedAt": "2025-10-03T09:02:26.911871Z",
-        "updatedAt": "2025-10-03T09:02:26.911871Z",
         "isLatest": true
       }
     }
@@ -3344,6 +3278,72 @@
         "status": "active",
         "publishedAt": "2025-10-06T11:12:19.115931Z",
         "updatedAt": "2025-10-06T11:12:19.115931Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+      "name": "ai.smithery/RectiFlex-centerassist-mcp-cp",
+      "description": "Streamline property management, construction, and service workflows with CenterPoint Connect. Sear…",
+      "repository": {
+        "url": "",
+        "source": ""
+      },
+      "version": "1.0.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://server.smithery.ai/@RectiFlex/centerassist-mcp-cp/mcp",
+          "headers": [
+            {
+              "description": "Bearer token for Smithery authentication",
+              "value": "Bearer {smithery_api_key}",
+              "name": "Authorization"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-07T03:31:56.911791Z",
+        "updatedAt": "2025-10-07T03:31:56.911791Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+      "name": "ai.smithery/RectiFlex-centerassist-mcp-cp1",
+      "description": "Access and manage CenterPoint Connect data for property management, construction, and service oper…",
+      "repository": {
+        "url": "",
+        "source": ""
+      },
+      "version": "1.0.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://server.smithery.ai/@RectiFlex/centerassist-mcp-cp1/mcp",
+          "headers": [
+            {
+              "description": "Bearer token for Smithery authentication",
+              "value": "Bearer {smithery_api_key}",
+              "name": "Authorization"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-07T03:54:36.038569Z",
+        "updatedAt": "2025-10-07T03:54:36.038569Z",
         "isLatest": true
       }
     }
