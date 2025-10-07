@@ -25,6 +25,9 @@ param(
     [int]
     $RequestTimeoutSeconds = 30,
 
+    [int]
+    $Limit = 100,
+
     [switch]
     $FilterActive
 )
@@ -100,21 +103,21 @@ function Invoke-GetWithRetry {
 function Build-ServersUri {
     param(
         [string]$BaseUrl,
-        [string]$Cursor
+        [string]$Cursor,
+        [int]$Limit
     )
 
+    if ($Limit -le 0) { $Limit = 100 }
     $baseUri = [System.Uri]::new($BaseUrl)
     $builder = New-Object System.UriBuilder($baseUri)
-
-    # Ensure the endpoint path is appended exactly once.
     $builder.Path = ($builder.Path.TrimEnd('/') + '/v0/servers')
 
-    $builder.Query = 'limit=100'
-
+    $parts = @()
+    $parts += "limit=$Limit"
     if (-not [string]::IsNullOrWhiteSpace($Cursor)) {
-        $builder.Query += "&cursor=$([System.Net.WebUtility]::UrlEncode($Cursor))"
+        $parts += "cursor=$([System.Net.WebUtility]::UrlEncode($Cursor))"
     }
-
+    $builder.Query = ($parts -join '&')  # UriBuilder will prepend '?'
     return $builder.Uri.AbsoluteUri
 }
 
@@ -126,7 +129,7 @@ $page = 0
 do {
     $page++
     # Use the helper to always get a valid, full URL for the request.
-    $uri = Build-ServersUri -BaseUrl $BaseUrl -Cursor $cursor
+    $uri = Build-ServersUri -BaseUrl $BaseUrl -Cursor $cursor -Limit $Limit
 
     Write-Verbose "Fetching page $page - $uri"
     try {
@@ -149,15 +152,30 @@ do {
         }
     }
 
-    # metadata.next_cursor is provided when there are more pages
-    $cursor = if ($resp.metadata -and $resp.metadata.next_cursor) { $resp.metadata.next_cursor } else { $null }
+    # Registry pagination field changed from next_cursor -> nextCursor. Support both.
+    $cursor = $null
+    if ($resp.metadata) {
+        $mdProps = $resp.metadata.PSObject.Properties
+        if ($mdProps.Name -contains 'next_cursor' -and $resp.metadata.next_cursor) {
+            $cursor = $resp.metadata.next_cursor
+        } elseif ($mdProps.Name -contains 'nextCursor' -and $resp.metadata.nextCursor) {
+            $cursor = $resp.metadata.nextCursor
+        }
+    }
+
+    $pageCount = if ($resp.metadata -and $resp.metadata.count) { $resp.metadata.count } else { $null }
+    if ($pageCount -ne $null) {
+        Write-Output "Page $page returned $pageCount servers (accumulated: $($allServers.Count))"
+    } else {
+        Write-Output "Page $page accumulated: $($allServers.Count) servers"
+    }
 
     # Be polite with the registry
     Start-Sleep -Milliseconds 1000
 
 } while ($cursor)
 
-Write-Verbose "Fetched total servers: $($allServers.Count)"
+Write-Verbose "Fetched total servers (all pages): $($allServers.Count)"
 
 if ($FilterActive) {
     $countBefore = $allServers.Count

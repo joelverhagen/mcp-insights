@@ -50,8 +50,12 @@ $jsonCategoryMap = @{} # name -> object with PackageCategories (HashSet) and Has
 function Get-PackageCategoriesFromJsonObject {
     param([psobject]$obj)
     $categories = [System.Collections.Generic.HashSet[string]]::new()
-    if ($obj.packages) {
-        foreach ($pkg in $obj.packages) {
+    # Support both old schema (packages at top-level) and new schema (packages under server.packages)
+    $pkgContainer = $null
+    if ($obj.packages) { $pkgContainer = $obj.packages }
+    elseif ($obj.server -and $obj.server.packages) { $pkgContainer = $obj.server.packages }
+    if ($pkgContainer) {
+        foreach ($pkg in $pkgContainer) {
             $rt = $pkg.registryType
             if (-not $rt -and $pkg.registryType) { $rt = $pkg.registryType }
             if ($rt) { $categories.Add($rt.ToLowerInvariant()) | Out-Null }
@@ -62,7 +66,9 @@ function Get-PackageCategoriesFromJsonObject {
 
 function Get-HasRemoteFromJsonObject {
     param([psobject]$obj)
+    # Support remotes either at top-level (old) or under server.remotes (new)
     if ($obj.remotes -and $obj.remotes.Count -gt 0) { return $true }
+    if ($obj.server -and $obj.server.remotes -and $obj.server.remotes.Count -gt 0) { return $true }
     return $false
 }
 
@@ -89,8 +95,15 @@ if (Test-Path $JsonPath) {
     # $json can be an array of PSObjects; check for IEnumerable with count
         if ($json -and ($json -is [System.Collections.IEnumerable]) -and $json.Count -gt 0) {
             foreach ($item in $json) {
+                # Name detection (support old schema: name at top-level; new schema: server.name)
                 $name = $item.name; if (-not $name) { $name = $item.Name }
+                if (-not $name -and $item.server -and $item.server.name) { $name = $item.server.name }
+
+                # PublishedAt detection (support old schema: publishedAt at top-level; new schema: _meta."io.modelcontextprotocol.registry/official".publishedAt)
                 $p = $item.publishedAt; if (-not $p) { $p = $item.publishedAt }
+                if (-not $p -and $item._meta -and $item._meta.'io.modelcontextprotocol.registry/official' -and $item._meta.'io.modelcontextprotocol.registry/official'.publishedAt) {
+                    $p = $item._meta.'io.modelcontextprotocol.registry/official'.publishedAt
+                }
                 $dt = ConvertTo-DateTime $p
                 if ($null -ne $dt -and $name) {
                     $records += [PSCustomObject]@{ Name = $name; PublishedAt = $dt }
@@ -100,11 +113,13 @@ if (Test-Path $JsonPath) {
                         $jsonCategoryMap[$name] = [PSCustomObject]@{ PackageCategories = [System.Collections.Generic.HashSet[string]]::new(); HasRemote = $false }
                     }
                     $entry = $jsonCategoryMap[$name]
+                    # Pass entire item; helper handles both schemas
                     $pkgCats = Get-PackageCategoriesFromJsonObject -obj $item
                     foreach ($c in $pkgCats) { if ($c) { $entry.PackageCategories.Add($c) | Out-Null } }
                     if ((Get-HasRemoteFromJsonObject -obj $item)) { $entry.HasRemote = $true }
                 }
             }
+            Write-Host "Parsed $($records.Count) records (including JSON) so far." -ForegroundColor Green
         }
     } catch {
         Write-Warning "Failed to read JSON: $_"
@@ -225,18 +240,16 @@ try {
      }
     foreach ($p in $series) { $vl.data.values += @{ date = $p.Date; count = $p.UniqueCount } }
     $vlPath = Join-Path -Path (Get-Location) -ChildPath 'servers-per-day.vl.json'
-    $vl | ConvertTo-Json -Depth 6 | Set-Content -Path $vlPath -Encoding UTF8
+    $Utf8NoBomEncoding = New-Object System.Text.UTF8Encoding $False
+    [System.IO.File]::WriteAllLines($vlPath, ($vl | ConvertTo-Json -Depth 100), $Utf8NoBomEncoding)
 
-    if (Get-Command npx -ErrorAction SilentlyContinue) {
-        # Use vl2svg to directly produce SVG
-        & npx -y -p vega -p vega-lite vl2svg $vlPath > $OutSvg
-        if ($LASTEXITCODE -eq 0 -and (Test-Path $OutSvg)) {
-            Write-Host "Vega rendered to $OutSvg"
-        } else {
-            Write-Warning "vl2svg failed (exit $LASTEXITCODE). SVG not generated."
-        }
+    # Use vega-cli (provides vl2svg) explicitly with vega & vega-lite, fallback to node renderer.
+    $output = npx -y -p vega-cli -p vega -p vega-lite -- vl2svg $vlPath
+    if ($LASTEXITCODE -eq 0) {
+        [System.IO.File]::WriteAllLines($OutSvg, $output, $Utf8NoBomEncoding)
+        Write-Host "Vega rendered to $OutSvg via vega-cli" -ForegroundColor Green
     } else {
-        Write-Warning "npx not found in PATH. Install Node.js (which provides npx) to enable Vega rendering."
+        Write-Warning "vl2svg (vega-cli) failed (exit $LASTEXITCODE)."
     }
 } catch {
     Write-Warning "Exception during Vega rendering: $_"
