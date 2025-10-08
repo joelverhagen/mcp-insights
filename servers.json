@@ -18361,7 +18361,7 @@
         "status": "active",
         "publishedAt": "2025-09-19T03:40:16.952879Z",
         "updatedAt": "2025-09-19T03:40:16.952879Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -33504,7 +33504,7 @@
         "status": "active",
         "publishedAt": "2025-10-01T20:03:22.897006Z",
         "updatedAt": "2025-10-01T20:03:22.897006Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -43806,7 +43806,7 @@
         "status": "active",
         "publishedAt": "2025-10-08T04:30:37.785482Z",
         "updatedAt": "2025-10-08T04:30:37.785482Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -44314,6 +44314,221 @@
         "status": "active",
         "publishedAt": "2025-10-08T14:44:05.256925Z",
         "updatedAt": "2025-10-08T14:44:05.256925Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.zeiq-co/thoth-mcp",
+      "description": "MCP server for Thoth with multi-platform AI content generation",
+      "repository": {
+        "url": "https://github.com/perminder-klair/thoth-mcp",
+        "source": "github"
+      },
+      "version": "1.0.1",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@usethoth/mcp-server",
+          "version": "1.0.1",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-08T16:45:58.653494Z",
+        "updatedAt": "2025-10-08T16:45:58.653494Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.zeiq-co/thoth-mcp",
+      "description": "MCP server for Thoth with multi-platform AI content generation",
+      "repository": {
+        "url": "https://github.com/perminder-klair/thoth-mcp",
+        "source": "github"
+      },
+      "version": "1.0.2",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@usethoth/mcp-server",
+          "version": "1.0.2",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-08T16:56:24.838745Z",
+        "updatedAt": "2025-10-08T16:56:24.838745Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.brave/brave-search-mcp-server",
+      "description": "Brave Search MCP Server: web results, images, videos, rich results, AI summaries, and more.",
+      "repository": {
+        "url": "https://github.com/brave/brave-search-mcp-server",
+        "source": "github"
+      },
+      "version": "2.0.53",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@brave/brave-search-mcp-server",
+          "version": "2.0.53",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your API key for the service",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "BRAVE_API_KEY"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-08T17:38:48.551946Z",
+        "updatedAt": "2025-10-08T17:38:48.551946Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+      "name": "com.figma.mcp/mcp",
+      "description": "The Figma MCP server brings Figma context directly into your AI workflow.",
+      "repository": {
+        "url": "",
+        "source": ""
+      },
+      "version": "1.0.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.figma.com/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-08T18:25:56.591115Z",
+        "updatedAt": "2025-10-08T18:25:56.591115Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+      "name": "com.figma.mcp/mcp",
+      "description": "The Figma MCP server brings Figma context directly into your AI workflow.",
+      "repository": {
+        "url": "",
+        "source": ""
+      },
+      "version": "1.0.1",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.figma.com/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-08T18:29:41.508062Z",
+        "updatedAt": "2025-10-08T18:29:41.508062Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+      "name": "com.devcycle/mcp",
+      "description": "DevCycle MCP server for feature flag management",
+      "repository": {
+        "url": "https://github.com/DevCycleHQ/cli",
+        "source": "github"
+      },
+      "version": "6.1.2",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.devcycle.com/mcp"
+        },
+        {
+          "type": "sse",
+          "url": "https://mcp.devcycle.com/sse"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-08T18:37:24.013715Z",
+        "updatedAt": "2025-10-08T18:37:24.013715Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.francisco-perez-sorrosal/cv",
+      "description": "An MCP server that provides access to Francisco Perez-Sorrosal's CV",
+      "repository": {
+        "url": "https://github.com/francisco-perez-sorrosal/cv.git",
+        "source": "github"
+      },
+      "version": "0.0.3",
+      "packages": [
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/francisco-perez-sorrosal/cv/releases/download/v0.0.3/fps-cv-mcp-0.0.3.mcpb",
+          "version": "0.0.3",
+          "fileSha256": "d9835e29ee1a95759219f23bb988f71cb9d419b631754fc0ad8ab43b5ff0042e",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-08T19:16:22.808746Z",
+        "updatedAt": "2025-10-08T19:16:22.808746Z",
         "isLatest": true
       }
     }
