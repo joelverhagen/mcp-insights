@@ -43182,5 +43182,201 @@
         "isLatest": true
       }
     }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+      "name": "ai.smithery/TakoData-tako-mcp",
+      "description": "Provide real-time data querying and visualization by integrating Tako with your agents. Generate o…",
+      "repository": {
+        "url": "https://github.com/TakoData/tako-mcp",
+        "source": "github"
+      },
+      "version": "1.16.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://server.smithery.ai/@TakoData/tako-mcp/mcp",
+          "headers": [
+            {
+              "description": "Bearer token for Smithery authentication",
+              "value": "Bearer {smithery_api_key}",
+              "name": "Authorization"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-07T20:40:52.702786Z",
+        "updatedAt": "2025-10-07T20:40:52.702786Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+      "name": "ai.smithery/mrugankpednekar-mcp-optimizer",
+      "description": "Optimize crew and workforce schedules, resource allocation, and routing with linear and mixed-inte…",
+      "repository": {
+        "url": "https://github.com/mrugankpednekar/mcp-optimizer",
+        "source": "github"
+      },
+      "version": "1.16.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://server.smithery.ai/@mrugankpednekar/mcp-optimizer/mcp",
+          "headers": [
+            {
+              "description": "Bearer token for Smithery authentication",
+              "value": "Bearer {smithery_api_key}",
+              "name": "Authorization"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-07T21:15:31.815401Z",
+        "updatedAt": "2025-10-07T21:15:31.815401Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+      "name": "ai.smithery/Funding-Machine-ghl-mcp-fundingmachine",
+      "description": "Automate GoHighLevel across CRM, messaging, calendars, marketing, e-commerce, and billing. Manage…",
+      "repository": {
+        "url": "",
+        "source": ""
+      },
+      "version": "1.0.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://server.smithery.ai/@Funding-Machine/ghl-mcp-fundingmachine/mcp",
+          "headers": [
+            {
+              "description": "Bearer token for Smithery authentication",
+              "value": "Bearer {smithery_api_key}",
+              "name": "Authorization"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-07T21:20:15.688859Z",
+        "updatedAt": "2025-10-07T21:20:15.688859Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.jamesmontemagno/monkeymcp",
+      "description": "MCP server providing monkey data, journeys, and location services for various monkey species.",
+      "repository": {
+        "url": "https://github.com/jamesmontemagno/monkeymcp",
+        "source": "github"
+      },
+      "version": "2.0.3",
+      "packages": [
+        {
+          "registryType": "oci",
+          "registryBaseUrl": "https://docker.io",
+          "identifier": "jamesmontemagno/monkeymcp",
+          "version": "2.0.3",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-07T23:03:40.813346Z",
+        "updatedAt": "2025-10-07T23:03:40.813346Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+      "name": "ai.smithery/huuthangntk-claude-vision-mcp-server",
+      "description": "Analyze images from multiple angles to extract detailed insights or quick summaries. Describe visu…",
+      "repository": {
+        "url": "https://github.com/huuthangntk/claude-vision-mcp-server",
+        "source": "github"
+      },
+      "version": "1.0.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://server.smithery.ai/@huuthangntk/claude-vision-mcp-server/mcp",
+          "headers": [
+            {
+              "description": "Bearer token for Smithery authentication",
+              "value": "Bearer {smithery_api_key}",
+              "name": "Authorization"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-07T23:20:55.125959Z",
+        "updatedAt": "2025-10-07T23:20:55.125959Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+      "name": "ai.smithery/clpi-clp-mcp",
+      "description": "Manage simple context workflows with quick init and add actions. Access the 'Hello, World' origin…",
+      "repository": {
+        "url": "https://github.com/clpi/clp-mcp",
+        "source": "github"
+      },
+      "version": "0.0.1",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://server.smithery.ai/@clpi/clp-mcp/mcp",
+          "headers": [
+            {
+              "description": "Bearer token for Smithery authentication",
+              "value": "Bearer {smithery_api_key}",
+              "name": "Authorization"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-08T00:23:04.174735Z",
+        "updatedAt": "2025-10-08T00:23:04.174735Z",
+        "isLatest": true
+      }
+    }
   }
 ]

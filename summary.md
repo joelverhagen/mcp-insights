@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2025-10-07T20:29:20.8131576+00:00
+Generated on: 2025-10-08T01:57:37.0769693+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 1033
-- Total unique server names: 567
-- Date range: 2025-09-08 to 2025-10-07
+- Total records processed: 1039
+- Total unique server names: 573
+- Date range: 2025-09-08 to 2025-10-08
 - Peak day: 2025-09-09 with 54 unique server names
-- Average unique server names per day: 24.77
+- Average unique server names per day: 24.16
 
 ## Top 5 busiest days
 - 2025-09-09: 54 unique servers
@@ -22,23 +22,23 @@ Generated on: 2025-10-07T20:29:20.8131576+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| remote | 300 | 52.91% |
-| npm | 139 | 24.51% |
-| pypi | 60 | 10.58% |
-| oci | 24 | 4.23% |
-| none | 22 | 3.88% |
-| mcpb | 8 | 1.41% |
-| nuget | 6 | 1.06% |
-| mcpb+npm+oci | 3 | 0.53% |
+| remote | 305 | 53.23% |
+| npm | 139 | 24.26% |
+| pypi | 60 | 10.47% |
+| oci | 25 | 4.36% |
+| none | 22 | 3.84% |
+| mcpb | 8 | 1.4% |
+| nuget | 6 | 1.05% |
+| mcpb+npm+oci | 3 | 0.52% |
 | oci+pypi | 2 | 0.35% |
 | npm+oci | 2 | 0.35% |
-| mcpb+pypi | 1 | 0.18% |
+| mcpb+pypi | 1 | 0.17% |
 
 ## Top 20 domains by unique server names
 
 | Domain | Unique Server Names | Categories |
 |--------|---------------------:|------------|
-| smithery.ai | 195 | remote |
+| smithery.ai | 200 | remote |
 | waystation.ai | 12 | remote |
 | cyanheads.github.io | 6 | npm |
 | huoshuiai42.github.io | 5 | pypi |
