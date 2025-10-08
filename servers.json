@@ -43002,7 +43002,7 @@
         "status": "active",
         "publishedAt": "2025-10-07T15:57:33.366017Z",
         "updatedAt": "2025-10-07T15:57:33.366017Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -43839,6 +43839,158 @@
         "status": "active",
         "publishedAt": "2025-10-08T04:30:38.743215Z",
         "updatedAt": "2025-10-08T04:30:38.743215Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+      "name": "ai.smithery/RectiFlex-centerassist-mcp1",
+      "description": "Manage CenterPoint Connect data across properties, companies, employees, invoices, materials, and…",
+      "repository": {
+        "url": "",
+        "source": ""
+      },
+      "version": "1.0.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://server.smithery.ai/@RectiFlex/centerassist-mcp1/mcp",
+          "headers": [
+            {
+              "description": "Bearer token for Smithery authentication",
+              "value": "Bearer {smithery_api_key}",
+              "name": "Authorization"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-08T05:13:44.681143Z",
+        "updatedAt": "2025-10-08T05:13:44.681143Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+      "name": "ai.smithery/IndianAppGuy-magicslide-mcp",
+      "description": "Generate professional PowerPoint presentations from text, YouTube videos, or structured JSON data.…",
+      "repository": {
+        "url": "",
+        "source": ""
+      },
+      "version": "1.0.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://server.smithery.ai/@IndianAppGuy/magicslide-mcp/mcp",
+          "headers": [
+            {
+              "description": "Bearer token for Smithery authentication",
+              "value": "Bearer {smithery_api_key}",
+              "name": "Authorization"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-08T05:29:39.856257Z",
+        "updatedAt": "2025-10-08T05:29:39.856257Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+      "name": "ai.smithery/Artin0123-gemini-image-mcp-server",
+      "description": "Analyze images and videos with Gemini to get fast, reliable visual insights. Handle content from U…",
+      "repository": {
+        "url": "https://github.com/Artin0123/gemini-vision-mcp",
+        "source": "github"
+      },
+      "version": "1.4.2",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://server.smithery.ai/@Artin0123/gemini-image-mcp-server/mcp",
+          "headers": [
+            {
+              "description": "Bearer token for Smithery authentication",
+              "value": "Bearer {smithery_api_key}",
+              "name": "Authorization"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-08T06:00:18.979771Z",
+        "updatedAt": "2025-10-08T06:00:18.979771Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+      "name": "ai.smithery/Artin0123-gemini-image-mcp-server",
+      "description": "Analyze images and videos with Gemini to get fast, reliable visual insights. Handle content from U…",
+      "repository": {
+        "url": "https://github.com/Artin0123/gemini-vision-mcp",
+        "source": "github"
+      },
+      "version": "1.4.3",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://server.smithery.ai/@Artin0123/gemini-image-mcp-server/mcp",
+          "headers": [
+            {
+              "description": "Bearer token for Smithery authentication",
+              "value": "Bearer {smithery_api_key}",
+              "name": "Authorization"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-08T06:18:22.754577Z",
+        "updatedAt": "2025-10-08T06:18:22.754577Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.ggozad/haiku-rag",
+      "description": "Agentic Retrieval Augmented Generation (RAG) with LanceDB",
+      "repository": {
+        "url": "https://github.com/ggozad/haiku.rag",
+        "source": "github"
+      },
+      "version": "0.11.4"
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-08T08:12:29.084973Z",
+        "updatedAt": "2025-10-08T08:12:29.084973Z",
         "isLatest": true
       }
     }
