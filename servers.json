@@ -44559,7 +44559,7 @@
         "status": "active",
         "publishedAt": "2025-10-08T23:12:35.503809Z",
         "updatedAt": "2025-10-08T23:12:35.503809Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -44820,7 +44820,7 @@
         "status": "active",
         "publishedAt": "2025-10-09T07:38:56.727535Z",
         "updatedAt": "2025-10-09T07:38:56.727535Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -44906,6 +44906,146 @@
         "status": "active",
         "publishedAt": "2025-10-09T11:57:43.824444Z",
         "updatedAt": "2025-10-09T11:57:43.824444Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.dynatrace-oss/Dynatrace-mcp",
+      "description": "Model Context Protocol server for Dynatrace - access logs, events, metrics from Dynatrace via MCP.",
+      "repository": {
+        "url": "https://github.com/dynatrace-oss/Dynatrace-mcp",
+        "source": "github"
+      },
+      "version": "0.9.1",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@dynatrace-oss/dynatrace-mcp-server",
+          "version": "0.9.1",
+          "runtimeHint": "npx",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "The URL of your Dynatrace environment (e.g. 'https://abc12345.apps.dynatrace.com')",
+              "isRequired": true,
+              "format": "string",
+              "name": "DT_ENVIRONMENT"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-09T13:36:41.412763Z",
+        "updatedAt": "2025-10-09T13:36:41.412763Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.pzep1/mcp-meet",
+      "description": "One-click Google Meet scheduling and Apple Calendar mirroring with smart availability detection",
+      "repository": {
+        "url": "https://github.com/znz-systems/mcp-meet",
+        "source": "github"
+      },
+      "version": "0.3.1",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "mcp-meet",
+          "version": "0.3.1",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Google OAuth Client ID",
+              "isRequired": true,
+              "format": "string",
+              "name": "GOOGLE_CLIENT_ID"
+            },
+            {
+              "description": "Google OAuth Client Secret",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "GOOGLE_CLIENT_SECRET"
+            },
+            {
+              "description": "Google OAuth Redirect URI",
+              "format": "string",
+              "default": "http://localhost:5173/oauth2/callback",
+              "name": "GOOGLE_REDIRECT_URI"
+            },
+            {
+              "description": "Comma-separated list of calendar IDs to check for availability",
+              "format": "string",
+              "default": "primary",
+              "name": "CALENDAR_IDS"
+            },
+            {
+              "description": "Name of the Apple Calendar to create events in",
+              "format": "string",
+              "default": "Meetings",
+              "name": "APPLE_CALENDAR_NAME"
+            },
+            {
+              "description": "Timezone for calendar operations",
+              "format": "string",
+              "default": "Europe/London",
+              "name": "TZ"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-09T15:27:11.703854Z",
+        "updatedAt": "2025-10-09T15:27:11.703854Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.oguzc/playwright-wizard-mcp",
+      "description": "MCP server providing Playwright test generation wizard with intelligent prompts and best practices",
+      "repository": {
+        "url": "",
+        "source": ""
+      },
+      "version": "0.1.5",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "playwright-wizard-mcp",
+          "version": "0.1.5",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-09T16:33:41.81031Z",
+        "updatedAt": "2025-10-09T16:33:41.81031Z",
         "isLatest": true
       }
     }
