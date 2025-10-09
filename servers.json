@@ -16847,7 +16847,7 @@
         "status": "active",
         "publishedAt": "2025-09-18T08:07:03.493254Z",
         "updatedAt": "2025-09-18T08:07:03.493254Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -37734,7 +37734,7 @@
         "status": "active",
         "publishedAt": "2025-10-04T10:20:09.72275Z",
         "updatedAt": "2025-10-04T10:20:09.72275Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -44656,7 +44656,7 @@
         "status": "active",
         "publishedAt": "2025-10-09T03:09:28.494233Z",
         "updatedAt": "2025-10-09T03:09:28.494233Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -44719,6 +44719,107 @@
         "status": "active",
         "publishedAt": "2025-10-09T04:27:49.853754Z",
         "updatedAt": "2025-10-09T04:27:49.853754Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.robotmcp/ros-mcp-server",
+      "description": "Connect AI models like Claude & ChatGPT with ROS robots using MCP",
+      "repository": {
+        "url": "https://github.com/robotmcp/ros-mcp-server",
+        "source": "github"
+      },
+      "version": "2.1.6",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "registryBaseUrl": "https://pypi.org",
+          "identifier": "ros-mcp",
+          "version": "2.1.6",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-09T05:11:18.719361Z",
+        "updatedAt": "2025-10-09T05:11:18.719361Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.NeerajG03/vector-memory",
+      "description": "Semantic document memory using Redis vector store. Save and recall files with natural language.",
+      "repository": {
+        "url": "",
+        "source": ""
+      },
+      "version": "0.3.0",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "mcp-server-vector-memory",
+          "version": "0.3.0",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-09T07:17:52.844958Z",
+        "updatedAt": "2025-10-09T07:17:52.844958Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.dynatrace-oss/Dynatrace-mcp",
+      "description": "Model Context Protocol server for Dynatrace - access logs, events, metrics from Dynatrace via MCP.",
+      "repository": {
+        "url": "https://github.com/dynatrace-oss/Dynatrace-mcp",
+        "source": "github"
+      },
+      "version": "0.9.0",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@dynatrace-oss/dynatrace-mcp-server",
+          "version": "0.9.0",
+          "runtimeHint": "npx",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "The URL of your Dynatrace environment (e.g. 'https://abc12345.apps.dynatrace.com')",
+              "isRequired": true,
+              "format": "string",
+              "name": "DT_ENVIRONMENT"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-09T07:38:56.727535Z",
+        "updatedAt": "2025-10-09T07:38:56.727535Z",
         "isLatest": true
       }
     }
