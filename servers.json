@@ -38440,7 +38440,7 @@
         "status": "active",
         "publishedAt": "2025-10-04T19:39:26.975377Z",
         "updatedAt": "2025-10-04T19:39:26.975377Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -46045,6 +46045,192 @@
         "status": "active",
         "publishedAt": "2025-10-10T15:15:51.028831Z",
         "updatedAt": "2025-10-10T15:15:51.028831Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.xorrkaz/cml-mcp",
+      "description": "An MCP server that provides access to common Cisco Modeling Labs (CML) operations.",
+      "repository": {
+        "url": "https://github.com/xorrkaz/cml-mcp",
+        "source": "github"
+      },
+      "version": "0.11.0",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "registryBaseUrl": "https://pypi.org",
+          "identifier": "cml-mcp",
+          "version": "0.11.0",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "URL for the CML Server",
+              "isRequired": true,
+              "format": "string",
+              "name": "CML_URL"
+            },
+            {
+              "description": "Username for CML authentication",
+              "isRequired": true,
+              "format": "string",
+              "name": "CML_USERNAME"
+            },
+            {
+              "description": "Password for CML authentication",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "CML_PASSWORD"
+            },
+            {
+              "description": "Username for authentication to devices running in CML",
+              "format": "string",
+              "name": "PYATS_USERNAME"
+            },
+            {
+              "description": "Password for authentication to devices running in CML",
+              "format": "string",
+              "isSecret": true,
+              "name": "PYATS_PASSWORD"
+            },
+            {
+              "description": "Enable password for authentication to devices running in CML",
+              "format": "string",
+              "isSecret": true,
+              "name": "PYATS_AUTH_PASS"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-10T17:18:00.281076Z",
+        "updatedAt": "2025-10-10T17:18:00.281076Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.opsera/opsera",
+      "description": "Opsera AI Agent MCP server providing authenticated DevOps automation over SSE",
+      "repository": {
+        "url": "https://github.com/OpseraEngineering/opsera-ai",
+        "source": "github",
+        "subfolder": "agent-authentication-gateway"
+      },
+      "version": "0.5.0",
+      "websiteUrl": "https://docs.opsera.io",
+      "remotes": [
+        {
+          "type": "sse",
+          "url": "https://agent.opsera.io/mcp",
+          "headers": [
+            {
+              "description": "Bearer token for authenticated access",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "Authorization"
+            }
+          ]
+        }
+      ],
+      "_meta": {
+        "io.modelcontextprotocol.registry/publisher-provided": {
+          "categories": [
+            "devops",
+            "automation"
+          ],
+          "keywords": [
+            "opsera",
+            "pipelines",
+            "analytics",
+            "ai"
+          ],
+          "maintainers": [
+            {
+              "name": "OpseraEngineering",
+              "url": "https://www.opsera.io"
+            }
+          ]
+        }
+      }
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-10T18:33:51.096423Z",
+        "updatedAt": "2025-10-10T18:33:51.096423Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.kesslerio/attio-mcp-server",
+      "description": "AI-powered Attio CRM access. Manage contacts, companies, deals, tasks, notes and workflows.",
+      "repository": {
+        "url": "https://github.com/kesslerio/attio-mcp-server",
+        "source": "github"
+      },
+      "version": "1.1.8",
+      "websiteUrl": "https://kesslerio.github.io/attio-mcp-server",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "attio-mcp",
+          "version": "1.1.8",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your Attio API key (required for all tools except health-check)",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "ATTIO_API_KEY"
+            },
+            {
+              "description": "Optional Attio workspace ID for workspace-specific operations",
+              "name": "ATTIO_WORKSPACE_ID"
+            },
+            {
+              "description": "Tool mode: 'full' (all tools) or 'search' (search tools only). Default: 'full'",
+              "name": "ATTIO_MCP_TOOL_MODE"
+            },
+            {
+              "description": "Logging level: 'DEBUG', 'INFO', 'WARN', 'ERROR'. Default: 'INFO'",
+              "name": "MCP_LOG_LEVEL"
+            }
+          ]
+        }
+      ],
+      "_meta": {
+        "io.modelcontextprotocol.registry/publisher-provided": {
+          "build_info": {
+            "timestamp": "2025-10-10T18:30:00Z"
+          },
+          "tool": "github-actions",
+          "version": "1.0.0"
+        }
+      }
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-10T20:26:22.164986Z",
+        "updatedAt": "2025-10-10T20:26:22.164986Z",
         "isLatest": true
       }
     }
