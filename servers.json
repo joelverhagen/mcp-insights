@@ -35910,7 +35910,7 @@
         "status": "active",
         "publishedAt": "2025-10-02T21:09:21.736111Z",
         "updatedAt": "2025-10-02T21:09:21.736111Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -45185,7 +45185,7 @@
         "status": "active",
         "publishedAt": "2025-10-09T20:44:20.51165Z",
         "updatedAt": "2025-10-09T20:44:20.51165Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -45393,7 +45393,7 @@
         "status": "active",
         "publishedAt": "2025-10-10T04:23:39.070152Z",
         "updatedAt": "2025-10-10T04:23:39.070152Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -46231,6 +46231,242 @@
         "status": "active",
         "publishedAt": "2025-10-10T20:26:22.164986Z",
         "updatedAt": "2025-10-10T20:26:22.164986Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.vishalsachdev/canvas-mcp",
+      "description": "Canvas LMS integration for students and educators with FERPA-compliant analytics and workflows",
+      "repository": {
+        "url": "https://github.com/vishalsachdev/canvas-mcp",
+        "source": "github",
+        "id": "940427833"
+      },
+      "version": "1.0.2",
+      "websiteUrl": "https://vishalsachdev.github.io/canvas-mcp",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "canvas-mcp",
+          "version": "1.0.2",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-10T20:55:21.388929Z",
+        "updatedAt": "2025-10-10T20:55:21.388929Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.svnscha/mcp-windbg",
+      "description": "A Model Context Protocol server for Windows crash dump analysis using WinDBG/CDB",
+      "repository": {
+        "url": "https://github.com/svnscha/mcp-windbg",
+        "source": "github"
+      },
+      "version": "0.2.3",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "registryBaseUrl": "https://pypi.org",
+          "identifier": "mcp-windbg",
+          "version": "0.2.3",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Custom path to cdb.exe (optional)",
+              "format": "string",
+              "name": "CDB_PATH"
+            },
+            {
+              "description": "Symbol path for Windows debugging (optional, defaults to Microsoft symbol server)",
+              "format": "string",
+              "name": "_NT_SYMBOL_PATH"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-10T21:26:27.596915Z",
+        "updatedAt": "2025-10-10T21:26:27.596915Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.Inflectra/mcp-server-spira",
+      "description": "A Model Context Protocol (MCP) server enabling AI assistants to interact with Spira by Inflectra.",
+      "repository": {
+        "url": "https://github.com/Inflectra/mcp-server-spira",
+        "source": "github"
+      },
+      "version": "1.1.1",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "registryBaseUrl": "https://pypi.org",
+          "identifier": "mcp-server-spira",
+          "version": "1.1.1",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "The base URL for your instance of Spira (typically https://mycompany.spiraservice.net or https://demo-xx.spiraservice.net/mycompany)",
+              "isRequired": true,
+              "format": "string",
+              "name": "INFLECTRA_SPIRA_BASE_URL"
+            },
+            {
+              "description": "The login name you use to access Spira",
+              "isRequired": true,
+              "format": "string",
+              "name": "INFLECTRA_SPIRA_USERNAME"
+            },
+            {
+              "description": "The API Key (RSS Token) you use to access the Spira REST API",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "INFLECTRA_SPIRA_API_KEY"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-10T21:51:36.90412Z",
+        "updatedAt": "2025-10-10T21:51:36.90412Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "com.iunera/druid-mcp-server",
+      "description": "AI-powered MCP server for Apache Druid cluster management and analytic",
+      "repository": {
+        "url": "https://github.com/iunera/druid-mcp-server",
+        "source": "github"
+      },
+      "version": "1.5.0",
+      "packages": [
+        {
+          "registryType": "oci",
+          "registryBaseUrl": "https://docker.io",
+          "identifier": "iunera/druid-mcp-server",
+          "version": "1.5.0",
+          "runtimeHint": "docker",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Druid router URL for connecting to the Druid cluster",
+              "format": "string",
+              "name": "DRUID_ROUTER_URL"
+            },
+            {
+              "description": "Druid coordinator URL for querying metadata endpoints (optional)",
+              "format": "string",
+              "name": "DRUID_COORDINATOR_URL"
+            },
+            {
+              "description": "Username for Druid authentication (optional)",
+              "format": "string",
+              "name": "DRUID_AUTH_USERNAME"
+            },
+            {
+              "description": "Password for Druid authentication (optional)",
+              "format": "string",
+              "name": "DRUID_AUTH_PASSWORD"
+            },
+            {
+              "description": "Enable SSL/TLS support for Druid connections",
+              "format": "boolean",
+              "name": "DRUID_SSL_ENABLED"
+            },
+            {
+              "description": "Skip SSL certificate verification (for development/testing only)",
+              "format": "boolean",
+              "name": "DRUID_SSL_SKIP_VERIFICATION"
+            },
+            {
+              "description": "Enable read-only mode (only GET requests and SQL queries allowed)",
+              "format": "boolean",
+              "name": "DRUID_MCP_READONLY_ENABLED"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-10T22:04:11.143667Z",
+        "updatedAt": "2025-10-10T22:04:11.143667Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "dev.svelte/mcp",
+      "description": "The official Svelte MCP server providing docs and autofixing tools for Svelte development",
+      "repository": {
+        "url": "https://github.com/sveltejs/mcp",
+        "source": "github",
+        "id": "1054419133",
+        "subfolder": "packages/mcp-stdio"
+      },
+      "version": "0.1.5",
+      "websiteUrl": "https://svelte.dev/docs/mcp/overview",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@sveltejs/mcp",
+          "version": "0.1.5",
+          "runtimeHint": "npx",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.svelte.dev/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-10T22:24:27.359558Z",
+        "updatedAt": "2025-10-10T22:24:27.359558Z",
         "isLatest": true
       }
     }
