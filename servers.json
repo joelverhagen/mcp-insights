@@ -46902,7 +46902,7 @@
         "status": "active",
         "publishedAt": "2025-10-11T15:52:44.821216Z",
         "updatedAt": "2025-10-11T15:52:44.821216Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -47794,6 +47794,132 @@
         "status": "active",
         "publishedAt": "2025-10-12T16:05:42.526042Z",
         "updatedAt": "2025-10-12T16:05:42.526042Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.xorrkaz/cml-mcp",
+      "description": "An MCP server that provides access to common Cisco Modeling Labs (CML) operations.",
+      "repository": {
+        "url": "https://github.com/xorrkaz/cml-mcp",
+        "source": "github"
+      },
+      "version": "0.11.2",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "registryBaseUrl": "https://pypi.org",
+          "identifier": "cml-mcp",
+          "version": "0.11.2",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "URL for the CML Server",
+              "isRequired": true,
+              "format": "string",
+              "name": "CML_URL"
+            },
+            {
+              "description": "Username for CML authentication",
+              "isRequired": true,
+              "format": "string",
+              "name": "CML_USERNAME"
+            },
+            {
+              "description": "Password for CML authentication",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "CML_PASSWORD"
+            },
+            {
+              "description": "Username for authentication to devices running in CML",
+              "format": "string",
+              "name": "PYATS_USERNAME"
+            },
+            {
+              "description": "Password for authentication to devices running in CML",
+              "format": "string",
+              "isSecret": true,
+              "name": "PYATS_PASSWORD"
+            },
+            {
+              "description": "Enable password for authentication to devices running in CML",
+              "format": "string",
+              "isSecret": true,
+              "name": "PYATS_AUTH_PASS"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-12T17:17:57.07011Z",
+        "updatedAt": "2025-10-12T17:17:57.07011Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "com.bullpenstrategygroup.rotunda/mcp",
+      "description": "An MCP server that provides congressional transcripts",
+      "repository": {
+        "url": "https://github.com/CorporateEntity101/rotunda",
+        "source": "github"
+      },
+      "version": "1.0.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://rotunda.bullpenstrategygroup.com/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-12T17:18:07.009904Z",
+        "updatedAt": "2025-10-12T17:18:07.009904Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.mazemax/mindvalley-products-mcp",
+      "description": "AI assistant access to Mindvalley products, masterclasses, programs, and certifications.",
+      "repository": {
+        "url": "https://github.com/mazemax/mindvalley-products-mcp",
+        "source": "github"
+      },
+      "version": "1.0.1",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "mindvalley-products-mcp",
+          "version": "1.0.1",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-12T20:09:53.501562Z",
+        "updatedAt": "2025-10-12T20:09:53.501562Z",
         "isLatest": true
       }
     }
