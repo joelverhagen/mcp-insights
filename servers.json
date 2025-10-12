@@ -32625,7 +32625,7 @@
         "status": "active",
         "publishedAt": "2025-09-30T20:27:29.780756Z",
         "updatedAt": "2025-09-30T20:27:29.780756Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -46951,7 +46951,7 @@
         "status": "active",
         "publishedAt": "2025-10-11T18:32:37.021359Z",
         "updatedAt": "2025-10-11T18:32:37.021359Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -47524,6 +47524,276 @@
         "status": "active",
         "publishedAt": "2025-10-12T12:13:55.07404Z",
         "updatedAt": "2025-10-12T12:13:55.07404Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+      "name": "io.github.portel-dev/ncp",
+      "description": "N-to-1 MCP Orchestration. Unified gateway for multiple MCP servers with intelligent tool discovery.",
+      "repository": {
+        "url": "https://github.com/portel-dev/ncp",
+        "source": "github"
+      },
+      "version": "1.5.1",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@portel/ncp",
+          "version": "1.5.1",
+          "runtimeHint": "npx",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Enable debug logging for troubleshooting",
+              "default": "false",
+              "name": "NCP_DEBUG"
+            },
+            {
+              "description": "Operating mode: 'mcp' for AI assistant integration or 'cli' for command-line",
+              "default": "mcp",
+              "name": "NCP_MODE"
+            },
+            {
+              "description": "Disable colored output in logs and CLI",
+              "default": "false",
+              "name": "NO_COLOR"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-12T12:49:37.039884Z",
+        "updatedAt": "2025-10-12T12:49:37.039884Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.pshivapr/selenium-mcp",
+      "description": "Selenium Tools for MCP",
+      "repository": {
+        "url": "https://github.com/pshivapr/selenium-mcp",
+        "source": "github"
+      },
+      "version": "0.4.6",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "selenium-webdriver-mcp",
+          "version": "0.4.6",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your API key for the service",
+              "format": "string",
+              "isSecret": true,
+              "name": "YOUR_API_KEY"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-12T13:46:03.582393Z",
+        "updatedAt": "2025-10-12T13:46:03.582393Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.easytocloud/mac-letterhead",
+      "description": "Professional letterhead PDF generator for macOS with Markdown support and smart margin detection",
+      "repository": {
+        "url": "https://github.com/easytocloud/Mac-letterhead",
+        "source": "github"
+      },
+      "version": "0.13.9",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "registryBaseUrl": "https://pypi.org",
+          "identifier": "Mac-letterhead",
+          "version": "0.13.9",
+          "runtimeHint": "python3",
+          "transport": {
+            "type": "stdio"
+          },
+          "packageArguments": [
+            {
+              "value": "mcp",
+              "type": ""
+            }
+          ]
+        }
+      ],
+      "_meta": {}
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-12T14:47:17.714734Z",
+        "updatedAt": "2025-10-12T14:47:17.714734Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.motherduckdb/mcp-server-motherduck",
+      "description": "Fast analytics and data processing with DuckDB and MotherDuck",
+      "repository": {
+        "url": "https://github.com/motherduckdb/mcp-server-motherduck",
+        "source": "github"
+      },
+      "version": "0.7.1",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "registryBaseUrl": "https://pypi.org",
+          "identifier": "mcp-server-motherduck",
+          "version": "0.7.1",
+          "transport": {
+            "type": "stdio"
+          },
+          "packageArguments": [
+            {
+              "description": "Transport type for MCP server",
+              "default": "stdio",
+              "choices": [
+                "stdio",
+                "sse",
+                "stream"
+              ],
+              "type": "named",
+              "name": "--transport"
+            },
+            {
+              "description": "Port to listen on for sse and stream transport mode",
+              "format": "number",
+              "default": "8000",
+              "type": "named",
+              "name": "--port"
+            },
+            {
+              "description": "Path to local DuckDB database file or MotherDuck database",
+              "default": "md:",
+              "type": "named",
+              "name": "--db-path"
+            },
+            {
+              "description": "Access token to use for MotherDuck database connections",
+              "isSecret": true,
+              "type": "named",
+              "name": "--motherduck-token"
+            },
+            {
+              "description": "Flag for connecting to DuckDB or MotherDuck in read-only mode",
+              "type": "named",
+              "name": "--read-only"
+            },
+            {
+              "description": "Home directory for DuckDB",
+              "type": "named",
+              "name": "--home-dir"
+            },
+            {
+              "description": "Flag for connecting to MotherDuck in SaaS mode (disables filesystem and write permissions for local DuckDB)",
+              "type": "named",
+              "name": "--saas-mode"
+            },
+            {
+              "description": "Enable JSON responses for HTTP stream (only supported for stream transport)",
+              "type": "named",
+              "name": "--json-response"
+            }
+          ],
+          "environmentVariables": [
+            {
+              "description": "Access token to use for MotherDuck database connections",
+              "isSecret": true,
+              "name": "motherduck_token"
+            },
+            {
+              "description": "Home directory for DuckDB (used as default if --home-dir not specified)",
+              "name": "HOME"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-12T15:30:59.715076Z",
+        "updatedAt": "2025-10-12T15:30:59.715076Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+      "name": "io.github.portel-dev/ncp",
+      "description": "N-to-1 MCP Orchestration. Unified gateway for multiple MCP servers with intelligent tool discovery.",
+      "repository": {
+        "url": "https://github.com/portel-dev/ncp",
+        "source": "github"
+      },
+      "version": "1.5.2",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@portel/ncp",
+          "version": "1.5.2",
+          "runtimeHint": "npx",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Enable debug logging for troubleshooting",
+              "default": "false",
+              "name": "NCP_DEBUG"
+            },
+            {
+              "description": "Operating mode: 'mcp' for AI assistant integration or 'cli' for command-line",
+              "default": "mcp",
+              "name": "NCP_MODE"
+            },
+            {
+              "description": "Disable colored output in logs and CLI",
+              "default": "false",
+              "name": "NO_COLOR"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-12T16:05:42.526042Z",
+        "updatedAt": "2025-10-12T16:05:42.526042Z",
         "isLatest": true
       }
     }
