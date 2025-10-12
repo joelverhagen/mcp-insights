@@ -45046,7 +45046,7 @@
         "status": "active",
         "publishedAt": "2025-10-09T16:33:41.81031Z",
         "updatedAt": "2025-10-09T16:33:41.81031Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -46994,6 +46994,66 @@
         "status": "active",
         "publishedAt": "2025-10-11T19:30:39.16081Z",
         "updatedAt": "2025-10-11T19:30:39.16081Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.oguzc/playwright-wizard-mcp",
+      "description": "MCP server providing Playwright test generation wizard with intelligent prompts and best practices",
+      "repository": {
+        "url": "",
+        "source": ""
+      },
+      "version": "0.1.6",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "playwright-wizard-mcp",
+          "version": "0.1.6",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-11T21:16:42.967078Z",
+        "updatedAt": "2025-10-11T21:16:42.967078Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.zwldarren/akshare-one-mcp",
+      "description": "MCP server that provides access to Chinese stock market data using akshare-one",
+      "repository": {
+        "url": "",
+        "source": ""
+      },
+      "version": "0.3.6",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "akshare-one-mcp",
+          "version": "0.3.6",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-11T23:19:09.623208Z",
+        "updatedAt": "2025-10-11T23:19:09.623208Z",
         "isLatest": true
       }
     }
