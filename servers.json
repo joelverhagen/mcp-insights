@@ -6627,7 +6627,7 @@
         "status": "active",
         "publishedAt": "2025-09-11T13:43:51.350538Z",
         "updatedAt": "2025-09-11T13:43:51.350538Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -44906,7 +44906,7 @@
         "status": "active",
         "publishedAt": "2025-10-09T11:57:43.824444Z",
         "updatedAt": "2025-10-09T11:57:43.824444Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -47363,6 +47363,167 @@
         "status": "active",
         "publishedAt": "2025-10-12T06:29:27.45359Z",
         "updatedAt": "2025-10-12T06:29:27.45359Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.yokingma/time-mcp",
+      "description": "Time MCP Server, giving LLMs time awareness capabilities.",
+      "repository": {
+        "url": "https://github.com/yokingma/time-mcp",
+        "source": "github"
+      },
+      "version": "1.0.5",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "time-mcp",
+          "version": "1.0.5",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-12T08:47:25.767731Z",
+        "updatedAt": "2025-10-12T08:47:25.767731Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.esrisaudiarabia/arcgis-mcp-server",
+      "description": "Intelligent ArcGIS content search. Works with Online/Enterprise. Requires user credentials.",
+      "repository": {
+        "url": "https://github.com/esrisaudiarabia/esrisaudiarabia-mcp",
+        "source": "github"
+      },
+      "version": "1.0.4",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "arcgis-mcp-server",
+          "version": "1.0.4",
+          "runtimeHint": "python",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your ArcGIS Portal URL (e.g., https://portal.company.com/portal)",
+              "isRequired": true,
+              "format": "string",
+              "name": "ARCGIS_URL"
+            },
+            {
+              "description": "Your ArcGIS Portal Username",
+              "isRequired": true,
+              "format": "string",
+              "name": "ARCGIS_USERNAME"
+            },
+            {
+              "description": "Your ArcGIS Portal Password",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "ARCGIS_PASSWORD"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-12T11:31:58.218686Z",
+        "updatedAt": "2025-10-12T11:31:58.218686Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.pshivapr/selenium-mcp",
+      "description": "Selenium Tools for MCP",
+      "repository": {
+        "url": "https://github.com/pshivapr/selenium-mcp",
+        "source": "github"
+      },
+      "version": "0.4.2",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "selenium-webdriver-mcp",
+          "version": "0.4.2",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your API key for the service",
+              "format": "string",
+              "isSecret": true,
+              "name": "YOUR_API_KEY"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-12T11:40:29.372594Z",
+        "updatedAt": "2025-10-12T11:40:29.372594Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.pshivapr/selenium-mcp",
+      "description": "Selenium Tools for MCP",
+      "repository": {
+        "url": "https://github.com/pshivapr/selenium-mcp",
+        "source": "github"
+      },
+      "version": "0.4.3",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "selenium-webdriver-mcp",
+          "version": "0.4.3",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your API key for the service",
+              "format": "string",
+              "isSecret": true,
+              "name": "YOUR_API_KEY"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-12T12:13:55.07404Z",
+        "updatedAt": "2025-10-12T12:13:55.07404Z",
         "isLatest": true
       }
     }
