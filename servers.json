@@ -47923,5 +47923,179 @@
         "isLatest": true
       }
     }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.HzaCode/onecite",
+      "description": "Generate academic citations from DOI, arXiv, titles, or URLs in BibTeX, APA, MLA formats.",
+      "repository": {
+        "url": "https://github.com/HzaCode/OneCite",
+        "source": "github"
+      },
+      "version": "0.0.11",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "onecite",
+          "version": "0.0.11",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-12T21:44:12.300272Z",
+        "updatedAt": "2025-10-12T21:44:12.300272Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.VictoriaMetrics-Community/mcp-victoriatraces",
+      "description": "MCP Server for VictoriaTraces. Provides integration with VictoriaTraces API and documentation",
+      "repository": {
+        "url": "https://github.com/VictoriaMetrics-Community/mcp-victoriatraces",
+        "source": "github"
+      },
+      "version": "1.1.0",
+      "packages": [
+        {
+          "registryType": "oci",
+          "registryBaseUrl": "https://ghcr.io",
+          "identifier": "victoriametrics-community/mcp-victoriatraces",
+          "version": "v1.1.0",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "URL to VictoriaTraces instance (it should be root URL of vtlingle or vtselect), for example http://localhost:10428",
+              "isRequired": true,
+              "format": "string",
+              "name": "VT_INSTANCE_ENTRYPOINT"
+            },
+            {
+              "description": "Authentication token for VictoriaMetrics API",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "VT_INSTANCE_BEARER_TOKEN"
+            },
+            {
+              "description": "Comma-separated list of tools to disable",
+              "format": "string",
+              "name": "MCP_DISABLED_TOOLS"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-12T22:50:29.668876Z",
+        "updatedAt": "2025-10-12T22:50:29.668876Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "ai.meminal/meminal",
+      "description": "Memory for deep conversational context across any platform",
+      "repository": {
+        "url": "",
+        "source": ""
+      },
+      "version": "1.0.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://meminal.ai/mcp",
+          "headers": [
+            {
+              "description": "Bearer token for authentication (OAuth or Personal Access Token)",
+              "isSecret": true,
+              "name": "Authorization"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-12T23:40:10.473855Z",
+        "updatedAt": "2025-10-12T23:40:10.473855Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.ShingWong/node-server-orchestrator",
+      "description": "MCP server for orchestrating Node.js development servers (backend, frontend, databases, etc.)",
+      "repository": {
+        "url": "",
+        "source": ""
+      },
+      "version": "1.0.0",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "node-server-orchestrator",
+          "version": "1.0.0",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-13T00:22:52.73379Z",
+        "updatedAt": "2025-10-13T00:22:52.73379Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.olostep/olostep-mcp-server",
+      "description": "Olostep MCP server for web scraping, google search and website urls search.",
+      "repository": {
+        "url": "",
+        "source": ""
+      },
+      "version": "1.0.7",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "olostep-mcp",
+          "version": "1.0.7",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-13T01:59:10.580648Z",
+        "updatedAt": "2025-10-13T01:59:10.580648Z",
+        "isLatest": true
+      }
+    }
   }
 ]

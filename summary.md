@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2025-10-12T20:27:42.7417279+00:00
+Generated on: 2025-10-13T02:07:08.0160872+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 1143
-- Total unique server names: 617
-- Date range: 2025-09-08 to 2025-10-12
+- Total records processed: 1148
+- Total unique server names: 622
+- Date range: 2025-09-08 to 2025-10-13
 - Peak day: 2025-09-09 with 54 unique server names
-- Average unique server names per day: 23.69
+- Average unique server names per day: 23.17
 
 ## Top 5 busiest days
 - 2025-09-09: 54 unique servers
@@ -22,14 +22,14 @@ Generated on: 2025-10-12T20:27:42.7417279+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| remote | 318 | 51.54% |
-| npm | 149 | 24.15% |
-| pypi | 74 | 11.99% |
-| oci | 29 | 4.7% |
-| none | 24 | 3.89% |
-| mcpb | 9 | 1.46% |
-| nuget | 6 | 0.97% |
-| mcpb+npm+oci | 3 | 0.49% |
+| remote | 319 | 51.29% |
+| npm | 151 | 24.28% |
+| pypi | 75 | 12.06% |
+| oci | 30 | 4.82% |
+| none | 24 | 3.86% |
+| mcpb | 9 | 1.45% |
+| nuget | 6 | 0.96% |
+| mcpb+npm+oci | 3 | 0.48% |
 | oci+pypi | 2 | 0.32% |
 | npm+oci | 2 | 0.32% |
 | mcpb+pypi | 1 | 0.16% |
@@ -45,6 +45,7 @@ Generated on: 2025-10-12T20:27:42.7417279+00:00
 | paiml.github.io | 4 | none |
 | mintmcp.com | 4 | remote |
 | bytedance.github.io | 4 | npm |
+| victoriametrics-community.github.io | 3 | oci |
 | therealtimex.github.io | 3 | npm, pypi |
 | spences10.github.io | 3 | npm |
 | ruvnet.github.io | 3 | npm |
@@ -56,5 +57,4 @@ Generated on: 2025-10-12T20:27:42.7417279+00:00
 | biodnd.com | 3 | remote |
 | b1ff.github.io | 3 | npm |
 | yuna0x0.github.io | 2 | mcpb+npm+oci |
-| victoriametrics-community.github.io | 2 | oci |
 | stefanoamorelli.github.io | 2 | npm, pypi |
