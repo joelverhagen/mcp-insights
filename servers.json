@@ -47794,7 +47794,7 @@
         "status": "active",
         "publishedAt": "2025-10-12T16:05:42.526042Z",
         "updatedAt": "2025-10-12T16:05:42.526042Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -49101,6 +49101,81 @@
         "status": "active",
         "publishedAt": "2025-10-14T03:19:26.387795Z",
         "updatedAt": "2025-10-14T03:19:26.387795Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "ai.gomarble/mcp-api",
+      "description": "GoMarble MCP API Server",
+      "repository": {
+        "url": "",
+        "source": ""
+      },
+      "version": "1.0.0",
+      "remotes": [
+        {
+          "type": "sse",
+          "url": "https://apps.gomarble.ai/mcp-api/sse"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-14T05:56:54.505554Z",
+        "updatedAt": "2025-10-14T05:56:54.505554Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+      "name": "io.github.portel-dev/ncp",
+      "description": "N-to-1 MCP Orchestration. Unified gateway for multiple MCP servers with intelligent tool discovery.",
+      "repository": {
+        "url": "https://github.com/portel-dev/ncp",
+        "source": "github"
+      },
+      "version": "1.5.3",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@portel/ncp",
+          "version": "1.5.3",
+          "runtimeHint": "npx",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Enable debug logging for troubleshooting",
+              "default": "false",
+              "name": "NCP_DEBUG"
+            },
+            {
+              "description": "Operating mode: 'mcp' for AI assistant integration or 'cli' for command-line",
+              "default": "mcp",
+              "name": "NCP_MODE"
+            },
+            {
+              "description": "Disable colored output in logs and CLI",
+              "default": "false",
+              "name": "NO_COLOR"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-14T08:13:42.561411Z",
+        "updatedAt": "2025-10-14T08:13:42.561411Z",
         "isLatest": true
       }
     }
