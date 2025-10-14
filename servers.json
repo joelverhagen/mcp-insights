@@ -33002,7 +33002,7 @@
         "status": "active",
         "publishedAt": "2025-10-01T00:29:41.277327Z",
         "updatedAt": "2025-10-01T00:29:41.277327Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -36428,7 +36428,7 @@
         "status": "active",
         "publishedAt": "2025-10-03T06:12:16.550775Z",
         "updatedAt": "2025-10-03T06:12:16.550775Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -49176,6 +49176,226 @@
         "status": "active",
         "publishedAt": "2025-10-14T08:13:42.561411Z",
         "updatedAt": "2025-10-14T08:13:42.561411Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.VictoriaMetrics-Community/mcp-victoriametrics",
+      "description": "MCP Server for VictoriaMetrics. Provides integration with VictoriaMetrics API and documentation",
+      "repository": {
+        "url": "https://github.com/VictoriaMetrics-Community/mcp-victoriametrics",
+        "source": "github"
+      },
+      "version": "1.14.0",
+      "packages": [
+        {
+          "registryType": "oci",
+          "registryBaseUrl": "https://ghcr.io",
+          "identifier": "victoriametrics-community/mcp-victoriametrics",
+          "version": "v1.14.0",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "URL to VictoriaMetrics instance (it should be root URL of vmsingle or vmselect), for example http://localhost:8428 or https://play.victoriametrics.com",
+              "isRequired": true,
+              "format": "string",
+              "name": "VM_INSTANCE_ENTRYPOINT"
+            },
+            {
+              "description": "Type of VictoriaMetrics instance (single / cluster)",
+              "isRequired": true,
+              "format": "string",
+              "name": "VM_INSTANCE_TYPE"
+            },
+            {
+              "description": "Authentication token for VictoriaMetrics API",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "VM_INSTANCE_BEARER_TOKEN"
+            },
+            {
+              "description": "Optional: API key from VictoriaMetrics Cloud Console (if you have deployment in VictoriaMetrics Cloud)",
+              "format": "string",
+              "isSecret": true,
+              "name": "VMC_API_KEY"
+            },
+            {
+              "description": "Comma-separated list of tools to disable",
+              "format": "string",
+              "name": "MCP_DISABLED_TOOLS"
+            },
+            {
+              "description": "Disable all resources (documentation tool will continue to work)",
+              "format": "boolean",
+              "name": "MCP_DISABLE_RESOURCES"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-14T08:50:11.270966Z",
+        "updatedAt": "2025-10-14T08:50:11.270966Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.VectifyAI/pageindex-mcp",
+      "description": "Reasoning-based RAG system for chatting with long PDFs. Supports local and online files.",
+      "repository": {
+        "url": "https://github.com/VectifyAI/pageindex-mcp",
+        "source": "github"
+      },
+      "version": "1.6.2",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "pageindex-mcp",
+          "version": "1.6.2",
+          "transport": {
+            "type": "stdio"
+          }
+        },
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/VectifyAI/pageindex-mcp/releases/download/v1.6.2/pageindex-mcp-1.6.2.mcpb",
+          "version": "1.6.2",
+          "fileSha256": "67138e48f8755be07fafb149cb438f1144619e90b232e5329208ec0c2fbf2d6f",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-14T09:01:46.734305Z",
+        "updatedAt": "2025-10-14T09:01:46.734305Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "com.smartling/smartling-mcp-server",
+      "description": "Smartling MCP Server",
+      "repository": {
+        "url": "https://github.com/Smartling/smartling-mcp-server",
+        "source": "github"
+      },
+      "version": "1.0.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.smartling.com/mcp",
+          "headers": [
+            {
+              "description": "Smartling MCP Token for authentication",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "X-SL-Authentication"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-14T09:12:05.50323Z",
+        "updatedAt": "2025-10-14T09:12:05.50323Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "com.smartbear/smartbear-mcp",
+      "description": "MCP server for AI access to SmartBear tools, including BugSnag, Reflect, API Hub, PactFlow.",
+      "repository": {
+        "url": "https://github.com/SmartBear/smartbear-mcp",
+        "source": "github"
+      },
+      "version": "0.8.0",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@smartbear/mcp",
+          "version": "0.8.0",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "BugSnag auth token. Leave empty to disable BugSnag tools. Learn more: https://developer.smartbear.com/smartbear-mcp/docs/bugsnag-integration",
+              "isSecret": true,
+              "name": "BUGSNAG_AUTH_TOKEN"
+            },
+            {
+              "description": "BugSnag project API key (optional; narrows interactions to a single project). Learn more: https://developer.smartbear.com/smartbear-mcp/docs/bugsnag-integration",
+              "name": "BUGSNAG_PROJECT_API_KEY"
+            },
+            {
+              "description": "Reflect API token. Leave empty to disable Reflect tools. Learn more: https://developer.smartbear.com/smartbear-mcp/docs/test-hub-integration",
+              "isSecret": true,
+              "name": "REFLECT_API_TOKEN"
+            },
+            {
+              "description": "API Hub API key. Leave empty to disable API Hub tools. Learn more: https://developer.smartbear.com/smartbear-mcp/docs/api-hub-integration",
+              "isSecret": true,
+              "name": "API_HUB_API_KEY"
+            },
+            {
+              "description": "PactFlow/Pact Broker base URL. Leave empty to disable Pact tools. Learn more: https://developer.smartbear.com/smartbear-mcp/docs/contract-testing-with-pactflow",
+              "name": "PACT_BROKER_BASE_URL"
+            },
+            {
+              "description": "PactFlow authentication token. Learn more: https://developer.smartbear.com/smartbear-mcp/docs/contract-testing-with-pactflow",
+              "isSecret": true,
+              "name": "PACT_BROKER_TOKEN"
+            },
+            {
+              "description": "Pact Broker username (alternative to token). Learn more: https://developer.smartbear.com/smartbear-mcp/docs/contract-testing-with-pactflow",
+              "name": "PACT_BROKER_USERNAME"
+            },
+            {
+              "description": "Pact Broker password (alternative to token). Learn more: https://developer.smartbear.com/smartbear-mcp/docs/contract-testing-with-pactflow",
+              "isSecret": true,
+              "name": "PACT_BROKER_PASSWORD"
+            },
+            {
+              "description": "The Zephyr Cloud API token for authentication. Learn more: https://support.smartbear.com/zephyr/docs/en/rest-api/api-access-tokens-management.html",
+              "isSecret": true,
+              "name": "ZEPHYR_API_TOKEN"
+            },
+            {
+              "description": " The Zephyr Cloud API base url. Should be changed depending on the region of your Jira instance. Learn more: https://support.smartbear.com/zephyr-scale-cloud/api-docs/#section/Authentication/Accessing-the-API",
+              "name": "ZEPHYR_BASE_URL"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-14T09:22:57.579085Z",
+        "updatedAt": "2025-10-14T09:22:57.579085Z",
         "isLatest": true
       }
     }
