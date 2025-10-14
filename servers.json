@@ -41657,7 +41657,7 @@
         "status": "active",
         "publishedAt": "2025-10-06T23:03:08.26112Z",
         "updatedAt": "2025-10-06T23:03:08.26112Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -47745,7 +47745,7 @@
         "status": "active",
         "publishedAt": "2025-10-12T15:30:59.715076Z",
         "updatedAt": "2025-10-12T15:30:59.715076Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -48879,6 +48879,192 @@
         "status": "active",
         "publishedAt": "2025-10-13T19:30:39.113567Z",
         "updatedAt": "2025-10-13T19:30:39.113567Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.wei/hn-mcp-server",
+      "description": "Model Context Protocol server for HackerNews API access.",
+      "repository": {
+        "url": "",
+        "source": ""
+      },
+      "version": "1.1.0",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "hn-mcp-server",
+          "version": "1.1.0",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-13T20:31:53.02091Z",
+        "updatedAt": "2025-10-13T20:31:53.02091Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.wei/mcp-registry-mcp-server",
+      "description": "MCP server for querying the official MCP registry.",
+      "repository": {
+        "url": "https://github.com/wei/mcp-registry-mcp-server",
+        "source": "github",
+        "id": "wei/mcp-registry-mcp-server"
+      },
+      "version": "1.1.1",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "mcp-registry-mcp-server",
+          "version": "1.1.1",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-13T20:37:00.067295Z",
+        "updatedAt": "2025-10-13T20:37:00.067295Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.jkawamoto/mcp-youtube-transcript",
+      "description": "An MCP server retrieving transcripts of YouTube videos",
+      "repository": {
+        "url": "https://github.com/jkawamoto/mcp-youtube-transcript",
+        "source": "github"
+      },
+      "version": "0.5.5",
+      "packages": [
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/jkawamoto/mcp-youtube-transcript/releases/download/v0.5.5/mcp-youtube-transcript.mcpb",
+          "version": "0.5.5",
+          "fileSha256": "57f6c0aafdea34c9f08cd12d0211f8f8e4fa55d251fce9e41e53ee0a50528c8d",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-13T23:22:37.679968Z",
+        "updatedAt": "2025-10-13T23:22:37.679968Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.motherduckdb/mcp-server-motherduck",
+      "description": "Fast analytics and data processing with DuckDB and MotherDuck",
+      "repository": {
+        "url": "https://github.com/motherduckdb/mcp-server-motherduck",
+        "source": "github"
+      },
+      "version": "0.7.2",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "registryBaseUrl": "https://pypi.org",
+          "identifier": "mcp-server-motherduck",
+          "version": "0.7.2",
+          "transport": {
+            "type": "stdio"
+          },
+          "packageArguments": [
+            {
+              "description": "Transport type for MCP server",
+              "default": "stdio",
+              "choices": [
+                "stdio",
+                "sse",
+                "stream"
+              ],
+              "type": "named",
+              "name": "--transport"
+            },
+            {
+              "description": "Port to listen on for sse and stream transport mode",
+              "format": "number",
+              "default": "8000",
+              "type": "named",
+              "name": "--port"
+            },
+            {
+              "description": "Path to local DuckDB database file or MotherDuck database",
+              "default": "md:",
+              "type": "named",
+              "name": "--db-path"
+            },
+            {
+              "description": "Access token to use for MotherDuck database connections",
+              "isSecret": true,
+              "type": "named",
+              "name": "--motherduck-token"
+            },
+            {
+              "description": "Flag for connecting to DuckDB or MotherDuck in read-only mode",
+              "type": "named",
+              "name": "--read-only"
+            },
+            {
+              "description": "Home directory for DuckDB",
+              "type": "named",
+              "name": "--home-dir"
+            },
+            {
+              "description": "Flag for connecting to MotherDuck in SaaS mode (disables filesystem and write permissions for local DuckDB)",
+              "type": "named",
+              "name": "--saas-mode"
+            },
+            {
+              "description": "Enable JSON responses for HTTP stream (only supported for stream transport)",
+              "type": "named",
+              "name": "--json-response"
+            }
+          ],
+          "environmentVariables": [
+            {
+              "description": "Access token to use for MotherDuck database connections",
+              "isSecret": true,
+              "name": "motherduck_token"
+            },
+            {
+              "description": "Home directory for DuckDB (used as default if --home-dir not specified)",
+              "name": "HOME"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-13T23:32:14.916459Z",
+        "updatedAt": "2025-10-13T23:32:14.916459Z",
         "isLatest": true
       }
     }
