@@ -3926,6 +3926,7 @@
   },
   {
     "server": {
+      "$schema": "",
       "name": "io.github.ruvnet/claude-flow",
       "description": "AI orchestration with hive-mind swarms, neural networks, and 87 MCP tools for enterprise dev.",
       "repository": {
@@ -4129,6 +4130,7 @@
   },
   {
     "server": {
+      "$schema": "",
       "name": "io.github.ruvnet/claude-flow",
       "description": "AI orchestration with hive-mind swarms, neural networks, and 87 MCP tools for enterprise dev.",
       "repository": {
@@ -4512,6 +4514,7 @@
   },
   {
     "server": {
+      "$schema": "",
       "name": "io.github.ruvnet/ruv-swarm",
       "description": "Neural network swarm orchestration with WebAssembly acceleration and MCP integration",
       "repository": {
@@ -4531,6 +4534,7 @@
   },
   {
     "server": {
+      "$schema": "",
       "name": "io.github.ruvnet/ruv-swarm",
       "description": "Neural network swarm orchestration with WebAssembly acceleration and MCP integration",
       "repository": {
@@ -5301,6 +5305,7 @@
   },
   {
     "server": {
+      "$schema": "",
       "name": "travel.kismet/mcp-server",
       "description": "Semantic hotel search with real-time availability and price comparison for Kismet Travel",
       "repository": {
@@ -7184,6 +7189,7 @@
   },
   {
     "server": {
+      "$schema": "",
       "name": "io.github.jkakar/cookwith-mcp",
       "description": "AI-powered recipe generation and transformation tools by Cookwith",
       "repository": {
@@ -8664,6 +8670,7 @@
   },
   {
     "server": {
+      "$schema": "",
       "name": "io.github.jkakar/cookwith-mcp",
       "description": "AI-powered recipe generation and transformation tools by Cookwith",
       "repository": {
@@ -8683,6 +8690,7 @@
   },
   {
     "server": {
+      "$schema": "",
       "name": "io.github.jkakar/cookwith-mcp",
       "description": "AI-powered recipe generation and transformation tools by Cookwith",
       "repository": {
@@ -17963,6 +17971,7 @@
   },
   {
     "server": {
+      "$schema": "",
       "name": "io.github.OtherVibes/mcp-as-a-judge",
       "description": "MCP as a Judge: a behavioral MCP that strengthens AI coding assistants via explicit LLM evaluations",
       "repository": {
@@ -18017,6 +18026,7 @@
   },
   {
     "server": {
+      "$schema": "",
       "name": "io.github.OtherVibes/mcp-as-a-judge",
       "description": "MCP as a Judge: a behavioral MCP that strengthens AI coding assistants via explicit LLM evaluations",
       "repository": {
@@ -18036,6 +18046,7 @@
   },
   {
     "server": {
+      "$schema": "",
       "name": "io.github.OtherVibes/mcp-as-a-judge",
       "description": "MCP as a Judge: a behavioral MCP that strengthens AI coding assistants via explicit LLM evaluations",
       "repository": {
@@ -20414,6 +20425,7 @@
   },
   {
     "server": {
+      "$schema": "",
       "name": "io.github.OtherVibes/mcp-as-a-judge",
       "description": "MCP as a Judge: a behavioral MCP that strengthens AI coding assistants via explicit LLM evaluations",
       "repository": {
@@ -22087,6 +22099,7 @@
   },
   {
     "server": {
+      "$schema": "",
       "name": "io.github.Skills03/scrimba-teaching",
       "description": "Interactive programming teacher using Scrimba methodology for 10x retention",
       "repository": {
@@ -22210,6 +22223,7 @@
   },
   {
     "server": {
+      "$schema": "",
       "name": "io.github.Skills03/scrimba-teaching",
       "description": "Interactive programming teacher using Scrimba methodology for 10x retention",
       "repository": {
@@ -22265,6 +22279,7 @@
   },
   {
     "server": {
+      "$schema": "",
       "name": "io.github.Skills03/scrimba-teaching",
       "description": "Interactive programming teacher using Scrimba methodology for 10x retention",
       "repository": {
@@ -33359,6 +33374,7 @@
   },
   {
     "server": {
+      "$schema": "",
       "name": "io.github.toby/mirror-mcp",
       "description": "Mirror MCP: Introspection for LLMs",
       "repository": {
@@ -45303,6 +45319,7 @@
   },
   {
     "server": {
+      "$schema": "",
       "name": "io.github.antuelle78/weather-mcp",
       "description": "A simple MCP server for getting weather information.",
       "repository": {
@@ -49612,6 +49629,185 @@
         "status": "active",
         "publishedAt": "2025-10-14T14:05:51.459039Z",
         "updatedAt": "2025-10-14T14:05:51.459039Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.cyanheads/mcp-ts-template",
+      "description": "A production-grade TypeScript template for scalable MCP servers with built-in observability.",
+      "repository": {
+        "url": "https://github.com/cyanheads/mcp-ts-template",
+        "source": "github"
+      },
+      "version": "2.3.8",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "mcp-ts-template",
+          "version": "2.3.8",
+          "runtimeHint": "bun",
+          "transport": {
+            "type": "stdio"
+          },
+          "packageArguments": [
+            {
+              "value": "run",
+              "type": "positional"
+            },
+            {
+              "value": "start:stdio",
+              "type": "positional"
+            }
+          ],
+          "environmentVariables": [
+            {
+              "description": "Sets the minimum log level for output (e.g., 'debug', 'info', 'warn').",
+              "format": "string",
+              "default": "info",
+              "name": "MCP_LOG_LEVEL"
+            }
+          ]
+        },
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "mcp-ts-template",
+          "version": "2.3.8",
+          "runtimeHint": "bun",
+          "transport": {
+            "type": "streamable-http",
+            "url": "http://localhost:3010/mcp"
+          },
+          "packageArguments": [
+            {
+              "value": "run",
+              "type": "positional"
+            },
+            {
+              "value": "start:http",
+              "type": "positional"
+            }
+          ],
+          "environmentVariables": [
+            {
+              "description": "The hostname for the HTTP server.",
+              "format": "string",
+              "default": "127.0.0.1",
+              "name": "MCP_HTTP_HOST"
+            },
+            {
+              "description": "The port to run the HTTP server on.",
+              "format": "string",
+              "default": "3010",
+              "name": "MCP_HTTP_PORT"
+            },
+            {
+              "description": "The endpoint path for the MCP server.",
+              "format": "string",
+              "default": "/mcp",
+              "name": "MCP_HTTP_ENDPOINT_PATH"
+            },
+            {
+              "description": "Authentication mode to use: 'none', 'jwt', or 'oauth'.",
+              "format": "string",
+              "default": "none",
+              "name": "MCP_AUTH_MODE"
+            },
+            {
+              "description": "Sets the minimum log level for output (e.g., 'debug', 'info', 'warn').",
+              "format": "string",
+              "default": "info",
+              "name": "MCP_LOG_LEVEL"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-14T16:45:36.929465Z",
+        "updatedAt": "2025-10-14T16:45:36.929465Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "com.keboola/mcp",
+      "description": "Connect your AI assistants to Keboola and expose your data, transformations, SQL queries, ...",
+      "repository": {
+        "url": "",
+        "source": ""
+      },
+      "version": "1.25.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.us-east4.gcp.keboola.com/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-14T17:26:10.792295Z",
+        "updatedAt": "2025-10-14T17:26:10.792295Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.idjohnson/vikunjamcp",
+      "description": "An MCP server that provides access to Vikunja, a self-hosted task management solution.",
+      "repository": {
+        "url": "",
+        "source": ""
+      },
+      "version": "1.0.26",
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "docker.io/idjohnson/vikunjamcp:0.26",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "URL to the Vikunja Instance",
+              "isRequired": true,
+              "format": "string",
+              "name": "VIKUNJA_URL"
+            },
+            {
+              "description": "Username to use with the Vikunja Instance",
+              "isRequired": true,
+              "format": "string",
+              "name": "VIKUNJA_USERNAME"
+            },
+            {
+              "description": "Password for user in the Vikunja Instance",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "VIKUNJA_PASSWORD"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-14T17:59:14.383902Z",
+        "updatedAt": "2025-10-14T17:59:14.383902Z",
         "isLatest": true
       }
     }
