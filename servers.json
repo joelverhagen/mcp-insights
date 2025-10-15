@@ -43855,7 +43855,7 @@
         "status": "active",
         "publishedAt": "2025-10-08T04:30:38.743215Z",
         "updatedAt": "2025-10-08T04:30:38.743215Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -49732,7 +49732,7 @@
         "status": "active",
         "publishedAt": "2025-10-14T16:45:36.929465Z",
         "updatedAt": "2025-10-14T16:45:36.929465Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -49808,6 +49808,144 @@
         "status": "active",
         "publishedAt": "2025-10-14T17:59:14.383902Z",
         "updatedAt": "2025-10-14T17:59:14.383902Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "ai.smithery/brave",
+      "description": "Visit https://brave.com/search/api/ for a free API key. Search the web, local businesses, images,…",
+      "repository": {
+        "url": "https://github.com/brave/brave-search-mcp-server",
+        "source": "github"
+      },
+      "version": "2.0.54",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://server.smithery.ai/brave/mcp",
+          "headers": [
+            {
+              "description": "Bearer token for Smithery authentication",
+              "isRequired": true,
+              "value": "Bearer {smithery_api_key}",
+              "isSecret": true,
+              "name": "Authorization"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-14T20:48:33.420391Z",
+        "updatedAt": "2025-10-14T20:48:33.420391Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.cyanheads/mcp-ts-template",
+      "description": "A production-grade TypeScript template for scalable MCP servers with built-in observability.",
+      "repository": {
+        "url": "https://github.com/cyanheads/mcp-ts-template",
+        "source": "github"
+      },
+      "version": "2.3.9",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "mcp-ts-template",
+          "version": "2.3.9",
+          "runtimeHint": "bun",
+          "transport": {
+            "type": "stdio"
+          },
+          "packageArguments": [
+            {
+              "value": "run",
+              "type": "positional"
+            },
+            {
+              "value": "start:stdio",
+              "type": "positional"
+            }
+          ],
+          "environmentVariables": [
+            {
+              "description": "Sets the minimum log level for output (e.g., 'debug', 'info', 'warn').",
+              "format": "string",
+              "default": "info",
+              "name": "MCP_LOG_LEVEL"
+            }
+          ]
+        },
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "mcp-ts-template",
+          "version": "2.3.9",
+          "runtimeHint": "bun",
+          "transport": {
+            "type": "streamable-http",
+            "url": "http://localhost:3010/mcp"
+          },
+          "packageArguments": [
+            {
+              "value": "run",
+              "type": "positional"
+            },
+            {
+              "value": "start:http",
+              "type": "positional"
+            }
+          ],
+          "environmentVariables": [
+            {
+              "description": "The hostname for the HTTP server.",
+              "format": "string",
+              "default": "127.0.0.1",
+              "name": "MCP_HTTP_HOST"
+            },
+            {
+              "description": "The port to run the HTTP server on.",
+              "format": "string",
+              "default": "3010",
+              "name": "MCP_HTTP_PORT"
+            },
+            {
+              "description": "The endpoint path for the MCP server.",
+              "format": "string",
+              "default": "/mcp",
+              "name": "MCP_HTTP_ENDPOINT_PATH"
+            },
+            {
+              "description": "Authentication mode to use: 'none', 'jwt', or 'oauth'.",
+              "format": "string",
+              "default": "none",
+              "name": "MCP_AUTH_MODE"
+            },
+            {
+              "description": "Sets the minimum log level for output (e.g., 'debug', 'info', 'warn').",
+              "format": "string",
+              "default": "info",
+              "name": "MCP_LOG_LEVEL"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-14T22:06:19.959528Z",
+        "updatedAt": "2025-10-14T22:06:19.959528Z",
         "isLatest": true
       }
     }
