@@ -404,8 +404,7 @@
         },
         {
           "registryType": "oci",
-          "identifier": "domdomegg/airtable-mcp-server",
-          "version": "1.7.2",
+          "identifier": "docker.io/domdomegg/airtable-mcp-server:1.7.2",
           "runtimeHint": "docker",
           "transport": {
             "type": "stdio"
@@ -422,7 +421,6 @@
         {
           "registryType": "mcpb",
           "identifier": "https://github.com/domdomegg/airtable-mcp-server/releases/download/v1.7.2/airtable-mcp-server.mcpb",
-          "version": "1.7.2",
           "fileSha256": "8220de07a08ebe908f04da139ea03dbfe29758141347e945da60535fb7bcca20",
           "transport": {
             "type": "stdio"
@@ -484,7 +482,6 @@
         {
           "registryType": "mcpb",
           "identifier": "https://github.com/tuannvm/mcp-trino/releases/download/v2.2.1/mcp-trino_2.2.1_darwin_arm64.tar.gz",
-          "version": "2.2.1",
           "fileSha256": "1a18882ab43243e17420f3562118a4c3e7fff12bc6b145066ae64b90b2dc0159",
           "transport": {
             "type": "stdio"
@@ -2917,9 +2914,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://docker.io",
-          "identifier": "zenmldocker/mcp-zenml",
-          "version": "1.0.3",
+          "identifier": "docker.io/zenmldocker/mcp-zenml:1.0.3",
           "transport": {
             "type": "stdio"
           },
@@ -3599,8 +3594,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "identifier": "dockersamples/mcp-docker-release-information",
-          "version": "0.2.0",
+          "identifier": "docker.io/dockersamples/mcp-docker-release-information:0.2.0",
           "transport": {
             "type": "stdio"
           }
@@ -4899,8 +4893,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "identifier": "dockersamples/mcp-docker-release-information",
-          "version": "0.3.0",
+          "identifier": "docker.io/dockersamples/mcp-docker-release-information:0.3.0",
           "transport": {
             "type": "stdio"
           }
@@ -5984,9 +5977,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://docker.io",
-          "identifier": "falkordb/queryweaver",
-          "version": "0.0.11",
+          "identifier": "docker.io/falkordb/queryweaver:0.0.11",
           "transport": {
             "type": "streamable-http",
             "url": "https://localhost:5000/mcp"
@@ -7580,8 +7571,7 @@
         },
         {
           "registryType": "oci",
-          "identifier": "domdomegg/airtable-mcp-server",
-          "version": "1.7.3",
+          "identifier": "docker.io/domdomegg/airtable-mcp-server:1.7.3",
           "runtimeHint": "docker",
           "transport": {
             "type": "stdio"
@@ -7598,7 +7588,6 @@
         {
           "registryType": "mcpb",
           "identifier": "https://github.com/domdomegg/airtable-mcp-server/releases/download/v1.7.3/airtable-mcp-server.mcpb",
-          "version": "1.7.3",
           "fileSha256": "0f28a9129cfebd262dfb77854c872355d21401bb3e056575b3027081f5d570ca",
           "transport": {
             "type": "stdio"
@@ -7949,9 +7938,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://docker.io",
-          "identifier": "ivanmurzakdev/unity-mcp-server",
-          "version": "0.17.0",
+          "identifier": "docker.io/ivanmurzakdev/unity-mcp-server:0.17.0",
           "transport": {
             "type": "stdio"
           },
@@ -7999,9 +7986,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://docker.io",
-          "identifier": "ivanmurzakdev/unity-mcp-server",
-          "version": "0.17.1",
+          "identifier": "docker.io/ivanmurzakdev/unity-mcp-server:0.17.1",
           "transport": {
             "type": "stdio"
           },
@@ -8215,9 +8200,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://docker.io",
-          "identifier": "teamwork/mcp",
-          "version": "v1.2.4",
+          "identifier": "docker.io/teamwork/mcp:v1.2.4",
           "transport": {
             "type": "stdio"
           },
@@ -8959,9 +8942,7 @@
         },
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://docker.io",
-          "identifier": "yuna0x0/anilist-mcp",
-          "version": "1.3.2",
+          "identifier": "docker.io/yuna0x0/anilist-mcp:1.3.2",
           "transport": {
             "type": "stdio"
           },
@@ -8977,7 +8958,6 @@
         {
           "registryType": "mcpb",
           "identifier": "https://github.com/yuna0x0/anilist-mcp/releases/download/v1.3.2/anilist-mcp-1.3.2.mcpb",
-          "version": "1.3.2",
           "fileSha256": "5d6c9d0b6a420ccdb884ac982e9e1f8140be856012c157e85ab5bacb78a013c8",
           "transport": {
             "type": "stdio"
@@ -9032,9 +9012,7 @@
         },
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://docker.io",
-          "identifier": "yuna0x0/anilist-mcp",
-          "version": "1.3.3",
+          "identifier": "docker.io/yuna0x0/anilist-mcp:1.3.3",
           "transport": {
             "type": "stdio"
           },
@@ -9050,7 +9028,6 @@
         {
           "registryType": "mcpb",
           "identifier": "https://github.com/yuna0x0/anilist-mcp/releases/download/v1.3.3/anilist-mcp-1.3.3.mcpb",
-          "version": "1.3.3",
           "fileSha256": "17f509167680edc3923940b31853fe2b27bbae1d5ab9b071525a4260704006ec",
           "transport": {
             "type": "stdio"
@@ -9112,9 +9089,7 @@
         },
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://docker.io",
-          "identifier": "yuna0x0/hackmd-mcp",
-          "version": "1.4.2",
+          "identifier": "docker.io/yuna0x0/hackmd-mcp:1.4.2",
           "transport": {
             "type": "stdio"
           },
@@ -9137,7 +9112,6 @@
         {
           "registryType": "mcpb",
           "identifier": "https://github.com/yuna0x0/hackmd-mcp/releases/download/v1.4.2/hackmd-mcp-1.4.2.mcpb",
-          "version": "1.4.2",
           "fileSha256": "7b6ee105271d8595e3e5a0a3e4f9075ab3a2b7b373f529f4c3e99d1f93dead62",
           "transport": {
             "type": "stdio"
@@ -10062,7 +10036,6 @@
         {
           "registryType": "mcpb",
           "identifier": "https://github.com/cmpxchg16/mcp-ethical-hacking/releases/download/v1.0.0/server.mcpb",
-          "version": "1.0.0",
           "fileSha256": "fe333e598595000ae021bd27117db32ec69af6987f507ba7a63c90638ff633ce",
           "transport": {
             "type": "stdio"
@@ -11534,9 +11507,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://docker.io",
-          "identifier": "kdaniel/bgg-mcp",
-          "version": "1.3.2",
+          "identifier": "docker.io/kdaniel/bgg-mcp:1.3.2",
           "transport": {
             "type": "stdio"
           },
@@ -11631,9 +11602,7 @@
         },
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://docker.io",
-          "identifier": "yuna0x0/hackmd-mcp",
-          "version": "1.5.0",
+          "identifier": "docker.io/yuna0x0/hackmd-mcp:1.5.0",
           "transport": {
             "type": "stdio"
           },
@@ -11656,7 +11625,6 @@
         {
           "registryType": "mcpb",
           "identifier": "https://github.com/yuna0x0/hackmd-mcp/releases/download/v1.5.0/hackmd-mcp-1.5.0.mcpb",
-          "version": "1.5.0",
           "fileSha256": "6035e3082ffaf5627e1293a2c8a5d7f42496010431c9b026859dae3bbaa9ce38",
           "transport": {
             "type": "stdio"
@@ -11993,7 +11961,6 @@
         {
           "registryType": "mcpb",
           "identifier": "https://github.com/cmpxchg16/mcp-ethical-hacking/releases/download/v1.0.0/server.mcpb",
-          "version": "1.1.0",
           "fileSha256": "fe333e598595000ae021bd27117db32ec69af6987f507ba7a63c90638ff633ce",
           "transport": {
             "type": "stdio"
@@ -12129,9 +12096,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://docker.io",
-          "identifier": "teamwork/mcp",
-          "version": "v1.3.0",
+          "identifier": "docker.io/teamwork/mcp:v1.3.0",
           "transport": {
             "type": "stdio"
           },
@@ -12256,7 +12221,6 @@
         {
           "registryType": "mcpb",
           "identifier": "https://github.com/cmpxchg16/mcp-ethical-hacking/releases/download/v1.0.0/server.mcpb",
-          "version": "1.2.0",
           "fileSha256": "294365cbf53a602df093e3757e6a31cca6c50dd6af343fefa4a528ab869d24a0",
           "transport": {
             "type": "stdio"
@@ -12287,7 +12251,6 @@
         {
           "registryType": "mcpb",
           "identifier": "https://github.com/cmpxchg16/mcp-ethical-hacking/releases/download/v1.3.0/server.mcpb",
-          "version": "1.3.0",
           "fileSha256": "294365cbf53a602df093e3757e6a31cca6c50dd6af343fefa4a528ab869d24a0",
           "transport": {
             "type": "stdio"
@@ -12992,9 +12955,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://docker.io",
-          "identifier": "kdaniel/bgg-mcp",
-          "version": "1.4.0",
+          "identifier": "docker.io/kdaniel/bgg-mcp:1.4.0",
           "transport": {
             "type": "stdio"
           },
@@ -13031,7 +12992,6 @@
         {
           "registryType": "mcpb",
           "identifier": "https://github.com/cmpxchg16/mcp-ethical-hacking/releases/download/v1.4.0/server.mcpb",
-          "version": "1.4.0",
           "fileSha256": "5e4f25e7f21b62974861f055cff90c1aef80d3b8bd1f32e05db744d1cbd67605",
           "transport": {
             "type": "stdio"
@@ -14603,7 +14563,6 @@
         {
           "registryType": "mcpb",
           "identifier": "https://github.com/jkawamoto/mcp-youtube-transcript/releases/download/v0.5.0/mcp-youtube-transcript.mcpb",
-          "version": "0.5.0",
           "fileSha256": "d44842be1e8029c9eaa4412668d06825d668b4eeb645a70386b1c98ab9de49ec",
           "transport": {
             "type": "stdio"
@@ -14634,7 +14593,6 @@
         {
           "registryType": "mcpb",
           "identifier": "https://github.com/jkawamoto/mcp-youtube-transcript/releases/download/v0.5.1/mcp-youtube-transcript.mcpb",
-          "version": "0.5.1",
           "fileSha256": "3356e741d4dafa24b0e931e3afd773c64d503f6624338beec62885f0dde59695",
           "transport": {
             "type": "stdio"
@@ -14774,9 +14732,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://docker.io",
-          "identifier": "croit/mcp-croit-ceph",
-          "version": "0.2.16",
+          "identifier": "docker.io/croit/mcp-croit-ceph:0.2.16",
           "transport": {
             "type": "stdio"
           },
@@ -15711,9 +15667,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://docker.io",
-          "identifier": "teamwork/mcp",
-          "version": "v1.4.0",
+          "identifier": "docker.io/teamwork/mcp:v1.4.0",
           "transport": {
             "type": "stdio"
           },
@@ -16337,9 +16291,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://docker.io",
-          "identifier": "schemacrawler/schemacrawler-ai",
-          "version": "v16.28.1-2",
+          "identifier": "docker.io/schemacrawler/schemacrawler-ai:v16.28.1-2",
           "transport": {
             "type": "stdio"
           },
@@ -16578,7 +16530,6 @@
         {
           "registryType": "mcpb",
           "identifier": "https://github.com/jkawamoto/mcp-bear/releases/download/v0.4.0/mcp-bear.mcpb",
-          "version": "0.4.0",
           "fileSha256": "f91b513cc189736035e090dd8217a866d4492a53ed094cc277b248890278554e",
           "transport": {
             "type": "stdio"
@@ -16648,9 +16599,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://docker.io",
-          "identifier": "tuananh/hyper-mcp",
-          "version": "v0.1.6",
+          "identifier": "docker.io/tuananh/hyper-mcp:v0.1.6",
           "transport": {
             "type": "stdio"
           }
@@ -16680,7 +16629,6 @@
         {
           "registryType": "mcpb",
           "identifier": "https://github.com/macuse-app/macuse/releases/download/v1.0.1/macuse-1.0.1.mcpb",
-          "version": "1.0.1",
           "fileSha256": "9e3444c567c66a57d15657dca437dbdb9560d16f00e6d4ac3d95ea795b9b482e",
           "transport": {
             "type": "stdio"
@@ -17777,9 +17725,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://docker.io",
-          "identifier": "zenmldocker/mcp-zenml",
-          "version": "1.0.4",
+          "identifier": "docker.io/zenmldocker/mcp-zenml:1.0.4",
           "transport": {
             "type": "stdio"
           },
@@ -18109,7 +18055,6 @@
         {
           "registryType": "mcpb",
           "identifier": "https://github.com/jkawamoto/mcp-florence2/releases/download/v0.3.2/mcp-florence2.mcpb",
-          "version": "0.3.2",
           "fileSha256": "58fcb84d444c01f3d7e9a3dd3ea6fa45dc7515663141527936ee8daec2cd0f63",
           "transport": {
             "type": "stdio"
@@ -18200,7 +18145,6 @@
         {
           "registryType": "mcpb",
           "identifier": "https://github.com/jkawamoto/mcp-florence2/releases/download/v0.3.3/mcp-florence2.mcpb",
-          "version": "0.3.3",
           "fileSha256": "4e176c58148fde7ef8a548b5ba2ca5d6b4a2f496fb3ab3b84c7329e1c732147b",
           "transport": {
             "type": "stdio"
@@ -18238,8 +18182,7 @@
         },
         {
           "registryType": "oci",
-          "identifier": "lyellr88/marm-mcp-server",
-          "version": "2.2.1",
+          "identifier": "docker.io/lyellr88/marm-mcp-server:2.2.1",
           "transport": {
             "type": "stdio"
           }
@@ -18359,7 +18302,6 @@
         {
           "registryType": "mcpb",
           "identifier": "https://github.com/francisco-perez-sorrosal/cv/releases/download/v0.0.1/fps-cv-mcp-0.0.1.mcpb",
-          "version": "0.0.1",
           "fileSha256": "d01ccdbbea56702215a8015ad19c12f5681b61c1fdaeaa258c88f657a6f02bd6",
           "transport": {
             "type": "stdio"
@@ -18397,8 +18339,7 @@
         },
         {
           "registryType": "oci",
-          "identifier": "lyellr88/marm-mcp-server",
-          "version": "2.2.2",
+          "identifier": "docker.io/lyellr88/marm-mcp-server:2.2.2",
           "transport": {
             "type": "stdio"
           }
@@ -18483,8 +18424,7 @@
         },
         {
           "registryType": "oci",
-          "identifier": "lyellr88/marm-mcp-server",
-          "version": "2.2.3",
+          "identifier": "docker.io/lyellr88/marm-mcp-server:2.2.3",
           "transport": {
             "type": "stdio"
           }
@@ -18587,8 +18527,7 @@
         },
         {
           "registryType": "oci",
-          "identifier": "lyellr88/marm-mcp-server",
-          "version": "2.2.4",
+          "identifier": "docker.io/lyellr88/marm-mcp-server:2.2.4",
           "transport": {
             "type": "stdio"
           }
@@ -19626,9 +19565,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://docker.io",
-          "identifier": "andrasfe/vulnicheck",
-          "version": "main",
+          "identifier": "docker.io/andrasfe/vulnicheck:main",
           "transport": {
             "type": "streamable-http",
             "url": "http://localhost:3000/mcp"
@@ -19799,9 +19736,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://docker.io",
-          "identifier": "mcp/sonarqube",
-          "version": "sha256:d9dc2f44f4f624bdc5fb5817abc74f6244dd40b2d03036380cd6253eff374ae5",
+          "identifier": "docker.io/mcp/sonarqube:sha256:d9dc2f44f4f624bdc5fb5817abc74f6244dd40b2d03036380cd6253eff374ae5",
           "transport": {
             "type": "stdio"
           },
@@ -20582,9 +20517,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://docker.io",
-          "identifier": "schemacrawler/schemacrawler-ai",
-          "version": "v16.28.2-1",
+          "identifier": "docker.io/schemacrawler/schemacrawler-ai:v16.28.2-1",
           "transport": {
             "type": "stdio"
           },
@@ -20662,9 +20595,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://ghcr.io",
-          "identifier": "pab1it0/prometheus-mcp-server",
-          "version": "1.2.6",
+          "identifier": "ghcr.io/pab1it0/prometheus-mcp-server:1.2.6",
           "transport": {
             "type": "stdio"
           },
@@ -21797,9 +21728,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://ghcr.io",
-          "identifier": "pab1it0/prometheus-mcp-server",
-          "version": "1.3.0",
+          "identifier": "ghcr.io/pab1it0/prometheus-mcp-server:1.3.0",
           "transport": {
             "type": "stdio"
           },
@@ -22028,9 +21957,7 @@
         },
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://ghcr.io",
-          "identifier": "yuna0x0/anilist-mcp",
-          "version": "1.3.5",
+          "identifier": "ghcr.io/yuna0x0/anilist-mcp:1.3.5",
           "transport": {
             "type": "stdio"
           },
@@ -22046,7 +21973,6 @@
         {
           "registryType": "mcpb",
           "identifier": "https://github.com/yuna0x0/anilist-mcp/releases/download/v1.3.5/anilist-mcp-1.3.5.mcpb",
-          "version": "1.3.5",
           "fileSha256": "40a76d2027c01ac43c592bf14a08beed7bdc4faca1d814086d11dbd664efd24a",
           "transport": {
             "type": "stdio"
@@ -22164,9 +22090,7 @@
         },
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://ghcr.io",
-          "identifier": "yuna0x0/hackmd-mcp",
-          "version": "1.5.1",
+          "identifier": "ghcr.io/yuna0x0/hackmd-mcp:1.5.1",
           "transport": {
             "type": "stdio"
           },
@@ -22189,7 +22113,6 @@
         {
           "registryType": "mcpb",
           "identifier": "https://github.com/yuna0x0/hackmd-mcp/releases/download/v1.5.1/hackmd-mcp-1.5.1.mcpb",
-          "version": "1.5.1",
           "fileSha256": "a994d25dbf19fb2fd783c5daba402bf87fc5a1456e1a11acf6e729984a5524ae",
           "transport": {
             "type": "stdio"
@@ -22415,9 +22338,7 @@
         },
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://ghcr.io",
-          "identifier": "yuna0x0/anilist-mcp",
-          "version": "1.3.6",
+          "identifier": "ghcr.io/yuna0x0/anilist-mcp:1.3.6",
           "transport": {
             "type": "stdio"
           },
@@ -22433,7 +22354,6 @@
         {
           "registryType": "mcpb",
           "identifier": "https://github.com/yuna0x0/anilist-mcp/releases/download/v1.3.6/anilist-mcp-1.3.6.mcpb",
-          "version": "1.3.6",
           "fileSha256": "76579d74b1f94df9b6203d3a6a11385f22555f0f695dc109c1c6512a7e0c79ff",
           "transport": {
             "type": "stdio"
@@ -22495,9 +22415,7 @@
         },
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://ghcr.io",
-          "identifier": "yuna0x0/hackmd-mcp",
-          "version": "1.5.2",
+          "identifier": "ghcr.io/yuna0x0/hackmd-mcp:1.5.2",
           "transport": {
             "type": "stdio"
           },
@@ -22520,7 +22438,6 @@
         {
           "registryType": "mcpb",
           "identifier": "https://github.com/yuna0x0/hackmd-mcp/releases/download/v1.5.2/hackmd-mcp-1.5.2.mcpb",
-          "version": "1.5.2",
           "fileSha256": "85c9f9930596291f3ba9e0e5d3241cbeac4d5bcc6832845bd7c05348cc5511d5",
           "transport": {
             "type": "stdio"
@@ -22617,9 +22534,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://docker.io",
-          "identifier": "jessegador/websharp-mcp",
-          "version": "v0.99.0-rc2",
+          "identifier": "docker.io/jessegador/websharp-mcp:v0.99.0-rc2",
           "transport": {
             "type": "streamable-http",
             "url": "http://localhost:8081/"
@@ -23199,8 +23114,7 @@
         },
         {
           "registryType": "oci",
-          "identifier": "lyellr88/marm-mcp-server",
-          "version": "2.2.5",
+          "identifier": "docker.io/lyellr88/marm-mcp-server:2.2.5",
           "transport": {
             "type": "stdio"
           }
@@ -23810,9 +23724,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://docker.io",
-          "identifier": "iunera/druid-mcp-server",
-          "version": "1.2.1",
+          "identifier": "docker.io/iunera/druid-mcp-server:1.2.1",
           "runtimeHint": "docker",
           "transport": {
             "type": "stdio"
@@ -23905,9 +23817,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://docker.io",
-          "identifier": "iunera/druid-mcp-server",
-          "version": "1.2.2",
+          "identifier": "docker.io/iunera/druid-mcp-server:1.2.2",
           "runtimeHint": "docker",
           "transport": {
             "type": "stdio"
@@ -24182,9 +24092,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://ghcr.io",
-          "identifier": "SamYuan1990/i18n-agent-action",
-          "version": "mcp",
+          "identifier": "ghcr.io/SamYuan1990/i18n-agent-action:mcp",
           "runtimeHint": "docker",
           "transport": {
             "type": "sse",
@@ -25096,9 +25004,7 @@
         },
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://docker.io",
-          "identifier": "formulahendry/mcp-server-code-runner",
-          "version": "0.1.8",
+          "identifier": "docker.io/formulahendry/mcp-server-code-runner:0.1.8",
           "transport": {
             "type": "stdio"
           }
@@ -25729,9 +25635,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://docker.io",
-          "identifier": "iunera/druid-mcp-server",
-          "version": "1.3.0",
+          "identifier": "docker.io/iunera/druid-mcp-server:1.3.0",
           "runtimeHint": "docker",
           "transport": {
             "type": "stdio"
@@ -25819,9 +25723,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://docker.io",
-          "identifier": "okaru413/clappia-mcp",
-          "version": "1.0.0",
+          "identifier": "docker.io/okaru413/clappia-mcp:1.0.0",
           "transport": {
             "type": "stdio"
           },
@@ -25956,9 +25858,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://ghcr.io",
-          "identifier": "github/github-mcp-server",
-          "version": "0.16.0",
+          "identifier": "ghcr.io/github/github-mcp-server:0.16.0",
           "transport": {
             "type": "stdio"
           },
@@ -26285,9 +26185,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://docker.io",
-          "identifier": "teamwork/mcp",
-          "version": "v1.5.2",
+          "identifier": "docker.io/teamwork/mcp:v1.5.2",
           "transport": {
             "type": "stdio"
           },
@@ -26672,9 +26570,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://docker.io",
-          "identifier": "teamwork/mcp",
-          "version": "v1.5.3",
+          "identifier": "docker.io/teamwork/mcp:v1.5.3",
           "transport": {
             "type": "stdio"
           },
@@ -26840,9 +26736,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://ghcr.io",
-          "identifier": "codealive-ai/codealive-mcp",
-          "version": "0.3.0",
+          "identifier": "ghcr.io/codealive-ai/codealive-mcp:0.3.0",
           "transport": {
             "type": "stdio"
           }
@@ -26872,9 +26766,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://docker.io",
-          "identifier": "schemacrawler/schemacrawler-ai",
-          "version": "v16.28.3-1",
+          "identifier": "docker.io/schemacrawler/schemacrawler-ai:v16.28.3-1",
           "transport": {
             "type": "stdio"
           },
@@ -28931,9 +28823,7 @@
         },
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://ghcr.io",
-          "identifier": "tschoonj/repology-mcp-server",
-          "version": "0.1.1",
+          "identifier": "ghcr.io/tschoonj/repology-mcp-server:0.1.1",
           "transport": {
             "type": "stdio"
           }
@@ -29532,9 +29422,7 @@
         },
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://ghcr.io",
-          "identifier": "yuna0x0/hackmd-mcp",
-          "version": "1.5.3",
+          "identifier": "ghcr.io/yuna0x0/hackmd-mcp:1.5.3",
           "transport": {
             "type": "stdio"
           },
@@ -29557,7 +29445,6 @@
         {
           "registryType": "mcpb",
           "identifier": "https://github.com/yuna0x0/hackmd-mcp/releases/download/v1.5.3/hackmd-mcp-1.5.3.mcpb",
-          "version": "1.5.3",
           "fileSha256": "9b216bf4c286ccc1b70f411f0b23777efbae0ab7239b8c99170cfac3b706721a",
           "transport": {
             "type": "stdio"
@@ -29619,9 +29506,7 @@
         },
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://ghcr.io",
-          "identifier": "yuna0x0/anilist-mcp",
-          "version": "1.3.7",
+          "identifier": "ghcr.io/yuna0x0/anilist-mcp:1.3.7",
           "transport": {
             "type": "stdio"
           },
@@ -29637,7 +29522,6 @@
         {
           "registryType": "mcpb",
           "identifier": "https://github.com/yuna0x0/anilist-mcp/releases/download/v1.3.7/anilist-mcp-1.3.7.mcpb",
-          "version": "1.3.7",
           "fileSha256": "29088017de549959db323020223aa564606285935bc5dbc7b2e2657ef4aba66a",
           "transport": {
             "type": "stdio"
@@ -30129,7 +30013,6 @@
         {
           "registryType": "mcpb",
           "identifier": "https://github.com/cloudquery/mcp-releases/releases/download/v1.6.6/cq-platform-mcp_1.6.6_darwin_arm64.mcpb",
-          "version": "1.6.6",
           "fileSha256": "8d2fbad62831940a0cd045a7adf185d90a9a021d0a060958b63f195a90d5c3d0",
           "runtimeHint": "darwin-arm64",
           "transport": {
@@ -30139,7 +30022,6 @@
         {
           "registryType": "mcpb",
           "identifier": "https://github.com/cloudquery/mcp-releases/releases/download/v1.6.6/cq-platform-mcp_1.6.6_darwin_amd64.mcpb",
-          "version": "1.6.6",
           "fileSha256": "75b9e79090d5f18287b9203be9b70a0188d9d38f0566fac06826f578932c88ee",
           "runtimeHint": "darwin-amd64",
           "transport": {
@@ -30149,7 +30031,6 @@
         {
           "registryType": "mcpb",
           "identifier": "https://github.com/cloudquery/mcp-releases/releases/download/v1.6.6/cq-platform-mcp_1.6.6_linux_arm64.mcpb",
-          "version": "1.6.6",
           "fileSha256": "eed268cc27341355ec9c4f5546c15ded0f6950e99498400b850ee6634d50a6b0",
           "runtimeHint": "linux-arm64",
           "transport": {
@@ -30159,7 +30040,6 @@
         {
           "registryType": "mcpb",
           "identifier": "https://github.com/cloudquery/mcp-releases/releases/download/v1.6.6/cq-platform-mcp_1.6.6_linux_amd64.mcpb",
-          "version": "1.6.6",
           "fileSha256": "2c6e9cc43d369ded1bcc4c143d177a302da2aa0c0ed555a81a1c0f1ffeb802bf",
           "runtimeHint": "linux-amd64",
           "transport": {
@@ -30169,7 +30049,6 @@
         {
           "registryType": "mcpb",
           "identifier": "https://github.com/cloudquery/mcp-releases/releases/download/v1.6.6/cq-platform-mcp_1.6.6_windows_amd64.mcpb",
-          "version": "1.6.6",
           "fileSha256": "c81da56dcf9b2e6739cc561aca6bb6d999b31db335369a8f6636942c7e6e319f",
           "runtimeHint": "windows-amd64",
           "transport": {
@@ -30200,9 +30079,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://docker.io",
-          "identifier": "teamwork/mcp",
-          "version": "v1.5.4",
+          "identifier": "docker.io/teamwork/mcp:v1.5.4",
           "transport": {
             "type": "stdio"
           },
@@ -30276,9 +30153,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://docker.io",
-          "identifier": "teamwork/mcp",
-          "version": "v1.5.5",
+          "identifier": "docker.io/teamwork/mcp:v1.5.5",
           "transport": {
             "type": "stdio"
           },
@@ -30394,9 +30269,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://docker.io",
-          "identifier": "teamwork/mcp",
-          "version": "v1.5.6",
+          "identifier": "docker.io/teamwork/mcp:v1.5.6",
           "transport": {
             "type": "stdio"
           },
@@ -30471,7 +30344,6 @@
         {
           "registryType": "mcpb",
           "identifier": "https://github.com/cloudquery/mcp-releases/releases/download/v1.6.8/cq-platform-mcp_1.6.8_darwin_arm64.mcpb",
-          "version": "1.6.8",
           "fileSha256": "4358a05946f1d66bba4eb99413e6a4048b8bc22503a8cb0af477f163cf41cd6b",
           "runtimeHint": "darwin-arm64",
           "transport": {
@@ -30481,7 +30353,6 @@
         {
           "registryType": "mcpb",
           "identifier": "https://github.com/cloudquery/mcp-releases/releases/download/v1.6.8/cq-platform-mcp_1.6.8_darwin_amd64.mcpb",
-          "version": "1.6.8",
           "fileSha256": "dd2987cc5ed558a1437095d27241b36729297484b3474e6e8337c2c254580a40",
           "runtimeHint": "darwin-amd64",
           "transport": {
@@ -30491,7 +30362,6 @@
         {
           "registryType": "mcpb",
           "identifier": "https://github.com/cloudquery/mcp-releases/releases/download/v1.6.8/cq-platform-mcp_1.6.8_linux_arm64.mcpb",
-          "version": "1.6.8",
           "fileSha256": "38329ed2fd87991aea3f1273da67ad0a458517793e0bdde5a464f00d4bb4aa7e",
           "runtimeHint": "linux-arm64",
           "transport": {
@@ -30501,7 +30371,6 @@
         {
           "registryType": "mcpb",
           "identifier": "https://github.com/cloudquery/mcp-releases/releases/download/v1.6.8/cq-platform-mcp_1.6.8_linux_amd64.mcpb",
-          "version": "1.6.8",
           "fileSha256": "7ff22d7bbd43e78c61bceead5943c94a0ef916d1f1d958e00a392531a76e15e2",
           "runtimeHint": "linux-amd64",
           "transport": {
@@ -30511,7 +30380,6 @@
         {
           "registryType": "mcpb",
           "identifier": "https://github.com/cloudquery/mcp-releases/releases/download/v1.6.8/cq-platform-mcp_1.6.8_windows_amd64.mcpb",
-          "version": "1.6.8",
           "fileSha256": "2c4faeadc742296aa20fada1b227f1afba77be165051b21788dac4af94be3bef",
           "runtimeHint": "windows-amd64",
           "transport": {
@@ -30607,7 +30475,6 @@
         {
           "registryType": "mcpb",
           "identifier": "https://github.com/jkawamoto/mcp-youtube-transcript/releases/download/v0.5.2/mcp-youtube-transcript.mcpb",
-          "version": "0.5.2",
           "fileSha256": "5b0494110d53c9e6fb8b689ebb5876a3e98351f7db64142eca874a0bb6ca188f",
           "transport": {
             "type": "stdio"
@@ -31787,7 +31654,6 @@
         {
           "registryType": "mcpb",
           "identifier": "https://github.com/cloudquery/mcp-releases/releases/download/v1.6.9/cq-platform-mcp_1.6.9_darwin_arm64.mcpb",
-          "version": "1.6.9",
           "fileSha256": "174f039a7ae18ec2fb03243a72209ad2b5388f3ef47b3e843e1f5b418457d60a",
           "runtimeHint": "darwin-arm64",
           "transport": {
@@ -31797,7 +31663,6 @@
         {
           "registryType": "mcpb",
           "identifier": "https://github.com/cloudquery/mcp-releases/releases/download/v1.6.9/cq-platform-mcp_1.6.9_darwin_amd64.mcpb",
-          "version": "1.6.9",
           "fileSha256": "7c13732f1f836520880575f2635e305b2031d0bd7889d1b61bb0443154009d7f",
           "runtimeHint": "darwin-amd64",
           "transport": {
@@ -31807,7 +31672,6 @@
         {
           "registryType": "mcpb",
           "identifier": "https://github.com/cloudquery/mcp-releases/releases/download/v1.6.9/cq-platform-mcp_1.6.9_linux_arm64.mcpb",
-          "version": "1.6.9",
           "fileSha256": "eac79b5dd29bf11c47823ab2c77d64adbdc1170001398c36f172b49b61567123",
           "runtimeHint": "linux-arm64",
           "transport": {
@@ -31817,7 +31681,6 @@
         {
           "registryType": "mcpb",
           "identifier": "https://github.com/cloudquery/mcp-releases/releases/download/v1.6.9/cq-platform-mcp_1.6.9_linux_amd64.mcpb",
-          "version": "1.6.9",
           "fileSha256": "2cee76607b1b3e26eb0e8f083611909cc9a40a61ddf6cdafe43d5076d448f60a",
           "runtimeHint": "linux-amd64",
           "transport": {
@@ -31827,7 +31690,6 @@
         {
           "registryType": "mcpb",
           "identifier": "https://github.com/cloudquery/mcp-releases/releases/download/v1.6.9/cq-platform-mcp_1.6.9_windows_amd64.mcpb",
-          "version": "1.6.9",
           "fileSha256": "19470e7e2a37abdee17194c71ff24f38c88fa8a6136f13db4b8dc4f11346c320",
           "runtimeHint": "windows-amd64",
           "transport": {
@@ -31889,7 +31751,6 @@
         {
           "registryType": "mcpb",
           "identifier": "https://github.com/jkawamoto/mcp-youtube-transcript/releases/download/v0.5.3/mcp-youtube-transcript.mcpb",
-          "version": "0.5.3",
           "fileSha256": "aaa5a35af911a670d7b45845568d91ec7db485b8604b498ffb4edb720ccd8537",
           "transport": {
             "type": "stdio"
@@ -32105,9 +31966,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://ghcr.io",
-          "identifier": "github/github-mcp-server",
-          "version": "0.17.0",
+          "identifier": "ghcr.io/github/github-mcp-server:0.17.0",
           "transport": {
             "type": "stdio"
           },
@@ -32305,9 +32164,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://docker.io",
-          "identifier": "hamcodes/cybersim-pro-mcp",
-          "version": "v1.0.1",
+          "identifier": "docker.io/hamcodes/cybersim-pro-mcp:v1.0.1",
           "runtimeHint": "docker",
           "transport": {
             "type": "stdio"
@@ -32966,9 +32823,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://ghcr.io",
-          "identifier": "victoriametrics-community/mcp-victoriametrics",
-          "version": "v1.13.1",
+          "identifier": "ghcr.io/victoriametrics-community/mcp-victoriametrics:v1.13.1",
           "transport": {
             "type": "stdio"
           },
@@ -33034,9 +32889,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://ghcr.io",
-          "identifier": "victoriametrics-community/mcp-victorialogs",
-          "version": "v1.3.0",
+          "identifier": "ghcr.io/victoriametrics-community/mcp-victorialogs:v1.3.0",
           "transport": {
             "type": "stdio"
           },
@@ -33576,7 +33429,6 @@
         {
           "registryType": "mcpb",
           "identifier": "https://github.com/nowledge-co/claude-dxt/releases/download/v1.0.0/claude-dxt.mcpb",
-          "version": "1.0.0",
           "fileSha256": "68d0c882efa7925cd1400a5a6c8e20e2a3b59e7abf8ae6bd45863d0be41aeb9a",
           "transport": {
             "type": "stdio"
@@ -35107,9 +34959,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://ghcr.io",
-          "identifier": "rogiervdbrnk/mcp-server",
-          "version": "1.0.6",
+          "identifier": "ghcr.io/rogiervdbrnk/mcp-server:1.0.6",
           "transport": {
             "type": "stdio"
           }
@@ -35138,9 +34988,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://ghcr.io",
-          "identifier": "rogiervdbrnk/mcp-server",
-          "version": "1.0.7",
+          "identifier": "ghcr.io/rogiervdbrnk/mcp-server:1.0.7",
           "transport": {
             "type": "stdio"
           }
@@ -35169,9 +35017,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://ghcr.io",
-          "identifier": "rogiervdbrnk/mcp-server",
-          "version": "1.0.8",
+          "identifier": "ghcr.io/rogiervdbrnk/mcp-server:1.0.8",
           "transport": {
             "type": "stdio"
           }
@@ -35200,9 +35046,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://ghcr.io",
-          "identifier": "rogiervdbrnk/mcp-server",
-          "version": "1.0.9",
+          "identifier": "ghcr.io/rogiervdbrnk/mcp-server:1.0.9",
           "transport": {
             "type": "stdio"
           }
@@ -35231,9 +35075,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://ghcr.io",
-          "identifier": "rogiervdbrnk/mcp-server",
-          "version": "1.1.0",
+          "identifier": "ghcr.io/rogiervdbrnk/mcp-server:1.1.0",
           "transport": {
             "type": "stdio"
           }
@@ -35262,9 +35104,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://ghcr.io",
-          "identifier": "rogiervdbrnk/mcp-server",
-          "version": "1.1.1",
+          "identifier": "ghcr.io/rogiervdbrnk/mcp-server:1.1.1",
           "transport": {
             "type": "stdio"
           }
@@ -35788,9 +35628,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://ghcr.io",
-          "identifier": "pab1it0/prometheus-mcp-server",
-          "version": "1.3.1",
+          "identifier": "ghcr.io/pab1it0/prometheus-mcp-server:1.3.1",
           "transport": {
             "type": "stdio"
           },
@@ -35879,9 +35717,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://docker.io",
-          "identifier": "iunera/druid-mcp-server",
-          "version": "1.4.0",
+          "identifier": "docker.io/iunera/druid-mcp-server:1.4.0",
           "runtimeHint": "docker",
           "transport": {
             "type": "stdio"
@@ -36657,9 +36493,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://ghcr.io",
-          "identifier": "github/github-mcp-server",
-          "version": "0.17.1",
+          "identifier": "ghcr.io/github/github-mcp-server:0.17.1",
           "transport": {
             "type": "stdio"
           },
@@ -38838,9 +38672,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://ghcr.io",
-          "identifier": "tjhop/prometheus-mcp-server",
-          "version": "v0.7.1",
+          "identifier": "ghcr.io/tjhop/prometheus-mcp-server:v0.7.1",
           "transport": {
             "type": "stdio"
           },
@@ -40251,9 +40083,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://docker.io",
-          "identifier": "hummingbot/hummingbot-mcp",
-          "version": "0.1.0",
+          "identifier": "docker.io/hummingbot/hummingbot-mcp:0.1.0",
           "transport": {
             "type": "stdio"
           },
@@ -40545,9 +40375,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://ghcr.io",
-          "identifier": "tjhop/prometheus-mcp-server",
-          "version": "0.7.1",
+          "identifier": "ghcr.io/tjhop/prometheus-mcp-server:0.7.1",
           "transport": {
             "type": "stdio"
           },
@@ -41660,7 +41488,6 @@
         {
           "registryType": "mcpb",
           "identifier": "https://github.com/jkawamoto/mcp-youtube-transcript/releases/download/v0.5.4/mcp-youtube-transcript.mcpb",
-          "version": "0.5.4",
           "fileSha256": "195c643878037fa81fd2e18e622c1ae320eafe9c0445625c80460dee4855e906",
           "transport": {
             "type": "stdio"
@@ -42122,9 +41949,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://docker.io",
-          "identifier": "schemacrawler/schemacrawler-ai",
-          "version": "v16.29.1-1",
+          "identifier": "docker.io/schemacrawler/schemacrawler-ai:v16.29.1-1",
           "transport": {
             "type": "stdio"
           },
@@ -42301,9 +42126,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://ghcr.io",
-          "identifier": "carlisia/mcp-factcheck",
-          "version": "v1.0.0",
+          "identifier": "ghcr.io/carlisia/mcp-factcheck:v1.0.0",
           "transport": {
             "type": "stdio"
           },
@@ -42372,9 +42195,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://docker.io",
-          "identifier": "okaru413/clappia-mcp",
-          "version": "1.0.1",
+          "identifier": "docker.io/okaru413/clappia-mcp:1.0.1",
           "transport": {
             "type": "stdio"
           },
@@ -43311,9 +43132,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://docker.io",
-          "identifier": "jamesmontemagno/monkeymcp",
-          "version": "2.0.3",
+          "identifier": "docker.io/jamesmontemagno/monkeymcp:2.0.3",
           "transport": {
             "type": "stdio"
           }
@@ -44161,9 +43980,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://docker.io",
-          "identifier": "teamwork/mcp",
-          "version": "v1.6.3",
+          "identifier": "docker.io/teamwork/mcp:v1.6.3",
           "transport": {
             "type": "stdio"
           },
@@ -44308,7 +44125,6 @@
         {
           "registryType": "mcpb",
           "identifier": "https://github.com/transcribe-app/mcp-transcribe/releases/download/v1.0.4/transcribe-com-v1.0.4.mcpb",
-          "version": "1.0.4",
           "fileSha256": "720278617e2a55372919f4ca33bb6298e1e58433f4148fe88b86463fad07bdab",
           "transport": {
             "type": "stdio"
@@ -44532,7 +44348,6 @@
         {
           "registryType": "mcpb",
           "identifier": "https://github.com/francisco-perez-sorrosal/cv/releases/download/v0.0.3/fps-cv-mcp-0.0.3.mcpb",
-          "version": "0.0.3",
           "fileSha256": "d9835e29ee1a95759219f23bb988f71cb9d419b631754fc0ad8ab43b5ff0042e",
           "transport": {
             "type": "stdio"
@@ -44689,9 +44504,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://ghcr.io",
-          "identifier": "tjhop/prometheus-mcp-server",
-          "version": "0.8.0",
+          "identifier": "ghcr.io/tjhop/prometheus-mcp-server:0.8.0",
           "transport": {
             "type": "stdio"
           },
@@ -45079,9 +44892,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://docker.io",
-          "identifier": "aliengiraffe/spotdb",
-          "version": "0.1.0",
+          "identifier": "docker.io/aliengiraffe/spotdb:0.1.0",
           "transport": {
             "type": "stdio"
           },
@@ -45428,9 +45239,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://ghcr.io",
-          "identifier": "buildkite/buildkite-mcp-server",
-          "version": "0.7.0",
+          "identifier": "ghcr.io/buildkite/buildkite-mcp-server:0.7.0",
           "runtimeHint": "docker",
           "transport": {
             "type": "stdio"
@@ -45571,9 +45380,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://ghcr.io",
-          "identifier": "fengcl/mcp-sse-demo-02",
-          "version": "0.1.5",
+          "identifier": "ghcr.io/fengcl/mcp-sse-demo-02:0.1.5",
           "transport": {
             "type": "sse",
             "url": "http://2d816j6296.uicp.fun/mcp/sse"
@@ -45603,9 +45410,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://ghcr.io",
-          "identifier": "github/github-mcp-server",
-          "version": "0.18.0",
+          "identifier": "ghcr.io/github/github-mcp-server:0.18.0",
           "transport": {
             "type": "stdio"
           },
@@ -46392,9 +46197,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://docker.io",
-          "identifier": "iunera/druid-mcp-server",
-          "version": "1.5.0",
+          "identifier": "docker.io/iunera/druid-mcp-server:1.5.0",
           "runtimeHint": "docker",
           "transport": {
             "type": "stdio"
@@ -47201,9 +47004,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://docker.io",
-          "identifier": "copyleftdev/fabric-atelier",
-          "version": "0.1.0",
+          "identifier": "docker.io/copyleftdev/fabric-atelier:0.1.0",
           "transport": {
             "type": "stdio"
           }
@@ -47232,9 +47033,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://docker.io",
-          "identifier": "copyleftdev/fabric-atelier",
-          "version": "0.1.1",
+          "identifier": "docker.io/copyleftdev/fabric-atelier:0.1.1",
           "transport": {
             "type": "stdio"
           }
@@ -47263,9 +47062,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://docker.io",
-          "identifier": "copyleftdev/fabric-atelier",
-          "version": "0.1.2",
+          "identifier": "docker.io/copyleftdev/fabric-atelier:0.1.2",
           "transport": {
             "type": "stdio"
           }
@@ -47984,9 +47781,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://ghcr.io",
-          "identifier": "victoriametrics-community/mcp-victoriatraces",
-          "version": "v1.1.0",
+          "identifier": "ghcr.io/victoriametrics-community/mcp-victoriatraces:v1.1.0",
           "transport": {
             "type": "stdio"
           },
@@ -48158,9 +47953,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://docker.io",
-          "identifier": "writenotenow/postgres-mcp-enhanced",
-          "version": "v1.1.1",
+          "identifier": "docker.io/writenotenow/postgres-mcp-enhanced:v1.1.1",
           "transport": {
             "type": "stdio"
           }
@@ -48189,9 +47982,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://docker.io",
-          "identifier": "writenotenow/memory-journal-mcp",
-          "version": "v1.1.3",
+          "identifier": "docker.io/writenotenow/memory-journal-mcp:v1.1.3",
           "transport": {
             "type": "stdio"
           }
@@ -48280,9 +48071,7 @@
         },
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://docker.io",
-          "identifier": "writenotenow/sqlite-mcp-server",
-          "version": "v2.6.3",
+          "identifier": "docker.io/writenotenow/sqlite-mcp-server:v2.6.3",
           "transport": {
             "type": "stdio"
           }
@@ -48757,7 +48546,7 @@
         "status": "active",
         "publishedAt": "2025-10-13T10:27:37.007298Z",
         "updatedAt": "2025-10-13T10:27:37.007298Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -48975,7 +48764,6 @@
         {
           "registryType": "mcpb",
           "identifier": "https://github.com/jkawamoto/mcp-youtube-transcript/releases/download/v0.5.5/mcp-youtube-transcript.mcpb",
-          "version": "0.5.5",
           "fileSha256": "57f6c0aafdea34c9f08cd12d0211f8f8e4fa55d251fce9e41e53ee0a50528c8d",
           "transport": {
             "type": "stdio"
@@ -49210,9 +48998,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://ghcr.io",
-          "identifier": "victoriametrics-community/mcp-victoriametrics",
-          "version": "v1.14.0",
+          "identifier": "ghcr.io/victoriametrics-community/mcp-victoriametrics:v1.14.0",
           "transport": {
             "type": "stdio"
           },
@@ -49287,7 +49073,6 @@
         {
           "registryType": "mcpb",
           "identifier": "https://github.com/VectifyAI/pageindex-mcp/releases/download/v1.6.2/pageindex-mcp-1.6.2.mcpb",
-          "version": "1.6.2",
           "fileSha256": "67138e48f8755be07fafb149cb438f1144619e90b232e5329208ec0c2fbf2d6f",
           "transport": {
             "type": "stdio"
@@ -49430,9 +49215,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://ghcr.io",
-          "identifier": "victoriametrics-community/mcp-victoriatraces",
-          "version": "v1.2.0",
+          "identifier": "ghcr.io/victoriametrics-community/mcp-victoriatraces:v1.2.0",
           "transport": {
             "type": "stdio"
           },
@@ -49482,9 +49265,7 @@
       "packages": [
         {
           "registryType": "oci",
-          "registryBaseUrl": "https://ghcr.io",
-          "identifier": "pab1it0/prometheus-mcp-server",
-          "version": "1.3.2",
+          "identifier": "ghcr.io/pab1it0/prometheus-mcp-server:1.3.2",
           "transport": {
             "type": "stdio"
           },
@@ -49758,7 +49539,7 @@
         "status": "active",
         "publishedAt": "2025-10-14T17:26:10.792295Z",
         "updatedAt": "2025-10-14T17:26:10.792295Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -50694,7 +50475,7 @@
         "status": "active",
         "publishedAt": "2025-10-15T10:54:56.123781Z",
         "updatedAt": "2025-10-15T10:54:56.123781Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -51030,6 +50811,590 @@
         "status": "active",
         "publishedAt": "2025-10-15T12:55:33.817886Z",
         "updatedAt": "2025-10-15T12:55:33.817886Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.grafana/mcp-grafana",
+      "description": "An MCP server giving access to Grafana dashboards, data and more.",
+      "repository": {
+        "url": "https://github.com/grafana/mcp-grafana",
+        "source": "github"
+      },
+      "version": "v0.7.7",
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "docker.io/grafana/mcp-grafana:0.7.7",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "URL to your Grafana instance",
+              "isRequired": true,
+              "format": "string",
+              "name": "GRAFANA_URL"
+            },
+            {
+              "description": "Service account token used to authenticate with your Grafana instance",
+              "format": "string",
+              "isSecret": true,
+              "name": "GRAFANA_SERVICE_ACCOUNT_TOKEN"
+            },
+            {
+              "description": "Username to authenticate with your Grafana instance",
+              "format": "string",
+              "name": "GRAFANA_USERNAME"
+            },
+            {
+              "description": "Password to authenticate with your Grafana instance",
+              "format": "string",
+              "isSecret": true,
+              "name": "GRAFANA_PASSWORD"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-15T13:00:08.717349Z",
+        "updatedAt": "2025-10-15T13:00:08.717349Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.cyanheads/mcp-ts-template",
+      "description": "A production-grade TypeScript template for scalable MCP servers with built-in observability.",
+      "repository": {
+        "url": "https://github.com/cyanheads/mcp-ts-template",
+        "source": "github"
+      },
+      "version": "2.4.3",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "mcp-ts-template",
+          "version": "2.4.3",
+          "runtimeHint": "bun",
+          "transport": {
+            "type": "stdio"
+          },
+          "packageArguments": [
+            {
+              "value": "run",
+              "type": "positional"
+            },
+            {
+              "value": "start:stdio",
+              "type": "positional"
+            }
+          ],
+          "environmentVariables": [
+            {
+              "description": "Sets the minimum log level for output (e.g., 'debug', 'info', 'warn').",
+              "format": "string",
+              "default": "info",
+              "name": "MCP_LOG_LEVEL"
+            }
+          ]
+        },
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "mcp-ts-template",
+          "version": "2.4.3",
+          "runtimeHint": "bun",
+          "transport": {
+            "type": "streamable-http",
+            "url": "http://localhost:3010/mcp"
+          },
+          "packageArguments": [
+            {
+              "value": "run",
+              "type": "positional"
+            },
+            {
+              "value": "start:http",
+              "type": "positional"
+            }
+          ],
+          "environmentVariables": [
+            {
+              "description": "The hostname for the HTTP server.",
+              "format": "string",
+              "default": "127.0.0.1",
+              "name": "MCP_HTTP_HOST"
+            },
+            {
+              "description": "The port to run the HTTP server on.",
+              "format": "string",
+              "default": "3010",
+              "name": "MCP_HTTP_PORT"
+            },
+            {
+              "description": "The endpoint path for the MCP server.",
+              "format": "string",
+              "default": "/mcp",
+              "name": "MCP_HTTP_ENDPOINT_PATH"
+            },
+            {
+              "description": "Authentication mode to use: 'none', 'jwt', or 'oauth'.",
+              "format": "string",
+              "default": "none",
+              "name": "MCP_AUTH_MODE"
+            },
+            {
+              "description": "Sets the minimum log level for output (e.g., 'debug', 'info', 'warn').",
+              "format": "string",
+              "default": "info",
+              "name": "MCP_LOG_LEVEL"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-15T13:16:51.7145Z",
+        "updatedAt": "2025-10-15T13:16:51.7145Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.cyanheads/git-mcp-server",
+      "description": "Comprehensive Git MCP server enabling native git tools including clone, commit, worktree, & more.",
+      "repository": {
+        "url": "https://github.com/cyanheads/git-mcp-server",
+        "source": "github"
+      },
+      "version": "2.5.1",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@cyanheads/git-mcp-server",
+          "version": "2.5.1",
+          "runtimeHint": "bun",
+          "transport": {
+            "type": "stdio"
+          },
+          "packageArguments": [
+            {
+              "value": "run",
+              "type": "positional"
+            },
+            {
+              "value": "start:stdio",
+              "type": "positional"
+            }
+          ],
+          "environmentVariables": [
+            {
+              "description": "Sets the minimum log level for output (e.g., 'debug', 'info', 'warn').",
+              "format": "string",
+              "default": "info",
+              "name": "MCP_LOG_LEVEL"
+            },
+            {
+              "description": "Optional absolute path to restrict all git operations to a specific directory tree. Provides security sandboxing for multi-tenant or shared environments.",
+              "format": "string",
+              "name": "GIT_BASE_DIR"
+            }
+          ]
+        },
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@cyanheads/git-mcp-server",
+          "version": "2.5.1",
+          "runtimeHint": "bun",
+          "transport": {
+            "type": "streamable-http",
+            "url": "http://localhost:3015/mcp"
+          },
+          "packageArguments": [
+            {
+              "value": "run",
+              "type": "positional"
+            },
+            {
+              "value": "start:http",
+              "type": "positional"
+            }
+          ],
+          "environmentVariables": [
+            {
+              "description": "The hostname for the HTTP server.",
+              "format": "string",
+              "default": "127.0.0.1",
+              "name": "MCP_HTTP_HOST"
+            },
+            {
+              "description": "The port to run the HTTP server on.",
+              "format": "string",
+              "default": "3015",
+              "name": "MCP_HTTP_PORT"
+            },
+            {
+              "description": "The endpoint path for the MCP server.",
+              "format": "string",
+              "default": "/mcp",
+              "name": "MCP_HTTP_ENDPOINT_PATH"
+            },
+            {
+              "description": "Authentication mode to use: 'none', 'jwt', or 'oauth'.",
+              "format": "string",
+              "default": "none",
+              "name": "MCP_AUTH_MODE"
+            },
+            {
+              "description": "Sets the minimum log level for output (e.g., 'debug', 'info', 'warn').",
+              "format": "string",
+              "default": "info",
+              "name": "MCP_LOG_LEVEL"
+            },
+            {
+              "description": "Optional absolute path to restrict all git operations to a specific directory tree. Provides security sandboxing for multi-tenant or shared environments.",
+              "format": "string",
+              "name": "GIT_BASE_DIR"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-15T14:25:36.846763Z",
+        "updatedAt": "2025-10-15T14:25:36.846763Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.cyanheads/git-mcp-server",
+      "description": "Comprehensive Git MCP server enabling native git tools including clone, commit, worktree, & more.",
+      "repository": {
+        "url": "https://github.com/cyanheads/git-mcp-server",
+        "source": "github"
+      },
+      "version": "2.5.2",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@cyanheads/git-mcp-server",
+          "version": "2.5.2",
+          "runtimeHint": "bun",
+          "transport": {
+            "type": "stdio"
+          },
+          "packageArguments": [
+            {
+              "value": "run",
+              "type": "positional"
+            },
+            {
+              "value": "start:stdio",
+              "type": "positional"
+            }
+          ],
+          "environmentVariables": [
+            {
+              "description": "Sets the minimum log level for output (e.g., 'debug', 'info', 'warn').",
+              "format": "string",
+              "default": "info",
+              "name": "MCP_LOG_LEVEL"
+            },
+            {
+              "description": "Optional absolute path to restrict all git operations to a specific directory tree. Provides security sandboxing for multi-tenant or shared environments.",
+              "format": "string",
+              "name": "GIT_BASE_DIR"
+            }
+          ]
+        },
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@cyanheads/git-mcp-server",
+          "version": "2.5.2",
+          "runtimeHint": "bun",
+          "transport": {
+            "type": "streamable-http",
+            "url": "http://localhost:3015/mcp"
+          },
+          "packageArguments": [
+            {
+              "value": "run",
+              "type": "positional"
+            },
+            {
+              "value": "start:http",
+              "type": "positional"
+            }
+          ],
+          "environmentVariables": [
+            {
+              "description": "The hostname for the HTTP server.",
+              "format": "string",
+              "default": "127.0.0.1",
+              "name": "MCP_HTTP_HOST"
+            },
+            {
+              "description": "The port to run the HTTP server on.",
+              "format": "string",
+              "default": "3015",
+              "name": "MCP_HTTP_PORT"
+            },
+            {
+              "description": "The endpoint path for the MCP server.",
+              "format": "string",
+              "default": "/mcp",
+              "name": "MCP_HTTP_ENDPOINT_PATH"
+            },
+            {
+              "description": "Authentication mode to use: 'none', 'jwt', or 'oauth'.",
+              "format": "string",
+              "default": "none",
+              "name": "MCP_AUTH_MODE"
+            },
+            {
+              "description": "Sets the minimum log level for output (e.g., 'debug', 'info', 'warn').",
+              "format": "string",
+              "default": "info",
+              "name": "MCP_LOG_LEVEL"
+            },
+            {
+              "description": "Optional absolute path to restrict all git operations to a specific directory tree. Provides security sandboxing for multi-tenant or shared environments.",
+              "format": "string",
+              "name": "GIT_BASE_DIR"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-15T14:38:56.470854Z",
+        "updatedAt": "2025-10-15T14:38:56.470854Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.cyanheads/git-mcp-server",
+      "description": "Comprehensive Git MCP server enabling native git tools including clone, commit, worktree, & more.",
+      "repository": {
+        "url": "https://github.com/cyanheads/git-mcp-server",
+        "source": "github"
+      },
+      "version": "2.5.3",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@cyanheads/git-mcp-server",
+          "version": "2.5.3",
+          "runtimeHint": "bun",
+          "transport": {
+            "type": "stdio"
+          },
+          "packageArguments": [
+            {
+              "value": "run",
+              "type": "positional"
+            },
+            {
+              "value": "start:stdio",
+              "type": "positional"
+            }
+          ],
+          "environmentVariables": [
+            {
+              "description": "Sets the minimum log level for output (e.g., 'debug', 'info', 'warn').",
+              "format": "string",
+              "default": "info",
+              "name": "MCP_LOG_LEVEL"
+            },
+            {
+              "description": "Optional absolute path to restrict all git operations to a specific directory tree. Provides security sandboxing for multi-tenant or shared environments.",
+              "format": "string",
+              "name": "GIT_BASE_DIR"
+            }
+          ]
+        },
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@cyanheads/git-mcp-server",
+          "version": "2.5.3",
+          "runtimeHint": "bun",
+          "transport": {
+            "type": "streamable-http",
+            "url": "http://localhost:3015/mcp"
+          },
+          "packageArguments": [
+            {
+              "value": "run",
+              "type": "positional"
+            },
+            {
+              "value": "start:http",
+              "type": "positional"
+            }
+          ],
+          "environmentVariables": [
+            {
+              "description": "The hostname for the HTTP server.",
+              "format": "string",
+              "default": "127.0.0.1",
+              "name": "MCP_HTTP_HOST"
+            },
+            {
+              "description": "The port to run the HTTP server on.",
+              "format": "string",
+              "default": "3015",
+              "name": "MCP_HTTP_PORT"
+            },
+            {
+              "description": "The endpoint path for the MCP server.",
+              "format": "string",
+              "default": "/mcp",
+              "name": "MCP_HTTP_ENDPOINT_PATH"
+            },
+            {
+              "description": "Authentication mode to use: 'none', 'jwt', or 'oauth'.",
+              "format": "string",
+              "default": "none",
+              "name": "MCP_AUTH_MODE"
+            },
+            {
+              "description": "Sets the minimum log level for output (e.g., 'debug', 'info', 'warn').",
+              "format": "string",
+              "default": "info",
+              "name": "MCP_LOG_LEVEL"
+            },
+            {
+              "description": "Optional absolute path to restrict all git operations to a specific directory tree. Provides security sandboxing for multi-tenant or shared environments.",
+              "format": "string",
+              "name": "GIT_BASE_DIR"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-15T14:58:06.489856Z",
+        "updatedAt": "2025-10-15T14:58:06.489856Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "goog.workspace-developer/developer-tools",
+      "description": "Provides tools for searching Google Workspace documentation and much more.",
+      "repository": {
+        "url": "",
+        "source": ""
+      },
+      "version": "1.0.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://workspace-developer.goog/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-15T15:22:33.648019Z",
+        "updatedAt": "2025-10-15T15:22:33.648019Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "com.wallet-connectors/wallet-verifier-mcp",
+      "description": "MCP server for verifying EUDI/Talao wallet data via OIDC4VP (pull) for AI agents.",
+      "repository": {
+        "url": "https://github.com/TalaoDAO/connectors",
+        "source": "github"
+      },
+      "version": "1.0.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://wallet-connectors.com/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-15T15:50:52.564942Z",
+        "updatedAt": "2025-10-15T15:50:52.564942Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "com.keboola/mcp",
+      "description": "Connect your AI assistants to Keboola and expose your data, transformations, SQL queries, ...",
+      "repository": {
+        "url": "https://github.com/keboola/mcp-server",
+        "source": "github"
+      },
+      "version": "1.26.1",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "keboola-mcp-server",
+          "version": "1.26.1",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.us-east4.gcp.keboola.com/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-15T16:28:18.549114Z",
+        "updatedAt": "2025-10-15T16:28:18.549114Z",
         "isLatest": true
       }
     }
