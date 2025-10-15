@@ -46444,7 +46444,7 @@
         "status": "active",
         "publishedAt": "2025-10-10T22:04:11.143667Z",
         "updatedAt": "2025-10-10T22:04:11.143667Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -49946,6 +49946,263 @@
         "status": "active",
         "publishedAt": "2025-10-14T22:06:19.959528Z",
         "updatedAt": "2025-10-14T22:06:19.959528Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.nathishdev-netizen/dida-mcp-server",
+      "description": "Hotel search, booking, and review MCP server with 12+ detailed fields per hotel",
+      "repository": {
+        "url": "https://github.com/nathishdev-netizen/dida-mcp-server",
+        "source": "github"
+      },
+      "version": "1.0.0"
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-15T05:16:39.654307Z",
+        "updatedAt": "2025-10-15T05:16:39.654307Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.nathishdev-netizen/dida-mcp-server",
+      "description": "Hotel search, booking, and review MCP server with 12+ detailed fields per hotel",
+      "repository": {
+        "url": "https://github.com/nathishdev-netizen/dida-mcp-server",
+        "source": "github"
+      },
+      "version": "1.0.1",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "dida-mcp-server",
+          "version": "1.0.1",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-15T05:53:42.277036Z",
+        "updatedAt": "2025-10-15T05:53:42.277036Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "com.iunera/druid-mcp-server",
+      "description": "AI-powered MCP server for Apache Druid cluster management and analytic",
+      "repository": {
+        "url": "https://github.com/iunera/druid-mcp-server",
+        "source": "github"
+      },
+      "version": "1.5.1",
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "docker.io/iunera/druid-mcp-server:1.5.1",
+          "runtimeHint": "docker",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Druid router URL for connecting to the Druid cluster",
+              "format": "string",
+              "name": "DRUID_ROUTER_URL"
+            },
+            {
+              "description": "Druid coordinator URL for querying metadata endpoints (optional)",
+              "format": "string",
+              "name": "DRUID_COORDINATOR_URL"
+            },
+            {
+              "description": "Username for Druid authentication (optional)",
+              "format": "string",
+              "name": "DRUID_AUTH_USERNAME"
+            },
+            {
+              "description": "Password for Druid authentication (optional)",
+              "format": "string",
+              "name": "DRUID_AUTH_PASSWORD"
+            },
+            {
+              "description": "Enable SSL/TLS support for Druid connections",
+              "format": "boolean",
+              "name": "DRUID_SSL_ENABLED"
+            },
+            {
+              "description": "Skip SSL certificate verification (for development/testing only)",
+              "format": "boolean",
+              "name": "DRUID_SSL_SKIP_VERIFICATION"
+            },
+            {
+              "description": "Enable read-only mode (only GET requests and SQL queries allowed)",
+              "format": "boolean",
+              "name": "DRUID_MCP_READONLY_ENABLED"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-15T07:44:42.399935Z",
+        "updatedAt": "2025-10-15T07:44:42.399935Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "com.unifiedoffer/mcp-server",
+      "description": "AI-powered product search, affiliate links, and price negotiation for e-commerce platforms",
+      "title": "Unified Offer Protocol MCP Server",
+      "repository": {
+        "url": "https://github.com/Chris85appding/unified-offer-protocol-front",
+        "source": "github"
+      },
+      "version": "2.0.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://api.unifiedoffer.com/functions/v1/mcp-http-wrapper",
+          "headers": [
+            {
+              "description": "API key for authentication. Get your free API key at https://unifiedoffer.com",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "x-api-key"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-15T08:03:06.202667Z",
+        "updatedAt": "2025-10-15T08:03:06.202667Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "com.unifiedoffer/mcp-server",
+      "description": "AI-powered product search, affiliate links, and price negotiation for e-commerce platforms",
+      "title": "Unified Offer Protocol MCP Server",
+      "repository": {
+        "url": "https://github.com/Chris85appding/unified-offer-protocol-front",
+        "source": "github"
+      },
+      "version": "2.0.1",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@unifiedoffer/mcp-server",
+          "version": "2.0.1",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://api.unifiedoffer.com/functions/v1/mcp-http-wrapper",
+          "headers": [
+            {
+              "description": "API key for authentication. Get your free API key at https://unifiedoffer.com",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "x-api-key"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-15T08:18:02.470698Z",
+        "updatedAt": "2025-10-15T08:18:02.470698Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "com.unifiedoffer/mcp-server",
+      "description": "AI-powered product search, affiliate links, and price negotiation for e-commerce platforms",
+      "title": "Unified Offer Protocol MCP Server",
+      "repository": {
+        "url": "https://github.com/Chris85appding/unified-offer-protocol-front",
+        "source": "github"
+      },
+      "version": "2.0.2",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@unifiedoffer/mcp-server",
+          "version": "2.0.1",
+          "transport": {
+            "type": "stdio"
+          }
+        },
+        {
+          "registryType": "pypi",
+          "identifier": "uop-mcp-server",
+          "version": "2.0.1",
+          "transport": {
+            "type": "stdio"
+          }
+        },
+        {
+          "registryType": "oci",
+          "identifier": "docker.io/chrisappding/mcp-server:2.0.0",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://api.unifiedoffer.com/functions/v1/mcp-http-wrapper",
+          "headers": [
+            {
+              "description": "API key for authentication. Get your free API key at https://unifiedoffer.com",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "x-api-key"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-15T08:37:56.540755Z",
+        "updatedAt": "2025-10-15T08:37:56.540755Z",
         "isLatest": true
       }
     }
