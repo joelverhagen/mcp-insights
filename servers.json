@@ -51938,5 +51938,67 @@
         "isLatest": true
       }
     }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.Wolfe-Jam/claude-faf-mcp",
+      "description": "33+ MCP tools for .faf Project DNA. AI-ready context for Claude Desktop, VS Code, and any MCP host.",
+      "title": ".faf = Project DNA ✨ for AI-Context, On-Demand",
+      "repository": {
+        "url": "https://github.com/Wolfe-Jam/claude-faf-mcp",
+        "source": "github"
+      },
+      "version": "2.6.1",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "claude-faf-mcp",
+          "version": "2.6.1",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-16T07:25:20.554474Z",
+        "updatedAt": "2025-10-16T07:25:20.554474Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.nigue3025/tw-cwa-weather-mcp",
+      "description": "Access Taiwan CWA weather data and forecasts for all counties and cities",
+      "title": "Taiwan CWA Weather",
+      "repository": {
+        "url": "",
+        "source": ""
+      },
+      "version": "1.0.0",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "tw-cwa-weather-mcp",
+          "version": "1.0.0",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-16T08:00:51.977764Z",
+        "updatedAt": "2025-10-16T08:00:51.977764Z",
+        "isLatest": true
+      }
+    }
   }
 ]
