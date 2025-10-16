@@ -51743,5 +51743,200 @@
         "isLatest": true
       }
     }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.Defozo/ddc-ci-control-bridge",
+      "description": "Control monitor brightness, contrast, power and input via DDC/CI with MCP and MQTT support.",
+      "title": "DDC/CI Control Bridge",
+      "repository": {
+        "url": "https://github.com/Defozo/ddc-ci-control-bridge",
+        "source": "github"
+      },
+      "version": "1.0.2",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "ddc-ci-control-bridge",
+          "version": "1.0.2",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-15T22:56:48.276964Z",
+        "updatedAt": "2025-10-15T22:56:48.276964Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.Defozo/ddc-ci-control-bridge",
+      "description": "Control monitor brightness, contrast, power and input via DDC/CI with MCP and MQTT support.",
+      "title": "DDC/CI Control Bridge",
+      "repository": {
+        "url": "https://github.com/Defozo/ddc-ci-control-bridge",
+        "source": "github"
+      },
+      "version": "1.0.3",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "ddc-ci-control-bridge",
+          "version": "1.0.3",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-15T23:01:42.464137Z",
+        "updatedAt": "2025-10-15T23:01:42.464137Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.Defozo/ddc-ci-control-bridge",
+      "description": "Control monitor brightness, contrast, power and input via DDC/CI with MCP and MQTT support.",
+      "title": "DDC/CI Control Bridge",
+      "repository": {
+        "url": "https://github.com/Defozo/ddc-ci-control-bridge",
+        "source": "github"
+      },
+      "version": "1.0.4",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "ddc-ci-control-bridge",
+          "version": "1.0.4",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-15T23:11:19.127515Z",
+        "updatedAt": "2025-10-15T23:11:19.127515Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.IvanRublev/keyphrases-mcp",
+      "description": "An MCP server to extract keyphrases from a text with the BERT model",
+      "repository": {
+        "url": "https://github.com/IvanRublev/keyphrases-mcp",
+        "source": "github"
+      },
+      "version": "0.0.4",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "keyphrases-mcp",
+          "version": "0.0.4",
+          "runtimeHint": "uvx",
+          "transport": {
+            "type": "stdio"
+          },
+          "runtimeArguments": [
+            {
+              "value": "keyphrases-mcp-server",
+              "type": "positional"
+            },
+            {
+              "description": "Directory containing documents to process",
+              "isRequired": true,
+              "format": "filepath",
+              "type": "named",
+              "name": "--allowed-dir",
+              "valueHint": "documents_directory"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-15T23:19:27.424097Z",
+        "updatedAt": "2025-10-15T23:19:27.424097Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.Defozo/ddc-ci-control-bridge",
+      "description": "Control monitor brightness, contrast, power and input via DDC/CI with MCP and MQTT support.",
+      "title": "DDC/CI Control Bridge",
+      "repository": {
+        "url": "https://github.com/Defozo/ddc-ci-control-bridge",
+        "source": "github"
+      },
+      "version": "1.0.5",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "ddc-ci-control-bridge",
+          "version": "1.0.5",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-15T23:23:22.77478Z",
+        "updatedAt": "2025-10-15T23:23:22.77478Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "dev.continue/docs",
+      "description": "An MCP server for docs.continue.dev",
+      "repository": {
+        "url": "",
+        "source": ""
+      },
+      "version": "1.0.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://docs.continue.dev/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-15T23:26:13.710356Z",
+        "updatedAt": "2025-10-15T23:26:13.710356Z",
+        "isLatest": true
+      }
+    }
   }
 ]
