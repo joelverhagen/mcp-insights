@@ -19769,7 +19769,7 @@
         "status": "active",
         "publishedAt": "2025-09-19T20:14:16.852443Z",
         "updatedAt": "2025-09-19T20:14:16.852443Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -44456,7 +44456,7 @@
         "status": "active",
         "publishedAt": "2025-10-09T01:27:54.786945Z",
         "updatedAt": "2025-10-09T01:27:54.786945Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -52414,6 +52414,144 @@
         "status": "active",
         "publishedAt": "2025-10-16T14:30:43.443853Z",
         "updatedAt": "2025-10-16T14:30:43.443853Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.colabfit/colabfit-mcp",
+      "description": "An MCP server that provides access to the ColabFit database",
+      "repository": {
+        "url": "https://github.com/colabfit/colabfit-mcp",
+        "source": "github"
+      },
+      "version": "1.0.0",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "colabfit-mcp",
+          "version": "0.0.3",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-16T16:55:46.847116Z",
+        "updatedAt": "2025-10-16T16:55:46.847116Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.SonarSource/sonarqube-mcp-server",
+      "description": "An MCP server that enables integration with SonarQube Server or Cloud for code quality and security.",
+      "repository": {
+        "url": "https://github.com/SonarSource/sonarqube-mcp-server",
+        "source": "github"
+      },
+      "version": "1.0.1",
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "docker.io/mcp/sonarqube:latest",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your SonarQube Server USER token",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "SONARQUBE_TOKEN"
+            },
+            {
+              "description": "Your SonarQube Cloud organization key (if using SonarQube Cloud)",
+              "format": "string",
+              "isSecret": true,
+              "name": "SONARQUBE_ORG"
+            },
+            {
+              "description": "Your SonarQube Server URL (if using SonarQube Server)",
+              "format": "string",
+              "isSecret": true,
+              "name": "SONARQUBE_URL"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-16T17:12:11.698378Z",
+        "updatedAt": "2025-10-16T17:12:11.698378Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "com.figma.mcp/mcp",
+      "description": "The Figma MCP server brings Figma design context directly into your AI workflow.",
+      "title": "Figma MCP Server",
+      "repository": {
+        "url": "https://github.com/figma/mcp-server-guide",
+        "source": "github"
+      },
+      "version": "1.0.3",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.figma.com/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-16T17:40:56.949472Z",
+        "updatedAt": "2025-10-16T17:40:56.949472Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "com.amplitude/mcp-server",
+      "description": "Search, access, and get insights on your Amplitude data",
+      "title": "Amplitude",
+      "repository": {
+        "url": "",
+        "source": ""
+      },
+      "version": "1.0.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.amplitude.com/mcp"
+        },
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.eu.amplitude.com/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-16T20:22:46.742037Z",
+        "updatedAt": "2025-10-16T20:22:46.742037Z",
         "isLatest": true
       }
     }
