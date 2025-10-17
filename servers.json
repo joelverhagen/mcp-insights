@@ -44430,7 +44430,7 @@
         "status": "active",
         "publishedAt": "2025-10-09T00:07:38.154091Z",
         "updatedAt": "2025-10-09T00:07:38.154091Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -47677,7 +47677,7 @@
         "status": "active",
         "publishedAt": "2025-10-12T17:17:57.07011Z",
         "updatedAt": "2025-10-12T17:17:57.07011Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -53019,6 +53019,209 @@
         "status": "active",
         "publishedAt": "2025-10-17T09:13:46.270929Z",
         "updatedAt": "2025-10-17T09:13:46.270929Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.brave/brave-search-mcp-server",
+      "description": "Brave Search MCP Server: web results, images, videos, rich results, AI summaries, and more.",
+      "repository": {
+        "url": "https://github.com/brave/brave-search-mcp-server",
+        "source": "github"
+      },
+      "version": "2.0.57",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@brave/brave-search-mcp-server",
+          "version": "2.0.57",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your API key for the service",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "BRAVE_API_KEY"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-17T14:21:42.93601Z",
+        "updatedAt": "2025-10-17T14:21:42.93601Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.nickzitzer/servicenow-nodejs",
+      "description": "Multi-instance ServiceNow MCP server with 40+ tools and intelligent schema discovery",
+      "repository": {
+        "url": "https://github.com/Happy-Technologies-LLC/mcp-servicenow-nodejs",
+        "source": "github"
+      },
+      "version": "2.1.1",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "servicenow-mcp-server",
+          "version": "2.1.1",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "ServiceNow instance URL (e.g., https://dev123456.service-now.com)",
+              "isRequired": true,
+              "format": "string",
+              "name": "SERVICENOW_INSTANCE_URL"
+            },
+            {
+              "description": "ServiceNow username",
+              "isRequired": true,
+              "format": "string",
+              "name": "SERVICENOW_USERNAME"
+            },
+            {
+              "description": "ServiceNow password",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "SERVICENOW_PASSWORD"
+            },
+            {
+              "description": "Authentication type (default: basic)",
+              "format": "string",
+              "name": "SERVICENOW_AUTH_TYPE"
+            },
+            {
+              "description": "Specific instance name from config file (optional)",
+              "format": "string",
+              "name": "SERVICENOW_INSTANCE"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-17T15:13:28.900783Z",
+        "updatedAt": "2025-10-17T15:13:28.900783Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.xorrkaz/cml-mcp",
+      "description": "An MCP server that provides access to common Cisco Modeling Labs (CML) operations.",
+      "title": "Cisco Modeling Labs (CML)",
+      "repository": {
+        "url": "https://github.com/xorrkaz/cml-mcp",
+        "source": "github"
+      },
+      "version": "0.11.3",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "registryBaseUrl": "https://pypi.org",
+          "identifier": "cml-mcp",
+          "version": "0.11.3",
+          "runtimeHint": "uvx",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "URL for the CML Server",
+              "isRequired": true,
+              "format": "string",
+              "name": "CML_URL"
+            },
+            {
+              "description": "Username for CML authentication",
+              "isRequired": true,
+              "format": "string",
+              "name": "CML_USERNAME"
+            },
+            {
+              "description": "Password for CML authentication",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "CML_PASSWORD"
+            },
+            {
+              "description": "Username for authentication to devices running in CML",
+              "format": "string",
+              "name": "PYATS_USERNAME"
+            },
+            {
+              "description": "Password for authentication to devices running in CML",
+              "format": "string",
+              "isSecret": true,
+              "name": "PYATS_PASSWORD"
+            },
+            {
+              "description": "Enable password for authentication to devices running in CML",
+              "format": "string",
+              "isSecret": true,
+              "name": "PYATS_AUTH_PASS"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-17T15:36:22.78283Z",
+        "updatedAt": "2025-10-17T15:36:22.78283Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.PrefectHQ/prefect-mcp-server",
+      "description": "MCP server for Prefect. Monitor and debug workflows, deployments, and automations.",
+      "title": "Prefect MCP Server",
+      "repository": {
+        "url": "",
+        "source": ""
+      },
+      "version": "0.0.1-beta.7",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "prefect-mcp",
+          "version": "0.0.1-beta.7",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-17T16:14:41.034179Z",
+        "updatedAt": "2025-10-17T16:14:41.034179Z",
         "isLatest": true
       }
     }
