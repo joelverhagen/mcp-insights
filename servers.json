@@ -10475,15 +10475,15 @@
               "description": "Directory allowed for host filesystem operations",
               "type": "named",
               "name": "--allowed-dir",
-              "isRepeated": true,
-              "valueHint": "directory_path"
+              "valueHint": "directory_path",
+              "isRepeated": true
             },
             {
               "description": "Domain, IP address, or CIDR range allowed for outbound network access",
               "type": "named",
               "name": "--allowed-domain",
-              "isRepeated": true,
-              "valueHint": "domain_or_ip"
+              "valueHint": "domain_or_ip",
+              "isRepeated": true
             },
             {
               "description": "Docker image tag to use",
@@ -10495,8 +10495,8 @@
               "description": "Environment variable for container (KEY=VALUE format)",
               "type": "named",
               "name": "--container-env-var",
-              "isRepeated": true,
-              "valueHint": "env_var"
+              "valueHint": "env_var",
+              "isRepeated": true
             },
             {
               "description": "Path to file containing container environment variables",
@@ -10508,8 +10508,8 @@
               "description": "Bind mount for container (host_path:container_path format)",
               "type": "named",
               "name": "--container-bind",
-              "isRepeated": true,
-              "valueHint": "bind_mount"
+              "valueHint": "bind_mount",
+              "isRepeated": true
             }
           ]
         }
@@ -10555,15 +10555,15 @@
               "description": "Directory allowed for host filesystem operations",
               "type": "named",
               "name": "--allowed-dir",
-              "isRepeated": true,
-              "valueHint": "directory_path"
+              "valueHint": "directory_path",
+              "isRepeated": true
             },
             {
               "description": "Domain, IP address, or CIDR range allowed for outbound network access",
               "type": "named",
               "name": "--allowed-domain",
-              "isRepeated": true,
-              "valueHint": "domain_or_ip"
+              "valueHint": "domain_or_ip",
+              "isRepeated": true
             },
             {
               "description": "Docker image tag to use",
@@ -10575,8 +10575,8 @@
               "description": "Environment variable for container (KEY=VALUE format)",
               "type": "named",
               "name": "--container-env-var",
-              "isRepeated": true,
-              "valueHint": "env_var"
+              "valueHint": "env_var",
+              "isRepeated": true
             },
             {
               "description": "Path to file containing container environment variables",
@@ -10588,8 +10588,8 @@
               "description": "Bind mount for container (host_path:container_path format)",
               "type": "named",
               "name": "--container-bind",
-              "isRepeated": true,
-              "valueHint": "bind_mount"
+              "valueHint": "bind_mount",
+              "isRepeated": true
             }
           ]
         }
@@ -10635,15 +10635,15 @@
               "description": "Directory allowed for host filesystem operations",
               "type": "named",
               "name": "--allowed-dir",
-              "isRepeated": true,
-              "valueHint": "directory_path"
+              "valueHint": "directory_path",
+              "isRepeated": true
             },
             {
               "description": "Domain, IP address, or CIDR range allowed for outbound network access",
               "type": "named",
               "name": "--allowed-domain",
-              "isRepeated": true,
-              "valueHint": "domain_or_ip"
+              "valueHint": "domain_or_ip",
+              "isRepeated": true
             },
             {
               "description": "Docker image tag to use",
@@ -10655,8 +10655,8 @@
               "description": "Environment variable for container (KEY=VALUE format)",
               "type": "named",
               "name": "--container-env-var",
-              "isRepeated": true,
-              "valueHint": "env_var"
+              "valueHint": "env_var",
+              "isRepeated": true
             },
             {
               "description": "Path to file containing container environment variables",
@@ -10668,8 +10668,8 @@
               "description": "Bind mount for container (host_path:container_path format)",
               "type": "named",
               "name": "--container-bind",
-              "isRepeated": true,
-              "valueHint": "bind_mount"
+              "valueHint": "bind_mount",
+              "isRepeated": true
             }
           ]
         }
@@ -10786,15 +10786,15 @@
               "description": "Directory allowed for host filesystem operations",
               "type": "named",
               "name": "--allowed-dir",
-              "isRepeated": true,
-              "valueHint": "directory_path"
+              "valueHint": "directory_path",
+              "isRepeated": true
             },
             {
               "description": "Domain, IP address, or CIDR range allowed for outbound network access",
               "type": "named",
               "name": "--allowed-domain",
-              "isRepeated": true,
-              "valueHint": "domain_or_ip"
+              "valueHint": "domain_or_ip",
+              "isRepeated": true
             },
             {
               "description": "Docker image tag to use",
@@ -10806,8 +10806,8 @@
               "description": "Environment variable for container (KEY=VALUE format)",
               "type": "named",
               "name": "--container-env-var",
-              "isRepeated": true,
-              "valueHint": "env_var"
+              "valueHint": "env_var",
+              "isRepeated": true
             },
             {
               "description": "Path to file containing container environment variables",
@@ -10819,8 +10819,8 @@
               "description": "Bind mount for container (host_path:container_path format)",
               "type": "named",
               "name": "--container-bind",
-              "isRepeated": true,
-              "valueHint": "bind_mount"
+              "valueHint": "bind_mount",
+              "isRepeated": true
             }
           ]
         }
@@ -10866,15 +10866,15 @@
               "description": "Directory allowed for host filesystem operations",
               "type": "named",
               "name": "--allowed-dir",
-              "isRepeated": true,
-              "valueHint": "directory_path"
+              "valueHint": "directory_path",
+              "isRepeated": true
             },
             {
               "description": "Domain, IP address, or CIDR range allowed for outbound network access",
               "type": "named",
               "name": "--allowed-domain",
-              "isRepeated": true,
-              "valueHint": "domain_or_ip"
+              "valueHint": "domain_or_ip",
+              "isRepeated": true
             },
             {
               "description": "Docker image tag to use",
@@ -10886,8 +10886,8 @@
               "description": "Environment variable for container (KEY=VALUE format)",
               "type": "named",
               "name": "--container-env-var",
-              "isRepeated": true,
-              "valueHint": "env_var"
+              "valueHint": "env_var",
+              "isRepeated": true
             },
             {
               "description": "Path to file containing container environment variables",
@@ -10899,8 +10899,8 @@
               "description": "Bind mount for container (host_path:container_path format)",
               "type": "named",
               "name": "--container-bind",
-              "isRepeated": true,
-              "valueHint": "bind_mount"
+              "valueHint": "bind_mount",
+              "isRepeated": true
             }
           ]
         }
@@ -13421,7 +13421,7 @@
         "status": "active",
         "publishedAt": "2025-09-16T17:17:18.587292Z",
         "updatedAt": "2025-09-16T17:17:18.587292Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -44037,7 +44037,7 @@
         "status": "active",
         "publishedAt": "2025-10-08T11:30:00.595881Z",
         "updatedAt": "2025-10-08T11:30:00.595881Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -52552,6 +52552,237 @@
         "status": "active",
         "publishedAt": "2025-10-16T20:22:46.742037Z",
         "updatedAt": "2025-10-16T20:22:46.742037Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "io.github.Abraxas1010/agent-payment-mcp",
+      "description": "Secure USDC payments for AI agents on Base blockchain with budget controls and instant settlement.",
+      "repository": {
+        "url": "https://github.com/Abraxas1010/agent-payment-mcp",
+        "source": "github"
+      },
+      "version": "1.0.1",
+      "packages": [
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/Apoth3osis-ai/agent-payment-mcp/releases/download/v1.0.1/agent-payment-server",
+          "fileSha256": "53c727257cb433b4d369306a0b46221f15a1c8a6d14eb0c83fea8f4ace4d4ee1",
+          "runtimeHint": "binary",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your AgentPMT API key for authentication",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "AGENT_PAYMENT_API_KEY"
+            },
+            {
+              "description": "Your AgentPMT budget key for spending control",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "AGENT_PAYMENT_BUDGET_KEY"
+            }
+          ]
+        },
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/Apoth3osis-ai/agent-payment-mcp/releases/download/v1.0.1/agent-payment-server-darwin-amd64",
+          "fileSha256": "c151af56e81e1d9081feaa917c14eadae44780fa51b72e83431bb1b894bbc83e",
+          "runtimeHint": "binary",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your AgentPMT API key for authentication",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "AGENT_PAYMENT_API_KEY"
+            },
+            {
+              "description": "Your AgentPMT budget key for spending control",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "AGENT_PAYMENT_BUDGET_KEY"
+            }
+          ]
+        },
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/Apoth3osis-ai/agent-payment-mcp/releases/download/v1.0.1/agent-payment-server-darwin-arm64",
+          "fileSha256": "ad5630f47e409b6cc18bf330896947b90ebe6a61c688587e00f196d4ccec47cd",
+          "runtimeHint": "binary",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your AgentPMT API key for authentication",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "AGENT_PAYMENT_API_KEY"
+            },
+            {
+              "description": "Your AgentPMT budget key for spending control",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "AGENT_PAYMENT_BUDGET_KEY"
+            }
+          ]
+        },
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/Apoth3osis-ai/agent-payment-mcp/releases/download/v1.0.1/agent-payment-server-windows-amd64.exe",
+          "fileSha256": "bf8220131e001d06789561e064400e9dc5ea674e3a5bb17c9ed1e1b238a36f06",
+          "runtimeHint": "binary",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your AgentPMT API key for authentication",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "AGENT_PAYMENT_API_KEY"
+            },
+            {
+              "description": "Your AgentPMT budget key for spending control",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "AGENT_PAYMENT_BUDGET_KEY"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-16T21:14:59.912521Z",
+        "updatedAt": "2025-10-16T21:14:59.912521Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "name": "ai.smithery/browserbasehq-mcp-browserbase",
+      "description": "Provides cloud browser automation capabilities using Stagehand and Browserbase, enabling LLMs to i…",
+      "repository": {
+        "url": "https://github.com/browserbase/mcp-server-browserbase",
+        "source": "github"
+      },
+      "version": "2.2.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://server.smithery.ai/@browserbasehq/mcp-browserbase/mcp",
+          "headers": [
+            {
+              "description": "Bearer token for Smithery authentication",
+              "isRequired": true,
+              "value": "Bearer {smithery_api_key}",
+              "isSecret": true,
+              "name": "Authorization"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-16T21:51:16.500712Z",
+        "updatedAt": "2025-10-16T21:51:16.500712Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.teamwork/mcp",
+      "description": "The Teamwork.com official MCP server helps teams efficiently manage client projects with AI.",
+      "repository": {
+        "url": "https://github.com/teamwork/mcp",
+        "source": "github"
+      },
+      "version": "1.6.6",
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "docker.io/teamwork/mcp:v1.6.6",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "API key generated from the Teamwork.com OAuth2 process: https://apidocs.teamwork.com/guides/teamwork/app-login-flow",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "TW_MCP_BEARER_TOKEN"
+            },
+            {
+              "description": "Choose log output format between 'text' or 'json'. Default is 'text'.",
+              "format": "string",
+              "name": "TW_MCP_LOG_FORMAT"
+            },
+            {
+              "description": "Choose log level between 'debug', 'info', 'warn' or 'error'. Default is 'info'.",
+              "format": "string",
+              "name": "TW_MCP_LOG_LEVEL"
+            }
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "sse",
+          "url": "https://mcp.ai.teamwork.com",
+          "headers": [
+            {
+              "description": "API key generated from the Teamwork.com OAuth2 process: https://apidocs.teamwork.com/guides/teamwork/app-login-flow",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "Authorization"
+            }
+          ]
+        },
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.ai.teamwork.com",
+          "headers": [
+            {
+              "description": "API key generated from the Teamwork.com OAuth2 process: https://apidocs.teamwork.com/guides/teamwork/app-login-flow",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "Authorization"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-16T23:39:58.493936Z",
+        "updatedAt": "2025-10-16T23:39:58.493936Z",
         "isLatest": true
       }
     }
