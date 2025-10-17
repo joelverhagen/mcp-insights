@@ -53225,5 +53225,84 @@
         "isLatest": true
       }
     }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "finance.double.agent4/knowledge-base",
+      "description": "AI-powered knowledge base for Double - Thank You with semantic search and question answering.",
+      "repository": {
+        "url": "",
+        "source": ""
+      },
+      "version": "1.0.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://agent4.double.finance/mcp/message"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-17T17:23:13.832858Z",
+        "updatedAt": "2025-10-17T17:23:13.832858Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "finance.double.agent4/knowledge-base",
+      "description": "AI-powered knowledge base for Double - Thank You with semantic search and question answering.",
+      "repository": {
+        "url": "",
+        "source": ""
+      },
+      "version": "1.0.1",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://agent4.double.finance/mcp/message"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-17T17:31:54.847262Z",
+        "updatedAt": "2025-10-17T17:31:54.847262Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.sonatype/dependency-management-mcp-server",
+      "description": "Sonatype component intelligence: versions, security analysis, and Trust Score recommendations",
+      "repository": {
+        "url": "",
+        "source": ""
+      },
+      "version": "1.0.1",
+      "websiteUrl": "https://www.sonatype.com",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.seaworthy.sonatype.com/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-17T18:06:34.430251Z",
+        "updatedAt": "2025-10-17T18:06:34.430251Z",
+        "isLatest": true
+      }
+    }
   }
 ]
