@@ -52905,7 +52905,7 @@
         "status": "active",
         "publishedAt": "2025-10-17T02:44:03.454919Z",
         "updatedAt": "2025-10-17T02:44:03.454919Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -53510,7 +53510,7 @@
         "status": "active",
         "publishedAt": "2025-10-19T07:31:09.443164Z",
         "updatedAt": "2025-10-19T07:31:09.443164Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -54462,6 +54462,280 @@
         "status": "active",
         "publishedAt": "2025-10-20T12:15:45.615833Z",
         "updatedAt": "2025-10-20T12:15:45.615833Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.rnaga/wp-mcp",
+      "description": "MCP server for WordPress. Manage posts, users, comments, terms, metadata, and settings.",
+      "title": "WordPress MCP Server",
+      "repository": {
+        "url": "",
+        "source": ""
+      },
+      "version": "1.0.3",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@rnaga/wp-mcp",
+          "version": "1.0.3",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "WordPress username to assume for capability checks",
+              "isRequired": true,
+              "name": "LOCAL_USERNAME"
+            },
+            {
+              "description": "WordPress database host",
+              "isRequired": true,
+              "name": "WP_DB_HOST"
+            },
+            {
+              "description": "WordPress database port",
+              "default": "3306",
+              "name": "WP_DB_PORT"
+            },
+            {
+              "description": "WordPress database name",
+              "isRequired": true,
+              "name": "WP_DB_NAME"
+            },
+            {
+              "description": "WordPress database user",
+              "isRequired": true,
+              "name": "WP_DB_USER"
+            },
+            {
+              "description": "WordPress database password",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "WP_DB_PASSWORD"
+            },
+            {
+              "description": "Enable WordPress multisite mode",
+              "default": "false",
+              "name": "LOCAL_MULTISITE"
+            },
+            {
+              "description": "Default blog ID for multisite",
+              "default": "1",
+              "name": "LOCAL_DEFAULT_BLOG_ID"
+            },
+            {
+              "description": "Default site ID for multisite",
+              "default": "1",
+              "name": "LOCAL_DEFAULT_SITE_ID"
+            },
+            {
+              "description": "Enable SSL for database connection",
+              "default": "false",
+              "name": "LOCAL_SSL_ENABLED"
+            },
+            {
+              "description": "Path to SSL CA certificate file",
+              "name": "LOCAL_SSL_CA_FILEPATH"
+            },
+            {
+              "description": "Path to SSL certificate file",
+              "name": "LOCAL_SSL_CERT_FILEPATH"
+            },
+            {
+              "description": "Path to SSL key file",
+              "name": "LOCAL_SSL_KEY_FILEPATH"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-20T14:20:04.243053Z",
+        "updatedAt": "2025-10-20T14:20:04.243053Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.Apoth3osis-ai/agent-payment-mcp",
+      "description": "Secure MCP router providing access to AgentPMT's pay-per-use AI tools marketplace.",
+      "repository": {
+        "url": "https://github.com/Apoth3osis-ai/agent-payment-mcp",
+        "source": "github"
+      },
+      "version": "1.0.8",
+      "packages": [
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/Apoth3osis-ai/agent-payment-mcp/releases/download/v1.0.8/agent-payment-router-linux-amd64",
+          "fileSha256": "1d23c4d6dd4ff951d5364514e4ebf25e23a5e18ac1aa3bf8c3c025c111c19bf0",
+          "runtimeHint": "binary",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your AgentPMT API key for authentication",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "x-api-key"
+            },
+            {
+              "description": "Your AgentPMT budget key for spending control",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "x-budget-key"
+            }
+          ]
+        },
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/Apoth3osis-ai/agent-payment-mcp/releases/download/v1.0.8/agent-payment-router-darwin-amd64",
+          "fileSha256": "33777d5ea962ea316baa4ee498894a562240cd668ebe870fa707930a798dc7ab",
+          "runtimeHint": "binary",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your AgentPMT API key for authentication",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "x-api-key"
+            },
+            {
+              "description": "Your AgentPMT budget key for spending control",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "x-budget-key"
+            }
+          ]
+        },
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/Apoth3osis-ai/agent-payment-mcp/releases/download/v1.0.8/agent-payment-router-darwin-arm64",
+          "fileSha256": "6808e19c1692da56c5d5319e2bc123d240ebaa0957284c61e483607b511e58f4",
+          "runtimeHint": "binary",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your AgentPMT API key for authentication",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "x-api-key"
+            },
+            {
+              "description": "Your AgentPMT budget key for spending control",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "x-budget-key"
+            }
+          ]
+        },
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/Apoth3osis-ai/agent-payment-mcp/releases/download/v1.0.8/agent-payment-router-windows-amd64.exe",
+          "fileSha256": "1c9b01fabb24bfd13f54acdc50fa4cc3e9dc205cf7ecd24c3fe36b672f56c67a",
+          "runtimeHint": "binary",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your AgentPMT API key for authentication",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "x-api-key"
+            },
+            {
+              "description": "Your AgentPMT budget key for spending control",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "x-budget-key"
+            }
+          ]
+        },
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/Apoth3osis-ai/agent-payment-mcp/releases/download/v1.0.8/agent-payment-router-linux-arm64",
+          "fileSha256": "ce12ec01f61516b75b6504f06a9c0a52fa32a9cb0927fae47992019b403e5034",
+          "runtimeHint": "binary",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your AgentPMT API key for authentication",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "x-api-key"
+            },
+            {
+              "description": "Your AgentPMT budget key for spending control",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "x-budget-key"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-20T14:23:33.491554Z",
+        "updatedAt": "2025-10-20T14:23:33.491554Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.xplusplusai/fo-semantic-mcp",
+      "description": "Semantic search over 50,000+ Dynamics 365 F&O artifacts: tables, forms, classes, and more.",
+      "title": "FO Semantic MCP",
+      "repository": {
+        "url": "",
+        "source": ""
+      },
+      "version": "2.0.3",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "fo-semantic-mcp",
+          "version": "2.0.3",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-20T15:12:53.217728Z",
+        "updatedAt": "2025-10-20T15:12:53.217728Z",
         "isLatest": true
       }
     }
