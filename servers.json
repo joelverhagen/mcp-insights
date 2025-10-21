@@ -53625,7 +53625,7 @@
         "status": "active",
         "publishedAt": "2025-10-19T10:17:44.60724Z",
         "updatedAt": "2025-10-19T10:17:44.60724Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -55372,6 +55372,208 @@
         "status": "active",
         "publishedAt": "2025-10-21T12:42:58.519645Z",
         "updatedAt": "2025-10-21T12:42:58.519645Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.configcat/mcp-server",
+      "description": "Enables AI agents to interact with ConfigCat, a feature flag service for teams.",
+      "repository": {
+        "url": "https://github.com/configcat/mcp-server",
+        "source": "github"
+      },
+      "version": "0.1.3",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@configcat/mcp-server",
+          "version": "0.1.3",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "ConfigCat Management API basic authentication username.",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "CONFIGCAT_API_USER"
+            },
+            {
+              "description": "ConfigCat Management API basic authentication password.",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "CONFIGCAT_API_PASS"
+            },
+            {
+              "description": "Base URL for the ConfigCat API. Defaults to `https://api.configcat.com`.",
+              "format": "string",
+              "name": "CONFIGCAT_BASE_URL"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-21T13:01:53.585129Z",
+        "updatedAt": "2025-10-21T13:01:53.585129Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.eat-pray-ai/yutu",
+      "description": "A fully functional MCP server and CLI for YouTube",
+      "title": "yutu",
+      "repository": {
+        "url": "https://github.com/eat-pray-ai/yutu",
+        "source": "github",
+        "id": "643163403"
+      },
+      "version": "v0.10.4-dev1",
+      "icons": [
+        {
+          "src": "https://raw.githubusercontent.com/eat-pray-ai/yutu/main/assets/yutu-ico.svg",
+          "mimeType": "image/svg+xml",
+          "sizes": [
+            "any"
+          ]
+        }
+      ],
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/eat-pray-ai/yutu:v0.10.4-dev1",
+          "runtimeHint": "docker",
+          "transport": {
+            "type": "streamable-http",
+            "url": "http://localhost:8216/mcp"
+          },
+          "runtimeArguments": [
+            {
+              "description": "Username or UID in docker (format: <name|uid>[:<group|gid>])",
+              "value": "{user}:{group}",
+              "variables": {
+                "group": {
+                  "description": "The current user's primary group, output of `id -g`"
+                },
+                "user": {
+                  "description": "The current user, output of `id -u`"
+                }
+              },
+              "type": "named",
+              "name": "--user"
+            },
+            {
+              "description": "Host directory containing YUTU credentials and token",
+              "value": "type=bind,source={hostPath},target=/app",
+              "variables": {
+                "hostPath": {
+                  "description": "The directory containing `youtube.token.json` and `youtube.token.json`"
+                }
+              },
+              "type": "named",
+              "name": "--mount"
+            },
+            {
+              "description": "Publish MCP server port",
+              "isRequired": true,
+              "value": "8216:8216",
+              "type": "named",
+              "name": "-p"
+            }
+          ],
+          "packageArguments": [
+            {
+              "value": "mcp",
+              "type": "positional"
+            },
+            {
+              "value": "http",
+              "type": "named",
+              "name": "--mode"
+            }
+          ],
+          "environmentVariables": [
+            {
+              "description": "GCP project credential for yutu, base64 encoded JSON or path to JSON file",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "YUTU_CREDENTIAL"
+            },
+            {
+              "description": "YouTube authentication token, base64 encoded JSON or path to JSON file",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "YUTU_CACHE_TOKEN"
+            },
+            {
+              "description": "Log level",
+              "format": "string",
+              "default": "INFO",
+              "choices": [
+                "DEBUG",
+                "INFO",
+                "WARNING",
+                "ERROR"
+              ],
+              "name": "YUTU_LOG_LEVEL"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-21T15:24:52.146201Z",
+        "updatedAt": "2025-10-21T15:24:52.146201Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.gitkraken/gk-cli",
+      "description": "The GitKraken MCP Server for managing repos, PRs, issues across GitHub, GitLab, Bitbucket and more.",
+      "repository": {
+        "url": "https://github.com/gitkraken/gk-cli",
+        "source": "github"
+      },
+      "version": "3.1.43",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@gitkraken/gk",
+          "version": "3.1.43",
+          "transport": {
+            "type": "stdio"
+          },
+          "packageArguments": [
+            {
+              "value": "mcp",
+              "type": "positional"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-21T15:39:27.879229Z",
+        "updatedAt": "2025-10-21T15:39:27.879229Z",
         "isLatest": true
       }
     }
