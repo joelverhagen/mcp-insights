@@ -55670,5 +55670,212 @@
         "isLatest": true
       }
     }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.cashfree/cashfree-mcp",
+      "description": "Cashfree MCP server for cashfree docs and APIs",
+      "repository": {
+        "url": "https://github.com/cashfree/cashfree-mcp",
+        "source": "github"
+      },
+      "version": "1.0.0",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@cashfreepayments/cashfree-mcp",
+          "version": "1.0.1",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Payment Gateway App Id",
+              "format": "string",
+              "isSecret": true,
+              "name": "PAYMENTS_APP_ID"
+            },
+            {
+              "description": "Payment Gateway App Secret",
+              "format": "string",
+              "isSecret": true,
+              "name": "PAYMENTS_APP_SECRET"
+            },
+            {
+              "description": "Payouts App Id",
+              "format": "string",
+              "isSecret": true,
+              "name": "PAYOUTS_APP_ID"
+            },
+            {
+              "description": "Payouts App Secret",
+              "format": "string",
+              "isSecret": true,
+              "name": "PAYOUTS_APP_SECRET"
+            },
+            {
+              "description": "Path to the PEM file containing the public key for verifying 2FA signatures",
+              "format": "string",
+              "name": "TWO_FA_PUBLIC_KEY_PEM_PATH"
+            },
+            {
+              "description": "SecureId App Id",
+              "format": "string",
+              "isSecret": true,
+              "name": "SECUREID_APP_ID"
+            },
+            {
+              "description": "SecureId App Secret",
+              "format": "string",
+              "isSecret": true,
+              "name": "SECUREID_APP_SECRET"
+            },
+            {
+              "description": "Tools (Comma-separated list of modules to enable. Available options: pg, payouts, secureid)",
+              "isRequired": true,
+              "format": "string",
+              "name": "TOOLS"
+            },
+            {
+              "description": "Environment (production/sandbox default: sandbox)",
+              "isRequired": true,
+              "format": "string",
+              "name": "ENV"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-22T04:58:24.004184Z",
+        "updatedAt": "2025-10-22T04:58:24.004184Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.vercel/next-devtools-mcp",
+      "description": "Next.js development tools MCP server with stdio transport",
+      "repository": {
+        "url": "https://github.com/vercel/next-devtools-mcp",
+        "source": "github"
+      },
+      "version": "0.2.1",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "next-devtools-mcp",
+          "version": "0.2.1",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-22T05:01:59.559737Z",
+        "updatedAt": "2025-10-22T05:01:59.559737Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.AlvaroRamirezCastillo/greeting-mcp-server",
+      "description": "An MCP server greeting",
+      "repository": {
+        "url": "https://github.com/AlvaroRamirezCastillo/greeting-mcp-server",
+        "source": "github"
+      },
+      "version": "1.0.0",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@jinba-ittai/greeting-mcp-server",
+          "version": "1.0.7",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-22T05:02:15.662287Z",
+        "updatedAt": "2025-10-22T05:02:15.662287Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.AlvaroRamirezCastillo/greeting-mcp-server",
+      "description": "An MCP server greeting",
+      "repository": {
+        "url": "https://github.com/AlvaroRamirezCastillo/greeting-mcp-server",
+        "source": "github"
+      },
+      "version": "1.0.8",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@jinba-ittai/greeting-mcp-server",
+          "version": "1.0.8",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-22T05:23:02.269737Z",
+        "updatedAt": "2025-10-22T05:23:02.269737Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.aribadernatal/sideways",
+      "description": "Unexpected questions and lateral thinking prompts to break through mental blocks. 86 strategies.",
+      "title": "Sideways",
+      "repository": {
+        "url": "",
+        "source": ""
+      },
+      "version": "1.0.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://sideways.aribadernatal.com/mcp"
+        },
+        {
+          "type": "sse",
+          "url": "https://sideways.aribadernatal.com/sse"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-22T06:51:20.015804Z",
+        "updatedAt": "2025-10-22T06:51:20.015804Z",
+        "isLatest": true
+      }
+    }
   }
 ]
