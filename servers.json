@@ -53059,7 +53059,7 @@
         "status": "active",
         "publishedAt": "2025-10-17T14:21:42.93601Z",
         "updatedAt": "2025-10-17T14:21:42.93601Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -57191,6 +57191,138 @@
         "status": "active",
         "publishedAt": "2025-10-23T10:59:20.972551Z",
         "updatedAt": "2025-10-23T10:59:20.972551Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "directory.brick/mcp",
+      "description": "Provides data for LEGO sets, minifigures, parts and elements. Not affiliated with LEGO® Group.",
+      "title": "Brick Directory",
+      "repository": {
+        "url": "",
+        "source": ""
+      },
+      "version": "2025.10.23.1321",
+      "websiteUrl": "https://brick.directory",
+      "icons": [
+        {
+          "src": "https://brick.directory/assets/logo.svg",
+          "mimeType": "image/svg+xml"
+        },
+        {
+          "src": "https://brick.directory/assets/logo-1024-transparent.png",
+          "mimeType": "image/png",
+          "sizes": [
+            "1024x1024"
+          ]
+        },
+        {
+          "src": "https://brick.directory/assets/logo-512-transparent.png",
+          "mimeType": "image/png",
+          "sizes": [
+            "512x512"
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.brick.directory/connect"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-23T13:21:29.97224Z",
+        "updatedAt": "2025-10-23T13:21:29.97224Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.monday/monday.com",
+      "description": "MCP server for monday.com integration.",
+      "repository": {
+        "url": "https://github.com/mondaycom/mcp",
+        "source": "github"
+      },
+      "version": "0.0.1",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.monday.com/mcp",
+          "headers": [
+            {
+              "description": "monday.com API token (format: 'Bearer your_token_here' or just 'your_token_here')",
+              "isSecret": true,
+              "name": "Authorization"
+            }
+          ]
+        },
+        {
+          "type": "sse",
+          "url": "https://mcp.monday.com/sse",
+          "headers": [
+            {
+              "description": "monday.com API token (format: 'Bearer your_token_here' or just 'your_token_here')",
+              "isSecret": true,
+              "name": "Authorization"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-23T14:57:35.277178Z",
+        "updatedAt": "2025-10-23T14:57:35.277178Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.brave/brave-search-mcp-server",
+      "description": "Brave Search MCP Server: web results, images, videos, rich results, AI summaries, and more.",
+      "repository": {
+        "url": "https://github.com/brave/brave-search-mcp-server",
+        "source": "github"
+      },
+      "version": "2.0.58",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@brave/brave-search-mcp-server",
+          "version": "2.0.58",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your API key for the service",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "BRAVE_API_KEY"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-23T16:30:49.649573Z",
+        "updatedAt": "2025-10-23T16:30:49.649573Z",
         "isLatest": true
       }
     }
