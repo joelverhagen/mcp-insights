@@ -32999,7 +32999,7 @@
         "status": "active",
         "publishedAt": "2025-10-01T01:56:33.165299Z",
         "updatedAt": "2025-10-01T01:56:33.165299Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -46437,7 +46437,7 @@
         "status": "active",
         "publishedAt": "2025-10-11T07:37:15.519172Z",
         "updatedAt": "2025-10-11T07:37:15.519172Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -56528,6 +56528,431 @@
         "status": "active",
         "publishedAt": "2025-10-22T17:23:24.013782Z",
         "updatedAt": "2025-10-22T17:23:24.013782Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.madhavi-opsera/bug-detector",
+      "description": "Analyzes code for bugs, security vulnerabilities, and code smells",
+      "title": "Bug Detector",
+      "repository": {
+        "url": "https://github.com/madhavi-opsera/bug-detector",
+        "source": "github",
+        "id": "madhavi-opsera/bug-detector"
+      },
+      "version": "1.0.0",
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/madhavi-opsera/bug-detector:1.0.0",
+          "runtimeHint": "docker",
+          "transport": {
+            "type": "stdio"
+          },
+          "runtimeArguments": [
+            {
+              "value": "run",
+              "type": "positional",
+              "valueHint": "docker_command"
+            },
+            {
+              "type": "named",
+              "name": "--rm"
+            },
+            {
+              "type": "named",
+              "name": "-i"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-22T21:14:37.903337Z",
+        "updatedAt": "2025-10-22T21:14:37.903337Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.upstash/context7",
+      "description": "Up-to-date code docs for any prompt",
+      "title": "Context7",
+      "repository": {
+        "url": "https://github.com/upstash/context7",
+        "source": "github"
+      },
+      "version": "1.0.0",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@upstash/context7-mcp",
+          "version": "1.0.25",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "API key for authentication",
+              "format": "string",
+              "isSecret": true,
+              "name": "CONTEXT7_API_KEY"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-22T21:31:44.631573Z",
+        "updatedAt": "2025-10-22T21:31:44.631573Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.Apoth3osis-ai/agent-payment-mcp",
+      "description": "Secure MCP router providing access to AgentPMT's pay-per-use AI tools marketplace.",
+      "repository": {
+        "url": "https://github.com/Apoth3osis-ai/agent-payment-mcp",
+        "source": "github"
+      },
+      "version": "1.1.0",
+      "packages": [
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/Apoth3osis-ai/agent-payment-mcp/releases/download/v1.1.0/agent-payment-router-linux-amd64",
+          "fileSha256": "c3890c729a39ccde84d4ee59909caf1c69c58a20c0516342dbcea4ddc9147d1c",
+          "runtimeHint": "binary",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your AgentPMT API key for authentication",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "x-api-key"
+            },
+            {
+              "description": "Your AgentPMT budget key for spending control",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "x-budget-key"
+            }
+          ]
+        },
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/Apoth3osis-ai/agent-payment-mcp/releases/download/v1.1.0/agent-payment-router-darwin-amd64",
+          "fileSha256": "840ef61c0532fcbf34cc9abdb6797cf1ee411e37783d26eb666bc9a20cebe89d",
+          "runtimeHint": "binary",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your AgentPMT API key for authentication",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "x-api-key"
+            },
+            {
+              "description": "Your AgentPMT budget key for spending control",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "x-budget-key"
+            }
+          ]
+        },
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/Apoth3osis-ai/agent-payment-mcp/releases/download/v1.1.0/agent-payment-router-darwin-arm64",
+          "fileSha256": "6b6ff95bc57ea81e4287d006da29ab5386205c17f961cfbfefa6757cd5bbb0c1",
+          "runtimeHint": "binary",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your AgentPMT API key for authentication",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "x-api-key"
+            },
+            {
+              "description": "Your AgentPMT budget key for spending control",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "x-budget-key"
+            }
+          ]
+        },
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/Apoth3osis-ai/agent-payment-mcp/releases/download/v1.1.0/agent-payment-router-windows-amd64.exe",
+          "fileSha256": "c92d00ae7a42a8c40f036b239cc8d4c23e65203abe31809fdd791d93b7483575",
+          "runtimeHint": "binary",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your AgentPMT API key for authentication",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "x-api-key"
+            },
+            {
+              "description": "Your AgentPMT budget key for spending control",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "x-budget-key"
+            }
+          ]
+        },
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/Apoth3osis-ai/agent-payment-mcp/releases/download/v1.1.0/agent-payment-router-linux-arm64",
+          "fileSha256": "c6d89f423da80151faf83e5ca3fd253a0c0771d85ef7075c81d47251e6bba6d3",
+          "runtimeHint": "binary",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your AgentPMT API key for authentication",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "x-api-key"
+            },
+            {
+              "description": "Your AgentPMT budget key for spending control",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "x-budget-key"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-22T23:35:22.309115Z",
+        "updatedAt": "2025-10-22T23:35:22.309115Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.gjeltep/app-store-connect-mcp",
+      "description": "Interact with Apple's App Store Connect API",
+      "repository": {
+        "url": "https://github.com/gjeltep/app-store-connect-mcp",
+        "source": "github"
+      },
+      "version": "0.2.1",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "app-store-connect-mcp",
+          "version": "0.2.1",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "App Store Connect API Key ID",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "APP_STORE_KEY_ID"
+            },
+            {
+              "description": "App Store Connect Issuer ID",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "APP_STORE_ISSUER_ID"
+            },
+            {
+              "description": "Path to the .p8 private key file for App Store Connect authentication",
+              "isRequired": true,
+              "format": "string",
+              "name": "APP_STORE_PRIVATE_KEY_PATH"
+            },
+            {
+              "description": "Default App ID for operations (optional)",
+              "format": "string",
+              "name": "APP_STORE_APP_ID"
+            },
+            {
+              "description": "Key type: 'team' or 'individual' (defaults to 'team')",
+              "format": "string",
+              "name": "APP_STORE_KEY_TYPE"
+            },
+            {
+              "description": "Comma-separated list of OAuth scopes (optional)",
+              "format": "string",
+              "name": "APP_STORE_SCOPE"
+            },
+            {
+              "description": "Subject for individual keys (optional)",
+              "format": "string",
+              "name": "APP_STORE_SUBJECT"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-23T00:29:46.200611Z",
+        "updatedAt": "2025-10-23T00:29:46.200611Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.zzstoatzz/tangled-mcp",
+      "description": "MCP server for Tangled git platform. Manage repositories, branches, and issues on tangled.org.",
+      "title": "Tangled MCP",
+      "repository": {
+        "url": "",
+        "source": ""
+      },
+      "version": "0.0.14",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "tangled-mcp",
+          "version": "0.0.14",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-23T00:48:29.780257Z",
+        "updatedAt": "2025-10-23T00:48:29.780257Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.kubeshop/testkube-mcp",
+      "description": "MCP server for Testkube - Manage test workflows, executions, and artifacts via AI assistants",
+      "repository": {
+        "url": "https://github.com/kubeshop/testkube",
+        "source": "github"
+      },
+      "version": "1.0.0",
+      "icons": [
+        {
+          "src": "https://avatars.githubusercontent.com/u/82541796?v=4",
+          "mimeType": "image/png",
+          "sizes": [
+            "any"
+          ]
+        }
+      ],
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "docker.io/testkube/mcp-server:test",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Testkube access token for authentication",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "TK_ACCESS_TOKEN"
+            },
+            {
+              "description": "Testkube organization ID",
+              "isRequired": true,
+              "format": "string",
+              "name": "TK_ORG_ID"
+            },
+            {
+              "description": "Testkube environment ID",
+              "isRequired": true,
+              "format": "string",
+              "name": "TK_ENV_ID"
+            },
+            {
+              "description": "Testkube Control Plane URL (default: https://api.testkube.io)",
+              "format": "string",
+              "name": "TK_CONTROL_PLANE_URL"
+            },
+            {
+              "description": "Testkube Dashboard URL",
+              "format": "string",
+              "name": "TK_DASHBOARD_URL"
+            },
+            {
+              "description": "Enable debug mode (default: false)",
+              "format": "string",
+              "name": "TK_DEBUG"
+            },
+            {
+              "description": "MCP transport type: stdio or shttp (default: stdio)",
+              "format": "string",
+              "name": "TK_MCP_TRANSPORT"
+            },
+            {
+              "description": "SHTTP host when using shttp transport",
+              "format": "string",
+              "name": "TK_MCP_SHTTP_HOST"
+            },
+            {
+              "description": "SHTTP port when using shttp transport",
+              "format": "string",
+              "name": "TK_MCP_SHTTP_PORT"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-23T01:37:19.06212Z",
+        "updatedAt": "2025-10-23T01:37:19.06212Z",
         "isLatest": true
       }
     }
