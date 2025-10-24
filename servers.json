@@ -55538,7 +55538,7 @@
         "status": "active",
         "publishedAt": "2025-10-21T15:24:52.146201Z",
         "updatedAt": "2025-10-21T15:24:52.146201Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -58416,6 +58416,180 @@
         "status": "active",
         "publishedAt": "2025-10-24T12:42:02.065355Z",
         "updatedAt": "2025-10-24T12:42:02.065355Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.gattjoe/ACMS",
+      "description": "Apple Container MCP Server (ACMS) provides access to Apple's container CLI tool on macOS",
+      "repository": {
+        "url": "https://github.com/gattjoe/ACMS",
+        "source": "github"
+      },
+      "version": "0.0.3",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "registryBaseUrl": "https://pypi.org",
+          "identifier": "ACMS",
+          "version": "0.0.3",
+          "transport": {
+            "type": "streamable-http",
+            "url": "http://localhost:8765/mcp"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-24T14:03:45.710535Z",
+        "updatedAt": "2025-10-24T14:03:45.710535Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.eat-pray-ai/yutu",
+      "description": "A fully functional MCP server and CLI for YouTube",
+      "title": "yutu",
+      "repository": {
+        "url": "https://github.com/eat-pray-ai/yutu",
+        "source": "github",
+        "id": "643163403"
+      },
+      "version": "v0.10.4-dev2",
+      "icons": [
+        {
+          "src": "https://raw.githubusercontent.com/eat-pray-ai/yutu/main/assets/yutu-ico.svg",
+          "mimeType": "image/svg+xml",
+          "sizes": [
+            "any"
+          ]
+        }
+      ],
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/eat-pray-ai/yutu:v0.10.4-dev2",
+          "runtimeHint": "docker",
+          "transport": {
+            "type": "streamable-http",
+            "url": "http://localhost:8216/mcp"
+          },
+          "runtimeArguments": [
+            {
+              "description": "UID and GID in the container to match host user",
+              "value": "{user}:{group}",
+              "variables": {
+                "group": {
+                  "description": "The current user's primary group, output of `id -g`"
+                },
+                "user": {
+                  "description": "The current user, output of `id -u`"
+                }
+              },
+              "type": "named",
+              "name": "--user"
+            },
+            {
+              "description": "Mount host directory containing credentials and token",
+              "value": "type=bind,source={hostPath},target=/app",
+              "variables": {
+                "hostPath": {
+                  "description": "The directory containing `client_secret.json` and `youtube.token.json`"
+                }
+              },
+              "type": "named",
+              "name": "--mount"
+            },
+            {
+              "description": "Publish MCP server port",
+              "isRequired": true,
+              "value": "8216:8216",
+              "type": "named",
+              "name": "-p"
+            }
+          ],
+          "packageArguments": [
+            {
+              "value": "mcp",
+              "type": "positional"
+            },
+            {
+              "value": "http",
+              "type": "named",
+              "name": "--mode"
+            }
+          ],
+          "environmentVariables": [
+            {
+              "description": "GCP project credential for yutu, base64 encoded JSON or path to JSON file",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "YUTU_CREDENTIAL"
+            },
+            {
+              "description": "YouTube authentication token, base64 encoded JSON or path to JSON file",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "YUTU_CACHE_TOKEN"
+            },
+            {
+              "description": "Log level",
+              "format": "string",
+              "default": "INFO",
+              "choices": [
+                "DEBUG",
+                "INFO",
+                "WARNING",
+                "ERROR"
+              ],
+              "name": "YUTU_LOG_LEVEL"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-24T16:04:41.256746Z",
+        "updatedAt": "2025-10-24T16:04:41.256746Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "co.thisdot.docusign-navigator/mcp",
+      "description": "Secure Docusign Navigator integration for AI assistants to access and analyze agreement data.",
+      "repository": {
+        "url": "https://github.com/thisdot/docusign-navigator-mcp",
+        "source": "github"
+      },
+      "version": "1.0.2",
+      "websiteUrl": "https://docusign-navigator.thisdot.co",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://docusign-navigator.thisdot.co/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-24T16:26:39.380072Z",
+        "updatedAt": "2025-10-24T16:26:39.380072Z",
         "isLatest": true
       }
     }
