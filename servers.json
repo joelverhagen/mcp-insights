@@ -58297,7 +58297,7 @@
         "status": "active",
         "publishedAt": "2025-10-24T10:51:50.627707Z",
         "updatedAt": "2025-10-24T10:51:50.627707Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -58590,6 +58590,188 @@
         "status": "active",
         "publishedAt": "2025-10-24T16:26:39.380072Z",
         "updatedAt": "2025-10-24T16:26:39.380072Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "co.thisdot.docusign-navigator/mcp",
+      "description": "Secure Docusign Navigator integration for AI assistants to access and analyze agreement data.",
+      "repository": {
+        "url": "https://github.com/thisdot/docusign-navigator-mcp",
+        "source": "github"
+      },
+      "version": "1.0.3",
+      "websiteUrl": "https://docusign-navigator.thisdot.co",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://docusign-navigator.thisdot.co/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-24T17:17:01.342559Z",
+        "updatedAt": "2025-10-24T17:17:01.342559Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.teamwork/mcp",
+      "description": "The Teamwork.com official MCP server helps teams efficiently manage client projects with AI.",
+      "repository": {
+        "url": "https://github.com/teamwork/mcp",
+        "source": "github"
+      },
+      "version": "1.6.8",
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "docker.io/teamwork/mcp:v1.6.8",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "API key generated from the Teamwork.com OAuth2 process: https://apidocs.teamwork.com/guides/teamwork/app-login-flow",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "TW_MCP_BEARER_TOKEN"
+            },
+            {
+              "description": "Choose log output format between 'text' or 'json'. Default is 'text'.",
+              "format": "string",
+              "name": "TW_MCP_LOG_FORMAT"
+            },
+            {
+              "description": "Choose log level between 'debug', 'info', 'warn' or 'error'. Default is 'info'.",
+              "format": "string",
+              "name": "TW_MCP_LOG_LEVEL"
+            }
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "sse",
+          "url": "https://mcp.ai.teamwork.com",
+          "headers": [
+            {
+              "description": "API key generated from the Teamwork.com OAuth2 process: https://apidocs.teamwork.com/guides/teamwork/app-login-flow",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "Authorization"
+            }
+          ]
+        },
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.ai.teamwork.com",
+          "headers": [
+            {
+              "description": "API key generated from the Teamwork.com OAuth2 process: https://apidocs.teamwork.com/guides/teamwork/app-login-flow",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "Authorization"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-24T17:23:59.80231Z",
+        "updatedAt": "2025-10-24T17:23:59.80231Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "co.thisdot.docusign-navigator/mcp",
+      "description": "Secure Docusign Navigator integration for AI assistants to access and analyze agreement data.",
+      "repository": {
+        "url": "https://github.com/thisdot/docusign-navigator-mcp",
+        "source": "github"
+      },
+      "version": "1.2.0",
+      "websiteUrl": "https://docusign-navigator.thisdot.co",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://docusign-navigator.thisdot.co/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-24T18:56:55.468815Z",
+        "updatedAt": "2025-10-24T18:56:55.468815Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "co.thisdot.docusign-navigator/mcp",
+      "description": "Secure Docusign Navigator integration for AI assistants to access and analyze agreement data.",
+      "repository": {
+        "url": "https://github.com/thisdot/docusign-navigator-mcp",
+        "source": "github"
+      },
+      "version": "1.2.1",
+      "websiteUrl": "https://docusign-navigator.thisdot.co",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://docusign-navigator.thisdot.co/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-24T19:02:09.947846Z",
+        "updatedAt": "2025-10-24T19:02:09.947846Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "co.thisdot.docusign-navigator/mcp",
+      "description": "Secure Docusign Navigator integration for AI assistants to access and analyze agreement data.",
+      "repository": {
+        "url": "https://github.com/thisdot/docusign-navigator-mcp",
+        "source": "github"
+      },
+      "version": "1.2.2",
+      "websiteUrl": "https://docusign-navigator.thisdot.co",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://docusign-navigator.thisdot.co/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-24T19:29:43.069098Z",
+        "updatedAt": "2025-10-24T19:29:43.069098Z",
         "isLatest": true
       }
     }
