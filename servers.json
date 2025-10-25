@@ -57588,7 +57588,7 @@
         "status": "active",
         "publishedAt": "2025-10-24T08:43:04.312406Z",
         "updatedAt": "2025-10-24T08:43:04.312406Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -59652,6 +59652,162 @@
         "status": "active",
         "publishedAt": "2025-10-25T09:09:32.842127Z",
         "updatedAt": "2025-10-25T09:09:32.842127Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.srprasanna/mcp-skills-server",
+      "description": "MCP server that loads and serves skills from a mounted directory with hot reload.",
+      "title": "MCP Skills Server",
+      "repository": {
+        "url": "https://github.com/srprasanna/mcp-skill-hub",
+        "source": "github"
+      },
+      "version": "1.0.0",
+      "websiteUrl": "https://srprasanna.github.io/mcp-skill-hub",
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "docker.io/srprasanna/mcp-skills-server:1.0.0",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Root directory containing skill folders",
+              "default": "/skills",
+              "name": "MCP_SKILLS_DIR"
+            },
+            {
+              "description": "Enable automatic reloading when SKILL.md files change",
+              "default": "true",
+              "name": "MCP_SKILLS_HOT_RELOAD"
+            },
+            {
+              "description": "Logging verbosity: DEBUG, INFO, WARNING, ERROR, CRITICAL",
+              "default": "INFO",
+              "name": "MCP_SKILLS_LOG_LEVEL"
+            }
+          ]
+        }
+      ],
+      "_meta": {
+        "io.modelcontextprotocol.registry/publisher-provided": {
+          "migratedFrom": "https://registry.modelcontextprotocol.io/schema/server.json"
+        }
+      }
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-25T14:59:09.640181Z",
+        "updatedAt": "2025-10-25T14:59:09.640181Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "dev.svelte/mcp",
+      "description": "The official Svelte MCP server providing docs and autofixing tools for Svelte development",
+      "repository": {
+        "url": "https://github.com/sveltejs/mcp",
+        "source": "github",
+        "id": "1054419133",
+        "subfolder": "packages/mcp-stdio"
+      },
+      "version": "0.1.11",
+      "websiteUrl": "https://svelte.dev/docs/mcp/overview",
+      "icons": [
+        {
+          "src": "https://mcp.svelte.dev/logo.svg",
+          "mimeType": "image/svg+xml"
+        },
+        {
+          "src": "https://mcp.svelte.dev/logo.png",
+          "mimeType": "image/png"
+        }
+      ],
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@sveltejs/mcp",
+          "version": "0.1.11",
+          "runtimeHint": "npx",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.svelte.dev/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-25T15:08:23.261174Z",
+        "updatedAt": "2025-10-25T15:08:23.261174Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.srprasanna/mcp-skill-hub",
+      "description": "MCP server that loads and serves skills from a mounted directory with hot reload.",
+      "title": "MCP Skills Server",
+      "repository": {
+        "url": "https://github.com/srprasanna/mcp-skill-hub",
+        "source": "github"
+      },
+      "version": "1.0.0",
+      "websiteUrl": "https://srprasanna.github.io/mcp-skill-hub",
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "docker.io/srprasanna/mcp-skill-hub:1.0.0",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Root directory containing skill folders",
+              "default": "/skills",
+              "name": "MCP_SKILLS_DIR"
+            },
+            {
+              "description": "Enable automatic reloading when SKILL.md files change",
+              "default": "true",
+              "name": "MCP_SKILLS_HOT_RELOAD"
+            },
+            {
+              "description": "Logging verbosity: DEBUG, INFO, WARNING, ERROR, CRITICAL",
+              "default": "INFO",
+              "name": "MCP_SKILLS_LOG_LEVEL"
+            }
+          ]
+        }
+      ],
+      "_meta": {
+        "io.modelcontextprotocol.registry/publisher-provided": {
+          "migratedFrom": "https://registry.modelcontextprotocol.io/schema/server.json"
+        }
+      }
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-25T15:26:18.722975Z",
+        "updatedAt": "2025-10-25T15:26:18.722975Z",
         "isLatest": true
       }
     }
