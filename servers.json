@@ -59247,5 +59247,81 @@
         "isLatest": true
       }
     }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.hellobasestation/pdfkit",
+      "description": "AI-powered PDF tools: fill forms, merge, extract data, and split PDFs",
+      "title": "PDF Kit",
+      "repository": {
+        "url": "",
+        "source": ""
+      },
+      "version": "1.0.3",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "pdfkit-mcp",
+          "version": "1.0.3",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ],
+      "remotes": [
+        {
+          "type": "sse",
+          "url": "https://mcp.hellobasestation.com/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-25T02:26:04.673056Z",
+        "updatedAt": "2025-10-25T02:26:04.673056Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.JustinBeckwith/linkinator-mcp",
+      "description": "MCP server for link checking using linkinator",
+      "repository": {
+        "url": "https://github.com/JustinBeckwith/linkinator-mcp",
+        "source": "github"
+      },
+      "version": "0.2.1",
+      "icons": [
+        {
+          "src": "https://raw.githubusercontent.com/JustinBeckwith/linkinator-mcp/main/site/linkinator-mcp.webp",
+          "mimeType": "image/webp",
+          "sizes": [
+            "any"
+          ]
+        }
+      ],
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "linkinator-mcp",
+          "version": "0.2.1",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-25T02:41:35.647944Z",
+        "updatedAt": "2025-10-25T02:41:35.647944Z",
+        "isLatest": true
+      }
+    }
   }
 ]
