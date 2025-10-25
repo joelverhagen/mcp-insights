@@ -49624,7 +49624,7 @@
         "status": "active",
         "publishedAt": "2025-10-14T20:48:33.420391Z",
         "updatedAt": "2025-10-14T20:48:33.420391Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -59617,6 +59617,41 @@
         "status": "active",
         "publishedAt": "2025-10-25T08:26:43.645862Z",
         "updatedAt": "2025-10-25T08:26:43.645862Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "ai.smithery/brave",
+      "description": "Visit https://brave.com/search/api/ for a free API key. Search the web, local businesses, images,…",
+      "repository": {
+        "url": "https://github.com/brave/brave-search-mcp-server",
+        "source": "github"
+      },
+      "version": "2.0.58",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://server.smithery.ai/brave/mcp",
+          "headers": [
+            {
+              "description": "Bearer token for Smithery authentication",
+              "isRequired": true,
+              "value": "Bearer {smithery_api_key}",
+              "isSecret": true,
+              "name": "Authorization"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-25T09:09:32.842127Z",
+        "updatedAt": "2025-10-25T09:09:32.842127Z",
         "isLatest": true
       }
     }
