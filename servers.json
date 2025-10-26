@@ -7600,7 +7600,7 @@
         "status": "active",
         "publishedAt": "2025-09-12T03:19:04.492113Z",
         "updatedAt": "2025-09-12T03:19:04.492113Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -60039,6 +60039,194 @@
         "status": "active",
         "publishedAt": "2025-10-26T01:55:24.492663Z",
         "updatedAt": "2025-10-26T01:55:24.492663Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.domdomegg/airtable-mcp-server",
+      "description": "Read and write access to Airtable database schemas, tables, and records.",
+      "repository": {
+        "url": "https://github.com/domdomegg/airtable-mcp-server.git",
+        "source": "github"
+      },
+      "version": "1.9.4",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "airtable-mcp-server",
+          "version": "1.9.4",
+          "runtimeHint": "npx",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Airtable personal access token (e.g., pat123.abc123). Create at https://airtable.com/create/tokens/new with scopes: schema.bases:read, data.records:read, and optionally schema.bases:write and data.records:write.",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "AIRTABLE_API_KEY"
+            }
+          ]
+        },
+        {
+          "registryType": "oci",
+          "identifier": "docker.io/domdomegg/airtable-mcp-server:1.9.4",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Airtable personal access token (e.g., pat123.abc123). Create at https://airtable.com/create/tokens/new with scopes: schema.bases:read, data.records:read, and optionally schema.bases:write and data.records:write.",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "AIRTABLE_API_KEY"
+            }
+          ]
+        },
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/domdomegg/airtable-mcp-server/releases/download/v1.9.4/airtable-mcp-server.mcpb",
+          "version": "1.9.4",
+          "fileSha256": "16474be7f95c22c7575cb6c98490fa8744b6637dc528c787490b5adf56d43d96",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-26T02:11:39.865561Z",
+        "updatedAt": "2025-10-26T02:11:39.865561Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.usesideways/sideways",
+      "description": "Unexpected questions and lateral thinking prompts to break through mental blocks. 86 strategies.",
+      "title": "Sideways",
+      "repository": {
+        "url": "",
+        "source": ""
+      },
+      "version": "1.0.1",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://usesideways.com/mcp"
+        },
+        {
+          "type": "sse",
+          "url": "https://usesideways.com/sse"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-26T02:35:47.403797Z",
+        "updatedAt": "2025-10-26T02:35:47.403797Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.usesideways/sideways",
+      "description": "Unexpected questions and lateral thinking prompts to break through mental blocks. 86 strategies.",
+      "title": "Sideways",
+      "repository": {
+        "url": "",
+        "source": ""
+      },
+      "version": "1.0.2",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://usesideways.com/mcp"
+        },
+        {
+          "type": "sse",
+          "url": "https://usesideways.com/sse"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-26T02:43:18.623373Z",
+        "updatedAt": "2025-10-26T02:43:18.623373Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.usesideways/sideways",
+      "description": "Use Sideways for unexpected questions and lateral thinking prompts to break through mental blocks.",
+      "title": "Sideways",
+      "repository": {
+        "url": "",
+        "source": ""
+      },
+      "version": "1.0.3",
+      "websiteUrl": "https://usesideways.com",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://usesideways.com/mcp"
+        },
+        {
+          "type": "sse",
+          "url": "https://usesideways.com/sse"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-26T02:54:18.226547Z",
+        "updatedAt": "2025-10-26T02:54:18.226547Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.rghsoftware/linux-filesystem",
+      "description": "Enhanced Linux filesystem access with symlinks, permissions, and chmod support",
+      "title": "Linux Filesystem",
+      "repository": {
+        "url": "",
+        "source": ""
+      },
+      "version": "1.2.1",
+      "packages": [
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/rghsoftware/linux-filesystem-extension/releases/download/v1.2.1/linux-filesystem.mcpb",
+          "fileSha256": "3174a623da8d3da7013467bb877dde5591a8f6e04dad0430b2784303ecbfedfe",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-26T04:07:30.533036Z",
+        "updatedAt": "2025-10-26T04:07:30.533036Z",
         "isLatest": true
       }
     }
