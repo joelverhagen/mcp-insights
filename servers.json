@@ -53360,7 +53360,7 @@
         "status": "active",
         "publishedAt": "2025-10-17T23:12:58.370286Z",
         "updatedAt": "2025-10-17T23:12:58.370286Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -56302,7 +56302,7 @@
         "status": "active",
         "publishedAt": "2025-10-22T13:21:55.500708Z",
         "updatedAt": "2025-10-22T13:21:55.500708Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -60613,6 +60613,145 @@
         "status": "active",
         "publishedAt": "2025-10-27T05:29:41.770164Z",
         "updatedAt": "2025-10-27T05:29:41.770164Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.github/github-mcp-server",
+      "description": "Connect AI assistants to GitHub - manage repos, issues, PRs, and workflows through natural language.",
+      "repository": {
+        "url": "https://github.com/github/github-mcp-server",
+        "source": "github"
+      },
+      "version": "0.20.0",
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/github/github-mcp-server:0.20.0",
+          "transport": {
+            "type": "stdio"
+          },
+          "runtimeArguments": [
+            {
+              "description": "The runtime command to execute",
+              "isRequired": true,
+              "value": "run",
+              "type": "positional"
+            },
+            {
+              "description": "Run container in interactive mode",
+              "isRequired": true,
+              "format": "boolean",
+              "value": "true",
+              "type": "named",
+              "name": "-i"
+            },
+            {
+              "description": "Automatically remove the container when it exits",
+              "format": "boolean",
+              "value": "true",
+              "type": "named",
+              "name": "--rm"
+            },
+            {
+              "description": "Set an environment variable in the runtime",
+              "isRequired": true,
+              "value": "GITHUB_PERSONAL_ACCESS_TOKEN={token}",
+              "variables": {
+                "token": {
+                  "isRequired": true,
+                  "format": "string",
+                  "isSecret": true
+                }
+              },
+              "type": "named",
+              "name": "-e"
+            },
+            {
+              "description": "The container image to run",
+              "isRequired": true,
+              "value": "ghcr.io/github/github-mcp-server",
+              "type": "positional",
+              "valueHint": "image_name"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-27T09:07:29.295012Z",
+        "updatedAt": "2025-10-27T09:07:29.295012Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "ai.smithery/LinkupPlatform-linkup-mcp-server",
+      "description": "Search the web in real time to get trustworthy, source-backed answers. Find the latest news and co…",
+      "repository": {
+        "url": "https://github.com/LinkupPlatform/linkup-mcp-server",
+        "source": "github"
+      },
+      "version": "1.0.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://server.smithery.ai/@LinkupPlatform/linkup-mcp-server/mcp",
+          "headers": [
+            {
+              "description": "Bearer token for Smithery authentication",
+              "isRequired": true,
+              "value": "Bearer {smithery_api_key}",
+              "isSecret": true,
+              "name": "Authorization"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-27T11:25:12.402429Z",
+        "updatedAt": "2025-10-27T11:25:12.402429Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.DollhouseMCP/mcp-server",
+      "description": "OSS to create Personas, Skills, Templates, Agents, and Memories to customize your AI experience.",
+      "title": "DollhouseMCP",
+      "repository": {
+        "url": "https://github.com/DollhouseMCP/mcp-server",
+        "source": "github"
+      },
+      "version": "1.9.23",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@dollhousemcp/mcp-server",
+          "version": "1.9.23",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-27T12:41:32.986434Z",
+        "updatedAt": "2025-10-27T12:41:32.986434Z",
         "isLatest": true
       }
     }
