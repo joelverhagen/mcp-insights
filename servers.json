@@ -58772,7 +58772,7 @@
         "status": "active",
         "publishedAt": "2025-10-24T19:29:43.069098Z",
         "updatedAt": "2025-10-24T19:29:43.069098Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -60686,7 +60686,7 @@
         "status": "active",
         "publishedAt": "2025-10-27T09:07:29.295012Z",
         "updatedAt": "2025-10-27T09:07:29.295012Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -60752,6 +60752,142 @@
         "status": "active",
         "publishedAt": "2025-10-27T12:41:32.986434Z",
         "updatedAt": "2025-10-27T12:41:32.986434Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.medusajs/medusa-mcp",
+      "description": "Retrieve information from the Medusa documentation to assist you with your Medusa development.",
+      "repository": {
+        "url": "",
+        "source": ""
+      },
+      "version": "1.0.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://docs.medusajs.com/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-27T14:16:17.087598Z",
+        "updatedAt": "2025-10-27T14:16:17.087598Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.github/github-mcp-server",
+      "description": "Connect AI assistants to GitHub - manage repos, issues, PRs, and workflows through natural language.",
+      "repository": {
+        "url": "https://github.com/github/github-mcp-server",
+        "source": "github"
+      },
+      "version": "0.20.1",
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/github/github-mcp-server:0.20.1",
+          "transport": {
+            "type": "stdio"
+          },
+          "runtimeArguments": [
+            {
+              "description": "The runtime command to execute",
+              "isRequired": true,
+              "value": "run",
+              "type": "positional"
+            },
+            {
+              "description": "Run container in interactive mode",
+              "isRequired": true,
+              "format": "boolean",
+              "value": "true",
+              "type": "named",
+              "name": "-i"
+            },
+            {
+              "description": "Automatically remove the container when it exits",
+              "format": "boolean",
+              "value": "true",
+              "type": "named",
+              "name": "--rm"
+            },
+            {
+              "description": "Set an environment variable in the runtime",
+              "isRequired": true,
+              "value": "GITHUB_PERSONAL_ACCESS_TOKEN={token}",
+              "variables": {
+                "token": {
+                  "isRequired": true,
+                  "format": "string",
+                  "isSecret": true
+                }
+              },
+              "type": "named",
+              "name": "-e"
+            },
+            {
+              "description": "The container image to run",
+              "isRequired": true,
+              "value": "ghcr.io/github/github-mcp-server",
+              "type": "positional",
+              "valueHint": "image_name"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-27T15:36:10.895783Z",
+        "updatedAt": "2025-10-27T15:36:10.895783Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "co.thisdot.docusign-navigator/mcp",
+      "description": "Secure Docusign Navigator integration for AI assistants to access and analyze agreement data.",
+      "title": "Docusign Navigator",
+      "repository": {
+        "url": "https://github.com/thisdot/docusign-navigator-mcp",
+        "source": "github"
+      },
+      "version": "1.3.0",
+      "websiteUrl": "https://docusign-navigator.thisdot.co",
+      "icons": [
+        {
+          "src": "https://docusign-navigator.thisdot.co/thisdot-labs-logo.png",
+          "mimeType": "image/png",
+          "sizes": [
+            "500x122"
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://docusign-navigator.thisdot.co/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-27T15:57:26.278297Z",
+        "updatedAt": "2025-10-27T15:57:26.278297Z",
         "isLatest": true
       }
     }
