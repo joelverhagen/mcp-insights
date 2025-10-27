@@ -60891,5 +60891,205 @@
         "isLatest": true
       }
     }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.allstacks/allstacks-mcp",
+      "description": "Provides 208+ tools for AI-native engineering intelligence via Allstacks API.",
+      "title": "Allstacks Analytics MCP Server",
+      "repository": {
+        "url": "",
+        "source": ""
+      },
+      "version": "0.1.0",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "allstacks-mcp",
+          "version": "0.1.0",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-27T16:43:42.575778Z",
+        "updatedAt": "2025-10-27T16:43:42.575778Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.allstacks/allstacks-mcp",
+      "description": "Provides 208+ tools for AI-native engineering intelligence via Allstacks API.",
+      "title": "Allstacks Analytics MCP Server",
+      "repository": {
+        "url": "",
+        "source": ""
+      },
+      "version": "0.1.1",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "allstacks-mcp",
+          "version": "0.1.1",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-27T16:50:37.013013Z",
+        "updatedAt": "2025-10-27T16:50:37.013013Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "moda.ai/remote-camera",
+      "description": "Capture photos remotely from mobile devices via S3-backed upload URLs",
+      "title": "Remote Camera",
+      "repository": {
+        "url": "",
+        "source": ""
+      },
+      "version": "1.0.0",
+      "websiteUrl": "https://www.ai.moda/mcp-servers/remote-camera/",
+      "icons": [
+        {
+          "src": "https://remote-camera-mcp.email.ai.moda/bimi/logo.svg",
+          "mimeType": "image/svg+xml",
+          "sizes": [
+            "any"
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://www.ai.moda/mcp-servers/remote-camera/mcp",
+          "headers": [
+            {
+              "description": "S3 credentials token in format: Bearer <base64-encoded-json>. The JSON should contain: {s3Url, accessKeyId, secretAccessKey, region}. Visit https://www.ai.moda/mcp-servers/remote-camera/ to set up your S3 auth token.",
+              "isRequired": true,
+              "isSecret": true,
+              "placeholder": "Bearer eyJzM1VybCI6Imh0dHBzOi8vczMu...",
+              "name": "Authorization"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-27T19:16:27.548449Z",
+        "updatedAt": "2025-10-27T19:16:27.548449Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.allstacks/allstacks-mcp",
+      "description": "Provides 208+ tools for AI-native engineering intelligence via Allstacks API.",
+      "title": "Allstacks Analytics MCP Server",
+      "repository": {
+        "url": "",
+        "source": ""
+      },
+      "version": "0.1.2",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "allstacks-mcp",
+          "version": "0.1.2",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-27T19:33:41.052283Z",
+        "updatedAt": "2025-10-27T19:33:41.052283Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.allstacks/allstacks-mcp",
+      "description": "Provides 208+ tools for AI-native engineering intelligence via Allstacks API.",
+      "title": "Allstacks Analytics MCP Server",
+      "repository": {
+        "url": "",
+        "source": ""
+      },
+      "version": "0.1.3",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "allstacks-mcp",
+          "version": "0.1.3",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-27T19:42:56.515336Z",
+        "updatedAt": "2025-10-27T19:42:56.515336Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "dev.openfeature/mcp",
+      "description": "MCP server providing OpenFeature SDK installation guides and OFREP flag evaluation",
+      "repository": {
+        "url": "",
+        "source": ""
+      },
+      "version": "0.0.16",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@openfeature/mcp",
+          "version": "0.0.16",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-27T19:50:28.668605Z",
+        "updatedAt": "2025-10-27T19:50:28.668605Z",
+        "isLatest": true
+      }
+    }
   }
 ]
