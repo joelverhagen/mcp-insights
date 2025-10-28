@@ -26444,7 +26444,7 @@
         "status": "active",
         "publishedAt": "2025-09-26T18:50:29.355753Z",
         "updatedAt": "2025-09-26T18:50:29.355753Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -55783,7 +55783,7 @@
         "status": "active",
         "publishedAt": "2025-10-22T05:01:59.559737Z",
         "updatedAt": "2025-10-22T05:01:59.559737Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -61900,6 +61900,1942 @@
         "status": "active",
         "publishedAt": "2025-10-28T12:41:00.264589Z",
         "updatedAt": "2025-10-28T12:41:00.264589Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.browserstack/mcp-server",
+      "description": "BrowserStack's Official MCP Server",
+      "repository": {
+        "url": "https://github.com/browserstack/mcp-server",
+        "source": "github"
+      },
+      "version": "1.0.0",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@browserstack/mcp-server",
+          "version": "1.2.7",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "BrowserStack Username",
+              "isRequired": true,
+              "format": "string",
+              "name": "BROWSERSTACK_USERNAME"
+            },
+            {
+              "description": "BrowserStack Access Key",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "BROWSERSTACK_ACCESS_KEY"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-28T14:01:41.033363Z",
+        "updatedAt": "2025-10-28T14:01:41.033363Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.vercel/next-devtools-mcp",
+      "description": "Next.js development tools MCP server with stdio transport",
+      "repository": {
+        "url": "https://github.com/vercel/next-devtools-mcp",
+        "source": "github"
+      },
+      "version": "0.2.2",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "next-devtools-mcp",
+          "version": "0.2.2",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-28T14:43:50.724253Z",
+        "updatedAt": "2025-10-28T14:43:50.724253Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.ONLYOFFICE/docspace",
+      "description": "A room-based collaborative platform",
+      "repository": {
+        "url": "https://github.com/ONLYOFFICE/docspace-mcp",
+        "source": "github",
+        "id": "962498237"
+      },
+      "version": "3.0.1",
+      "websiteUrl": "https://ONLYOFFICE.github.io/",
+      "packages": [
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/ONLYOFFICE/docspace-mcp/releases/download/v3.0.1/onlyoffice-docspace-mcp-3.0.1.mcpb",
+          "version": "3.0.1",
+          "fileSha256": "da55ff4195410dd9eed05ebfa490608a0bbda6119b232a31b57a7c715882850c",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "The base URL of the DocSpace instance for API requests.",
+              "format": "string",
+              "name": "DOCSPACE_BASE_URL"
+            },
+            {
+              "description": "The API key for accessing the DocSpace API.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_API_KEY"
+            }
+          ]
+        },
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@onlyoffice/docspace-mcp",
+          "version": "3.0.1",
+          "runtimeHint": "npx",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "The transport protocol to use for communication with the DocSpace MCP server.",
+              "format": "string",
+              "default": "stdio",
+              "choices": [
+                "stdio",
+                "sse",
+                "streamable-http",
+                "http"
+              ],
+              "name": "DOCSPACE_TRANSPORT"
+            },
+            {
+              "description": "The flag that indicates whether the DocSpace MCP server should use meta tools.",
+              "format": "boolean",
+              "default": "false",
+              "name": "DOCSPACE_DYNAMIC"
+            },
+            {
+              "description": "The list of toolsets to enable for the DocSpace MCP server.",
+              "format": "string",
+              "default": "all",
+              "choices": [
+                "all",
+                "files",
+                "folders",
+                "rooms",
+                "people"
+              ],
+              "name": "DOCSPACE_TOOLSETS"
+            },
+            {
+              "description": "The list of tools to enable for the DocSpace MCP server.",
+              "format": "string",
+              "choices": [
+                "delete_file",
+                "get_file_info",
+                "update_file",
+                "copy_batch_items",
+                "move_batch_items",
+                "download_file_as_text",
+                "upload_file",
+                "create_folder",
+                "delete_folder",
+                "get_folder_content",
+                "get_folder_info",
+                "rename_folder",
+                "get_my_folder",
+                "create_room",
+                "get_room_info",
+                "update_room",
+                "archive_room",
+                "set_room_security",
+                "get_room_security_info",
+                "get_rooms_folder",
+                "get_room_types",
+                "get_room_access_levels",
+                "get_all_people"
+              ],
+              "name": "DOCSPACE_ENABLED_TOOLS"
+            },
+            {
+              "description": "The list of tools to disable for the DocSpace MCP server.",
+              "format": "string",
+              "choices": [
+                "delete_file",
+                "get_file_info",
+                "update_file",
+                "copy_batch_items",
+                "move_batch_items",
+                "download_file_as_text",
+                "upload_file",
+                "create_folder",
+                "delete_folder",
+                "get_folder_content",
+                "get_folder_info",
+                "rename_folder",
+                "get_my_folder",
+                "create_room",
+                "get_room_info",
+                "update_room",
+                "archive_room",
+                "set_room_security",
+                "get_room_security_info",
+                "get_rooms_folder",
+                "get_room_types",
+                "get_room_access_levels",
+                "get_all_people"
+              ],
+              "name": "DOCSPACE_DISABLED_TOOLS"
+            },
+            {
+              "description": "The user agent to include in the `User-Agent` header for DocSpace API requests.",
+              "format": "string",
+              "default": "@onlyoffice/docspace-mcp v3.0.1",
+              "name": "DOCSPACE_USER_AGENT"
+            },
+            {
+              "description": "The base URL of the DocSpace instance for API requests.",
+              "format": "string",
+              "name": "DOCSPACE_BASE_URL"
+            },
+            {
+              "description": "The raw value to include in the Authorization header for DocSpace API requests.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_AUTHORIZATION"
+            },
+            {
+              "description": "The API key for accessing the DocSpace API.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_API_KEY"
+            },
+            {
+              "description": "The Personal Access Token (PAT) for accessing the DocSpace API.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_AUTH_TOKEN"
+            },
+            {
+              "description": "The username for accessing the DocSpace API using basic authentication.",
+              "format": "string",
+              "name": "DOCSPACE_USERNAME"
+            },
+            {
+              "description": "The password for accessing the DocSpace API using basic authentication.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_PASSWORD"
+            }
+          ]
+        },
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@onlyoffice/docspace-mcp",
+          "version": "3.0.1",
+          "runtimeHint": "npx",
+          "transport": {
+            "type": "sse",
+            "url": "https://example.com/sse",
+            "headers": [
+              {
+                "description": "The flag that indicates whether the DocSpace MCP server should use meta tools.",
+                "format": "boolean",
+                "default": "false",
+                "name": "X-Mcp-Dynamic"
+              },
+              {
+                "description": "The list of toolsets to enable for the DocSpace MCP server.",
+                "format": "string",
+                "default": "all",
+                "choices": [
+                  "all",
+                  "files",
+                  "folders",
+                  "rooms",
+                  "people"
+                ],
+                "name": "X-Mcp-Toolsets"
+              },
+              {
+                "description": "The list of tools to enable for the DocSpace MCP server.",
+                "format": "string",
+                "choices": [
+                  "delete_file",
+                  "get_file_info",
+                  "update_file",
+                  "copy_batch_items",
+                  "move_batch_items",
+                  "download_file_as_text",
+                  "upload_file",
+                  "create_folder",
+                  "delete_folder",
+                  "get_folder_content",
+                  "get_folder_info",
+                  "rename_folder",
+                  "get_my_folder",
+                  "create_room",
+                  "get_room_info",
+                  "update_room",
+                  "archive_room",
+                  "set_room_security",
+                  "get_room_security_info",
+                  "get_rooms_folder",
+                  "get_room_types",
+                  "get_room_access_levels",
+                  "get_all_people"
+                ],
+                "name": "X-Mcp-Enabled-Tools"
+              },
+              {
+                "description": "The list of tools to disable for the DocSpace MCP server.",
+                "format": "string",
+                "choices": [
+                  "delete_file",
+                  "get_file_info",
+                  "update_file",
+                  "copy_batch_items",
+                  "move_batch_items",
+                  "download_file_as_text",
+                  "upload_file",
+                  "create_folder",
+                  "delete_folder",
+                  "get_folder_content",
+                  "get_folder_info",
+                  "rename_folder",
+                  "get_my_folder",
+                  "create_room",
+                  "get_room_info",
+                  "update_room",
+                  "archive_room",
+                  "set_room_security",
+                  "get_room_security_info",
+                  "get_rooms_folder",
+                  "get_room_types",
+                  "get_room_access_levels",
+                  "get_all_people"
+                ],
+                "name": "X-Mcp-Disabled-Tools"
+              },
+              {
+                "description": "The base URL of the DocSpace instance for API requests.",
+                "format": "string",
+                "name": "X-Mcp-Base-Url"
+              },
+              {
+                "description": "The API key for accessing the DocSpace API.",
+                "format": "string",
+                "isSecret": true,
+                "name": "X-Mcp-Api-Key"
+              },
+              {
+                "description": "The Personal Access Token (PAT) for accessing the DocSpace API.",
+                "format": "string",
+                "isSecret": true,
+                "name": "X-Mcp-Auth-Token"
+              },
+              {
+                "description": "The username for accessing the DocSpace API using basic authentication.",
+                "format": "string",
+                "name": "X-Mcp-Username"
+              },
+              {
+                "description": "The password for accessing the DocSpace API using basic authentication.",
+                "format": "string",
+                "isSecret": true,
+                "name": "X-Mcp-Password"
+              }
+            ]
+          },
+          "environmentVariables": [
+            {
+              "description": "The transport protocol to use for communication with the DocSpace MCP server.",
+              "format": "string",
+              "default": "stdio",
+              "choices": [
+                "stdio",
+                "sse",
+                "streamable-http",
+                "http"
+              ],
+              "name": "DOCSPACE_TRANSPORT"
+            },
+            {
+              "description": "The flag that indicates whether the DocSpace MCP server should use meta tools.",
+              "format": "boolean",
+              "default": "false",
+              "name": "DOCSPACE_DYNAMIC"
+            },
+            {
+              "description": "The list of toolsets to enable for the DocSpace MCP server.",
+              "format": "string",
+              "default": "all",
+              "choices": [
+                "all",
+                "files",
+                "folders",
+                "rooms",
+                "people"
+              ],
+              "name": "DOCSPACE_TOOLSETS"
+            },
+            {
+              "description": "The list of tools to enable for the DocSpace MCP server.",
+              "format": "string",
+              "choices": [
+                "delete_file",
+                "get_file_info",
+                "update_file",
+                "copy_batch_items",
+                "move_batch_items",
+                "download_file_as_text",
+                "upload_file",
+                "create_folder",
+                "delete_folder",
+                "get_folder_content",
+                "get_folder_info",
+                "rename_folder",
+                "get_my_folder",
+                "create_room",
+                "get_room_info",
+                "update_room",
+                "archive_room",
+                "set_room_security",
+                "get_room_security_info",
+                "get_rooms_folder",
+                "get_room_types",
+                "get_room_access_levels",
+                "get_all_people"
+              ],
+              "name": "DOCSPACE_ENABLED_TOOLS"
+            },
+            {
+              "description": "The list of tools to disable for the DocSpace MCP server.",
+              "format": "string",
+              "choices": [
+                "delete_file",
+                "get_file_info",
+                "update_file",
+                "copy_batch_items",
+                "move_batch_items",
+                "download_file_as_text",
+                "upload_file",
+                "create_folder",
+                "delete_folder",
+                "get_folder_content",
+                "get_folder_info",
+                "rename_folder",
+                "get_my_folder",
+                "create_room",
+                "get_room_info",
+                "update_room",
+                "archive_room",
+                "set_room_security",
+                "get_room_security_info",
+                "get_rooms_folder",
+                "get_room_types",
+                "get_room_access_levels",
+                "get_all_people"
+              ],
+              "name": "DOCSPACE_DISABLED_TOOLS"
+            },
+            {
+              "description": "The time-to-live (TTL) for HTTP sessions in milliseconds.",
+              "format": "number",
+              "default": "28800000",
+              "name": "DOCSPACE_SESSION_TTL"
+            },
+            {
+              "description": "The interval for checking HTTP sessions for expiration in milliseconds.",
+              "format": "number",
+              "default": "240000",
+              "name": "DOCSPACE_SESSION_INTERVAL"
+            },
+            {
+              "description": "The user agent to include in the `User-Agent` header for DocSpace API requests.",
+              "format": "string",
+              "default": "@onlyoffice/docspace-mcp v3.0.1",
+              "name": "DOCSPACE_USER_AGENT"
+            },
+            {
+              "description": "The base URL of the DocSpace instance for API requests.",
+              "format": "string",
+              "name": "DOCSPACE_BASE_URL"
+            },
+            {
+              "description": "The raw value to include in the Authorization header for DocSpace API requests.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_AUTHORIZATION"
+            },
+            {
+              "description": "The API key for accessing the DocSpace API.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_API_KEY"
+            },
+            {
+              "description": "The Personal Access Token (PAT) for accessing the DocSpace API.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_AUTH_TOKEN"
+            },
+            {
+              "description": "The username for accessing the DocSpace API using basic authentication.",
+              "format": "string",
+              "name": "DOCSPACE_USERNAME"
+            },
+            {
+              "description": "The password for accessing the DocSpace API using basic authentication.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_PASSWORD"
+            },
+            {
+              "description": "The host to bind the DocSpace MCP server to.",
+              "format": "string",
+              "default": "127.0.0.1",
+              "name": "DOCSPACE_HOST"
+            },
+            {
+              "description": "The port to bind the DocSpace MCP server to.",
+              "format": "number",
+              "default": "8080",
+              "name": "DOCSPACE_PORT"
+            },
+            {
+              "description": "The number of proxy servers between the DocSpace MCP server and the client.",
+              "format": "number",
+              "default": "0",
+              "name": "DOCSPACE_SERVER_PROXY_HOPS"
+            },
+            {
+              "description": "The list of allowed origins to include in the Access-Control-Allow-Origin header for CORS requests to MCP endpoints.",
+              "format": "string",
+              "default": "*",
+              "name": "DOCSPACE_SERVER_CORS_MCP_ORIGIN"
+            },
+            {
+              "description": "The maximum age in milliseconds to include in the Access-Control-Max-Age header for CORS requests to MCP endpoints.",
+              "format": "number",
+              "default": "86400000",
+              "name": "DOCSPACE_SERVER_CORS_MCP_MAX_AGE"
+            },
+            {
+              "description": "The maximum number of requests allowed per window for the MCP endpoints.",
+              "format": "number",
+              "default": "1000",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_MCP_CAPACITY"
+            },
+            {
+              "description": "The time window in milliseconds for the rate limit for the MCP endpoints.",
+              "format": "number",
+              "default": "1000",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_MCP_WINDOW"
+            },
+            {
+              "description": "The flag that indicates whether the DocSpace MCP server should accept configuration via query parameters in incoming requests.",
+              "format": "boolean",
+              "default": "true",
+              "name": "DOCSPACE_REQUEST_QUERY"
+            },
+            {
+              "description": "The flag that indicates whether the DocSpace MCP server should check for the Authorization header in incoming requests.",
+              "format": "boolean",
+              "default": "true",
+              "name": "DOCSPACE_REQUEST_AUTHORIZATION_HEADER"
+            },
+            {
+              "description": "The prefix to use with custom configuration headers for the DocSpace MCP server.",
+              "format": "string",
+              "default": "x-mcp-",
+              "name": "DOCSPACE_REQUEST_HEADER_PREFIX"
+            }
+          ]
+        },
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@onlyoffice/docspace-mcp",
+          "version": "3.0.1",
+          "runtimeHint": "npx",
+          "transport": {
+            "type": "streamable-http",
+            "url": "https://example.com/mcp",
+            "headers": [
+              {
+                "description": "The flag that indicates whether the DocSpace MCP server should use meta tools.",
+                "format": "boolean",
+                "default": "false",
+                "name": "X-Mcp-Dynamic"
+              },
+              {
+                "description": "The list of toolsets to enable for the DocSpace MCP server.",
+                "format": "string",
+                "default": "all",
+                "choices": [
+                  "all",
+                  "files",
+                  "folders",
+                  "rooms",
+                  "people"
+                ],
+                "name": "X-Mcp-Toolsets"
+              },
+              {
+                "description": "The list of tools to enable for the DocSpace MCP server.",
+                "format": "string",
+                "choices": [
+                  "delete_file",
+                  "get_file_info",
+                  "update_file",
+                  "copy_batch_items",
+                  "move_batch_items",
+                  "download_file_as_text",
+                  "upload_file",
+                  "create_folder",
+                  "delete_folder",
+                  "get_folder_content",
+                  "get_folder_info",
+                  "rename_folder",
+                  "get_my_folder",
+                  "create_room",
+                  "get_room_info",
+                  "update_room",
+                  "archive_room",
+                  "set_room_security",
+                  "get_room_security_info",
+                  "get_rooms_folder",
+                  "get_room_types",
+                  "get_room_access_levels",
+                  "get_all_people"
+                ],
+                "name": "X-Mcp-Enabled-Tools"
+              },
+              {
+                "description": "The list of tools to disable for the DocSpace MCP server.",
+                "format": "string",
+                "choices": [
+                  "delete_file",
+                  "get_file_info",
+                  "update_file",
+                  "copy_batch_items",
+                  "move_batch_items",
+                  "download_file_as_text",
+                  "upload_file",
+                  "create_folder",
+                  "delete_folder",
+                  "get_folder_content",
+                  "get_folder_info",
+                  "rename_folder",
+                  "get_my_folder",
+                  "create_room",
+                  "get_room_info",
+                  "update_room",
+                  "archive_room",
+                  "set_room_security",
+                  "get_room_security_info",
+                  "get_rooms_folder",
+                  "get_room_types",
+                  "get_room_access_levels",
+                  "get_all_people"
+                ],
+                "name": "X-Mcp-Disabled-Tools"
+              },
+              {
+                "description": "The base URL of the DocSpace instance for API requests.",
+                "format": "string",
+                "name": "X-Mcp-Base-Url"
+              },
+              {
+                "description": "The API key for accessing the DocSpace API.",
+                "format": "string",
+                "isSecret": true,
+                "name": "X-Mcp-Api-Key"
+              },
+              {
+                "description": "The Personal Access Token (PAT) for accessing the DocSpace API.",
+                "format": "string",
+                "isSecret": true,
+                "name": "X-Mcp-Auth-Token"
+              },
+              {
+                "description": "The username for accessing the DocSpace API using basic authentication.",
+                "format": "string",
+                "name": "X-Mcp-Username"
+              },
+              {
+                "description": "The password for accessing the DocSpace API using basic authentication.",
+                "format": "string",
+                "isSecret": true,
+                "name": "X-Mcp-Password"
+              }
+            ]
+          },
+          "environmentVariables": [
+            {
+              "description": "The transport protocol to use for communication with the DocSpace MCP server.",
+              "format": "string",
+              "default": "stdio",
+              "choices": [
+                "stdio",
+                "sse",
+                "streamable-http",
+                "http"
+              ],
+              "name": "DOCSPACE_TRANSPORT"
+            },
+            {
+              "description": "The flag that indicates whether the DocSpace MCP server should use meta tools.",
+              "format": "boolean",
+              "default": "false",
+              "name": "DOCSPACE_DYNAMIC"
+            },
+            {
+              "description": "The list of toolsets to enable for the DocSpace MCP server.",
+              "format": "string",
+              "default": "all",
+              "choices": [
+                "all",
+                "files",
+                "folders",
+                "rooms",
+                "people"
+              ],
+              "name": "DOCSPACE_TOOLSETS"
+            },
+            {
+              "description": "The list of tools to enable for the DocSpace MCP server.",
+              "format": "string",
+              "choices": [
+                "delete_file",
+                "get_file_info",
+                "update_file",
+                "copy_batch_items",
+                "move_batch_items",
+                "download_file_as_text",
+                "upload_file",
+                "create_folder",
+                "delete_folder",
+                "get_folder_content",
+                "get_folder_info",
+                "rename_folder",
+                "get_my_folder",
+                "create_room",
+                "get_room_info",
+                "update_room",
+                "archive_room",
+                "set_room_security",
+                "get_room_security_info",
+                "get_rooms_folder",
+                "get_room_types",
+                "get_room_access_levels",
+                "get_all_people"
+              ],
+              "name": "DOCSPACE_ENABLED_TOOLS"
+            },
+            {
+              "description": "The list of tools to disable for the DocSpace MCP server.",
+              "format": "string",
+              "choices": [
+                "delete_file",
+                "get_file_info",
+                "update_file",
+                "copy_batch_items",
+                "move_batch_items",
+                "download_file_as_text",
+                "upload_file",
+                "create_folder",
+                "delete_folder",
+                "get_folder_content",
+                "get_folder_info",
+                "rename_folder",
+                "get_my_folder",
+                "create_room",
+                "get_room_info",
+                "update_room",
+                "archive_room",
+                "set_room_security",
+                "get_room_security_info",
+                "get_rooms_folder",
+                "get_room_types",
+                "get_room_access_levels",
+                "get_all_people"
+              ],
+              "name": "DOCSPACE_DISABLED_TOOLS"
+            },
+            {
+              "description": "The time-to-live (TTL) for HTTP sessions in milliseconds.",
+              "format": "number",
+              "default": "28800000",
+              "name": "DOCSPACE_SESSION_TTL"
+            },
+            {
+              "description": "The interval for checking HTTP sessions for expiration in milliseconds.",
+              "format": "number",
+              "default": "240000",
+              "name": "DOCSPACE_SESSION_INTERVAL"
+            },
+            {
+              "description": "The user agent to include in the `User-Agent` header for DocSpace API requests.",
+              "format": "string",
+              "default": "@onlyoffice/docspace-mcp v3.0.1",
+              "name": "DOCSPACE_USER_AGENT"
+            },
+            {
+              "description": "The base URL of the DocSpace instance for API requests.",
+              "format": "string",
+              "name": "DOCSPACE_BASE_URL"
+            },
+            {
+              "description": "The raw value to include in the Authorization header for DocSpace API requests.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_AUTHORIZATION"
+            },
+            {
+              "description": "The API key for accessing the DocSpace API.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_API_KEY"
+            },
+            {
+              "description": "The Personal Access Token (PAT) for accessing the DocSpace API.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_AUTH_TOKEN"
+            },
+            {
+              "description": "The username for accessing the DocSpace API using basic authentication.",
+              "format": "string",
+              "name": "DOCSPACE_USERNAME"
+            },
+            {
+              "description": "The password for accessing the DocSpace API using basic authentication.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_PASSWORD"
+            },
+            {
+              "description": "The host to bind the DocSpace MCP server to.",
+              "format": "string",
+              "default": "127.0.0.1",
+              "name": "DOCSPACE_HOST"
+            },
+            {
+              "description": "The port to bind the DocSpace MCP server to.",
+              "format": "number",
+              "default": "8080",
+              "name": "DOCSPACE_PORT"
+            },
+            {
+              "description": "The number of proxy servers between the DocSpace MCP server and the client.",
+              "format": "number",
+              "default": "0",
+              "name": "DOCSPACE_SERVER_PROXY_HOPS"
+            },
+            {
+              "description": "The list of allowed origins to include in the Access-Control-Allow-Origin header for CORS requests to MCP endpoints.",
+              "format": "string",
+              "default": "*",
+              "name": "DOCSPACE_SERVER_CORS_MCP_ORIGIN"
+            },
+            {
+              "description": "The maximum age in milliseconds to include in the Access-Control-Max-Age header for CORS requests to MCP endpoints.",
+              "format": "number",
+              "default": "86400000",
+              "name": "DOCSPACE_SERVER_CORS_MCP_MAX_AGE"
+            },
+            {
+              "description": "The maximum number of requests allowed per window for the MCP endpoints.",
+              "format": "number",
+              "default": "1000",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_MCP_CAPACITY"
+            },
+            {
+              "description": "The time window in milliseconds for the rate limit for the MCP endpoints.",
+              "format": "number",
+              "default": "1000",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_MCP_WINDOW"
+            },
+            {
+              "description": "The flag that indicates whether the DocSpace MCP server should accept configuration via query parameters in incoming requests.",
+              "format": "boolean",
+              "default": "true",
+              "name": "DOCSPACE_REQUEST_QUERY"
+            },
+            {
+              "description": "The flag that indicates whether the DocSpace MCP server should check for the Authorization header in incoming requests.",
+              "format": "boolean",
+              "default": "true",
+              "name": "DOCSPACE_REQUEST_AUTHORIZATION_HEADER"
+            },
+            {
+              "description": "The prefix to use with custom configuration headers for the DocSpace MCP server.",
+              "format": "string",
+              "default": "x-mcp-",
+              "name": "DOCSPACE_REQUEST_HEADER_PREFIX"
+            }
+          ]
+        },
+        {
+          "registryType": "oci",
+          "identifier": "docker.io/onlyoffice/docspace-mcp:3.0.1",
+          "runtimeHint": "docker",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "The transport protocol to use for communication with the DocSpace MCP server.",
+              "format": "string",
+              "default": "stdio",
+              "choices": [
+                "stdio",
+                "sse",
+                "streamable-http",
+                "http"
+              ],
+              "name": "DOCSPACE_TRANSPORT"
+            },
+            {
+              "description": "The flag that indicates whether the DocSpace MCP server should use meta tools.",
+              "format": "boolean",
+              "default": "false",
+              "name": "DOCSPACE_DYNAMIC"
+            },
+            {
+              "description": "The list of toolsets to enable for the DocSpace MCP server.",
+              "format": "string",
+              "default": "all",
+              "choices": [
+                "all",
+                "files",
+                "folders",
+                "rooms",
+                "people"
+              ],
+              "name": "DOCSPACE_TOOLSETS"
+            },
+            {
+              "description": "The list of tools to enable for the DocSpace MCP server.",
+              "format": "string",
+              "choices": [
+                "delete_file",
+                "get_file_info",
+                "update_file",
+                "copy_batch_items",
+                "move_batch_items",
+                "download_file_as_text",
+                "upload_file",
+                "create_folder",
+                "delete_folder",
+                "get_folder_content",
+                "get_folder_info",
+                "rename_folder",
+                "get_my_folder",
+                "create_room",
+                "get_room_info",
+                "update_room",
+                "archive_room",
+                "set_room_security",
+                "get_room_security_info",
+                "get_rooms_folder",
+                "get_room_types",
+                "get_room_access_levels",
+                "get_all_people"
+              ],
+              "name": "DOCSPACE_ENABLED_TOOLS"
+            },
+            {
+              "description": "The list of tools to disable for the DocSpace MCP server.",
+              "format": "string",
+              "choices": [
+                "delete_file",
+                "get_file_info",
+                "update_file",
+                "copy_batch_items",
+                "move_batch_items",
+                "download_file_as_text",
+                "upload_file",
+                "create_folder",
+                "delete_folder",
+                "get_folder_content",
+                "get_folder_info",
+                "rename_folder",
+                "get_my_folder",
+                "create_room",
+                "get_room_info",
+                "update_room",
+                "archive_room",
+                "set_room_security",
+                "get_room_security_info",
+                "get_rooms_folder",
+                "get_room_types",
+                "get_room_access_levels",
+                "get_all_people"
+              ],
+              "name": "DOCSPACE_DISABLED_TOOLS"
+            },
+            {
+              "description": "The user agent to include in the `User-Agent` header for DocSpace API requests.",
+              "format": "string",
+              "default": "@onlyoffice/docspace-mcp v3.0.1",
+              "name": "DOCSPACE_USER_AGENT"
+            },
+            {
+              "description": "The base URL of the DocSpace instance for API requests.",
+              "format": "string",
+              "name": "DOCSPACE_BASE_URL"
+            },
+            {
+              "description": "The raw value to include in the Authorization header for DocSpace API requests.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_AUTHORIZATION"
+            },
+            {
+              "description": "The API key for accessing the DocSpace API.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_API_KEY"
+            },
+            {
+              "description": "The Personal Access Token (PAT) for accessing the DocSpace API.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_AUTH_TOKEN"
+            },
+            {
+              "description": "The username for accessing the DocSpace API using basic authentication.",
+              "format": "string",
+              "name": "DOCSPACE_USERNAME"
+            },
+            {
+              "description": "The password for accessing the DocSpace API using basic authentication.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_PASSWORD"
+            }
+          ]
+        },
+        {
+          "registryType": "oci",
+          "identifier": "docker.io/onlyoffice/docspace-mcp:3.0.1",
+          "runtimeHint": "docker",
+          "transport": {
+            "type": "sse",
+            "url": "https://example.com/mcp",
+            "headers": [
+              {
+                "description": "The flag that indicates whether the DocSpace MCP server should use meta tools.",
+                "format": "boolean",
+                "default": "false",
+                "name": "X-Mcp-Dynamic"
+              },
+              {
+                "description": "The list of toolsets to enable for the DocSpace MCP server.",
+                "format": "string",
+                "default": "all",
+                "choices": [
+                  "all",
+                  "files",
+                  "folders",
+                  "rooms",
+                  "people"
+                ],
+                "name": "X-Mcp-Toolsets"
+              },
+              {
+                "description": "The list of tools to enable for the DocSpace MCP server.",
+                "format": "string",
+                "choices": [
+                  "delete_file",
+                  "get_file_info",
+                  "update_file",
+                  "copy_batch_items",
+                  "move_batch_items",
+                  "download_file_as_text",
+                  "upload_file",
+                  "create_folder",
+                  "delete_folder",
+                  "get_folder_content",
+                  "get_folder_info",
+                  "rename_folder",
+                  "get_my_folder",
+                  "create_room",
+                  "get_room_info",
+                  "update_room",
+                  "archive_room",
+                  "set_room_security",
+                  "get_room_security_info",
+                  "get_rooms_folder",
+                  "get_room_types",
+                  "get_room_access_levels",
+                  "get_all_people"
+                ],
+                "name": "X-Mcp-Enabled-Tools"
+              },
+              {
+                "description": "The list of tools to disable for the DocSpace MCP server.",
+                "format": "string",
+                "choices": [
+                  "delete_file",
+                  "get_file_info",
+                  "update_file",
+                  "copy_batch_items",
+                  "move_batch_items",
+                  "download_file_as_text",
+                  "upload_file",
+                  "create_folder",
+                  "delete_folder",
+                  "get_folder_content",
+                  "get_folder_info",
+                  "rename_folder",
+                  "get_my_folder",
+                  "create_room",
+                  "get_room_info",
+                  "update_room",
+                  "archive_room",
+                  "set_room_security",
+                  "get_room_security_info",
+                  "get_rooms_folder",
+                  "get_room_types",
+                  "get_room_access_levels",
+                  "get_all_people"
+                ],
+                "name": "X-Mcp-Disabled-Tools"
+              },
+              {
+                "description": "The base URL of the DocSpace instance for API requests.",
+                "format": "string",
+                "name": "X-Mcp-Base-Url"
+              },
+              {
+                "description": "The API key for accessing the DocSpace API.",
+                "format": "string",
+                "isSecret": true,
+                "name": "X-Mcp-Api-Key"
+              },
+              {
+                "description": "The Personal Access Token (PAT) for accessing the DocSpace API.",
+                "format": "string",
+                "isSecret": true,
+                "name": "X-Mcp-Auth-Token"
+              },
+              {
+                "description": "The username for accessing the DocSpace API using basic authentication.",
+                "format": "string",
+                "name": "X-Mcp-Username"
+              },
+              {
+                "description": "The password for accessing the DocSpace API using basic authentication.",
+                "format": "string",
+                "isSecret": true,
+                "name": "X-Mcp-Password"
+              }
+            ]
+          },
+          "environmentVariables": [
+            {
+              "description": "The transport protocol to use for communication with the DocSpace MCP server.",
+              "format": "string",
+              "default": "stdio",
+              "choices": [
+                "stdio",
+                "sse",
+                "streamable-http",
+                "http"
+              ],
+              "name": "DOCSPACE_TRANSPORT"
+            },
+            {
+              "description": "The flag that indicates whether the DocSpace MCP server should use meta tools.",
+              "format": "boolean",
+              "default": "false",
+              "name": "DOCSPACE_DYNAMIC"
+            },
+            {
+              "description": "The list of toolsets to enable for the DocSpace MCP server.",
+              "format": "string",
+              "default": "all",
+              "choices": [
+                "all",
+                "files",
+                "folders",
+                "rooms",
+                "people"
+              ],
+              "name": "DOCSPACE_TOOLSETS"
+            },
+            {
+              "description": "The list of tools to enable for the DocSpace MCP server.",
+              "format": "string",
+              "choices": [
+                "delete_file",
+                "get_file_info",
+                "update_file",
+                "copy_batch_items",
+                "move_batch_items",
+                "download_file_as_text",
+                "upload_file",
+                "create_folder",
+                "delete_folder",
+                "get_folder_content",
+                "get_folder_info",
+                "rename_folder",
+                "get_my_folder",
+                "create_room",
+                "get_room_info",
+                "update_room",
+                "archive_room",
+                "set_room_security",
+                "get_room_security_info",
+                "get_rooms_folder",
+                "get_room_types",
+                "get_room_access_levels",
+                "get_all_people"
+              ],
+              "name": "DOCSPACE_ENABLED_TOOLS"
+            },
+            {
+              "description": "The list of tools to disable for the DocSpace MCP server.",
+              "format": "string",
+              "choices": [
+                "delete_file",
+                "get_file_info",
+                "update_file",
+                "copy_batch_items",
+                "move_batch_items",
+                "download_file_as_text",
+                "upload_file",
+                "create_folder",
+                "delete_folder",
+                "get_folder_content",
+                "get_folder_info",
+                "rename_folder",
+                "get_my_folder",
+                "create_room",
+                "get_room_info",
+                "update_room",
+                "archive_room",
+                "set_room_security",
+                "get_room_security_info",
+                "get_rooms_folder",
+                "get_room_types",
+                "get_room_access_levels",
+                "get_all_people"
+              ],
+              "name": "DOCSPACE_DISABLED_TOOLS"
+            },
+            {
+              "description": "The time-to-live (TTL) for HTTP sessions in milliseconds.",
+              "format": "number",
+              "default": "28800000",
+              "name": "DOCSPACE_SESSION_TTL"
+            },
+            {
+              "description": "The interval for checking HTTP sessions for expiration in milliseconds.",
+              "format": "number",
+              "default": "240000",
+              "name": "DOCSPACE_SESSION_INTERVAL"
+            },
+            {
+              "description": "The user agent to include in the `User-Agent` header for DocSpace API requests.",
+              "format": "string",
+              "default": "@onlyoffice/docspace-mcp v3.0.1",
+              "name": "DOCSPACE_USER_AGENT"
+            },
+            {
+              "description": "The base URL of the DocSpace instance for API requests.",
+              "format": "string",
+              "name": "DOCSPACE_BASE_URL"
+            },
+            {
+              "description": "The raw value to include in the Authorization header for DocSpace API requests.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_AUTHORIZATION"
+            },
+            {
+              "description": "The API key for accessing the DocSpace API.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_API_KEY"
+            },
+            {
+              "description": "The Personal Access Token (PAT) for accessing the DocSpace API.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_AUTH_TOKEN"
+            },
+            {
+              "description": "The username for accessing the DocSpace API using basic authentication.",
+              "format": "string",
+              "name": "DOCSPACE_USERNAME"
+            },
+            {
+              "description": "The password for accessing the DocSpace API using basic authentication.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_PASSWORD"
+            },
+            {
+              "description": "The host to bind the DocSpace MCP server to.",
+              "format": "string",
+              "default": "127.0.0.1",
+              "name": "DOCSPACE_HOST"
+            },
+            {
+              "description": "The port to bind the DocSpace MCP server to.",
+              "format": "number",
+              "default": "8080",
+              "name": "DOCSPACE_PORT"
+            },
+            {
+              "description": "The number of proxy servers between the DocSpace MCP server and the client.",
+              "format": "number",
+              "default": "0",
+              "name": "DOCSPACE_SERVER_PROXY_HOPS"
+            },
+            {
+              "description": "The list of allowed origins to include in the Access-Control-Allow-Origin header for CORS requests to MCP endpoints.",
+              "format": "string",
+              "default": "*",
+              "name": "DOCSPACE_SERVER_CORS_MCP_ORIGIN"
+            },
+            {
+              "description": "The maximum age in milliseconds to include in the Access-Control-Max-Age header for CORS requests to MCP endpoints.",
+              "format": "number",
+              "default": "86400000",
+              "name": "DOCSPACE_SERVER_CORS_MCP_MAX_AGE"
+            },
+            {
+              "description": "The maximum number of requests allowed per window for the MCP endpoints.",
+              "format": "number",
+              "default": "1000",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_MCP_CAPACITY"
+            },
+            {
+              "description": "The time window in milliseconds for the rate limit for the MCP endpoints.",
+              "format": "number",
+              "default": "1000",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_MCP_WINDOW"
+            },
+            {
+              "description": "The flag that indicates whether the DocSpace MCP server should accept configuration via query parameters in incoming requests.",
+              "format": "boolean",
+              "default": "true",
+              "name": "DOCSPACE_REQUEST_QUERY"
+            },
+            {
+              "description": "The flag that indicates whether the DocSpace MCP server should check for the Authorization header in incoming requests.",
+              "format": "boolean",
+              "default": "true",
+              "name": "DOCSPACE_REQUEST_AUTHORIZATION_HEADER"
+            },
+            {
+              "description": "The prefix to use with custom configuration headers for the DocSpace MCP server.",
+              "format": "string",
+              "default": "x-mcp-",
+              "name": "DOCSPACE_REQUEST_HEADER_PREFIX"
+            }
+          ]
+        },
+        {
+          "registryType": "oci",
+          "identifier": "docker.io/onlyoffice/docspace-mcp:3.0.1",
+          "runtimeHint": "docker",
+          "transport": {
+            "type": "streamable-http",
+            "url": "https://example.com/mcp",
+            "headers": [
+              {
+                "description": "The flag that indicates whether the DocSpace MCP server should use meta tools.",
+                "format": "boolean",
+                "default": "false",
+                "name": "X-Mcp-Dynamic"
+              },
+              {
+                "description": "The list of toolsets to enable for the DocSpace MCP server.",
+                "format": "string",
+                "default": "all",
+                "choices": [
+                  "all",
+                  "files",
+                  "folders",
+                  "rooms",
+                  "people"
+                ],
+                "name": "X-Mcp-Toolsets"
+              },
+              {
+                "description": "The list of tools to enable for the DocSpace MCP server.",
+                "format": "string",
+                "choices": [
+                  "delete_file",
+                  "get_file_info",
+                  "update_file",
+                  "copy_batch_items",
+                  "move_batch_items",
+                  "download_file_as_text",
+                  "upload_file",
+                  "create_folder",
+                  "delete_folder",
+                  "get_folder_content",
+                  "get_folder_info",
+                  "rename_folder",
+                  "get_my_folder",
+                  "create_room",
+                  "get_room_info",
+                  "update_room",
+                  "archive_room",
+                  "set_room_security",
+                  "get_room_security_info",
+                  "get_rooms_folder",
+                  "get_room_types",
+                  "get_room_access_levels",
+                  "get_all_people"
+                ],
+                "name": "X-Mcp-Enabled-Tools"
+              },
+              {
+                "description": "The list of tools to disable for the DocSpace MCP server.",
+                "format": "string",
+                "choices": [
+                  "delete_file",
+                  "get_file_info",
+                  "update_file",
+                  "copy_batch_items",
+                  "move_batch_items",
+                  "download_file_as_text",
+                  "upload_file",
+                  "create_folder",
+                  "delete_folder",
+                  "get_folder_content",
+                  "get_folder_info",
+                  "rename_folder",
+                  "get_my_folder",
+                  "create_room",
+                  "get_room_info",
+                  "update_room",
+                  "archive_room",
+                  "set_room_security",
+                  "get_room_security_info",
+                  "get_rooms_folder",
+                  "get_room_types",
+                  "get_room_access_levels",
+                  "get_all_people"
+                ],
+                "name": "X-Mcp-Disabled-Tools"
+              },
+              {
+                "description": "The base URL of the DocSpace instance for API requests.",
+                "format": "string",
+                "name": "X-Mcp-Base-Url"
+              },
+              {
+                "description": "The API key for accessing the DocSpace API.",
+                "format": "string",
+                "isSecret": true,
+                "name": "X-Mcp-Api-Key"
+              },
+              {
+                "description": "The Personal Access Token (PAT) for accessing the DocSpace API.",
+                "format": "string",
+                "isSecret": true,
+                "name": "X-Mcp-Auth-Token"
+              },
+              {
+                "description": "The username for accessing the DocSpace API using basic authentication.",
+                "format": "string",
+                "name": "X-Mcp-Username"
+              },
+              {
+                "description": "The password for accessing the DocSpace API using basic authentication.",
+                "format": "string",
+                "isSecret": true,
+                "name": "X-Mcp-Password"
+              }
+            ]
+          },
+          "environmentVariables": [
+            {
+              "description": "The transport protocol to use for communication with the DocSpace MCP server.",
+              "format": "string",
+              "default": "stdio",
+              "choices": [
+                "stdio",
+                "sse",
+                "streamable-http",
+                "http"
+              ],
+              "name": "DOCSPACE_TRANSPORT"
+            },
+            {
+              "description": "The flag that indicates whether the DocSpace MCP server should use meta tools.",
+              "format": "boolean",
+              "default": "false",
+              "name": "DOCSPACE_DYNAMIC"
+            },
+            {
+              "description": "The list of toolsets to enable for the DocSpace MCP server.",
+              "format": "string",
+              "default": "all",
+              "choices": [
+                "all",
+                "files",
+                "folders",
+                "rooms",
+                "people"
+              ],
+              "name": "DOCSPACE_TOOLSETS"
+            },
+            {
+              "description": "The list of tools to enable for the DocSpace MCP server.",
+              "format": "string",
+              "choices": [
+                "delete_file",
+                "get_file_info",
+                "update_file",
+                "copy_batch_items",
+                "move_batch_items",
+                "download_file_as_text",
+                "upload_file",
+                "create_folder",
+                "delete_folder",
+                "get_folder_content",
+                "get_folder_info",
+                "rename_folder",
+                "get_my_folder",
+                "create_room",
+                "get_room_info",
+                "update_room",
+                "archive_room",
+                "set_room_security",
+                "get_room_security_info",
+                "get_rooms_folder",
+                "get_room_types",
+                "get_room_access_levels",
+                "get_all_people"
+              ],
+              "name": "DOCSPACE_ENABLED_TOOLS"
+            },
+            {
+              "description": "The list of tools to disable for the DocSpace MCP server.",
+              "format": "string",
+              "choices": [
+                "delete_file",
+                "get_file_info",
+                "update_file",
+                "copy_batch_items",
+                "move_batch_items",
+                "download_file_as_text",
+                "upload_file",
+                "create_folder",
+                "delete_folder",
+                "get_folder_content",
+                "get_folder_info",
+                "rename_folder",
+                "get_my_folder",
+                "create_room",
+                "get_room_info",
+                "update_room",
+                "archive_room",
+                "set_room_security",
+                "get_room_security_info",
+                "get_rooms_folder",
+                "get_room_types",
+                "get_room_access_levels",
+                "get_all_people"
+              ],
+              "name": "DOCSPACE_DISABLED_TOOLS"
+            },
+            {
+              "description": "The time-to-live (TTL) for HTTP sessions in milliseconds.",
+              "format": "number",
+              "default": "28800000",
+              "name": "DOCSPACE_SESSION_TTL"
+            },
+            {
+              "description": "The interval for checking HTTP sessions for expiration in milliseconds.",
+              "format": "number",
+              "default": "240000",
+              "name": "DOCSPACE_SESSION_INTERVAL"
+            },
+            {
+              "description": "The user agent to include in the `User-Agent` header for DocSpace API requests.",
+              "format": "string",
+              "default": "@onlyoffice/docspace-mcp v3.0.1",
+              "name": "DOCSPACE_USER_AGENT"
+            },
+            {
+              "description": "The base URL of the DocSpace instance for API requests.",
+              "format": "string",
+              "name": "DOCSPACE_BASE_URL"
+            },
+            {
+              "description": "The raw value to include in the Authorization header for DocSpace API requests.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_AUTHORIZATION"
+            },
+            {
+              "description": "The API key for accessing the DocSpace API.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_API_KEY"
+            },
+            {
+              "description": "The Personal Access Token (PAT) for accessing the DocSpace API.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_AUTH_TOKEN"
+            },
+            {
+              "description": "The username for accessing the DocSpace API using basic authentication.",
+              "format": "string",
+              "name": "DOCSPACE_USERNAME"
+            },
+            {
+              "description": "The password for accessing the DocSpace API using basic authentication.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_PASSWORD"
+            },
+            {
+              "description": "The host to bind the DocSpace MCP server to.",
+              "format": "string",
+              "default": "127.0.0.1",
+              "name": "DOCSPACE_HOST"
+            },
+            {
+              "description": "The port to bind the DocSpace MCP server to.",
+              "format": "number",
+              "default": "8080",
+              "name": "DOCSPACE_PORT"
+            },
+            {
+              "description": "The number of proxy servers between the DocSpace MCP server and the client.",
+              "format": "number",
+              "default": "0",
+              "name": "DOCSPACE_SERVER_PROXY_HOPS"
+            },
+            {
+              "description": "The list of allowed origins to include in the Access-Control-Allow-Origin header for CORS requests to MCP endpoints.",
+              "format": "string",
+              "default": "*",
+              "name": "DOCSPACE_SERVER_CORS_MCP_ORIGIN"
+            },
+            {
+              "description": "The maximum age in milliseconds to include in the Access-Control-Max-Age header for CORS requests to MCP endpoints.",
+              "format": "number",
+              "default": "86400000",
+              "name": "DOCSPACE_SERVER_CORS_MCP_MAX_AGE"
+            },
+            {
+              "description": "The maximum number of requests allowed per window for the MCP endpoints.",
+              "format": "number",
+              "default": "1000",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_MCP_CAPACITY"
+            },
+            {
+              "description": "The time window in milliseconds for the rate limit for the MCP endpoints.",
+              "format": "number",
+              "default": "1000",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_MCP_WINDOW"
+            },
+            {
+              "description": "The flag that indicates whether the DocSpace MCP server should accept configuration via query parameters in incoming requests.",
+              "format": "boolean",
+              "default": "true",
+              "name": "DOCSPACE_REQUEST_QUERY"
+            },
+            {
+              "description": "The flag that indicates whether the DocSpace MCP server should check for the Authorization header in incoming requests.",
+              "format": "boolean",
+              "default": "true",
+              "name": "DOCSPACE_REQUEST_AUTHORIZATION_HEADER"
+            },
+            {
+              "description": "The prefix to use with custom configuration headers for the DocSpace MCP server.",
+              "format": "string",
+              "default": "x-mcp-",
+              "name": "DOCSPACE_REQUEST_HEADER_PREFIX"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-28T14:50:18.185782Z",
+        "updatedAt": "2025-10-28T14:50:18.185782Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.Snowflake-Labs/mcp",
+      "description": "MCP Server for Snowflake from Snowflake Labs",
+      "title": "OSS Snowflake MCP Server",
+      "repository": {
+        "url": "https://github.com/Snowflake-Labs/mcp",
+        "source": "github"
+      },
+      "version": "1.3.5",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "registryBaseUrl": "https://pypi.org",
+          "identifier": "snowflake-labs-mcp",
+          "version": "1.3.5",
+          "transport": {
+            "type": "stdio"
+          },
+          "packageArguments": [
+            {
+              "description": "Path to service specification file",
+              "isRequired": true,
+              "type": "named",
+              "name": "--service-config-file"
+            },
+            {
+              "description": "Account identifier (e.g. xy12345.us-east-1)",
+              "type": "named",
+              "name": "--account"
+            },
+            {
+              "description": "Snowflake host URL",
+              "type": "named",
+              "name": "--host"
+            },
+            {
+              "description": "Username for authentication",
+              "type": "named",
+              "name": "--user"
+            },
+            {
+              "description": "Password or programmatic access token",
+              "type": "named",
+              "name": "--password"
+            },
+            {
+              "description": "Role to use for connection",
+              "type": "named",
+              "name": "--role"
+            },
+            {
+              "description": "Warehouse to use for queries",
+              "type": "named",
+              "name": "--warehouse"
+            },
+            {
+              "description": "Whether passcode is embedded in password",
+              "type": "named",
+              "name": "--passcode-in-password"
+            },
+            {
+              "description": "MFA passcode for authentication",
+              "type": "named",
+              "name": "--passcode"
+            },
+            {
+              "description": "Private key for key pair authentication",
+              "type": "named",
+              "name": "--private-key"
+            },
+            {
+              "description": "Path to private key file",
+              "type": "named",
+              "name": "--private-key-file"
+            },
+            {
+              "description": "Password for encrypted private key",
+              "type": "named",
+              "name": "--private-key-file-pwd"
+            },
+            {
+              "description": "Authentication type",
+              "default": "snowflake",
+              "type": "named",
+              "name": "--authenticator"
+            },
+            {
+              "description": "Name of connection from connections.toml (or config.toml) file",
+              "type": "named",
+              "name": "--connection-name"
+            },
+            {
+              "description": "Transport for the MCP server",
+              "default": "stdio",
+              "choices": [
+                "stdio",
+                "http",
+                "sse",
+                "streamable-http"
+              ],
+              "type": "named",
+              "name": "--transport"
+            },
+            {
+              "description": "Host address to bind the server to (default: 0.0.0.0)",
+              "default": "0.0.0.0",
+              "type": "named",
+              "name": "--server-host"
+            },
+            {
+              "description": "Port number for the server to listen on (default: 9000)",
+              "default": "9000",
+              "type": "named",
+              "name": "--port"
+            },
+            {
+              "description": "Custom endpoint path for HTTP transports",
+              "default": "/mcp",
+              "type": "named",
+              "name": "--endpoint"
+            }
+          ],
+          "environmentVariables": [
+            {
+              "description": "Account identifier (e.g. xy12345.us-east-1)",
+              "format": "string",
+              "name": "SNOWFLAKE_ACCOUNT"
+            },
+            {
+              "description": "Snowflake host URL",
+              "format": "string",
+              "name": "SNOWFLAKE_HOST"
+            },
+            {
+              "description": "Username for authentication",
+              "format": "string",
+              "name": "SNOWFLAKE_USER"
+            },
+            {
+              "description": "Password or programmatic access token",
+              "format": "string",
+              "isSecret": true,
+              "name": "SNOWFLAKE_PASSWORD"
+            },
+            {
+              "description": "Role to use for connection",
+              "format": "string",
+              "name": "SNOWFLAKE_ROLE"
+            },
+            {
+              "description": "Warehouse to use for queries",
+              "format": "string",
+              "name": "SNOWFLAKE_WAREHOUSE"
+            },
+            {
+              "description": "MFA passcode for authentication",
+              "format": "string",
+              "name": "SNOWFLAKE_PASSCODE"
+            },
+            {
+              "description": "Private key for key pair authentication",
+              "format": "string",
+              "isSecret": true,
+              "name": "SNOWFLAKE_PRIVATE_KEY"
+            },
+            {
+              "description": "Path to private key file",
+              "format": "string",
+              "name": "SNOWFLAKE_PRIVATE_KEY_FILE"
+            },
+            {
+              "description": "Password for encrypted private key",
+              "format": "string",
+              "name": "SNOWFLAKE_PRIVATE_KEY_FILE_PWD"
+            },
+            {
+              "description": "Host address to bind the server to (default: 0.0.0.0)",
+              "format": "string",
+              "name": "SNOWFLAKE_MCP_HOST"
+            },
+            {
+              "description": "Port number for the server to listen on (default: 9000)",
+              "format": "number",
+              "name": "SNOWFLAKE_MCP_PORT"
+            },
+            {
+              "description": "Endpoint path for the MCP server (default: /mcp)",
+              "format": "string",
+              "name": "SNOWFLAKE_MCP_ENDPOINT"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-28T15:19:33.176334Z",
+        "updatedAt": "2025-10-28T15:19:33.176334Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.wrenchpilot/it-tools-mcp",
+      "description": "MCP server exposing 100+ IT tools and utilities for developers and system administrators.",
+      "repository": {
+        "url": "https://github.com/wrenchpilot/it-tools-mcp",
+        "source": "github"
+      },
+      "version": "5.2.8",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "it-tools-mcp",
+          "version": "5.2.8",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-28T16:06:38.491691Z",
+        "updatedAt": "2025-10-28T16:06:38.491691Z",
         "isLatest": true
       }
     }
