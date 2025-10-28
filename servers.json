@@ -42490,7 +42490,7 @@
         "status": "active",
         "publishedAt": "2025-10-07T12:20:23.67184Z",
         "updatedAt": "2025-10-07T12:20:23.67184Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -63836,6 +63836,251 @@
         "status": "active",
         "publishedAt": "2025-10-28T16:06:38.491691Z",
         "updatedAt": "2025-10-28T16:06:38.491691Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.mapbox/mcp-devkit-server",
+      "description": "Provides AI assistants with direct access to Mapbox developer APIs and documentation.",
+      "repository": {
+        "url": "https://github.com/mapbox/mcp-devkit-server",
+        "source": "github"
+      },
+      "version": "0.4.6-dev-2",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@mapbox/mcp-devkit-server",
+          "version": "0.4.6-dev-2",
+          "runtimeHint": "npx",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your Mapbox access token. See docs for required scopes.",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "MAPBOX_ACCESS_TOKEN"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-28T17:28:27.230289Z",
+        "updatedAt": "2025-10-28T17:28:27.230289Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.SigNoz/signoz-mcp-server",
+      "description": "SigNoz MCP server: access metrics, traces, logs, alerts, and dashboards via AI assistants",
+      "title": "SigNoz MCP Server",
+      "repository": {
+        "url": "",
+        "source": ""
+      },
+      "version": "0.0.1",
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "signoz/signoz-mcp-server:latest",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-28T17:59:22.34318Z",
+        "updatedAt": "2025-10-28T17:59:22.34318Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.mapbox/mcp-devkit-server",
+      "description": "Provides AI assistants with direct access to Mapbox developer APIs and documentation.",
+      "repository": {
+        "url": "https://github.com/mapbox/mcp-devkit-server",
+        "source": "github"
+      },
+      "version": "0.4.6",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@mapbox/mcp-devkit-server",
+          "version": "0.4.6",
+          "runtimeHint": "npx",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your Mapbox access token. See docs for required scopes.",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "MAPBOX_ACCESS_TOKEN"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-28T18:49:44.946194Z",
+        "updatedAt": "2025-10-28T18:49:44.946194Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.mapbox/mcp-server",
+      "description": "Geospatial intelligence with Mapbox APIs like geocoding, POI search, directions, isochrones, etc.",
+      "repository": {
+        "url": "https://github.com/mapbox/mcp-server",
+        "source": "github"
+      },
+      "version": "0.6.1",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@mapbox/mcp-server",
+          "version": "0.6.1",
+          "runtimeHint": "npx",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your Mapbox access token",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "MAPBOX_ACCESS_TOKEN"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-28T18:58:37.446204Z",
+        "updatedAt": "2025-10-28T18:58:37.446204Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.paypal/paypal-mcp-server",
+      "description": "A command line tool for setting up PayPal MCP server",
+      "repository": {
+        "url": "https://github.com/paypal/paypal-mcp-server",
+        "source": "github"
+      },
+      "version": "1.8.1",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@paypal/mcp",
+          "version": "1.8.1",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "YOUR_PAYPAL_ACCESS_TOKEN ref: https://docs.paypal.ai/developer/how-to/api/get-started ",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "PAYPAL_ACCESS_TOKEN"
+            },
+            {
+              "description": "'SANDBOX' or 'LIVE'",
+              "isRequired": true,
+              "format": "string",
+              "name": "PAYPAL_ENVIRONMENT"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-28T19:13:46.508171Z",
+        "updatedAt": "2025-10-28T19:13:46.508171Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.paypal.mcp/mcp",
+      "description": "PayPal MCP server provides access to PayPal services and operations for AI assistants",
+      "repository": {
+        "url": "",
+        "source": ""
+      },
+      "version": "1.0.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.paypal.com/mcp",
+          "headers": [
+            {
+              "description": "OAuth Bearer token for API authentication (format: Bearer <token>)",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "Authorization"
+            }
+          ]
+        },
+        {
+          "type": "sse",
+          "url": "https://mcp.paypal.com/sse",
+          "headers": [
+            {
+              "description": "OAuth Bearer token for API authentication (format: Bearer <token>)",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "Authorization"
+            }
+          ]
+        }
+      ],
+      "_meta": {}
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-28T19:34:19.455268Z",
+        "updatedAt": "2025-10-28T19:34:19.455268Z",
         "isLatest": true
       }
     }
