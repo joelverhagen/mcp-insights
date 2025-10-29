@@ -4,10 +4,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "app.getdialer/dialer",
       "description": "An MCP server that provides your you make outbound phone calls using your own phone number",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -34,10 +31,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "app.getdialer/dialer",
       "description": "An MCP server that provides lets you make outbound phone calls using your own phone number",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.1",
       "remotes": [
         {
@@ -1247,10 +1241,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "md.install/try",
       "description": "Create guides to instruct coding agents to use your software (SDK, library, framework, API, etc).",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.1.0",
       "remotes": [
         {
@@ -1312,10 +1303,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "md.install/try",
       "description": "Create guides as MCP servers to instruct coding agents to use your software (library, API, etc).",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.1.1",
       "remotes": [
         {
@@ -1431,10 +1419,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "ai.shawndurrani/mcp-merchant",
       "description": "Search-only commerce MCP server backed by Stripe (test)",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.1.0",
       "packages": [
         {
@@ -2329,10 +2314,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "com.close/close-mcp",
       "description": "Close CRM to manage your sales pipeline. Learn more at https://close.com or https://mcp.close.com",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -2425,10 +2407,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "com.mintmcp/gmail",
       "description": "A MintMCP server for Gmail that lets you search, read, and draft emails and replies.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -2990,10 +2969,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "ai.alpic.test/test-mcp-server",
       "description": "Alpic Test MCP Server - great server!",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.0.1",
       "remotes": [
         {
@@ -3051,10 +3027,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "app.zenable/zenable",
       "description": "Zenable cleans up sloppy AI code and prevents vulnerabilities with deterministic guardrails",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -3765,10 +3738,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "com.pga/pga-golf",
       "description": "PGA's official MCP Server for all things golf-related. Find a coach, play golf, improve your game.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.0.1",
       "remotes": [
         {
@@ -3897,10 +3867,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.coupler/remote-mcp-server",
       "description": "Coupler.io remote MCP server",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.0.1",
       "remotes": [
         {
@@ -3923,10 +3890,7 @@
       "$schema": "",
       "name": "io.github.ruvnet/claude-flow",
       "description": "AI orchestration with hive-mind swarms, neural networks, and 87 MCP tools for enterprise dev.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "2.0.0-alpha.104",
       "packages": [
         {
@@ -4127,10 +4091,7 @@
       "$schema": "",
       "name": "io.github.ruvnet/claude-flow",
       "description": "AI orchestration with hive-mind swarms, neural networks, and 87 MCP tools for enterprise dev.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "2.0.0-alpha.105",
       "packages": [
         {
@@ -4476,10 +4437,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "ai.smithery/CollectiveSpend-collectivespend-smithery-mcp",
       "description": "Connect CollectiveSpend with Xero to manage contacts. Retrieve, create, and update contact records…",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -4511,10 +4469,7 @@
       "$schema": "",
       "name": "io.github.ruvnet/ruv-swarm",
       "description": "Neural network swarm orchestration with WebAssembly acceleration and MCP integration",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.18"
     },
     "_meta": {
@@ -4657,10 +4612,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "ai.zine/mcp",
       "description": "Your memory, everywhere AI goes. Build knowledge once, access it via MCP anywhere.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.1",
       "remotes": [
         {
@@ -4718,10 +4670,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "info.mosaique/mcp",
       "description": "Search and list latest international news (sources, comments, knowledge graph).",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -4752,10 +4701,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "ai.smithery/sachicali-discordmcp-suite",
       "description": "Control your Discord community: send/read messages, manage channels and forums, and handle webhook…",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.2.0",
       "remotes": [
         {
@@ -4787,10 +4733,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "com.peek/mcp",
       "description": "Build travel itineraries with Peek's 300k+ experiences. Search, details, and availability.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.1.0",
       "remotes": [
         {
@@ -5014,10 +4957,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "com.enigma/enigma-mcp-server",
       "description": "An MCP server that provides access to trusted data about business identity and activity",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -5056,10 +4996,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "com.enigma/enigma-mcp-server",
       "description": "An MCP server that provides access to trusted data about business identity and activity",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0-build1",
       "remotes": [
         {
@@ -5195,10 +5132,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "ai.smithery/smithery-toolbox",
       "description": "Toolbox dynamically routes to all MCPs in the Smithery registry based on your agent's need. When a…",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -5837,10 +5771,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "ai.smithery/sasabasara-where_is_my_bus_mcp",
       "description": "Get real-time NYC bus arrivals, live vehicle locations, and service alerts. Plan trips between any…",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "2.0.0",
       "remotes": [
         {
@@ -6767,10 +6698,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.leshchenko1979/fast-mcp-telegram",
       "description": "Telegram MCP server with search and messaging capabilities",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.4.4"
     },
     "_meta": {
@@ -6885,10 +6813,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "com.timeslope/timeslope-mcp",
       "description": "Equip AI with tools for researching economic data from Federal Reserve Economic Data (FRED).",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.1.0",
       "remotes": [
         {
@@ -7153,10 +7078,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "com.notion/mcp",
       "description": "Official Notion MCP server",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.1",
       "remotes": [
         {
@@ -7288,10 +7210,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.mickymultani/crypto-bytes",
       "description": "Crypto Bytes MCP Server",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.1.1",
       "packages": [
         {
@@ -7899,10 +7818,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "ai.tickettailor/mcp",
       "description": "Provides event organisers with tools to interact with a Ticket Tailor box office account.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -8555,10 +8471,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "ai.smithery/fitaf-ai-fitaf-ai-mcp",
       "description": "Manage workouts, nutrition, goals, and progress across the FitAF platform. Connect wearables, sync…",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -8696,10 +8609,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "ai.smithery/fitaf-ai-fitaf-mcp",
       "description": "Track workouts, nutrition, body metrics, habits, and SMART goals with insights and trends. Connect…",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -10234,10 +10144,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "net.nymbo/tools",
       "description": "Remote MCP server: fetch, search, Python, TTS, memory, image, video.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -10260,10 +10167,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "ai.shawndurrani/mcp-merchant",
       "description": "Search-only commerce MCP server backed by Stripe (test)",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.1.1",
       "packages": [
         {
@@ -11535,10 +11439,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "ai.smithery/cpretzinger-ai-assistant-simple",
       "description": "UPDATED 9/1/2025! NEW TOOLS! Use the Redis Stream tools with n8n MCP Client Node for use anywhere!…",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -11661,10 +11562,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "ai.shawndurrani/mcp-registry",
       "description": "Search the public MCP Registry; discover servers and copy SSE URLs.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.1.0",
       "remotes": [
         {
@@ -11792,10 +11690,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "ai.shawndurrani/mcp-registry",
       "description": "Search the public MCP Registry; discover servers and copy SSE URLs.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.1.1",
       "remotes": [
         {
@@ -11818,10 +11713,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "ai.shawndurrani/mcp-registry",
       "description": "Search the public MCP Registry; discover servers and copy SSE URLs.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.1.2",
       "remotes": [
         {
@@ -11844,10 +11736,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.karanb192/reddit-buddy-mcp",
       "description": "Reddit MCP server - browse posts, search content, analyze users.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.6-test.4"
     },
     "_meta": {
@@ -11864,10 +11753,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.karanb192/reddit-buddy-mcp",
       "description": "Reddit MCP server - browse posts, search content, analyze users.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.6-test.7",
       "packages": [
         {
@@ -12027,10 +11913,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "com.jepto/mcp",
       "description": "Jepto MCP server that provides access to client knowledgebase & analytics for connected data sources",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -12851,10 +12734,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "com.getclockwise/clockwise-mcp",
       "description": "An MCP server for managing your calendar, via Clockwise",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -13176,10 +13056,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "ai.smithery/yuhuison-mediawiki-mcp-server-auth",
       "description": "Connect to your MediaWiki using simple credentials and manage content without OAuth. Search, read,…",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.1",
       "remotes": [
         {
@@ -13461,10 +13338,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "ai.smithery/Kryptoskatt-mcp-server",
       "description": "Enable AI assistants to interact seamlessly with the DefiLlama API by translating MCP tool calls i…",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.1.0",
       "remotes": [
         {
@@ -13531,10 +13405,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "ai.explorium/mcp-explorium",
       "description": "Access live company and contact data from Explorium's AgentSource B2B platform.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -14048,10 +13919,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "ai.shawndurrani/mcp-merchant",
       "description": "Search-only commerce MCP server backed by Stripe (test)",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.1.3",
       "packages": [
         {
@@ -14104,10 +13972,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "com.1stdibs/1stDibs",
       "description": "MCP server for browsing and searching items on 1stDibs marketplace.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -14130,10 +13995,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "ai.shawndurrani/mcp-registry",
       "description": "Search the public MCP Registry; discover servers and copy SSE URLs.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.1.3",
       "remotes": [
         {
@@ -14283,10 +14145,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "ai.mcpanalytics/analytics",
       "description": "ML statistical analysis platform for data teams",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -14309,10 +14168,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "ai.mcpanalytics/analytics",
       "description": "MCP Analytics, searchable tools and reports with interactive HTML visualization",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.1",
       "remotes": [
         {
@@ -14422,10 +14278,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "ai.smithery/STUzhy-py_execute_mcp",
       "description": "Run Python code in a secure sandbox without local setup. Declare inline dependencies and execute s…",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -14662,10 +14515,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "dev.lingo/main",
       "description": "Lingo.dev MCP Server - World-class i18n implementation with ICU MessageFormat.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -14804,10 +14654,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "ai.smithery/Kryptoskatt-mcp-server",
       "description": "Enable AI assistants to interact seamlessly with the DefiLlama API by translating MCP tool calls i…",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -15500,10 +15347,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.karanb192/reddit-mcp-buddy",
       "description": "Reddit MCP server - browse posts, search content, analyze users.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.1.0",
       "packages": [
         {
@@ -15633,10 +15477,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "com.getunblocked/unblocked-mcp",
       "description": "Unblocked MCP Server",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -15819,10 +15660,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "com.devcycle/mcp",
       "description": "DevCycle MCP server for feature flag management",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "6.0.2",
       "remotes": [
         {
@@ -16174,10 +16012,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "com.vercel/vercel-mcp",
       "description": "An MCP server for connecting to Vercel",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.0.1",
       "remotes": [
         {
@@ -16200,10 +16035,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "com.vercel/vercel-mcp",
       "description": "An MCP server for Vercel",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.0.2",
       "remotes": [
         {
@@ -16847,10 +16679,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.snapcall/mcp",
       "description": "MCP Server that generate video call url",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -16873,10 +16702,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.OtherVibes/mcp-as-a-judge",
       "description": "MCP as a Judge: a behavioral MCP that strengthens AI coding assistants via explicit LLM evaluations",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.3.2",
       "packages": [
         {
@@ -17128,10 +16954,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "com.devopness.mcp/server",
       "description": "An MCP server that uses Devopness to allow AI Agents to provision infrastructure to any cloud",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -17184,10 +17007,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "ai.smithery/ProfessionalWiki-mediawiki-mcp-server",
       "description": "Enable Large Language Model clients to interact seamlessly with any MediaWiki wiki. Perform action…",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.1.1",
       "remotes": [
         {
@@ -17433,10 +17253,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "app.linear/linear",
       "description": "MCP server for Linear project management and issue tracking",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -17489,10 +17306,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "com.devopness.mcp/server",
       "description": "Devopness MCP server for DevOps happiness! Empower AI Agents to deploy apps and infra, to any cloud.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.1",
       "remotes": [
         {
@@ -17545,10 +17359,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.abhijitjavelin/javelin-guardrails-mcp-server",
       "description": "An MCP server that provides Javelin Standalone Guardrails",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -17687,10 +17498,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.OtherVibes/mcp-as-a-judge",
       "description": "MCP as a Judge: a behavioral MCP that strengthens AI coding assistants via explicit LLM evaluations",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.3.3",
       "packages": [
         {
@@ -17920,10 +17728,7 @@
       "$schema": "",
       "name": "io.github.OtherVibes/mcp-as-a-judge",
       "description": "MCP as a Judge: a behavioral MCP that strengthens AI coding assistants via explicit LLM evaluations",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.3.12"
     },
     "_meta": {
@@ -17940,10 +17745,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "ai.smithery/kodey-ai-mapwise-mcp",
       "description": "Send friendly, personalized greetings on demand. Generate quick salutations with a simple prompt.…",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -17975,10 +17777,7 @@
       "$schema": "",
       "name": "io.github.OtherVibes/mcp-as-a-judge",
       "description": "MCP as a Judge: a behavioral MCP that strengthens AI coding assistants via explicit LLM evaluations",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.3.13"
     },
     "_meta": {
@@ -17995,10 +17794,7 @@
       "$schema": "",
       "name": "io.github.OtherVibes/mcp-as-a-judge",
       "description": "MCP as a Judge: a behavioral MCP that strengthens AI coding assistants via explicit LLM evaluations",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.3.14"
     },
     "_meta": {
@@ -18238,10 +18034,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.pubnub/mcp-server",
       "description": "PubNub MCP for Real-time messaging. API Access and SDK documentation.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.104"
     },
     "_meta": {
@@ -18258,10 +18051,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "ai.smithery/arjunkmrm-bobo",
       "description": "Send friendly, personalized greetings on command. Explore the origin of 'Hello, World' for quick c…",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.14.0",
       "remotes": [
         {
@@ -19429,10 +19219,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "ai.smithery/pythondev-pro-egw_writings_mcp_server",
       "description": "Search Ellen G. White’s writings by topic or phrase. Retrieve exact references and passages instan…",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -19464,10 +19251,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "com.make/mcp-server",
       "description": "MCP server for building, running, and managing Make automations.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -19628,10 +19412,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "com.statsig/statsig-mcp-server",
       "description": "MCP server for Statsig API - interact with Statsig's feature flags, experiments, and analytics",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -20393,10 +20174,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.karanb192/reddit-mcp-buddy",
       "description": "Reddit MCP server - browse posts, search content, analyze users.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.1.1",
       "packages": [
         {
@@ -21468,10 +21246,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "ai.smithery/kaszek-kaszek-attio-mcp",
       "description": "Automate Attio CRM workflows with fast search and bulk operations across companies, people, deals,…",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.2.0",
       "remotes": [
         {
@@ -21538,10 +21313,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "ai.smithery/duvomike-mcp",
       "description": "Transform numbers by doubling them and adding 5. Get instant results with a clear breakdown of the…",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -22028,10 +21800,7 @@
       "$schema": "",
       "name": "io.github.Skills03/scrimba-teaching",
       "description": "Interactive programming teacher using Scrimba methodology for 10x retention",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.1",
       "packages": [
         {
@@ -22149,10 +21918,7 @@
       "$schema": "",
       "name": "io.github.Skills03/scrimba-teaching",
       "description": "Interactive programming teacher using Scrimba methodology for 10x retention",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.1.0",
       "packages": [
         {
@@ -22179,10 +21945,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.wordlift/mcp-server",
       "description": "WordLift MCP Server: AI-powered content optimization and semantic analysis",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.4",
       "remotes": [
         {
@@ -22205,10 +21968,7 @@
       "$schema": "",
       "name": "io.github.Skills03/scrimba-teaching",
       "description": "Interactive programming teacher using Scrimba methodology for 10x retention",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.2.0",
       "packages": [
         {
@@ -22235,10 +21995,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.Skills03/scrimba-teaching",
       "description": "Interactive programming teacher using Scrimba's methodology for 10x retention",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "2.0.0",
       "packages": [
         {
@@ -22666,10 +22423,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.martymarkenson/postgres-connector",
       "description": "MCP server for querying PostgreSQL databases",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "packages": [
         {
@@ -22861,10 +22615,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.Lungshot/ninjaone",
       "description": "MCP server for NinjaONE RMM with device management, monitoring, and automation",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.2.9"
     },
     "_meta": {
@@ -22881,10 +22632,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "com.proxylink-mcp/mcp-server",
       "description": "ProxyLink MCP server for finding and booking home service professionals",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "2.0.0",
       "remotes": [
         {
@@ -23046,10 +22794,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "com.close/close-mcp",
       "description": "Close CRM to manage your sales pipeline. Learn more at https://close.com or https://mcp.close.com",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.1",
       "remotes": [
         {
@@ -23072,10 +22817,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "com.findyourfivepm/mcp-server",
       "description": "Discover cities where it's currently 5PM around the world with timezone and location data.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.2",
       "remotes": [
         {
@@ -23530,10 +23272,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "com.wix/mcp",
       "description": "A Model Context Protocol server for Wix AI tools",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -23560,10 +23299,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.martymarkenson/postgres-connector",
       "description": "MCP server for querying PostgreSQL databases",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.1",
       "packages": [
         {
@@ -23636,10 +23372,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.ptyagiegnyte/egnyte-remote",
       "description": "Secure integration between AI tools and Egnyte content with search, analysis, and workflow tools.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0"
     },
     "_meta": {
@@ -23656,10 +23389,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.ptyagiegnyte/egnyte-remote",
       "description": "Secure integration between AI tools and Egnyte content with search, analysis, and workflow tools.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.1"
     },
     "_meta": {
@@ -23676,10 +23406,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.neverinfamous/sqlite-mcp-server",
       "description": "SQLite MCP server with 73 tools for JSONB, full-text search, geospatial, and analytics.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "2.6.0"
     },
     "_meta": {
@@ -23696,10 +23423,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.neverinfamous/memory-journal-mcp",
       "description": "Developer project journal with Git context, semantic search, and 7 specialized tools.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0"
     },
     "_meta": {
@@ -24084,10 +23808,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.SamYuan1990/i18n-agent-action",
       "description": "An i18n github action for language translate",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "mcp",
       "packages": [
         {
@@ -24328,10 +24049,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.srikrishna235/scrimba-teaching-mcp",
       "description": "Unified MCP for Scrimba interactive programming education with visual learning",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "3.0.1",
       "packages": [
         {
@@ -24416,10 +24134,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "co.pipeboard/meta-ads-mcp",
       "description": "Facebook / Meta Ads automation with AI: analyze performance, test creatives, optimize spend.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.11",
       "remotes": [
         {
@@ -24442,10 +24157,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "net.todoist/mcp",
       "description": "Official Todoist MCP server for AI assistants to manage tasks, projects, and workflows.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -24468,10 +24180,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "co.pipeboard/meta-ads-mcp",
       "description": "Facebook / Meta Ads automation with AI: analyze performance, test creatives, optimize spend.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.12",
       "packages": [
         {
@@ -24504,10 +24213,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "co.pipeboard/meta-ads-mcp",
       "description": "Facebook / Meta Ads automation with AI: analyze performance, test creatives, optimize spend.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.13",
       "packages": [
         {
@@ -24679,10 +24385,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.srikrishna235/scrimba-teaching-mcp",
       "description": "Unified MCP for Scrimba's interactive programming education with visual learning",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "3.0.2",
       "packages": [
         {
@@ -24709,10 +24412,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.srikrishna235/scrimba-teaching-mcp",
       "description": "Unified MCP for Scrimba's interactive programming education with visual learning",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "3.0.3",
       "packages": [
         {
@@ -24739,10 +24439,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.srikrishna235/scrimba-teaching-mcp",
       "description": "Unified MCP for Scrimba's interactive programming education with visual learning",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "3.0.4",
       "packages": [
         {
@@ -24769,10 +24466,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "net.singular/mcp-server",
       "description": "Marketing intelligence MCP server providing campaign performance data and analytics tools.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -25067,10 +24761,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "com.tableall/mcp",
       "description": "Access Japan's finest Michelin-starred restaurants. Search, check availability, and browse menus.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -25093,10 +24784,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "technology.draup/api-server",
       "description": "Global labour & market data for skills, workforce, planning, stakeholders, jobs, news & profiles",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -25252,10 +24940,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.martymarkenson/postgres-connector",
       "description": "MCP server for querying PostgreSQL databases",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.2",
       "packages": [
         {
@@ -25689,10 +25374,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "com.windowsforum/mcp-server",
       "description": "MCP server for WindowsForum.com with search, document retrieval, and real-time forum analytics.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -26251,10 +25933,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.foqal/Foqal",
       "description": "Foqal turns Slack/Teams into efficient support platforms with AI-powered ticketing.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "2.0.0",
       "websiteUrl": "https://www.foqal.io?utm_source=mcp-registry&utm_medium=registry",
       "remotes": [
@@ -27910,10 +27589,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.catchmetrics.mcp/rum-analytics",
       "description": "RUM platform for web performance analytics, Core Web Vitals, and third-party script monitoring.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -28417,10 +28093,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.CodeCraftersLLC/local-voice-mcp",
       "description": "Give your MCP clients the ability to speak by running local voice models using Chatterbox TTS",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.1.5",
       "packages": [
         {
@@ -28447,10 +28120,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.flarco/sling-cli",
       "description": "Sling CLI MCP server for data pipeline and replication management",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.4.24"
     },
     "_meta": {
@@ -28467,10 +28137,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.slingdata/sling-cli",
       "description": "Sling CLI MCP server for data pipeline and replication management",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.4.24",
       "packages": [
         {
@@ -28497,10 +28164,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.slingdata/sling-cli",
       "description": "Sling CLI MCP server for data pipeline and replication management",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.4.23",
       "packages": [
         {
@@ -28527,10 +28191,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.slingdata/sling-cli",
       "description": "Sling CLI MCP server for querying any database, running data pipelines and managing replications",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.4.25",
       "packages": [
         {
@@ -28557,10 +28218,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "app.zenable/zenable",
       "description": "Zenable cleans up sloppy AI code and prevents vulnerabilities with deterministic guardrails",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "2.0.0",
       "remotes": [
         {
@@ -28932,10 +28590,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "ai.smithery/arjunkmrm-local-test2",
       "description": "Send friendly greetings instantly. Learn the origin of 'Hello, World' to add a fun fact to your me…",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -28965,10 +28620,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "com.brokerchooser/broker-safety",
       "description": "MCP server offering regulator-sourced legitimacy checks on investment entities by name or URL.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -29024,10 +28676,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "ai.smithery/arjunkmrm-test2",
       "description": "Greet anyone by name with a friendly message. Explore the origin of 'Hello, World' to add context…",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -30004,10 +29653,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.cloudquery/mcp",
       "description": "CloudQuery MCP server for asset inventory data. Supports CLI, PostgreSQL, and Platform modes.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.6.6",
       "packages": [
         {
@@ -30335,10 +29981,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.cloudquery/mcp",
       "description": "CloudQuery MCP server for asset inventory data. Supports CLI, PostgreSQL, and Platform modes.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.6.8",
       "packages": [
         {
@@ -30436,10 +30079,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.eghuzefa/engineer-your-data",
       "description": "MCP server for data engineering: validation, transformation, visualization, and APIs.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.1.0",
       "packages": [
         {
@@ -30599,10 +30239,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.aikts/yandex-tracker-mcp",
       "description": "MCP server for Yandex Tracker API.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.4.5",
       "packages": [
         {
@@ -30858,10 +30495,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.therealtimex/charts-mcp",
       "description": "MCP server for generating charts using AntV. Supports various chart types through MCP tools.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.1",
       "packages": [
         {
@@ -31339,10 +30973,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.therealtimex/charts-mcp",
       "description": "MCP server for generating charts using AntV. Supports various chart types through MCP tools.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.2",
       "packages": [
         {
@@ -31441,10 +31072,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.therealtimex/charts-mcp",
       "description": "MCP server for generating charts using AntV. Supports various chart types through MCP tools.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.3",
       "packages": [
         {
@@ -31645,10 +31273,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.cloudquery/mcp",
       "description": "CloudQuery MCP server for asset inventory data. Supports CLI, PostgreSQL, and Platform modes.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.6.9",
       "packages": [
         {
@@ -31712,10 +31337,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.eghuzefa/engineer-your-data",
       "description": "MCP server for data engineering: validation, transformation, visualization, and APIs.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.1.1",
       "packages": [
         {
@@ -31772,10 +31394,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.therealtimex/charts-mcp",
       "description": "MCP server for generating charts using AntV. Supports various chart types through MCP tools.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.4",
       "packages": [
         {
@@ -31928,10 +31547,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.nailuoGG/anki-mcp-server",
       "description": "MCP server enabling LLMs to interact with Anki flashcard software through AnkiConnect",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.1.8",
       "packages": [
         {
@@ -32030,10 +31646,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "ai.smithery/Open-Scout-mcp",
       "description": "Create and publish one-pagers and boards for your organization. Upload images from the web, update…",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.1.0",
       "remotes": [
         {
@@ -32094,10 +31707,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.eghuzefa/engineer-your-data",
       "description": "MCP server for data engineering: validation, transformation, visualization, and APIs.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.1.2",
       "packages": [
         {
@@ -32124,10 +31734,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.eghuzefa/engineer-your-data",
       "description": "MCP server for data engineering: validation, transformation, visualization, and APIs.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.1.3",
       "packages": [
         {
@@ -33450,10 +33057,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
       "name": "ai.smithery/arjunkmrm-local01",
       "description": "Greet people warmly or roast them with playful banter. Explore the origin of 'Hello, World' for qu…",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -33764,10 +33368,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
       "name": "com.jumpcloud/jumpcloud-genai",
       "description": "An MCP server that provides an API to LLMs to manage their JumpCloud resources.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.0.38",
       "remotes": [
         {
@@ -33971,10 +33572,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
       "name": "com.pearl.mcp/pearl-api-mcp-server",
       "description": "Hybrid human + AI expertise for faster, trusted answers and decisions via MCP Server.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -35205,10 +34803,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
       "name": "ai.smithery/nickthelegend-test-mcp",
       "description": "Create friendly, personalized greetings in seconds. Toggle Pirate Mode to speak like a pirate for…",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.15.0",
       "remotes": [
         {
@@ -35393,10 +34988,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "dev.looptool/looptool",
       "description": "An MCP server that automatically collects feedback on your MCP server.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -35679,10 +35271,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
       "name": "io.github.aikts/yandex-tracker-mcp",
       "description": "MCP server for Yandex Tracker API.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.4.6",
       "packages": [
         {
@@ -36120,10 +35709,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
       "name": "ai.smithery/feeefapp-mcp",
       "description": "Enable AI assistants to interact seamlessly with Feeef e-commerce stores, products, and orders usi…",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -36909,10 +36495,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
       "name": "ai.smithery/RectiFlex-centerassist-mcp",
       "description": "Streamline field service and construction operations with CenterPoint Connect. Manage companies, o…",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -37077,10 +36660,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
       "name": "ai.smithery/arjunkmrm-boba-tea",
       "description": "Send friendly greetings to people by name. Discover the origin story behind 'Hello, World' for qui…",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -37110,10 +36690,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
       "name": "ai.smithery/arjunkmrm-ts-test-2",
       "description": "Greet anyone with a friendly, personalized hello. Explore the origin story of 'Hello, World.' Jump…",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -37143,10 +36720,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
       "name": "ai.smithery/arjunkmrm-py-test-0",
       "description": "Send personalized greetings by name, with an optional pirate tone. Generate greeting prompts and e…",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.16.0",
       "remotes": [
         {
@@ -37443,10 +37017,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.NeerajG03/vector-memory",
       "description": "Semantic document memory using Redis vector store. Save and recall files with natural language.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.1.1",
       "packages": [
         {
@@ -37473,10 +37044,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.NeerajG03/vector-memory",
       "description": "Semantic document memory using Redis vector store. Save and recall files with natural language.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.1.2",
       "packages": [
         {
@@ -37503,10 +37071,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.NeerajG03/vector-memory",
       "description": "Semantic document memory using Redis vector store. Save and recall files with natural language.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.1.3",
       "packages": [
         {
@@ -37533,10 +37098,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.NeerajG03/vector-memory",
       "description": "Semantic document memory using Redis vector store. Save and recall files with natural language.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.1.4",
       "packages": [
         {
@@ -37563,10 +37125,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.NeerajG03/vector-memory",
       "description": "Semantic document memory using Redis vector store. Save and recall files with natural language.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.2.0",
       "packages": [
         {
@@ -37999,10 +37558,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.paiml/rash",
       "description": "Transpile Rust code to POSIX-compliant shell scripts with formal correctness guarantees",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.1.0"
     },
     "_meta": {
@@ -38019,10 +37575,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.paiml/pmat-agent",
       "description": "Zero-config AI context generation and code quality toolkit with Claude Code Agent Mode support",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "2.121.0"
     },
     "_meta": {
@@ -38059,10 +37612,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.noahgift/ruchy-mcp",
       "description": "MCP server for Ruchy: code analysis, scoring, linting, formatting, and transpilation tools",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "3.67.0"
     },
     "_meta": {
@@ -38079,10 +37629,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.noahgift/depyler-mcp",
       "description": "MCP server for Depyler: Python-to-Rust transpiler with analysis and verification tools",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "3.4.0"
     },
     "_meta": {
@@ -39344,10 +38891,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
       "name": "ai.smithery/plainyogurt21-clintrials-mcp",
       "description": "Provide structured access to ClinicalTrials.gov data for searching, retrieving, and analyzing clin…",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.16.0",
       "remotes": [
         {
@@ -39658,10 +39202,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
       "name": "io.github.therealtimex/charts-mcp",
       "description": "MCP server for generating charts using AntV. Supports various chart types through MCP tools.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "2.0.3",
       "packages": [
         {
@@ -39688,10 +39229,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
       "name": "io.github.therealtimex/charts-mcp",
       "description": "MCP server for generating charts using AntV. Supports various chart types through MCP tools.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "2.0.4",
       "packages": [
         {
@@ -39718,10 +39256,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
       "name": "io.github.therealtimex/charts-mcp",
       "description": "MCP server for generating charts using AntV. Supports various chart types through MCP tools.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "2.0.5",
       "packages": [
         {
@@ -39748,10 +39283,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
       "name": "io.github.therealtimex/charts-mcp",
       "description": "MCP server for generating charts using AntV. Supports various chart types through MCP tools.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "2.0.6",
       "packages": [
         {
@@ -39811,10 +39343,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
       "name": "ai.smithery/proflulab-documentassistant",
       "description": "Convert files between formats without quality loss. Speed up your workflow with fast, reliable con…",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.14.1",
       "remotes": [
         {
@@ -40042,10 +39571,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
       "name": "ai.smithery/jweingardt12-mlb_mcp",
       "description": "Provides easy access to MLB, Baseball Savant, Statcast, and Fangraphs baseball data. Query detaile…",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.16.0",
       "remotes": [
         {
@@ -40334,10 +39860,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
       "name": "ai.smithery/brandonbosco-sigao-scf-mcp",
       "description": "Provides access to Civic Plus - See Click Fix, allowing you to interact with your data via an LLM.…",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.1",
       "remotes": [
         {
@@ -42019,10 +41542,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
       "name": "ai.smithery/RectiFlex-centerassist-mcp-cp",
       "description": "Streamline property management, construction, and service workflows with CenterPoint Connect. Sear…",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -42052,10 +41572,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
       "name": "ai.smithery/RectiFlex-centerassist-mcp-cp1",
       "description": "Access and manage CenterPoint Connect data for property management, construction, and service oper…",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -42399,10 +41916,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "dev.anotherai/anotherai",
       "description": "MCP server for building and testing AI agents with multi-model experimentation and insights.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.1.0",
       "remotes": [
         {
@@ -42425,10 +41939,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
       "name": "ai.smithery/IndianAppGuy-magicslide-mcp-actual-test",
       "description": "Generate polished PowerPoint presentations from text prompts, YouTube videos, or structured outlin…",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -42628,10 +42139,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "com.epidemicsound/mcp-server",
       "description": "Cloud-hosted MCP server for Epidemic Sound",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "websiteUrl": "https://www.epidemicsound.com",
       "remotes": [
@@ -42725,10 +42233,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.MauroDruwel/smartschool-mcp",
       "description": "Access Smartschool courses, grades, assignments, and messages through the Model Context Protocol",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.1.3",
       "packages": [
         {
@@ -42785,10 +42290,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.MauroDruwel/smartschool-mcp",
       "description": "Access Smartschool courses, grades, assignments, and messages through the Model Context Protocol",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.1.4",
       "packages": [
         {
@@ -42881,10 +42383,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
       "name": "ai.smithery/Parc-Dev-task-breakdown-server",
       "description": "Break down complex problems into clear, actionable steps. Adapt on the fly by iterating, revising,…",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -43091,10 +42590,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
       "name": "ai.smithery/Funding-Machine-ghl-mcp-fundingmachine",
       "description": "Automate GoHighLevel across CRM, messaging, calendars, marketing, e-commerce, and billing. Manage…",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -43683,10 +43179,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
       "name": "ai.smithery/RectiFlex-centerassist-mcp1",
       "description": "Manage CenterPoint Connect data across properties, companies, employees, invoices, materials, and…",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -43716,10 +43209,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
       "name": "ai.smithery/IndianAppGuy-magicslide-mcp",
       "description": "Generate professional PowerPoint presentations from text, YouTube videos, or structured JSON data.…",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -43926,10 +43416,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.edrich13/mcp-jira-server",
       "description": "MCP server for self-hosted Jira instance with Personal Access Token authentication",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.1",
       "packages": [
         {
@@ -44257,10 +43744,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
       "name": "com.figma.mcp/mcp",
       "description": "The Figma MCP server brings Figma context directly into your AI workflow.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -44283,10 +43767,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
       "name": "com.figma.mcp/mcp",
       "description": "The Figma MCP server brings Figma context directly into your AI workflow.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.1",
       "remotes": [
         {
@@ -44369,10 +43850,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.oguzc/playwright-wizard-mcp",
       "description": "MCP server providing Playwright test generation wizard with intelligent prompts and best practices",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.1.4",
       "packages": [
         {
@@ -44439,10 +43917,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
       "name": "com.figma.mcp/mcp",
       "description": "The Figma MCP server brings Figma context directly into your AI workflow.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.2",
       "remotes": [
         {
@@ -44588,10 +44063,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.NeerajG03/vector-memory",
       "description": "Semantic document memory using Redis vector store. Save and recall files with natural language.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.3.0",
       "packages": [
         {
@@ -44854,10 +44326,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.oguzc/playwright-wizard-mcp",
       "description": "MCP server providing Playwright test generation wizard with intelligent prompts and best practices",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.1.5",
       "packages": [
         {
@@ -44921,10 +44390,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.gauravfs-14/lit-mcp",
       "description": "MCP server for academic literature databases (arXiv, DBLP) to accelerate research using LLMs.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.1.9",
       "packages": [
         {
@@ -44951,10 +44417,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.gauravfs-14/lit-mcp",
       "description": "MCP server for academic literature databases (arXiv, DBLP) to accelerate research using LLMs.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "packages": [
         {
@@ -45133,10 +44596,7 @@
       "$schema": "",
       "name": "io.github.antuelle78/weather-mcp",
       "description": "A simple MCP server for getting weather information.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0"
     },
     "_meta": {
@@ -45342,10 +44802,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.NeerajG03/vector-memory",
       "description": "Semantic document memory using Redis vector store. Save and recall files with natural language.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.3.1",
       "packages": [
         {
@@ -45372,10 +44829,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
       "name": "io.github.fengcl/mcp-sse-demo-02",
       "description": "Spring Boot MCP 服务器（示例占位描述），通过 GHCR 以 OCI 镜像发布至 MCP Registry。",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.0.0",
       "packages": [
         {
@@ -45784,10 +45238,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.khaoss85/orchestro",
       "description": "Your AI Development Conductor - 60 MCP tools for intelligent task orchestration",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "2.1.0",
       "packages": [
         {
@@ -46296,10 +45747,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.zzstoatzz/tangled-mcp",
       "description": "MCP server for Tangled git platform. Manage repositories, branches, and issues on tangled.org.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.0.5",
       "packages": [
         {
@@ -46326,10 +45774,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.zzstoatzz/tangled-mcp",
       "description": "MCP server for Tangled git platform. Manage repositories, branches, and issues on tangled.org.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.0.6",
       "packages": [
         {
@@ -46356,10 +45801,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.zzstoatzz/tangled-mcp",
       "description": "MCP server for Tangled git platform. Manage repositories, branches, and issues on tangled.org.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.0.8",
       "packages": [
         {
@@ -46386,10 +45828,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.zzstoatzz/tangled-mcp",
       "description": "MCP server for Tangled git platform. Manage repositories, branches, and issues on tangled.org.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.0.9",
       "packages": [
         {
@@ -46416,10 +45855,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.zzstoatzz/tangled-mcp",
       "description": "MCP server for Tangled git platform. Manage repositories, branches, and issues on tangled.org.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.0.10",
       "packages": [
         {
@@ -46823,10 +46259,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.oguzc/playwright-wizard-mcp",
       "description": "MCP server providing Playwright test generation wizard with intelligent prompts and best practices",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.1.6",
       "packages": [
         {
@@ -46853,10 +46286,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.zwldarren/akshare-one-mcp",
       "description": "MCP server that provides access to Chinese stock market data using akshare-one",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.3.6",
       "packages": [
         {
@@ -47822,10 +47252,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "ai.meminal/meminal",
       "description": "Memory for deep conversational context across any platform",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -47855,10 +47282,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.ShingWong/node-server-orchestrator",
       "description": "MCP server for orchestrating Node.js development servers (backend, frontend, databases, etc.)",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "packages": [
         {
@@ -47885,10 +47309,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.olostep/olostep-mcp-server",
       "description": "Olostep MCP server for web scraping, google search and website urls search.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.7",
       "packages": [
         {
@@ -48422,10 +47843,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.sachin-shetty/egnyte-ai-samples",
       "description": "Secure integration between AI tools and Egnyte content with search, analysis, and workflow tools.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.2"
     },
     "_meta": {
@@ -48664,10 +48082,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.wei/hn-mcp-server",
       "description": "Model Context Protocol server for HackerNews API access.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.3",
       "packages": [
         {
@@ -48694,10 +48109,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.wei/hn-mcp-server",
       "description": "Model Context Protocol server for HackerNews API access.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.1.0",
       "packages": [
         {
@@ -48915,10 +48327,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "ai.gomarble/mcp-api",
       "description": "GoMarble MCP API Server",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -49522,10 +48931,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "com.keboola/mcp",
       "description": "Connect your AI assistants to Keboola and expose your data, transformations, SQL queries, ...",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.25.0",
       "remotes": [
         {
@@ -49548,10 +48954,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.idjohnson/vikunjamcp",
       "description": "An MCP server that provides access to Vikunja, a self-hosted task management solution.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.26",
       "packages": [
         {
@@ -50734,10 +50137,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "com.generect/generect-mcp",
       "description": "B2B lead generation and company search through Generect Live API for sales prospecting.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.1.0",
       "remotes": [
         {
@@ -51316,10 +50716,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "goog.workspace-developer/developer-tools",
       "description": "Provides tools for searching Google Workspace documentation and much more.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -51918,10 +51315,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "dev.continue/docs",
       "description": "An MCP server for docs.continue.dev",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -51976,10 +51370,7 @@
       "name": "io.github.nigue3025/tw-cwa-weather-mcp",
       "description": "Access Taiwan CWA weather data and forecasts for all counties and cities",
       "title": "Taiwan CWA Weather",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "packages": [
         {
@@ -52006,10 +51397,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "io.github.vardior9/apiiro",
       "description": "Ship software securely with an AI AppSec Agent",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.1.0"
     },
     "_meta": {
@@ -52098,10 +51486,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
       "name": "com.generect/generect-mcp",
       "description": "B2B lead generation and company search through Generect Live API for sales prospecting.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.1.1",
       "remotes": [
         {
@@ -52531,10 +51916,7 @@
       "name": "com.amplitude/mcp-server",
       "description": "Search, access, and get insights on your Amplitude data",
       "title": "Amplitude",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -52985,10 +52367,7 @@
       "name": "io.testiny/testiny-mcp",
       "description": "An MCP server that provides access to Testiny projects, test cases and test runs",
       "title": "Testiny Test Management",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.1.0",
       "websiteUrl": "https://www.testiny.io/docs/mcp-server/",
       "icons": [
@@ -53201,10 +52580,7 @@
       "name": "io.github.PrefectHQ/prefect-mcp-server",
       "description": "MCP server for Prefect. Monitor and debug workflows, deployments, and automations.",
       "title": "Prefect MCP Server",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.0.1-beta.7",
       "packages": [
         {
@@ -53231,10 +52607,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
       "name": "finance.double.agent4/knowledge-base",
       "description": "AI-powered knowledge base for Double - Thank You with semantic search and question answering.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -53257,10 +52630,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
       "name": "finance.double.agent4/knowledge-base",
       "description": "AI-powered knowledge base for Double - Thank You with semantic search and question answering.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.1",
       "remotes": [
         {
@@ -53283,10 +52653,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
       "name": "com.sonatype/dependency-management-mcp-server",
       "description": "Sonatype component intelligence: versions, security analysis, and Trust Score recommendations",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.1",
       "websiteUrl": "https://www.sonatype.com",
       "remotes": [
@@ -53311,10 +52678,7 @@
       "name": "com.pga/pga-golf",
       "description": "PGA's official MCP Server for all things golf-related. Find a coach, play golf, improve your game.",
       "title": "PGA Golf",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "websiteUrl": "https://mcp.pga.com",
       "remotes": [
@@ -53489,10 +52853,7 @@
       "name": "io.github.xplusplusai/fo-semantic-mcp",
       "description": "Semantic search over 50,000+ Dynamics 365 F&O artifacts: tables, forms, classes, and more.",
       "title": "FO Semantic MCP",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "2.0.0",
       "packages": [
         {
@@ -53838,10 +53199,7 @@
       "name": "io.github.team-earth/datagraph",
       "description": "Urban intelligence knowledge graph. Structured city data for civic problem-solving.",
       "title": "DataGraph",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "packages": [
         {
@@ -53869,10 +53227,7 @@
       "name": "io.github.team-earth/datagraph",
       "description": "Urban intelligence knowledge graph. Structured city data for civic problem-solving.",
       "title": "DataGraph",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.1",
       "packages": [
         {
@@ -54472,10 +53827,7 @@
       "name": "io.github.rnaga/wp-mcp",
       "description": "MCP server for WordPress. Manage posts, users, comments, terms, metadata, and settings.",
       "title": "WordPress MCP Server",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.3",
       "packages": [
         {
@@ -54715,10 +54067,7 @@
       "name": "io.github.xplusplusai/fo-semantic-mcp",
       "description": "Semantic search over 50,000+ Dynamics 365 F&O artifacts: tables, forms, classes, and more.",
       "title": "FO Semantic MCP",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "2.0.3",
       "packages": [
         {
@@ -55210,10 +54559,7 @@
       "name": "io.github.xplusplusai/fo-semantic-mcp",
       "description": "Semantic search over 50,000+ Dynamics 365 F&O artifacts: tables, forms, classes, and more.",
       "title": "FO Semantic MCP",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "2.0.7",
       "packages": [
         {
@@ -55241,10 +54587,7 @@
       "name": "io.github.xplusplusai/fo-semantic-mcp",
       "description": "Semantic search over 50,000+ Dynamics 365 F&O artifacts: tables, forms, classes, and more.",
       "title": "FO Semantic MCP",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "2.0.8",
       "packages": [
         {
@@ -55341,10 +54684,7 @@
       "name": "com.predictleads/mcp",
       "description": "Company Insights: job postings, tech stack, news events, key customers, similar companies...",
       "title": "PredictLeads",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -55650,10 +54990,7 @@
       "name": "com.atlassian/atlassian-mcp-server",
       "description": "Enables secure, permission-aware access to Atlassian Cloud products.",
       "title": "Atlassian Rovo MCP Server",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -55853,10 +55190,7 @@
       "name": "com.aribadernatal/sideways",
       "description": "Unexpected questions and lateral thinking prompts to break through mental blocks. 86 strategies.",
       "title": "Sideways",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -55884,10 +55218,7 @@
       "name": "io.github.aahl/mcp-aktools",
       "description": "MCP Server for stock and crypto",
       "title": "AkTools MCP Server",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.1.2",
       "packages": [
         {
@@ -55980,10 +55311,7 @@
       "name": "co.huggingface/hf-mcp-server",
       "description": "Connect to Hugging Face Hub and thousands of Gradio AI Applications",
       "title": "Hugging Face",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.2.33",
       "remotes": [
         {
@@ -56137,10 +55465,7 @@
       "name": "com.dexpaprika/dexpaprika",
       "description": "Real-time DEX data, liquidity pools, token prices, and trading volumes across blockchain networks.",
       "title": "DexPaprika",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.1.0",
       "remotes": [
         {
@@ -56843,10 +56168,7 @@
       "name": "io.github.zzstoatzz/tangled-mcp",
       "description": "MCP server for Tangled git platform. Manage repositories, branches, and issues on tangled.org.",
       "title": "Tangled MCP",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.0.14",
       "packages": [
         {
@@ -57201,10 +56523,7 @@
       "name": "directory.brick/mcp",
       "description": "Provides data for LEGO sets, minifigures, parts and elements. Not affiliated with LEGO® Group.",
       "title": "Brick Directory",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "2025.10.23.1321",
       "websiteUrl": "https://brick.directory",
       "icons": [
@@ -57332,10 +56651,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
       "name": "io.github.Pranavj17/mcp-server-graylog",
       "description": "Search Graylog logs by timestamps, filter by streams, and debug production issues.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.1"
     },
     "_meta": {
@@ -57352,10 +56668,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
       "name": "io.github.Pranavj17/mcp-server-graylog",
       "description": "Search Graylog logs by timestamps, filter by streams, and debug production issues.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.2"
     },
     "_meta": {
@@ -57408,10 +56721,7 @@
       "name": "io.github.ProfessionalWiki/mediawiki-mcp-server",
       "description": "MCP server enabling AI clients to interact with any MediaWiki wiki through standard tools",
       "title": "MediaWiki MCP Server",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.2.1",
       "packages": [
         {
@@ -57636,10 +56946,7 @@
       "name": "io.github.sharksalesinfo-blip/portfolio",
       "description": "Marketing strateeg portfolio met AI kennisbank voor marketing, sales en strategie inzichten.",
       "title": "SharkSales Portfolio & Kennisbank",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -59192,10 +58499,7 @@
       "name": "io.github.benhuang21828/pdfkit",
       "description": "AI-powered PDF tools: fill forms, merge, extract data, and split PDFs",
       "title": "PDF Kit",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.1",
       "packages": [
         {
@@ -59223,10 +58527,7 @@
       "name": "io.github.benhuang21828/pdfkit",
       "description": "AI-powered PDF tools: fill forms, merge, extract data, and split PDFs",
       "title": "PDF Kit",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.2",
       "packages": [
         {
@@ -59254,10 +58555,7 @@
       "name": "com.hellobasestation/pdfkit",
       "description": "AI-powered PDF tools: fill forms, merge, extract data, and split PDFs",
       "title": "PDF Kit",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.3",
       "packages": [
         {
@@ -59434,10 +58732,7 @@
       "name": "io.github.kevinkells/datagraph",
       "description": "Urban data for civic problem-solving: NYC subway, loneliness programs, violence prevention.",
       "title": "DataGraph",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.1.0",
       "packages": [
         {
@@ -59465,10 +58760,7 @@
       "name": "com.hellobasestation/pdfkit",
       "description": "AI-powered PDF tools: fill forms, merge, extract data, and split PDFs",
       "title": "PDF Kit",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.4",
       "packages": [
         {
@@ -59502,10 +58794,7 @@
       "name": "io.github.team-earth/datagraph",
       "description": "Urban data for civic problem-solving: NYC subway, loneliness programs, violence prevention.",
       "title": "DataGraph",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.1.6",
       "packages": [
         {
@@ -60018,10 +59307,7 @@
       "name": "io.github.domdomegg/time-mcp-nuget",
       "description": "Get the current UTC time in RFC 3339 format.",
       "title": "Time MCP Server",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.1.1",
       "packages": [
         {
@@ -60112,10 +59398,7 @@
       "name": "com.usesideways/sideways",
       "description": "Unexpected questions and lateral thinking prompts to break through mental blocks. 86 strategies.",
       "title": "Sideways",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.1",
       "remotes": [
         {
@@ -60143,10 +59426,7 @@
       "name": "com.usesideways/sideways",
       "description": "Unexpected questions and lateral thinking prompts to break through mental blocks. 86 strategies.",
       "title": "Sideways",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.2",
       "remotes": [
         {
@@ -60174,10 +59454,7 @@
       "name": "com.usesideways/sideways",
       "description": "Use Sideways for unexpected questions and lateral thinking prompts to break through mental blocks.",
       "title": "Sideways",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.3",
       "websiteUrl": "https://usesideways.com",
       "remotes": [
@@ -60206,10 +59483,7 @@
       "name": "io.github.rghsoftware/linux-filesystem",
       "description": "Enhanced Linux filesystem access with symlinks, permissions, and chmod support",
       "title": "Linux Filesystem",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.2.1",
       "packages": [
         {
@@ -60464,10 +59738,7 @@
       "name": "com.usesideways/sideways",
       "description": "Use Sideways for unexpected questions and lateral thinking prompts to break through mental blocks.",
       "title": "Sideways",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.4",
       "websiteUrl": "https://usesideways.com",
       "remotes": [
@@ -60496,10 +59767,7 @@
       "name": "com.usesideways/sideways",
       "description": "Use Sideways for unexpected questions and lateral thinking prompts to break through mental blocks.",
       "title": "Sideways",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.5",
       "websiteUrl": "https://usesideways.com",
       "remotes": [
@@ -60560,10 +59828,7 @@
       "name": "com.usesideways/sideways",
       "description": "Use Sideways for unexpected questions and lateral thinking prompts to break through mental blocks.",
       "title": "Sideways",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.6",
       "websiteUrl": "https://usesideways.com",
       "remotes": [
@@ -60761,10 +60026,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
       "name": "com.medusajs/medusa-mcp",
       "description": "Retrieve information from the Medusa documentation to assist you with your Medusa development.",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -60898,10 +60160,7 @@
       "name": "com.allstacks/allstacks-mcp",
       "description": "Provides 208+ tools for AI-native engineering intelligence via Allstacks API.",
       "title": "Allstacks Analytics MCP Server",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.1.0",
       "packages": [
         {
@@ -60929,10 +60188,7 @@
       "name": "com.allstacks/allstacks-mcp",
       "description": "Provides 208+ tools for AI-native engineering intelligence via Allstacks API.",
       "title": "Allstacks Analytics MCP Server",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.1.1",
       "packages": [
         {
@@ -60960,10 +60216,7 @@
       "name": "moda.ai/remote-camera",
       "description": "Capture photos remotely from mobile devices via S3-backed upload URLs",
       "title": "Remote Camera",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "websiteUrl": "https://www.ai.moda/mcp-servers/remote-camera/",
       "icons": [
@@ -61006,10 +60259,7 @@
       "name": "com.allstacks/allstacks-mcp",
       "description": "Provides 208+ tools for AI-native engineering intelligence via Allstacks API.",
       "title": "Allstacks Analytics MCP Server",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.1.2",
       "packages": [
         {
@@ -61037,10 +60287,7 @@
       "name": "com.allstacks/allstacks-mcp",
       "description": "Provides 208+ tools for AI-native engineering intelligence via Allstacks API.",
       "title": "Allstacks Analytics MCP Server",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.1.3",
       "packages": [
         {
@@ -61067,10 +60314,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
       "name": "dev.openfeature/mcp",
       "description": "MCP server providing OpenFeature SDK installation guides and OFREP flag evaluation",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.0.16",
       "packages": [
         {
@@ -61176,10 +60420,7 @@
       "name": "io.github.josefdc/uniprot-mcp",
       "description": "Read-only UniProtKB via MCP (entries, sequences, features, GO, taxonomy, ID mapping).",
       "title": "UniProt MCP",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.1.0",
       "packages": [
         {
@@ -61762,10 +61003,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
       "name": "biz.icecat/mcp",
       "description": "Icecat Product Content",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -61848,10 +61086,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
       "name": "biz.icecat/mcp",
       "description": "Retrieve product specifications, descriptions, and technical details from Icecat's database",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.1",
       "remotes": [
         {
@@ -61875,10 +61110,7 @@
       "name": "com.newrelic/mcp-server",
       "description": "Access New Relic observability data through MCP - query metrics, logs, traces, entities, and more",
       "title": "New Relic MCP Server",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.1.0",
       "remotes": [
         {
@@ -63887,10 +63119,7 @@
       "name": "io.github.SigNoz/signoz-mcp-server",
       "description": "SigNoz MCP server: access metrics, traces, logs, alerts, and dashboards via AI assistants",
       "title": "SigNoz MCP Server",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.0.1",
       "packages": [
         {
@@ -64043,10 +63272,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
       "name": "com.paypal.mcp/mcp",
       "description": "PayPal MCP server provides access to PayPal services and operations for AI assistants",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "1.0.0",
       "remotes": [
         {
@@ -64550,10 +63776,7 @@
       "name": "io.github.aimoda/rigol-dho824-mcp",
       "description": "Control and query Rigol DHO824 oscilloscope for waveform capture and measurements",
       "title": "Rigol DHO824 Oscilloscope",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.1.0-1.main.9ad1203",
       "websiteUrl": "https://aimoda.github.io/rigol-dho824-mcp/",
       "icons": [
@@ -65053,10 +64276,7 @@
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
       "name": "dev.openfeature/mcp",
       "description": "MCP server providing OpenFeature SDK installation guides and OFREP flag evaluation",
-      "repository": {
-        "url": "",
-        "source": ""
-      },
+      "repository": {},
       "version": "0.0.17",
       "packages": [
         {
@@ -65281,6 +64501,339 @@
         "status": "active",
         "publishedAt": "2025-10-29T16:15:20.178612Z",
         "updatedAt": "2025-10-29T16:15:20.178612Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.aimoda/rigol-dho824-mcp",
+      "description": "Control and query Rigol DHO824 oscilloscope for waveform capture and measurements",
+      "title": "Rigol DHO824 Oscilloscope",
+      "repository": {
+        "url": "https://github.com/aimoda/rigol-dho824-mcp",
+        "source": "github",
+        "id": "1043349028"
+      },
+      "version": "0.1.0-97.main.212375d",
+      "websiteUrl": "https://aimoda.github.io/rigol-dho824-mcp/",
+      "icons": [
+        {
+          "src": "https://rigol-dho824-mcp.email.ai.moda/bimi/logo.svg",
+          "mimeType": "image/svg+xml",
+          "sizes": [
+            "any"
+          ]
+        }
+      ],
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/aimoda/rigol-dho824-mcp:0.1.0-97.main.212375d",
+          "runtimeHint": "docker",
+          "transport": {
+            "type": "stdio"
+          },
+          "runtimeArguments": [
+            {
+              "description": "The runtime command to execute",
+              "value": "run",
+              "type": "positional"
+            },
+            {
+              "description": "Run container in interactive mode",
+              "type": "named",
+              "name": "-i"
+            },
+            {
+              "description": "Automatically remove the container when it exits",
+              "type": "named",
+              "name": "--rm"
+            },
+            {
+              "description": "Bind mount a host directory into the container",
+              "type": "named",
+              "name": "-v"
+            },
+            {
+              "description": "Bind mount path for waveform and screenshot data",
+              "value": "/tmp/rigol-data:/tmp/rigol",
+              "type": "positional"
+            },
+            {
+              "description": "Set an environment variable in the runtime",
+              "type": "named",
+              "name": "-e"
+            },
+            {
+              "description": "Environment variable name",
+              "value": "RIGOL_RESOURCE",
+              "type": "positional"
+            },
+            {
+              "description": "Set an environment variable in the runtime",
+              "type": "named",
+              "name": "-e"
+            },
+            {
+              "description": "Environment variable name",
+              "value": "VISA_TIMEOUT",
+              "type": "positional"
+            },
+            {
+              "description": "Set an environment variable in the runtime",
+              "type": "named",
+              "name": "-e"
+            },
+            {
+              "description": "Environment variable name",
+              "value": "RIGOL_BEEPER_ENABLED",
+              "type": "positional"
+            },
+            {
+              "description": "Set an environment variable in the runtime",
+              "type": "named",
+              "name": "-e"
+            },
+            {
+              "description": "Environment variable name",
+              "value": "RIGOL_TEMP_DIR",
+              "type": "positional"
+            },
+            {
+              "description": "The container image to run",
+              "value": "ghcr.io/aimoda/rigol-dho824-mcp",
+              "type": "positional"
+            }
+          ],
+          "environmentVariables": [
+            {
+              "description": "VISA resource string for connecting to the oscilloscope (e.g., 'TCPIP0::192.168.1.100::inst0::INSTR'). Leave empty for auto-discovery.",
+              "placeholder": "TCPIP0::192.168.1.100::inst0::INSTR",
+              "name": "RIGOL_RESOURCE"
+            },
+            {
+              "description": "Communication timeout in milliseconds",
+              "format": "number",
+              "default": "30000",
+              "name": "VISA_TIMEOUT"
+            },
+            {
+              "description": "Enable or disable oscilloscope beeper sounds",
+              "format": "boolean",
+              "default": "false",
+              "choices": [
+                "true",
+                "false"
+              ],
+              "name": "RIGOL_BEEPER_ENABLED"
+            },
+            {
+              "description": "Custom directory for temporary files (waveforms, screenshots). Required for Docker if you need to access captured data outside the container. Mount a volume to this path.",
+              "format": "filepath",
+              "placeholder": "/tmp/rigol",
+              "name": "RIGOL_TEMP_DIR"
+            }
+          ]
+        }
+      ],
+      "_meta": {
+        "io.modelcontextprotocol.registry/publisher-provided": {
+          "buildInfo": {
+            "imageSha256": "e6972bdd5f97184f28b226c24bdd69c740966b03edd3a014fdf0e58cca8f90de"
+          },
+          "tool": "github-actions",
+          "version": "1.0.0"
+        }
+      }
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-29T17:30:46.259927Z",
+        "updatedAt": "2025-10-29T17:30:46.259927Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.davidalbertonogueira/redshift-mcp-server",
+      "description": "Secure, read-only access to Amazon Redshift with schema introspection and smart sampling",
+      "title": "Redshift MCP Server",
+      "repository": {},
+      "version": "1.0.5",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@davidalbertonogueira/redshift-mcp-server",
+          "version": "1.0.5",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-29T18:36:27.686074Z",
+        "updatedAt": "2025-10-29T18:36:27.686074Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.aimoda/rigol-dho824-mcp",
+      "description": "Control and query Rigol DHO824 oscilloscope for waveform capture and measurements",
+      "title": "Rigol DHO824 Oscilloscope",
+      "repository": {
+        "url": "https://github.com/aimoda/rigol-dho824-mcp",
+        "source": "github",
+        "id": "1043349028"
+      },
+      "version": "0.1.0-98.main.f005b31",
+      "websiteUrl": "https://aimoda.github.io/rigol-dho824-mcp/",
+      "icons": [
+        {
+          "src": "https://rigol-dho824-mcp.email.ai.moda/bimi/logo.svg",
+          "mimeType": "image/svg+xml",
+          "sizes": [
+            "any"
+          ]
+        }
+      ],
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/aimoda/rigol-dho824-mcp:0.1.0-98.main.f005b31",
+          "runtimeHint": "docker",
+          "transport": {
+            "type": "stdio"
+          },
+          "runtimeArguments": [
+            {
+              "description": "The runtime command to execute",
+              "value": "run",
+              "type": "positional"
+            },
+            {
+              "description": "Run container in interactive mode",
+              "type": "named",
+              "name": "-i"
+            },
+            {
+              "description": "Automatically remove the container when it exits",
+              "type": "named",
+              "name": "--rm"
+            },
+            {
+              "description": "Bind mount a host directory into the container",
+              "type": "named",
+              "name": "-v"
+            },
+            {
+              "description": "Bind mount path for waveform and screenshot data",
+              "value": "/tmp/rigol-data:/tmp/rigol",
+              "type": "positional"
+            },
+            {
+              "description": "Set an environment variable in the runtime",
+              "type": "named",
+              "name": "-e"
+            },
+            {
+              "description": "Environment variable name",
+              "value": "RIGOL_RESOURCE",
+              "type": "positional"
+            },
+            {
+              "description": "Set an environment variable in the runtime",
+              "type": "named",
+              "name": "-e"
+            },
+            {
+              "description": "Environment variable name",
+              "value": "VISA_TIMEOUT",
+              "type": "positional"
+            },
+            {
+              "description": "Set an environment variable in the runtime",
+              "type": "named",
+              "name": "-e"
+            },
+            {
+              "description": "Environment variable name",
+              "value": "RIGOL_BEEPER_ENABLED",
+              "type": "positional"
+            },
+            {
+              "description": "Set an environment variable in the runtime",
+              "type": "named",
+              "name": "-e"
+            },
+            {
+              "description": "Environment variable name",
+              "value": "RIGOL_TEMP_DIR",
+              "type": "positional"
+            },
+            {
+              "description": "The container image to run",
+              "value": "ghcr.io/aimoda/rigol-dho824-mcp",
+              "type": "positional"
+            }
+          ],
+          "environmentVariables": [
+            {
+              "description": "VISA resource string for connecting to the oscilloscope (e.g., 'TCPIP0::192.168.1.100::inst0::INSTR'). Leave empty for auto-discovery.",
+              "placeholder": "TCPIP0::192.168.1.100::inst0::INSTR",
+              "name": "RIGOL_RESOURCE"
+            },
+            {
+              "description": "Communication timeout in milliseconds",
+              "format": "number",
+              "default": "30000",
+              "name": "VISA_TIMEOUT"
+            },
+            {
+              "description": "Enable or disable oscilloscope beeper sounds",
+              "format": "boolean",
+              "default": "false",
+              "choices": [
+                "true",
+                "false"
+              ],
+              "name": "RIGOL_BEEPER_ENABLED"
+            },
+            {
+              "description": "Host-side path for returned file paths. The container writes to /tmp/rigol internally and translates paths to this value in responses. Must match the host path in your -v mount. Required for Docker usage.",
+              "isRequired": true,
+              "format": "filepath",
+              "placeholder": "/tmp/rigol-data",
+              "name": "RIGOL_TEMP_DIR"
+            }
+          ]
+        }
+      ],
+      "_meta": {
+        "io.modelcontextprotocol.registry/publisher-provided": {
+          "buildInfo": {
+            "imageSha256": "f7cd34acb304e11e466e2d5f3148f6df3726f0df364f93d494239d2faa4bc3ba"
+          },
+          "tool": "github-actions",
+          "version": "1.0.0"
+        }
+      }
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-29T19:41:06.521502Z",
+        "updatedAt": "2025-10-29T19:41:06.521502Z",
         "isLatest": true
       }
     }
