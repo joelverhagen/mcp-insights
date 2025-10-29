@@ -35116,7 +35116,7 @@
         "status": "active",
         "publishedAt": "2025-10-02T12:16:56.197191Z",
         "updatedAt": "2025-10-02T12:16:56.197191Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -49307,7 +49307,7 @@
         "status": "active",
         "publishedAt": "2025-10-14T13:40:32.875477Z",
         "updatedAt": "2025-10-14T13:40:32.875477Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -58843,7 +58843,7 @@
         "status": "active",
         "publishedAt": "2025-10-24T21:10:24.101786Z",
         "updatedAt": "2025-10-24T21:10:24.101786Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -64081,6 +64081,272 @@
         "status": "active",
         "publishedAt": "2025-10-28T19:34:19.455268Z",
         "updatedAt": "2025-10-28T19:34:19.455268Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.rogiervdbrnk/mcp-real-estate-server",
+      "description": "Dutch real estate data with KRK Makelaars report generation.",
+      "repository": {
+        "url": "https://github.com/rogiervdbrnk/mcp-server",
+        "source": "github"
+      },
+      "version": "1.2.0",
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/rogiervdbrnk/mcp-real-estate-server:v1.2.0",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-28T20:37:10.280163Z",
+        "updatedAt": "2025-10-28T20:37:10.280163Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.tjhop/prometheus-mcp-server",
+      "description": "An API-complete MCP server to manage Prometheus-compatible backends via comprehensive tools.",
+      "repository": {
+        "url": "https://github.com/tjhop/prometheus-mcp-server",
+        "source": "github"
+      },
+      "version": "0.10.0",
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/tjhop/prometheus-mcp-server:0.10.0",
+          "transport": {
+            "type": "stdio"
+          },
+          "runtimeArguments": [
+            {
+              "description": "The runtime command to execute",
+              "value": "run",
+              "type": "positional"
+            },
+            {
+              "description": "Run container in interactive mode",
+              "type": "named",
+              "name": "-i"
+            },
+            {
+              "description": "Automatically remove the container when it exits",
+              "type": "named",
+              "name": "--rm"
+            },
+            {
+              "description": "Set an environment variable in the runtime",
+              "type": "named",
+              "name": "-e"
+            },
+            {
+              "description": "Environment variable name",
+              "value": "PROMETHEUS_MCP_SERVER_PROMETHEUS_URL",
+              "type": "positional",
+              "valueHint": "env_var_name"
+            },
+            {
+              "description": "The container image to run",
+              "value": "ghcr.io/tjhop/prometheus-mcp-server",
+              "type": "positional",
+              "valueHint": "image_name"
+            }
+          ],
+          "environmentVariables": [
+            {
+              "description": "URL of the Prometheus instance to connect to (default: \"http://127.0.0.1:9090\")",
+              "isRequired": true,
+              "format": "string",
+              "name": "PROMETHEUS_MCP_SERVER_PROMETHEUS_URL"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-28T20:46:27.92086Z",
+        "updatedAt": "2025-10-28T20:46:27.92086Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.pab1it0/prometheus-mcp-server",
+      "description": "MCP server providing Prometheus metrics access and PromQL query execution for AI assistants",
+      "repository": {
+        "url": "https://github.com/pab1it0/prometheus-mcp-server",
+        "source": "github"
+      },
+      "version": "1.4.4",
+      "websiteUrl": "https://pab1it0.github.io/prometheus-mcp-server",
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/pab1it0/prometheus-mcp-server:1.4.4",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Prometheus server URL (e.g., http://localhost:9090)",
+              "isRequired": true,
+              "format": "string",
+              "name": "PROMETHEUS_URL"
+            },
+            {
+              "description": "Set to False to disable SSL verification",
+              "format": "boolean",
+              "name": "PROMETHEUS_URL_SSL_VERIFY"
+            },
+            {
+              "description": "Set to True to disable Prometheus UI links in query results (saves context tokens in MCP clients)",
+              "format": "boolean",
+              "name": "PROMETHEUS_DISABLE_LINKS"
+            },
+            {
+              "description": "Username for Prometheus basic authentication",
+              "format": "string",
+              "name": "PROMETHEUS_USERNAME"
+            },
+            {
+              "description": "Password for Prometheus basic authentication",
+              "format": "string",
+              "isSecret": true,
+              "name": "PROMETHEUS_PASSWORD"
+            },
+            {
+              "description": "Bearer token for Prometheus authentication",
+              "format": "string",
+              "isSecret": true,
+              "name": "PROMETHEUS_TOKEN"
+            },
+            {
+              "description": "Organization ID for multi-tenant Prometheus setups",
+              "format": "string",
+              "name": "ORG_ID"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-28T21:16:10.944717Z",
+        "updatedAt": "2025-10-28T21:16:10.944717Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.stripe/mcp",
+      "description": "MCP server integrating with Stripe - tools for customers, products, payments, and more.",
+      "repository": {
+        "url": "https://github.com/stripe/agent-toolkit",
+        "source": "github"
+      },
+      "version": "0.2.4",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.stripe.com"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-28T22:06:18.495159Z",
+        "updatedAt": "2025-10-28T22:06:18.495159Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.pab1it0/prometheus-mcp-server",
+      "description": "MCP server providing Prometheus metrics access and PromQL query execution for AI assistants",
+      "repository": {
+        "url": "https://github.com/pab1it0/prometheus-mcp-server",
+        "source": "github"
+      },
+      "version": "1.4.6",
+      "websiteUrl": "https://pab1it0.github.io/prometheus-mcp-server",
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/pab1it0/prometheus-mcp-server:1.4.6",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Prometheus server URL (e.g., http://localhost:9090)",
+              "isRequired": true,
+              "format": "string",
+              "name": "PROMETHEUS_URL"
+            },
+            {
+              "description": "Set to False to disable SSL verification",
+              "format": "boolean",
+              "name": "PROMETHEUS_URL_SSL_VERIFY"
+            },
+            {
+              "description": "Set to True to disable Prometheus UI links in query results (saves context tokens in MCP clients)",
+              "format": "boolean",
+              "name": "PROMETHEUS_DISABLE_LINKS"
+            },
+            {
+              "description": "Username for Prometheus basic authentication",
+              "format": "string",
+              "name": "PROMETHEUS_USERNAME"
+            },
+            {
+              "description": "Password for Prometheus basic authentication",
+              "format": "string",
+              "isSecret": true,
+              "name": "PROMETHEUS_PASSWORD"
+            },
+            {
+              "description": "Bearer token for Prometheus authentication",
+              "format": "string",
+              "isSecret": true,
+              "name": "PROMETHEUS_TOKEN"
+            },
+            {
+              "description": "Organization ID for multi-tenant Prometheus setups",
+              "format": "string",
+              "name": "ORG_ID"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-28T22:21:35.640285Z",
+        "updatedAt": "2025-10-28T22:21:35.640285Z",
         "isLatest": true
       }
     }
