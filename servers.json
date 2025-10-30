@@ -60492,7 +60492,7 @@
         "status": "active",
         "publishedAt": "2025-10-27T23:27:02.224441Z",
         "updatedAt": "2025-10-27T23:27:02.224441Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -63711,7 +63711,7 @@
         "status": "active",
         "publishedAt": "2025-10-29T10:21:27.256197Z",
         "updatedAt": "2025-10-29T10:21:27.256197Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -66040,6 +66040,466 @@
         "status": "active",
         "publishedAt": "2025-10-30T12:08:26.699084Z",
         "updatedAt": "2025-10-30T12:08:26.699084Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.sbroenne/mcp-server-excel",
+      "description": "Excel COM automation - Power Query, DAX measures, VBA, Tables, ranges, connections",
+      "title": "Excel COM Automation",
+      "repository": {
+        "url": "https://github.com/sbroenne/mcp-server-excel",
+        "source": "github"
+      },
+      "version": "1.0.0",
+      "packages": [
+        {
+          "registryType": "nuget",
+          "identifier": "Sbroenne.ExcelMcp.McpServer",
+          "version": "1.1.7",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-30T13:07:46.033914Z",
+        "updatedAt": "2025-10-30T13:07:46.033914Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.aimoda/rigol-dho824-mcp",
+      "description": "Control and query Rigol DHO824 oscilloscope for waveform capture and measurements",
+      "title": "Rigol DHO824 Oscilloscope",
+      "repository": {
+        "url": "https://github.com/aimoda/rigol-dho824-mcp",
+        "source": "github",
+        "id": "1043349028"
+      },
+      "version": "0.1.0-111.main.1ebb6e8",
+      "websiteUrl": "https://aimoda.github.io/rigol-dho824-mcp/",
+      "icons": [
+        {
+          "src": "https://rigol-dho824-mcp.email.ai.moda/bimi/logo.svg",
+          "mimeType": "image/svg+xml",
+          "sizes": [
+            "any"
+          ]
+        }
+      ],
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/aimoda/rigol-dho824-mcp:0.1.0-111.main.1ebb6e8",
+          "runtimeHint": "docker",
+          "transport": {
+            "type": "stdio"
+          },
+          "runtimeArguments": [
+            {
+              "description": "The runtime command to execute",
+              "value": "run",
+              "type": "positional"
+            },
+            {
+              "description": "Run container in interactive mode",
+              "type": "named",
+              "name": "-i"
+            },
+            {
+              "description": "Automatically remove the container when it exits",
+              "type": "named",
+              "name": "--rm"
+            },
+            {
+              "description": "Bind mount a host directory into the container",
+              "type": "named",
+              "name": "-v"
+            },
+            {
+              "description": "Bind mount path for waveform and screenshot data",
+              "value": "/tmp/rigol-data:/tmp/rigol",
+              "type": "positional"
+            },
+            {
+              "description": "Set an environment variable in the runtime",
+              "type": "named",
+              "name": "-e"
+            },
+            {
+              "description": "Environment variable name",
+              "value": "RIGOL_RESOURCE",
+              "type": "positional"
+            },
+            {
+              "description": "Set an environment variable in the runtime",
+              "type": "named",
+              "name": "-e"
+            },
+            {
+              "description": "Environment variable name",
+              "value": "VISA_TIMEOUT",
+              "type": "positional"
+            },
+            {
+              "description": "Set an environment variable in the runtime",
+              "type": "named",
+              "name": "-e"
+            },
+            {
+              "description": "Environment variable name",
+              "value": "RIGOL_BEEPER_ENABLED",
+              "type": "positional"
+            },
+            {
+              "description": "Set an environment variable in the runtime",
+              "type": "named",
+              "name": "-e"
+            },
+            {
+              "description": "Environment variable name",
+              "value": "RIGOL_TEMP_DIR",
+              "type": "positional"
+            },
+            {
+              "description": "The container image to run",
+              "value": "ghcr.io/aimoda/rigol-dho824-mcp",
+              "type": "positional"
+            }
+          ],
+          "environmentVariables": [
+            {
+              "description": "VISA resource string for connecting to the oscilloscope (e.g., 'TCPIP0::192.168.1.100::inst0::INSTR'). Leave empty for auto-discovery.",
+              "placeholder": "TCPIP0::192.168.1.100::inst0::INSTR",
+              "name": "RIGOL_RESOURCE"
+            },
+            {
+              "description": "Communication timeout in milliseconds",
+              "format": "number",
+              "default": "30000",
+              "name": "VISA_TIMEOUT"
+            },
+            {
+              "description": "Enable or disable oscilloscope beeper sounds",
+              "format": "boolean",
+              "default": "false",
+              "choices": [
+                "true",
+                "false"
+              ],
+              "name": "RIGOL_BEEPER_ENABLED"
+            },
+            {
+              "description": "Host-side path for returned file paths. The container writes to /tmp/rigol internally and translates paths to this value in responses. Must match the host path in your -v mount. Required for Docker usage.",
+              "isRequired": true,
+              "format": "filepath",
+              "placeholder": "/tmp/rigol-data",
+              "name": "RIGOL_TEMP_DIR"
+            }
+          ]
+        }
+      ],
+      "_meta": {
+        "io.modelcontextprotocol.registry/publisher-provided": {
+          "buildInfo": {
+            "imageSha256": "11e00f7c8d8f8ae59f2eac4866ca988fedb5cc268c0ef08935dea07e3763cbab"
+          },
+          "tool": "github-actions",
+          "version": "1.0.0"
+        }
+      }
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-30T14:40:31.784082Z",
+        "updatedAt": "2025-10-30T14:40:31.784082Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.respawn-app/tool-filter-mcp",
+      "description": "MCP proxy server that filters tools from upstream MCP servers via regex-based deny list",
+      "title": "Tool Filter MCP",
+      "version": "0.4.1",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@respawn-app/tool-filter-mcp",
+          "version": "0.4.1",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-30T14:57:55.874537Z",
+        "updatedAt": "2025-10-30T14:57:55.874537Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.ggozad/haiku-rag",
+      "description": "Agentic Retrieval Augmented Generation (RAG) with LanceDB",
+      "repository": {
+        "url": "https://github.com/ggozad/haiku.rag",
+        "source": "github"
+      },
+      "version": "0.13.3",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "registryBaseUrl": "https://pypi.org",
+          "identifier": "haiku-rag",
+          "version": "0.13.3",
+          "runtimeHint": "uvx",
+          "transport": {
+            "type": "stdio"
+          },
+          "runtimeArguments": [
+            {
+              "value": "serve",
+              "type": "positional"
+            },
+            {
+              "type": "named",
+              "name": "--mcp"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-30T14:58:52.352045Z",
+        "updatedAt": "2025-10-30T14:58:52.352045Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.aimoda/rigol-dho824-mcp",
+      "description": "Control and query Rigol DHO824 oscilloscope for waveform capture and measurements",
+      "title": "Rigol DHO824 Oscilloscope",
+      "repository": {
+        "url": "https://github.com/aimoda/rigol-dho824-mcp",
+        "source": "github",
+        "id": "1043349028"
+      },
+      "version": "0.1.0-114.main.2134233",
+      "websiteUrl": "https://aimoda.github.io/rigol-dho824-mcp/",
+      "icons": [
+        {
+          "src": "https://rigol-dho824-mcp.email.ai.moda/bimi/logo.svg",
+          "mimeType": "image/svg+xml",
+          "sizes": [
+            "any"
+          ]
+        }
+      ],
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/aimoda/rigol-dho824-mcp:0.1.0-114.main.2134233",
+          "runtimeHint": "docker",
+          "transport": {
+            "type": "stdio"
+          },
+          "runtimeArguments": [
+            {
+              "description": "The runtime command to execute",
+              "value": "run",
+              "type": "positional"
+            },
+            {
+              "description": "Run container in interactive mode",
+              "type": "named",
+              "name": "-i"
+            },
+            {
+              "description": "Automatically remove the container when it exits",
+              "type": "named",
+              "name": "--rm"
+            },
+            {
+              "description": "Bind mount a host directory into the container",
+              "type": "named",
+              "name": "-v"
+            },
+            {
+              "description": "Bind mount path for waveform and screenshot data",
+              "value": "/tmp/rigol-data:/tmp/rigol",
+              "type": "positional"
+            },
+            {
+              "description": "Set an environment variable in the runtime",
+              "type": "named",
+              "name": "-e"
+            },
+            {
+              "description": "Environment variable name",
+              "value": "RIGOL_RESOURCE",
+              "type": "positional"
+            },
+            {
+              "description": "Set an environment variable in the runtime",
+              "type": "named",
+              "name": "-e"
+            },
+            {
+              "description": "Environment variable name",
+              "value": "VISA_TIMEOUT",
+              "type": "positional"
+            },
+            {
+              "description": "Set an environment variable in the runtime",
+              "type": "named",
+              "name": "-e"
+            },
+            {
+              "description": "Environment variable name",
+              "value": "RIGOL_BEEPER_ENABLED",
+              "type": "positional"
+            },
+            {
+              "description": "Set an environment variable in the runtime",
+              "type": "named",
+              "name": "-e"
+            },
+            {
+              "description": "Environment variable name",
+              "value": "RIGOL_TEMP_DIR",
+              "type": "positional"
+            },
+            {
+              "description": "The container image to run",
+              "value": "ghcr.io/aimoda/rigol-dho824-mcp",
+              "type": "positional"
+            }
+          ],
+          "environmentVariables": [
+            {
+              "description": "VISA resource string for connecting to the oscilloscope (e.g., 'TCPIP0::192.168.1.100::inst0::INSTR'). Leave empty for auto-discovery.",
+              "placeholder": "TCPIP0::192.168.1.100::inst0::INSTR",
+              "name": "RIGOL_RESOURCE"
+            },
+            {
+              "description": "Communication timeout in milliseconds",
+              "format": "number",
+              "default": "30000",
+              "name": "VISA_TIMEOUT"
+            },
+            {
+              "description": "Enable or disable oscilloscope beeper sounds",
+              "format": "boolean",
+              "default": "false",
+              "choices": [
+                "true",
+                "false"
+              ],
+              "name": "RIGOL_BEEPER_ENABLED"
+            },
+            {
+              "description": "Host-side path for returned file paths. The container writes to /tmp/rigol internally and translates paths to this value in responses. Must match the host path in your -v mount. Required for Docker usage.",
+              "isRequired": true,
+              "format": "filepath",
+              "placeholder": "/tmp/rigol-data",
+              "name": "RIGOL_TEMP_DIR"
+            }
+          ]
+        }
+      ],
+      "_meta": {
+        "io.modelcontextprotocol.registry/publisher-provided": {
+          "buildInfo": {
+            "imageSha256": "acf79484c68b0076759655ceb1a0ba34194bb7c4e7711ef692c294d2c3a8cc09"
+          },
+          "tool": "github-actions",
+          "version": "1.0.0"
+        }
+      }
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-30T16:04:07.86397Z",
+        "updatedAt": "2025-10-30T16:04:07.86397Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.ProfessionalWiki/mediawiki-mcp-server",
+      "description": "MCP server enabling AI clients to interact with any MediaWiki wiki through standard tools",
+      "title": "MediaWiki MCP Server",
+      "repository": {
+        "url": "https://github.com/ProfessionalWiki/MediaWiki-MCP-Server",
+        "source": "github"
+      },
+      "version": "0.4.0",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@professional-wiki/mediawiki-mcp-server",
+          "version": "0.4.0",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Path to your configuration file",
+              "format": "filepath",
+              "default": "config.json",
+              "name": "CONFIG"
+            },
+            {
+              "description": "Type of MCP server transport",
+              "default": "stdio",
+              "choices": [
+                "stdio",
+                "http"
+              ],
+              "name": "MCP_TRANSPORT"
+            },
+            {
+              "description": "Port used for StreamableHTTP transport",
+              "format": "number",
+              "default": "3000",
+              "name": "PORT"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-30T16:10:16.47041Z",
+        "updatedAt": "2025-10-30T16:10:16.47041Z",
         "isLatest": true
       }
     }
