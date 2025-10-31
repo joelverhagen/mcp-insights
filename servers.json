@@ -19600,7 +19600,7 @@
         "status": "active",
         "publishedAt": "2025-09-19T21:08:36.5231Z",
         "updatedAt": "2025-09-19T21:08:36.5231Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -43811,7 +43811,7 @@
         "status": "active",
         "publishedAt": "2025-10-08T18:37:24.013715Z",
         "updatedAt": "2025-10-08T18:37:24.013715Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -57998,7 +57998,7 @@
         "status": "active",
         "publishedAt": "2025-10-24T17:23:59.80231Z",
         "updatedAt": "2025-10-24T17:23:59.80231Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -67286,6 +67286,257 @@
         "status": "active",
         "publishedAt": "2025-10-30T19:42:45.086163Z",
         "updatedAt": "2025-10-30T19:42:45.086163Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.devcycle/mcp",
+      "description": "DevCycle MCP server for feature flag management",
+      "repository": {
+        "url": "https://github.com/DevCycleHQ/cli",
+        "source": "github"
+      },
+      "version": "6.1.4",
+      "websiteUrl": "https://docs.devcycle.com/cli-mcp/mcp-getting-started",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.devcycle.com/mcp"
+        },
+        {
+          "type": "sse",
+          "url": "https://mcp.devcycle.com/sse"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-30T20:40:55.161821Z",
+        "updatedAt": "2025-10-30T20:40:55.161821Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "org.aquaview/aquaview-mcp",
+      "description": "AQUAVIEW MCP Server - Search and access global oceanographic and environmental datasets.",
+      "repository": {
+        "url": "https://github.com/AQUAVIEW-DAH/aquaview-mcp",
+        "source": "github"
+      },
+      "version": "0.1.0"
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-30T22:15:22.969244Z",
+        "updatedAt": "2025-10-30T22:15:22.969244Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "org.aquaview/aquaview-mcp",
+      "description": "AQUAVIEW MCP Server - Search and access global oceanographic and environmental datasets.",
+      "version": "0.1.1"
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-30T22:26:00.098844Z",
+        "updatedAt": "2025-10-30T22:26:00.098844Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "org.aquaview/aquaview-mcp",
+      "description": "AQUAVIEW MCP Server - Search and access global oceanographic and environmental datasets.",
+      "version": "0.1.2",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.aquaview.org/mcp"
+        },
+        {
+          "type": "sse",
+          "url": "https://mcp.aquaview.org/sse"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-30T22:39:48.596774Z",
+        "updatedAt": "2025-10-30T22:39:48.596774Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.teamwork/mcp",
+      "description": "The Teamwork.com official MCP server helps teams efficiently manage client projects with AI.",
+      "repository": {
+        "url": "https://github.com/teamwork/mcp",
+        "source": "github"
+      },
+      "version": "1.6.9",
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "docker.io/teamwork/mcp:v1.6.9",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "API key generated from the Teamwork.com OAuth2 process: https://apidocs.teamwork.com/guides/teamwork/app-login-flow",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "TW_MCP_BEARER_TOKEN"
+            },
+            {
+              "description": "Choose log output format between 'text' or 'json'. Default is 'text'.",
+              "format": "string",
+              "name": "TW_MCP_LOG_FORMAT"
+            },
+            {
+              "description": "Choose log level between 'debug', 'info', 'warn' or 'error'. Default is 'info'.",
+              "format": "string",
+              "name": "TW_MCP_LOG_LEVEL"
+            }
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "sse",
+          "url": "https://mcp.ai.teamwork.com",
+          "headers": [
+            {
+              "description": "API key generated from the Teamwork.com OAuth2 process: https://apidocs.teamwork.com/guides/teamwork/app-login-flow",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "Authorization"
+            }
+          ]
+        },
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.ai.teamwork.com",
+          "headers": [
+            {
+              "description": "API key generated from the Teamwork.com OAuth2 process: https://apidocs.teamwork.com/guides/teamwork/app-login-flow",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "Authorization"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-30T22:39:54.408029Z",
+        "updatedAt": "2025-10-30T22:39:54.408029Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.pubnub/mcp-server",
+      "description": "PubNub MCP for Real-time messaging. API Access and SDK documentation.",
+      "repository": {
+        "url": "https://github.com/pubnub/pubnub-mcp-server",
+        "source": "github"
+      },
+      "version": "1.0.121",
+      "websiteUrl": "https://pubnub.github.io/pubnub-mcp-server",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@pubnub/mcp",
+          "version": "1.0.121",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-30T23:27:30.284395Z",
+        "updatedAt": "2025-10-30T23:27:30.284395Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "org.aquaview/aquaview-mcp",
+      "description": "AQUAVIEW MCP Server - Search and access global oceanographic and environmental datasets.",
+      "version": "0.2.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.aquaview.org/mcp"
+        },
+        {
+          "type": "sse",
+          "url": "https://mcp.aquaview.org/sse"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-31T00:14:26.751185Z",
+        "updatedAt": "2025-10-31T00:14:26.751185Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.zloeber/terraform-ingest",
+      "description": "Ingest and analyze Terraform modules from multiple repositories for AI RAG systems",
+      "title": "Terraform Ingest MCP",
+      "version": "0.1.15",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "terraform-ingest",
+          "version": "0.1.15",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-31T00:54:19.165235Z",
+        "updatedAt": "2025-10-31T00:54:19.165235Z",
         "isLatest": true
       }
     }
