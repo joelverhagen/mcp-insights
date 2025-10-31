@@ -59266,7 +59266,7 @@
         "status": "active",
         "publishedAt": "2025-10-26T00:24:14.294094Z",
         "updatedAt": "2025-10-26T00:24:14.294094Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -67615,6 +67615,133 @@
         "status": "active",
         "publishedAt": "2025-10-31T03:43:52.592661Z",
         "updatedAt": "2025-10-31T03:43:52.592661Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.ariroffe72/zmanim-mcp-server",
+      "description": "MCP server providing Jewish prayer times (zmanim) calculations for any location worldwide.",
+      "title": "Zmanim MCP Server",
+      "repository": {
+        "url": "https://github.com/ariroffe72/zmanim-mcp-server.git",
+        "source": "github"
+      },
+      "version": "0.2.0",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "zmanim-mcp-server",
+          "version": "0.2.0",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-31T04:43:46.570232Z",
+        "updatedAt": "2025-10-31T04:43:46.570232Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.meloncafe/chromadb-remote-mcp",
+      "description": "Remote ChromaDB vector database MCP server with streamable HTTP transport",
+      "title": "ChromaDB Remote MCP Server",
+      "repository": {
+        "url": "https://github.com/meloncafe/chromadb-remote-mcp",
+        "source": "github"
+      },
+      "version": "1.0.2",
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "devsaurus/chromadb-remote-mcp:latest",
+          "runtimeHint": "docker",
+          "transport": {
+            "type": "streamable-http",
+            "url": "https://meloncafe.github.io/chromadb-remote-mcp/mcp"
+          },
+          "runtimeArguments": [
+            {
+              "value": "8080:8080",
+              "type": "named",
+              "name": "-p"
+            },
+            {
+              "value": "MCP_AUTH_TOKEN={MCP_AUTH_TOKEN}",
+              "type": "named",
+              "name": "-e"
+            }
+          ],
+          "environmentVariables": [
+            {
+              "description": "URL of your deployed ChromaDB Remote MCP server",
+              "isRequired": true,
+              "placeholder": "https://your-server.example.com/mcp",
+              "name": "CHROMADB_MCP_URL"
+            },
+            {
+              "description": "Authentication token for the MCP server (if enabled)",
+              "isSecret": true,
+              "name": "MCP_AUTH_TOKEN"
+            }
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://meloncafe.github.io/chromadb-remote-mcp/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-31T06:12:13.693488Z",
+        "updatedAt": "2025-10-31T06:12:13.693488Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.pi22by7/in-memoria",
+      "description": "Persistent codebase intelligence that gives AI assistants memory across sessions",
+      "version": "0.5.7",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "in-memoria",
+          "version": "0.5.7",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Optional OpenAI API key for embeddings (falls back to local transformers.js)",
+              "isSecret": true,
+              "name": "OPENAI_API_KEY"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-31T07:23:07.83562Z",
+        "updatedAt": "2025-10-31T07:23:07.83562Z",
         "isLatest": true
       }
     }
