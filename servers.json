@@ -64323,7 +64323,7 @@
         "status": "active",
         "publishedAt": "2025-10-29T14:29:32.451192Z",
         "updatedAt": "2025-10-29T14:29:32.451192Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -67575,7 +67575,7 @@
         "status": "active",
         "publishedAt": "2025-10-31T03:37:12.444286Z",
         "updatedAt": "2025-10-31T03:37:12.444286Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -67742,6 +67742,251 @@
         "status": "active",
         "publishedAt": "2025-10-31T07:23:07.83562Z",
         "updatedAt": "2025-10-31T07:23:07.83562Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.rogiervdbrnk/mcp-real-estate-server",
+      "description": "Dutch real estate data with KRK Makelaars report generation.",
+      "repository": {
+        "url": "https://github.com/rogiervdbrnk/mcp-server",
+        "source": "github"
+      },
+      "version": "1.3.4",
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/rogiervdbrnk/mcp-real-estate-server:v1.3.4",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-31T09:38:19.362302Z",
+        "updatedAt": "2025-10-31T09:38:19.362302Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.rogiervdbrnk/mcp-real-estate-server",
+      "description": "Dutch real estate data with KRK Makelaars report generation.",
+      "repository": {
+        "url": "https://github.com/rogiervdbrnk/mcp-server",
+        "source": "github"
+      },
+      "version": "1.3.5",
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/rogiervdbrnk/mcp-real-estate-server:v1.3.5",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-31T10:05:08.252148Z",
+        "updatedAt": "2025-10-31T10:05:08.252148Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.aahl/mcp-aktools",
+      "description": "MCP Server for stock and crypto",
+      "title": "AkTools MCP Server",
+      "repository": {
+        "url": "https://github.com/aahl/mcp-aktools",
+        "source": "github"
+      },
+      "version": "0.1.10",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "mcp-aktools",
+          "version": "0.1.10",
+          "transport": {
+            "type": "stdio"
+          }
+        },
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/aahl/mcp-aktools:latest",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-31T11:02:37.233096Z",
+        "updatedAt": "2025-10-31T11:02:37.233096Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.rogiervdbrnk/mcp-real-estate-server",
+      "description": "Dutch real estate data with KRK Makelaars report generation.",
+      "repository": {
+        "url": "https://github.com/rogiervdbrnk/mcp-server",
+        "source": "github"
+      },
+      "version": "1.3.6",
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/rogiervdbrnk/mcp-real-estate-server:v1.3.6",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-31T11:36:05.869134Z",
+        "updatedAt": "2025-10-31T11:36:05.869134Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.postman/postman-mcp-server",
+      "description": "A basic MCP server to operate on the Postman API.",
+      "repository": {
+        "url": "https://github.com/postmanlabs/postman-mcp-server",
+        "source": "github"
+      },
+      "version": "2.4.2",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@postman/postman-mcp-server",
+          "version": "2.4.2",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "A valid Postman API key.",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "POSTMAN_API_KEY"
+            }
+          ]
+        },
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/postmanlabs/postman-mcp-server/releases/download/v2.3.7/postman-mcp-server-minimal.mcpb",
+          "fileSha256": "141d04ea82f35bd140ba8c73fa87b1f746260b9c11ee0623fc04b6012056985f",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "A valid Postman API key.",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "POSTMAN_API_KEY"
+            }
+          ]
+        },
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/postmanlabs/postman-mcp-server/releases/download/v2.3.7/postman-mcp-server-full.mcpb",
+          "fileSha256": "8ec132046ecf970a52ae056628a9187bdcabad89dff7b4b6ea3f91769f360aeb",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "A valid Postman API key.",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "POSTMAN_API_KEY"
+            }
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.postman.com/mcp",
+          "headers": [
+            {
+              "description": "A Bearer token and a valid Postman API key for authentication.",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "Authorization"
+            }
+          ]
+        },
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.postman.com/minimal",
+          "headers": [
+            {
+              "description": "A Bearer token and a valid Postman API key for authentication.",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "Authorization"
+            }
+          ]
+        },
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.eu.postman.com/mcp",
+          "headers": [
+            {
+              "description": "A Bearer token and a valid Postman API key for authentication.",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "Authorization"
+            }
+          ]
+        },
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.eu.postman.com/minimal",
+          "headers": [
+            {
+              "description": "A Bearer token and a valid Postman API key for authentication.",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "Authorization"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-10-31T11:39:18.79638Z",
+        "updatedAt": "2025-10-31T11:39:18.79638Z",
         "isLatest": true
       }
     }
