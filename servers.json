@@ -42515,7 +42515,7 @@
         "status": "active",
         "publishedAt": "2025-10-07T20:11:57.116929Z",
         "updatedAt": "2025-10-07T20:11:57.116929Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -68546,7 +68546,7 @@
         "status": "active",
         "publishedAt": "2025-10-31T16:51:46.971363Z",
         "updatedAt": "2025-10-31T16:51:46.971363Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -69546,6 +69546,72 @@
         "status": "active",
         "publishedAt": "2025-10-31T23:11:14.156008Z",
         "updatedAt": "2025-10-31T23:11:14.156008Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.sunshad0w/html2md",
+      "description": "Converts HTML to Markdown with auto-summary and section extraction. Supports Playwright.",
+      "title": "HTML to Markdown MCP Server",
+      "repository": {
+        "url": "https://github.com/sunshad0w/html2md-mcp",
+        "source": "github"
+      },
+      "version": "0.3.0",
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "docker.io/sunshad0w/html2md-mcp",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-01T09:14:23.461442Z",
+        "updatedAt": "2025-11-01T09:14:23.461442Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.mobile-next/mobile-mcp",
+      "description": "MCP server for iOS and Android Mobile Development, Automation and Testing",
+      "repository": {
+        "url": "https://github.com/mobile-next/mobile-mcp",
+        "source": "github"
+      },
+      "version": "0.0.34",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@mobilenext/mobile-mcp",
+          "version": "0.0.34",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "name": ""
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-01T11:32:09.720236Z",
+        "updatedAt": "2025-11-01T11:32:09.720236Z",
         "isLatest": true
       }
     }
