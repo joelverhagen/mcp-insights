@@ -69615,5 +69615,35 @@
         "isLatest": true
       }
     }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.Asthanaji05/pokeapi-mcp-server",
+      "description": "Empower your AI with Pokédex powers! Fetch and explore Pokémon data seamlessly via PokeAPI.",
+      "repository": {
+        "url": "https://github.com/Asthanaji05/MCP_Pokemon",
+        "source": "github"
+      },
+      "version": "1.2.7",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "pokeapi-mcp-server",
+          "version": "1.2.7",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-01T15:04:30.966413Z",
+        "updatedAt": "2025-11-01T15:04:30.966413Z",
+        "isLatest": true
+      }
+    }
   }
 ]
