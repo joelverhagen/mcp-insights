@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2025-11-02T04:33:22.0715038+00:00
+Generated on: 2025-11-02T08:31:41.4400809+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 1517
-- Total unique server names: 760
+- Total records processed: 1526
+- Total unique server names: 761
 - Date range: 2025-09-08 to 2025-11-02
 - Peak day: 2025-09-09 with 54 unique server names
-- Average unique server names per day: 19.59
+- Average unique server names per day: 19.64
 
 ## Top 5 busiest days
 - 2025-09-09: 54 unique servers
@@ -22,11 +22,11 @@ Generated on: 2025-11-02T04:33:22.0715038+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| remote | 364 | 47.89% |
-| npm | 199 | 26.18% |
-| pypi | 93 | 12.24% |
-| oci | 44 | 5.79% |
-| none | 24 | 3.16% |
+| remote | 364 | 47.83% |
+| npm | 200 | 26.28% |
+| pypi | 93 | 12.22% |
+| oci | 44 | 5.78% |
+| none | 24 | 3.15% |
 | mcpb | 12 | 1.58% |
 | nuget | 7 | 0.92% |
 | oci+pypi | 6 | 0.79% |
@@ -50,6 +50,7 @@ Generated on: 2025-11-02T04:33:22.0715038+00:00
 | victoriametrics-community.github.io | 3 | oci |
 | therealtimex.github.io | 3 | npm, pypi |
 | spences10.github.io | 3 | npm |
+| shinpr.github.io | 3 | npm |
 | ruvnet.github.io | 3 | npm |
 | noahgift.github.io | 3 | none |
 | neverinfamous.github.io | 3 | oci, oci+pypi |
@@ -59,4 +60,3 @@ Generated on: 2025-11-02T04:33:22.0715038+00:00
 | domdomegg.github.io | 3 | mcpb+npm+oci, nuget, pypi |
 | biodnd.com | 3 | remote |
 | b1ff.github.io | 3 | npm |
-| yuna0x0.github.io | 2 | mcpb+npm+oci |

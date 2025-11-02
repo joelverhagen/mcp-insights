@@ -68896,7 +68896,7 @@
         "status": "active",
         "publishedAt": "2025-10-31T17:51:46.571565Z",
         "updatedAt": "2025-10-31T17:51:46.571565Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -69762,7 +69762,7 @@
         "status": "active",
         "publishedAt": "2025-11-01T17:30:39.886078Z",
         "updatedAt": "2025-11-01T17:30:39.886078Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -69887,6 +69887,334 @@
         "status": "active",
         "publishedAt": "2025-11-02T03:00:09.737281Z",
         "updatedAt": "2025-11-02T03:00:09.737281Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.shinpr/sub-agents-mcp",
+      "description": "MCP server for delegating tasks to specialized AI assistants in Cursor and other tools",
+      "repository": {
+        "url": "https://github.com/shinpr/sub-agents-mcp",
+        "source": "github"
+      },
+      "version": "0.1.4",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "sub-agents-mcp",
+          "version": "0.1.4",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Absolute path to the directory containing agent definition files (.md or .txt)",
+              "isRequired": true,
+              "format": "string",
+              "name": "AGENTS_DIR"
+            },
+            {
+              "description": "Type of AI CLI to use: 'cursor' or 'claude'",
+              "isRequired": true,
+              "format": "string",
+              "name": "AGENT_TYPE"
+            },
+            {
+              "description": "Maximum execution time for agents in milliseconds (default: 300000, max: 600000)",
+              "format": "string",
+              "name": "EXECUTION_TIMEOUT_MS"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-02T04:38:51.530175Z",
+        "updatedAt": "2025-11-02T04:38:51.530175Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.Asthanaji05/pokeapi-mcp-server",
+      "description": "Empower your AI with Pokédex powers! Fetch and explore Pokémon data seamlessly via PokeAPI.",
+      "repository": {
+        "url": "https://github.com/Asthanaji05/MCP_Pokemon",
+        "source": "github"
+      },
+      "version": "1.5.0",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "pokeapi-mcp-server",
+          "version": "1.5.0",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-02T06:25:37.381227Z",
+        "updatedAt": "2025-11-02T06:25:37.381227Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.shinpr/mcp-local-rag",
+      "description": "Easy-to-setup local RAG server with minimal configuration",
+      "repository": {
+        "url": "https://github.com/shinpr/mcp-local-rag",
+        "source": "github"
+      },
+      "version": "0.1.4",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "mcp-local-rag",
+          "version": "0.1.4",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Base directory for document storage (defaults to current working directory)",
+              "format": "string",
+              "name": "BASE_DIR"
+            },
+            {
+              "description": "Path to LanceDB database directory (defaults to ./lancedb/)",
+              "format": "string",
+              "name": "DB_PATH"
+            },
+            {
+              "description": "Directory where Transformers.js models are cached (defaults to ./models/)",
+              "format": "string",
+              "name": "CACHE_DIR"
+            },
+            {
+              "description": "Embedding model name (defaults to Xenova/all-MiniLM-L6-v2)",
+              "format": "string",
+              "name": "MODEL_NAME"
+            },
+            {
+              "description": "Maximum file size in bytes (defaults to 104857600 / 100MB)",
+              "format": "string",
+              "name": "MAX_FILE_SIZE"
+            },
+            {
+              "description": "Text chunk size for splitting documents (defaults to 512)",
+              "format": "string",
+              "name": "CHUNK_SIZE"
+            },
+            {
+              "description": "Overlap between consecutive chunks (defaults to 100)",
+              "format": "string",
+              "name": "CHUNK_OVERLAP"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-02T06:39:44.525019Z",
+        "updatedAt": "2025-11-02T06:39:44.525019Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.Asthanaji05/pokeapi-mcp-server",
+      "description": "Empower your AI with Pokédex powers! Fetch and explore Pokémon data seamlessly via PokeAPI.",
+      "repository": {
+        "url": "https://github.com/Asthanaji05/MCP_Pokemon",
+        "source": "github"
+      },
+      "version": "1.7.0",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "pokeapi-mcp-server",
+          "version": "1.7.0",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-02T06:57:02.388523Z",
+        "updatedAt": "2025-11-02T06:57:02.388523Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.Asthanaji05/pokeapi-mcp-server",
+      "description": "Empower your AI with Pokédex powers! Fetch and explore Pokémon data seamlessly via PokeAPI.",
+      "repository": {
+        "url": "https://github.com/Asthanaji05/MCP_Pokemon",
+        "source": "github"
+      },
+      "version": "1.8.0",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "pokeapi-mcp-server",
+          "version": "1.8.0",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-02T07:06:25.790947Z",
+        "updatedAt": "2025-11-02T07:06:25.790947Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.Asthanaji05/pokeapi-mcp-server",
+      "description": "Empower your AI with Pokédex powers! Fetch and explore Pokémon data seamlessly via PokeAPI.",
+      "repository": {
+        "url": "https://github.com/Asthanaji05/MCP_Pokemon",
+        "source": "github"
+      },
+      "version": "1.9.0",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "pokeapi-mcp-server",
+          "version": "1.9.0",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-02T07:10:33.355751Z",
+        "updatedAt": "2025-11-02T07:10:33.355751Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.Asthanaji05/pokeapi-mcp-server",
+      "description": "Empower your AI with Pokédex powers! Fetch and explore Pokémon data seamlessly via PokeAPI.",
+      "repository": {
+        "url": "https://github.com/Asthanaji05/MCP_Pokemon",
+        "source": "github"
+      },
+      "version": "1.10.0",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "pokeapi-mcp-server",
+          "version": "1.10.0",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-02T07:14:19.580163Z",
+        "updatedAt": "2025-11-02T07:14:19.580163Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.Asthanaji05/pokeapi-mcp-server",
+      "description": "Empower your AI with Pokédex powers! Fetch and explore Pokémon data seamlessly via PokeAPI.",
+      "repository": {
+        "url": "https://github.com/Asthanaji05/MCP_Pokemon",
+        "source": "github"
+      },
+      "version": "1.11.0",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "pokeapi-mcp-server",
+          "version": "1.11.0",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-02T07:16:42.1918Z",
+        "updatedAt": "2025-11-02T07:16:42.1918Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.Asthanaji05/pokeapi-mcp-server",
+      "description": "Empower your AI with Pokédex powers! Fetch and explore Pokémon data seamlessly via PokeAPI.",
+      "repository": {
+        "url": "https://github.com/Asthanaji05/MCP_Pokemon",
+        "source": "github"
+      },
+      "version": "1.12.0",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "pokeapi-mcp-server",
+          "version": "1.12.0",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-02T07:21:36.863462Z",
+        "updatedAt": "2025-11-02T07:21:36.863462Z",
         "isLatest": true
       }
     }
