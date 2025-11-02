@@ -40734,7 +40734,7 @@
         "status": "active",
         "publishedAt": "2025-10-06T22:06:15.773924Z",
         "updatedAt": "2025-10-06T22:06:15.773924Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -41533,7 +41533,7 @@
         "status": "active",
         "publishedAt": "2025-10-07T02:03:49.611586Z",
         "updatedAt": "2025-10-07T02:03:49.611586Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -70804,6 +70804,121 @@
         "status": "active",
         "publishedAt": "2025-11-02T15:43:14.313963Z",
         "updatedAt": "2025-11-02T15:43:14.313963Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.BenAHammond/code-auditor-mcp",
+      "description": "Code Quality Auditor: Analyze code for SOLID principles, DRY violations, and more",
+      "repository": {
+        "url": "https://github.com/BenAHammond/code-auditor-mcp",
+        "source": "github"
+      },
+      "version": "2.0.2",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "code-auditor-mcp",
+          "version": "2.0.2",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-02T18:28:45.941423Z",
+        "updatedAt": "2025-11-02T18:28:45.941423Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.schemacrawler/schemacrawler-ai",
+      "description": "Enables natural language schema queries — explore tables, keys, procedures, and get SQL help fast",
+      "repository": {
+        "url": "https://github.com/schemacrawler/SchemaCrawler-AI",
+        "source": "github"
+      },
+      "version": "v16.29.1-2",
+      "websiteUrl": "https://schemacrawler.github.io",
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "docker.io/schemacrawler/schemacrawler-ai:v16.29.1-1",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "MCP Server transport type - valid values are 'http' or 'stdio', defaulting to 'stdio'.",
+              "format": "string",
+              "name": "SCHCRWLR_MCP_SERVER_TRANSPORT"
+            },
+            {
+              "description": "Database user name. Can be optional depending on the database connection type.",
+              "format": "string",
+              "isSecret": true,
+              "name": "SCHCRWLR_DATABASE_USER"
+            },
+            {
+              "description": "Database user password. Can be optional depending on the database connection type.",
+              "format": "string",
+              "isSecret": true,
+              "name": "SCHCRWLR_DATABASE_PASSWORD"
+            },
+            {
+              "description": "JDBC URL for database connection. If this is provided, the server, host, port and database are not used.",
+              "format": "string",
+              "name": "SCHCRWLR_JDBC_URL"
+            },
+            {
+              "description": "SchemaCrawler database plugin, for example, 'sqlserver' or 'sqlite'. Used only if the JDBC URL is not provided.",
+              "format": "string",
+              "name": "SCHCRWLR_SERVER"
+            },
+            {
+              "description": "Database host. Defaults to localhost. Used only if the JDBC URL is not provided.",
+              "format": "string",
+              "name": "SCHCRWLR_HOST"
+            },
+            {
+              "description": "Database port. Defaults to the default port for the server type. Used only if the JDBC URL is not provided.",
+              "format": "string",
+              "name": "SCHCRWLR_PORT"
+            },
+            {
+              "description": "Database to connect to (optional). Used only if the JDBC URL is not provided.",
+              "format": "string",
+              "name": "SCHCRWLR_DATABASE"
+            },
+            {
+              "description": "How much database metadata to retrieve. Values are 'minimum', 'standard', 'detailed' or 'maximum'.",
+              "format": "string",
+              "name": "SCHCRWLR_INFO_LEVEL"
+            },
+            {
+              "description": "Logging verbosity level. Values are 'SEVERE', 'WARNING', 'INFO', 'CONFIG', or 'FINE'.",
+              "format": "string",
+              "name": "SCHCRWLR_LOG_LEVEL"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-02T20:17:48.39404Z",
+        "updatedAt": "2025-11-02T20:17:48.39404Z",
         "isLatest": true
       }
     }
