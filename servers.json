@@ -60784,7 +60784,7 @@
         "status": "active",
         "publishedAt": "2025-10-28T06:07:06.819101Z",
         "updatedAt": "2025-10-28T06:07:06.819101Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -67838,7 +67838,7 @@
         "status": "active",
         "publishedAt": "2025-10-31T11:02:37.233096Z",
         "updatedAt": "2025-10-31T11:02:37.233096Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -70035,7 +70035,7 @@
         "status": "active",
         "publishedAt": "2025-11-02T06:39:44.525019Z",
         "updatedAt": "2025-11-02T06:39:44.525019Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -70215,6 +70215,191 @@
         "status": "active",
         "publishedAt": "2025-11-02T07:21:36.863462Z",
         "updatedAt": "2025-11-02T07:21:36.863462Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.aahl/mcp-aktools",
+      "description": "MCP Server for stock and crypto",
+      "title": "AkTools MCP Server",
+      "repository": {
+        "url": "https://github.com/aahl/mcp-aktools",
+        "source": "github"
+      },
+      "version": "0.1.11",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "mcp-aktools",
+          "version": "0.1.11",
+          "transport": {
+            "type": "stdio"
+          }
+        },
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/aahl/mcp-aktools:latest",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-02T08:57:11.728246Z",
+        "updatedAt": "2025-11-02T08:57:11.728246Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.shinpr/mcp-local-rag",
+      "description": "Easy-to-setup local RAG server with minimal configuration",
+      "repository": {
+        "url": "https://github.com/shinpr/mcp-local-rag",
+        "source": "github"
+      },
+      "version": "0.1.5",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "mcp-local-rag",
+          "version": "0.1.5",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Base directory for document storage (defaults to current working directory)",
+              "format": "string",
+              "name": "BASE_DIR"
+            },
+            {
+              "description": "Path to LanceDB database directory (defaults to ./lancedb/)",
+              "format": "string",
+              "name": "DB_PATH"
+            },
+            {
+              "description": "Directory where Transformers.js models are cached (defaults to ./models/)",
+              "format": "string",
+              "name": "CACHE_DIR"
+            },
+            {
+              "description": "Embedding model name (defaults to Xenova/all-MiniLM-L6-v2)",
+              "format": "string",
+              "name": "MODEL_NAME"
+            },
+            {
+              "description": "Maximum file size in bytes (defaults to 104857600 / 100MB)",
+              "format": "string",
+              "name": "MAX_FILE_SIZE"
+            },
+            {
+              "description": "Text chunk size for splitting documents (defaults to 512)",
+              "format": "string",
+              "name": "CHUNK_SIZE"
+            },
+            {
+              "description": "Overlap between consecutive chunks (defaults to 100)",
+              "format": "string",
+              "name": "CHUNK_OVERLAP"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-02T09:10:14.925884Z",
+        "updatedAt": "2025-11-02T09:10:14.925884Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.sumup/mcp",
+      "description": "Tools to explore SumUp accounts, payments, customers, and payouts.",
+      "title": "SumUp MCP Server",
+      "repository": {
+        "url": "https://github.com/sumup/sumup-agent-toolkit",
+        "source": "github",
+        "subfolder": "mcp"
+      },
+      "version": "0.1.1",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@sumup/mcp",
+          "version": "0.1.1",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "SumUp API key with permissions for the requested operations.",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "SUMUP_API_KEY"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-02T09:23:34.97206Z",
+        "updatedAt": "2025-11-02T09:23:34.97206Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.aahl/mcp-notify",
+      "description": "MCP Server for notify",
+      "title": "Notify MCP Server",
+      "repository": {
+        "url": "https://github.com/aahl/mcp-notify",
+        "source": "github"
+      },
+      "version": "0.1.4",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "mcp-notify",
+          "version": "0.1.4",
+          "transport": {
+            "type": "stdio"
+          }
+        },
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/aahl/mcp-notify:latest",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-02T09:53:25.104649Z",
+        "updatedAt": "2025-11-02T09:53:25.104649Z",
         "isLatest": true
       }
     }
