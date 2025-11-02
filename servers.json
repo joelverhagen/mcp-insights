@@ -60524,7 +60524,7 @@
         "status": "active",
         "publishedAt": "2025-10-28T00:39:35.755478Z",
         "updatedAt": "2025-10-28T00:39:35.755478Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -69855,6 +69855,38 @@
         "status": "active",
         "publishedAt": "2025-11-01T22:42:41.027069Z",
         "updatedAt": "2025-11-01T22:42:41.027069Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.gattjoe/ACMS",
+      "description": "Apple Container MCP Server (ACMS) provides access to Apple's container CLI tool on macOS",
+      "repository": {
+        "url": "https://github.com/gattjoe/ACMS",
+        "source": "github"
+      },
+      "version": "0.0.5",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "registryBaseUrl": "https://pypi.org",
+          "identifier": "ACMS",
+          "version": "0.0.5",
+          "transport": {
+            "type": "streamable-http",
+            "url": "http://localhost:8765/mcp"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-02T03:00:09.737281Z",
+        "updatedAt": "2025-11-02T03:00:09.737281Z",
         "isLatest": true
       }
     }
