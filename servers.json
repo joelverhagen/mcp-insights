@@ -65708,7 +65708,7 @@
         "status": "active",
         "publishedAt": "2025-10-30T10:16:01.258582Z",
         "updatedAt": "2025-10-30T10:16:01.258582Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -71364,6 +71364,75 @@
         "status": "active",
         "publishedAt": "2025-11-02T22:33:14.955019Z",
         "updatedAt": "2025-11-02T22:33:14.955019Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.clarenceh/expenselm-mcp-server",
+      "description": "An MCP server that provides access to your expense data on ExpenseLM.",
+      "repository": {
+        "url": "https://github.com/expenselm/expenselm-mcp-server",
+        "source": "github"
+      },
+      "version": "0.2.2",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "expenselm-mcp-server",
+          "version": "0.2.2",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your ExpenseLM API key",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "EXPENSELM_API_KEY"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-03T03:55:45.761826Z",
+        "updatedAt": "2025-11-03T03:55:45.761826Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.consulatehq/consulate",
+      "description": "Unified dispute resolution: crypto, payments, SLA violations. 95% AI automation.",
+      "title": "Consulate - AI Dispute Resolution (Crypto + Traditional + General)",
+      "version": "2.0.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://api.consulatehq.com",
+          "headers": [
+            {
+              "description": "Bearer token authentication using Consulate API keys (starts with csk_live_ or csk_test_)",
+              "isSecret": true,
+              "name": "Authorization"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-03T04:00:14.972296Z",
+        "updatedAt": "2025-11-03T04:00:14.972296Z",
         "isLatest": true
       }
     }
