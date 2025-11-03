@@ -67484,7 +67484,7 @@
         "status": "active",
         "publishedAt": "2025-10-30T23:27:30.284395Z",
         "updatedAt": "2025-10-30T23:27:30.284395Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -71882,7 +71882,7 @@
         "status": "active",
         "publishedAt": "2025-11-03T16:15:12.892863Z",
         "updatedAt": "2025-11-03T16:15:12.892863Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -71957,6 +71957,102 @@
         "status": "active",
         "publishedAt": "2025-11-03T16:33:45.797264Z",
         "updatedAt": "2025-11-03T16:33:45.797264Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.pubnub/mcp-server",
+      "description": "PubNub MCP for Real-time messaging. API Access and SDK documentation.",
+      "repository": {
+        "url": "https://github.com/pubnub/pubnub-mcp-server",
+        "source": "github"
+      },
+      "version": "1.0.122",
+      "websiteUrl": "https://pubnub.github.io/pubnub-mcp-server",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@pubnub/mcp",
+          "version": "1.0.122",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-03T19:04:46.246947Z",
+        "updatedAt": "2025-11-03T19:04:46.246947Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.ScrapeGraphAI/scrapegraph-mcp",
+      "description": "AI-powered web scraping and data extraction capabilities through ScrapeGraph API",
+      "repository": {
+        "url": "https://github.com/ScrapeGraphAI/scrapegraph-mcp",
+        "source": "github"
+      },
+      "version": "1.0.0",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "scrapegraph-mcp",
+          "version": "1.0.0",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your ScapeGraph API key (optional - can also be set via MCP config)",
+              "format": "string",
+              "isSecret": true,
+              "name": "SGAI_API_KEY"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-03T19:23:33.165955Z",
+        "updatedAt": "2025-11-03T19:23:33.165955Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.zloeber/terraform-ingest",
+      "description": "Ingest and analyze Terraform modules from multiple repositories for AI RAG systems",
+      "title": "Terraform Ingest MCP",
+      "version": "0.1.21",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "terraform-ingest",
+          "version": "0.1.21",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-03T20:10:47.922193Z",
+        "updatedAt": "2025-11-03T20:10:47.922193Z",
         "isLatest": true
       }
     }
