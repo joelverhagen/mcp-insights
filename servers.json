@@ -54674,7 +54674,7 @@
         "status": "active",
         "publishedAt": "2025-10-21T12:30:16.003976Z",
         "updatedAt": "2025-10-21T12:30:16.003976Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -70919,7 +70919,7 @@
         "status": "active",
         "publishedAt": "2025-11-02T20:17:48.39404Z",
         "updatedAt": "2025-11-02T20:17:48.39404Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -72306,6 +72306,156 @@
         "status": "active",
         "publishedAt": "2025-11-04T12:35:13.780332Z",
         "updatedAt": "2025-11-04T12:35:13.780332Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.schemacrawler/schemacrawler-ai",
+      "description": "Enables natural language schema queries — explore tables, keys, procedures, and get SQL help fast",
+      "repository": {
+        "url": "https://github.com/schemacrawler/SchemaCrawler-AI",
+        "source": "github"
+      },
+      "version": "v17.1.4-1",
+      "websiteUrl": "https://schemacrawler.github.io",
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "docker.io/schemacrawler/schemacrawler-ai:v17.1.4-1",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "MCP Server transport type - valid values are 'http' or 'stdio', defaulting to 'stdio'.",
+              "format": "string",
+              "name": "SCHCRWLR_MCP_SERVER_TRANSPORT"
+            },
+            {
+              "description": "Database user name. Can be optional depending on the database connection type.",
+              "format": "string",
+              "isSecret": true,
+              "name": "SCHCRWLR_DATABASE_USER"
+            },
+            {
+              "description": "Database user password. Can be optional depending on the database connection type.",
+              "format": "string",
+              "isSecret": true,
+              "name": "SCHCRWLR_DATABASE_PASSWORD"
+            },
+            {
+              "description": "JDBC URL for database connection. If this is provided, the server, host, port and database are not used.",
+              "format": "string",
+              "name": "SCHCRWLR_JDBC_URL"
+            },
+            {
+              "description": "SchemaCrawler database plugin, for example, 'sqlserver' or 'sqlite'. Used only if the JDBC URL is not provided.",
+              "format": "string",
+              "name": "SCHCRWLR_SERVER"
+            },
+            {
+              "description": "Database host. Defaults to localhost. Used only if the JDBC URL is not provided.",
+              "format": "string",
+              "name": "SCHCRWLR_HOST"
+            },
+            {
+              "description": "Database port. Defaults to the default port for the server type. Used only if the JDBC URL is not provided.",
+              "format": "string",
+              "name": "SCHCRWLR_PORT"
+            },
+            {
+              "description": "Database to connect to (optional). Used only if the JDBC URL is not provided.",
+              "format": "string",
+              "name": "SCHCRWLR_DATABASE"
+            },
+            {
+              "description": "How much database metadata to retrieve. Values are 'minimum', 'standard', 'detailed' or 'maximum'.",
+              "format": "string",
+              "name": "SCHCRWLR_INFO_LEVEL"
+            },
+            {
+              "description": "Logging verbosity level. Values are 'SEVERE', 'WARNING', 'INFO', 'CONFIG', or 'FINE'.",
+              "format": "string",
+              "name": "SCHCRWLR_LOG_LEVEL"
+            },
+            {
+              "description": "MCP Server tools to exclude, as a comma-separated list.",
+              "format": "string",
+              "name": "SCHCRWLR_EXCLUDE_TOOLS"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-04T13:29:41.051497Z",
+        "updatedAt": "2025-11-04T13:29:41.051497Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.codescene/codescene-mcp-server",
+      "description": "An MCP server that provides CodeScene Code Health analysis tools.",
+      "repository": {
+        "url": "https://github.com/codescene-oss/codescene-mcp-server",
+        "source": "github"
+      },
+      "version": "1.0.1",
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "docker.io/codescene/codescene-mcp:latest",
+          "transport": {
+            "type": "stdio"
+          },
+          "runtimeArguments": [
+            {
+              "description": "Mount the path to code to be analysed by CodeScene",
+              "isRequired": true,
+              "value": "type=bind,src={source_path},dst=/mount/,ro",
+              "variables": {
+                "source_path": {
+                  "description": "Path to code to be analysed by CodeScene",
+                  "isRequired": true,
+                  "format": "filepath"
+                }
+              },
+              "type": "named",
+              "name": "--mount"
+            }
+          ],
+          "environmentVariables": [
+            {
+              "description": "CodeScene API Token",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "CS_ACCESS_TOKEN"
+            },
+            {
+              "description": "CodeScene Path to code",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "CS_MOUNT_PATH"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-04T13:50:39.80944Z",
+        "updatedAt": "2025-11-04T13:50:39.80944Z",
         "isLatest": true
       }
     }
