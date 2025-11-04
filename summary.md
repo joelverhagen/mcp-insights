@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2025-11-04T16:35:56.3124637+00:00
+Generated on: 2025-11-04T20:32:19.0019200+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 1564
-- Total unique server names: 767
+- Total records processed: 1568
+- Total unique server names: 770
 - Date range: 2025-09-08 to 2025-11-04
 - Peak day: 2025-09-09 with 54 unique server names
-- Average unique server names per day: 19.43
+- Average unique server names per day: 19.48
 
 ## Top 5 busiest days
 - 2025-09-09: 54 unique servers
@@ -22,14 +22,14 @@ Generated on: 2025-11-04T16:35:56.3124637+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| remote | 364 | 47.46% |
-| npm | 202 | 26.34% |
-| pypi | 96 | 12.52% |
-| oci | 44 | 5.74% |
-| none | 25 | 3.26% |
-| mcpb | 12 | 1.56% |
+| remote | 364 | 47.27% |
+| npm | 203 | 26.36% |
+| pypi | 96 | 12.47% |
+| oci | 44 | 5.71% |
+| none | 25 | 3.25% |
+| mcpb | 13 | 1.69% |
+| oci+pypi | 7 | 0.91% |
 | nuget | 7 | 0.91% |
-| oci+pypi | 6 | 0.78% |
 | mcpb+npm+oci | 4 | 0.52% |
 | npm+oci | 3 | 0.39% |
 | mcpb+npm | 2 | 0.26% |
@@ -46,6 +46,7 @@ Generated on: 2025-11-04T16:35:56.3124637+00:00
 | huoshuiai42.github.io | 5 | pypi |
 | paiml.github.io | 4 | none |
 | mintmcp.com | 4 | remote |
+| jkawamoto.github.io | 4 | mcpb |
 | bytedance.github.io | 4 | npm |
 | victoriametrics-community.github.io | 3 | oci |
 | therealtimex.github.io | 3 | npm, pypi |
@@ -54,7 +55,6 @@ Generated on: 2025-11-04T16:35:56.3124637+00:00
 | ruvnet.github.io | 3 | npm |
 | noahgift.github.io | 3 | none |
 | neverinfamous.github.io | 3 | oci, oci+pypi |
-| jkawamoto.github.io | 3 | mcpb |
 | github30.github.io | 3 | none |
 | formulahendry.github.io | 3 | npm, npm+oci |
 | domdomegg.github.io | 3 | mcpb+npm+oci, nuget, pypi |
