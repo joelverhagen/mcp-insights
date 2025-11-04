@@ -12854,7 +12854,7 @@
         "status": "active",
         "publishedAt": "2025-09-16T01:51:47.021732Z",
         "updatedAt": "2025-09-16T01:51:47.021732Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -38365,7 +38365,7 @@
         "status": "active",
         "publishedAt": "2025-10-05T06:53:01.577028Z",
         "updatedAt": "2025-10-05T06:53:01.577028Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -72085,6 +72085,227 @@
         "status": "active",
         "publishedAt": "2025-11-04T02:20:04.70724Z",
         "updatedAt": "2025-11-04T02:20:04.70724Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.kkjdaniel/bgg-mcp",
+      "description": "BoardGameGeek MCP server providing access to BGG API data through standardized tools",
+      "title": "BoardGameGeek MCP Server",
+      "repository": {
+        "url": "https://github.com/kkjdaniel/bgg-mcp",
+        "source": "github"
+      },
+      "version": "1.5.0",
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "docker.io/kdaniel/bgg-mcp:1.5.0",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your BoardGameGeek username for references such as ME or MY in prompts",
+              "name": "BGG_USERNAME"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-04T10:35:40.931273Z",
+        "updatedAt": "2025-11-04T10:35:40.931273Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.kkjdaniel/bgg-mcp",
+      "description": "BoardGameGeek MCP server providing access to BGG API data through standardized tools",
+      "title": "BoardGameGeek MCP Server",
+      "repository": {
+        "url": "https://github.com/kkjdaniel/bgg-mcp",
+        "source": "github"
+      },
+      "version": "1.5.1",
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "docker.io/kdaniel/bgg-mcp:1.5.1",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "API key for BoardGameGeek authentication (recommended). Obtain from https://boardgamegeek.com/applications",
+              "name": "BGG_API_KEY"
+            },
+            {
+              "description": "Cookie string for BGG authentication (alternative to API key). Format: 'bggusername=user; bggpassword=pass; SessionID=xyz'",
+              "name": "BGG_COOKIE"
+            },
+            {
+              "description": "Your BoardGameGeek username for references such as ME or MY in prompts",
+              "name": "BGG_USERNAME"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-04T10:48:29.655959Z",
+        "updatedAt": "2025-11-04T10:48:29.655959Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.docfork/docfork-mcp",
+      "description": "Up-to-date documentation to 9,000+ libraries for devs and AI agents.",
+      "repository": {
+        "url": "https://github.com/docfork/docfork-mcp",
+        "source": "github"
+      },
+      "version": "1.0.1",
+      "icons": [
+        {
+          "src": "https://mcp.docfork.com/icon.svg",
+          "mimeType": "image/svg+xml",
+          "sizes": [
+            "48x48",
+            "96x96",
+            "any"
+          ]
+        }
+      ],
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "docfork",
+          "version": "1.0.0",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.docfork.com/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-04T12:32:50.302169Z",
+        "updatedAt": "2025-11-04T12:32:50.302169Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.docfork/docfork-mcp",
+      "description": "Up-to-date documentation to 9,000+ libraries for devs and AI agents.",
+      "repository": {
+        "url": "https://github.com/docfork/docfork-mcp",
+        "source": "github"
+      },
+      "version": "1.0.2",
+      "icons": [
+        {
+          "src": "https://mcp.docfork.com/icon.svg",
+          "mimeType": "image/svg+xml",
+          "sizes": [
+            "48x48",
+            "96x96",
+            "any"
+          ]
+        }
+      ],
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "docfork",
+          "version": "1.0.0",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.docfork.com/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-04T12:33:52.063007Z",
+        "updatedAt": "2025-11-04T12:33:52.063007Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.docfork/docfork-mcp",
+      "description": "Up-to-date documentation to 9,000+ libraries for devs and AI agents.",
+      "repository": {
+        "url": "https://github.com/docfork/docfork-mcp",
+        "source": "github"
+      },
+      "version": "1.0.4",
+      "icons": [
+        {
+          "src": "https://mcp.docfork.com/icon.svg",
+          "mimeType": "image/svg+xml",
+          "sizes": [
+            "48x48",
+            "96x96",
+            "any"
+          ]
+        }
+      ],
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "docfork",
+          "version": "1.0.0",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.docfork.com/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-04T12:35:13.780332Z",
+        "updatedAt": "2025-11-04T12:35:13.780332Z",
         "isLatest": true
       }
     }
