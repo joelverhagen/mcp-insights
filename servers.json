@@ -44820,7 +44820,7 @@
         "status": "active",
         "publishedAt": "2025-10-10T06:34:43.517731Z",
         "updatedAt": "2025-10-10T06:34:43.517731Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -55372,7 +55372,7 @@
         "status": "active",
         "publishedAt": "2025-10-22T11:49:06.571748Z",
         "updatedAt": "2025-10-22T11:49:06.571748Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -57683,7 +57683,7 @@
         "status": "active",
         "publishedAt": "2025-10-24T12:13:10.633681Z",
         "updatedAt": "2025-10-24T12:13:10.633681Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -66293,7 +66293,7 @@
         "status": "active",
         "publishedAt": "2025-10-30T14:58:52.352045Z",
         "updatedAt": "2025-10-30T14:58:52.352045Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -72872,6 +72872,137 @@
         "status": "active",
         "publishedAt": "2025-11-05T06:31:52.276339Z",
         "updatedAt": "2025-11-05T06:31:52.276339Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.wonderwhy-er/desktop-commander",
+      "description": "MCP server for terminal commands, file operations, and process management",
+      "title": "Desktop Commander",
+      "repository": {
+        "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+        "source": "github"
+      },
+      "version": "0.2.21",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@wonderwhy-er/desktop-commander",
+          "version": "0.2.21",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-05T09:05:07.938909Z",
+        "updatedAt": "2025-11-05T09:05:07.938909Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.NeerajG03/vector-memory",
+      "description": "Semantic document memory using Redis vector store. Save and recall files with natural language.",
+      "version": "0.4.4",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "mcp-server-vector-memory",
+          "version": "0.4.4",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-05T11:31:58.471835Z",
+        "updatedAt": "2025-11-05T11:31:58.471835Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.ggozad/haiku-rag",
+      "description": "Agentic Retrieval Augmented Generation (RAG) with LanceDB",
+      "repository": {
+        "url": "https://github.com/ggozad/haiku.rag",
+        "source": "github"
+      },
+      "version": "0.14.0",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "registryBaseUrl": "https://pypi.org",
+          "identifier": "haiku-rag",
+          "version": "0.14.0",
+          "runtimeHint": "uvx",
+          "transport": {
+            "type": "stdio"
+          },
+          "runtimeArguments": [
+            {
+              "value": "serve",
+              "type": "positional"
+            },
+            {
+              "type": "named",
+              "name": "--mcp"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-05T11:40:06.260798Z",
+        "updatedAt": "2025-11-05T11:40:06.260798Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.ChromeDevTools/chrome-devtools-mcp",
+      "description": "MCP server for Chrome DevTools",
+      "repository": {
+        "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+        "source": "github"
+      },
+      "version": "0.10.0",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "chrome-devtools-mcp",
+          "version": "0.10.0",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-05T11:40:11.826996Z",
+        "updatedAt": "2025-11-05T11:40:11.826996Z",
         "isLatest": true
       }
     }
