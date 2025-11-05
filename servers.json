@@ -53326,7 +53326,7 @@
         "status": "active",
         "publishedAt": "2025-10-20T10:18:38.483744Z",
         "updatedAt": "2025-10-20T10:18:38.483744Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -53428,7 +53428,7 @@
         "status": "active",
         "publishedAt": "2025-10-20T10:24:39.262572Z",
         "updatedAt": "2025-10-20T10:24:39.262572Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -72689,6 +72689,189 @@
         "status": "active",
         "publishedAt": "2025-11-04T23:56:15.139119Z",
         "updatedAt": "2025-11-04T23:56:15.139119Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.yuna0x0/hackmd-mcp",
+      "description": "A Model Context Protocol server for integrating HackMD's note-taking platform with AI assistants.",
+      "title": "HackMD",
+      "repository": {
+        "url": "https://github.com/yuna0x0/hackmd-mcp",
+        "source": "github",
+        "id": "950658365"
+      },
+      "version": "1.5.6",
+      "icons": [
+        {
+          "src": "https://hackmd.io/logo.svg",
+          "mimeType": "image/svg+xml",
+          "sizes": [
+            "any"
+          ]
+        }
+      ],
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "hackmd-mcp",
+          "version": "1.5.6",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your HackMD API token for API authentication",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "HACKMD_API_TOKEN"
+            },
+            {
+              "description": "Optional HackMD API URL, defaults to https://api.hackmd.io/v1",
+              "format": "string",
+              "default": "https://api.hackmd.io/v1",
+              "name": "HACKMD_API_URL"
+            }
+          ]
+        },
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/yuna0x0/hackmd-mcp:1.5.6",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your HackMD API token for API authentication",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "HACKMD_API_TOKEN"
+            },
+            {
+              "description": "Optional HackMD API URL, defaults to https://api.hackmd.io/v1",
+              "format": "string",
+              "default": "https://api.hackmd.io/v1",
+              "name": "HACKMD_API_URL"
+            }
+          ]
+        },
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/yuna0x0/hackmd-mcp/releases/download/v1.5.6/hackmd-mcp-1.5.6.mcpb",
+          "fileSha256": "1da5cfb4969e89c6542cd9b2b697e7e75f03b360a97da447c2730851d4cb510f",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your HackMD API token for API authentication",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "HACKMD_API_TOKEN"
+            },
+            {
+              "description": "Optional HackMD API URL, defaults to https://api.hackmd.io/v1",
+              "format": "string",
+              "default": "https://api.hackmd.io/v1",
+              "name": "HACKMD_API_URL"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-05T05:54:01.345183Z",
+        "updatedAt": "2025-11-05T05:54:01.345183Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.yuna0x0/anilist-mcp",
+      "description": "AniList MCP server for accessing AniList API data",
+      "title": "AniList",
+      "repository": {
+        "url": "https://github.com/yuna0x0/anilist-mcp",
+        "source": "github",
+        "id": "952023806"
+      },
+      "version": "1.3.10",
+      "icons": [
+        {
+          "src": "https://anilist.co/img/icons/icon.svg",
+          "mimeType": "image/svg+xml",
+          "sizes": [
+            "any"
+          ]
+        }
+      ],
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "anilist-mcp",
+          "version": "1.3.10",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "AniList API token for authenticated requests",
+              "format": "string",
+              "isSecret": true,
+              "name": "ANILIST_TOKEN"
+            }
+          ]
+        },
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/yuna0x0/anilist-mcp:1.3.10",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "AniList API token for authenticated requests",
+              "format": "string",
+              "isSecret": true,
+              "name": "ANILIST_TOKEN"
+            }
+          ]
+        },
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/yuna0x0/anilist-mcp/releases/download/v1.3.10/anilist-mcp-1.3.10.mcpb",
+          "fileSha256": "58e694078422a2a2a7545c5301c18c2af1019c56ef082a5019471389f05f2bd4",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "AniList API token for authenticated requests",
+              "format": "string",
+              "isSecret": true,
+              "name": "ANILIST_TOKEN"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-05T06:31:52.276339Z",
+        "updatedAt": "2025-11-05T06:31:52.276339Z",
         "isLatest": true
       }
     }
