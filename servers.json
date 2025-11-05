@@ -73149,6 +73149,33 @@
         "status": "active",
         "publishedAt": "2025-11-05T16:29:36.562966Z",
         "updatedAt": "2025-11-05T16:29:36.562966Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.dgahagan/weather-mcp",
+      "description": "Weather data from NOAA and Open-Meteo APIs. Forecasts, current conditions, and historical data.",
+      "title": "Weather Data MCP Server",
+      "version": "0.1.2",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@dangahagan/weather-mcp",
+          "version": "0.1.2",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-05T17:04:37.397963Z",
+        "updatedAt": "2025-11-05T17:04:37.397963Z",
         "isLatest": true
       }
     }
