@@ -73348,5 +73348,227 @@
         "isLatest": true
       }
     }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.goldbergyoni/test-coverage-mcp",
+      "description": "Analyze test coverage from LCOV files - makes AI agents coverage-aware without wasting tokens",
+      "repository": {
+        "url": "https://github.com/goldbergyoni/test-coverage-mcp",
+        "source": "github"
+      },
+      "version": "1.0.0",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "test-coverage-mcp",
+          "version": "1.0.0",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-06T10:46:07.784043Z",
+        "updatedAt": "2025-11-06T10:46:07.784043Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.simonenavifare/navifare-mcp",
+      "description": "Flight price comparison MCP server. Search multiple booking sources to find better flight prices.",
+      "repository": {
+        "url": "https://github.com/navifare/navifare-mcp",
+        "source": "github"
+      },
+      "version": "0.1.1",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "navifare-mcp",
+          "version": "0.1.1",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Google Gemini API key for image extraction (required)",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "GEMINI_API_KEY"
+            },
+            {
+              "description": "Navifare API base URL (optional, defaults to https://api.navifare.com/api/v1/price-discovery/flights)",
+              "format": "string",
+              "name": "NAVIFARE_API_BASE_URL"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-06T11:13:34.574046Z",
+        "updatedAt": "2025-11-06T11:13:34.574046Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.simonenavifare/navifare-mcp",
+      "description": "Flight price comparison MCP server. Search multiple booking sources to find better flight prices.",
+      "repository": {
+        "url": "https://github.com/navifare/navifare-mcp",
+        "source": "github"
+      },
+      "version": "0.1.2",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "navifare-mcp",
+          "version": "0.1.2",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Google Gemini API key for image extraction (required)",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "GEMINI_API_KEY"
+            },
+            {
+              "description": "Navifare API base URL (optional, defaults to https://api.navifare.com/api/v1/price-discovery/flights)",
+              "format": "string",
+              "name": "NAVIFARE_API_BASE_URL"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-06T11:27:57.950959Z",
+        "updatedAt": "2025-11-06T11:27:57.950959Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.simonenavifare/navifare-mcp",
+      "description": "Flight price comparison MCP server. Search multiple booking sources to find better flight prices.",
+      "repository": {
+        "url": "https://github.com/navifare/navifare-mcp",
+        "source": "github"
+      },
+      "version": "0.1.3",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "navifare-mcp",
+          "version": "0.1.3",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Google Gemini API key for image extraction (required)",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "GEMINI_API_KEY"
+            },
+            {
+              "description": "Navifare API base URL (optional, defaults to https://api.navifare.com/api/v1/price-discovery/flights)",
+              "format": "string",
+              "name": "NAVIFARE_API_BASE_URL"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-06T11:52:00.575097Z",
+        "updatedAt": "2025-11-06T11:52:00.575097Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "dev.ohmyposh/validator",
+      "description": "Validate oh-my-posh configurations and segment snippets against the official schema.",
+      "title": "Oh My Posh Validator",
+      "repository": {
+        "url": "https://github.com/JanDeDobbeleer/oh-my-posh",
+        "source": "github",
+        "id": "175405157",
+        "subfolder": "website/api/mcp"
+      },
+      "version": "1.0.0",
+      "websiteUrl": "https://ohmyposh.dev/docs/advanced/mcp-server",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://ohmyposh.dev/api/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-06T12:09:38.659521Z",
+        "updatedAt": "2025-11-06T12:09:38.659521Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "dev.ohmyposh/validator",
+      "description": "Validate oh-my-posh configurations and segment snippets against the official schema.",
+      "title": "Oh My Posh Validator",
+      "repository": {
+        "url": "https://github.com/JanDeDobbeleer/oh-my-posh",
+        "source": "github",
+        "id": "175405157",
+        "subfolder": "website/api/mcp"
+      },
+      "version": "27.5.2",
+      "websiteUrl": "https://ohmyposh.dev/docs/advanced/mcp-server",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://ohmyposh.dev/api/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-06T12:18:55.269434Z",
+        "updatedAt": "2025-11-06T12:18:55.269434Z",
+        "isLatest": true
+      }
+    }
   }
 ]
