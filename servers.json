@@ -65734,7 +65734,7 @@
         "status": "active",
         "publishedAt": "2025-10-30T10:19:26.892476Z",
         "updatedAt": "2025-10-30T10:19:26.892476Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -73283,7 +73283,7 @@
         "status": "active",
         "publishedAt": "2025-11-06T02:56:19.590116Z",
         "updatedAt": "2025-11-06T02:56:19.590116Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -73663,6 +73663,132 @@
         "status": "active",
         "publishedAt": "2025-11-06T19:26:20.649919Z",
         "updatedAt": "2025-11-06T19:26:20.649919Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.dgahagan/weather-mcp",
+      "description": "Global weather forecasts, location search, current conditions & historical data (1940-present).",
+      "title": "Weather Data MCP Server",
+      "version": "0.4.0",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@dangahagan/weather-mcp",
+          "version": "0.4.0",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-06T20:56:46.956515Z",
+        "updatedAt": "2025-11-06T20:56:46.956515Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.stevenvo/slack-mcp-server",
+      "description": "Read Slack conversations, threads, user info, and search messages from your MCP client.",
+      "repository": {
+        "url": "https://github.com/stevenvo/slack-mcp-server",
+        "source": "github"
+      },
+      "version": "0.1.0",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "registryBaseUrl": "https://pypi.org",
+          "identifier": "slack-mcp-server-v2",
+          "version": "0.1.0",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Slack User OAuth Token (starts with xoxp-). Get from https://api.slack.com/apps",
+              "format": "string",
+              "isSecret": true,
+              "name": "SLACK_USER_TOKEN"
+            },
+            {
+              "description": "Slack Bot User OAuth Token (starts with xoxb-). Alternative to user token.",
+              "format": "string",
+              "isSecret": true,
+              "name": "SLACK_BOT_TOKEN"
+            },
+            {
+              "description": "Your Slack workspace URL (e.g., https://your-company.slack.com). Required for generating message links.",
+              "isRequired": true,
+              "format": "string",
+              "name": "SLACK_WORKSPACE_URL"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-07T00:44:35.804181Z",
+        "updatedAt": "2025-11-07T00:44:35.804181Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "ai.exa/exa",
+      "description": "Fast, intelligent web search and web crawling.\n\nNew mcp tool: Exa-code is a context tool for coding ",
+      "repository": {
+        "url": "https://github.com/exa-labs/exa-mcp-server",
+        "source": "github"
+      },
+      "version": "3.0.9",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.exa.ai/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-07T01:00:19.262705Z",
+        "updatedAt": "2025-11-07T01:00:19.262705Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.dillilabs.deva/dilli-email-validation-api-server",
+      "description": "An MCP server that provides tools to validate an email address using Dilli Email Validation API. ",
+      "version": "1.0.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://deva.dillilabs.com/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-07T02:03:08.35621Z",
+        "updatedAt": "2025-11-07T02:03:08.35621Z",
         "isLatest": true
       }
     }
