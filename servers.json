@@ -50792,7 +50792,7 @@
         "status": "active",
         "publishedAt": "2025-10-15T16:28:18.549114Z",
         "updatedAt": "2025-10-15T16:28:18.549114Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -73003,7 +73003,7 @@
         "status": "active",
         "publishedAt": "2025-11-05T11:40:11.826996Z",
         "updatedAt": "2025-11-05T11:40:11.826996Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -73053,7 +73053,7 @@
         "status": "active",
         "publishedAt": "2025-11-05T14:04:40.58228Z",
         "updatedAt": "2025-11-05T14:04:40.58228Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -73609,7 +73609,7 @@
         "status": "active",
         "publishedAt": "2025-11-06T14:15:01.153779Z",
         "updatedAt": "2025-11-06T14:15:01.153779Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -73972,6 +73972,253 @@
         "status": "active",
         "publishedAt": "2025-11-07T08:31:27.109704Z",
         "updatedAt": "2025-11-07T08:31:27.109704Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.staging/email-server",
+      "description": "An MCP server that provides email capabilities, hosted on Alpic platform",
+      "title": "Email Server",
+      "version": "0.0.3",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://node-email-mcp-ead34801.staging.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-07T09:40:11.824593Z",
+        "updatedAt": "2025-11-07T09:40:11.824593Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.staging/email-server",
+      "description": "An MCP server that provides email capabilities, hosted on Alpic platform",
+      "title": "Email Server",
+      "version": "0.0.4",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://node-email-mcp-ead34801.staging.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-07T09:45:10.726999Z",
+        "updatedAt": "2025-11-07T09:45:10.726999Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.staging/email-server",
+      "description": "An MCP server that provides email capabilities, hosted on Alpic platform",
+      "title": "Email Server",
+      "version": "0.0.5",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://node-email-mcp-ead34801.staging.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-07T10:28:50.65974Z",
+        "updatedAt": "2025-11-07T10:28:50.65974Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.staging/email-server",
+      "description": "An MCP server that provides email capabilities, hosted on Alpic platform",
+      "title": "Email Server",
+      "version": "0.0.6",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://node-email-mcp-ead34801.staging.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-07T10:56:50.019411Z",
+        "updatedAt": "2025-11-07T10:56:50.019411Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.keboola/mcp",
+      "description": "Connect your AI assistants to Keboola and expose your data, transformations, SQL queries, ...",
+      "repository": {
+        "url": "https://github.com/keboola/mcp-server",
+        "source": "github"
+      },
+      "version": "1.28.1",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "keboola-mcp-server",
+          "version": "1.28.1",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.us-east4.gcp.keboola.com/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-07T11:16:40.217357Z",
+        "updatedAt": "2025-11-07T11:16:40.217357Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.staging/email-server",
+      "description": "An MCP server that provides email capabilities, hosted on Alpic platform",
+      "title": "Email Server",
+      "version": "0.0.7",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://node-email-mcp-ead34801.staging.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-07T11:23:04.138726Z",
+        "updatedAt": "2025-11-07T11:23:04.138726Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.staging/email-server",
+      "description": "An MCP server that provides email capabilities, hosted on Alpic platform",
+      "title": "Email Server",
+      "version": "0.0.8",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://node-email-mcp-ead34801.staging.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-07T11:26:41.745459Z",
+        "updatedAt": "2025-11-07T11:26:41.745459Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.ChromeDevTools/chrome-devtools-mcp",
+      "description": "MCP server for Chrome DevTools",
+      "repository": {
+        "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+        "source": "github"
+      },
+      "version": "0.10.1",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "chrome-devtools-mcp",
+          "version": "0.10.1",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-07T12:32:42.230513Z",
+        "updatedAt": "2025-11-07T12:32:42.230513Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.ggozad/haiku-rag",
+      "description": "Agentic Retrieval Augmented Generation (RAG) with LanceDB",
+      "repository": {
+        "url": "https://github.com/ggozad/haiku.rag",
+        "source": "github"
+      },
+      "version": "0.15.0",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "registryBaseUrl": "https://pypi.org",
+          "identifier": "haiku-rag",
+          "version": "0.15.0",
+          "runtimeHint": "uvx",
+          "transport": {
+            "type": "stdio"
+          },
+          "runtimeArguments": [
+            {
+              "value": "serve",
+              "type": "positional"
+            },
+            {
+              "type": "named",
+              "name": "--mcp"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-07T12:46:10.758427Z",
+        "updatedAt": "2025-11-07T12:46:10.758427Z",
         "isLatest": true
       }
     }
