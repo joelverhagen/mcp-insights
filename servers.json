@@ -73690,7 +73690,7 @@
         "status": "active",
         "publishedAt": "2025-11-06T20:56:46.956515Z",
         "updatedAt": "2025-11-06T20:56:46.956515Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -73789,6 +73789,90 @@
         "status": "active",
         "publishedAt": "2025-11-07T02:03:08.35621Z",
         "updatedAt": "2025-11-07T02:03:08.35621Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.dillilabs.deva/dilli-email-validation-api-server",
+      "description": "An MCP server that provides tools to validate an email address using Dilli Email Validation API. ",
+      "version": "1.0.1",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://deva.dillilabs.com/mcp",
+          "headers": [
+            {
+              "description": "API key for authentication. Can be obtained from https://deva.dillilabs.com/register",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "X-DEVA-API-Key"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-07T02:13:08.922286Z",
+        "updatedAt": "2025-11-07T02:13:08.922286Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.dgahagan/weather-mcp",
+      "description": "Weather forecasts, alerts, air quality, marine conditions & historical data. NOAA + Open-Meteo.",
+      "title": "Weather Data MCP Server",
+      "version": "1.0.0",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@dangahagan/weather-mcp",
+          "version": "1.0.0",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-07T03:18:37.630424Z",
+        "updatedAt": "2025-11-07T03:18:37.630424Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.dgahagan/weather-mcp",
+      "description": "Weather forecasts, alerts, air quality, marine conditions & historical data. NOAA + Open-Meteo.",
+      "title": "Weather Data MCP Server",
+      "version": "1.0.1",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@dangahagan/weather-mcp",
+          "version": "1.0.1",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-07T03:32:46.241891Z",
+        "updatedAt": "2025-11-07T03:32:46.241891Z",
         "isLatest": true
       }
     }
