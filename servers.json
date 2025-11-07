@@ -53152,7 +53152,7 @@
         "status": "active",
         "publishedAt": "2025-10-19T19:24:20.440182Z",
         "updatedAt": "2025-10-19T19:24:20.440182Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -73375,7 +73375,7 @@
         "status": "active",
         "publishedAt": "2025-11-06T10:46:07.784043Z",
         "updatedAt": "2025-11-06T10:46:07.784043Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -73873,6 +73873,105 @@
         "status": "active",
         "publishedAt": "2025-11-07T03:32:46.241891Z",
         "updatedAt": "2025-11-07T03:32:46.241891Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.jkawamoto/mcp-bear",
+      "description": "A MCP server for interacting with Bear note-taking software.",
+      "repository": {
+        "url": "https://github.com/jkawamoto/mcp-bear",
+        "source": "github"
+      },
+      "version": "0.5.1",
+      "packages": [
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/jkawamoto/mcp-bear/releases/download/v0.5.1/mcp-bear.mcpb",
+          "fileSha256": "2bff24e49b3076cd98e6cd6fabb7f318e3fba3e63e87ac2a69e90a3432036c07",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Bear API token",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "BEAR_API_TOKEN"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-07T05:32:56.84754Z",
+        "updatedAt": "2025-11-07T05:32:56.84754Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.bharath-krishna/mcp-test",
+      "description": "A simple MCP server with an echo tool for testing purposes",
+      "repository": {
+        "url": "https://github.com/bharath-krishna/mcp-test",
+        "source": "github"
+      },
+      "version": "0.1.0",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "mcp-echo-server",
+          "version": "0.1.0",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-07T07:29:38.585079Z",
+        "updatedAt": "2025-11-07T07:29:38.585079Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.goldbergyoni/test-coverage-mcp",
+      "description": "Analyze test coverage from LCOV files - makes AI agents coverage-aware without wasting tokens",
+      "repository": {
+        "url": "https://github.com/goldbergyoni/test-coverage-mcp",
+        "source": "github"
+      },
+      "version": "1.1.0",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "test-coverage-mcp",
+          "version": "1.1.0",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-07T08:31:27.109704Z",
+        "updatedAt": "2025-11-07T08:31:27.109704Z",
         "isLatest": true
       }
     }
