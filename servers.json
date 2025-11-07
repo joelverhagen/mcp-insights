@@ -74246,7 +74246,7 @@
         "status": "active",
         "publishedAt": "2025-11-07T13:42:21.994367Z",
         "updatedAt": "2025-11-07T13:42:21.994367Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -74337,6 +74337,392 @@
         "status": "active",
         "publishedAt": "2025-11-07T15:49:45.45246Z",
         "updatedAt": "2025-11-07T15:49:45.45246Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.neo4j-contrib/mcp-neo4j-data-modeling",
+      "description": "A simple Neo4j MCP server for creating graph data models.",
+      "repository": {
+        "url": "https://github.com/neo4j-contrib/mcp-neo4j",
+        "source": "github",
+        "subfolder": "servers/mcp-neo4j-data-modeling"
+      },
+      "version": "1.0.0",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "mcp-neo4j-data-modeling",
+          "version": "0.6.1",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "The namespace to use for the MCP server tool names.",
+              "format": "string",
+              "name": "NEO4J_NAMESPACE"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-07T17:01:17.732358Z",
+        "updatedAt": "2025-11-07T17:01:17.732358Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.neo4j-contrib/mcp-neo4j-cypher",
+      "description": "A simple Neo4j MCP server that allows you to run Cypher queries against a Neo4j database.",
+      "repository": {
+        "url": "https://github.com/neo4j-contrib/mcp-neo4j",
+        "source": "github",
+        "subfolder": "servers/mcp-neo4j-cypher"
+      },
+      "version": "1.0.0",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "mcp-neo4j-cypher",
+          "version": "0.5.1",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Neo4j connection URI",
+              "isRequired": true,
+              "format": "string",
+              "name": "NEO4J_URI"
+            },
+            {
+              "description": "Neo4j username",
+              "isRequired": true,
+              "format": "string",
+              "name": "NEO4J_USERNAME"
+            },
+            {
+              "description": "Neo4j password",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "NEO4J_PASSWORD"
+            },
+            {
+              "description": "Neo4j database name",
+              "format": "string",
+              "name": "NEO4J_DATABASE"
+            },
+            {
+              "description": "Tool namespace prefix",
+              "format": "string",
+              "name": "NEO4J_NAMESPACE"
+            },
+            {
+              "description": "Maximum tokens for read query responses",
+              "format": "string",
+              "name": "NEO4J_RESPONSE_TOKEN_LIMIT"
+            },
+            {
+              "description": "Timeout in seconds for read queries",
+              "format": "string",
+              "name": "NEO4J_READ_TIMEOUT"
+            },
+            {
+              "description": "Allow only read-only queries (true/false)",
+              "format": "string",
+              "name": "NEO4J_READ_ONLY"
+            },
+            {
+              "description": "Schema sample size",
+              "format": "string",
+              "name": "NEO4J_SCHEMA_SAMPLE_SIZE"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-07T17:27:58.219859Z",
+        "updatedAt": "2025-11-07T17:27:58.219859Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.redis/mcp-redis",
+      "description": "Natural language interface designed for agentic applications to manage and search data in Redis.",
+      "title": "Redis MCP Server",
+      "version": "0.3.6",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "redis-mcp-server",
+          "version": "0.3.6",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-07T17:48:19.391721Z",
+        "updatedAt": "2025-11-07T17:48:19.391721Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.dgahagan/weather-mcp",
+      "description": "Weather forecasts, alerts, air quality, marine conditions & historical data. NOAA + Open-Meteo.",
+      "title": "Weather Data MCP Server",
+      "version": "1.2.0",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@dangahagan/weather-mcp",
+          "version": "1.2.0",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-07T18:13:39.382323Z",
+        "updatedAt": "2025-11-07T18:13:39.382323Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "me.pi22by7/in-memoria",
+      "description": "Persistent codebase intelligence that gives AI assistants memory across sessions",
+      "version": "0.5.8",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "in-memoria",
+          "version": "0.5.8",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Optional OpenAI API key for embeddings (falls back to local transformers.js)",
+              "isSecret": true,
+              "name": "OPENAI_API_KEY"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-07T18:55:02.452991Z",
+        "updatedAt": "2025-11-07T18:55:02.452991Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.neo4j-contrib/mcp-neo4j-aura-manager",
+      "description": "MCP server for Neo4j Aura Database Instance Manager.",
+      "repository": {
+        "url": "https://github.com/neo4j-contrib/mcp-neo4j",
+        "source": "github",
+        "subfolder": "servers/mcp-neo4j-cloud-aura-api"
+      },
+      "version": "1.0.0",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "mcp-neo4j-aura-manager",
+          "version": "0.4.5",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Neo4j Aura API Client ID",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "NEO4J_AURA_CLIENT_ID"
+            },
+            {
+              "description": "Neo4j Aura API Client Secret",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "NEO4J_AURA_CLIENT_SECRET"
+            },
+            {
+              "description": "Namespace for tools",
+              "format": "string",
+              "name": "NEO4J_NAMESPACE"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-07T18:56:35.114118Z",
+        "updatedAt": "2025-11-07T18:56:35.114118Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.raisiqueira/django-telescope",
+      "description": "A Model Context Protocol (MCP) server for Django applications, inspired by Laravel Boost",
+      "repository": {
+        "url": "https://github.com/raisiqueira/django-telescope",
+        "source": "github"
+      },
+      "version": "0.1.2",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "django-telescope",
+          "version": "0.1.2",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Django settings module path (e.g., 'myproject.settings')",
+              "isRequired": true,
+              "format": "string",
+              "name": "DJANGO_SETTINGS_MODULE"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-07T19:19:34.063284Z",
+        "updatedAt": "2025-11-07T19:19:34.063284Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.dgahagan/weather-mcp",
+      "description": "Weather forecasts, alerts, air quality, marine conditions & historical data. NOAA + Open-Meteo.",
+      "title": "Weather Data MCP Server",
+      "version": "1.2.1",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@dangahagan/weather-mcp",
+          "version": "1.2.1",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-07T19:21:26.398966Z",
+        "updatedAt": "2025-11-07T19:21:26.398966Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.neo4j-contrib/mcp-neo4j-memory",
+      "description": "MCP Neo4j Knowledge Graph Memory Server",
+      "repository": {
+        "url": "https://github.com/neo4j-contrib/mcp-neo4j",
+        "source": "github",
+        "subfolder": "servers/mcp-neo4j-memory"
+      },
+      "version": "1.0.0",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "mcp-neo4j-memory",
+          "version": "0.4.2",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Neo4j connection URI",
+              "isRequired": true,
+              "format": "string",
+              "name": "NEO4J_URI"
+            },
+            {
+              "description": "Neo4j username",
+              "isRequired": true,
+              "format": "string",
+              "name": "NEO4J_USERNAME"
+            },
+            {
+              "description": "Neo4j password",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "NEO4J_PASSWORD"
+            },
+            {
+              "description": "Neo4j database name",
+              "format": "string",
+              "name": "NEO4J_DATABASE"
+            },
+            {
+              "description": "Tool namespace prefix",
+              "format": "string",
+              "name": "NEO4J_NAMESPACE"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-07T19:54:25.003325Z",
+        "updatedAt": "2025-11-07T19:54:25.003325Z",
         "isLatest": true
       }
     }
