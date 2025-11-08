@@ -26590,7 +26590,7 @@
         "status": "active",
         "publishedAt": "2025-09-27T08:52:54.853353Z",
         "updatedAt": "2025-09-27T08:52:54.853353Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -54343,7 +54343,7 @@
         "status": "active",
         "publishedAt": "2025-10-21T00:13:20.720044Z",
         "updatedAt": "2025-10-21T00:13:20.720044Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -63669,7 +63669,7 @@
         "status": "active",
         "publishedAt": "2025-10-29T07:11:29.765209Z",
         "updatedAt": "2025-10-29T07:11:29.765209Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -67453,7 +67453,7 @@
         "status": "active",
         "publishedAt": "2025-10-30T22:39:54.408029Z",
         "updatedAt": "2025-10-30T22:39:54.408029Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -75379,6 +75379,312 @@
         "status": "active",
         "publishedAt": "2025-11-08T12:24:01.579345Z",
         "updatedAt": "2025-11-08T12:24:01.579345Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.Fannon/u-he-preset-randomizer",
+      "description": "Generate, randomize, explain, and manage u-he synthesizer presets via the Model Context Protocol.",
+      "title": "u-he Preset Randomizer",
+      "repository": {
+        "url": "https://github.com/Fannon/u-he-preset-randomizer",
+        "source": "github"
+      },
+      "version": "1.1.2",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "u-he-preset-randomizer",
+          "version": "1.1.2",
+          "runtimeHint": "npx",
+          "transport": {
+            "type": "stdio"
+          },
+          "runtimeArguments": [
+            {
+              "value": "--yes",
+              "type": "positional"
+            },
+            {
+              "value": "u-he-preset-randomizer@1.1.2",
+              "type": "positional"
+            },
+            {
+              "value": "u-he-mcp-server",
+              "type": "positional"
+            }
+          ],
+          "environmentVariables": [
+            {
+              "description": "Optional override for preset root discovery when synths are stored outside default locations.",
+              "name": "UHE_CUSTOM_FOLDER"
+            },
+            {
+              "description": "Enable verbose logging for troubleshooting.",
+              "default": "false",
+              "name": "DEBUG"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-08T17:02:29.646134Z",
+        "updatedAt": "2025-11-08T17:02:29.646134Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.habedi/omni-lpr",
+      "description": "An MCP server for automatic license plate recognition",
+      "repository": {
+        "url": "https://github.com/habedi/omni-lpr",
+        "source": "github"
+      },
+      "version": "0.3.4",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "registryBaseUrl": "https://pypi.org",
+          "identifier": "omni-lpr",
+          "version": "0.3.4",
+          "transport": {
+            "type": "streamable-http",
+            "url": "http://127.0.0.1:8000/mcp/"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-08T19:08:09.281817Z",
+        "updatedAt": "2025-11-08T19:08:09.281817Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.teamwork/mcp",
+      "description": "The Teamwork.com official MCP server helps teams efficiently manage client projects with AI.",
+      "repository": {
+        "url": "https://github.com/teamwork/mcp",
+        "source": "github"
+      },
+      "version": "1.6.10",
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "docker.io/teamwork/mcp:v1.6.10",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "API key generated from the Teamwork.com OAuth2 process: https://apidocs.teamwork.com/guides/teamwork/app-login-flow",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "TW_MCP_BEARER_TOKEN"
+            },
+            {
+              "description": "Choose log output format between 'text' or 'json'. Default is 'text'.",
+              "format": "string",
+              "name": "TW_MCP_LOG_FORMAT"
+            },
+            {
+              "description": "Choose log level between 'debug', 'info', 'warn' or 'error'. Default is 'info'.",
+              "format": "string",
+              "name": "TW_MCP_LOG_LEVEL"
+            }
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "sse",
+          "url": "https://mcp.ai.teamwork.com",
+          "headers": [
+            {
+              "description": "API key generated from the Teamwork.com OAuth2 process: https://apidocs.teamwork.com/guides/teamwork/app-login-flow",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "Authorization"
+            }
+          ]
+        },
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.ai.teamwork.com",
+          "headers": [
+            {
+              "description": "API key generated from the Teamwork.com OAuth2 process: https://apidocs.teamwork.com/guides/teamwork/app-login-flow",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "Authorization"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-08T19:30:59.468868Z",
+        "updatedAt": "2025-11-08T19:30:59.468868Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "ch.pfx/mcp-server",
+      "description": "MCP Server für Forterro Proffix Px5 ERP",
+      "repository": {
+        "url": "https://github.com/pitwch/pfx-mcp-server",
+        "source": "github"
+      },
+      "version": "1.1.6",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.pfx.ch/api/server"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-08T19:40:45.449991Z",
+        "updatedAt": "2025-11-08T19:40:45.449991Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.rnaga/wp-mcp",
+      "description": "MCP server for WordPress. Manage posts, users, comments, terms, metadata, and settings.",
+      "title": "WordPress MCP Server",
+      "repository": {
+        "url": "https://github.com/rnaga/wp-mcp",
+        "source": "github"
+      },
+      "version": "1.0.5",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@rnaga/wp-mcp",
+          "version": "1.0.5",
+          "runtimeHint": "npx",
+          "transport": {
+            "type": "stdio"
+          },
+          "runtimeArguments": [
+            {
+              "description": "Automatically confirm npx package installation",
+              "type": "named",
+              "name": "-y"
+            }
+          ],
+          "packageArguments": [
+            {
+              "description": "Command to run (local, remote, http, utils)",
+              "value": "local",
+              "type": "positional"
+            },
+            {
+              "description": "Subcommand to start the local MCP server",
+              "value": "start",
+              "type": "positional"
+            }
+          ],
+          "environmentVariables": [
+            {
+              "description": "WordPress username to assume for capability checks",
+              "isRequired": true,
+              "name": "LOCAL_USERNAME"
+            },
+            {
+              "description": "WordPress database host",
+              "isRequired": true,
+              "name": "WP_DB_HOST"
+            },
+            {
+              "description": "WordPress database port",
+              "default": "3306",
+              "name": "WP_DB_PORT"
+            },
+            {
+              "description": "WordPress database name",
+              "isRequired": true,
+              "name": "WP_DB_NAME"
+            },
+            {
+              "description": "WordPress database user",
+              "isRequired": true,
+              "name": "WP_DB_USER"
+            },
+            {
+              "description": "WordPress database password",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "WP_DB_PASSWORD"
+            },
+            {
+              "description": "Enable WordPress multisite mode",
+              "default": "false",
+              "name": "LOCAL_MULTISITE"
+            },
+            {
+              "description": "Default blog ID for multisite",
+              "default": "1",
+              "name": "LOCAL_DEFAULT_BLOG_ID"
+            },
+            {
+              "description": "Default site ID for multisite",
+              "default": "1",
+              "name": "LOCAL_DEFAULT_SITE_ID"
+            },
+            {
+              "description": "Enable SSL for database connection",
+              "default": "false",
+              "name": "LOCAL_SSL_ENABLED"
+            },
+            {
+              "description": "Path to SSL CA certificate file",
+              "name": "LOCAL_SSL_CA_FILEPATH"
+            },
+            {
+              "description": "Path to SSL certificate file",
+              "name": "LOCAL_SSL_CERT_FILEPATH"
+            },
+            {
+              "description": "Path to SSL key file",
+              "name": "LOCAL_SSL_KEY_FILEPATH"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-08T20:18:17.144048Z",
+        "updatedAt": "2025-11-08T20:18:17.144048Z",
         "isLatest": true
       }
     }
