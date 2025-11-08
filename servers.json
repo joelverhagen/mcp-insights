@@ -35289,7 +35289,7 @@
         "status": "active",
         "publishedAt": "2025-10-02T20:37:28.356994Z",
         "updatedAt": "2025-10-02T20:37:28.356994Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -60017,7 +60017,7 @@
         "status": "active",
         "publishedAt": "2025-10-27T12:41:32.986434Z",
         "updatedAt": "2025-10-27T12:41:32.986434Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -63573,7 +63573,7 @@
         "status": "active",
         "publishedAt": "2025-10-28T22:21:35.640285Z",
         "updatedAt": "2025-10-28T22:21:35.640285Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -74146,7 +74146,7 @@
         "status": "active",
         "publishedAt": "2025-11-07T11:26:41.745459Z",
         "updatedAt": "2025-11-07T11:26:41.745459Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -74661,7 +74661,7 @@
         "status": "active",
         "publishedAt": "2025-11-07T19:21:26.398966Z",
         "updatedAt": "2025-11-07T19:21:26.398966Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -74723,6 +74723,183 @@
         "status": "active",
         "publishedAt": "2025-11-07T19:54:25.003325Z",
         "updatedAt": "2025-11-07T19:54:25.003325Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.staging/email-server",
+      "description": "An MCP server that provides email capabilities, hosted on Alpic platform",
+      "title": "Email Server",
+      "version": "0.0.9",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://node-email-mcp-ead34801.staging.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-07T20:35:00.103601Z",
+        "updatedAt": "2025-11-07T20:35:00.103601Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.aikts/yandex-tracker-mcp",
+      "description": "MCP server for Yandex Tracker API.",
+      "version": "0.4.8",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "yandex-tracker-mcp",
+          "version": "0.4.8",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-07T20:44:18.723661Z",
+        "updatedAt": "2025-11-07T20:44:18.723661Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.dgahagan/weather-mcp",
+      "description": "Weather forecasts, alerts, air quality, marine conditions & historical data. NOAA + Open-Meteo.",
+      "title": "Weather Data MCP Server",
+      "version": "1.3.0",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@dangahagan/weather-mcp",
+          "version": "1.3.0",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-07T21:11:48.397013Z",
+        "updatedAt": "2025-11-07T21:11:48.397013Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.DollhouseMCP/mcp-server",
+      "description": "OSS to create Personas, Skills, Templates, Agents, and Memories to customize your AI experience.",
+      "title": "DollhouseMCP",
+      "repository": {
+        "url": "https://github.com/DollhouseMCP/mcp-server",
+        "source": "github"
+      },
+      "version": "1.9.25",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@dollhousemcp/mcp-server",
+          "version": "1.9.25",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-07T21:19:42.406302Z",
+        "updatedAt": "2025-11-07T21:19:42.406302Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.pab1it0/prometheus-mcp-server",
+      "description": "MCP server providing Prometheus metrics access and PromQL query execution for AI assistants",
+      "repository": {
+        "url": "https://github.com/pab1it0/prometheus-mcp-server",
+        "source": "github"
+      },
+      "version": "1.5.0",
+      "websiteUrl": "https://pab1it0.github.io/prometheus-mcp-server",
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/pab1it0/prometheus-mcp-server:1.5.0",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Prometheus server URL (e.g., http://localhost:9090)",
+              "isRequired": true,
+              "format": "string",
+              "name": "PROMETHEUS_URL"
+            },
+            {
+              "description": "Set to False to disable SSL verification",
+              "format": "boolean",
+              "name": "PROMETHEUS_URL_SSL_VERIFY"
+            },
+            {
+              "description": "Set to True to disable Prometheus UI links in query results (saves context tokens in MCP clients)",
+              "format": "boolean",
+              "name": "PROMETHEUS_DISABLE_LINKS"
+            },
+            {
+              "description": "Username for Prometheus basic authentication",
+              "format": "string",
+              "name": "PROMETHEUS_USERNAME"
+            },
+            {
+              "description": "Password for Prometheus basic authentication",
+              "format": "string",
+              "isSecret": true,
+              "name": "PROMETHEUS_PASSWORD"
+            },
+            {
+              "description": "Bearer token for Prometheus authentication",
+              "format": "string",
+              "isSecret": true,
+              "name": "PROMETHEUS_TOKEN"
+            },
+            {
+              "description": "Organization ID for multi-tenant Prometheus setups",
+              "format": "string",
+              "name": "ORG_ID"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-08T00:45:37.421036Z",
+        "updatedAt": "2025-11-08T00:45:37.421036Z",
         "isLatest": true
       }
     }
