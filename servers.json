@@ -48188,7 +48188,7 @@
         "status": "active",
         "publishedAt": "2025-10-13T23:22:37.679968Z",
         "updatedAt": "2025-10-13T23:22:37.679968Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -70804,7 +70804,7 @@
         "status": "active",
         "publishedAt": "2025-11-02T15:43:14.313963Z",
         "updatedAt": "2025-11-02T15:43:14.313963Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -74938,7 +74938,7 @@
         "status": "active",
         "publishedAt": "2025-11-08T02:46:50.636131Z",
         "updatedAt": "2025-11-08T02:46:50.636131Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -75968,6 +75968,158 @@
         "status": "active",
         "publishedAt": "2025-11-09T03:58:39.914854Z",
         "updatedAt": "2025-11-09T03:58:39.914854Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.jkawamoto/mcp-youtube-transcript",
+      "description": "An MCP server retrieving transcripts of YouTube videos",
+      "repository": {
+        "url": "https://github.com/jkawamoto/mcp-youtube-transcript",
+        "source": "github"
+      },
+      "version": "0.5.6",
+      "packages": [
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/jkawamoto/mcp-youtube-transcript/releases/download/v0.5.6/mcp-youtube-transcript.mcpb",
+          "version": "0.5.6",
+          "fileSha256": "26bf9974b076b799ed33665fe800c86d164b751dc917b37c262ddd9779180781",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-09T06:35:27.051258Z",
+        "updatedAt": "2025-11-09T06:35:27.051258Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.aahl/mcp-notify",
+      "description": "MCP Server for notify to Weixin, Telegram, Bark, Lark, Feishu, DingTalk",
+      "title": "Notify MCP Server",
+      "repository": {
+        "url": "https://github.com/aahl/mcp-notify",
+        "source": "github"
+      },
+      "version": "0.1.6",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "mcp-notify",
+          "version": "0.1.6",
+          "transport": {
+            "type": "stdio"
+          }
+        },
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/aahl/mcp-notify:latest",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-09T06:42:21.015717Z",
+        "updatedAt": "2025-11-09T06:42:21.015717Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.yarnabrina/mcp-learning",
+      "description": "MCP server that can perform basic arithmetic operations and parse/evaluate arithmetic expressions.",
+      "title": "Learning Model Context Protocol",
+      "repository": {
+        "url": "https://github.com/yarnabrina/learn-model-context-protocol",
+        "source": "github"
+      },
+      "version": "0.2.0",
+      "websiteUrl": "https://yarnabrina.github.io/learn-model-context-protocol/",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "registryBaseUrl": "https://pypi.org",
+          "identifier": "mcp-learning",
+          "version": "0.2.0",
+          "runtimeHint": "uvx",
+          "transport": {
+            "type": "streamable-http",
+            "url": "http://127.0.0.1:8000/mcp"
+          },
+          "runtimeArguments": [
+            {
+              "description": "Resolve console scripts from the published package.",
+              "value": "mcp-learning",
+              "type": "named",
+              "name": "--from"
+            },
+            {
+              "description": "Invoke the entry point that starts the MCP server.",
+              "value": "mcp-server",
+              "type": "positional"
+            },
+            {
+              "description": "Log level for server output.",
+              "value": "{log_level}",
+              "default": "WARNING",
+              "choices": [
+                "DEBUG",
+                "INFO",
+                "WARNING",
+                "ERROR",
+                "CRITICAL"
+              ],
+              "type": "named",
+              "name": "--log_level"
+            }
+          ]
+        }
+      ],
+      "_meta": {
+        "io.modelcontextprotocol.registry/publisher-provided": {
+          "cliOptions": [
+            {
+              "default": false,
+              "description": "Enable additional debug logging output.",
+              "flag": "--debug"
+            },
+            {
+              "default": false,
+              "description": "Return JSON payloads for HTTP responses instead of newline-delimited JSON.",
+              "flag": "--json_response"
+            },
+            {
+              "default": false,
+              "description": "Disable HTTP keep-alive to serve each request independently.",
+              "flag": "--stateless_http"
+            }
+          ]
+        }
+      }
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-09T08:22:31.297416Z",
+        "updatedAt": "2025-11-09T08:22:31.297416Z",
         "isLatest": true
       }
     }
