@@ -69937,7 +69937,7 @@
         "status": "active",
         "publishedAt": "2025-11-02T04:38:51.530175Z",
         "updatedAt": "2025-11-02T04:38:51.530175Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -75854,6 +75854,120 @@
         "status": "active",
         "publishedAt": "2025-11-09T01:49:48.566515Z",
         "updatedAt": "2025-11-09T01:49:48.566515Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.perplexityai/mcp-server",
+      "description": "Real-time web search, reasoning, and research through Perplexity's API",
+      "title": "Perplexity API Platform",
+      "version": "0.4.1",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@perplexity-ai/mcp-server",
+          "version": "0.4.1",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-09T02:32:55.37107Z",
+        "updatedAt": "2025-11-09T02:32:55.37107Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.shinpr/sub-agents-mcp",
+      "description": "MCP server for delegating tasks to specialized AI assistants in Cursor and other tools",
+      "repository": {
+        "url": "https://github.com/shinpr/sub-agents-mcp",
+        "source": "github"
+      },
+      "version": "0.1.5",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "sub-agents-mcp",
+          "version": "0.1.5",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Absolute path to the directory containing agent definition files (.md or .txt)",
+              "isRequired": true,
+              "format": "string",
+              "name": "AGENTS_DIR"
+            },
+            {
+              "description": "Type of AI CLI to use: 'cursor' or 'claude'",
+              "isRequired": true,
+              "format": "string",
+              "name": "AGENT_TYPE"
+            },
+            {
+              "description": "Maximum execution time for agents in milliseconds (default: 300000, max: 600000)",
+              "format": "string",
+              "name": "EXECUTION_TIMEOUT_MS"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-09T03:13:22.118486Z",
+        "updatedAt": "2025-11-09T03:13:22.118486Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.homeassistant-ai/ha-mcp",
+      "description": "Comprehensive Model Context Protocol server for managing Home Assistant through AI assistants.",
+      "repository": {
+        "url": "https://github.com/homeassistant-ai/ha-mcp.git",
+        "source": "github"
+      },
+      "version": "3.4.3",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "ha-mcp",
+          "version": "3.4.3",
+          "transport": {
+            "type": "stdio"
+          }
+        },
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/homeassistant-ai/ha-mcp:3.4.3",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-09T03:58:39.914854Z",
+        "updatedAt": "2025-11-09T03:58:39.914854Z",
         "isLatest": true
       }
     }
