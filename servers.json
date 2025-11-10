@@ -52843,7 +52843,7 @@
         "status": "active",
         "publishedAt": "2025-10-18T22:42:49.479189Z",
         "updatedAt": "2025-10-18T22:42:49.479189Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -74799,7 +74799,7 @@
         "status": "active",
         "publishedAt": "2025-11-07T21:11:48.397013Z",
         "updatedAt": "2025-11-07T21:11:48.397013Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -76289,7 +76289,7 @@
         "status": "active",
         "publishedAt": "2025-11-09T16:34:56.169596Z",
         "updatedAt": "2025-11-09T16:34:56.169596Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -76879,6 +76879,134 @@
         "publishedAt": "2025-11-10T15:25:58.202068Z",
         "updatedAt": "2025-11-10T15:25:58.202068Z",
         "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.xorrkaz/cml-mcp",
+      "description": "An MCP server that provides access to common Cisco Modeling Labs (CML) operations.",
+      "title": "Cisco Modeling Labs (CML)",
+      "repository": {
+        "url": "https://github.com/xorrkaz/cml-mcp",
+        "source": "github"
+      },
+      "version": "0.13.2",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "registryBaseUrl": "https://pypi.org",
+          "identifier": "cml-mcp",
+          "version": "0.13.2",
+          "runtimeHint": "uvx",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "URL for the CML Server",
+              "isRequired": true,
+              "format": "string",
+              "name": "CML_URL"
+            },
+            {
+              "description": "Username for CML authentication",
+              "isRequired": true,
+              "format": "string",
+              "name": "CML_USERNAME"
+            },
+            {
+              "description": "Password for CML authentication",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "CML_PASSWORD"
+            },
+            {
+              "description": "Username for authentication to devices running in CML",
+              "format": "string",
+              "name": "PYATS_USERNAME"
+            },
+            {
+              "description": "Password for authentication to devices running in CML",
+              "format": "string",
+              "isSecret": true,
+              "name": "PYATS_PASSWORD"
+            },
+            {
+              "description": "Enable password for authentication to devices running in CML",
+              "format": "string",
+              "isSecret": true,
+              "name": "PYATS_AUTH_PASS"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-10T19:28:17.778166Z",
+        "updatedAt": "2025-11-10T19:28:17.778166Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.Wolfe-Jam/claude-faf-mcp",
+      "description": "Persistent project context via IANA-registered .faf format. 50 MCP tools. 6k+ downloads.",
+      "repository": {
+        "url": "https://github.com/Wolfe-Jam/claude-faf-mcp",
+        "source": "github"
+      },
+      "version": "3.1.4",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "claude-faf-mcp",
+          "version": "3.1.4",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-10T19:53:33.354154Z",
+        "updatedAt": "2025-11-10T19:53:33.354154Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.dgahagan/weather-mcp",
+      "description": "Weather forecasts, alerts, air quality, marine, radar imagery, lightning. NOAA + Open-Meteo.",
+      "title": "Weather Data MCP Server",
+      "version": "1.6.1",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@dangahagan/weather-mcp",
+          "version": "1.6.1",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-10T20:04:44.609135Z",
+        "updatedAt": "2025-11-10T20:04:44.609135Z",
+        "isLatest": true
       }
     }
   }
