@@ -60113,7 +60113,7 @@
         "status": "active",
         "publishedAt": "2025-10-27T15:36:10.895783Z",
         "updatedAt": "2025-10-27T15:36:10.895783Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -63136,7 +63136,7 @@
         "status": "active",
         "publishedAt": "2025-10-28T17:59:22.34318Z",
         "updatedAt": "2025-10-28T17:59:22.34318Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -74746,7 +74746,7 @@
         "status": "active",
         "publishedAt": "2025-11-07T20:35:00.103601Z",
         "updatedAt": "2025-11-07T20:35:00.103601Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -76472,6 +76472,236 @@
         "status": "active",
         "publishedAt": "2025-11-10T01:28:47.646677Z",
         "updatedAt": "2025-11-10T01:28:47.646677Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.github/github-mcp-server",
+      "description": "Connect AI assistants to GitHub - manage repos, issues, PRs, and workflows through natural language.",
+      "repository": {
+        "url": "https://github.com/github/github-mcp-server",
+        "source": "github"
+      },
+      "version": "0.20.2",
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/github/github-mcp-server:0.20.2",
+          "transport": {
+            "type": "stdio"
+          },
+          "runtimeArguments": [
+            {
+              "description": "The runtime command to execute",
+              "isRequired": true,
+              "value": "run",
+              "type": "positional"
+            },
+            {
+              "description": "Run container in interactive mode",
+              "isRequired": true,
+              "format": "boolean",
+              "value": "true",
+              "type": "named",
+              "name": "-i"
+            },
+            {
+              "description": "Automatically remove the container when it exits",
+              "format": "boolean",
+              "value": "true",
+              "type": "named",
+              "name": "--rm"
+            },
+            {
+              "description": "Set an environment variable in the runtime",
+              "isRequired": true,
+              "value": "GITHUB_PERSONAL_ACCESS_TOKEN={token}",
+              "variables": {
+                "token": {
+                  "isRequired": true,
+                  "format": "string",
+                  "isSecret": true
+                }
+              },
+              "type": "named",
+              "name": "-e"
+            },
+            {
+              "description": "The container image to run",
+              "isRequired": true,
+              "value": "ghcr.io/github/github-mcp-server",
+              "type": "positional",
+              "valueHint": "image_name"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-10T09:36:19.127074Z",
+        "updatedAt": "2025-11-10T09:36:19.127074Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.aahl/mcp-okx",
+      "description": "MCP Server for okx.com",
+      "title": "OKX MCP Server",
+      "repository": {
+        "url": "https://github.com/aahl/mcp-okx",
+        "source": "github"
+      },
+      "version": "0.1.0",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "mcp-okx",
+          "version": "0.1.0",
+          "transport": {
+            "type": "stdio"
+          }
+        },
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/aahl/mcp-okx:latest",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-10T10:08:56.611262Z",
+        "updatedAt": "2025-11-10T10:08:56.611262Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.staging/email-server",
+      "description": "An MCP server that provides email capabilities, hosted on Alpic platform",
+      "title": "Email Server",
+      "version": "0.0.10",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://node-email-mcp-ead34801.staging.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-10T11:20:11.187646Z",
+        "updatedAt": "2025-11-10T11:20:11.187646Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.staging/email-server",
+      "description": "An MCP server that provides email capabilities, hosted on Alpic platform",
+      "title": "Email Server",
+      "version": "0.0.11",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://node-email-mcp-ead34801.staging.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-10T11:21:18.021744Z",
+        "updatedAt": "2025-11-10T11:21:18.021744Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.staging/email-server",
+      "description": "An MCP server that provides email capabilities, hosted on Alpic platform",
+      "title": "Email Server",
+      "version": "0.0.12",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://node-email-mcp-ead34801.staging.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-10T11:23:41.488069Z",
+        "updatedAt": "2025-11-10T11:23:41.488069Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.staging/email-server",
+      "description": "An MCP server that provides email capabilities, hosted on Alpic platform",
+      "title": "Email Server",
+      "version": "0.0.13",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://node-email-mcp-ead34801.staging.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-10T11:31:58.748717Z",
+        "updatedAt": "2025-11-10T11:31:58.748717Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.SigNoz/signoz-mcp-server",
+      "description": "SigNoz MCP server: access metrics, traces, logs, alerts, and dashboards via AI assistants",
+      "title": "SigNoz MCP Server",
+      "repository": {},
+      "version": "0.0.4",
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "signoz/signoz-mcp-server:latest",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-10T11:44:49.046114Z",
+        "updatedAt": "2025-11-10T11:44:49.046114Z",
         "isLatest": true
       }
     }
