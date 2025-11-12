@@ -59701,7 +59701,7 @@
         "status": "active",
         "publishedAt": "2025-10-26T10:48:12.216781Z",
         "updatedAt": "2025-10-26T10:48:12.216781Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -77574,7 +77574,7 @@
         "status": "active",
         "publishedAt": "2025-11-12T07:06:40.177783Z",
         "updatedAt": "2025-11-12T07:06:40.177783Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -77600,6 +77600,257 @@
         "status": "active",
         "publishedAt": "2025-11-12T08:08:20.477983Z",
         "updatedAt": "2025-11-12T08:08:20.477983Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.ai-mcpower/mcpower-proxy",
+      "description": "Security proxy that wraps MCP servers with real-time monitoring and policy enforcement",
+      "title": "MCPower Security Proxy",
+      "repository": {
+        "url": "https://github.com/MCPower-Security/mcpower-proxy",
+        "source": "github"
+      },
+      "version": "0.0.87",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "mcpower-proxy",
+          "version": "0.0.87",
+          "runtimeHint": "uvx",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-12T08:57:21.484663Z",
+        "updatedAt": "2025-11-12T08:57:21.484663Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.roddutra/agent-mcp-gateway",
+      "description": "On-demand tool discovery for all your MCPs and per-subagent MCP controls to preserve context window.",
+      "title": "Agent MCP Gateway",
+      "repository": {
+        "url": "https://github.com/roddutra/agent-mcp-gateway",
+        "source": "github"
+      },
+      "version": "0.2.4",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "agent-mcp-gateway",
+          "version": "0.2.4",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Path to MCP servers configuration file (default: .mcp.json)",
+              "name": "GATEWAY_MCP_CONFIG"
+            },
+            {
+              "description": "Path to gateway access control rules file (default: .mcp-gateway-rules.json)",
+              "name": "GATEWAY_RULES"
+            },
+            {
+              "description": "Default agent ID when not provided in tool calls",
+              "name": "GATEWAY_DEFAULT_AGENT"
+            },
+            {
+              "description": "Enable debug mode and expose diagnostic tools (default: false)",
+              "name": "GATEWAY_DEBUG"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-12T09:04:42.684066Z",
+        "updatedAt": "2025-11-12T09:04:42.684066Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.oxylabs/oxylabs-mcp",
+      "description": "Fetch and process content from specified URLs & sources using the Oxylabs Web Scraper API.",
+      "repository": {
+        "url": "https://github.com/oxylabs/oxylabs-mcp",
+        "source": "github"
+      },
+      "version": "0.7.2",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "oxylabs-mcp",
+          "version": "0.7.2",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your Oxylabs username",
+              "format": "string",
+              "isSecret": true,
+              "name": "OXYLABS_USERNAME"
+            },
+            {
+              "description": "Your Oxylabs password",
+              "format": "string",
+              "isSecret": true,
+              "name": "OXYLABS_PASSWORD"
+            },
+            {
+              "description": "Your Oxylabs AI Studio api key",
+              "format": "string",
+              "isSecret": true,
+              "name": "OXYLABS_AI_STUDIO_API_KEY"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-12T10:37:11.802785Z",
+        "updatedAt": "2025-11-12T10:37:11.802785Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.staging/email-server",
+      "description": "An MCP server that provides email capabilities, hosted on Alpic platform",
+      "title": "Email Server",
+      "version": "0.0.23",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://node-email-mcp-ead34801.staging.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-12T10:37:22.874364Z",
+        "updatedAt": "2025-11-12T10:37:22.874364Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.staging/email-server",
+      "description": "An MCP server that provides email capabilities, hosted on Alpic platform",
+      "title": "Email Server",
+      "version": "0.0.24",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://node-email-mcp-ead34801.staging.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-12T10:39:53.488121Z",
+        "updatedAt": "2025-11-12T10:39:53.488121Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.staging/email-server",
+      "description": "An MCP server that provides email capabilities, hosted on Alpic platform",
+      "title": "Email Server",
+      "version": "0.0.25",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://node-email-mcp-ead34801.staging.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-12T10:40:28.236583Z",
+        "updatedAt": "2025-11-12T10:40:28.236583Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.staging/email-server",
+      "description": "An MCP server that provides email capabilities, hosted on Alpic platform",
+      "title": "Email Server",
+      "version": "0.0.26",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://node-email-mcp-ead34801.staging.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-12T10:44:08.523577Z",
+        "updatedAt": "2025-11-12T10:44:08.523577Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.civic/nexus",
+      "description": "Zero-setup MCP gateway securely connecting AI to your tools with authentication and workflows",
+      "repository": {
+        "url": "https://github.com/civicteam/civic-mcp",
+        "source": "github",
+        "subfolder": "apps/hub"
+      },
+      "version": "0.1.35",
+      "websiteUrl": "https://nexus.civic.com",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://nexus.civic.com/hub/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-12T11:34:08.671187Z",
+        "updatedAt": "2025-11-12T11:34:08.671187Z",
         "isLatest": true
       }
     }
