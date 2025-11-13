@@ -64864,7 +64864,7 @@
         "status": "active",
         "publishedAt": "2025-10-29T20:57:38.232542Z",
         "updatedAt": "2025-10-29T20:57:38.232542Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -74219,7 +74219,7 @@
         "status": "active",
         "publishedAt": "2025-11-07T12:46:10.758427Z",
         "updatedAt": "2025-11-07T12:46:10.758427Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -78716,7 +78716,7 @@
         "status": "active",
         "publishedAt": "2025-11-12T16:42:26.91363Z",
         "updatedAt": "2025-11-12T16:42:26.91363Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -79209,7 +79209,7 @@
         "status": "active",
         "publishedAt": "2025-11-13T10:47:19.397811Z",
         "updatedAt": "2025-11-13T10:47:19.397811Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -79237,6 +79237,452 @@
         "status": "active",
         "publishedAt": "2025-11-13T11:28:58.608619Z",
         "updatedAt": "2025-11-13T11:28:58.608619Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.ggozad/haiku-rag",
+      "description": "Agentic Retrieval Augmented Generation (RAG) with LanceDB",
+      "repository": {
+        "url": "https://github.com/ggozad/haiku.rag",
+        "source": "github"
+      },
+      "version": "0.16.0",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "registryBaseUrl": "https://pypi.org",
+          "identifier": "haiku-rag",
+          "version": "0.16.0",
+          "runtimeHint": "uvx",
+          "transport": {
+            "type": "stdio"
+          },
+          "runtimeArguments": [
+            {
+              "value": "serve",
+              "type": "positional"
+            },
+            {
+              "type": "named",
+              "name": "--mcp"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-13T13:02:17.430995Z",
+        "updatedAt": "2025-11-13T13:02:17.430995Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "dev.storage/mcp",
+      "description": "Tigris MCP Server seamlessly connects AI agents to Tigris bucket and object management.",
+      "title": "Tigris MCP Server",
+      "repository": {
+        "url": "https://github.com/tigrisdata/mcp",
+        "source": "github"
+      },
+      "version": "1.2.1",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.storage.dev/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-13T13:06:04.21445Z",
+        "updatedAt": "2025-11-13T13:06:04.21445Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.staging/node-email-mcp-59eeb419",
+      "description": "An MCP server that provides email capabilities, hosted on Alpic platform",
+      "title": "Email Server",
+      "version": "0.0.33",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://node-email-mcp-59eeb419.staging.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-13T13:08:33.52552Z",
+        "updatedAt": "2025-11-13T13:08:33.52552Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.staging/test-server",
+      "description": "An MCP server that provides email capabilities, hosted on Alpic platform",
+      "title": "Email Server",
+      "version": "0.0.1",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp-server-template--60faeb39.staging.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-13T14:45:13.583833Z",
+        "updatedAt": "2025-11-13T14:45:13.583833Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.staging/node-email-mcp-59eeb419",
+      "description": "An MCP server that provides email capabilities, hosted on Alpic platform",
+      "title": "Email Server",
+      "version": "0.0.53",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://node-email-mcp-59eeb419.staging.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-13T14:48:59.251312Z",
+        "updatedAt": "2025-11-13T14:48:59.251312Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.staging/node-email-mcp-59eeb419",
+      "description": "An MCP server that provides email capabilities, hosted on Alpic platform",
+      "title": "Email Server",
+      "version": "0.0.54",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://node-email-mcp-59eeb419.staging.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-13T14:50:15.863151Z",
+        "updatedAt": "2025-11-13T14:50:15.863151Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.Couchbase-Ecosystem/mcp-server-couchbase",
+      "description": "Couchbase Model Context Protocol Server to interact with Couchbase clusters",
+      "repository": {
+        "url": "https://github.com/Couchbase-Ecosystem/mcp-server-couchbase",
+        "source": "github"
+      },
+      "version": "0.5.2",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "couchbase-mcp-server",
+          "version": "0.5.2",
+          "transport": {
+            "type": "stdio"
+          },
+          "packageArguments": [
+            {
+              "description": "Couchbase connection string. Required for connecting to the cluster.",
+              "format": "string",
+              "type": "named",
+              "name": "--connection-string"
+            },
+            {
+              "description": "Couchbase database username. Required for basic authentication.",
+              "format": "string",
+              "type": "named",
+              "name": "--username"
+            },
+            {
+              "description": "Couchbase database password. Required for basic authentication.",
+              "format": "string",
+              "isSecret": true,
+              "type": "named",
+              "name": "--password"
+            },
+            {
+              "description": "Couchbase CA certificate path. Required for TLS authentication in non Capella clusters.",
+              "format": "string",
+              "type": "named",
+              "name": "--ca-cert-path"
+            },
+            {
+              "description": "Couchbase client certificate path. Required for mTLS authentication.",
+              "format": "string",
+              "type": "named",
+              "name": "--client-cert-path"
+            },
+            {
+              "description": "Couchbase client key path. Required for mTLS authentication.",
+              "format": "string",
+              "type": "named",
+              "name": "--client-key-path"
+            },
+            {
+              "description": "Couchbase read only query mode. Set to true to allow only read-only queries. Set to false to allow data modification queries.",
+              "format": "boolean",
+              "type": "named",
+              "name": "--read-only-query-mode"
+            },
+            {
+              "description": "Transport mode for the server (stdio, http or sse). Default is stdio",
+              "format": "string",
+              "type": "named",
+              "name": "--transport"
+            },
+            {
+              "description": "Host to run the MCP server on (default: 127.0.0.1). Used only for HTTP and SSE transport modes.",
+              "format": "string",
+              "type": "named",
+              "name": "--host"
+            },
+            {
+              "description": "Port to run the MCP server on (default: 8000). Used only for HTTP and SSE transport modes.",
+              "format": "number",
+              "type": "named",
+              "name": "--port"
+            }
+          ],
+          "environmentVariables": [
+            {
+              "description": "Couchbase connection string. Required for connecting to the cluster.",
+              "format": "string",
+              "name": "CB_CONNECTION_STRING"
+            },
+            {
+              "description": "Couchbase database username. Required for basic authentication.",
+              "format": "string",
+              "name": "CB_USERNAME"
+            },
+            {
+              "description": "Couchbase database password. Required for basic authentication.",
+              "format": "string",
+              "isSecret": true,
+              "name": "CB_PASSWORD"
+            },
+            {
+              "description": "Couchbase CA certificate path. Required for TLS authentication in non Capella clusters.",
+              "format": "string",
+              "name": "CB_CA_CERT_PATH"
+            },
+            {
+              "description": "Couchbase client certificate path. Required for mTLS authentication.",
+              "format": "string",
+              "name": "CB_CLIENT_CERT_PATH"
+            },
+            {
+              "description": "Couchbase client key path. Required for mTLS authentication.",
+              "format": "string",
+              "name": "CB_CLIENT_KEY_PATH"
+            },
+            {
+              "description": "Couchbase read only query mode. Set to true to allow only read-only queries. Set to false to allow data modification queries.",
+              "format": "boolean",
+              "name": "CB_MCP_READ_ONLY_QUERY_MODE"
+            },
+            {
+              "description": "Transport mode for the server (stdio, http or sse). Default is stdio",
+              "format": "string",
+              "name": "CB_MCP_TRANSPORT"
+            },
+            {
+              "description": "Host to run the MCP server on (default: 127.0.0.1). Used only for HTTP and SSE transport modes.",
+              "format": "string",
+              "name": "CB_MCP_HOST"
+            },
+            {
+              "description": "Port to run the MCP server on (default: 8000). Used only for HTTP and SSE transport modes.",
+              "format": "number",
+              "name": "CB_MCP_PORT"
+            }
+          ]
+        },
+        {
+          "registryType": "oci",
+          "identifier": "docker.io/couchbaseecosystem/mcp-server-couchbase:0.5.2",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Couchbase connection string. Required for connecting to the cluster.",
+              "format": "string",
+              "name": "CB_CONNECTION_STRING"
+            },
+            {
+              "description": "Couchbase database username. Required for basic authentication.",
+              "format": "string",
+              "name": "CB_USERNAME"
+            },
+            {
+              "description": "Couchbase database password. Required for basic authentication.",
+              "format": "string",
+              "isSecret": true,
+              "name": "CB_PASSWORD"
+            },
+            {
+              "description": "Couchbase CA certificate path. Required for TLS authentication in non Capella clusters.",
+              "format": "string",
+              "name": "CB_CA_CERT_PATH"
+            },
+            {
+              "description": "Couchbase client certificate path. Required for mTLS authentication.",
+              "format": "string",
+              "name": "CB_CLIENT_CERT_PATH"
+            },
+            {
+              "description": "Couchbase client key path. Required for mTLS authentication.",
+              "format": "string",
+              "name": "CB_CLIENT_KEY_PATH"
+            },
+            {
+              "description": "Couchbase read only query mode. Set to true to allow only read-only queries. Set to false to allow data modification queries.",
+              "format": "boolean",
+              "name": "CB_MCP_READ_ONLY_QUERY_MODE"
+            },
+            {
+              "description": "Transport mode for the server (stdio, http or sse). Default is stdio",
+              "format": "string",
+              "name": "CB_MCP_TRANSPORT"
+            },
+            {
+              "description": "Host to run the MCP server on (default: 127.0.0.1). Used only for HTTP and SSE transport modes.",
+              "format": "string",
+              "name": "CB_MCP_HOST"
+            },
+            {
+              "description": "Port to run the MCP server on (default: 8000). Used only for HTTP and SSE transport modes.",
+              "format": "number",
+              "name": "CB_MCP_PORT"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-13T15:13:23.693865Z",
+        "updatedAt": "2025-11-13T15:13:23.693865Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.vercel/next-devtools-mcp",
+      "description": "Next.js development tools MCP server with stdio transport",
+      "repository": {
+        "url": "https://github.com/vercel/next-devtools-mcp",
+        "source": "github"
+      },
+      "version": "0.3.3",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "next-devtools-mcp",
+          "version": "0.3.3",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-13T16:13:16.273429Z",
+        "updatedAt": "2025-11-13T16:13:16.273429Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.staging/node-email-mcp-59eeb419",
+      "description": "An MCP server that provides email capabilities, hosted on Alpic platform",
+      "title": "Email Server",
+      "version": "0.0.55",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://node-email-mcp-59eeb419.staging.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-13T16:14:24.209485Z",
+        "updatedAt": "2025-11-13T16:14:24.209485Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.n0zer0d4y/vulcan-file-ops",
+      "description": "MCP server for AI assistants: read, write, edit, and manage files securely on local filesystem.",
+      "version": "1.1.4",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@n0zer0d4y/vulcan-file-ops",
+          "version": "1.1.4",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-13T16:23:52.773379Z",
+        "updatedAt": "2025-11-13T16:23:52.773379Z",
         "isLatest": true
       }
     }
