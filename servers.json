@@ -70253,7 +70253,7 @@
         "status": "active",
         "publishedAt": "2025-11-02T08:57:11.728246Z",
         "updatedAt": "2025-11-02T08:57:11.728246Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -80050,6 +80050,127 @@
         "status": "active",
         "publishedAt": "2025-11-14T03:34:30.775511Z",
         "updatedAt": "2025-11-14T03:34:30.775511Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.n0zer0d4y/mercury-spec-ops",
+      "description": "Modular MCP server for dynamic prompt generation and software development analysis tools",
+      "repository": {
+        "url": "https://github.com/n0zer0d4y/mercury-spec-ops",
+        "source": "github"
+      },
+      "version": "0.1.2",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@n0zer0d4y/mercury-spec-ops",
+          "version": "0.1.2",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-14T05:19:50.377784Z",
+        "updatedAt": "2025-11-14T05:19:50.377784Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.n0zer0d4y/athena-protocol",
+      "description": "AI tech lead for coding agents with validation and impact analysis",
+      "repository": {
+        "url": "https://github.com/n0zer0d4y/athena-protocol",
+        "source": "github"
+      },
+      "version": "0.1.0",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@n0zer0d4y/athena-protocol",
+          "version": "0.1.0",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-14T06:41:40.30199Z",
+        "updatedAt": "2025-11-14T06:41:40.30199Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.aahl/mcp-aktools",
+      "description": "MCP Server for stock and crypto",
+      "title": "AkTools MCP Server",
+      "repository": {
+        "url": "https://github.com/aahl/mcp-aktools",
+        "source": "github"
+      },
+      "version": "0.1.12",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "mcp-aktools",
+          "version": "0.1.12",
+          "transport": {
+            "type": "stdio"
+          }
+        },
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/aahl/mcp-aktools:latest",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-14T07:13:56.837401Z",
+        "updatedAt": "2025-11-14T07:13:56.837401Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.staging/send-email-mcp-01f22b8f",
+      "description": "Description of my MCP server",
+      "title": "My MCP Server",
+      "version": "0.0.1",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://send-email-mcp-01f22b8f.staging.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-14T08:08:40.403965Z",
+        "updatedAt": "2025-11-14T08:08:40.403965Z",
         "isLatest": true
       }
     }

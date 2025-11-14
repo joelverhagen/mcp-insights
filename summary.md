@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2025-11-14T04:34:02.9864192+00:00
+Generated on: 2025-11-14T08:37:04.1439816+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 1754
-- Total unique server names: 820
+- Total records processed: 1758
+- Total unique server names: 823
 - Date range: 2025-09-08 to 2025-11-14
 - Peak day: 2025-09-09 with 54 unique server names
-- Average unique server names per day: 18.29
+- Average unique server names per day: 18.35
 
 ## Top 5 busiest days
 - 2025-09-09: 54 unique servers
@@ -22,12 +22,12 @@ Generated on: 2025-11-14T04:34:02.9864192+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| remote | 380 | 46.34% |
-| npm | 213 | 25.98% |
-| pypi | 111 | 13.54% |
-| oci | 44 | 5.37% |
-| none | 29 | 3.54% |
-| mcpb | 13 | 1.59% |
+| remote | 381 | 46.29% |
+| npm | 215 | 26.12% |
+| pypi | 111 | 13.49% |
+| oci | 44 | 5.35% |
+| none | 29 | 3.52% |
+| mcpb | 13 | 1.58% |
 | oci+pypi | 11 | 1.34% |
 | nuget | 7 | 0.85% |
 | npm+oci | 4 | 0.49% |
@@ -43,8 +43,8 @@ Generated on: 2025-11-14T04:34:02.9864192+00:00
 | smithery.ai | 211 | remote |
 | waystation.ai | 12 | remote |
 | cyanheads.github.io | 6 | npm |
+| staging.alpic.live | 5 | remote |
 | huoshuiai42.github.io | 5 | pypi |
-| staging.alpic.live | 4 | remote |
 | paiml.github.io | 4 | none |
 | neo4j-contrib.github.io | 4 | pypi |
 | mintmcp.com | 4 | remote |
@@ -57,6 +57,6 @@ Generated on: 2025-11-14T04:34:02.9864192+00:00
 | ruvnet.github.io | 3 | npm |
 | noahgift.github.io | 3 | none |
 | neverinfamous.github.io | 3 | oci, oci+pypi |
+| n0zer0d4y.github.io | 3 | npm |
 | github30.github.io | 3 | none |
 | formulahendry.github.io | 3 | npm, npm+oci |
-| domdomegg.github.io | 3 | mcpb+npm+oci, nuget, pypi |
