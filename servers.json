@@ -73912,7 +73912,7 @@
         "status": "active",
         "publishedAt": "2025-11-07T05:32:56.84754Z",
         "updatedAt": "2025-11-07T05:32:56.84754Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -80543,6 +80543,217 @@
         "status": "active",
         "publishedAt": "2025-11-14T12:49:38.306401Z",
         "updatedAt": "2025-11-14T12:49:38.306401Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.staging/send-email-mcp-01f22b8f",
+      "description": "New desc",
+      "title": "t",
+      "version": "0.1.5",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://send-email-mcp-01f22b8f.staging.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-14T13:05:16.50995Z",
+        "updatedAt": "2025-11-14T13:05:16.50995Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.staging/send-email-mcp-01f22b8f",
+      "description": "New desc",
+      "title": "t",
+      "version": "0.1.6",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://send-email-mcp-01f22b8f.staging.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-14T13:08:42.081747Z",
+        "updatedAt": "2025-11-14T13:08:42.081747Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.staging/send-email-mcp-01f22b8f",
+      "description": "ddd",
+      "title": "d",
+      "version": "0.2.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://send-email-mcp-01f22b8f.staging.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-14T13:26:36.644362Z",
+        "updatedAt": "2025-11-14T13:26:36.644362Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.staging/send-email-mcp-01f22b8f",
+      "description": "ddddd",
+      "title": "d",
+      "version": "0.3.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://send-email-mcp-01f22b8f.staging.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-14T13:26:56.692706Z",
+        "updatedAt": "2025-11-14T13:26:56.692706Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.staging/send-email-mcp-01f22b8f",
+      "description": "Super desc",
+      "title": "Hey",
+      "version": "0.3.1",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://send-email-mcp-01f22b8f.staging.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-14T13:56:47.374946Z",
+        "updatedAt": "2025-11-14T13:56:47.374946Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.stefanstranger/avm-mcp-server",
+      "description": "Discover and explore Azure Verified Modules from the Bicep Public Registry",
+      "title": "Azure Verified Modules (AVM) MCP Server",
+      "version": "0.1.2",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "avm-mcp-server",
+          "version": "0.1.2",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-14T13:57:29.839187Z",
+        "updatedAt": "2025-11-14T13:57:29.839187Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.fkom13/mcp-sftp-orchestrator",
+      "description": "Serveur MCP pour l'orchestration de tâches distantes (SSH/SFTP) avec une file d'attente persistante.",
+      "repository": {
+        "url": "https://github.com/fkom13/mcp-sftp-orchestrator",
+        "source": "github"
+      },
+      "version": "8.0.4",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "mcp-orchestrator-server",
+          "version": "8.0.4",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-14T14:02:55.136916Z",
+        "updatedAt": "2025-11-14T14:02:55.136916Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.jkawamoto/mcp-bear",
+      "description": "A MCP server for interacting with Bear note-taking software.",
+      "repository": {
+        "url": "https://github.com/jkawamoto/mcp-bear",
+        "source": "github"
+      },
+      "version": "0.5.2",
+      "packages": [
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/jkawamoto/mcp-bear/releases/download/v0.5.2/mcp-bear.mcpb",
+          "fileSha256": "189a1e3c68dc4b96264e4fcfec5f52565f0b6ddb5e6db22c7e7650f0b6fe2a37",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Bear API token",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "BEAR_API_TOKEN"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-14T16:28:13.038327Z",
+        "updatedAt": "2025-11-14T16:28:13.038327Z",
         "isLatest": true
       }
     }
