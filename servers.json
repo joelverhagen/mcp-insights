@@ -79106,7 +79106,7 @@
         "status": "active",
         "publishedAt": "2025-11-13T08:42:11.236142Z",
         "updatedAt": "2025-11-13T08:42:11.236142Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -81118,6 +81118,62 @@
         "status": "active",
         "publishedAt": "2025-11-15T07:03:37.651233Z",
         "updatedAt": "2025-11-15T07:03:37.651233Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.PromptExecution/just-mcp",
+      "description": "Expose curated Justfile recipes via MCP for safe deterministic automation.",
+      "title": "Just MCP Server",
+      "repository": {
+        "url": "https://github.com/PromptExecution/just-mcp",
+        "source": "github"
+      },
+      "version": "0.1.5",
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/promptexecution/just-mcp:0.1.5",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-15T10:16:34.699806Z",
+        "updatedAt": "2025-11-15T10:16:34.699806Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "ch.pfx/mcp-server",
+      "description": "MCP Server für Forterro Proffix Px5 ERP",
+      "repository": {
+        "url": "https://github.com/pitwch/pfx-mcp-server",
+        "source": "github"
+      },
+      "version": "1.1.9",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.pfx.ch/api/server"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-15T11:36:10.224083Z",
+        "updatedAt": "2025-11-15T11:36:10.224083Z",
         "isLatest": true
       }
     }
