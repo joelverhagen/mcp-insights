@@ -44155,7 +44155,7 @@
         "status": "active",
         "publishedAt": "2025-10-09T10:03:16.606919Z",
         "updatedAt": "2025-10-09T10:03:16.606919Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -72904,7 +72904,7 @@
         "status": "active",
         "publishedAt": "2025-11-05T09:05:07.938909Z",
         "updatedAt": "2025-11-05T09:05:07.938909Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -81317,6 +81317,132 @@
         "status": "active",
         "publishedAt": "2025-11-15T15:49:07.580015Z",
         "updatedAt": "2025-11-15T15:49:07.580015Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.wonderwhy-er/desktop-commander",
+      "description": "MCP server for terminal commands, file operations, and process management",
+      "title": "Desktop Commander",
+      "repository": {
+        "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+        "source": "github"
+      },
+      "version": "0.2.22",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@wonderwhy-er/desktop-commander",
+          "version": "0.2.22",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-15T17:50:51.651393Z",
+        "updatedAt": "2025-11-15T17:50:51.651393Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.mcp-fortress/mcp-fortress",
+      "description": "Security scanner for MCP servers with vulnerability detection and prompt injection analysis.",
+      "repository": {
+        "url": "https://github.com/mcp-fortress/mcp-fortress",
+        "source": "github"
+      },
+      "version": "0.3.2",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "mcp-fortress",
+          "version": "0.3.2",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-15T18:24:04.434793Z",
+        "updatedAt": "2025-11-15T18:24:04.434793Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.mcp-fortress/mcp-fortress",
+      "description": "Security scanner for MCP servers with vulnerability detection and prompt injection analysis.",
+      "repository": {
+        "url": "https://github.com/mcp-fortress/mcp-fortress",
+        "source": "github"
+      },
+      "version": "0.3.3",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "mcp-fortress",
+          "version": "0.3.3",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-15T18:25:08.229385Z",
+        "updatedAt": "2025-11-15T18:25:08.229385Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "host.justcall.mcp/justcall-mcp-server",
+      "description": "JustCall MCP Server",
+      "repository": {
+        "url": "https://github.com/saaslabsco/justcall-mcp-server",
+        "source": "github"
+      },
+      "version": "1.0.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.justcall.host/mcp",
+          "headers": [
+            {
+              "description": "API key and Secret for authentication in the format of <API_KEY>:<API_SECRET>",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "Authorization"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-15T18:55:00.183991Z",
+        "updatedAt": "2025-11-15T18:55:00.183991Z",
         "isLatest": true
       }
     }
