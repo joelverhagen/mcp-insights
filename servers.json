@@ -78876,7 +78876,7 @@
         "status": "active",
         "publishedAt": "2025-11-12T18:34:58.91184Z",
         "updatedAt": "2025-11-12T18:34:58.91184Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -78992,7 +78992,7 @@
         "status": "active",
         "publishedAt": "2025-11-12T22:11:17.478929Z",
         "updatedAt": "2025-11-12T22:11:17.478929Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -81174,6 +81174,149 @@
         "status": "active",
         "publishedAt": "2025-11-15T11:36:10.224083Z",
         "updatedAt": "2025-11-15T11:36:10.224083Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.schemacrawler/schemacrawler-ai",
+      "description": "Enables natural language schema queries — explore tables, keys, procedures, and get SQL help fast",
+      "repository": {
+        "url": "https://github.com/schemacrawler/SchemaCrawler-AI",
+        "source": "github"
+      },
+      "version": "v17.1.5-2",
+      "websiteUrl": "https://schemacrawler.github.io",
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "docker.io/schemacrawler/schemacrawler-ai:v17.1.5-2",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "MCP Server transport type - valid values are 'http' or 'stdio', defaulting to 'stdio'.",
+              "format": "string",
+              "name": "SCHCRWLR_MCP_SERVER_TRANSPORT"
+            },
+            {
+              "description": "Database user name. Can be optional depending on the database connection type.",
+              "format": "string",
+              "isSecret": true,
+              "name": "SCHCRWLR_DATABASE_USER"
+            },
+            {
+              "description": "Database user password. Can be optional depending on the database connection type.",
+              "format": "string",
+              "isSecret": true,
+              "name": "SCHCRWLR_DATABASE_PASSWORD"
+            },
+            {
+              "description": "JDBC URL for database connection. If this is provided, the server, host, port and database are not used.",
+              "format": "string",
+              "name": "SCHCRWLR_JDBC_URL"
+            },
+            {
+              "description": "SchemaCrawler database plugin, for example, 'sqlserver' or 'sqlite'. Used only if the JDBC URL is not provided.",
+              "format": "string",
+              "name": "SCHCRWLR_SERVER"
+            },
+            {
+              "description": "Database host. Defaults to localhost. Used only if the JDBC URL is not provided.",
+              "format": "string",
+              "name": "SCHCRWLR_HOST"
+            },
+            {
+              "description": "Database port. Defaults to the default port for the server type. Used only if the JDBC URL is not provided.",
+              "format": "string",
+              "name": "SCHCRWLR_PORT"
+            },
+            {
+              "description": "Database to connect to (optional). Used only if the JDBC URL is not provided.",
+              "format": "string",
+              "name": "SCHCRWLR_DATABASE"
+            },
+            {
+              "description": "How much database metadata to retrieve. Values are 'minimum', 'standard', 'detailed' or 'maximum'.",
+              "format": "string",
+              "name": "SCHCRWLR_INFO_LEVEL"
+            },
+            {
+              "description": "Logging verbosity level. Values are 'SEVERE', 'WARNING', 'INFO', 'CONFIG', or 'FINE'.",
+              "format": "string",
+              "name": "SCHCRWLR_LOG_LEVEL"
+            },
+            {
+              "description": "MCP Server tools to exclude, as a comma-separated list.",
+              "format": "string",
+              "name": "SCHCRWLR_EXCLUDE_TOOLS"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-15T14:53:49.732983Z",
+        "updatedAt": "2025-11-15T14:53:49.732983Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.cornelcroi/bookmark-lens",
+      "description": "Local-first bookmark management with semantic search and AI-powered organization",
+      "title": "Bookmark Lens",
+      "version": "0.0.7",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "bookmark-lens",
+          "version": "0.0.7",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-15T15:37:05.166153Z",
+        "updatedAt": "2025-11-15T15:37:05.166153Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.cornelcroi/context-lens",
+      "description": "Semantic search knowledge base with serverless LanceDB. Zero setup, 100% local, 25+ file types",
+      "title": "Context Lens",
+      "version": "0.1.8",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "context-lens",
+          "version": "0.1.8",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-15T15:49:07.580015Z",
+        "updatedAt": "2025-11-15T15:49:07.580015Z",
         "isLatest": true
       }
     }
