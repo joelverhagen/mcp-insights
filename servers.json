@@ -60994,7 +60994,7 @@
         "status": "active",
         "publishedAt": "2025-10-28T08:30:39.0378Z",
         "updatedAt": "2025-10-28T08:30:39.0378Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -80480,7 +80480,7 @@
         "status": "active",
         "publishedAt": "2025-11-14T11:55:22.278031Z",
         "updatedAt": "2025-11-14T11:55:22.278031Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -81507,6 +81507,89 @@
         "status": "active",
         "publishedAt": "2025-11-16T07:38:06.013611Z",
         "updatedAt": "2025-11-16T07:38:06.013611Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.civic/nexus",
+      "description": "Zero-setup MCP gateway securely connecting AI to your tools with authentication and workflows",
+      "repository": {
+        "url": "https://github.com/civicteam/civic-mcp",
+        "source": "github",
+        "subfolder": "apps/hub"
+      },
+      "version": "0.1.39",
+      "websiteUrl": "https://nexus.civic.com",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://nexus.civic.com/hub/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-16T08:56:18.386744Z",
+        "updatedAt": "2025-11-16T08:56:18.386744Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.brightdata/brightdata-mcp",
+      "description": "Bright Data's Web MCP server enabling AI agents to search, extract & navigate the web",
+      "repository": {
+        "url": "https://github.com/brightdata/brightdata-mcp",
+        "source": "github"
+      },
+      "version": "2.6.1",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@brightdata/mcp",
+          "version": "2.6.1",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your API key for Bright Data",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "API_TOKEN"
+            },
+            {
+              "description": "Your unlocker zone name",
+              "format": "string",
+              "name": "WEB_UNLOCKER_ZONE"
+            },
+            {
+              "description": "Your browser zone name",
+              "format": "string",
+              "name": "BROWSER_ZONE"
+            },
+            {
+              "description": "To enable PRO_MODE - set to true",
+              "format": "boolean",
+              "name": "PRO_MODE"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-16T12:33:01.976247Z",
+        "updatedAt": "2025-11-16T12:33:01.976247Z",
         "isLatest": true
       }
     }
