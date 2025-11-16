@@ -79159,7 +79159,7 @@
         "status": "active",
         "publishedAt": "2025-11-13T09:11:40.98565Z",
         "updatedAt": "2025-11-13T09:11:40.98565Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -81475,6 +81475,38 @@
         "status": "active",
         "publishedAt": "2025-11-15T22:24:54.096028Z",
         "updatedAt": "2025-11-15T22:24:54.096028Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.MCPower-Security/mcpower-proxy",
+      "description": "Security proxy that automatically wraps MCP servers with real-time monitoring and policy enforcement",
+      "title": "MCPower Security Proxy",
+      "repository": {
+        "url": "https://github.com/MCPower-Security/mcpower-proxy",
+        "source": "github"
+      },
+      "version": "0.0.91",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "mcpower-proxy",
+          "version": "0.0.91",
+          "runtimeHint": "uvx",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-16T07:38:06.013611Z",
+        "updatedAt": "2025-11-16T07:38:06.013611Z",
         "isLatest": true
       }
     }
