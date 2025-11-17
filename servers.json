@@ -71403,7 +71403,7 @@
         "status": "active",
         "publishedAt": "2025-11-03T03:55:45.761826Z",
         "updatedAt": "2025-11-03T03:55:45.761826Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -76037,7 +76037,7 @@
         "status": "active",
         "publishedAt": "2025-11-09T06:42:21.015717Z",
         "updatedAt": "2025-11-09T06:42:21.015717Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -77190,7 +77190,7 @@
         "status": "active",
         "publishedAt": "2025-11-11T10:09:15.016409Z",
         "updatedAt": "2025-11-11T10:09:15.016409Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -80148,7 +80148,7 @@
         "status": "active",
         "publishedAt": "2025-11-14T07:13:56.837401Z",
         "updatedAt": "2025-11-14T07:13:56.837401Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -81443,7 +81443,7 @@
         "status": "active",
         "publishedAt": "2025-11-15T18:55:00.183991Z",
         "updatedAt": "2025-11-15T18:55:00.183991Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -81901,6 +81901,305 @@
         "status": "active",
         "publishedAt": "2025-11-16T22:29:17.754969Z",
         "updatedAt": "2025-11-16T22:29:17.754969Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.clarenceh/expenselm-mcp-server",
+      "description": "An MCP server that provides access to your expense data on ExpenseLM.",
+      "repository": {
+        "url": "https://github.com/expenselm/expenselm-mcp-server",
+        "source": "github"
+      },
+      "version": "0.2.3",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "expenselm-mcp-server",
+          "version": "0.2.3",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your ExpenseLM API key",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "EXPENSELM_API_KEY"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-17T06:20:59.62896Z",
+        "updatedAt": "2025-11-17T06:20:59.62896Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "directory.brick/mcp",
+      "description": "Provides data for LEGO sets, minifigures, parts and elements. Not affiliated with LEGO® Group.",
+      "title": "Brick Directory",
+      "version": "2025.11.17.0704",
+      "websiteUrl": "https://brick.directory",
+      "icons": [
+        {
+          "src": "https://brick.directory/assets/logo.svg",
+          "mimeType": "image/svg+xml"
+        },
+        {
+          "src": "https://brick.directory/assets/logo-1024-transparent.png",
+          "mimeType": "image/png",
+          "sizes": [
+            "1024x1024"
+          ]
+        },
+        {
+          "src": "https://brick.directory/assets/logo-512-transparent.png",
+          "mimeType": "image/png",
+          "sizes": [
+            "512x512"
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://api.brick.directory/connect"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-17T07:04:46.701843Z",
+        "updatedAt": "2025-11-17T07:04:46.701843Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "directory.brick/mcp",
+      "description": "Provides data for LEGO sets, minifigures, parts and elements. Not affiliated with LEGO® Group.",
+      "title": "Brick Directory",
+      "version": "2025.11.17.0708",
+      "websiteUrl": "https://brick.directory",
+      "icons": [
+        {
+          "src": "https://brick.directory/assets/logo.svg",
+          "mimeType": "image/svg+xml"
+        },
+        {
+          "src": "https://brick.directory/assets/logo-1024-transparent.png",
+          "mimeType": "image/png",
+          "sizes": [
+            "1024x1024"
+          ]
+        },
+        {
+          "src": "https://brick.directory/assets/logo-512-transparent.png",
+          "mimeType": "image/png",
+          "sizes": [
+            "512x512"
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://api.brick.directory/connect"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-17T07:08:24.337957Z",
+        "updatedAt": "2025-11-17T07:08:24.337957Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.aahl/mcp-notify",
+      "description": "MCP Server for notify to Weixin, Telegram, Bark, Lark, Feishu, DingTalk",
+      "title": "Notify MCP Server",
+      "repository": {
+        "url": "https://github.com/aahl/mcp-notify",
+        "source": "github"
+      },
+      "version": "0.1.7",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "mcp-notify",
+          "version": "0.1.7",
+          "transport": {
+            "type": "stdio"
+          }
+        },
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/aahl/mcp-notify:latest",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-17T07:33:49.807877Z",
+        "updatedAt": "2025-11-17T07:33:49.807877Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.propstreet/agenthub",
+      "description": "Enables coding agents to coordinate edits, reviews, and escalations without file locking conflicts",
+      "title": "AgentHub - Lean MCP Orchestrator",
+      "version": "1.0.0",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@propstreet/agenthub",
+          "version": "1.0.0",
+          "transport": {
+            "type": "streamable-http",
+            "url": "http://localhost:3333/mcp"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-17T07:50:38.72583Z",
+        "updatedAt": "2025-11-17T07:50:38.72583Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "run.syncline/mcp-server",
+      "description": "AI-powered meeting scheduling with intelligent auto-scheduling for Claude and AI agents.",
+      "title": "Syncline MCP Server",
+      "version": "1.0.2",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@kekwanulabs/syncline-mcp-server",
+          "version": "1.0.2",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-17T08:08:27.027035Z",
+        "updatedAt": "2025-11-17T08:08:27.027035Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.aahl/mcp-aktools",
+      "description": "MCP Server for stock and crypto",
+      "title": "AkTools MCP Server",
+      "repository": {
+        "url": "https://github.com/aahl/mcp-aktools",
+        "source": "github"
+      },
+      "version": "0.1.13",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "mcp-aktools",
+          "version": "0.1.13",
+          "transport": {
+            "type": "stdio"
+          }
+        },
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/aahl/mcp-aktools:latest",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-17T08:25:30.720365Z",
+        "updatedAt": "2025-11-17T08:25:30.720365Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "host.justcall.mcp/justcall-mcp-server",
+      "description": "JustCall MCP Server enables LLMs and AI agents to make voice calls and send SMS via JustCall APIs.",
+      "title": "JustCall MCP Server",
+      "repository": {
+        "url": "https://github.com/saaslabsco/justcall-mcp-server",
+        "source": "github"
+      },
+      "version": "1.0.1",
+      "icons": [
+        {
+          "src": "https://cdn.justcall.io/assets-marketing/images/favicon.png",
+          "mimeType": "image/png",
+          "sizes": [
+            "45x44"
+          ],
+          "theme": "light"
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.justcall.host/mcp"
+        },
+        {
+          "type": "sse",
+          "url": "https://mcp.justcall.host/sse"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-17T08:38:15.688615Z",
+        "updatedAt": "2025-11-17T08:38:15.688615Z",
         "isLatest": true
       }
     }
