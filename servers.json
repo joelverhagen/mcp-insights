@@ -83167,7 +83167,7 @@
         "status": "active",
         "publishedAt": "2025-11-17T17:12:29.125333Z",
         "updatedAt": "2025-11-17T17:12:29.125333Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -84333,6 +84333,240 @@
         "status": "active",
         "publishedAt": "2025-11-18T03:56:03.569176Z",
         "updatedAt": "2025-11-18T03:56:03.569176Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.deployhq/deployhq-mcp-server",
+      "description": "Model Context Protocol (MCP) server for DeployHQ API integration",
+      "repository": {
+        "url": "https://github.com/deployhq/deployhq-mcp-server",
+        "source": "github"
+      },
+      "version": "1.2.0",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "deployhq-mcp-server",
+          "version": "1.2.0",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your DeployHQ login email address",
+              "isRequired": true,
+              "format": "string",
+              "name": "DEPLOYHQ_EMAIL"
+            },
+            {
+              "description": "Your DeployHQ password or API key",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "DEPLOYHQ_API_KEY"
+            },
+            {
+              "description": "Your DeployHQ account name (from URL: https://ACCOUNT.deployhq.com)",
+              "isRequired": true,
+              "format": "string",
+              "name": "DEPLOYHQ_ACCOUNT"
+            },
+            {
+              "description": "Log verbosity level (ERROR, INFO, or DEBUG)",
+              "format": "string",
+              "name": "LOG_LEVEL"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-18T07:01:20.233534Z",
+        "updatedAt": "2025-11-18T07:01:20.233534Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.deployhq/deployhq-mcp-server",
+      "description": "Model Context Protocol (MCP) server for DeployHQ API integration",
+      "repository": {
+        "url": "https://github.com/deployhq/deployhq-mcp-server",
+        "source": "github"
+      },
+      "version": "1.2.1",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "deployhq-mcp-server",
+          "version": "1.2.1",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your DeployHQ login email address",
+              "isRequired": true,
+              "format": "string",
+              "name": "DEPLOYHQ_EMAIL"
+            },
+            {
+              "description": "Your DeployHQ password or API key",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "DEPLOYHQ_API_KEY"
+            },
+            {
+              "description": "Your DeployHQ account name (from URL: https://ACCOUNT.deployhq.com)",
+              "isRequired": true,
+              "format": "string",
+              "name": "DEPLOYHQ_ACCOUNT"
+            },
+            {
+              "description": "Log verbosity level (ERROR, INFO, or DEBUG)",
+              "format": "string",
+              "name": "LOG_LEVEL"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-18T07:03:35.872088Z",
+        "updatedAt": "2025-11-18T07:03:35.872088Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.rosch100/mcp-sqlite",
+      "description": "MCP server for SQLCipher 4 encrypted SQLite databases with full CRUD operations and query support",
+      "repository": {
+        "url": "https://github.com/rosch100/mcp-sqlite",
+        "source": "github"
+      },
+      "version": "0.2.4",
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/rosch100/mcp-sqlite:0.2.4",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Path to the encrypted SQLite database file",
+              "isRequired": true,
+              "format": "string",
+              "name": "DB_PATH"
+            },
+            {
+              "description": "Passphrase for decrypting the database",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "DB_PASSPHRASE"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-18T07:18:50.55139Z",
+        "updatedAt": "2025-11-18T07:18:50.55139Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.creis-ai/mcp-property-valuation-server",
+      "description": "MCP服务器，提供房产小区评级和评估功能",
+      "repository": {
+        "url": "https://github.com/creis-ai/mcp-property-valuation-server",
+        "source": "github"
+      },
+      "version": "0.0.19",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "mcp-property-valuation-server",
+          "version": "0.0.19",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Industry app ID for authentication",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "MCP-INDUSTRY-APPID"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-18T07:55:09.22262Z",
+        "updatedAt": "2025-11-18T07:55:09.22262Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.creis-ai/mcp-property-valuation-server",
+      "description": "MCP服务器，提供房产小区评级和评估功能",
+      "repository": {
+        "url": "https://github.com/creis-ai/mcp-property-valuation-server",
+        "source": "github"
+      },
+      "version": "0.0.20",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "mcp-property-valuation-server",
+          "version": "0.0.20",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Industry app ID for authentication",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "MCP-INDUSTRY-APPID"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-18T08:14:46.846527Z",
+        "updatedAt": "2025-11-18T08:14:46.846527Z",
         "isLatest": true
       }
     }
