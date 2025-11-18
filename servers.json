@@ -82588,7 +82588,7 @@
         "status": "active",
         "publishedAt": "2025-11-17T14:07:49.726958Z",
         "updatedAt": "2025-11-17T14:07:49.726958Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -83918,7 +83918,7 @@
         "status": "active",
         "publishedAt": "2025-11-18T02:00:47.788538Z",
         "updatedAt": "2025-11-18T02:00:47.788538Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -83960,6 +83960,379 @@
         "status": "active",
         "publishedAt": "2025-11-18T02:00:55.678697Z",
         "updatedAt": "2025-11-18T02:00:55.678697Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.kekwanu/syncline-mcp-server",
+      "description": "Syncline MCP Server (TypeScript) - AI-powered meeting scheduling with intelligent auto-scheduling",
+      "title": "Syncline MCP Server (TypeScript)",
+      "repository": {
+        "url": "https://github.com/KekwanuLabs/syncline",
+        "source": "github",
+        "subfolder": "mcp-server"
+      },
+      "version": "1.0.27",
+      "websiteUrl": "https://syncline.run",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@kekwanulabs/syncline-mcp-server",
+          "version": "1.0.27",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your Syncline API key from https://syncline.run/developer",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "SYNCLINE_API_KEY"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-18T02:23:37.479754Z",
+        "updatedAt": "2025-11-18T02:23:37.479754Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.kekwanu/syncline-mcp-server-go",
+      "description": "Syncline MCP Server (Go) - AI-powered meeting scheduling with intelligent auto-scheduling",
+      "title": "Syncline MCP Server (Go)",
+      "repository": {
+        "url": "https://github.com/KekwanuLabs/syncline",
+        "source": "github",
+        "subfolder": "mcp-server-go"
+      },
+      "version": "1.0.27",
+      "websiteUrl": "https://syncline.run",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@kekwanulabs/syncline-mcp-server-go",
+          "version": "1.0.27",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your Syncline API key from https://syncline.run/developer",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "SYNCLINE_API_KEY"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-18T02:23:47.313968Z",
+        "updatedAt": "2025-11-18T02:23:47.313968Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.homeassistant-ai/ha-mcp",
+      "description": "Comprehensive Model Context Protocol server for managing Home Assistant through AI assistants.",
+      "repository": {
+        "url": "https://github.com/homeassistant-ai/ha-mcp.git",
+        "source": "github"
+      },
+      "version": "3.5.1",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "ha-mcp",
+          "version": "3.5.1",
+          "transport": {
+            "type": "stdio"
+          }
+        },
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/homeassistant-ai/ha-mcp:3.5.1",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-18T02:59:54.551122Z",
+        "updatedAt": "2025-11-18T02:59:54.551122Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.kekwanu/syncline-mcp-server",
+      "description": "Syncline MCP Server (TypeScript) - AI-powered meeting scheduling with intelligent auto-scheduling",
+      "title": "Syncline MCP Server (TypeScript)",
+      "repository": {
+        "url": "https://github.com/KekwanuLabs/syncline",
+        "source": "github",
+        "subfolder": "mcp-server"
+      },
+      "version": "1.0.28",
+      "websiteUrl": "https://syncline.run",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@kekwanulabs/syncline-mcp-server",
+          "version": "1.0.28",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your Syncline API key from https://syncline.run/developer",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "SYNCLINE_API_KEY"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-18T03:35:02.965732Z",
+        "updatedAt": "2025-11-18T03:35:02.965732Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.kekwanu/syncline-mcp-server-go",
+      "description": "Syncline MCP Server (Go) - AI-powered meeting scheduling with intelligent auto-scheduling",
+      "title": "Syncline MCP Server (Go)",
+      "repository": {
+        "url": "https://github.com/KekwanuLabs/syncline",
+        "source": "github",
+        "subfolder": "mcp-server-go"
+      },
+      "version": "1.0.28",
+      "websiteUrl": "https://syncline.run",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@kekwanulabs/syncline-mcp-server-go",
+          "version": "1.0.28",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your Syncline API key from https://syncline.run/developer",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "SYNCLINE_API_KEY"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-18T03:35:12.799999Z",
+        "updatedAt": "2025-11-18T03:35:12.799999Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.kekwanu/syncline-mcp-server",
+      "description": "Syncline MCP Server (TypeScript) - AI-powered meeting scheduling with intelligent auto-scheduling",
+      "title": "Syncline MCP Server (TypeScript)",
+      "repository": {
+        "url": "https://github.com/KekwanuLabs/syncline",
+        "source": "github",
+        "subfolder": "mcp-server"
+      },
+      "version": "1.0.29",
+      "websiteUrl": "https://syncline.run",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@kekwanulabs/syncline-mcp-server",
+          "version": "1.0.29",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your Syncline API key from https://syncline.run/developer",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "SYNCLINE_API_KEY"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-18T03:45:33.247097Z",
+        "updatedAt": "2025-11-18T03:45:33.247097Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.kekwanu/syncline-mcp-server-go",
+      "description": "Syncline MCP Server (Go) - AI-powered meeting scheduling with intelligent auto-scheduling",
+      "title": "Syncline MCP Server (Go)",
+      "repository": {
+        "url": "https://github.com/KekwanuLabs/syncline",
+        "source": "github",
+        "subfolder": "mcp-server-go"
+      },
+      "version": "1.0.29",
+      "websiteUrl": "https://syncline.run",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@kekwanulabs/syncline-mcp-server-go",
+          "version": "1.0.29",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your Syncline API key from https://syncline.run/developer",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "SYNCLINE_API_KEY"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-18T03:45:41.000525Z",
+        "updatedAt": "2025-11-18T03:45:41.000525Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.kekwanu/syncline-mcp-server",
+      "description": "Syncline MCP Server (TypeScript) - AI-powered meeting scheduling with intelligent auto-scheduling",
+      "title": "Syncline MCP Server (TypeScript)",
+      "repository": {
+        "url": "https://github.com/KekwanuLabs/syncline",
+        "source": "github",
+        "subfolder": "mcp-server"
+      },
+      "version": "1.0.30",
+      "websiteUrl": "https://syncline.run",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@kekwanulabs/syncline-mcp-server",
+          "version": "1.0.30",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your Syncline API key from https://syncline.run/developer",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "SYNCLINE_API_KEY"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-18T03:55:54.366789Z",
+        "updatedAt": "2025-11-18T03:55:54.366789Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.kekwanu/syncline-mcp-server-go",
+      "description": "Syncline MCP Server (Go) - AI-powered meeting scheduling with intelligent auto-scheduling",
+      "title": "Syncline MCP Server (Go)",
+      "repository": {
+        "url": "https://github.com/KekwanuLabs/syncline",
+        "source": "github",
+        "subfolder": "mcp-server-go"
+      },
+      "version": "1.0.30",
+      "websiteUrl": "https://syncline.run",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@kekwanulabs/syncline-mcp-server-go",
+          "version": "1.0.30",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your Syncline API key from https://syncline.run/developer",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "SYNCLINE_API_KEY"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-18T03:56:03.569176Z",
+        "updatedAt": "2025-11-18T03:56:03.569176Z",
         "isLatest": true
       }
     }
