@@ -55455,7 +55455,7 @@
         "status": "active",
         "publishedAt": "2025-10-22T12:31:10.957827Z",
         "updatedAt": "2025-10-22T12:31:10.957827Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -81940,7 +81940,7 @@
         "status": "active",
         "publishedAt": "2025-11-17T06:20:59.62896Z",
         "updatedAt": "2025-11-17T06:20:59.62896Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -83792,7 +83792,7 @@
         "status": "active",
         "publishedAt": "2025-11-18T01:27:31.961785Z",
         "updatedAt": "2025-11-18T01:27:31.961785Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -84567,6 +84567,686 @@
         "status": "active",
         "publishedAt": "2025-11-18T08:14:46.846527Z",
         "updatedAt": "2025-11-18T08:14:46.846527Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.rosch100/mcp-encrypted-sqlite",
+      "description": "MCP server for encrypted SQLite databases (SQLCipher 4) - Works with MoneyMoney, KeePass and more",
+      "repository": {
+        "url": "https://github.com/rosch100/mcp-encrypted-sqlite",
+        "source": "github"
+      },
+      "version": "0.3.0",
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/rosch100/mcp-encrypted-sqlite:0.3.0",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Path to the encrypted SQLite database file",
+              "isRequired": true,
+              "format": "string",
+              "name": "DB_PATH"
+            },
+            {
+              "description": "Passphrase for decrypting the database",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "DB_PASSPHRASE"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-18T08:50:45.14936Z",
+        "updatedAt": "2025-11-18T08:50:45.14936Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.getunleash/unleash-mcp",
+      "description": "MCP server for managing Unleash feature flags",
+      "repository": {
+        "url": "https://github.com/Unleash/unleash-mcp",
+        "source": "github"
+      },
+      "version": "0.1.1",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@unleash/mcp",
+          "version": "0.1.1",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your Unleash instance URL (local or hosted)",
+              "isRequired": true,
+              "format": "string",
+              "name": "UNLEASH_BASE_URL"
+            },
+            {
+              "description": "Your Unleash Personal Access Token (PAT) for authentication",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "UNLEASH_PAT"
+            },
+            {
+              "description": "The default project ID the MCP should use",
+              "format": "string",
+              "name": "UNLEASH_DEFAULT_PROJECT"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-18T08:54:38.869798Z",
+        "updatedAt": "2025-11-18T08:54:38.869798Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.rosch100/mcp-encrypted-sqlite",
+      "description": "MCP server for encrypted SQLite databases (SQLCipher 4) - Works with MoneyMoney, KeePass and more",
+      "repository": {
+        "url": "https://github.com/rosch100/mcp-encrypted-sqlite",
+        "source": "github"
+      },
+      "version": "0.3.1",
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/rosch100/mcp-encrypted-sqlite:0.3.1",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Path to the encrypted SQLite database file",
+              "isRequired": true,
+              "format": "string",
+              "name": "DB_PATH"
+            },
+            {
+              "description": "Passphrase for decrypting the database",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "DB_PASSPHRASE"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-18T09:01:07.327152Z",
+        "updatedAt": "2025-11-18T09:01:07.327152Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.kontent-ai/mcp-server",
+      "description": "Connect to Kontent.ai to manage content, types, taxonomies, and workflows via natural language",
+      "repository": {
+        "url": "https://github.com/kontent-ai/mcp-server",
+        "source": "github"
+      },
+      "version": "0.21.10",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@kontent-ai/mcp-server",
+          "version": "0.21.10",
+          "transport": {
+            "type": "stdio"
+          },
+          "packageArguments": [
+            {
+              "value": "stdio",
+              "type": "positional"
+            }
+          ],
+          "environmentVariables": [
+            {
+              "description": "Kontent.ai Management API key",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "KONTENT_API_KEY"
+            },
+            {
+              "description": "Kontent.ai environment ID",
+              "isRequired": true,
+              "name": "KONTENT_ENVIRONMENT_ID"
+            }
+          ]
+        },
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@kontent-ai/mcp-server",
+          "version": "0.21.10",
+          "transport": {
+            "type": "streamable-http",
+            "url": "http://localhost:3001/mcp"
+          },
+          "packageArguments": [
+            {
+              "value": "shttp",
+              "type": "positional"
+            }
+          ],
+          "environmentVariables": [
+            {
+              "description": "Kontent.ai Management API key",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "KONTENT_API_KEY"
+            },
+            {
+              "description": "Kontent.ai environment ID",
+              "isRequired": true,
+              "name": "KONTENT_ENVIRONMENT_ID"
+            },
+            {
+              "description": "Server port for HTTP transport (shttp mode only)",
+              "name": "PORT"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-18T09:21:17.794462Z",
+        "updatedAt": "2025-11-18T09:21:17.794462Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.staging/alpic-poc-frontend-9eb5bfc8",
+      "description": "Description of my MCP server",
+      "title": "My MCP Serve",
+      "version": "0.0.2",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://alpic-poc-frontend-9eb5bfc8.staging.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-18T09:29:37.121051Z",
+        "updatedAt": "2025-11-18T09:29:37.121051Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.clarenceh/expenselm-mcp-server",
+      "description": "An MCP server that provides access to your expense data on ExpenseLM.",
+      "repository": {
+        "url": "https://github.com/expenselm/expenselm-mcp-server",
+        "source": "github"
+      },
+      "version": "0.3.0",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "expenselm-mcp-server",
+          "version": "0.3.0",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your ExpenseLM API key",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "EXPENSELM_API_KEY"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-18T09:32:52.191589Z",
+        "updatedAt": "2025-11-18T09:32:52.191589Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.clarenceh/expenselm-mcp-server",
+      "description": "An MCP server that provides access to your expense data on ExpenseLM.",
+      "repository": {
+        "url": "https://github.com/expenselm/expenselm-mcp-server",
+        "source": "github"
+      },
+      "version": "0.3.1",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "expenselm-mcp-server",
+          "version": "0.3.1",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your ExpenseLM API key",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "EXPENSELM_API_KEY"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-18T09:59:14.850525Z",
+        "updatedAt": "2025-11-18T09:59:14.850525Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.staging/alpic-poc-frontend-9eb5bfc8",
+      "description": "Description of my MCP server",
+      "title": "Test MCP",
+      "version": "0.0.3",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://alpic-poc-frontend-9eb5bfc8.staging.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-18T09:59:48.527706Z",
+        "updatedAt": "2025-11-18T09:59:48.527706Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.staging/alpic-poc-frontend-9eb5bfc8",
+      "description": "Description of my MCP server",
+      "title": "Test",
+      "version": "0.0.4",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://alpic-poc-frontend-9eb5bfc8.staging.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-18T10:08:35.696553Z",
+        "updatedAt": "2025-11-18T10:08:35.696553Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.staging/alpic-poc-frontend-9eb5bfc8",
+      "description": "Description of my MCP server",
+      "title": "New",
+      "version": "0.0.5",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://alpic-poc-frontend-9eb5bfc8.staging.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-18T10:20:29.651804Z",
+        "updatedAt": "2025-11-18T10:20:29.651804Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.staging/alpic-poc-frontend-9eb5bfc8",
+      "description": "Description of my MCP server",
+      "title": "New version",
+      "version": "0.0.6",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://alpic-poc-frontend-9eb5bfc8.staging.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-18T10:20:39.570978Z",
+        "updatedAt": "2025-11-18T10:20:39.570978Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.staging/alpic-poc-frontend-9eb5bfc8",
+      "description": "Description of my MCP server",
+      "title": "To test publishing",
+      "version": "0.0.7",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://alpic-poc-frontend-9eb5bfc8.staging.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-18T10:20:50.58621Z",
+        "updatedAt": "2025-11-18T10:20:50.58621Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.staging/alpic-poc-frontend-9eb5bfc8",
+      "description": "Description of my MCP server",
+      "title": "To test publish",
+      "version": "0.0.8",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://alpic-poc-frontend-9eb5bfc8.staging.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-18T10:22:21.254863Z",
+        "updatedAt": "2025-11-18T10:22:21.254863Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.staging/alpic-poc-frontend-9eb5bfc8",
+      "description": "Description of my MCP server",
+      "title": "To test the registry",
+      "version": "0.0.9",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://alpic-poc-frontend-9eb5bfc8.staging.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-18T10:24:56.483092Z",
+        "updatedAt": "2025-11-18T10:24:56.483092Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.staging/alpic-poc-frontend-9eb5bfc8",
+      "description": "Description of my MCP server",
+      "title": "To test the MCP registry",
+      "version": "0.0.10",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://alpic-poc-frontend-9eb5bfc8.staging.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-18T10:25:15.443794Z",
+        "updatedAt": "2025-11-18T10:25:15.443794Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.staging/alpic-poc-frontend-9eb5bfc8",
+      "description": "Description of my MCP server",
+      "title": "To test the MCP registr",
+      "version": "0.0.11",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://alpic-poc-frontend-9eb5bfc8.staging.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-18T10:25:37.749094Z",
+        "updatedAt": "2025-11-18T10:25:37.749094Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.staging/alpic-poc-frontend-9eb5bfc8",
+      "description": "Description of my MCP server",
+      "title": "To test the MCP registry",
+      "version": "0.0.12",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://alpic-poc-frontend-9eb5bfc8.staging.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-18T10:27:44.962495Z",
+        "updatedAt": "2025-11-18T10:27:44.962495Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.cryptorefills/mcp-server",
+      "description": "Buy gift cards and top-ups from the industry leader. 6000+ brands, 195 countries. 4.7★, 98% CSAT",
+      "repository": {},
+      "version": "1.1",
+      "remotes": [
+        {
+          "type": "sse",
+          "url": "https://api.cryptorefills.com/mcp/sse"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-18T10:59:09.004988Z",
+        "updatedAt": "2025-11-18T10:59:09.004988Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.luongnv89/mitre-mcp",
+      "description": "MCP server exposing the MITRE ATT&CK framework via the official MCP Python SDK.",
+      "title": "MITRE ATT&CK",
+      "repository": {
+        "url": "https://github.com/Montimage/mitre-mcp",
+        "source": "github"
+      },
+      "version": "0.3.1",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "registryBaseUrl": "https://pypi.org",
+          "identifier": "mitre-mcp",
+          "version": "0.3.1",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-18T11:35:41.495133Z",
+        "updatedAt": "2025-11-18T11:35:41.495133Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "icu.steeped.registry/nodejsmcp",
+      "description": "A Forgejo MCP Server",
+      "version": "1.0.3",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "nodejsmcp",
+          "version": "1.0.3",
+          "transport": {
+            "type": "streamable-http",
+            "url": "http://localhost:3000/mcp"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-18T12:07:56.909433Z",
+        "updatedAt": "2025-11-18T12:07:56.909433Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.staging/alpic-poc-frontend-9eb5bfc8",
+      "description": "Description of my MCP",
+      "title": "To test the MCP registry",
+      "version": "0.0.13",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://alpic-poc-frontend-9eb5bfc8.staging.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-18T12:58:04.627534Z",
+        "updatedAt": "2025-11-18T12:58:04.627534Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.staging/alpic-poc-frontend-9eb5bfc8",
+      "description": "Description of MCP server",
+      "title": "To test the MCP registry",
+      "version": "0.0.14",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://alpic-poc-frontend-9eb5bfc8.staging.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-18T12:58:32.273436Z",
+        "updatedAt": "2025-11-18T12:58:32.273436Z",
         "isLatest": true
       }
     }
