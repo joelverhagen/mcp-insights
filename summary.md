@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2025-11-17T20:32:01.5436770+00:00
+Generated on: 2025-11-18T02:07:54.7757532+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 1847
-- Total unique server names: 846
-- Date range: 2025-09-08 to 2025-11-17
+- Total records processed: 1863
+- Total unique server names: 852
+- Date range: 2025-09-08 to 2025-11-18
 - Peak day: 2025-09-09 with 54 unique server names
-- Average unique server names per day: 18.42
+- Average unique server names per day: 18.28
 
 ## Top 5 busiest days
 - 2025-09-09: 54 unique servers
@@ -22,17 +22,17 @@ Generated on: 2025-11-17T20:32:01.5436770+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| remote | 383 | 45.27% |
-| npm | 222 | 26.24% |
-| pypi | 117 | 13.83% |
-| oci | 47 | 5.56% |
-| none | 30 | 3.55% |
-| mcpb | 14 | 1.65% |
-| oci+pypi | 11 | 1.3% |
-| nuget | 8 | 0.95% |
-| npm+oci | 6 | 0.71% |
+| remote | 384 | 45.07% |
+| npm | 225 | 26.41% |
+| pypi | 118 | 13.85% |
+| oci | 47 | 5.52% |
+| none | 31 | 3.64% |
+| mcpb | 14 | 1.64% |
+| oci+pypi | 11 | 1.29% |
+| nuget | 8 | 0.94% |
+| npm+oci | 6 | 0.7% |
 | mcpb+npm+oci | 4 | 0.47% |
-| mcpb+npm | 2 | 0.24% |
+| mcpb+npm | 2 | 0.23% |
 | npm+oci+pypi | 1 | 0.12% |
 | mcpb+pypi | 1 | 0.12% |
 
@@ -58,5 +58,5 @@ Generated on: 2025-11-17T20:32:01.5436770+00:00
 | noahgift.github.io | 3 | none |
 | neverinfamous.github.io | 3 | oci, oci+pypi |
 | n0zer0d4y.github.io | 3 | npm |
+| kekwanu.com | 3 | npm, pypi |
 | github30.github.io | 3 | none |
-| formulahendry.github.io | 3 | npm, npm+oci |
