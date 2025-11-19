@@ -80413,7 +80413,7 @@
         "status": "active",
         "publishedAt": "2025-11-14T10:41:33.340597Z",
         "updatedAt": "2025-11-14T10:41:33.340597Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -85823,6 +85823,202 @@
         "status": "active",
         "publishedAt": "2025-11-19T03:23:49.258113Z",
         "updatedAt": "2025-11-19T03:23:49.258113Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.googleapis/genai-toolbox",
+      "description": "MCP Toolbox for Databases enables your agent to connect to your database.",
+      "title": "MCP Toolbox",
+      "repository": {
+        "url": "https://github.com/googleapis/genai-toolbox",
+        "source": "github"
+      },
+      "version": "0.20.0",
+      "websiteUrl": "https://github.com/googleapis/genai-toolbox",
+      "icons": [
+        {
+          "src": "https://github.com/googleapis/genai-toolbox/blob/main/.hugo/assets/icons/logo.svg",
+          "mimeType": "image/svg+xml"
+        }
+      ],
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "us-central1-docker.pkg.dev/database-toolbox/toolbox-dev/toolbox:registry-updates",
+          "transport": {
+            "type": "streamable-http",
+            "url": "http://{host}:{port}/mcp"
+          },
+          "runtimeArguments": [
+            {
+              "description": "File path specifying the tool configuration.",
+              "default": "tools.yaml",
+              "type": "named",
+              "name": "--tools-file"
+            },
+            {
+              "description": "Address of the interface the server will listen on.",
+              "value": "{host}",
+              "variables": {
+                "host": {
+                  "description": "ip address",
+                  "isRequired": true,
+                  "default": "127.0.0.1"
+                }
+              },
+              "type": "named",
+              "name": "--address",
+              "valueHint": "host"
+            },
+            {
+              "description": "Port the server will listen on.",
+              "value": "{port}",
+              "variables": {
+                "port": {
+                  "description": "port",
+                  "isRequired": true,
+                  "default": "5000"
+                }
+              },
+              "type": "named",
+              "name": "--port",
+              "valueHint": "port"
+            },
+            {
+              "description": "Specify the minimum level logged.",
+              "default": "info",
+              "choices": [
+                "debug",
+                "info",
+                "warn",
+                "error"
+              ],
+              "type": "named",
+              "name": "--log-level"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-19T05:45:05.891977Z",
+        "updatedAt": "2025-11-19T05:45:05.891977Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.Intina47/context-sync",
+      "description": "Universal AI Memory - Sync context across Claude, VsCode, Cursor, Continue, Windsurf, Zed & more",
+      "repository": {
+        "url": "https://github.com/Intina47/context-sync",
+        "source": "github"
+      },
+      "version": "1.0.1",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@context-sync/server",
+          "version": "1.0.1",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-19T05:49:44.845811Z",
+        "updatedAt": "2025-11-19T05:49:44.845811Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.pbonneville/neemee-mcp",
+      "description": "MCP client library and bridge for Neemee personal knowledge management system",
+      "repository": {
+        "url": "https://github.com/Paul-Bonneville-Labs/neemee-mcp",
+        "source": "github"
+      },
+      "version": "3.0.2",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "neemee-mcp",
+          "version": "3.0.2",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "API key for authenticating with Neemee API (required)",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "NEEMEE_API_KEY"
+            },
+            {
+              "description": "Base URL for Neemee MCP server (optional, defaults to https://neemee.app/mcp)",
+              "format": "string",
+              "name": "NEEMEE_API_BASE_URL"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-19T07:08:00.012762Z",
+        "updatedAt": "2025-11-19T07:08:00.012762Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.mobile-next/mobile-mcp",
+      "description": "MCP server for iOS and Android Mobile Development, Automation and Testing",
+      "repository": {
+        "url": "https://github.com/mobile-next/mobile-mcp",
+        "source": "github"
+      },
+      "version": "0.0.36",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@mobilenext/mobile-mcp",
+          "version": "0.0.36",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "name": ""
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-19T08:08:48.054521Z",
+        "updatedAt": "2025-11-19T08:08:48.054521Z",
         "isLatest": true
       }
     }
