@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2025-11-19T02:07:20.1833347+00:00
+Generated on: 2025-11-19T04:34:37.8746147+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 1911
-- Total unique server names: 861
+- Total records processed: 1915
+- Total unique server names: 863
 - Date range: 2025-09-08 to 2025-11-19
 - Peak day: 2025-09-09 with 54 unique server names
-- Average unique server names per day: 18.27
+- Average unique server names per day: 18.32
 
 ## Top 5 busiest days
 - 2025-09-09: 54 unique servers
@@ -22,13 +22,13 @@ Generated on: 2025-11-19T02:07:20.1833347+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| remote | 386 | 44.83% |
-| npm | 229 | 26.6% |
-| pypi | 120 | 13.94% |
-| oci | 48 | 5.57% |
-| none | 31 | 3.6% |
-| mcpb | 14 | 1.63% |
-| oci+pypi | 11 | 1.28% |
+| remote | 386 | 44.73% |
+| npm | 231 | 26.77% |
+| pypi | 120 | 13.9% |
+| oci | 48 | 5.56% |
+| none | 31 | 3.59% |
+| mcpb | 14 | 1.62% |
+| oci+pypi | 11 | 1.27% |
 | nuget | 8 | 0.93% |
 | npm+oci | 6 | 0.7% |
 | mcpb+npm+oci | 4 | 0.46% |
@@ -50,6 +50,7 @@ Generated on: 2025-11-19T02:07:20.1833347+00:00
 | mintmcp.com | 4 | remote |
 | jkawamoto.github.io | 4 | mcpb |
 | bytedance.github.io | 4 | npm |
+| wolfe-jam.github.io | 3 | npm |
 | victoriametrics-community.github.io | 3 | oci |
 | therealtimex.github.io | 3 | npm, pypi |
 | spences10.github.io | 3 | npm |
@@ -59,4 +60,3 @@ Generated on: 2025-11-19T02:07:20.1833347+00:00
 | neverinfamous.github.io | 3 | oci, oci+pypi |
 | n0zer0d4y.github.io | 3 | npm |
 | kekwanu.com | 3 | npm, pypi |
-| github30.github.io | 3 | none |
