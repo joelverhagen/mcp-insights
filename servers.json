@@ -61100,7 +61100,7 @@
         "status": "active",
         "publishedAt": "2025-10-28T12:17:03.803095Z",
         "updatedAt": "2025-10-28T12:17:03.803095Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -82094,7 +82094,7 @@
         "status": "active",
         "publishedAt": "2025-11-17T07:50:38.72583Z",
         "updatedAt": "2025-11-17T07:50:38.72583Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -82378,7 +82378,7 @@
         "status": "active",
         "publishedAt": "2025-11-17T12:05:50.210325Z",
         "updatedAt": "2025-11-17T12:05:50.210325Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -83376,7 +83376,7 @@
         "status": "active",
         "publishedAt": "2025-11-17T19:54:12.478023Z",
         "updatedAt": "2025-11-17T19:54:12.478023Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -86190,6 +86190,214 @@
         "status": "active",
         "publishedAt": "2025-11-19T12:49:26.412731Z",
         "updatedAt": "2025-11-19T12:49:26.412731Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.civic/nexus",
+      "description": "Zero-setup MCP gateway securely connecting AI to your tools with authentication and workflows",
+      "repository": {
+        "url": "https://github.com/civicteam/civic-mcp",
+        "source": "github",
+        "subfolder": "apps/hub"
+      },
+      "version": "0.1.41",
+      "websiteUrl": "https://nexus.civic.com",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://nexus.civic.com/hub/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-19T13:06:06.26316Z",
+        "updatedAt": "2025-11-19T13:06:06.26316Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.umbraco/Umbraco-CMS-MCP-Dev",
+      "description": "A developer focused model context protocol (MCP) server for Umbraco CMS",
+      "repository": {
+        "url": "https://github.com/umbraco/Umbraco-CMS-MCP-Dev",
+        "source": "github"
+      },
+      "version": "16.0.1",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@umbraco-cms/mcp-dev",
+          "version": "16.0.1",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Umbraco API user client ID",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "UMBRACO_CLIENT_ID"
+            },
+            {
+              "description": "Umbraco API user client secret",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "UMBRACO_CLIENT_SECRET"
+            },
+            {
+              "description": "Base URL of your Umbraco instance",
+              "isRequired": true,
+              "format": "string",
+              "name": "UMBRACO_BASE_URL"
+            },
+            {
+              "description": "Comma-separated list of tool collections to include (e.g., document,media,document-type)",
+              "format": "string",
+              "name": "UMBRACO_INCLUDE_TOOL_COLLECTIONS"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-19T13:35:53.660217Z",
+        "updatedAt": "2025-11-19T13:35:53.660217Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "biz.icecat/mcp",
+      "description": "Retrieve product specifications, descriptions, and technical details from Icecat's database",
+      "repository": {},
+      "version": "1.0.2",
+      "remotes": [
+        {
+          "type": "sse",
+          "url": "https://mcp.icecat.biz"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-19T13:47:13.73878Z",
+        "updatedAt": "2025-11-19T13:47:13.73878Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.propstreet/agenthub",
+      "description": "Enables coding agents to coordinate edits, reviews, and escalations without file locking conflicts",
+      "title": "AgentHub - Lean MCP Orchestrator",
+      "version": "1.1.1",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@propstreet/agenthub",
+          "version": "1.1.1",
+          "transport": {
+            "type": "streamable-http",
+            "url": "http://localhost:3333/mcp"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-19T13:54:34.658994Z",
+        "updatedAt": "2025-11-19T13:54:34.658994Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.neo4j-contrib/mcp-neo4j-data-modeling",
+      "description": "A simple Neo4j MCP server for creating graph data models.",
+      "repository": {
+        "url": "https://github.com/neo4j-contrib/mcp-neo4j",
+        "source": "github",
+        "subfolder": "servers/mcp-neo4j-data-modeling"
+      },
+      "version": "0.7.0",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "mcp-neo4j-data-modeling",
+          "version": "0.7.0",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "The namespace to use for the MCP server tool names.",
+              "format": "string",
+              "name": "NEO4J_NAMESPACE"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-19T14:20:21.233385Z",
+        "updatedAt": "2025-11-19T14:20:21.233385Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "dev.storage/mcp",
+      "description": "Tigris MCP Server seamlessly connects AI agents to Tigris bucket and object management.",
+      "title": "Tigris MCP Server",
+      "repository": {
+        "url": "https://github.com/tigrisdata/mcp",
+        "source": "github"
+      },
+      "version": "1.6.3",
+      "websiteUrl": "https://mcp.storage.dev",
+      "icons": [
+        {
+          "src": "https://mcp.storage.dev/favicon.jpg",
+          "mimeType": "image/jpg"
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.storage.dev/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-19T16:14:20.026114Z",
+        "updatedAt": "2025-11-19T16:14:20.026114Z",
         "isLatest": true
       }
     }
