@@ -86218,7 +86218,7 @@
         "status": "active",
         "publishedAt": "2025-11-19T13:06:06.26316Z",
         "updatedAt": "2025-11-19T13:06:06.26316Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -87018,7 +87018,7 @@
         "status": "active",
         "publishedAt": "2025-11-20T03:43:32.824141Z",
         "updatedAt": "2025-11-20T03:43:32.824141Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -87071,6 +87071,172 @@
         "status": "active",
         "publishedAt": "2025-11-20T04:52:16.375435Z",
         "updatedAt": "2025-11-20T04:52:16.375435Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.staging/alpic-poc-frontend-9eb5bfc8",
+      "description": "Description of my MCP server mega cool capabilities",
+      "title": "My MCP",
+      "version": "0.0.28",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://alpic-poc-frontend-9eb5bfc8.staging.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-20T10:07:06.774823Z",
+        "updatedAt": "2025-11-20T10:07:06.774823Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.staging/alpic-poc-frontend-9eb5bfc8",
+      "description": "Description of my MCP server mega cool capabilities",
+      "title": "My MCP server",
+      "version": "0.0.29",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://alpic-poc-frontend-9eb5bfc8.staging.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-20T10:07:24.482073Z",
+        "updatedAt": "2025-11-20T10:07:24.482073Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.staging/alpic-poc-frontend-9eb5bfc8",
+      "description": "Description of my MCP server mega cool capabilities",
+      "title": "My MCP serve",
+      "version": "0.0.30",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://alpic-poc-frontend-9eb5bfc8.staging.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-20T11:11:05.816526Z",
+        "updatedAt": "2025-11-20T11:11:05.816526Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.staging/mcp-server-template--43874b8f",
+      "description": "Description of my MCP server",
+      "title": "My MCP Serve",
+      "version": "0.0.1",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp-server-template--43874b8f.staging.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-20T11:14:02.371877Z",
+        "updatedAt": "2025-11-20T11:14:02.371877Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.staging/alpic-poc-frontend-9eb5bfc8",
+      "description": "Description of my MCP server mega cool capabilities",
+      "title": "My MCP server",
+      "version": "0.0.31",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://alpic-poc-frontend-9eb5bfc8.staging.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-20T11:15:44.774793Z",
+        "updatedAt": "2025-11-20T11:15:44.774793Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.staging/alpic-poc-frontend-9eb5bfc8",
+      "description": "Description of my MCP server mega cool capabilities",
+      "title": "My MCP serve",
+      "version": "0.0.32",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://alpic-poc-frontend-9eb5bfc8.staging.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-20T11:16:59.194269Z",
+        "updatedAt": "2025-11-20T11:16:59.194269Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.civic/nexus",
+      "description": "Zero-setup MCP gateway securely connecting AI to your tools with authentication and workflows",
+      "repository": {
+        "url": "https://github.com/civicteam/civic-mcp",
+        "source": "github",
+        "subfolder": "apps/hub"
+      },
+      "version": "0.1.42",
+      "websiteUrl": "https://nexus.civic.com",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://nexus.civic.com/hub/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-20T12:10:54.513432Z",
+        "updatedAt": "2025-11-20T12:10:54.513432Z",
         "isLatest": true
       }
     }
