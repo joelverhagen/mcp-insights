@@ -85623,7 +85623,7 @@
         "status": "active",
         "publishedAt": "2025-11-19T02:06:43.04932Z",
         "updatedAt": "2025-11-19T02:06:43.04932Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -85909,7 +85909,7 @@
         "status": "active",
         "publishedAt": "2025-11-19T05:45:05.891977Z",
         "updatedAt": "2025-11-19T05:45:05.891977Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -86516,6 +86516,301 @@
         "status": "active",
         "publishedAt": "2025-11-19T19:54:50.655856Z",
         "updatedAt": "2025-11-19T19:54:50.655856Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.gattjoe/ACMS",
+      "description": "Apple Container MCP Server (ACMS) provides access to Apple's container CLI tool on macOS",
+      "repository": {
+        "url": "https://github.com/gattjoe/ACMS",
+        "source": "github"
+      },
+      "version": "0.0.8",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "registryBaseUrl": "https://pypi.org",
+          "identifier": "ACMS",
+          "version": "0.0.8",
+          "transport": {
+            "type": "streamable-http",
+            "url": "http://localhost:8765/mcp"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-19T20:44:23.149363Z",
+        "updatedAt": "2025-11-19T20:44:23.149363Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.mohamedgb00714/autoplans-mcp",
+      "description": "AI-powered project planning tools for Autoplans.dev with 14+ MCP tools",
+      "repository": {
+        "url": "https://github.com/mohamedgb00714/autoplans-mcp",
+        "source": "github"
+      },
+      "version": "0.1.1",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "autoplans-mcp",
+          "version": "0.1.1",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "API key for Autoplans.dev service. Get yours at https://autoplans.dev",
+              "isRequired": true,
+              "name": "AUTOPLANS_API_KEY"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-19T21:22:11.043145Z",
+        "updatedAt": "2025-11-19T21:22:11.043145Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.mohamedgb00714/autoplans-mcp",
+      "description": "AI-powered project planning tools for Autoplans.dev with 14+ MCP tools",
+      "repository": {
+        "url": "https://github.com/mohamedgb00714/autoplans-mcp",
+        "source": "github"
+      },
+      "version": "0.1.2",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "autoplans-mcp",
+          "version": "0.1.2",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "API key for Autoplans.dev service. Get yours at https://autoplans.dev",
+              "isRequired": true,
+              "name": "AUTOPLANS_API_KEY"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-19T21:29:34.052615Z",
+        "updatedAt": "2025-11-19T21:29:34.052615Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.googleapis/genai-toolbox",
+      "description": "MCP Toolbox for Databases enables your agent to connect to your database.",
+      "title": "MCP Toolbox",
+      "repository": {
+        "url": "https://github.com/googleapis/genai-toolbox",
+        "source": "github"
+      },
+      "version": "0.21.0",
+      "websiteUrl": "https://github.com/googleapis/genai-toolbox",
+      "icons": [
+        {
+          "src": "https://github.com/googleapis/genai-toolbox/blob/main/.hugo/assets/icons/logo.svg",
+          "mimeType": "image/svg+xml"
+        }
+      ],
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "us-central1-docker.pkg.dev/database-toolbox/toolbox/toolbox:0.21.0",
+          "transport": {
+            "type": "streamable-http",
+            "url": "http://{host}:{port}/mcp"
+          },
+          "runtimeArguments": [
+            {
+              "description": "File path specifying the tool configuration.",
+              "default": "tools.yaml",
+              "type": "named",
+              "name": "--tools-file"
+            },
+            {
+              "description": "Address of the interface the server will listen on.",
+              "value": "{host}",
+              "variables": {
+                "host": {
+                  "description": "ip address",
+                  "isRequired": true,
+                  "default": "127.0.0.1"
+                }
+              },
+              "type": "named",
+              "name": "--address",
+              "valueHint": "host"
+            },
+            {
+              "description": "Port the server will listen on.",
+              "value": "{port}",
+              "variables": {
+                "port": {
+                  "description": "port",
+                  "isRequired": true,
+                  "default": "5000"
+                }
+              },
+              "type": "named",
+              "name": "--port",
+              "valueHint": "port"
+            },
+            {
+              "description": "Specify the minimum level logged.",
+              "default": "info",
+              "choices": [
+                "debug",
+                "info",
+                "warn",
+                "error"
+              ],
+              "type": "named",
+              "name": "--log-level"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-19T23:34:24.384102Z",
+        "updatedAt": "2025-11-19T23:34:24.384102Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.KSAklfszf921/riksdag-regering-mcp",
+      "description": "Svenska Riksdagens och Regeringskansliets öppna data - 27 verktyg för politik, dokument och analys",
+      "title": "Riksdag & Regering MCP",
+      "repository": {
+        "url": "https://github.com/KSAklfszf921/Riksdag-Regering-MCP",
+        "source": "github",
+        "id": "1087404908"
+      },
+      "version": "2.0.1",
+      "websiteUrl": "https://riksdag-regering-ai.onrender.com",
+      "icons": [
+        {
+          "src": "https://mb.cision.com/Public/20518/3733746/9c8944283144c24f_800x800ar.png",
+          "mimeType": "image/png",
+          "sizes": [
+            "800x800"
+          ]
+        },
+        {
+          "src": "https://searchvectorlogo.com/wp-content/uploads/2020/02/regeringskansliet-logo-vector.png",
+          "mimeType": "image/png"
+        }
+      ],
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "riksdag-regering-mcp",
+          "version": "2.0.1",
+          "runtimeHint": "npx",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Supabase project URL (optional - defaults to public instance)",
+              "placeholder": "https://your-project.supabase.co",
+              "name": "SUPABASE_URL"
+            },
+            {
+              "description": "Supabase anonymous key (optional - defaults to public instance)",
+              "isSecret": true,
+              "placeholder": "your-anon-key",
+              "name": "SUPABASE_ANON_KEY"
+            }
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://riksdag-regering-ai.onrender.com/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-19T23:39:28.034707Z",
+        "updatedAt": "2025-11-19T23:39:28.034707Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.mcpcentral-io/mcp-time",
+      "description": "Time MCP server via HTTP",
+      "repository": {
+        "url": "https://github.com/mcpcentral-io/mcp-time",
+        "source": "github"
+      },
+      "version": "0.0.3",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@mcpcentral/mcp-time",
+          "version": "0.0.3",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.time.mcpcentral.io"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-20T01:41:20.186202Z",
+        "updatedAt": "2025-11-20T01:41:20.186202Z",
         "isLatest": true
       }
     }
