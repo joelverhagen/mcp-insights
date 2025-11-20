@@ -73767,7 +73767,7 @@
         "status": "active",
         "publishedAt": "2025-11-07T01:00:19.262705Z",
         "updatedAt": "2025-11-07T01:00:19.262705Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -87583,6 +87583,32 @@
         "status": "active",
         "publishedAt": "2025-11-20T16:34:18.9573Z",
         "updatedAt": "2025-11-20T16:34:18.9573Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "ai.exa/exa",
+      "description": "Fast, intelligent web search and web crawling.\n\nNew mcp tool: Exa-code is a context tool for coding ",
+      "repository": {
+        "url": "https://github.com/exa-labs/exa-mcp-server",
+        "source": "github"
+      },
+      "version": "3.1.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.exa.ai/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-20T18:00:55.174988Z",
+        "updatedAt": "2025-11-20T18:00:55.174988Z",
         "isLatest": true
       }
     }
