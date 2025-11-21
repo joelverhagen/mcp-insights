@@ -80308,7 +80308,7 @@
         "status": "active",
         "publishedAt": "2025-11-14T09:55:13.161842Z",
         "updatedAt": "2025-11-14T09:55:13.161842Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -87237,7 +87237,7 @@
         "status": "active",
         "publishedAt": "2025-11-20T12:10:54.513432Z",
         "updatedAt": "2025-11-20T12:10:54.513432Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -88127,6 +88127,101 @@
         "status": "active",
         "publishedAt": "2025-11-21T07:32:22.900714Z",
         "updatedAt": "2025-11-21T07:32:22.900714Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.zhongweili/nanobanana-mcp-server",
+      "description": "AI image generation with Gemini 3 Pro (4K) and 2.5 Flash. Smart model selection.",
+      "repository": {
+        "url": "https://github.com/zhongweili/nanobanana-mcp-server",
+        "source": "github"
+      },
+      "version": "0.2.0",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "registryBaseUrl": "https://pypi.org",
+          "identifier": "nanobanana-mcp-server",
+          "version": "0.2.0",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-21T09:36:40.346367Z",
+        "updatedAt": "2025-11-21T09:36:40.346367Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.keboola/mcp",
+      "description": "Connect your AI assistants to Keboola and expose your data, transformations, SQL queries, ...",
+      "repository": {
+        "url": "https://github.com/keboola/mcp-server",
+        "source": "github"
+      },
+      "version": "1.32.4",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "keboola-mcp-server",
+          "version": "1.32.4",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.us-east4.gcp.keboola.com/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-21T11:10:27.619183Z",
+        "updatedAt": "2025-11-21T11:10:27.619183Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.civic/nexus",
+      "description": "Zero-setup MCP gateway securely connecting AI to your tools with authentication and workflows",
+      "repository": {
+        "url": "https://github.com/civicteam/civic-mcp",
+        "source": "github",
+        "subfolder": "apps/hub"
+      },
+      "version": "0.1.43",
+      "websiteUrl": "https://nexus.civic.com",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://nexus.civic.com/hub/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-21T11:38:55.095471Z",
+        "updatedAt": "2025-11-21T11:38:55.095471Z",
         "isLatest": true
       }
     }
