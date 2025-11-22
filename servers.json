@@ -56848,7 +56848,7 @@
         "status": "active",
         "publishedAt": "2025-10-24T05:01:45.035537Z",
         "updatedAt": "2025-10-24T05:01:45.035537Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -88774,6 +88774,197 @@
         "status": "active",
         "publishedAt": "2025-11-21T19:33:57.426674Z",
         "updatedAt": "2025-11-21T19:33:57.426674Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.fusionauth/mcp-api",
+      "description": "Preview release of FusionAuth API MCP server",
+      "repository": {
+        "url": "https://github.com/FusionAuth/fusionauth-mcp-api",
+        "source": "github"
+      },
+      "version": "0.1.14",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@fusionauth/mcp-api",
+          "version": "0.1.14",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your API key for FusionAuth instance",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "API_KEY_APIKEYAUTH"
+            },
+            {
+              "description": "The URL for your FusionAuth instance",
+              "isRequired": true,
+              "format": "string",
+              "placeholder": "http://localhost:9011",
+              "name": "API_BASE_URL"
+            },
+            {
+              "description": "Prefixes of APIs to create MCP tools for, if not set defaults to all available tools",
+              "format": "string",
+              "placeholder": "retrieve,search",
+              "name": "USE_TOOLS"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-21T21:06:11.121292Z",
+        "updatedAt": "2025-11-21T21:06:11.121292Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.hashicorp/terraform-mcp-server",
+      "description": "Generate more accurate Terraform and automate workflows for HCP Terraform and Terraform Enterprise",
+      "title": "Terraform",
+      "repository": {
+        "url": "https://github.com/hashicorp/terraform-mcp-server",
+        "source": "github"
+      },
+      "version": "0.3.3",
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "docker.io/hashicorp/terraform-mcp-server:0.3.3",
+          "runtimeHint": "docker",
+          "transport": {
+            "type": "stdio"
+          },
+          "runtimeArguments": [
+            {
+              "value": "run",
+              "type": "positional"
+            },
+            {
+              "type": "named",
+              "name": "--rm"
+            },
+            {
+              "type": "named",
+              "name": "-i"
+            },
+            {
+              "description": "Set an environment variable in the runtime",
+              "type": "named",
+              "name": "-e",
+              "isRepeated": true
+            },
+            {
+              "description": "Environment variable name",
+              "value": "TFE_ADDRESS",
+              "type": "positional",
+              "valueHint": "env_var_name"
+            },
+            {
+              "description": "Set an environment variable in the runtime",
+              "type": "named",
+              "name": "-e",
+              "isRepeated": true
+            },
+            {
+              "description": "Environment variable name",
+              "value": "TFE_TOKEN",
+              "type": "positional",
+              "valueHint": "env_var_name"
+            },
+            {
+              "description": "Set an environment variable in the runtime",
+              "type": "named",
+              "name": "-e",
+              "isRepeated": true
+            },
+            {
+              "description": "Environment variable name",
+              "value": "ENABLE_TF_OPERATIONS",
+              "type": "positional",
+              "valueHint": "env_var_name"
+            },
+            {
+              "description": "The container image to run",
+              "value": "hashicorp/terraform-mcp-server:0.3.3",
+              "type": "positional",
+              "valueHint": "image_name"
+            }
+          ],
+          "environmentVariables": [
+            {
+              "description": "HCP Terraform or Terraform Enterprise base URL.",
+              "default": "https://app.terraform.io",
+              "name": "TFE_ADDRESS"
+            },
+            {
+              "description": "HCP Terraform or Terraform Enterprise API token used to authenticate requests.",
+              "isSecret": true,
+              "name": "TFE_TOKEN"
+            },
+            {
+              "description": "Set to true to enable tools that execute Terraform operations requiring explicit approval.",
+              "format": "boolean",
+              "default": "false",
+              "choices": [
+                "true",
+                "false"
+              ],
+              "name": "ENABLE_TF_OPERATIONS"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-21T21:31:28.121089Z",
+        "updatedAt": "2025-11-21T21:31:28.121089Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.byrness/weather",
+      "description": "An MCP server for weather information.",
+      "repository": {
+        "url": "https://github.com/byrness/mcp-weather-server",
+        "source": "github"
+      },
+      "version": "1.0.1",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@byrness/mcp-weather-server",
+          "version": "1.0.1",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-22T01:32:53.772002Z",
+        "updatedAt": "2025-11-22T01:32:53.772002Z",
         "isLatest": true
       }
     }
