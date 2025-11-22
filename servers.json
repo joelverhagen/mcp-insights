@@ -52668,7 +52668,7 @@
         "status": "active",
         "publishedAt": "2025-10-17T18:06:34.430251Z",
         "updatedAt": "2025-10-17T18:06:34.430251Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -89344,6 +89344,32 @@
         "status": "active",
         "publishedAt": "2025-11-22T11:39:05.629441Z",
         "updatedAt": "2025-11-22T11:39:05.629441Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.sonatype/dependency-management-mcp-server",
+      "description": "Sonatype component intelligence: versions, security analysis, and Trust Score recommendations",
+      "repository": {
+        "url": "https://github.com/sonatype/dependency-management-mcp-server",
+        "source": "github"
+      },
+      "version": "1.0.2",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.guide.sonatype.com/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-22T14:00:38.645975Z",
+        "updatedAt": "2025-11-22T14:00:38.645975Z",
         "isLatest": true
       }
     }
