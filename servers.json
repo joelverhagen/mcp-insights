@@ -81772,7 +81772,7 @@
         "status": "active",
         "publishedAt": "2025-11-16T19:16:36.842287Z",
         "updatedAt": "2025-11-16T19:16:36.842287Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -90705,6 +90705,124 @@
         "status": "active",
         "publishedAt": "2025-11-24T11:55:10.821514Z",
         "updatedAt": "2025-11-24T11:55:10.821514Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "ai.packmind/mcp-server",
+      "description": "Packmind captures, scales, and enforces your organization's technical decisions.",
+      "repository": {
+        "url": "https://github.com/PackmindHub/packmind",
+        "source": "github",
+        "subfolder": "apps/mcp-server"
+      },
+      "version": "1.0.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://app.packmind.ai/mcp",
+          "headers": [
+            {
+              "description": "Bearer token for Packmind authentication",
+              "value": "Bearer {packmind_mcp_token}",
+              "name": "Authorization"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-24T15:23:52.365339Z",
+        "updatedAt": "2025-11-24T15:23:52.365339Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.microsoft/azure",
+      "description": "All Azure MCP tools to create a seamless connection between AI agents and Azure services.",
+      "title": "Azure MCP Server",
+      "repository": {
+        "url": "https://github.com/microsoft/mcp",
+        "source": "github",
+        "subfolder": "servers/Azure.Mcp.Server"
+      },
+      "version": "2.0.0-beta.6",
+      "websiteUrl": "https://azure.microsoft.com/",
+      "packages": [
+        {
+          "registryType": "nuget",
+          "identifier": "Azure.Mcp",
+          "version": "2.0.0-beta.6",
+          "transport": {
+            "type": "stdio"
+          },
+          "packageArguments": [
+            {
+              "value": "server",
+              "type": "positional"
+            },
+            {
+              "value": "start",
+              "type": "positional"
+            }
+          ]
+        },
+        {
+          "registryType": "npm",
+          "identifier": "@azure/mcp",
+          "version": "2.0.0-beta.6",
+          "transport": {
+            "type": "stdio"
+          },
+          "packageArguments": [
+            {
+              "value": "server",
+              "type": "positional"
+            },
+            {
+              "value": "start",
+              "type": "positional"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-24T16:17:02.938828Z",
+        "updatedAt": "2025-11-24T16:17:02.938828Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.fenetresurciel.verylongmcp/mcp-server-template-nodejs",
+      "description": "A non functional MCP server (yet)",
+      "title": "Second server",
+      "version": "0.0.1",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://verylongmcp.fenetresurciel.com"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-24T16:24:09.119042Z",
+        "updatedAt": "2025-11-24T16:24:09.119042Z",
         "isLatest": true
       }
     }
