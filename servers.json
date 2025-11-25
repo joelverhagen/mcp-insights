@@ -74484,7 +74484,7 @@
         "status": "active",
         "publishedAt": "2025-11-07T17:48:19.391721Z",
         "updatedAt": "2025-11-07T17:48:19.391721Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -88523,7 +88523,7 @@
         "status": "active",
         "publishedAt": "2025-11-21T14:40:21.032891Z",
         "updatedAt": "2025-11-21T14:40:21.032891Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -90705,7 +90705,7 @@
         "status": "active",
         "publishedAt": "2025-11-24T11:55:10.821514Z",
         "updatedAt": "2025-11-24T11:55:10.821514Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -91198,6 +91198,168 @@
         "status": "active",
         "publishedAt": "2025-11-25T08:00:23.377521Z",
         "updatedAt": "2025-11-25T08:00:23.377521Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.staging.property-search-mcp-ce598409/property-search-mcp",
+      "description": "Work in progress (for now)",
+      "title": "Melo property search MCP",
+      "version": "0.0.6",
+      "icons": [
+        {
+          "src": "https://avatars.githubusercontent.com/u/206831205?s=200&v=4",
+          "mimeType": "image/png",
+          "sizes": [
+            "200x200"
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://property-search-mcp-ce598409.staging.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-25T10:03:32.134332Z",
+        "updatedAt": "2025-11-25T10:03:32.134332Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.staging.property-search-mcp-ce598409/property-search-mcp",
+      "description": "Work in progress (for now)",
+      "title": "Melo property search MCP",
+      "version": "0.0.7",
+      "websiteUrl": "https://github.com",
+      "icons": [
+        {
+          "src": "https://avatars.githubusercontent.com/u/206831205?s=200&v=4",
+          "mimeType": "image/png",
+          "sizes": [
+            "200x200"
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://property-search-mcp-ce598409.staging.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-25T10:19:52.01703Z",
+        "updatedAt": "2025-11-25T10:19:52.01703Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.ggozad/haiku-rag",
+      "description": "Agentic Retrieval Augmented Generation (RAG) with LanceDB",
+      "repository": {
+        "url": "https://github.com/ggozad/haiku.rag",
+        "source": "github"
+      },
+      "version": "0.19.0",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "registryBaseUrl": "https://pypi.org",
+          "identifier": "haiku-rag",
+          "version": "0.19.0",
+          "runtimeHint": "uvx",
+          "transport": {
+            "type": "stdio"
+          },
+          "runtimeArguments": [
+            {
+              "value": "serve",
+              "type": "positional"
+            },
+            {
+              "type": "named",
+              "name": "--mcp"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-25T11:46:30.792332Z",
+        "updatedAt": "2025-11-25T11:46:30.792332Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.civic/nexus",
+      "description": "Zero-setup MCP gateway securely connecting AI to your tools with authentication and workflows",
+      "repository": {
+        "url": "https://github.com/civicteam/civic-mcp",
+        "source": "github",
+        "subfolder": "apps/hub"
+      },
+      "version": "0.1.45",
+      "websiteUrl": "https://nexus.civic.com",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://nexus.civic.com/hub/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-25T12:18:31.047465Z",
+        "updatedAt": "2025-11-25T12:18:31.047465Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.redis/mcp-redis",
+      "description": "Natural language interface designed for agentic applications to manage and search data in Redis.",
+      "title": "Redis MCP Server",
+      "version": "0.4.0",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "redis-mcp-server",
+          "version": "0.4.0",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-25T12:55:19.77085Z",
+        "updatedAt": "2025-11-25T12:55:19.77085Z",
         "isLatest": true
       }
     }
