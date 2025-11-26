@@ -84788,7 +84788,7 @@
         "status": "active",
         "publishedAt": "2025-11-18T09:21:17.794462Z",
         "updatedAt": "2025-11-18T09:21:17.794462Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -85517,7 +85517,7 @@
         "status": "active",
         "publishedAt": "2025-11-18T17:02:53.935469Z",
         "updatedAt": "2025-11-18T17:02:53.935469Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -90957,7 +90957,7 @@
         "status": "active",
         "publishedAt": "2025-11-24T18:16:52.95196Z",
         "updatedAt": "2025-11-24T18:16:52.95196Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -91333,7 +91333,7 @@
         "status": "active",
         "publishedAt": "2025-11-25T12:18:31.047465Z",
         "updatedAt": "2025-11-25T12:18:31.047465Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -92023,6 +92023,385 @@
         "status": "active",
         "publishedAt": "2025-11-26T08:35:16.316442Z",
         "updatedAt": "2025-11-26T08:35:16.316442Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.bitrix24/bitrix-mcp-rest",
+      "description": "MCP server that delivers up-to-date Bitrix24 REST API documentation.",
+      "title": "Bitrix MCP",
+      "version": "1.0.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp-dev.bitrix24.com/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-26T09:19:44.819819Z",
+        "updatedAt": "2025-11-26T09:19:44.819819Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.kontent-ai/mcp-server",
+      "description": "Connect to Kontent.ai to manage content, types, taxonomies, and workflows via natural language",
+      "repository": {
+        "url": "https://github.com/kontent-ai/mcp-server",
+        "source": "github"
+      },
+      "version": "0.21.11",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@kontent-ai/mcp-server",
+          "version": "0.21.11",
+          "transport": {
+            "type": "stdio"
+          },
+          "packageArguments": [
+            {
+              "value": "stdio",
+              "type": "positional"
+            }
+          ],
+          "environmentVariables": [
+            {
+              "description": "Kontent.ai Management API key",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "KONTENT_API_KEY"
+            },
+            {
+              "description": "Kontent.ai environment ID",
+              "isRequired": true,
+              "name": "KONTENT_ENVIRONMENT_ID"
+            }
+          ]
+        },
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@kontent-ai/mcp-server",
+          "version": "0.21.11",
+          "transport": {
+            "type": "streamable-http",
+            "url": "http://localhost:3001/mcp"
+          },
+          "packageArguments": [
+            {
+              "value": "shttp",
+              "type": "positional"
+            }
+          ],
+          "environmentVariables": [
+            {
+              "description": "Kontent.ai Management API key",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "KONTENT_API_KEY"
+            },
+            {
+              "description": "Kontent.ai environment ID",
+              "isRequired": true,
+              "name": "KONTENT_ENVIRONMENT_ID"
+            },
+            {
+              "description": "Server port for HTTP transport (shttp mode only)",
+              "name": "PORT"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-26T09:56:59.546524Z",
+        "updatedAt": "2025-11-26T09:56:59.546524Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.staging.send-email-mcp-04d3fdca/send-email-mcp",
+      "description": "Non functional server (yet)",
+      "title": "My MCP Serv",
+      "version": "0.0.1",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://send-email-mcp-04d3fdca.staging.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-26T10:28:02.132725Z",
+        "updatedAt": "2025-11-26T10:28:02.132725Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "casa.find-me.sub1/send-email-mcp",
+      "description": "Non functional server (yet)",
+      "title": "Cool property search server",
+      "version": "0.0.1",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://sub1.find-me.casa"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-26T10:28:28.126971Z",
+        "updatedAt": "2025-11-26T10:28:28.126971Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.UI5/mcp-server",
+      "description": "MCP server for UI5 application development",
+      "repository": {
+        "url": "https://github.com/UI5/mcp-server",
+        "source": "github"
+      },
+      "version": "0.1.5",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@ui5/mcp-server",
+          "version": "0.1.5",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "A comma-separated list of domains that are allowed to be used in the 'oDataV4Url' parameter of the 'create_ui5_app' tool, for example: 'localhost, example.com, sub.example.com'. Set to an empty string to allow any domains. For wildcard subdomains, prefix the domain with a dot: '.example.com'. This will match 'www.example.com' but not 'example.com'.",
+              "format": "string",
+              "default": "localhost, services.odata.org",
+              "name": "UI5_MCP_SERVER_ALLOWED_ODATA_DOMAINS"
+            },
+            {
+              "description": "Set to any value to disable structured content in the MCP server responses.",
+              "format": "boolean",
+              "default": "false",
+              "name": "UI5_MCP_SERVER_RESPONSE_NO_STRUCTURED_CONTENT"
+            },
+            {
+              "description": "Set to any value to disable resources in the MCP server responses, see https://modelcontextprotocol.io/specification/2025-06-18/server/resource. This is useful for clients that do not support resources, see https://modelcontextprotocol.io/clients, such as Cursor or the Gemini CLI.",
+              "format": "string",
+              "default": "false",
+              "name": "UI5_MCP_SERVER_RESPONSE_NO_RESOURCES"
+            },
+            {
+              "description": "Internal log level (https://ui5.github.io/cli/stable/pages/Troubleshooting/#changing-the-log-level): 'silent', 'error', 'warn', 'info', 'perf', 'verbose' or 'silly'",
+              "format": "string",
+              "default": "info",
+              "name": "UI5_LOG_LVL"
+            },
+            {
+              "description": "Directory where the MCP server stores its data, such as cached API references.",
+              "format": "string",
+              "default": "The '.ui5' directory in the user's home directory",
+              "name": "UI5_DATA_DIR"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-26T10:35:42.735379Z",
+        "updatedAt": "2025-11-26T10:35:42.735379Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.dinesh-nalla-se/chrome-devtools-mcp",
+      "description": "MCP server for Chrome DevTools",
+      "title": "Chrome DevTools MCP",
+      "repository": {
+        "url": "https://github.com/dinesh-nalla-se/chrome-devtools-mcp",
+        "source": "github"
+      },
+      "version": "0.10.2",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@dinesh-nalla-se/chrome-devtools-mcp",
+          "version": "0.10.2",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-26T11:25:39.186522Z",
+        "updatedAt": "2025-11-26T11:25:39.186522Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.fenetresurciel.verylongmcp/mcp-server-template-nodejs",
+      "description": "A non functional MCP server (yet)",
+      "title": "Second serv",
+      "version": "0.0.4",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://verylongmcp.fenetresurciel.com"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-26T11:36:20.224353Z",
+        "updatedAt": "2025-11-26T11:36:20.224353Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.civic/nexus",
+      "description": "Zero-setup MCP gateway securely connecting AI to your tools with authentication and workflows",
+      "repository": {
+        "url": "https://github.com/civicteam/civic-mcp",
+        "source": "github",
+        "subfolder": "apps/hub"
+      },
+      "version": "0.1.46",
+      "websiteUrl": "https://nexus.civic.com",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://nexus.civic.com/hub/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-26T11:56:45.360615Z",
+        "updatedAt": "2025-11-26T11:56:45.360615Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.safedep/vet-mcp",
+      "description": "Protect your AI agents and IDEs from malicious open-source packages.",
+      "title": "SafeDep Vet MCP",
+      "repository": {
+        "url": "https://github.com/safedep/vet",
+        "source": "github"
+      },
+      "version": "v1.12.13",
+      "websiteUrl": "https://safedep.io",
+      "icons": [
+        {
+          "src": "https://raw.githubusercontent.com/safedep/.github/9275c7d1b59f718d73e47cecd93df92e7bfbea25/assets/logo/safedep-logo-darkshade.svg",
+          "mimeType": "image/svg+xml",
+          "sizes": [
+            "48x48",
+            "96x96"
+          ],
+          "theme": "light"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/safedep/.github/9275c7d1b59f718d73e47cecd93df92e7bfbea25/assets/logo/safedep-logo.svg",
+          "mimeType": "image/svg+xml",
+          "sizes": [
+            "48x48",
+            "96x96"
+          ],
+          "theme": "dark"
+        }
+      ],
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/safedep/vet:v1.12.13",
+          "runtimeHint": "docker",
+          "transport": {
+            "type": "stdio"
+          },
+          "runtimeArguments": [
+            {
+              "type": "named",
+              "name": "--rm"
+            },
+            {
+              "type": "named",
+              "name": "-i"
+            }
+          ],
+          "packageArguments": [
+            {
+              "value": "-s",
+              "type": "positional"
+            },
+            {
+              "value": "/tmp/vet-mcp.log",
+              "type": "named",
+              "name": "-l"
+            },
+            {
+              "value": "server",
+              "type": "positional"
+            },
+            {
+              "value": "mcp",
+              "type": "positional"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-26T12:10:19.022113Z",
+        "updatedAt": "2025-11-26T12:10:19.022113Z",
         "isLatest": true
       }
     }
