@@ -16106,7 +16106,7 @@
         "status": "active",
         "publishedAt": "2025-09-17T23:25:24.290746Z",
         "updatedAt": "2025-09-17T23:25:24.290746Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -77436,7 +77436,7 @@
         "status": "active",
         "publishedAt": "2025-11-11T17:42:09.501595Z",
         "updatedAt": "2025-11-11T17:42:09.501595Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -88049,7 +88049,7 @@
         "status": "active",
         "publishedAt": "2025-11-21T05:46:51.837572Z",
         "updatedAt": "2025-11-21T05:46:51.837572Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -88774,7 +88774,7 @@
         "status": "active",
         "publishedAt": "2025-11-21T19:33:57.426674Z",
         "updatedAt": "2025-11-21T19:33:57.426674Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -90858,7 +90858,7 @@
         "status": "active",
         "publishedAt": "2025-11-24T17:10:11.555729Z",
         "updatedAt": "2025-11-24T17:10:11.555729Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -91360,7 +91360,7 @@
         "status": "active",
         "publishedAt": "2025-11-25T12:55:19.77085Z",
         "updatedAt": "2025-11-25T12:55:19.77085Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -92293,7 +92293,7 @@
         "status": "active",
         "publishedAt": "2025-11-26T11:36:20.224353Z",
         "updatedAt": "2025-11-26T11:36:20.224353Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -92402,6 +92402,485 @@
         "status": "active",
         "publishedAt": "2025-11-26T12:10:19.022113Z",
         "updatedAt": "2025-11-26T12:10:19.022113Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.fenetresurciel.verylongmcp/mcp-server-template-nodejs",
+      "description": "A non functional MCP server (yet)",
+      "title": "Second server",
+      "version": "0.0.5",
+      "icons": [
+        {
+          "src": "https://alpic.ai/logo.png",
+          "mimeType": "image/png"
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://verylongmcp.fenetresurciel.com"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-26T14:31:42.761567Z",
+        "updatedAt": "2025-11-26T14:31:42.761567Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "dev.storage/mcp",
+      "description": "Tigris MCP Server seamlessly connects AI agents to Tigris bucket and object management.",
+      "title": "Tigris MCP Server",
+      "repository": {
+        "url": "https://github.com/tigrisdata/mcp",
+        "source": "github"
+      },
+      "version": "1.7.2",
+      "websiteUrl": "https://mcp.storage.dev",
+      "icons": [
+        {
+          "src": "https://mcp.storage.dev/favicon.jpg",
+          "mimeType": "image/jpg"
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.storage.dev/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-26T14:35:02.178416Z",
+        "updatedAt": "2025-11-26T14:35:02.178416Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.fenetresurciel.verylongmcp/mcp-server-template-nodejs",
+      "description": "A non functional MCP server (yet)",
+      "title": "Second serve",
+      "version": "0.0.6",
+      "icons": [
+        {
+          "src": "https://alpic.ai/logo.png",
+          "mimeType": "image/png"
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://verylongmcp.fenetresurciel.com"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-26T14:45:56.632666Z",
+        "updatedAt": "2025-11-26T14:45:56.632666Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.8beeeaaat/touchdesigner-mcp-server",
+      "description": "MCP server for TouchDesigner - Control and operate TouchDesigner projects through AI agents",
+      "repository": {
+        "url": "https://github.com/8beeeaaat/touchdesigner-mcp.git",
+        "source": "github"
+      },
+      "version": "1.1.2",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "touchdesigner-mcp-server",
+          "version": "1.1.2",
+          "runtimeHint": "npx",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-26T15:01:11.49397Z",
+        "updatedAt": "2025-11-26T15:01:11.49397Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.8beeeaaat/touchdesigner-mcp-server",
+      "description": "MCP server for TouchDesigner - Control and operate TouchDesigner projects through AI agents",
+      "repository": {
+        "url": "https://github.com/8beeeaaat/touchdesigner-mcp.git",
+        "source": "github"
+      },
+      "version": "1.2.0",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "touchdesigner-mcp-server",
+          "version": "1.2.0",
+          "runtimeHint": "npx",
+          "transport": {
+            "type": "stdio"
+          }
+        },
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/8beeeaaat/touchdesigner-mcp/releases/download/v1.2.0/touchdesigner-mcp.mcpb",
+          "version": "1.2.0",
+          "fileSha256": "7a11f1b03ef1e009e018a9ccb0ec7e6c6c2db065a952822a7987063b1fa235b7",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-26T15:06:44.60321Z",
+        "updatedAt": "2025-11-26T15:06:44.60321Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.postman/postman-mcp-server",
+      "description": "A basic MCP server to operate on the Postman API.",
+      "repository": {
+        "url": "https://github.com/postmanlabs/postman-mcp-server",
+        "source": "github"
+      },
+      "version": "2.5.1",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@postman/postman-mcp-server",
+          "version": "2.5.1",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "A valid Postman API key.",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "POSTMAN_API_KEY"
+            }
+          ]
+        },
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/postmanlabs/postman-mcp-server/releases/download/v2.5.1/postman-mcp-server-minimal.mcpb",
+          "fileSha256": "7c05c5a5e79bc51362ebd70e3436be8893f127bb311c07269feafc27edd53ab8",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "A valid Postman API key.",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "POSTMAN_API_KEY"
+            }
+          ]
+        },
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/postmanlabs/postman-mcp-server/releases/download/v2.5.1/postman-mcp-server-full.mcpb",
+          "fileSha256": "64cabc3be905e9a697f5f95fe13493d61b5c59d992b0f86ad941687c34e3a403",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "A valid Postman API key.",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "POSTMAN_API_KEY"
+            }
+          ]
+        },
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/postmanlabs/postman-mcp-server/releases/download/v2.5.1/postman-mcp-server-code.mcpb",
+          "fileSha256": "0a9799e9af76a574cdd811dc17bf0d3ba0c3af9af38749ca1e08ddedcf1e5aa7",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "A valid Postman API key.",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "POSTMAN_API_KEY"
+            }
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.postman.com/mcp",
+          "headers": [
+            {
+              "description": "A Bearer token and a valid Postman API key for authentication.",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "Authorization"
+            }
+          ]
+        },
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.postman.com/minimal",
+          "headers": [
+            {
+              "description": "A Bearer token and a valid Postman API key for authentication.",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "Authorization"
+            }
+          ]
+        },
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.eu.postman.com/mcp",
+          "headers": [
+            {
+              "description": "A Bearer token and a valid Postman API key for authentication.",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "Authorization"
+            }
+          ]
+        },
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.eu.postman.com/minimal",
+          "headers": [
+            {
+              "description": "A Bearer token and a valid Postman API key for authentication.",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "Authorization"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-26T15:33:56.215423Z",
+        "updatedAt": "2025-11-26T15:33:56.215423Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.tjhop/prometheus-mcp-server",
+      "description": "An API-complete MCP server to manage Prometheus-compatible backends via comprehensive tools.",
+      "repository": {
+        "url": "https://github.com/tjhop/prometheus-mcp-server",
+        "source": "github"
+      },
+      "version": "0.12.0",
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/tjhop/prometheus-mcp-server:0.12.0",
+          "transport": {
+            "type": "stdio"
+          },
+          "runtimeArguments": [
+            {
+              "description": "The runtime command to execute",
+              "value": "run",
+              "type": "positional"
+            },
+            {
+              "description": "Run container in interactive mode",
+              "type": "named",
+              "name": "-i"
+            },
+            {
+              "description": "Automatically remove the container when it exits",
+              "type": "named",
+              "name": "--rm"
+            },
+            {
+              "description": "Set an environment variable in the runtime",
+              "type": "named",
+              "name": "-e"
+            },
+            {
+              "description": "Environment variable name",
+              "value": "PROMETHEUS_MCP_SERVER_PROMETHEUS_URL",
+              "type": "positional",
+              "valueHint": "env_var_name"
+            },
+            {
+              "description": "The container image to run",
+              "value": "ghcr.io/tjhop/prometheus-mcp-server",
+              "type": "positional",
+              "valueHint": "image_name"
+            }
+          ],
+          "environmentVariables": [
+            {
+              "description": "URL of the Prometheus instance to connect to (default: \"http://127.0.0.1:9090\")",
+              "isRequired": true,
+              "format": "string",
+              "name": "PROMETHEUS_MCP_SERVER_PROMETHEUS_URL"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-26T15:53:38.376139Z",
+        "updatedAt": "2025-11-26T15:53:38.376139Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.redis/mcp-redis",
+      "description": "Natural language interface designed for agentic applications to manage and search data in Redis.",
+      "title": "Redis MCP Server",
+      "version": "0.4.1",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "redis-mcp-server",
+          "version": "0.4.1",
+          "transport": {
+            "type": "stdio"
+          }
+        },
+        {
+          "registryType": "oci",
+          "identifier": "docker.io/mcp/redis:latest",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-26T15:54:29.65331Z",
+        "updatedAt": "2025-11-26T15:54:29.65331Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.fenetresurciel.verylongmcp/mcp-server-template-nodejs",
+      "description": "A non functional MCP server (yet)",
+      "title": "Second serve",
+      "version": "0.0.7",
+      "icons": [
+        {
+          "src": "https://alpic.ai/logo.png",
+          "mimeType": "image/png",
+          "sizes": [
+            "200x200"
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://verylongmcp.fenetresurciel.com",
+          "headers": [
+            {
+              "description": "basic api key",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "x-api-key"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-26T16:01:14.242266Z",
+        "updatedAt": "2025-11-26T16:01:14.242266Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.github/github-mcp-server",
+      "description": "Connect AI assistants to GitHub - manage repos, issues, PRs, and workflows through natural language.",
+      "title": "GitHub",
+      "repository": {
+        "url": "https://github.com/github/github-mcp-server",
+        "source": "github"
+      },
+      "version": "0.23.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://api.githubcopilot.com/mcp/",
+          "headers": [
+            {
+              "description": "Authentication token (PAT or App token)",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "Authorization"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-26T16:08:03.251271Z",
+        "updatedAt": "2025-11-26T16:08:03.251271Z",
         "isLatest": true
       }
     }
