@@ -92402,7 +92402,7 @@
         "status": "active",
         "publishedAt": "2025-11-26T12:10:19.022113Z",
         "updatedAt": "2025-11-26T12:10:19.022113Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -93739,7 +93739,7 @@
         "status": "active",
         "publishedAt": "2025-11-27T10:41:06.405378Z",
         "updatedAt": "2025-11-27T10:41:06.405378Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -93959,6 +93959,693 @@
         "status": "active",
         "publishedAt": "2025-11-27T12:01:18.604584Z",
         "updatedAt": "2025-11-27T12:01:18.604584Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.marcelo-ochoa/oracle",
+      "description": "MCP server for interacting with Oracle databases",
+      "repository": {
+        "url": "https://github.com/marcelo-ochoa/servers",
+        "source": "github",
+        "subfolder": "src/oracle"
+      },
+      "version": "0.7.5",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@marcelo-ochoa/server-oracle",
+          "version": "0.7.5",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Oracle user name",
+              "isRequired": true,
+              "format": "string",
+              "name": "ORACLE_USER"
+            },
+            {
+              "description": "Oracle password",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "ORACLE_PASSWORD"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-27T13:23:05.387115Z",
+        "updatedAt": "2025-11-27T13:23:05.387115Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.marcelo-ochoa/postgres",
+      "description": "MCP server for interacting with PostgreSQL databases",
+      "repository": {
+        "url": "https://github.com/marcelo-ochoa/servers",
+        "source": "github",
+        "subfolder": "src/postgres"
+      },
+      "version": "0.6.5",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@marcelo-ochoa/server-postgres",
+          "version": "0.6.5",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "PostgreSQL user",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "POSTGRES_USER"
+            },
+            {
+              "description": "PostgreSQL password",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "POSTGRES_PASSWORD"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-27T13:40:11.168894Z",
+        "updatedAt": "2025-11-27T13:40:11.168894Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.marcelo-ochoa/mysql",
+      "description": "MCP server for interacting with MySQL databases",
+      "repository": {
+        "url": "https://github.com/marcelo-ochoa/servers",
+        "source": "github",
+        "subfolder": "src/mysql"
+      },
+      "version": "0.1.2",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@marcelo-ochoa/server-mysql",
+          "version": "0.1.2",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "MySQL user",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "MYSQL_USER"
+            },
+            {
+              "description": "MySQL password",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "MYSQL_PASSWORD"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-27T13:40:42.568984Z",
+        "updatedAt": "2025-11-27T13:40:42.568984Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.fenetresurciel.verylongmcp/mcp-server-template-nodejs",
+      "description": "A non functional MCP server (yet)",
+      "title": "Second servee",
+      "version": "0.0.23",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://verylongmcp.fenetresurciel.com",
+          "headers": [
+            {
+              "description": "Just put your api key",
+              "isRequired": true,
+              "name": "x-api-key"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-27T13:57:29.485284Z",
+        "updatedAt": "2025-11-27T13:57:29.485284Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.fenetresurciel.verylongmcp/mcp-server-template-nodejs",
+      "description": "A non functional MCP server (yet)",
+      "title": "Second server",
+      "version": "0.0.24",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://verylongmcp.fenetresurciel.com",
+          "headers": [
+            {
+              "description": "Just put your api key",
+              "isRequired": true,
+              "name": "x-api-key"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-27T13:58:06.823092Z",
+        "updatedAt": "2025-11-27T13:58:06.823092Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.fenetresurciel.verylongmcp/mcp-server-template-nodejs",
+      "description": "A non functional MCP server (yet)",
+      "title": "Second server",
+      "version": "0.0.25",
+      "websiteUrl": "https://github.com",
+      "icons": [
+        {
+          "src": "https://alpic.ai/logo.png",
+          "mimeType": "image/png",
+          "sizes": [
+            "200x200"
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://verylongmcp.fenetresurciel.com",
+          "headers": [
+            {
+              "description": "Just put your api key",
+              "isRequired": true,
+              "name": "x-api-key"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-27T13:58:50.722523Z",
+        "updatedAt": "2025-11-27T13:58:50.722523Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.safedep/vet-mcp",
+      "description": "Protect your AI agents and IDEs from malicious open-source packages.",
+      "title": "SafeDep Vet MCP",
+      "repository": {
+        "url": "https://github.com/safedep/vet",
+        "source": "github"
+      },
+      "version": "1.12.14",
+      "websiteUrl": "https://safedep.io",
+      "icons": [
+        {
+          "src": "https://raw.githubusercontent.com/safedep/.github/9275c7d1b59f718d73e47cecd93df92e7bfbea25/assets/logo/safedep-logo-darkshade.svg",
+          "mimeType": "image/svg+xml",
+          "sizes": [
+            "48x48",
+            "96x96"
+          ],
+          "theme": "light"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/safedep/.github/9275c7d1b59f718d73e47cecd93df92e7bfbea25/assets/logo/safedep-logo.svg",
+          "mimeType": "image/svg+xml",
+          "sizes": [
+            "48x48",
+            "96x96"
+          ],
+          "theme": "dark"
+        }
+      ],
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/safedep/vet:v1.12.14",
+          "runtimeHint": "docker",
+          "transport": {
+            "type": "stdio"
+          },
+          "runtimeArguments": [
+            {
+              "type": "named",
+              "name": "--rm"
+            },
+            {
+              "type": "named",
+              "name": "-i"
+            }
+          ],
+          "packageArguments": [
+            {
+              "value": "-s",
+              "type": "positional"
+            },
+            {
+              "value": "/tmp/vet-mcp.log",
+              "type": "named",
+              "name": "-l"
+            },
+            {
+              "value": "server",
+              "type": "positional"
+            },
+            {
+              "value": "mcp",
+              "type": "positional"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-27T14:04:20.878491Z",
+        "updatedAt": "2025-11-27T14:04:20.878491Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.fenetresurciel.verylongmcp/mcp-server-template-nodejs",
+      "description": "A non functional MCP server (yet)",
+      "title": "Second serv",
+      "version": "0.0.26",
+      "websiteUrl": "https://github.com",
+      "icons": [
+        {
+          "src": "https://alpic.ai/logo.png",
+          "mimeType": "image/png",
+          "sizes": [
+            "200x200"
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://verylongmcp.fenetresurciel.com",
+          "headers": [
+            {
+              "description": "Just put your api key",
+              "isRequired": true,
+              "name": "x-api-key"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-27T14:14:16.924802Z",
+        "updatedAt": "2025-11-27T14:14:16.924802Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.SamMorrowDrums/remarkable",
+      "description": "Access your reMarkable tablet - read documents, browse files, extract text and OCR",
+      "title": "reMarkable MCP Server",
+      "repository": {
+        "url": "https://github.com/SamMorrowDrums/remarkable-mcp",
+        "source": "github"
+      },
+      "version": "0.1.4",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "remarkable-mcp",
+          "version": "0.1.4",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Authentication token for reMarkable Cloud API. Get one by registering at https://my.remarkable.com/device/browser/connect",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "REMARKABLE_TOKEN"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-27T14:20:46.532392Z",
+        "updatedAt": "2025-11-27T14:20:46.532392Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.SamMorrowDrums/remarkable",
+      "description": "Access your reMarkable tablet - read documents, browse files, extract text and OCR",
+      "title": "reMarkable MCP Server",
+      "repository": {
+        "url": "https://github.com/SamMorrowDrums/remarkable-mcp",
+        "source": "github"
+      },
+      "version": "0.1.5",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "remarkable-mcp",
+          "version": "0.1.5",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Authentication token for reMarkable Cloud API. Get one by registering at https://my.remarkable.com/device/browser/connect",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "REMARKABLE_TOKEN"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-27T14:26:46.566523Z",
+        "updatedAt": "2025-11-27T14:26:46.566523Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.fenetresurciel.verylongmcp/mcp-server-template-nodejs",
+      "description": "A non functional MCP server (yet)",
+      "title": "Second ser",
+      "version": "0.0.27",
+      "websiteUrl": "https://github.com",
+      "icons": [
+        {
+          "src": "https://alpic.ai/logo.png",
+          "mimeType": "image/png",
+          "sizes": [
+            "200x200"
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://verylongmcp.fenetresurciel.com",
+          "headers": [
+            {
+              "description": "Just put your api key",
+              "isRequired": true,
+              "name": "x-api-key"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-27T14:27:24.095796Z",
+        "updatedAt": "2025-11-27T14:27:24.095796Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.fenetresurciel.verylongmcp/mcp-server-template-nodejs",
+      "description": "A non functional MCP server (yet)",
+      "title": "Second server",
+      "version": "0.0.28",
+      "websiteUrl": "https://github.com",
+      "icons": [
+        {
+          "src": "https://alpic.ai/logo.png",
+          "mimeType": "image/png",
+          "sizes": [
+            "200x200"
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://verylongmcp.fenetresurciel.com",
+          "headers": [
+            {
+              "description": "Just put your api key",
+              "isRequired": true,
+              "name": "x-api-key"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-27T14:27:56.410536Z",
+        "updatedAt": "2025-11-27T14:27:56.410536Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.fenetresurciel.verylongmcp/mcp-server-template-nodejs",
+      "description": "A non functional MCP server (yet)",
+      "title": "Second serv",
+      "version": "0.0.29",
+      "websiteUrl": "https://github.com",
+      "icons": [
+        {
+          "src": "https://alpic.ai/logo.png",
+          "mimeType": "image/png",
+          "sizes": [
+            "200x200"
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://verylongmcp.fenetresurciel.com",
+          "headers": [
+            {
+              "description": "Just put your api key",
+              "isRequired": true,
+              "name": "x-api-key"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-27T15:20:51.749424Z",
+        "updatedAt": "2025-11-27T15:20:51.749424Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.SamMorrowDrums/remarkable",
+      "description": "Access your reMarkable tablet - read documents, browse files, extract text and OCR",
+      "title": "reMarkable MCP Server",
+      "repository": {
+        "url": "https://github.com/SamMorrowDrums/remarkable-mcp",
+        "source": "github"
+      },
+      "version": "0.2.0",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "remarkable-mcp",
+          "version": "0.2.0",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Authentication token for reMarkable Cloud API. Get one by registering at https://my.remarkable.com/device/browser/connect",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "REMARKABLE_TOKEN"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-27T15:35:30.051945Z",
+        "updatedAt": "2025-11-27T15:35:30.051945Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.aplaceforallmystuff/mcp-pickaxe",
+      "description": "MCP server for Pickaxe API - manage AI agents, knowledge bases, users, and analytics",
+      "repository": {
+        "url": "https://github.com/aplaceforallmystuff/mcp-pickaxe",
+        "source": "github"
+      },
+      "version": "1.0.1",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "mcp-pickaxe",
+          "version": "1.0.1",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your Pickaxe studio API key",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "PICKAXE_API_KEY"
+            },
+            {
+              "description": "Your Pickaxe studio ID",
+              "isRequired": true,
+              "format": "string",
+              "name": "PICKAXE_STUDIO_ID"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-27T16:11:42.324685Z",
+        "updatedAt": "2025-11-27T16:11:42.324685Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.aplaceforallmystuff/mcp-kit",
+      "description": "MCP server for Kit.com (ConvertKit) - manage subscribers, tags, sequences, broadcasts",
+      "repository": {
+        "url": "https://github.com/aplaceforallmystuff/mcp-kit",
+        "source": "github"
+      },
+      "version": "1.0.1",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "kit-mcp-server",
+          "version": "1.0.1",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your Kit.com API key (v4)",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "KIT_API_KEY"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-27T16:11:48.684226Z",
+        "updatedAt": "2025-11-27T16:11:48.684226Z",
         "isLatest": true
       }
     }
