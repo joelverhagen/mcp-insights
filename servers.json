@@ -91451,7 +91451,7 @@
         "status": "active",
         "publishedAt": "2025-11-25T18:00:33.154054Z",
         "updatedAt": "2025-11-25T18:00:33.154054Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -94520,7 +94520,7 @@
         "status": "active",
         "publishedAt": "2025-11-27T15:20:51.749424Z",
         "updatedAt": "2025-11-27T15:20:51.749424Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -94646,6 +94646,219 @@
         "status": "active",
         "publishedAt": "2025-11-27T16:11:48.684226Z",
         "updatedAt": "2025-11-27T16:11:48.684226Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.programinglive/dev-workflow-mcp-server",
+      "description": "MCP server to enforce development workflow discipline",
+      "title": "Dev Workflow MCP Server",
+      "repository": {
+        "url": "https://github.com/programinglive/dev-workflow-mcp-server",
+        "source": "github"
+      },
+      "version": "1.4.6",
+      "websiteUrl": "https://devworkflow.programinglive.com/",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@programinglive/dev-workflow-mcp-server",
+          "version": "1.4.6",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-27T17:07:12.126717Z",
+        "updatedAt": "2025-11-27T17:07:12.126717Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.brave/brave-search-mcp-server",
+      "description": "Brave Search MCP Server: web results, images, videos, rich results, AI summaries, and more.",
+      "repository": {
+        "url": "https://github.com/brave/brave-search-mcp-server",
+        "source": "github"
+      },
+      "version": "2.0.61",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@brave/brave-search-mcp-server",
+          "version": "2.0.61",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your API key for the service",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "BRAVE_API_KEY"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-27T17:11:14.735025Z",
+        "updatedAt": "2025-11-27T17:11:14.735025Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.askman-dev/agent-never-give-up",
+      "description": "An escape guide for coding agents, providing structured thinking tools to help agents unstick.",
+      "repository": {
+        "url": "https://github.com/askman-dev/agent-never-give-up-mcp",
+        "source": "github"
+      },
+      "version": "0.1.0",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "agent-never-give-up-mcp",
+          "version": "0.1.0",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-27T18:20:40.516793Z",
+        "updatedAt": "2025-11-27T18:20:40.516793Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.fenetresurciel.verylongmcp/mcp-server-template-nodejs",
+      "description": "A non functional MCP server (yet)",
+      "title": "Second server",
+      "version": "0.0.30",
+      "websiteUrl": "https://github.com",
+      "icons": [
+        {
+          "src": "https://alpic.ai/logo.png",
+          "mimeType": "image/png",
+          "sizes": [
+            "200x200"
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://verylongmcp.fenetresurciel.com",
+          "headers": [
+            {
+              "description": "Just put your api key",
+              "isRequired": true,
+              "name": "x-api-key"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-27T18:40:26.508063Z",
+        "updatedAt": "2025-11-27T18:40:26.508063Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.fenetresurciel.verylongmcp/mcp-server-template-nodejs",
+      "description": "A non functional MCP server (yet)",
+      "title": "Second server",
+      "version": "0.0.31",
+      "icons": [
+        {
+          "src": "https://alpic.ai/logo.png",
+          "mimeType": "image/png",
+          "sizes": [
+            "200x200"
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://verylongmcp.fenetresurciel.com",
+          "headers": [
+            {
+              "description": "Just put your api key",
+              "isRequired": true,
+              "name": "x-api-key"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-27T18:43:58.785841Z",
+        "updatedAt": "2025-11-27T18:43:58.785841Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.w31r4/codex-mcp-go",
+      "description": "MCP server wrapping Codex CLI for stdio-based tool calls.",
+      "repository": {
+        "url": "https://github.com/w31r4/codex-mcp-go",
+        "source": "github"
+      },
+      "version": "0.0.3",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@zenfun510/codex-mcp-go",
+          "version": "0.0.3",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-27T19:39:17.307642Z",
+        "updatedAt": "2025-11-27T19:39:17.307642Z",
         "isLatest": true
       }
     }
