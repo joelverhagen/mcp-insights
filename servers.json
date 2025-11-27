@@ -91573,7 +91573,7 @@
         "status": "active",
         "publishedAt": "2025-11-26T00:19:14.580242Z",
         "updatedAt": "2025-11-26T00:19:14.580242Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -91921,7 +91921,7 @@
         "status": "active",
         "publishedAt": "2025-11-26T04:04:20.16074Z",
         "updatedAt": "2025-11-26T04:04:20.16074Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -93120,6 +93120,141 @@
         "status": "active",
         "publishedAt": "2025-11-26T18:38:30.249961Z",
         "updatedAt": "2025-11-26T18:38:30.249961Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.DavidFuchs/mcp-uptime-kuma",
+      "description": "A Model Context Protocol (MCP) server for Uptime Kuma version 2.",
+      "repository": {
+        "url": "https://github.com/DavidFuchs/mcp-uptime-kuma",
+        "source": "github"
+      },
+      "version": "0.6.0",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@davidfuchs/mcp-uptime-kuma",
+          "version": "0.6.0",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "The URL of your Uptime Kuma instance",
+              "isRequired": true,
+              "format": "string",
+              "name": "UPTIME_KUMA_URL"
+            },
+            {
+              "description": "Your Uptime Kuma username (not required if using JWT token authentication or if authentication is disabled)",
+              "format": "string",
+              "name": "UPTIME_KUMA_USERNAME"
+            },
+            {
+              "description": "Your Uptime Kuma password (not required if using JWT token authentication or if authentication is disabled)",
+              "format": "string",
+              "isSecret": true,
+              "name": "UPTIME_KUMA_PASSWORD"
+            },
+            {
+              "description": "Your 2FA token (only required if two-factor authentication is enabled on your account)",
+              "format": "string",
+              "isSecret": true,
+              "name": "UPTIME_KUMA_2FA_TOKEN"
+            },
+            {
+              "description": "Your JWT token for authentication (takes precedence over username/password if provided)",
+              "format": "string",
+              "isSecret": true,
+              "name": "UPTIME_KUMA_JWT_TOKEN"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-26T20:49:50.725556Z",
+        "updatedAt": "2025-11-26T20:49:50.725556Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.homeassistant-ai/ha-mcp",
+      "description": "Comprehensive Model Context Protocol server for managing Home Assistant through AI assistants.",
+      "repository": {
+        "url": "https://github.com/homeassistant-ai/ha-mcp.git",
+        "source": "github"
+      },
+      "version": "3.7.0",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "ha-mcp",
+          "version": "3.7.0",
+          "transport": {
+            "type": "stdio"
+          }
+        },
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/homeassistant-ai/ha-mcp:3.7.0",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-27T00:15:02.655323Z",
+        "updatedAt": "2025-11-27T00:15:02.655323Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.homeassistant-ai/ha-mcp",
+      "description": "Comprehensive Model Context Protocol server for managing Home Assistant through AI assistants.",
+      "repository": {
+        "url": "https://github.com/homeassistant-ai/ha-mcp.git",
+        "source": "github"
+      },
+      "version": "4.0.0",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "ha-mcp",
+          "version": "4.0.0",
+          "transport": {
+            "type": "stdio"
+          }
+        },
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/homeassistant-ai/ha-mcp:4.0.0",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-27T01:32:39.877566Z",
+        "updatedAt": "2025-11-27T01:32:39.877566Z",
         "isLatest": true
       }
     }
