@@ -56364,7 +56364,7 @@
         "status": "active",
         "publishedAt": "2025-10-23T02:19:25.415809Z",
         "updatedAt": "2025-10-23T02:19:25.415809Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -92023,7 +92023,7 @@
         "status": "active",
         "publishedAt": "2025-11-26T08:35:16.316442Z",
         "updatedAt": "2025-11-26T08:35:16.316442Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -92321,7 +92321,7 @@
         "status": "active",
         "publishedAt": "2025-11-26T11:56:45.360615Z",
         "updatedAt": "2025-11-26T11:56:45.360615Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -93587,6 +93587,378 @@
         "status": "active",
         "publishedAt": "2025-11-27T08:31:48.826783Z",
         "updatedAt": "2025-11-27T08:31:48.826783Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.fenetresurciel.verylongmcp/mcp-server-template-nodejs",
+      "description": "A non functional MCP server (yet)",
+      "title": "Second serve",
+      "version": "0.0.18",
+      "icons": [
+        {
+          "src": "https://alpic.ai/logo.png",
+          "mimeType": "image/png",
+          "sizes": [
+            "200x200"
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://verylongmcp.fenetresurciel.com",
+          "headers": [
+            {
+              "description": "Just put your api key",
+              "name": "x-api-key"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-27T10:25:23.883445Z",
+        "updatedAt": "2025-11-27T10:25:23.883445Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.fenetresurciel.verylongmcp/mcp-server-template-nodejs",
+      "description": "A non functional MCP server (yet)",
+      "title": "Second serve",
+      "version": "0.0.19",
+      "icons": [
+        {
+          "src": "https://alpic.ai/logo.png",
+          "mimeType": "image/png",
+          "sizes": [
+            "200x200"
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://verylongmcp.fenetresurciel.com"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-27T10:27:30.386166Z",
+        "updatedAt": "2025-11-27T10:27:30.386166Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.fenetresurciel.verylongmcp/mcp-server-template-nodejs",
+      "description": "A non functional MCP server (yet)",
+      "title": "Second serve",
+      "version": "0.0.20",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://verylongmcp.fenetresurciel.com"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-27T10:33:12.445348Z",
+        "updatedAt": "2025-11-27T10:33:12.445348Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.fenetresurciel.verylongmcp/mcp-server-template-nodejs",
+      "description": "A non functional MCP server (yet)",
+      "title": "Second serve",
+      "version": "0.0.21",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://verylongmcp.fenetresurciel.com",
+          "headers": [
+            {
+              "description": "Just put your api key",
+              "name": "x-api-key"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-27T10:36:59.424756Z",
+        "updatedAt": "2025-11-27T10:36:59.424756Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.fenetresurciel.verylongmcp/mcp-server-template-nodejs",
+      "description": "A non functional MCP server (yet)",
+      "title": "Second serve",
+      "version": "0.0.22",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://verylongmcp.fenetresurciel.com",
+          "headers": [
+            {
+              "description": "Just put your api key",
+              "isRequired": true,
+              "name": "x-api-key"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-27T10:41:06.405378Z",
+        "updatedAt": "2025-11-27T10:41:06.405378Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.cmd8/excalidraw-mcp",
+      "description": "Model Context Protocol server for Excalidraw diagrams.",
+      "repository": {
+        "url": "https://github.com/cmd8/excalidraw-mcp",
+        "source": "github"
+      },
+      "version": "1.1.1",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@cmd8/excalidraw-mcp",
+          "version": "1.1.1",
+          "transport": {
+            "type": "stdio"
+          },
+          "packageArguments": [
+            {
+              "description": "Path to the Excalidraw diagram file",
+              "isRequired": true,
+              "type": "",
+              "name": "diagram",
+              "valueHint": "/path/to/diagram.excalidraw"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-27T10:44:24.909088Z",
+        "updatedAt": "2025-11-27T10:44:24.909088Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.ggozad/haiku-rag",
+      "description": "Agentic Retrieval Augmented Generation (RAG) with LanceDB",
+      "repository": {
+        "url": "https://github.com/ggozad/haiku.rag",
+        "source": "github"
+      },
+      "version": "0.19.2",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "registryBaseUrl": "https://pypi.org",
+          "identifier": "haiku-rag",
+          "version": "0.19.2",
+          "runtimeHint": "uvx",
+          "transport": {
+            "type": "stdio"
+          },
+          "runtimeArguments": [
+            {
+              "value": "serve",
+              "type": "positional"
+            },
+            {
+              "type": "named",
+              "name": "--mcp"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-27T11:07:08.157905Z",
+        "updatedAt": "2025-11-27T11:07:08.157905Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.kubeshop/testkube-mcp",
+      "description": "MCP server for Testkube - Manage test workflows, executions, and artifacts via AI assistants",
+      "repository": {
+        "url": "https://github.com/kubeshop/testkube",
+        "source": "github"
+      },
+      "version": "2.4.3",
+      "icons": [
+        {
+          "src": "https://avatars.githubusercontent.com/u/82541796?v=4",
+          "mimeType": "image/png",
+          "sizes": [
+            "any"
+          ]
+        }
+      ],
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "docker.io/kubeshop/mcp-server:2.4.3",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Testkube access token for authentication",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "TK_ACCESS_TOKEN"
+            },
+            {
+              "description": "Testkube organization ID",
+              "isRequired": true,
+              "format": "string",
+              "name": "TK_ORG_ID"
+            },
+            {
+              "description": "Testkube environment ID",
+              "isRequired": true,
+              "format": "string",
+              "name": "TK_ENV_ID"
+            },
+            {
+              "description": "Testkube Control Plane URL (default: https://api.testkube.io)",
+              "format": "string",
+              "name": "TK_CONTROL_PLANE_URL"
+            },
+            {
+              "description": "Testkube Dashboard URL",
+              "format": "string",
+              "name": "TK_DASHBOARD_URL"
+            },
+            {
+              "description": "Enable debug mode (default: false)",
+              "format": "string",
+              "name": "TK_DEBUG"
+            },
+            {
+              "description": "MCP transport type: stdio or shttp (default: stdio)",
+              "format": "string",
+              "name": "TK_MCP_TRANSPORT"
+            },
+            {
+              "description": "SHTTP host when using shttp transport",
+              "format": "string",
+              "name": "TK_MCP_SHTTP_HOST"
+            },
+            {
+              "description": "SHTTP port when using shttp transport",
+              "format": "string",
+              "name": "TK_MCP_SHTTP_PORT"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-27T11:08:00.697709Z",
+        "updatedAt": "2025-11-27T11:08:00.697709Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.civic/nexus",
+      "description": "Zero-setup MCP gateway securely connecting AI to your tools with authentication and workflows",
+      "repository": {
+        "url": "https://github.com/civicteam/civic-mcp",
+        "source": "github",
+        "subfolder": "apps/hub"
+      },
+      "version": "0.1.47",
+      "websiteUrl": "https://nexus.civic.com",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://nexus.civic.com/hub/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-27T11:46:03.611243Z",
+        "updatedAt": "2025-11-27T11:46:03.611243Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.kiransth77/aionmcp",
+      "description": "Dynamic API tool generator for OpenAPI, GraphQL, and AsyncAPI specifications",
+      "title": "AionMCP",
+      "repository": {
+        "url": "https://github.com/kiransth77/aionmcp",
+        "source": "github"
+      },
+      "version": "0.1.0"
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-27T12:01:18.604584Z",
+        "updatedAt": "2025-11-27T12:01:18.604584Z",
         "isLatest": true
       }
     }
