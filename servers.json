@@ -92175,7 +92175,7 @@
         "status": "active",
         "publishedAt": "2025-11-26T10:28:28.126971Z",
         "updatedAt": "2025-11-26T10:28:28.126971Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -93821,7 +93821,7 @@
         "status": "active",
         "publishedAt": "2025-11-27T11:07:08.157905Z",
         "updatedAt": "2025-11-27T11:07:08.157905Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -94828,7 +94828,7 @@
         "status": "active",
         "publishedAt": "2025-11-27T18:43:58.785841Z",
         "updatedAt": "2025-11-27T18:43:58.785841Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -95332,6 +95332,305 @@
         "status": "active",
         "publishedAt": "2025-11-28T04:22:06.519975Z",
         "updatedAt": "2025-11-28T04:22:06.519975Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "casa.find-me.sub1/send-email-mcp",
+      "description": "Non functional server (yet)",
+      "title": "Cool property search serv",
+      "version": "0.0.2",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://sub1.find-me.casa"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-28T08:06:54.495257Z",
+        "updatedAt": "2025-11-28T08:06:54.495257Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.ggozad/haiku-rag",
+      "description": "Agentic Retrieval Augmented Generation (RAG) with LanceDB",
+      "repository": {
+        "url": "https://github.com/ggozad/haiku.rag",
+        "source": "github"
+      },
+      "version": "0.19.4",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "registryBaseUrl": "https://pypi.org",
+          "identifier": "haiku-rag",
+          "version": "0.19.4",
+          "runtimeHint": "uvx",
+          "transport": {
+            "type": "stdio"
+          },
+          "runtimeArguments": [
+            {
+              "value": "serve",
+              "type": "positional"
+            },
+            {
+              "type": "named",
+              "name": "--mcp"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-28T08:17:04.145676Z",
+        "updatedAt": "2025-11-28T08:17:04.145676Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.fenetresurciel.verylongmcp/mcp-server-template-nodejs",
+      "description": "A non functional MCP server (yet)",
+      "title": "Second serv",
+      "version": "0.0.32",
+      "icons": [
+        {
+          "src": "https://alpic.ai/logo.png",
+          "mimeType": "image/png",
+          "sizes": [
+            "200x200"
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://verylongmcp.fenetresurciel.com",
+          "headers": [
+            {
+              "description": "Just put your api key",
+              "isRequired": true,
+              "name": "x-api-key"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-28T08:17:20.629886Z",
+        "updatedAt": "2025-11-28T08:17:20.629886Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.fenetresurciel.verylongmcp/mcp-server-template-nodejs",
+      "description": "A non functional MCP server (yet)",
+      "title": "Second server",
+      "version": "0.0.33",
+      "icons": [
+        {
+          "src": "https://alpic.ai/logo.png",
+          "mimeType": "image/png",
+          "sizes": [
+            "200x200"
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://verylongmcp.fenetresurciel.com",
+          "headers": [
+            {
+              "description": "Just put your api key",
+              "isRequired": true,
+              "name": "x-api-key"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-28T08:20:04.676271Z",
+        "updatedAt": "2025-11-28T08:20:04.676271Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.fenetresurciel.verylongmcp/mcp-server-template-nodejs",
+      "description": "A non functional MCP server (yet)",
+      "title": "Second serv",
+      "version": "0.0.34",
+      "icons": [
+        {
+          "src": "https://alpic.ai/logo.png",
+          "mimeType": "image/png",
+          "sizes": [
+            "200x200"
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://verylongmcp.fenetresurciel.com",
+          "headers": [
+            {
+              "description": "Just put your api key",
+              "isRequired": true,
+              "name": "x-api-key"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-28T08:22:46.92651Z",
+        "updatedAt": "2025-11-28T08:22:46.92651Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.fenetresurciel.verylongmcp/mcp-server-template-nodejs",
+      "description": "A non functional MCP server (yet)",
+      "title": "Second server",
+      "version": "0.0.35",
+      "icons": [
+        {
+          "src": "https://alpic.ai/logo.png",
+          "mimeType": "image/png",
+          "sizes": [
+            "200x200"
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://verylongmcp.fenetresurciel.com",
+          "headers": [
+            {
+              "description": "Just put your api key",
+              "isRequired": true,
+              "name": "x-api-key"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-28T08:28:19.97099Z",
+        "updatedAt": "2025-11-28T08:28:19.97099Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.fenetresurciel.verylongmcp/mcp-server-template-nodejs",
+      "description": "A non functional MCP server (yet)",
+      "title": "Second serve",
+      "version": "0.0.36",
+      "icons": [
+        {
+          "src": "https://alpic.ai/logo.png",
+          "mimeType": "image/png",
+          "sizes": [
+            "200x200"
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://verylongmcp.fenetresurciel.com",
+          "headers": [
+            {
+              "description": "Just put your api key",
+              "isRequired": true,
+              "name": "x-api-key"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-28T08:33:14.799864Z",
+        "updatedAt": "2025-11-28T08:33:14.799864Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.fenetresurciel.verylongmcp/mcp-server-template-nodejs",
+      "description": "A non functional MCP server (yet)",
+      "title": "Second server",
+      "version": "0.0.37",
+      "icons": [
+        {
+          "src": "https://alpic.ai/logo.png",
+          "mimeType": "image/png",
+          "sizes": [
+            "200x200"
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://verylongmcp.fenetresurciel.com",
+          "headers": [
+            {
+              "description": "Just put your api key",
+              "isRequired": true,
+              "name": "x-api-key"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-28T08:35:56.312075Z",
+        "updatedAt": "2025-11-28T08:35:56.312075Z",
         "isLatest": true
       }
     }
