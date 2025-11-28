@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2025-11-27T20:29:34.1044287+00:00
+Generated on: 2025-11-28T02:06:28.9819637+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 2133
+- Total records processed: 2139
 - Total unique server names: 920
-- Date range: 2025-09-08 to 2025-11-27
+- Date range: 2025-09-08 to 2025-11-28
 - Peak day: 2025-09-09 with 54 unique server names
-- Average unique server names per day: 18.28
+- Average unique server names per day: 18.09
 
 ## Top 5 busiest days
 - 2025-09-09: 54 unique servers
