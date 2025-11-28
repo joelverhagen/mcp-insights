@@ -62833,7 +62833,7 @@
         "status": "active",
         "publishedAt": "2025-10-28T14:50:18.185782Z",
         "updatedAt": "2025-10-28T14:50:18.185782Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -90677,7 +90677,7 @@
         "status": "active",
         "publishedAt": "2025-11-24T10:51:02.310294Z",
         "updatedAt": "2025-11-24T10:51:02.310294Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -95079,7 +95079,7 @@
         "status": "active",
         "publishedAt": "2025-11-28T01:00:29.177566Z",
         "updatedAt": "2025-11-28T01:00:29.177566Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -95355,7 +95355,7 @@
         "status": "active",
         "publishedAt": "2025-11-28T08:06:54.495257Z",
         "updatedAt": "2025-11-28T08:06:54.495257Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -95631,6 +95631,3808 @@
         "status": "active",
         "publishedAt": "2025-11-28T08:35:56.312075Z",
         "updatedAt": "2025-11-28T08:35:56.312075Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.fenetresurciel.verylongmcp/mcp-server-template-nodejs",
+      "description": "A non functional MCP server (yet)",
+      "title": "Second server!",
+      "version": "0.0.38",
+      "icons": [
+        {
+          "src": "https://alpic.ai/logo.png",
+          "mimeType": "image/png",
+          "sizes": [
+            "200x200"
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://verylongmcp.fenetresurciel.com",
+          "headers": [
+            {
+              "description": "Just put your api key",
+              "isRequired": true,
+              "name": "x-api-key"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-28T08:39:12.09335Z",
+        "updatedAt": "2025-11-28T08:39:12.09335Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.fenetresurciel.verylongmcp/mcp-server-template-nodejs",
+      "description": "A non functional MCP server (yet)",
+      "title": "Second server",
+      "version": "0.0.39",
+      "icons": [
+        {
+          "src": "https://alpic.ai/logo.png",
+          "mimeType": "image/png",
+          "sizes": [
+            "200x200"
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://verylongmcp.fenetresurciel.com",
+          "headers": [
+            {
+              "description": "Just put your api key",
+              "isRequired": true,
+              "name": "x-api-key"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-28T08:40:06.696652Z",
+        "updatedAt": "2025-11-28T08:40:06.696652Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.fenetresurciel.verylongmcp/mcp-server-template-nodejs",
+      "description": "A non functional MCP server (yet)",
+      "title": "Second server!",
+      "version": "0.0.40",
+      "icons": [
+        {
+          "src": "https://alpic.ai/logo.png",
+          "mimeType": "image/png",
+          "sizes": [
+            "200x200"
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://verylongmcp.fenetresurciel.com",
+          "headers": [
+            {
+              "description": "Just put your api key",
+              "isRequired": true,
+              "name": "x-api-key"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-28T08:44:21.235581Z",
+        "updatedAt": "2025-11-28T08:44:21.235581Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.fenetresurciel.verylongmcp/mcp-server-template-nodejs",
+      "description": "A non functional MCP server (yet)",
+      "title": "Second server",
+      "version": "0.0.41",
+      "icons": [
+        {
+          "src": "https://alpic.ai/logo.png",
+          "mimeType": "image/png",
+          "sizes": [
+            "200x200"
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://verylongmcp.fenetresurciel.com",
+          "headers": [
+            {
+              "description": "Just put your api key",
+              "isRequired": true,
+              "name": "x-api-key"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-28T08:44:58.177918Z",
+        "updatedAt": "2025-11-28T08:44:58.177918Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.fenetresurciel.verylongmcp/mcp-server-template-nodejs",
+      "description": "A non functional MCP server (yet)",
+      "title": "Second server!",
+      "version": "0.0.42",
+      "icons": [
+        {
+          "src": "https://alpic.ai/logo.png",
+          "mimeType": "image/png",
+          "sizes": [
+            "200x200"
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://verylongmcp.fenetresurciel.com",
+          "headers": [
+            {
+              "description": "Just put your api key",
+              "isRequired": true,
+              "name": "x-api-key"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-28T09:11:35.033354Z",
+        "updatedAt": "2025-11-28T09:11:35.033354Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.fenetresurciel.verylongmcp/mcp-server-template-nodejs",
+      "description": "A non functional MCP server (yet)",
+      "title": "Second server",
+      "version": "0.0.43",
+      "icons": [
+        {
+          "src": "https://alpic.ai/logo.png",
+          "mimeType": "image/png",
+          "sizes": [
+            "200x200"
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://verylongmcp.fenetresurciel.com",
+          "headers": [
+            {
+              "description": "Just put your api key",
+              "isRequired": true,
+              "name": "x-api-key"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-28T09:11:51.645385Z",
+        "updatedAt": "2025-11-28T09:11:51.645385Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.ONLYOFFICE/docspace",
+      "description": "A room-based collaborative platform",
+      "repository": {
+        "url": "https://github.com/ONLYOFFICE/docspace-mcp",
+        "source": "github",
+        "id": "962498237"
+      },
+      "version": "3.1.0",
+      "websiteUrl": "https://ONLYOFFICE.github.io/",
+      "packages": [
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/ONLYOFFICE/docspace-mcp/releases/download/v3.1.0/onlyoffice-docspace-mcp-3.1.0.mcpb",
+          "version": "3.1.0",
+          "fileSha256": "1d97c2241fe0b136600069306abf57d3782dabcba262e525a6c4fa00f9ce9310",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "The base URL of the DocSpace instance for API requests.",
+              "format": "string",
+              "name": "DOCSPACE_BASE_URL"
+            },
+            {
+              "description": "The API key for accessing the API.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_API_KEY"
+            }
+          ]
+        },
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@onlyoffice/docspace-mcp",
+          "version": "3.1.0",
+          "runtimeHint": "npx",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "The transport protocol to use for communication with the MCP server.",
+              "format": "string",
+              "default": "stdio",
+              "choices": [
+                "stdio",
+                "sse",
+                "streamable-http",
+                "http"
+              ],
+              "name": "DOCSPACE_TRANSPORT"
+            },
+            {
+              "description": "The flag that indicates whether the MCP server should use meta tools.",
+              "format": "boolean",
+              "default": "false",
+              "name": "DOCSPACE_DYNAMIC"
+            },
+            {
+              "description": "The list of toolsets to enable for the MCP server.",
+              "format": "string",
+              "default": "all",
+              "choices": [
+                "files",
+                "folders",
+                "rooms",
+                "people"
+              ],
+              "name": "DOCSPACE_TOOLSETS"
+            },
+            {
+              "description": "The list of tools to enable for the MCP server.",
+              "format": "string",
+              "choices": [
+                "delete_file",
+                "get_file_info",
+                "update_file",
+                "copy_batch_items",
+                "move_batch_items",
+                "download_file_as_text",
+                "upload_file",
+                "create_folder",
+                "delete_folder",
+                "get_folder_content",
+                "get_folder_info",
+                "rename_folder",
+                "get_my_folder",
+                "create_room",
+                "get_room_info",
+                "update_room",
+                "archive_room",
+                "set_room_security",
+                "get_room_security_info",
+                "get_rooms_folder",
+                "get_room_types",
+                "get_room_access_levels",
+                "get_all_people"
+              ],
+              "name": "DOCSPACE_ENABLED_TOOLS"
+            },
+            {
+              "description": "The list of tools to disable for the MCP server.",
+              "format": "string",
+              "choices": [
+                "delete_file",
+                "get_file_info",
+                "update_file",
+                "copy_batch_items",
+                "move_batch_items",
+                "download_file_as_text",
+                "upload_file",
+                "create_folder",
+                "delete_folder",
+                "get_folder_content",
+                "get_folder_info",
+                "rename_folder",
+                "get_my_folder",
+                "create_room",
+                "get_room_info",
+                "update_room",
+                "archive_room",
+                "set_room_security",
+                "get_room_security_info",
+                "get_rooms_folder",
+                "get_room_types",
+                "get_room_access_levels",
+                "get_all_people"
+              ],
+              "name": "DOCSPACE_DISABLED_TOOLS"
+            },
+            {
+              "description": "The user agent to include in the User-Agent header for API requests.",
+              "format": "string",
+              "default": "@onlyoffice/docspace-mcp v3.1.0",
+              "name": "DOCSPACE_USER_AGENT"
+            },
+            {
+              "description": "The base URL of the DocSpace instance for API requests.",
+              "format": "string",
+              "name": "DOCSPACE_BASE_URL"
+            },
+            {
+              "description": "The raw value to include in the Authorization header for API requests.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_AUTHORIZATION"
+            },
+            {
+              "description": "The API key for accessing the API.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_API_KEY"
+            },
+            {
+              "description": "The Personal Access Token (PAT) for accessing the API.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_AUTH_TOKEN"
+            },
+            {
+              "description": "The username for accessing the API using basic authentication.",
+              "format": "string",
+              "name": "DOCSPACE_USERNAME"
+            },
+            {
+              "description": "The password for accessing the API using basic authentication.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_PASSWORD"
+            }
+          ]
+        },
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@onlyoffice/docspace-mcp",
+          "version": "3.1.0",
+          "runtimeHint": "npx",
+          "transport": {
+            "type": "sse",
+            "url": "https://example.com/sse",
+            "headers": [
+              {
+                "description": "The flag that indicates whether the MCP server should use meta tools.",
+                "format": "boolean",
+                "default": "false",
+                "name": "X-Mcp-Dynamic"
+              },
+              {
+                "description": "The list of toolsets to enable for the MCP server.",
+                "format": "string",
+                "default": "all",
+                "choices": [
+                  "files",
+                  "folders",
+                  "rooms",
+                  "people"
+                ],
+                "name": "X-Mcp-Toolsets"
+              },
+              {
+                "description": "The list of tools to enable for the MCP server.",
+                "format": "string",
+                "choices": [
+                  "delete_file",
+                  "get_file_info",
+                  "update_file",
+                  "copy_batch_items",
+                  "move_batch_items",
+                  "download_file_as_text",
+                  "upload_file",
+                  "create_folder",
+                  "delete_folder",
+                  "get_folder_content",
+                  "get_folder_info",
+                  "rename_folder",
+                  "get_my_folder",
+                  "create_room",
+                  "get_room_info",
+                  "update_room",
+                  "archive_room",
+                  "set_room_security",
+                  "get_room_security_info",
+                  "get_rooms_folder",
+                  "get_room_types",
+                  "get_room_access_levels",
+                  "get_all_people"
+                ],
+                "name": "X-Mcp-Enabled-Tools"
+              },
+              {
+                "description": "The list of tools to disable for the MCP server.",
+                "format": "string",
+                "choices": [
+                  "delete_file",
+                  "get_file_info",
+                  "update_file",
+                  "copy_batch_items",
+                  "move_batch_items",
+                  "download_file_as_text",
+                  "upload_file",
+                  "create_folder",
+                  "delete_folder",
+                  "get_folder_content",
+                  "get_folder_info",
+                  "rename_folder",
+                  "get_my_folder",
+                  "create_room",
+                  "get_room_info",
+                  "update_room",
+                  "archive_room",
+                  "set_room_security",
+                  "get_room_security_info",
+                  "get_rooms_folder",
+                  "get_room_types",
+                  "get_room_access_levels",
+                  "get_all_people"
+                ],
+                "name": "X-Mcp-Disabled-Tools"
+              },
+              {
+                "description": "The base URL of the DocSpace instance for API requests.",
+                "format": "string",
+                "name": "X-Mcp-Base-Url"
+              },
+              {
+                "description": "The API key for accessing the API.",
+                "format": "string",
+                "isSecret": true,
+                "name": "X-Mcp-Api-Key"
+              },
+              {
+                "description": "The Personal Access Token (PAT) for accessing the API.",
+                "format": "string",
+                "isSecret": true,
+                "name": "X-Mcp-Auth-Token"
+              },
+              {
+                "description": "The username for accessing the API using basic authentication.",
+                "format": "string",
+                "name": "X-Mcp-Username"
+              },
+              {
+                "description": "The password for accessing the API using basic authentication.",
+                "format": "string",
+                "isSecret": true,
+                "name": "X-Mcp-Password"
+              }
+            ]
+          },
+          "environmentVariables": [
+            {
+              "description": "The transport protocol to use for communication with the MCP server.",
+              "format": "string",
+              "default": "stdio",
+              "choices": [
+                "stdio",
+                "sse",
+                "streamable-http",
+                "http"
+              ],
+              "name": "DOCSPACE_TRANSPORT"
+            },
+            {
+              "description": "The flag that indicates whether the MCP server should use meta tools.",
+              "format": "boolean",
+              "default": "false",
+              "name": "DOCSPACE_DYNAMIC"
+            },
+            {
+              "description": "The list of toolsets to enable for the MCP server.",
+              "format": "string",
+              "default": "all",
+              "choices": [
+                "files",
+                "folders",
+                "rooms",
+                "people"
+              ],
+              "name": "DOCSPACE_TOOLSETS"
+            },
+            {
+              "description": "The list of tools to enable for the MCP server.",
+              "format": "string",
+              "choices": [
+                "delete_file",
+                "get_file_info",
+                "update_file",
+                "copy_batch_items",
+                "move_batch_items",
+                "download_file_as_text",
+                "upload_file",
+                "create_folder",
+                "delete_folder",
+                "get_folder_content",
+                "get_folder_info",
+                "rename_folder",
+                "get_my_folder",
+                "create_room",
+                "get_room_info",
+                "update_room",
+                "archive_room",
+                "set_room_security",
+                "get_room_security_info",
+                "get_rooms_folder",
+                "get_room_types",
+                "get_room_access_levels",
+                "get_all_people"
+              ],
+              "name": "DOCSPACE_ENABLED_TOOLS"
+            },
+            {
+              "description": "The list of tools to disable for the MCP server.",
+              "format": "string",
+              "choices": [
+                "delete_file",
+                "get_file_info",
+                "update_file",
+                "copy_batch_items",
+                "move_batch_items",
+                "download_file_as_text",
+                "upload_file",
+                "create_folder",
+                "delete_folder",
+                "get_folder_content",
+                "get_folder_info",
+                "rename_folder",
+                "get_my_folder",
+                "create_room",
+                "get_room_info",
+                "update_room",
+                "archive_room",
+                "set_room_security",
+                "get_room_security_info",
+                "get_rooms_folder",
+                "get_room_types",
+                "get_room_access_levels",
+                "get_all_people"
+              ],
+              "name": "DOCSPACE_DISABLED_TOOLS"
+            },
+            {
+              "description": "The time-to-live (TTL) for HTTP sessions in milliseconds.",
+              "format": "number",
+              "default": "28800000",
+              "name": "DOCSPACE_SESSION_TTL"
+            },
+            {
+              "description": "The interval for checking HTTP sessions for expiration in milliseconds.",
+              "format": "number",
+              "default": "240000",
+              "name": "DOCSPACE_SESSION_INTERVAL"
+            },
+            {
+              "description": "The user agent to include in the User-Agent header for API requests.",
+              "format": "string",
+              "default": "@onlyoffice/docspace-mcp v3.1.0",
+              "name": "DOCSPACE_USER_AGENT"
+            },
+            {
+              "description": "The base URL of the DocSpace instance for API requests.",
+              "format": "string",
+              "name": "DOCSPACE_BASE_URL"
+            },
+            {
+              "description": "The raw value to include in the Authorization header for API requests.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_AUTHORIZATION"
+            },
+            {
+              "description": "The API key for accessing the API.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_API_KEY"
+            },
+            {
+              "description": "The Personal Access Token (PAT) for accessing the API.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_AUTH_TOKEN"
+            },
+            {
+              "description": "The username for accessing the API using basic authentication.",
+              "format": "string",
+              "name": "DOCSPACE_USERNAME"
+            },
+            {
+              "description": "The password for accessing the API using basic authentication.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_PASSWORD"
+            },
+            {
+              "description": "The base URL of the DocSpace OAuth service for OAuth requests.",
+              "format": "string",
+              "name": "DOCSPACE_OAUTH_BASE_URL"
+            },
+            {
+              "description": "The client ID of the OAuth application.",
+              "format": "string",
+              "name": "DOCSPACE_OAUTH_CLIENT_ID"
+            },
+            {
+              "description": "The client secret of the OAuth application.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_OAUTH_CLIENT_SECRET"
+            },
+            {
+              "description": "The algorithm to use for signing OAuth access tokens.",
+              "format": "string",
+              "default": "HS256",
+              "choices": [
+                "HS256",
+                "HS384",
+                "HS512"
+              ],
+              "name": "DOCSPACE_OAUTH_AUTH_TOKEN_ALGORITHM"
+            },
+            {
+              "description": "The time-to-live (TTL) for OAuth access tokens in milliseconds.",
+              "format": "number",
+              "default": "3600000",
+              "name": "DOCSPACE_OAUTH_AUTH_TOKEN_TTL"
+            },
+            {
+              "description": "The secret key to use for signing OAuth access tokens.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_OAUTH_AUTH_TOKEN_SECRET_KEY"
+            },
+            {
+              "description": "The algorithm to use for signing OAuth state tokens.",
+              "format": "string",
+              "default": "HS256",
+              "choices": [
+                "HS256",
+                "HS384",
+                "HS512"
+              ],
+              "name": "DOCSPACE_OAUTH_STATE_TOKEN_ALGORITHM"
+            },
+            {
+              "description": "The time-to-live (TTL) for OAuth state tokens in milliseconds.",
+              "format": "number",
+              "default": "3600000",
+              "name": "DOCSPACE_OAUTH_STATE_TOKEN_TTL"
+            },
+            {
+              "description": "The secret key to use for signing OAuth state tokens.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_OAUTH_STATE_TOKEN_SECRET_KEY"
+            },
+            {
+              "description": "The base URL of the server.",
+              "format": "string",
+              "name": "DOCSPACE_SERVER_BASE_URL"
+            },
+            {
+              "description": "The host to bind the server to.",
+              "format": "string",
+              "default": "127.0.0.1",
+              "name": "DOCSPACE_HOST"
+            },
+            {
+              "description": "The port to bind the server to.",
+              "format": "number",
+              "default": "8080",
+              "name": "DOCSPACE_PORT"
+            },
+            {
+              "description": "The number of proxy servers between the server and the client.",
+              "format": "number",
+              "default": "0",
+              "name": "DOCSPACE_SERVER_PROXY_HOPS"
+            },
+            {
+              "description": "The list of allowed origins to include in the Access-Control-Allow-Origin header for CORS requests to MCP endpoints.",
+              "format": "string",
+              "default": "*",
+              "name": "DOCSPACE_SERVER_CORS_MCP_ORIGIN"
+            },
+            {
+              "description": "The maximum age in milliseconds to include in the Access-Control-Max-Age header for CORS requests to MCP endpoints.",
+              "format": "number",
+              "default": "86400000",
+              "name": "DOCSPACE_SERVER_CORS_MCP_MAX_AGE"
+            },
+            {
+              "description": "The list of allowed origins to include in the Access-Control-Allow-Origin header for CORS requests to OAuth endpoints.",
+              "format": "string",
+              "default": "*",
+              "name": "DOCSPACE_SERVER_CORS_OAUTH_ORIGIN"
+            },
+            {
+              "description": "The maximum age in milliseconds to include in the Access-Control-Max-Age header for CORS requests to OAuth endpoints.",
+              "format": "number",
+              "default": "86400000",
+              "name": "DOCSPACE_SERVER_CORS_OAUTH_MAX_AGE"
+            },
+            {
+              "description": "The maximum number of requests allowed per window for the MCP endpoints.",
+              "format": "number",
+              "default": "1000",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_MCP_CAPACITY"
+            },
+            {
+              "description": "The time window in milliseconds for the rate limit for the MCP endpoints.",
+              "format": "number",
+              "default": "1000",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_MCP_WINDOW"
+            },
+            {
+              "description": "The maximum number of requests allowed per window for the OAuth server metadata endpoint.",
+              "format": "number",
+              "default": "200",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_SERVER_METADATA_CAPACITY"
+            },
+            {
+              "description": "The time window in milliseconds for the rate limit for the OAuth server metadata endpoint.",
+              "format": "number",
+              "default": "60000",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_SERVER_METADATA_WINDOW"
+            },
+            {
+              "description": "The maximum number of requests allowed per window for the OAuth resource metadata endpoint.",
+              "format": "number",
+              "default": "200",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_RESOURCE_METADATA_CAPACITY"
+            },
+            {
+              "description": "The time window in milliseconds for the rate limit for the OAuth resource metadata endpoint.",
+              "format": "number",
+              "default": "60000",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_RESOURCE_METADATA_WINDOW"
+            },
+            {
+              "description": "The maximum number of requests allowed per window for the OAuth authorization endpoint.",
+              "format": "number",
+              "default": "200",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_AUTHORIZE_CAPACITY"
+            },
+            {
+              "description": "The time window in milliseconds for the rate limit for the OAuth authorization endpoint.",
+              "format": "number",
+              "default": "60000",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_AUTHORIZE_WINDOW"
+            },
+            {
+              "description": "The maximum number of requests allowed per window for the OAuth callback endpoint.",
+              "format": "number",
+              "default": "200",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_CALLBACK_CAPACITY"
+            },
+            {
+              "description": "The time window in milliseconds for the rate limit for the OAuth callback endpoint.",
+              "format": "number",
+              "default": "60000",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_CALLBACK_WINDOW"
+            },
+            {
+              "description": "The maximum number of requests allowed per window for the OAuth introspection endpoint.",
+              "format": "number",
+              "default": "10",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_INTROSPECT_CAPACITY"
+            },
+            {
+              "description": "The time window in milliseconds for the rate limit for the OAuth introspection endpoint.",
+              "format": "number",
+              "default": "60000",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_INTROSPECT_WINDOW"
+            },
+            {
+              "description": "The maximum number of requests allowed per window for the OAuth client registration endpoint.",
+              "format": "number",
+              "default": "10",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_REGISTER_CAPACITY"
+            },
+            {
+              "description": "The time window in milliseconds for the rate limit for the OAuth client registration endpoint.",
+              "format": "number",
+              "default": "60000",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_REGISTER_WINDOW"
+            },
+            {
+              "description": "The maximum number of requests allowed per window for the OAuth token revocation endpoint.",
+              "format": "number",
+              "default": "10",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_REVOKE_CAPACITY"
+            },
+            {
+              "description": "The time window in milliseconds for the rate limit for the OAuth token revocation endpoint.",
+              "format": "number",
+              "default": "60000",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_REVOKE_WINDOW"
+            },
+            {
+              "description": "The maximum number of requests allowed per window for the OAuth token endpoint.",
+              "format": "number",
+              "default": "10",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_TOKEN_CAPACITY"
+            },
+            {
+              "description": "The time window in milliseconds for the rate limit for the OAuth token endpoint.",
+              "format": "number",
+              "default": "60000",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_TOKEN_WINDOW"
+            },
+            {
+              "description": "The flag that indicates whether the server should accept configuration via query parameters in incoming requests.",
+              "format": "boolean",
+              "default": "true",
+              "name": "DOCSPACE_REQUEST_QUERY"
+            },
+            {
+              "description": "The flag that indicates whether the server should check for the Authorization header in incoming requests.",
+              "format": "boolean",
+              "default": "true",
+              "name": "DOCSPACE_REQUEST_AUTHORIZATION_HEADER"
+            },
+            {
+              "description": "The prefix to use with custom configuration headers.",
+              "format": "string",
+              "default": "x-mcp-",
+              "name": "DOCSPACE_REQUEST_HEADER_PREFIX"
+            }
+          ]
+        },
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@onlyoffice/docspace-mcp",
+          "version": "3.1.0",
+          "runtimeHint": "npx",
+          "transport": {
+            "type": "streamable-http",
+            "url": "https://example.com/mcp",
+            "headers": [
+              {
+                "description": "The flag that indicates whether the MCP server should use meta tools.",
+                "format": "boolean",
+                "default": "false",
+                "name": "X-Mcp-Dynamic"
+              },
+              {
+                "description": "The list of toolsets to enable for the MCP server.",
+                "format": "string",
+                "default": "all",
+                "choices": [
+                  "files",
+                  "folders",
+                  "rooms",
+                  "people"
+                ],
+                "name": "X-Mcp-Toolsets"
+              },
+              {
+                "description": "The list of tools to enable for the MCP server.",
+                "format": "string",
+                "choices": [
+                  "delete_file",
+                  "get_file_info",
+                  "update_file",
+                  "copy_batch_items",
+                  "move_batch_items",
+                  "download_file_as_text",
+                  "upload_file",
+                  "create_folder",
+                  "delete_folder",
+                  "get_folder_content",
+                  "get_folder_info",
+                  "rename_folder",
+                  "get_my_folder",
+                  "create_room",
+                  "get_room_info",
+                  "update_room",
+                  "archive_room",
+                  "set_room_security",
+                  "get_room_security_info",
+                  "get_rooms_folder",
+                  "get_room_types",
+                  "get_room_access_levels",
+                  "get_all_people"
+                ],
+                "name": "X-Mcp-Enabled-Tools"
+              },
+              {
+                "description": "The list of tools to disable for the MCP server.",
+                "format": "string",
+                "choices": [
+                  "delete_file",
+                  "get_file_info",
+                  "update_file",
+                  "copy_batch_items",
+                  "move_batch_items",
+                  "download_file_as_text",
+                  "upload_file",
+                  "create_folder",
+                  "delete_folder",
+                  "get_folder_content",
+                  "get_folder_info",
+                  "rename_folder",
+                  "get_my_folder",
+                  "create_room",
+                  "get_room_info",
+                  "update_room",
+                  "archive_room",
+                  "set_room_security",
+                  "get_room_security_info",
+                  "get_rooms_folder",
+                  "get_room_types",
+                  "get_room_access_levels",
+                  "get_all_people"
+                ],
+                "name": "X-Mcp-Disabled-Tools"
+              },
+              {
+                "description": "The base URL of the DocSpace instance for API requests.",
+                "format": "string",
+                "name": "X-Mcp-Base-Url"
+              },
+              {
+                "description": "The API key for accessing the API.",
+                "format": "string",
+                "isSecret": true,
+                "name": "X-Mcp-Api-Key"
+              },
+              {
+                "description": "The Personal Access Token (PAT) for accessing the API.",
+                "format": "string",
+                "isSecret": true,
+                "name": "X-Mcp-Auth-Token"
+              },
+              {
+                "description": "The username for accessing the API using basic authentication.",
+                "format": "string",
+                "name": "X-Mcp-Username"
+              },
+              {
+                "description": "The password for accessing the API using basic authentication.",
+                "format": "string",
+                "isSecret": true,
+                "name": "X-Mcp-Password"
+              }
+            ]
+          },
+          "environmentVariables": [
+            {
+              "description": "The transport protocol to use for communication with the MCP server.",
+              "format": "string",
+              "default": "stdio",
+              "choices": [
+                "stdio",
+                "sse",
+                "streamable-http",
+                "http"
+              ],
+              "name": "DOCSPACE_TRANSPORT"
+            },
+            {
+              "description": "The flag that indicates whether the MCP server should use meta tools.",
+              "format": "boolean",
+              "default": "false",
+              "name": "DOCSPACE_DYNAMIC"
+            },
+            {
+              "description": "The list of toolsets to enable for the MCP server.",
+              "format": "string",
+              "default": "all",
+              "choices": [
+                "files",
+                "folders",
+                "rooms",
+                "people"
+              ],
+              "name": "DOCSPACE_TOOLSETS"
+            },
+            {
+              "description": "The list of tools to enable for the MCP server.",
+              "format": "string",
+              "choices": [
+                "delete_file",
+                "get_file_info",
+                "update_file",
+                "copy_batch_items",
+                "move_batch_items",
+                "download_file_as_text",
+                "upload_file",
+                "create_folder",
+                "delete_folder",
+                "get_folder_content",
+                "get_folder_info",
+                "rename_folder",
+                "get_my_folder",
+                "create_room",
+                "get_room_info",
+                "update_room",
+                "archive_room",
+                "set_room_security",
+                "get_room_security_info",
+                "get_rooms_folder",
+                "get_room_types",
+                "get_room_access_levels",
+                "get_all_people"
+              ],
+              "name": "DOCSPACE_ENABLED_TOOLS"
+            },
+            {
+              "description": "The list of tools to disable for the MCP server.",
+              "format": "string",
+              "choices": [
+                "delete_file",
+                "get_file_info",
+                "update_file",
+                "copy_batch_items",
+                "move_batch_items",
+                "download_file_as_text",
+                "upload_file",
+                "create_folder",
+                "delete_folder",
+                "get_folder_content",
+                "get_folder_info",
+                "rename_folder",
+                "get_my_folder",
+                "create_room",
+                "get_room_info",
+                "update_room",
+                "archive_room",
+                "set_room_security",
+                "get_room_security_info",
+                "get_rooms_folder",
+                "get_room_types",
+                "get_room_access_levels",
+                "get_all_people"
+              ],
+              "name": "DOCSPACE_DISABLED_TOOLS"
+            },
+            {
+              "description": "The time-to-live (TTL) for HTTP sessions in milliseconds.",
+              "format": "number",
+              "default": "28800000",
+              "name": "DOCSPACE_SESSION_TTL"
+            },
+            {
+              "description": "The interval for checking HTTP sessions for expiration in milliseconds.",
+              "format": "number",
+              "default": "240000",
+              "name": "DOCSPACE_SESSION_INTERVAL"
+            },
+            {
+              "description": "The user agent to include in the User-Agent header for API requests.",
+              "format": "string",
+              "default": "@onlyoffice/docspace-mcp v3.1.0",
+              "name": "DOCSPACE_USER_AGENT"
+            },
+            {
+              "description": "The base URL of the DocSpace instance for API requests.",
+              "format": "string",
+              "name": "DOCSPACE_BASE_URL"
+            },
+            {
+              "description": "The raw value to include in the Authorization header for API requests.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_AUTHORIZATION"
+            },
+            {
+              "description": "The API key for accessing the API.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_API_KEY"
+            },
+            {
+              "description": "The Personal Access Token (PAT) for accessing the API.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_AUTH_TOKEN"
+            },
+            {
+              "description": "The username for accessing the API using basic authentication.",
+              "format": "string",
+              "name": "DOCSPACE_USERNAME"
+            },
+            {
+              "description": "The password for accessing the API using basic authentication.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_PASSWORD"
+            },
+            {
+              "description": "The base URL of the DocSpace OAuth service for OAuth requests.",
+              "format": "string",
+              "name": "DOCSPACE_OAUTH_BASE_URL"
+            },
+            {
+              "description": "The client ID of the OAuth application.",
+              "format": "string",
+              "name": "DOCSPACE_OAUTH_CLIENT_ID"
+            },
+            {
+              "description": "The client secret of the OAuth application.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_OAUTH_CLIENT_SECRET"
+            },
+            {
+              "description": "The algorithm to use for signing OAuth access tokens.",
+              "format": "string",
+              "default": "HS256",
+              "choices": [
+                "HS256",
+                "HS384",
+                "HS512"
+              ],
+              "name": "DOCSPACE_OAUTH_AUTH_TOKEN_ALGORITHM"
+            },
+            {
+              "description": "The time-to-live (TTL) for OAuth access tokens in milliseconds.",
+              "format": "number",
+              "default": "3600000",
+              "name": "DOCSPACE_OAUTH_AUTH_TOKEN_TTL"
+            },
+            {
+              "description": "The secret key to use for signing OAuth access tokens.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_OAUTH_AUTH_TOKEN_SECRET_KEY"
+            },
+            {
+              "description": "The algorithm to use for signing OAuth state tokens.",
+              "format": "string",
+              "default": "HS256",
+              "choices": [
+                "HS256",
+                "HS384",
+                "HS512"
+              ],
+              "name": "DOCSPACE_OAUTH_STATE_TOKEN_ALGORITHM"
+            },
+            {
+              "description": "The time-to-live (TTL) for OAuth state tokens in milliseconds.",
+              "format": "number",
+              "default": "3600000",
+              "name": "DOCSPACE_OAUTH_STATE_TOKEN_TTL"
+            },
+            {
+              "description": "The secret key to use for signing OAuth state tokens.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_OAUTH_STATE_TOKEN_SECRET_KEY"
+            },
+            {
+              "description": "The base URL of the server.",
+              "format": "string",
+              "name": "DOCSPACE_SERVER_BASE_URL"
+            },
+            {
+              "description": "The host to bind the server to.",
+              "format": "string",
+              "default": "127.0.0.1",
+              "name": "DOCSPACE_HOST"
+            },
+            {
+              "description": "The port to bind the server to.",
+              "format": "number",
+              "default": "8080",
+              "name": "DOCSPACE_PORT"
+            },
+            {
+              "description": "The number of proxy servers between the server and the client.",
+              "format": "number",
+              "default": "0",
+              "name": "DOCSPACE_SERVER_PROXY_HOPS"
+            },
+            {
+              "description": "The list of allowed origins to include in the Access-Control-Allow-Origin header for CORS requests to MCP endpoints.",
+              "format": "string",
+              "default": "*",
+              "name": "DOCSPACE_SERVER_CORS_MCP_ORIGIN"
+            },
+            {
+              "description": "The maximum age in milliseconds to include in the Access-Control-Max-Age header for CORS requests to MCP endpoints.",
+              "format": "number",
+              "default": "86400000",
+              "name": "DOCSPACE_SERVER_CORS_MCP_MAX_AGE"
+            },
+            {
+              "description": "The list of allowed origins to include in the Access-Control-Allow-Origin header for CORS requests to OAuth endpoints.",
+              "format": "string",
+              "default": "*",
+              "name": "DOCSPACE_SERVER_CORS_OAUTH_ORIGIN"
+            },
+            {
+              "description": "The maximum age in milliseconds to include in the Access-Control-Max-Age header for CORS requests to OAuth endpoints.",
+              "format": "number",
+              "default": "86400000",
+              "name": "DOCSPACE_SERVER_CORS_OAUTH_MAX_AGE"
+            },
+            {
+              "description": "The maximum number of requests allowed per window for the MCP endpoints.",
+              "format": "number",
+              "default": "1000",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_MCP_CAPACITY"
+            },
+            {
+              "description": "The time window in milliseconds for the rate limit for the MCP endpoints.",
+              "format": "number",
+              "default": "1000",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_MCP_WINDOW"
+            },
+            {
+              "description": "The maximum number of requests allowed per window for the OAuth server metadata endpoint.",
+              "format": "number",
+              "default": "200",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_SERVER_METADATA_CAPACITY"
+            },
+            {
+              "description": "The time window in milliseconds for the rate limit for the OAuth server metadata endpoint.",
+              "format": "number",
+              "default": "60000",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_SERVER_METADATA_WINDOW"
+            },
+            {
+              "description": "The maximum number of requests allowed per window for the OAuth resource metadata endpoint.",
+              "format": "number",
+              "default": "200",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_RESOURCE_METADATA_CAPACITY"
+            },
+            {
+              "description": "The time window in milliseconds for the rate limit for the OAuth resource metadata endpoint.",
+              "format": "number",
+              "default": "60000",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_RESOURCE_METADATA_WINDOW"
+            },
+            {
+              "description": "The maximum number of requests allowed per window for the OAuth authorization endpoint.",
+              "format": "number",
+              "default": "200",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_AUTHORIZE_CAPACITY"
+            },
+            {
+              "description": "The time window in milliseconds for the rate limit for the OAuth authorization endpoint.",
+              "format": "number",
+              "default": "60000",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_AUTHORIZE_WINDOW"
+            },
+            {
+              "description": "The maximum number of requests allowed per window for the OAuth callback endpoint.",
+              "format": "number",
+              "default": "200",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_CALLBACK_CAPACITY"
+            },
+            {
+              "description": "The time window in milliseconds for the rate limit for the OAuth callback endpoint.",
+              "format": "number",
+              "default": "60000",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_CALLBACK_WINDOW"
+            },
+            {
+              "description": "The maximum number of requests allowed per window for the OAuth introspection endpoint.",
+              "format": "number",
+              "default": "10",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_INTROSPECT_CAPACITY"
+            },
+            {
+              "description": "The time window in milliseconds for the rate limit for the OAuth introspection endpoint.",
+              "format": "number",
+              "default": "60000",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_INTROSPECT_WINDOW"
+            },
+            {
+              "description": "The maximum number of requests allowed per window for the OAuth client registration endpoint.",
+              "format": "number",
+              "default": "10",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_REGISTER_CAPACITY"
+            },
+            {
+              "description": "The time window in milliseconds for the rate limit for the OAuth client registration endpoint.",
+              "format": "number",
+              "default": "60000",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_REGISTER_WINDOW"
+            },
+            {
+              "description": "The maximum number of requests allowed per window for the OAuth token revocation endpoint.",
+              "format": "number",
+              "default": "10",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_REVOKE_CAPACITY"
+            },
+            {
+              "description": "The time window in milliseconds for the rate limit for the OAuth token revocation endpoint.",
+              "format": "number",
+              "default": "60000",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_REVOKE_WINDOW"
+            },
+            {
+              "description": "The maximum number of requests allowed per window for the OAuth token endpoint.",
+              "format": "number",
+              "default": "10",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_TOKEN_CAPACITY"
+            },
+            {
+              "description": "The time window in milliseconds for the rate limit for the OAuth token endpoint.",
+              "format": "number",
+              "default": "60000",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_TOKEN_WINDOW"
+            },
+            {
+              "description": "The flag that indicates whether the server should accept configuration via query parameters in incoming requests.",
+              "format": "boolean",
+              "default": "true",
+              "name": "DOCSPACE_REQUEST_QUERY"
+            },
+            {
+              "description": "The flag that indicates whether the server should check for the Authorization header in incoming requests.",
+              "format": "boolean",
+              "default": "true",
+              "name": "DOCSPACE_REQUEST_AUTHORIZATION_HEADER"
+            },
+            {
+              "description": "The prefix to use with custom configuration headers.",
+              "format": "string",
+              "default": "x-mcp-",
+              "name": "DOCSPACE_REQUEST_HEADER_PREFIX"
+            }
+          ]
+        },
+        {
+          "registryType": "oci",
+          "identifier": "docker.io/onlyoffice/docspace-mcp:3.1.0",
+          "runtimeHint": "docker",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "The transport protocol to use for communication with the MCP server.",
+              "format": "string",
+              "default": "stdio",
+              "choices": [
+                "stdio",
+                "sse",
+                "streamable-http",
+                "http"
+              ],
+              "name": "DOCSPACE_TRANSPORT"
+            },
+            {
+              "description": "The flag that indicates whether the MCP server should use meta tools.",
+              "format": "boolean",
+              "default": "false",
+              "name": "DOCSPACE_DYNAMIC"
+            },
+            {
+              "description": "The list of toolsets to enable for the MCP server.",
+              "format": "string",
+              "default": "all",
+              "choices": [
+                "files",
+                "folders",
+                "rooms",
+                "people"
+              ],
+              "name": "DOCSPACE_TOOLSETS"
+            },
+            {
+              "description": "The list of tools to enable for the MCP server.",
+              "format": "string",
+              "choices": [
+                "delete_file",
+                "get_file_info",
+                "update_file",
+                "copy_batch_items",
+                "move_batch_items",
+                "download_file_as_text",
+                "upload_file",
+                "create_folder",
+                "delete_folder",
+                "get_folder_content",
+                "get_folder_info",
+                "rename_folder",
+                "get_my_folder",
+                "create_room",
+                "get_room_info",
+                "update_room",
+                "archive_room",
+                "set_room_security",
+                "get_room_security_info",
+                "get_rooms_folder",
+                "get_room_types",
+                "get_room_access_levels",
+                "get_all_people"
+              ],
+              "name": "DOCSPACE_ENABLED_TOOLS"
+            },
+            {
+              "description": "The list of tools to disable for the MCP server.",
+              "format": "string",
+              "choices": [
+                "delete_file",
+                "get_file_info",
+                "update_file",
+                "copy_batch_items",
+                "move_batch_items",
+                "download_file_as_text",
+                "upload_file",
+                "create_folder",
+                "delete_folder",
+                "get_folder_content",
+                "get_folder_info",
+                "rename_folder",
+                "get_my_folder",
+                "create_room",
+                "get_room_info",
+                "update_room",
+                "archive_room",
+                "set_room_security",
+                "get_room_security_info",
+                "get_rooms_folder",
+                "get_room_types",
+                "get_room_access_levels",
+                "get_all_people"
+              ],
+              "name": "DOCSPACE_DISABLED_TOOLS"
+            },
+            {
+              "description": "The user agent to include in the User-Agent header for API requests.",
+              "format": "string",
+              "default": "@onlyoffice/docspace-mcp v3.1.0",
+              "name": "DOCSPACE_USER_AGENT"
+            },
+            {
+              "description": "The base URL of the DocSpace instance for API requests.",
+              "format": "string",
+              "name": "DOCSPACE_BASE_URL"
+            },
+            {
+              "description": "The raw value to include in the Authorization header for API requests.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_AUTHORIZATION"
+            },
+            {
+              "description": "The API key for accessing the API.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_API_KEY"
+            },
+            {
+              "description": "The Personal Access Token (PAT) for accessing the API.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_AUTH_TOKEN"
+            },
+            {
+              "description": "The username for accessing the API using basic authentication.",
+              "format": "string",
+              "name": "DOCSPACE_USERNAME"
+            },
+            {
+              "description": "The password for accessing the API using basic authentication.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_PASSWORD"
+            }
+          ]
+        },
+        {
+          "registryType": "oci",
+          "identifier": "docker.io/onlyoffice/docspace-mcp:3.1.0",
+          "runtimeHint": "docker",
+          "transport": {
+            "type": "sse",
+            "url": "https://example.com/mcp",
+            "headers": [
+              {
+                "description": "The flag that indicates whether the MCP server should use meta tools.",
+                "format": "boolean",
+                "default": "false",
+                "name": "X-Mcp-Dynamic"
+              },
+              {
+                "description": "The list of toolsets to enable for the MCP server.",
+                "format": "string",
+                "default": "all",
+                "choices": [
+                  "files",
+                  "folders",
+                  "rooms",
+                  "people"
+                ],
+                "name": "X-Mcp-Toolsets"
+              },
+              {
+                "description": "The list of tools to enable for the MCP server.",
+                "format": "string",
+                "choices": [
+                  "delete_file",
+                  "get_file_info",
+                  "update_file",
+                  "copy_batch_items",
+                  "move_batch_items",
+                  "download_file_as_text",
+                  "upload_file",
+                  "create_folder",
+                  "delete_folder",
+                  "get_folder_content",
+                  "get_folder_info",
+                  "rename_folder",
+                  "get_my_folder",
+                  "create_room",
+                  "get_room_info",
+                  "update_room",
+                  "archive_room",
+                  "set_room_security",
+                  "get_room_security_info",
+                  "get_rooms_folder",
+                  "get_room_types",
+                  "get_room_access_levels",
+                  "get_all_people"
+                ],
+                "name": "X-Mcp-Enabled-Tools"
+              },
+              {
+                "description": "The list of tools to disable for the MCP server.",
+                "format": "string",
+                "choices": [
+                  "delete_file",
+                  "get_file_info",
+                  "update_file",
+                  "copy_batch_items",
+                  "move_batch_items",
+                  "download_file_as_text",
+                  "upload_file",
+                  "create_folder",
+                  "delete_folder",
+                  "get_folder_content",
+                  "get_folder_info",
+                  "rename_folder",
+                  "get_my_folder",
+                  "create_room",
+                  "get_room_info",
+                  "update_room",
+                  "archive_room",
+                  "set_room_security",
+                  "get_room_security_info",
+                  "get_rooms_folder",
+                  "get_room_types",
+                  "get_room_access_levels",
+                  "get_all_people"
+                ],
+                "name": "X-Mcp-Disabled-Tools"
+              },
+              {
+                "description": "The base URL of the DocSpace instance for API requests.",
+                "format": "string",
+                "name": "X-Mcp-Base-Url"
+              },
+              {
+                "description": "The API key for accessing the API.",
+                "format": "string",
+                "isSecret": true,
+                "name": "X-Mcp-Api-Key"
+              },
+              {
+                "description": "The Personal Access Token (PAT) for accessing the API.",
+                "format": "string",
+                "isSecret": true,
+                "name": "X-Mcp-Auth-Token"
+              },
+              {
+                "description": "The username for accessing the API using basic authentication.",
+                "format": "string",
+                "name": "X-Mcp-Username"
+              },
+              {
+                "description": "The password for accessing the API using basic authentication.",
+                "format": "string",
+                "isSecret": true,
+                "name": "X-Mcp-Password"
+              }
+            ]
+          },
+          "environmentVariables": [
+            {
+              "description": "The transport protocol to use for communication with the MCP server.",
+              "format": "string",
+              "default": "stdio",
+              "choices": [
+                "stdio",
+                "sse",
+                "streamable-http",
+                "http"
+              ],
+              "name": "DOCSPACE_TRANSPORT"
+            },
+            {
+              "description": "The flag that indicates whether the MCP server should use meta tools.",
+              "format": "boolean",
+              "default": "false",
+              "name": "DOCSPACE_DYNAMIC"
+            },
+            {
+              "description": "The list of toolsets to enable for the MCP server.",
+              "format": "string",
+              "default": "all",
+              "choices": [
+                "files",
+                "folders",
+                "rooms",
+                "people"
+              ],
+              "name": "DOCSPACE_TOOLSETS"
+            },
+            {
+              "description": "The list of tools to enable for the MCP server.",
+              "format": "string",
+              "choices": [
+                "delete_file",
+                "get_file_info",
+                "update_file",
+                "copy_batch_items",
+                "move_batch_items",
+                "download_file_as_text",
+                "upload_file",
+                "create_folder",
+                "delete_folder",
+                "get_folder_content",
+                "get_folder_info",
+                "rename_folder",
+                "get_my_folder",
+                "create_room",
+                "get_room_info",
+                "update_room",
+                "archive_room",
+                "set_room_security",
+                "get_room_security_info",
+                "get_rooms_folder",
+                "get_room_types",
+                "get_room_access_levels",
+                "get_all_people"
+              ],
+              "name": "DOCSPACE_ENABLED_TOOLS"
+            },
+            {
+              "description": "The list of tools to disable for the MCP server.",
+              "format": "string",
+              "choices": [
+                "delete_file",
+                "get_file_info",
+                "update_file",
+                "copy_batch_items",
+                "move_batch_items",
+                "download_file_as_text",
+                "upload_file",
+                "create_folder",
+                "delete_folder",
+                "get_folder_content",
+                "get_folder_info",
+                "rename_folder",
+                "get_my_folder",
+                "create_room",
+                "get_room_info",
+                "update_room",
+                "archive_room",
+                "set_room_security",
+                "get_room_security_info",
+                "get_rooms_folder",
+                "get_room_types",
+                "get_room_access_levels",
+                "get_all_people"
+              ],
+              "name": "DOCSPACE_DISABLED_TOOLS"
+            },
+            {
+              "description": "The time-to-live (TTL) for HTTP sessions in milliseconds.",
+              "format": "number",
+              "default": "28800000",
+              "name": "DOCSPACE_SESSION_TTL"
+            },
+            {
+              "description": "The interval for checking HTTP sessions for expiration in milliseconds.",
+              "format": "number",
+              "default": "240000",
+              "name": "DOCSPACE_SESSION_INTERVAL"
+            },
+            {
+              "description": "The user agent to include in the User-Agent header for API requests.",
+              "format": "string",
+              "default": "@onlyoffice/docspace-mcp v3.1.0",
+              "name": "DOCSPACE_USER_AGENT"
+            },
+            {
+              "description": "The base URL of the DocSpace instance for API requests.",
+              "format": "string",
+              "name": "DOCSPACE_BASE_URL"
+            },
+            {
+              "description": "The raw value to include in the Authorization header for API requests.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_AUTHORIZATION"
+            },
+            {
+              "description": "The API key for accessing the API.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_API_KEY"
+            },
+            {
+              "description": "The Personal Access Token (PAT) for accessing the API.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_AUTH_TOKEN"
+            },
+            {
+              "description": "The username for accessing the API using basic authentication.",
+              "format": "string",
+              "name": "DOCSPACE_USERNAME"
+            },
+            {
+              "description": "The password for accessing the API using basic authentication.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_PASSWORD"
+            },
+            {
+              "description": "The base URL of the DocSpace OAuth service for OAuth requests.",
+              "format": "string",
+              "name": "DOCSPACE_OAUTH_BASE_URL"
+            },
+            {
+              "description": "The client ID of the OAuth application.",
+              "format": "string",
+              "name": "DOCSPACE_OAUTH_CLIENT_ID"
+            },
+            {
+              "description": "The client secret of the OAuth application.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_OAUTH_CLIENT_SECRET"
+            },
+            {
+              "description": "The algorithm to use for signing OAuth access tokens.",
+              "format": "string",
+              "default": "HS256",
+              "choices": [
+                "HS256",
+                "HS384",
+                "HS512"
+              ],
+              "name": "DOCSPACE_OAUTH_AUTH_TOKEN_ALGORITHM"
+            },
+            {
+              "description": "The time-to-live (TTL) for OAuth access tokens in milliseconds.",
+              "format": "number",
+              "default": "3600000",
+              "name": "DOCSPACE_OAUTH_AUTH_TOKEN_TTL"
+            },
+            {
+              "description": "The secret key to use for signing OAuth access tokens.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_OAUTH_AUTH_TOKEN_SECRET_KEY"
+            },
+            {
+              "description": "The algorithm to use for signing OAuth state tokens.",
+              "format": "string",
+              "default": "HS256",
+              "choices": [
+                "HS256",
+                "HS384",
+                "HS512"
+              ],
+              "name": "DOCSPACE_OAUTH_STATE_TOKEN_ALGORITHM"
+            },
+            {
+              "description": "The time-to-live (TTL) for OAuth state tokens in milliseconds.",
+              "format": "number",
+              "default": "3600000",
+              "name": "DOCSPACE_OAUTH_STATE_TOKEN_TTL"
+            },
+            {
+              "description": "The secret key to use for signing OAuth state tokens.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_OAUTH_STATE_TOKEN_SECRET_KEY"
+            },
+            {
+              "description": "The base URL of the server.",
+              "format": "string",
+              "name": "DOCSPACE_SERVER_BASE_URL"
+            },
+            {
+              "description": "The host to bind the server to.",
+              "format": "string",
+              "default": "127.0.0.1",
+              "name": "DOCSPACE_HOST"
+            },
+            {
+              "description": "The port to bind the server to.",
+              "format": "number",
+              "default": "8080",
+              "name": "DOCSPACE_PORT"
+            },
+            {
+              "description": "The number of proxy servers between the server and the client.",
+              "format": "number",
+              "default": "0",
+              "name": "DOCSPACE_SERVER_PROXY_HOPS"
+            },
+            {
+              "description": "The list of allowed origins to include in the Access-Control-Allow-Origin header for CORS requests to MCP endpoints.",
+              "format": "string",
+              "default": "*",
+              "name": "DOCSPACE_SERVER_CORS_MCP_ORIGIN"
+            },
+            {
+              "description": "The maximum age in milliseconds to include in the Access-Control-Max-Age header for CORS requests to MCP endpoints.",
+              "format": "number",
+              "default": "86400000",
+              "name": "DOCSPACE_SERVER_CORS_MCP_MAX_AGE"
+            },
+            {
+              "description": "The list of allowed origins to include in the Access-Control-Allow-Origin header for CORS requests to OAuth endpoints.",
+              "format": "string",
+              "default": "*",
+              "name": "DOCSPACE_SERVER_CORS_OAUTH_ORIGIN"
+            },
+            {
+              "description": "The maximum age in milliseconds to include in the Access-Control-Max-Age header for CORS requests to OAuth endpoints.",
+              "format": "number",
+              "default": "86400000",
+              "name": "DOCSPACE_SERVER_CORS_OAUTH_MAX_AGE"
+            },
+            {
+              "description": "The maximum number of requests allowed per window for the MCP endpoints.",
+              "format": "number",
+              "default": "1000",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_MCP_CAPACITY"
+            },
+            {
+              "description": "The time window in milliseconds for the rate limit for the MCP endpoints.",
+              "format": "number",
+              "default": "1000",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_MCP_WINDOW"
+            },
+            {
+              "description": "The maximum number of requests allowed per window for the OAuth server metadata endpoint.",
+              "format": "number",
+              "default": "200",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_SERVER_METADATA_CAPACITY"
+            },
+            {
+              "description": "The time window in milliseconds for the rate limit for the OAuth server metadata endpoint.",
+              "format": "number",
+              "default": "60000",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_SERVER_METADATA_WINDOW"
+            },
+            {
+              "description": "The maximum number of requests allowed per window for the OAuth resource metadata endpoint.",
+              "format": "number",
+              "default": "200",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_RESOURCE_METADATA_CAPACITY"
+            },
+            {
+              "description": "The time window in milliseconds for the rate limit for the OAuth resource metadata endpoint.",
+              "format": "number",
+              "default": "60000",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_RESOURCE_METADATA_WINDOW"
+            },
+            {
+              "description": "The maximum number of requests allowed per window for the OAuth authorization endpoint.",
+              "format": "number",
+              "default": "200",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_AUTHORIZE_CAPACITY"
+            },
+            {
+              "description": "The time window in milliseconds for the rate limit for the OAuth authorization endpoint.",
+              "format": "number",
+              "default": "60000",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_AUTHORIZE_WINDOW"
+            },
+            {
+              "description": "The maximum number of requests allowed per window for the OAuth callback endpoint.",
+              "format": "number",
+              "default": "200",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_CALLBACK_CAPACITY"
+            },
+            {
+              "description": "The time window in milliseconds for the rate limit for the OAuth callback endpoint.",
+              "format": "number",
+              "default": "60000",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_CALLBACK_WINDOW"
+            },
+            {
+              "description": "The maximum number of requests allowed per window for the OAuth introspection endpoint.",
+              "format": "number",
+              "default": "10",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_INTROSPECT_CAPACITY"
+            },
+            {
+              "description": "The time window in milliseconds for the rate limit for the OAuth introspection endpoint.",
+              "format": "number",
+              "default": "60000",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_INTROSPECT_WINDOW"
+            },
+            {
+              "description": "The maximum number of requests allowed per window for the OAuth client registration endpoint.",
+              "format": "number",
+              "default": "10",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_REGISTER_CAPACITY"
+            },
+            {
+              "description": "The time window in milliseconds for the rate limit for the OAuth client registration endpoint.",
+              "format": "number",
+              "default": "60000",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_REGISTER_WINDOW"
+            },
+            {
+              "description": "The maximum number of requests allowed per window for the OAuth token revocation endpoint.",
+              "format": "number",
+              "default": "10",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_REVOKE_CAPACITY"
+            },
+            {
+              "description": "The time window in milliseconds for the rate limit for the OAuth token revocation endpoint.",
+              "format": "number",
+              "default": "60000",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_REVOKE_WINDOW"
+            },
+            {
+              "description": "The maximum number of requests allowed per window for the OAuth token endpoint.",
+              "format": "number",
+              "default": "10",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_TOKEN_CAPACITY"
+            },
+            {
+              "description": "The time window in milliseconds for the rate limit for the OAuth token endpoint.",
+              "format": "number",
+              "default": "60000",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_TOKEN_WINDOW"
+            },
+            {
+              "description": "The flag that indicates whether the server should accept configuration via query parameters in incoming requests.",
+              "format": "boolean",
+              "default": "true",
+              "name": "DOCSPACE_REQUEST_QUERY"
+            },
+            {
+              "description": "The flag that indicates whether the server should check for the Authorization header in incoming requests.",
+              "format": "boolean",
+              "default": "true",
+              "name": "DOCSPACE_REQUEST_AUTHORIZATION_HEADER"
+            },
+            {
+              "description": "The prefix to use with custom configuration headers.",
+              "format": "string",
+              "default": "x-mcp-",
+              "name": "DOCSPACE_REQUEST_HEADER_PREFIX"
+            }
+          ]
+        },
+        {
+          "registryType": "oci",
+          "identifier": "docker.io/onlyoffice/docspace-mcp:3.1.0",
+          "runtimeHint": "docker",
+          "transport": {
+            "type": "streamable-http",
+            "url": "https://example.com/mcp",
+            "headers": [
+              {
+                "description": "The flag that indicates whether the MCP server should use meta tools.",
+                "format": "boolean",
+                "default": "false",
+                "name": "X-Mcp-Dynamic"
+              },
+              {
+                "description": "The list of toolsets to enable for the MCP server.",
+                "format": "string",
+                "default": "all",
+                "choices": [
+                  "files",
+                  "folders",
+                  "rooms",
+                  "people"
+                ],
+                "name": "X-Mcp-Toolsets"
+              },
+              {
+                "description": "The list of tools to enable for the MCP server.",
+                "format": "string",
+                "choices": [
+                  "delete_file",
+                  "get_file_info",
+                  "update_file",
+                  "copy_batch_items",
+                  "move_batch_items",
+                  "download_file_as_text",
+                  "upload_file",
+                  "create_folder",
+                  "delete_folder",
+                  "get_folder_content",
+                  "get_folder_info",
+                  "rename_folder",
+                  "get_my_folder",
+                  "create_room",
+                  "get_room_info",
+                  "update_room",
+                  "archive_room",
+                  "set_room_security",
+                  "get_room_security_info",
+                  "get_rooms_folder",
+                  "get_room_types",
+                  "get_room_access_levels",
+                  "get_all_people"
+                ],
+                "name": "X-Mcp-Enabled-Tools"
+              },
+              {
+                "description": "The list of tools to disable for the MCP server.",
+                "format": "string",
+                "choices": [
+                  "delete_file",
+                  "get_file_info",
+                  "update_file",
+                  "copy_batch_items",
+                  "move_batch_items",
+                  "download_file_as_text",
+                  "upload_file",
+                  "create_folder",
+                  "delete_folder",
+                  "get_folder_content",
+                  "get_folder_info",
+                  "rename_folder",
+                  "get_my_folder",
+                  "create_room",
+                  "get_room_info",
+                  "update_room",
+                  "archive_room",
+                  "set_room_security",
+                  "get_room_security_info",
+                  "get_rooms_folder",
+                  "get_room_types",
+                  "get_room_access_levels",
+                  "get_all_people"
+                ],
+                "name": "X-Mcp-Disabled-Tools"
+              },
+              {
+                "description": "The base URL of the DocSpace instance for API requests.",
+                "format": "string",
+                "name": "X-Mcp-Base-Url"
+              },
+              {
+                "description": "The API key for accessing the API.",
+                "format": "string",
+                "isSecret": true,
+                "name": "X-Mcp-Api-Key"
+              },
+              {
+                "description": "The Personal Access Token (PAT) for accessing the API.",
+                "format": "string",
+                "isSecret": true,
+                "name": "X-Mcp-Auth-Token"
+              },
+              {
+                "description": "The username for accessing the API using basic authentication.",
+                "format": "string",
+                "name": "X-Mcp-Username"
+              },
+              {
+                "description": "The password for accessing the API using basic authentication.",
+                "format": "string",
+                "isSecret": true,
+                "name": "X-Mcp-Password"
+              }
+            ]
+          },
+          "environmentVariables": [
+            {
+              "description": "The transport protocol to use for communication with the MCP server.",
+              "format": "string",
+              "default": "stdio",
+              "choices": [
+                "stdio",
+                "sse",
+                "streamable-http",
+                "http"
+              ],
+              "name": "DOCSPACE_TRANSPORT"
+            },
+            {
+              "description": "The flag that indicates whether the MCP server should use meta tools.",
+              "format": "boolean",
+              "default": "false",
+              "name": "DOCSPACE_DYNAMIC"
+            },
+            {
+              "description": "The list of toolsets to enable for the MCP server.",
+              "format": "string",
+              "default": "all",
+              "choices": [
+                "files",
+                "folders",
+                "rooms",
+                "people"
+              ],
+              "name": "DOCSPACE_TOOLSETS"
+            },
+            {
+              "description": "The list of tools to enable for the MCP server.",
+              "format": "string",
+              "choices": [
+                "delete_file",
+                "get_file_info",
+                "update_file",
+                "copy_batch_items",
+                "move_batch_items",
+                "download_file_as_text",
+                "upload_file",
+                "create_folder",
+                "delete_folder",
+                "get_folder_content",
+                "get_folder_info",
+                "rename_folder",
+                "get_my_folder",
+                "create_room",
+                "get_room_info",
+                "update_room",
+                "archive_room",
+                "set_room_security",
+                "get_room_security_info",
+                "get_rooms_folder",
+                "get_room_types",
+                "get_room_access_levels",
+                "get_all_people"
+              ],
+              "name": "DOCSPACE_ENABLED_TOOLS"
+            },
+            {
+              "description": "The list of tools to disable for the MCP server.",
+              "format": "string",
+              "choices": [
+                "delete_file",
+                "get_file_info",
+                "update_file",
+                "copy_batch_items",
+                "move_batch_items",
+                "download_file_as_text",
+                "upload_file",
+                "create_folder",
+                "delete_folder",
+                "get_folder_content",
+                "get_folder_info",
+                "rename_folder",
+                "get_my_folder",
+                "create_room",
+                "get_room_info",
+                "update_room",
+                "archive_room",
+                "set_room_security",
+                "get_room_security_info",
+                "get_rooms_folder",
+                "get_room_types",
+                "get_room_access_levels",
+                "get_all_people"
+              ],
+              "name": "DOCSPACE_DISABLED_TOOLS"
+            },
+            {
+              "description": "The time-to-live (TTL) for HTTP sessions in milliseconds.",
+              "format": "number",
+              "default": "28800000",
+              "name": "DOCSPACE_SESSION_TTL"
+            },
+            {
+              "description": "The interval for checking HTTP sessions for expiration in milliseconds.",
+              "format": "number",
+              "default": "240000",
+              "name": "DOCSPACE_SESSION_INTERVAL"
+            },
+            {
+              "description": "The user agent to include in the User-Agent header for API requests.",
+              "format": "string",
+              "default": "@onlyoffice/docspace-mcp v3.1.0",
+              "name": "DOCSPACE_USER_AGENT"
+            },
+            {
+              "description": "The base URL of the DocSpace instance for API requests.",
+              "format": "string",
+              "name": "DOCSPACE_BASE_URL"
+            },
+            {
+              "description": "The raw value to include in the Authorization header for API requests.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_AUTHORIZATION"
+            },
+            {
+              "description": "The API key for accessing the API.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_API_KEY"
+            },
+            {
+              "description": "The Personal Access Token (PAT) for accessing the API.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_AUTH_TOKEN"
+            },
+            {
+              "description": "The username for accessing the API using basic authentication.",
+              "format": "string",
+              "name": "DOCSPACE_USERNAME"
+            },
+            {
+              "description": "The password for accessing the API using basic authentication.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_PASSWORD"
+            },
+            {
+              "description": "The base URL of the DocSpace OAuth service for OAuth requests.",
+              "format": "string",
+              "name": "DOCSPACE_OAUTH_BASE_URL"
+            },
+            {
+              "description": "The client ID of the OAuth application.",
+              "format": "string",
+              "name": "DOCSPACE_OAUTH_CLIENT_ID"
+            },
+            {
+              "description": "The client secret of the OAuth application.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_OAUTH_CLIENT_SECRET"
+            },
+            {
+              "description": "The algorithm to use for signing OAuth access tokens.",
+              "format": "string",
+              "default": "HS256",
+              "choices": [
+                "HS256",
+                "HS384",
+                "HS512"
+              ],
+              "name": "DOCSPACE_OAUTH_AUTH_TOKEN_ALGORITHM"
+            },
+            {
+              "description": "The time-to-live (TTL) for OAuth access tokens in milliseconds.",
+              "format": "number",
+              "default": "3600000",
+              "name": "DOCSPACE_OAUTH_AUTH_TOKEN_TTL"
+            },
+            {
+              "description": "The secret key to use for signing OAuth access tokens.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_OAUTH_AUTH_TOKEN_SECRET_KEY"
+            },
+            {
+              "description": "The algorithm to use for signing OAuth state tokens.",
+              "format": "string",
+              "default": "HS256",
+              "choices": [
+                "HS256",
+                "HS384",
+                "HS512"
+              ],
+              "name": "DOCSPACE_OAUTH_STATE_TOKEN_ALGORITHM"
+            },
+            {
+              "description": "The time-to-live (TTL) for OAuth state tokens in milliseconds.",
+              "format": "number",
+              "default": "3600000",
+              "name": "DOCSPACE_OAUTH_STATE_TOKEN_TTL"
+            },
+            {
+              "description": "The secret key to use for signing OAuth state tokens.",
+              "format": "string",
+              "isSecret": true,
+              "name": "DOCSPACE_OAUTH_STATE_TOKEN_SECRET_KEY"
+            },
+            {
+              "description": "The base URL of the server.",
+              "format": "string",
+              "name": "DOCSPACE_SERVER_BASE_URL"
+            },
+            {
+              "description": "The host to bind the server to.",
+              "format": "string",
+              "default": "127.0.0.1",
+              "name": "DOCSPACE_HOST"
+            },
+            {
+              "description": "The port to bind the server to.",
+              "format": "number",
+              "default": "8080",
+              "name": "DOCSPACE_PORT"
+            },
+            {
+              "description": "The number of proxy servers between the server and the client.",
+              "format": "number",
+              "default": "0",
+              "name": "DOCSPACE_SERVER_PROXY_HOPS"
+            },
+            {
+              "description": "The list of allowed origins to include in the Access-Control-Allow-Origin header for CORS requests to MCP endpoints.",
+              "format": "string",
+              "default": "*",
+              "name": "DOCSPACE_SERVER_CORS_MCP_ORIGIN"
+            },
+            {
+              "description": "The maximum age in milliseconds to include in the Access-Control-Max-Age header for CORS requests to MCP endpoints.",
+              "format": "number",
+              "default": "86400000",
+              "name": "DOCSPACE_SERVER_CORS_MCP_MAX_AGE"
+            },
+            {
+              "description": "The list of allowed origins to include in the Access-Control-Allow-Origin header for CORS requests to OAuth endpoints.",
+              "format": "string",
+              "default": "*",
+              "name": "DOCSPACE_SERVER_CORS_OAUTH_ORIGIN"
+            },
+            {
+              "description": "The maximum age in milliseconds to include in the Access-Control-Max-Age header for CORS requests to OAuth endpoints.",
+              "format": "number",
+              "default": "86400000",
+              "name": "DOCSPACE_SERVER_CORS_OAUTH_MAX_AGE"
+            },
+            {
+              "description": "The maximum number of requests allowed per window for the MCP endpoints.",
+              "format": "number",
+              "default": "1000",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_MCP_CAPACITY"
+            },
+            {
+              "description": "The time window in milliseconds for the rate limit for the MCP endpoints.",
+              "format": "number",
+              "default": "1000",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_MCP_WINDOW"
+            },
+            {
+              "description": "The maximum number of requests allowed per window for the OAuth server metadata endpoint.",
+              "format": "number",
+              "default": "200",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_SERVER_METADATA_CAPACITY"
+            },
+            {
+              "description": "The time window in milliseconds for the rate limit for the OAuth server metadata endpoint.",
+              "format": "number",
+              "default": "60000",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_SERVER_METADATA_WINDOW"
+            },
+            {
+              "description": "The maximum number of requests allowed per window for the OAuth resource metadata endpoint.",
+              "format": "number",
+              "default": "200",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_RESOURCE_METADATA_CAPACITY"
+            },
+            {
+              "description": "The time window in milliseconds for the rate limit for the OAuth resource metadata endpoint.",
+              "format": "number",
+              "default": "60000",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_RESOURCE_METADATA_WINDOW"
+            },
+            {
+              "description": "The maximum number of requests allowed per window for the OAuth authorization endpoint.",
+              "format": "number",
+              "default": "200",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_AUTHORIZE_CAPACITY"
+            },
+            {
+              "description": "The time window in milliseconds for the rate limit for the OAuth authorization endpoint.",
+              "format": "number",
+              "default": "60000",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_AUTHORIZE_WINDOW"
+            },
+            {
+              "description": "The maximum number of requests allowed per window for the OAuth callback endpoint.",
+              "format": "number",
+              "default": "200",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_CALLBACK_CAPACITY"
+            },
+            {
+              "description": "The time window in milliseconds for the rate limit for the OAuth callback endpoint.",
+              "format": "number",
+              "default": "60000",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_CALLBACK_WINDOW"
+            },
+            {
+              "description": "The maximum number of requests allowed per window for the OAuth introspection endpoint.",
+              "format": "number",
+              "default": "10",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_INTROSPECT_CAPACITY"
+            },
+            {
+              "description": "The time window in milliseconds for the rate limit for the OAuth introspection endpoint.",
+              "format": "number",
+              "default": "60000",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_INTROSPECT_WINDOW"
+            },
+            {
+              "description": "The maximum number of requests allowed per window for the OAuth client registration endpoint.",
+              "format": "number",
+              "default": "10",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_REGISTER_CAPACITY"
+            },
+            {
+              "description": "The time window in milliseconds for the rate limit for the OAuth client registration endpoint.",
+              "format": "number",
+              "default": "60000",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_REGISTER_WINDOW"
+            },
+            {
+              "description": "The maximum number of requests allowed per window for the OAuth token revocation endpoint.",
+              "format": "number",
+              "default": "10",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_REVOKE_CAPACITY"
+            },
+            {
+              "description": "The time window in milliseconds for the rate limit for the OAuth token revocation endpoint.",
+              "format": "number",
+              "default": "60000",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_REVOKE_WINDOW"
+            },
+            {
+              "description": "The maximum number of requests allowed per window for the OAuth token endpoint.",
+              "format": "number",
+              "default": "10",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_TOKEN_CAPACITY"
+            },
+            {
+              "description": "The time window in milliseconds for the rate limit for the OAuth token endpoint.",
+              "format": "number",
+              "default": "60000",
+              "name": "DOCSPACE_SERVER_RATE_LIMITS_OAUTH_TOKEN_WINDOW"
+            },
+            {
+              "description": "The flag that indicates whether the server should accept configuration via query parameters in incoming requests.",
+              "format": "boolean",
+              "default": "true",
+              "name": "DOCSPACE_REQUEST_QUERY"
+            },
+            {
+              "description": "The flag that indicates whether the server should check for the Authorization header in incoming requests.",
+              "format": "boolean",
+              "default": "true",
+              "name": "DOCSPACE_REQUEST_AUTHORIZATION_HEADER"
+            },
+            {
+              "description": "The prefix to use with custom configuration headers.",
+              "format": "string",
+              "default": "x-mcp-",
+              "name": "DOCSPACE_REQUEST_HEADER_PREFIX"
+            }
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "sse",
+          "url": "https://mcp.onlyoffice.com/sse",
+          "headers": [
+            {
+              "description": "The flag that indicates whether the MCP server should use meta tools.",
+              "format": "boolean",
+              "default": "false",
+              "name": "X-Mcp-Dynamic"
+            },
+            {
+              "description": "The list of toolsets to enable for the MCP server.",
+              "format": "string",
+              "default": "all",
+              "choices": [
+                "files",
+                "folders",
+                "rooms",
+                "people"
+              ],
+              "name": "X-Mcp-Toolsets"
+            },
+            {
+              "description": "The list of tools to enable for the MCP server.",
+              "format": "string",
+              "choices": [
+                "delete_file",
+                "get_file_info",
+                "update_file",
+                "copy_batch_items",
+                "move_batch_items",
+                "download_file_as_text",
+                "upload_file",
+                "create_folder",
+                "delete_folder",
+                "get_folder_content",
+                "get_folder_info",
+                "rename_folder",
+                "get_my_folder",
+                "create_room",
+                "get_room_info",
+                "update_room",
+                "archive_room",
+                "set_room_security",
+                "get_room_security_info",
+                "get_rooms_folder",
+                "get_room_types",
+                "get_room_access_levels",
+                "get_all_people"
+              ],
+              "name": "X-Mcp-Enabled-Tools"
+            },
+            {
+              "description": "The list of tools to disable for the MCP server.",
+              "format": "string",
+              "choices": [
+                "delete_file",
+                "get_file_info",
+                "update_file",
+                "copy_batch_items",
+                "move_batch_items",
+                "download_file_as_text",
+                "upload_file",
+                "create_folder",
+                "delete_folder",
+                "get_folder_content",
+                "get_folder_info",
+                "rename_folder",
+                "get_my_folder",
+                "create_room",
+                "get_room_info",
+                "update_room",
+                "archive_room",
+                "set_room_security",
+                "get_room_security_info",
+                "get_rooms_folder",
+                "get_room_types",
+                "get_room_access_levels",
+                "get_all_people"
+              ],
+              "name": "X-Mcp-Disabled-Tools"
+            },
+            {
+              "description": "The base URL of the DocSpace instance for API requests.",
+              "format": "string",
+              "name": "X-Mcp-Base-Url"
+            },
+            {
+              "description": "The API key for accessing the API.",
+              "format": "string",
+              "isSecret": true,
+              "name": "X-Mcp-Api-Key"
+            },
+            {
+              "description": "The Personal Access Token (PAT) for accessing the API.",
+              "format": "string",
+              "isSecret": true,
+              "name": "X-Mcp-Auth-Token"
+            },
+            {
+              "description": "The username for accessing the API using basic authentication.",
+              "format": "string",
+              "name": "X-Mcp-Username"
+            },
+            {
+              "description": "The password for accessing the API using basic authentication.",
+              "format": "string",
+              "isSecret": true,
+              "name": "X-Mcp-Password"
+            }
+          ]
+        },
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.onlyoffice.com/mcp",
+          "headers": [
+            {
+              "description": "The flag that indicates whether the MCP server should use meta tools.",
+              "format": "boolean",
+              "default": "false",
+              "name": "X-Mcp-Dynamic"
+            },
+            {
+              "description": "The list of toolsets to enable for the MCP server.",
+              "format": "string",
+              "default": "all",
+              "choices": [
+                "files",
+                "folders",
+                "rooms",
+                "people"
+              ],
+              "name": "X-Mcp-Toolsets"
+            },
+            {
+              "description": "The list of tools to enable for the MCP server.",
+              "format": "string",
+              "choices": [
+                "delete_file",
+                "get_file_info",
+                "update_file",
+                "copy_batch_items",
+                "move_batch_items",
+                "download_file_as_text",
+                "upload_file",
+                "create_folder",
+                "delete_folder",
+                "get_folder_content",
+                "get_folder_info",
+                "rename_folder",
+                "get_my_folder",
+                "create_room",
+                "get_room_info",
+                "update_room",
+                "archive_room",
+                "set_room_security",
+                "get_room_security_info",
+                "get_rooms_folder",
+                "get_room_types",
+                "get_room_access_levels",
+                "get_all_people"
+              ],
+              "name": "X-Mcp-Enabled-Tools"
+            },
+            {
+              "description": "The list of tools to disable for the MCP server.",
+              "format": "string",
+              "choices": [
+                "delete_file",
+                "get_file_info",
+                "update_file",
+                "copy_batch_items",
+                "move_batch_items",
+                "download_file_as_text",
+                "upload_file",
+                "create_folder",
+                "delete_folder",
+                "get_folder_content",
+                "get_folder_info",
+                "rename_folder",
+                "get_my_folder",
+                "create_room",
+                "get_room_info",
+                "update_room",
+                "archive_room",
+                "set_room_security",
+                "get_room_security_info",
+                "get_rooms_folder",
+                "get_room_types",
+                "get_room_access_levels",
+                "get_all_people"
+              ],
+              "name": "X-Mcp-Disabled-Tools"
+            },
+            {
+              "description": "The base URL of the DocSpace instance for API requests.",
+              "format": "string",
+              "name": "X-Mcp-Base-Url"
+            },
+            {
+              "description": "The API key for accessing the API.",
+              "format": "string",
+              "isSecret": true,
+              "name": "X-Mcp-Api-Key"
+            },
+            {
+              "description": "The Personal Access Token (PAT) for accessing the API.",
+              "format": "string",
+              "isSecret": true,
+              "name": "X-Mcp-Auth-Token"
+            },
+            {
+              "description": "The username for accessing the API using basic authentication.",
+              "format": "string",
+              "name": "X-Mcp-Username"
+            },
+            {
+              "description": "The password for accessing the API using basic authentication.",
+              "format": "string",
+              "isSecret": true,
+              "name": "X-Mcp-Password"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-28T09:21:31.261779Z",
+        "updatedAt": "2025-11-28T09:21:31.261779Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.fenetresurciel.verylongmcp/mcp-server-template-nodejs",
+      "description": "A non functional MCP server (yet)",
+      "title": "Second server!",
+      "version": "0.0.44",
+      "icons": [
+        {
+          "src": "https://alpic.ai/logo.png",
+          "mimeType": "image/png",
+          "sizes": [
+            "200x200"
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://verylongmcp.fenetresurciel.com",
+          "headers": [
+            {
+              "description": "Just put your api key",
+              "isRequired": true,
+              "name": "x-api-key"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-28T09:23:23.51662Z",
+        "updatedAt": "2025-11-28T09:23:23.51662Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.fenetresurciel.verylongmcp/mcp-server-template-nodejs",
+      "description": "A non functional MCP server (yet)",
+      "title": "Second server",
+      "version": "0.0.45",
+      "icons": [
+        {
+          "src": "https://alpic.ai/logo.png",
+          "mimeType": "image/png",
+          "sizes": [
+            "200x200"
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://verylongmcp.fenetresurciel.com",
+          "headers": [
+            {
+              "description": "Just put your api key",
+              "isRequired": true,
+              "name": "x-api-key"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-28T09:24:12.177161Z",
+        "updatedAt": "2025-11-28T09:24:12.177161Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.fenetresurciel.verylongmcp/mcp-server-template-nodejs",
+      "description": "A non functional MCP server (yet)",
+      "title": "Second server!",
+      "version": "0.0.46",
+      "icons": [
+        {
+          "src": "https://alpic.ai/logo.png",
+          "mimeType": "image/png",
+          "sizes": [
+            "200x200"
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://verylongmcp.fenetresurciel.com",
+          "headers": [
+            {
+              "description": "Just put your api key",
+              "isRequired": true,
+              "name": "x-api-key"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-28T09:24:25.308076Z",
+        "updatedAt": "2025-11-28T09:24:25.308076Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.fenetresurciel.verylongmcp/mcp-server-template-nodejs",
+      "description": "A non functional MCP server (yet)",
+      "title": "Second server",
+      "version": "0.0.47",
+      "icons": [
+        {
+          "src": "https://alpic.ai/logo.png",
+          "mimeType": "image/png",
+          "sizes": [
+            "200x200"
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://verylongmcp.fenetresurciel.com",
+          "headers": [
+            {
+              "description": "Just put your api key",
+              "isRequired": true,
+              "name": "x-api-key"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-28T09:27:13.978135Z",
+        "updatedAt": "2025-11-28T09:27:13.978135Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.fenetresurciel.verylongmcp/mcp-server-template-nodejs",
+      "description": "A non functional MCP server (yet)",
+      "title": "Second server!",
+      "version": "0.0.48",
+      "icons": [
+        {
+          "src": "https://alpic.ai/logo.png",
+          "mimeType": "image/png",
+          "sizes": [
+            "200x200"
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://verylongmcp.fenetresurciel.com",
+          "headers": [
+            {
+              "description": "Just put your api key",
+              "isRequired": true,
+              "name": "x-api-key"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-28T09:29:51.375701Z",
+        "updatedAt": "2025-11-28T09:29:51.375701Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.fenetresurciel.verylongmcp/mcp-server-template-nodejs",
+      "description": "A non functional MCP server (yet)",
+      "title": "Second server",
+      "version": "0.0.49",
+      "icons": [
+        {
+          "src": "https://alpic.ai/logo.png",
+          "mimeType": "image/png",
+          "sizes": [
+            "200x200"
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://verylongmcp.fenetresurciel.com",
+          "headers": [
+            {
+              "description": "Just put your api key",
+              "isRequired": true,
+              "name": "x-api-key"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-28T09:31:27.046503Z",
+        "updatedAt": "2025-11-28T09:31:27.046503Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.fenetresurciel.verylongmcp/mcp-server-template-nodejs",
+      "description": "A non functional MCP server (yet)",
+      "title": "Second server!",
+      "version": "0.0.50",
+      "icons": [
+        {
+          "src": "https://alpic.ai/logo.png",
+          "mimeType": "image/png",
+          "sizes": [
+            "200x200"
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://verylongmcp.fenetresurciel.com",
+          "headers": [
+            {
+              "description": "Just put your api key",
+              "isRequired": true,
+              "name": "x-api-key"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-28T09:33:04.248367Z",
+        "updatedAt": "2025-11-28T09:33:04.248367Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.fenetresurciel.verylongmcp/mcp-server-template-nodejs",
+      "description": "A non functional MCP server (yet)",
+      "title": "Second server",
+      "version": "0.0.51",
+      "icons": [
+        {
+          "src": "https://alpic.ai/logo.png",
+          "mimeType": "image/png",
+          "sizes": [
+            "200x200"
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://verylongmcp.fenetresurciel.com",
+          "headers": [
+            {
+              "description": "Just put your api key",
+              "isRequired": true,
+              "name": "x-api-key"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-28T09:41:18.286623Z",
+        "updatedAt": "2025-11-28T09:41:18.286623Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.fenetresurciel.verylongmcp/mcp-server-template-nodejs",
+      "description": "A non functional MCP server (yet)",
+      "title": "Second server!",
+      "version": "0.0.52",
+      "icons": [
+        {
+          "src": "https://alpic.ai/logo.png",
+          "mimeType": "image/png",
+          "sizes": [
+            "200x200"
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://verylongmcp.fenetresurciel.com",
+          "headers": [
+            {
+              "description": "Just put your api key",
+              "isRequired": true,
+              "name": "x-api-key"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-28T09:43:40.923397Z",
+        "updatedAt": "2025-11-28T09:43:40.923397Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.fenetresurciel.verylongmcp/mcp-server-template-nodejs",
+      "description": "A non functional MCP server (yet)",
+      "title": "Second server",
+      "version": "0.0.53",
+      "icons": [
+        {
+          "src": "https://alpic.ai/logo.png",
+          "mimeType": "image/png",
+          "sizes": [
+            "200x200"
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://verylongmcp.fenetresurciel.com",
+          "headers": [
+            {
+              "description": "Just put your api key",
+              "isRequired": true,
+              "name": "x-api-key"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-28T09:46:39.541354Z",
+        "updatedAt": "2025-11-28T09:46:39.541354Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.hostinger/hostinger-api-mcp",
+      "description": "MCP server for Hostinger API",
+      "repository": {
+        "url": "https://github.com/hostinger/api-mcp-server",
+        "source": "github"
+      },
+      "version": "0.1.21",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "hostinger-api-mcp",
+          "version": "0.1.21",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Hostinger API token",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "API_TOKEN"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-28T09:47:19.696456Z",
+        "updatedAt": "2025-11-28T09:47:19.696456Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.fenetresurciel.verylongmcp/mcp-server-template-nodejs",
+      "description": "A non functional MCP server (yet)",
+      "title": "Second server!",
+      "version": "0.0.54",
+      "icons": [
+        {
+          "src": "https://alpic.ai/logo.png",
+          "mimeType": "image/png",
+          "sizes": [
+            "200x200"
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://verylongmcp.fenetresurciel.com",
+          "headers": [
+            {
+              "description": "Just put your api key",
+              "isRequired": true,
+              "name": "x-api-key"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-28T09:48:26.483565Z",
+        "updatedAt": "2025-11-28T09:48:26.483565Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.fenetresurciel.verylongmcp/mcp-server-template-nodejs",
+      "description": "A non functional MCP server (yet)",
+      "title": "Second server",
+      "version": "0.0.55",
+      "icons": [
+        {
+          "src": "https://alpic.ai/logo.png",
+          "mimeType": "image/png",
+          "sizes": [
+            "200x200"
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://verylongmcp.fenetresurciel.com",
+          "headers": [
+            {
+              "description": "Just put your api key",
+              "isRequired": true,
+              "name": "x-api-key"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-28T09:49:08.064259Z",
+        "updatedAt": "2025-11-28T09:49:08.064259Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.fenetresurciel.verylongmcp/mcp-server-template-nodejs",
+      "description": "A non functional MCP server (yet)",
+      "title": "Second server!",
+      "version": "0.0.56",
+      "icons": [
+        {
+          "src": "https://alpic.ai/logo.png",
+          "mimeType": "image/png",
+          "sizes": [
+            "200x200"
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://verylongmcp.fenetresurciel.com",
+          "headers": [
+            {
+              "description": "Just put your api key",
+              "isRequired": true,
+              "name": "x-api-key"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-28T09:49:30.15123Z",
+        "updatedAt": "2025-11-28T09:49:30.15123Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.fenetresurciel.verylongmcp/mcp-server-template-nodejs",
+      "description": "A non functional MCP server (yet)",
+      "title": "Second server",
+      "version": "0.0.57",
+      "icons": [
+        {
+          "src": "https://alpic.ai/logo.png",
+          "mimeType": "image/png",
+          "sizes": [
+            "200x200"
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://verylongmcp.fenetresurciel.com",
+          "headers": [
+            {
+              "description": "Just put your api key",
+              "isRequired": true,
+              "name": "x-api-key"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-28T09:49:54.030025Z",
+        "updatedAt": "2025-11-28T09:49:54.030025Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.fenetresurciel.verylongmcp/mcp-server-template-nodejs",
+      "description": "A non functional MCP server (yet)",
+      "title": "Second server!",
+      "version": "0.0.58",
+      "icons": [
+        {
+          "src": "https://alpic.ai/logo.png",
+          "mimeType": "image/png",
+          "sizes": [
+            "200x200"
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://verylongmcp.fenetresurciel.com",
+          "headers": [
+            {
+              "description": "Just put your api key",
+              "isRequired": true,
+              "name": "x-api-key"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-28T09:56:44.39674Z",
+        "updatedAt": "2025-11-28T09:56:44.39674Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.fenetresurciel.verylongmcp/mcp-server-template-nodejs",
+      "description": "A non functional MCP server (yet)",
+      "title": "Second server",
+      "version": "0.0.59",
+      "icons": [
+        {
+          "src": "https://alpic.ai/logo.png",
+          "mimeType": "image/png",
+          "sizes": [
+            "200x200"
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://verylongmcp.fenetresurciel.com",
+          "headers": [
+            {
+              "description": "Just put your api key",
+              "isRequired": true,
+              "name": "x-api-key"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-28T09:59:29.217549Z",
+        "updatedAt": "2025-11-28T09:59:29.217549Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.fenetresurciel.verylongmcp/mcp-server-template-nodejs",
+      "description": "A non functional MCP server (yet)",
+      "title": "Second server!",
+      "version": "0.0.60",
+      "icons": [
+        {
+          "src": "https://alpic.ai/logo.png",
+          "mimeType": "image/png",
+          "sizes": [
+            "200x200"
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://verylongmcp.fenetresurciel.com",
+          "headers": [
+            {
+              "description": "Just put your api key",
+              "isRequired": true,
+              "name": "x-api-key"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-28T10:00:36.168986Z",
+        "updatedAt": "2025-11-28T10:00:36.168986Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.aplaceforallmystuff/mcp-pihole",
+      "description": "Pi-hole v6 MCP server - manage DNS blocking, stats, whitelists/blacklists",
+      "repository": {
+        "url": "https://github.com/aplaceforallmystuff/mcp-pihole",
+        "source": "github"
+      },
+      "version": "1.0.1",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "mcp-pihole-server",
+          "version": "1.0.1",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Pi-hole web interface URL (e.g., http://pihole.local:8080)",
+              "isRequired": true,
+              "format": "string",
+              "name": "PIHOLE_URL"
+            },
+            {
+              "description": "Pi-hole app password for API authentication",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "PIHOLE_PASSWORD"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-28T10:20:15.906824Z",
+        "updatedAt": "2025-11-28T10:20:15.906824Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "casa.find-me.sub1/send-email-mcp",
+      "description": "Non functional server (yet)",
+      "title": "Cool property search serv",
+      "version": "0.0.3",
+      "websiteUrl": "https://alpic.ai/",
+      "icons": [
+        {
+          "src": "https://alpic.ai/logo.png",
+          "mimeType": "image/png",
+          "sizes": [
+            "200x200"
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://sub1.find-me.casa",
+          "headers": [
+            {
+              "description": "Put your property search API key with suffix \"Bearer {x-api-key}\"",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "x-api-key"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-28T10:22:36.210763Z",
+        "updatedAt": "2025-11-28T10:22:36.210763Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "casa.find-me.sub1/send-email-mcp",
+      "description": "Non functional server (yet)",
+      "title": "Cool property search serv",
+      "version": "0.0.4",
+      "websiteUrl": "https://alpic.ai/",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://sub1.find-me.casa",
+          "headers": [
+            {
+              "description": "Put your property search API key with suffix \"Bearer {x-api-key}\"",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "x-api-key"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-28T10:23:14.449564Z",
+        "updatedAt": "2025-11-28T10:23:14.449564Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.aplaceforallmystuff/mcp-arr",
+      "description": "MCP server for *arr media suite - Sonarr, Radarr, Lidarr, Readarr, Prowlarr",
+      "repository": {
+        "url": "https://github.com/aplaceforallmystuff/mcp-arr",
+        "source": "github"
+      },
+      "version": "1.0.0",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "mcp-arr-server",
+          "version": "1.0.0",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Sonarr server URL",
+              "format": "string",
+              "name": "SONARR_URL"
+            },
+            {
+              "description": "Sonarr API key",
+              "format": "string",
+              "isSecret": true,
+              "name": "SONARR_API_KEY"
+            },
+            {
+              "description": "Radarr server URL",
+              "format": "string",
+              "name": "RADARR_URL"
+            },
+            {
+              "description": "Radarr API key",
+              "format": "string",
+              "isSecret": true,
+              "name": "RADARR_API_KEY"
+            },
+            {
+              "description": "Lidarr server URL",
+              "format": "string",
+              "name": "LIDARR_URL"
+            },
+            {
+              "description": "Lidarr API key",
+              "format": "string",
+              "isSecret": true,
+              "name": "LIDARR_API_KEY"
+            },
+            {
+              "description": "Readarr server URL",
+              "format": "string",
+              "name": "READARR_URL"
+            },
+            {
+              "description": "Readarr API key",
+              "format": "string",
+              "isSecret": true,
+              "name": "READARR_API_KEY"
+            },
+            {
+              "description": "Prowlarr server URL",
+              "format": "string",
+              "name": "PROWLARR_URL"
+            },
+            {
+              "description": "Prowlarr API key",
+              "format": "string",
+              "isSecret": true,
+              "name": "PROWLARR_API_KEY"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-28T10:41:13.807494Z",
+        "updatedAt": "2025-11-28T10:41:13.807494Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.SamMorrowDrums/remarkable",
+      "description": "Access your reMarkable tablet - read documents, browse files, extract text and OCR",
+      "title": "reMarkable MCP Server",
+      "repository": {
+        "url": "https://github.com/SamMorrowDrums/remarkable-mcp",
+        "source": "github"
+      },
+      "version": "0.5.0",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "remarkable-mcp",
+          "version": "0.5.0",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Authentication token for reMarkable Cloud API. Get one by registering at https://my.remarkable.com/device/browser/connect",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "REMARKABLE_TOKEN"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-28T12:01:45.11244Z",
+        "updatedAt": "2025-11-28T12:01:45.11244Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.SamMorrowDrums/remarkable",
+      "description": "Access your reMarkable tablet - read documents, browse files, extract text and OCR",
+      "title": "reMarkable MCP Server",
+      "repository": {
+        "url": "https://github.com/SamMorrowDrums/remarkable-mcp",
+        "source": "github"
+      },
+      "version": "0.5.1",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "remarkable-mcp",
+          "version": "0.5.1",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Authentication token for reMarkable Cloud API. Get one by registering at https://my.remarkable.com/device/browser/connect",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "REMARKABLE_TOKEN"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-28T12:13:31.863995Z",
+        "updatedAt": "2025-11-28T12:13:31.863995Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.upstash/context7",
+      "description": "Up-to-date code docs for any prompt",
+      "title": "Context7",
+      "repository": {
+        "url": "https://github.com/upstash/context7",
+        "source": "github"
+      },
+      "version": "1.0.31",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@upstash/context7-mcp",
+          "version": "1.0.31",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "API key for authentication",
+              "format": "string",
+              "isSecret": true,
+              "name": "CONTEXT7_API_KEY"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-28T12:23:38.345348Z",
+        "updatedAt": "2025-11-28T12:23:38.345348Z",
         "isLatest": true
       }
     }
