@@ -72791,7 +72791,7 @@
         "status": "active",
         "publishedAt": "2025-11-05T05:54:01.345183Z",
         "updatedAt": "2025-11-05T05:54:01.345183Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -72872,7 +72872,7 @@
         "status": "active",
         "publishedAt": "2025-11-05T06:31:52.276339Z",
         "updatedAt": "2025-11-05T06:31:52.276339Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -93181,7 +93181,7 @@
         "status": "active",
         "publishedAt": "2025-11-26T20:49:50.725556Z",
         "updatedAt": "2025-11-26T20:49:50.725556Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -93779,7 +93779,7 @@
         "status": "active",
         "publishedAt": "2025-11-27T10:44:24.909088Z",
         "updatedAt": "2025-11-27T10:44:24.909088Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -100296,6 +100296,412 @@
         "status": "active",
         "publishedAt": "2025-11-28T19:17:13.263099Z",
         "updatedAt": "2025-11-28T19:17:13.263099Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.DavidFuchs/mcp-uptime-kuma",
+      "description": "A Model Context Protocol (MCP) server for Uptime Kuma version 2.",
+      "repository": {
+        "url": "https://github.com/DavidFuchs/mcp-uptime-kuma",
+        "source": "github"
+      },
+      "version": "0.6.2",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@davidfuchs/mcp-uptime-kuma",
+          "version": "0.6.2",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "The URL of your Uptime Kuma instance",
+              "isRequired": true,
+              "format": "string",
+              "name": "UPTIME_KUMA_URL"
+            },
+            {
+              "description": "Your Uptime Kuma username (not required if using JWT token authentication or if authentication is disabled)",
+              "format": "string",
+              "name": "UPTIME_KUMA_USERNAME"
+            },
+            {
+              "description": "Your Uptime Kuma password (not required if using JWT token authentication or if authentication is disabled)",
+              "format": "string",
+              "isSecret": true,
+              "name": "UPTIME_KUMA_PASSWORD"
+            },
+            {
+              "description": "Your 2FA token (only required if two-factor authentication is enabled on your account)",
+              "format": "string",
+              "isSecret": true,
+              "name": "UPTIME_KUMA_2FA_TOKEN"
+            },
+            {
+              "description": "Your JWT token for authentication (takes precedence over username/password if provided)",
+              "format": "string",
+              "isSecret": true,
+              "name": "UPTIME_KUMA_JWT_TOKEN"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-28T21:10:33.868679Z",
+        "updatedAt": "2025-11-28T21:10:33.868679Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.DavidFuchs/mcp-uptime-kuma",
+      "description": "A Model Context Protocol (MCP) server for Uptime Kuma version 2.",
+      "repository": {
+        "url": "https://github.com/DavidFuchs/mcp-uptime-kuma",
+        "source": "github"
+      },
+      "version": "0.6.3",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@davidfuchs/mcp-uptime-kuma",
+          "version": "0.6.3",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "The URL of your Uptime Kuma instance",
+              "isRequired": true,
+              "format": "string",
+              "name": "UPTIME_KUMA_URL"
+            },
+            {
+              "description": "Your Uptime Kuma username (not required if using JWT token authentication or if authentication is disabled)",
+              "format": "string",
+              "name": "UPTIME_KUMA_USERNAME"
+            },
+            {
+              "description": "Your Uptime Kuma password (not required if using JWT token authentication or if authentication is disabled)",
+              "format": "string",
+              "isSecret": true,
+              "name": "UPTIME_KUMA_PASSWORD"
+            },
+            {
+              "description": "Your 2FA token (only required if two-factor authentication is enabled on your account)",
+              "format": "string",
+              "isSecret": true,
+              "name": "UPTIME_KUMA_2FA_TOKEN"
+            },
+            {
+              "description": "Your JWT token for authentication (takes precedence over username/password if provided)",
+              "format": "string",
+              "isSecret": true,
+              "name": "UPTIME_KUMA_JWT_TOKEN"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-28T21:24:31.310394Z",
+        "updatedAt": "2025-11-28T21:24:31.310394Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.yuna0x0/anilist-mcp",
+      "description": "AniList MCP server for accessing AniList API data",
+      "title": "AniList",
+      "repository": {
+        "url": "https://github.com/yuna0x0/anilist-mcp",
+        "source": "github",
+        "id": "952023806"
+      },
+      "version": "1.4.0",
+      "icons": [
+        {
+          "src": "https://anilist.co/img/icons/icon.svg",
+          "mimeType": "image/svg+xml",
+          "sizes": [
+            "any"
+          ]
+        }
+      ],
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "anilist-mcp",
+          "version": "1.4.0",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "AniList API token for authenticated requests",
+              "format": "string",
+              "isSecret": true,
+              "name": "ANILIST_TOKEN"
+            }
+          ]
+        },
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/yuna0x0/anilist-mcp:1.4.0",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "AniList API token for authenticated requests",
+              "format": "string",
+              "isSecret": true,
+              "name": "ANILIST_TOKEN"
+            }
+          ]
+        },
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/yuna0x0/anilist-mcp/releases/download/v1.4.0/anilist-mcp-1.4.0.mcpb",
+          "fileSha256": "f77013615f02d9001b895ffb915b0a642a1a914cbb48d24f6f09e91e3f9c9fd1",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "AniList API token for authenticated requests",
+              "format": "string",
+              "isSecret": true,
+              "name": "ANILIST_TOKEN"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-28T21:38:22.648984Z",
+        "updatedAt": "2025-11-28T21:38:22.648984Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.yuna0x0/hackmd-mcp",
+      "description": "A Model Context Protocol server for integrating HackMD's note-taking platform with AI assistants.",
+      "title": "HackMD",
+      "repository": {
+        "url": "https://github.com/yuna0x0/hackmd-mcp",
+        "source": "github",
+        "id": "950658365"
+      },
+      "version": "1.5.7",
+      "icons": [
+        {
+          "src": "https://hackmd.io/logo.svg",
+          "mimeType": "image/svg+xml",
+          "sizes": [
+            "any"
+          ]
+        }
+      ],
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "hackmd-mcp",
+          "version": "1.5.7",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your HackMD API token for API authentication",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "HACKMD_API_TOKEN"
+            },
+            {
+              "description": "Optional HackMD API URL, defaults to https://api.hackmd.io/v1",
+              "format": "string",
+              "default": "https://api.hackmd.io/v1",
+              "name": "HACKMD_API_URL"
+            }
+          ]
+        },
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/yuna0x0/hackmd-mcp:1.5.7",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your HackMD API token for API authentication",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "HACKMD_API_TOKEN"
+            },
+            {
+              "description": "Optional HackMD API URL, defaults to https://api.hackmd.io/v1",
+              "format": "string",
+              "default": "https://api.hackmd.io/v1",
+              "name": "HACKMD_API_URL"
+            }
+          ]
+        },
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/yuna0x0/hackmd-mcp/releases/download/v1.5.7/hackmd-mcp-1.5.7.mcpb",
+          "fileSha256": "dfa69444294d38467f6fbd2c36ac57a0850bde767b20cacaa5f9d8b2a4b88934",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your HackMD API token for API authentication",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "HACKMD_API_TOKEN"
+            },
+            {
+              "description": "Optional HackMD API URL, defaults to https://api.hackmd.io/v1",
+              "format": "string",
+              "default": "https://api.hackmd.io/v1",
+              "name": "HACKMD_API_URL"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-28T22:08:03.837348Z",
+        "updatedAt": "2025-11-28T22:08:03.837348Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.DavidFuchs/mcp-uptime-kuma",
+      "description": "A Model Context Protocol (MCP) server for Uptime Kuma version 2.",
+      "repository": {
+        "url": "https://github.com/DavidFuchs/mcp-uptime-kuma",
+        "source": "github"
+      },
+      "version": "0.6.4",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@davidfuchs/mcp-uptime-kuma",
+          "version": "0.6.4",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "The URL of your Uptime Kuma instance",
+              "isRequired": true,
+              "format": "string",
+              "name": "UPTIME_KUMA_URL"
+            },
+            {
+              "description": "Your Uptime Kuma username (not required if using JWT token authentication or if authentication is disabled)",
+              "format": "string",
+              "name": "UPTIME_KUMA_USERNAME"
+            },
+            {
+              "description": "Your Uptime Kuma password (not required if using JWT token authentication or if authentication is disabled)",
+              "format": "string",
+              "isSecret": true,
+              "name": "UPTIME_KUMA_PASSWORD"
+            },
+            {
+              "description": "Your 2FA token (only required if two-factor authentication is enabled on your account)",
+              "format": "string",
+              "isSecret": true,
+              "name": "UPTIME_KUMA_2FA_TOKEN"
+            },
+            {
+              "description": "Your JWT token for authentication (takes precedence over username/password if provided)",
+              "format": "string",
+              "isSecret": true,
+              "name": "UPTIME_KUMA_JWT_TOKEN"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-28T22:45:02.876671Z",
+        "updatedAt": "2025-11-28T22:45:02.876671Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.cmd8/excalidraw-mcp",
+      "description": "Model Context Protocol server for Excalidraw diagrams.",
+      "repository": {
+        "url": "https://github.com/cmd8/excalidraw-mcp",
+        "source": "github"
+      },
+      "version": "1.2.0",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@cmd8/excalidraw-mcp",
+          "version": "1.2.0",
+          "transport": {
+            "type": "stdio"
+          },
+          "packageArguments": [
+            {
+              "description": "Path to the Excalidraw diagram file",
+              "isRequired": true,
+              "type": "",
+              "name": "diagram",
+              "valueHint": "/path/to/diagram.excalidraw"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-29T00:12:48.696308Z",
+        "updatedAt": "2025-11-29T00:12:48.696308Z",
         "isLatest": true
       }
     }
