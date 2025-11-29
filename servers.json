@@ -90347,7 +90347,7 @@
         "status": "active",
         "publishedAt": "2025-11-24T01:50:30.049736Z",
         "updatedAt": "2025-11-24T01:50:30.049736Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -100799,6 +100799,56 @@
         "status": "active",
         "publishedAt": "2025-11-29T04:11:07.170961Z",
         "updatedAt": "2025-11-29T04:11:07.170961Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.shinpr/mcp-image",
+      "description": "AI image generation MCP server using Nano Banana Pro with intelligent prompt enhancement",
+      "repository": {
+        "url": "https://github.com/shinpr/mcp-image",
+        "source": "github"
+      },
+      "version": "0.5.0",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "mcp-image",
+          "version": "0.5.0",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Google Gemini API key for image generation (get from https://aistudio.google.com/apikey)",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "GEMINI_API_KEY"
+            },
+            {
+              "description": "Absolute path to directory where generated images will be saved (defaults to ./output)",
+              "format": "string",
+              "name": "IMAGE_OUTPUT_DIR"
+            },
+            {
+              "description": "Set to 'true' to disable automatic prompt optimization and use direct prompts",
+              "format": "boolean",
+              "name": "SKIP_PROMPT_ENHANCEMENT"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-29T04:57:06.461138Z",
+        "updatedAt": "2025-11-29T04:57:06.461138Z",
         "isLatest": true
       }
     }
