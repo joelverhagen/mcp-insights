@@ -54605,7 +54605,7 @@
         "status": "active",
         "publishedAt": "2025-10-21T06:10:48.210915Z",
         "updatedAt": "2025-10-21T06:10:48.210915Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -87071,7 +87071,7 @@
         "status": "active",
         "publishedAt": "2025-11-20T04:52:16.375435Z",
         "updatedAt": "2025-11-20T04:52:16.375435Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -100702,6 +100702,103 @@
         "status": "active",
         "publishedAt": "2025-11-29T00:12:48.696308Z",
         "updatedAt": "2025-11-29T00:12:48.696308Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.isakskogstad/kolada-mcp",
+      "description": "Swedish municipality statistics from Kolada API. 6000+ KPIs for all 290 municipalities.",
+      "title": "Kolada MCP Server",
+      "repository": {
+        "url": "https://github.com/isakskogstad/kolada-mcp",
+        "source": "github"
+      },
+      "version": "2.2.1",
+      "websiteUrl": "https://github.com/isakskogstad/kolada-mcp",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "kolada-mcp-server",
+          "version": "2.2.1",
+          "runtimeHint": "node",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://kolada-mcp-pafn.onrender.com/mcp"
+        },
+        {
+          "type": "sse",
+          "url": "https://kolada-mcp-pafn.onrender.com/sse"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-29T02:30:10.318926Z",
+        "updatedAt": "2025-11-29T02:30:10.318926Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.xplusplusai/fo-semantic-mcp",
+      "description": "Semantic search over 50,000+ Dynamics 365 F&O artifacts: tables, forms, classes, and more.",
+      "title": "FO Semantic MCP",
+      "version": "2.1.6",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "fo-semantic-mcp",
+          "version": "2.1.6",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-29T02:58:09.544291Z",
+        "updatedAt": "2025-11-29T02:58:09.544291Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.team-earth/datagraph",
+      "description": "Urban intelligence knowledge graph. Structured city data for civic problem-solving.",
+      "title": "DataGraph",
+      "version": "1.2.1",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "datagraph-city-mcp-server",
+          "version": "1.2.1",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-29T04:11:07.170961Z",
+        "updatedAt": "2025-11-29T04:11:07.170961Z",
         "isLatest": true
       }
     }
