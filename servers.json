@@ -84705,7 +84705,7 @@
         "status": "active",
         "publishedAt": "2025-11-18T09:01:07.327152Z",
         "updatedAt": "2025-11-18T09:01:07.327152Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -100241,7 +100241,7 @@
         "status": "active",
         "publishedAt": "2025-11-28T17:23:17.562391Z",
         "updatedAt": "2025-11-28T17:23:17.562391Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -101064,7 +101064,7 @@
         "status": "active",
         "publishedAt": "2025-11-29T15:23:51.806115Z",
         "updatedAt": "2025-11-29T15:23:51.806115Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -101376,6 +101376,210 @@
         "status": "active",
         "publishedAt": "2025-11-29T15:42:26.736777Z",
         "updatedAt": "2025-11-29T15:42:26.736777Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.rosch100/mcp-encrypted-sqlite",
+      "description": "MCP server for encrypted SQLite databases (SQLCipher 4) - Works with MoneyMoney, KeePass and more",
+      "repository": {
+        "url": "https://github.com/rosch100/mcp-encrypted-sqlite",
+        "source": "github"
+      },
+      "version": "0.3.2",
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/rosch100/mcp-encrypted-sqlite:0.3.2",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Path to the encrypted SQLite database file",
+              "isRequired": true,
+              "format": "string",
+              "name": "DB_PATH"
+            },
+            {
+              "description": "Passphrase for decrypting the database",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "DB_PASSPHRASE"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-29T17:39:40.677412Z",
+        "updatedAt": "2025-11-29T17:39:40.677412Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.kekwanu/syncline-mcp-server-go",
+      "description": "Syncline MCP Server (Go) - AI-powered meeting scheduling with intelligent auto-scheduling",
+      "title": "Syncline MCP Server (Go)",
+      "repository": {
+        "url": "https://github.com/KekwanuLabs/syncline",
+        "source": "github",
+        "subfolder": "mcp-server-go"
+      },
+      "version": "1.0.36",
+      "websiteUrl": "https://syncline.run",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@kekwanulabs/syncline-mcp-server-go",
+          "version": "1.0.36",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your Syncline API key from https://syncline.run/developer",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "SYNCLINE_API_KEY"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-29T17:48:52.978895Z",
+        "updatedAt": "2025-11-29T17:48:52.978895Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.rosch100/mcp-encrypted-sqlite",
+      "description": "MCP server for encrypted SQLite databases (SQLCipher 4) - Works with MoneyMoney, KeePass and more",
+      "repository": {
+        "url": "https://github.com/rosch100/mcp-encrypted-sqlite",
+        "source": "github"
+      },
+      "version": "0.3.3",
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/rosch100/mcp-encrypted-sqlite:0.3.3",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Path to the encrypted SQLite database file (inside container: /data/database.sqlite)",
+              "isRequired": true,
+              "format": "string",
+              "name": "DB_PATH"
+            },
+            {
+              "description": "Passphrase for decrypting the database (or use encrypted: prefix for encrypted passphrases)",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "DB_PASSPHRASE"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-29T18:01:30.875383Z",
+        "updatedAt": "2025-11-29T18:01:30.875383Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.homeassistant-ai/ha-mcp",
+      "description": "Comprehensive Model Context Protocol server for managing Home Assistant through AI assistants.",
+      "repository": {
+        "url": "https://github.com/homeassistant-ai/ha-mcp.git",
+        "source": "github"
+      },
+      "version": "4.7.2",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "ha-mcp",
+          "version": "4.7.2",
+          "transport": {
+            "type": "stdio"
+          }
+        },
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/homeassistant-ai/ha-mcp:4.7.2",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-29T19:41:19.852768Z",
+        "updatedAt": "2025-11-29T19:41:19.852768Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.homeassistant-ai/ha-mcp",
+      "description": "Comprehensive Model Context Protocol server for managing Home Assistant through AI assistants.",
+      "repository": {
+        "url": "https://github.com/homeassistant-ai/ha-mcp.git",
+        "source": "github"
+      },
+      "version": "4.7.3",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "ha-mcp",
+          "version": "4.7.3",
+          "transport": {
+            "type": "stdio"
+          }
+        },
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/homeassistant-ai/ha-mcp:4.7.3",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-29T19:50:57.888674Z",
+        "updatedAt": "2025-11-29T19:50:57.888674Z",
         "isLatest": true
       }
     }
