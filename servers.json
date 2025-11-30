@@ -89537,7 +89537,7 @@
         "status": "active",
         "publishedAt": "2025-11-23T01:16:23.68018Z",
         "updatedAt": "2025-11-23T01:16:23.68018Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -102356,7 +102356,7 @@
         "status": "active",
         "publishedAt": "2025-11-30T10:44:44.060197Z",
         "updatedAt": "2025-11-30T10:44:44.060197Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -102721,7 +102721,7 @@
         "status": "active",
         "publishedAt": "2025-11-30T16:26:49.020024Z",
         "updatedAt": "2025-11-30T16:26:49.020024Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -102991,6 +102991,148 @@
         "status": "active",
         "publishedAt": "2025-11-30T16:30:23.756539Z",
         "updatedAt": "2025-11-30T16:30:23.756539Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.rosch100/mcp-encrypted-sqlite",
+      "description": "MCP server for encrypted SQLite databases (SQLCipher 4) - Works with MoneyMoney, KeePass and more",
+      "repository": {
+        "url": "https://github.com/rosch100/mcp-encrypted-sqlite",
+        "source": "github"
+      },
+      "version": "0.4.1",
+      "websiteUrl": "https://github.com/rosch100/mcp-encrypted-sqlite",
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/rosch100/mcp-encrypted-sqlite:0.4.1",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Path to the encrypted SQLite database file (inside container: /data/database.sqlite)",
+              "isRequired": true,
+              "format": "string",
+              "name": "DB_PATH"
+            },
+            {
+              "description": "Passphrase for decrypting the database (or use encrypted: prefix for encrypted passphrases)",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "DB_PASSPHRASE"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-30T17:08:31.836926Z",
+        "updatedAt": "2025-11-30T17:08:31.836926Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.trondhindenes/code-index-mcp",
+      "description": "Fast local source code searching using Zoekt trigram-based indexing",
+      "title": "Code Index",
+      "repository": {
+        "url": "https://github.com/trondhindenes/code-index-mcp",
+        "source": "github"
+      },
+      "version": "1.0.16",
+      "packages": [
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/trondhindenes/code-index-mcp/releases/download/1.0.16/code-index-mcp-darwin-amd64.mcpb",
+          "version": "1.0.16",
+          "fileSha256": "c6e0a39d46283d91f8b82a4fa6f78e8d969ddb94297dc061c4a1f7402c4f56df",
+          "transport": {
+            "type": "stdio"
+          }
+        },
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/trondhindenes/code-index-mcp/releases/download/1.0.16/code-index-mcp-darwin-arm64.mcpb",
+          "version": "1.0.16",
+          "fileSha256": "5d09b2eefbd897af26b9d752a765b50cee3aecde6c791de94c3569802a591001",
+          "transport": {
+            "type": "stdio"
+          }
+        },
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/trondhindenes/code-index-mcp/releases/download/1.0.16/code-index-mcp-linux-amd64.mcpb",
+          "version": "1.0.16",
+          "fileSha256": "34a77daf332a5b0bab9cef2fb3a1ac9c9cd547ea9b248f31b35c65b383c4e922",
+          "transport": {
+            "type": "stdio"
+          }
+        },
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/trondhindenes/code-index-mcp/releases/download/1.0.16/code-index-mcp-linux-arm64.mcpb",
+          "version": "1.0.16",
+          "fileSha256": "194fc0ffaea54b20055f3a492a3d8426daf25bb51a46d87a96cb283e479b5f23",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-30T18:33:39.778751Z",
+        "updatedAt": "2025-11-30T18:33:39.778751Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.goreleaser/mcp",
+      "description": "GoReleaser MCP server",
+      "title": "The MCP server for GoReleaser",
+      "repository": {
+        "url": "https://github.com/goreleaser/mcp",
+        "source": "github"
+      },
+      "version": "0.3.0",
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/goreleaser/mcp:0.3.0",
+          "transport": {
+            "type": "stdio"
+          }
+        },
+        {
+          "registryType": "npm",
+          "identifier": "@goreleaser/mcp",
+          "version": "0.3.0",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-30T19:51:56.411459Z",
+        "updatedAt": "2025-11-30T19:51:56.411459Z",
         "isLatest": true
       }
     }
