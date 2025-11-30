@@ -100269,7 +100269,7 @@
         "status": "active",
         "publishedAt": "2025-11-28T17:28:11.633656Z",
         "updatedAt": "2025-11-28T17:28:11.633656Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -100799,7 +100799,7 @@
         "status": "active",
         "publishedAt": "2025-11-29T04:11:07.170961Z",
         "updatedAt": "2025-11-29T04:11:07.170961Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -101918,6 +101918,61 @@
         "status": "active",
         "publishedAt": "2025-11-29T21:29:51.790299Z",
         "updatedAt": "2025-11-29T21:29:51.790299Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.team-earth/datagraph",
+      "description": "Urban intelligence knowledge graph. Structured city data for civic problem-solving.",
+      "title": "DataGraph",
+      "version": "1.2.3",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "datagraph-city-mcp-server",
+          "version": "1.2.3",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-30T05:11:10.951318Z",
+        "updatedAt": "2025-11-30T05:11:10.951318Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.civic/nexus",
+      "description": "Zero-setup MCP gateway securely connecting AI to your tools with authentication and workflows",
+      "repository": {
+        "url": "https://github.com/civicteam/civic-mcp",
+        "source": "github",
+        "subfolder": "apps/hub"
+      },
+      "version": "0.1.49",
+      "websiteUrl": "https://nexus.civic.com",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://nexus.civic.com/hub/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-30T07:24:50.665046Z",
+        "updatedAt": "2025-11-30T07:24:50.665046Z",
         "isLatest": true
       }
     }
