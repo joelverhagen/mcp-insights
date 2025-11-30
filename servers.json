@@ -101976,5 +101976,528 @@
         "isLatest": true
       }
     }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.mikhae1/kubeview",
+      "description": "Read-only Model Context Protocol server that surfaces Kubernetes, Helm, and Argo insights safely.",
+      "repository": {
+        "url": "https://github.com/mikhae1/kubeview-mcp",
+        "source": "github"
+      },
+      "version": "1.4.4",
+      "websiteUrl": "https://github.com/mikhae1/kubeview-mcp",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "kubeview-mcp",
+          "version": "1.4.4",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Path to kubeconfig file; defaults to ~/.kube/config if unset.",
+              "format": "filepath",
+              "name": "KUBECONFIG"
+            },
+            {
+              "description": "Server mode: 'all' (default), 'code', or 'tools'. Controls which features are enabled.",
+              "format": "string",
+              "name": "MCP_MODE"
+            },
+            {
+              "description": "Logging level: 'error', 'warn', 'info' (default), or 'debug'.",
+              "format": "string",
+              "name": "MCP_LOG_LEVEL"
+            },
+            {
+              "description": "Kubernetes context name to use. If unset, uses the current context from kubeconfig.",
+              "format": "string",
+              "name": "MCP_KUBE_CONTEXT"
+            },
+            {
+              "description": "Skip TLS certificate verification for Kubernetes API (use 'true' or '1'). Not recommended for production.",
+              "format": "string",
+              "name": "MCP_K8S_SKIP_TLS_VERIFY"
+            },
+            {
+              "description": "Enable global sensitive data masking. Set to 'true' or '1' to mask sensitive values in responses.",
+              "format": "string",
+              "name": "MCP_HIDE_SENSITIVE"
+            },
+            {
+              "description": "Default timeout in milliseconds for operations. If unset, uses plugin-specific defaults.",
+              "format": "string",
+              "name": "MCP_TIMEOUT"
+            },
+            {
+              "description": "Disable Kubernetes plugin. Set to 'true' or '1' to disable.",
+              "format": "string",
+              "name": "MCP_DISABLE_KUBERNETES_PLUGIN"
+            },
+            {
+              "description": "Disable Helm plugin. Set to 'true' or '1' to disable.",
+              "format": "string",
+              "name": "MCP_DISABLE_HELM_PLUGIN"
+            },
+            {
+              "description": "Disable Argo Workflows plugin. Set to 'true' or '1' to disable.",
+              "format": "string",
+              "name": "MCP_DISABLE_ARGO_PLUGIN"
+            },
+            {
+              "description": "Disable Argo CD plugin. Set to 'true' or '1' to disable.",
+              "format": "string",
+              "name": "MCP_DISABLE_ARGOCD_PLUGIN"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-30T09:59:01.395736Z",
+        "updatedAt": "2025-11-30T09:59:01.395736Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.trondhindenes/code-index-mcp",
+      "description": "Fast local source code searching using Zoekt trigram-based indexing",
+      "title": "Code Index",
+      "repository": {
+        "url": "https://github.com/trondhindenes/code-index-mcp",
+        "source": "github"
+      },
+      "version": "1.0.9",
+      "packages": [
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/trondhindenes/code-index-mcp/releases/download/1.0.9/code-index-mcp-darwin-amd64.mcpb",
+          "version": "1.0.9",
+          "fileSha256": "3c0a8b5e3ebabe67c78dd859d9508048c07fdaf4ab6e5382b9dbded9d56de88c",
+          "transport": {
+            "type": "stdio"
+          }
+        },
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/trondhindenes/code-index-mcp/releases/download/1.0.9/code-index-mcp-darwin-arm64.mcpb",
+          "version": "1.0.9",
+          "fileSha256": "933bec7343b6dce8374ff3e9812503aa21054572c282e9aed79e5d6edd92e9d8",
+          "transport": {
+            "type": "stdio"
+          }
+        },
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/trondhindenes/code-index-mcp/releases/download/1.0.9/code-index-mcp-linux-amd64.mcpb",
+          "version": "1.0.9",
+          "fileSha256": "c5a4ecffee6ea2cb0da2826dd99a5ea385163d72946745123f59071fde20470c",
+          "transport": {
+            "type": "stdio"
+          }
+        },
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/trondhindenes/code-index-mcp/releases/download/1.0.9/code-index-mcp-linux-arm64.mcpb",
+          "version": "1.0.9",
+          "fileSha256": "959a413c44f80084f13140386094cb13797af913d14fbcf1257749ecf2781355",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-30T10:31:13.928413Z",
+        "updatedAt": "2025-11-30T10:31:13.928413Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.trondhindenes/code-index-mcp",
+      "description": "Fast local source code searching using Zoekt trigram-based indexing",
+      "title": "Code Index",
+      "repository": {
+        "url": "https://github.com/trondhindenes/code-index-mcp",
+        "source": "github"
+      },
+      "version": "1.0.10",
+      "packages": [
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/trondhindenes/code-index-mcp/releases/download/1.0.10/code-index-mcp-darwin-amd64.mcpb",
+          "version": "1.0.10",
+          "fileSha256": "494400116579fa7b045d52930d7cc2a97e4ac31b3da3e657d3d1a04cc0c11054",
+          "transport": {
+            "type": "stdio"
+          }
+        },
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/trondhindenes/code-index-mcp/releases/download/1.0.10/code-index-mcp-darwin-arm64.mcpb",
+          "version": "1.0.10",
+          "fileSha256": "f93e88b3551265df44f06c14e6dae814fb3f4fc631a112def1dbd78439066090",
+          "transport": {
+            "type": "stdio"
+          }
+        },
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/trondhindenes/code-index-mcp/releases/download/1.0.10/code-index-mcp-linux-amd64.mcpb",
+          "version": "1.0.10",
+          "fileSha256": "417645328d3a28924cfe32b3683dada8da44136343d29c32d9ef433688cc1bf7",
+          "transport": {
+            "type": "stdio"
+          }
+        },
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/trondhindenes/code-index-mcp/releases/download/1.0.10/code-index-mcp-linux-arm64.mcpb",
+          "version": "1.0.10",
+          "fileSha256": "1b5b1b4eb1d3287e3d3b2c3dc3b773c5f56b30185b6da7b0e122e96d5b3c9d00",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-30T10:37:08.738699Z",
+        "updatedAt": "2025-11-30T10:37:08.738699Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.trondhindenes/code-index-mcp",
+      "description": "Fast local source code searching using Zoekt trigram-based indexing",
+      "title": "Code Index",
+      "repository": {
+        "url": "https://github.com/trondhindenes/code-index-mcp",
+        "source": "github"
+      },
+      "version": "1.0.11",
+      "packages": [
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/trondhindenes/code-index-mcp/releases/download/1.0.11/code-index-mcp-darwin-amd64.mcpb",
+          "version": "1.0.11",
+          "fileSha256": "003c390cdbea409b3d252e91f7ae5f277f1b0ca862e91e6c95fb441ac04bcbe2",
+          "transport": {
+            "type": "stdio"
+          }
+        },
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/trondhindenes/code-index-mcp/releases/download/1.0.11/code-index-mcp-darwin-arm64.mcpb",
+          "version": "1.0.11",
+          "fileSha256": "7f6db7a2277dc975f546c86073c979f134382bcffe782a9abe8260a6e982f2b3",
+          "transport": {
+            "type": "stdio"
+          }
+        },
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/trondhindenes/code-index-mcp/releases/download/1.0.11/code-index-mcp-linux-amd64.mcpb",
+          "version": "1.0.11",
+          "fileSha256": "c430c276e9eaad0e83cf147505b35a5db90a3cfe4bb89fa55afa098a72f3ceb3",
+          "transport": {
+            "type": "stdio"
+          }
+        },
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/trondhindenes/code-index-mcp/releases/download/1.0.11/code-index-mcp-linux-arm64.mcpb",
+          "version": "1.0.11",
+          "fileSha256": "dcbeb1e92fa68d2db6715005181756b59b9b4ea76de43c8d0a0777c7d9103c89",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-30T10:39:55.500197Z",
+        "updatedAt": "2025-11-30T10:39:55.500197Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.trondhindenes/code-index-mcp",
+      "description": "Fast local source code searching using Zoekt trigram-based indexing",
+      "title": "Code Index",
+      "repository": {
+        "url": "https://github.com/trondhindenes/code-index-mcp",
+        "source": "github"
+      },
+      "version": "1.0.12",
+      "packages": [
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/trondhindenes/code-index-mcp/releases/download/1.0.12/code-index-mcp-darwin-amd64.mcpb",
+          "version": "1.0.12",
+          "fileSha256": "0c66594b3ab66f0d8398bf18ff8aa63d7d8d304b5e8e355ec8c8a07667fab2fc",
+          "transport": {
+            "type": "stdio"
+          }
+        },
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/trondhindenes/code-index-mcp/releases/download/1.0.12/code-index-mcp-darwin-arm64.mcpb",
+          "version": "1.0.12",
+          "fileSha256": "3eb5ee903a5459dcb656d2120ad4d59c683508a12a75d851cd6f3b18a8098207",
+          "transport": {
+            "type": "stdio"
+          }
+        },
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/trondhindenes/code-index-mcp/releases/download/1.0.12/code-index-mcp-linux-amd64.mcpb",
+          "version": "1.0.12",
+          "fileSha256": "c230307480cddb689f4d4b387a204922b5e7f941631c0989659d67b5941d43f4",
+          "transport": {
+            "type": "stdio"
+          }
+        },
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/trondhindenes/code-index-mcp/releases/download/1.0.12/code-index-mcp-linux-arm64.mcpb",
+          "version": "1.0.12",
+          "fileSha256": "c93033b444b2959df6a967d7731e8260b420c89045ca00d6f66154a3b969af24",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-30T10:42:21.855942Z",
+        "updatedAt": "2025-11-30T10:42:21.855942Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.trondhindenes/code-index-mcp",
+      "description": "Fast local source code searching using Zoekt trigram-based indexing",
+      "title": "Code Index",
+      "repository": {
+        "url": "https://github.com/trondhindenes/code-index-mcp",
+        "source": "github"
+      },
+      "version": "1.0.13",
+      "packages": [
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/trondhindenes/code-index-mcp/releases/download/1.0.13/code-index-mcp-darwin-amd64.mcpb",
+          "version": "1.0.13",
+          "fileSha256": "b397d87cff4039e8928eb34caa9718d8e59bbc174164a10b3bf5dbac1185946e",
+          "transport": {
+            "type": "stdio"
+          }
+        },
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/trondhindenes/code-index-mcp/releases/download/1.0.13/code-index-mcp-darwin-arm64.mcpb",
+          "version": "1.0.13",
+          "fileSha256": "d92cab6a1d2d6bd5a8af2f3fc4a5fe759d8de93cce7812e92438971c4836dfa2",
+          "transport": {
+            "type": "stdio"
+          }
+        },
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/trondhindenes/code-index-mcp/releases/download/1.0.13/code-index-mcp-linux-amd64.mcpb",
+          "version": "1.0.13",
+          "fileSha256": "c14d1cc99f41a26c3ccfcc2c420711340a1118082bd71a6eb7f60ab925f041eb",
+          "transport": {
+            "type": "stdio"
+          }
+        },
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/trondhindenes/code-index-mcp/releases/download/1.0.13/code-index-mcp-linux-arm64.mcpb",
+          "version": "1.0.13",
+          "fileSha256": "d6861df46031e12712429e95ff3c16b33c25b5cf3aa7f25b4bf2c0198d21bc0b",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-30T10:44:44.060197Z",
+        "updatedAt": "2025-11-30T10:44:44.060197Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.SELISEdigitalplatforms/l0-py-blocks-mcp",
+      "description": "A Model Context Protocol (MCP) server for Selise Cloud integration.",
+      "repository": {
+        "url": "https://github.com/SELISEdigitalplatforms/l0-py-blocks-mcp",
+        "source": "github"
+      },
+      "version": "0.1.0-beta.1",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://ai.seliseblocks.com/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-30T10:46:43.711344Z",
+        "updatedAt": "2025-11-30T10:46:43.711344Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.mikhae1/kubeview",
+      "description": "Read-only Model Context Protocol MCP server enabling code-driven AI analysis of Kubernetes clusters.",
+      "repository": {
+        "url": "https://github.com/mikhae1/kubeview-mcp",
+        "source": "github"
+      },
+      "version": "1.4.6",
+      "websiteUrl": "https://github.com/mikhae1/kubeview-mcp",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "kubeview-mcp",
+          "version": "1.4.6",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Path to kubeconfig file; defaults to ~/.kube/config if unset.",
+              "format": "filepath",
+              "name": "KUBECONFIG"
+            },
+            {
+              "description": "Server mode: 'all' (default), 'code', or 'tools'. Controls which features are enabled.",
+              "format": "string",
+              "name": "MCP_MODE"
+            },
+            {
+              "description": "Logging level: 'error', 'warn', 'info' (default), or 'debug'.",
+              "format": "string",
+              "name": "MCP_LOG_LEVEL"
+            },
+            {
+              "description": "Kubernetes context name to use. If unset, uses the current context from kubeconfig.",
+              "format": "string",
+              "name": "MCP_KUBE_CONTEXT"
+            },
+            {
+              "description": "Skip TLS certificate verification for Kubernetes API (use 'true' or '1'). Not recommended for production.",
+              "format": "string",
+              "name": "MCP_K8S_SKIP_TLS_VERIFY"
+            },
+            {
+              "description": "Enable global sensitive data masking. Set to 'true' or '1' to mask sensitive values in responses.",
+              "format": "string",
+              "name": "MCP_HIDE_SENSITIVE"
+            },
+            {
+              "description": "Default timeout in milliseconds for operations. If unset, uses plugin-specific defaults.",
+              "format": "string",
+              "name": "MCP_TIMEOUT"
+            },
+            {
+              "description": "Disable Kubernetes plugin. Set to 'true' or '1' to disable.",
+              "format": "string",
+              "name": "MCP_DISABLE_KUBERNETES_PLUGIN"
+            },
+            {
+              "description": "Disable Helm plugin. Set to 'true' or '1' to disable.",
+              "format": "string",
+              "name": "MCP_DISABLE_HELM_PLUGIN"
+            },
+            {
+              "description": "Disable Argo Workflows plugin. Set to 'true' or '1' to disable.",
+              "format": "string",
+              "name": "MCP_DISABLE_ARGO_PLUGIN"
+            },
+            {
+              "description": "Disable Argo CD plugin. Set to 'true' or '1' to disable.",
+              "format": "string",
+              "name": "MCP_DISABLE_ARGOCD_PLUGIN"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-30T11:34:24.826443Z",
+        "updatedAt": "2025-11-30T11:34:24.826443Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.SELISEdigitalplatforms/l0-py-blocks-mcp",
+      "description": "A Model Context Protocol (MCP) server for Selise Cloud integration.",
+      "repository": {
+        "url": "https://github.com/SELISEdigitalplatforms/l0-py-blocks-mcp",
+        "source": "github"
+      },
+      "version": "0.1.0-beta.2",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://ai.seliseblocks.com/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-30T12:08:25.566179Z",
+        "updatedAt": "2025-11-30T12:08:25.566179Z",
+        "isLatest": true
+      }
+    }
   }
 ]
