@@ -100067,7 +100067,7 @@
         "status": "active",
         "publishedAt": "2025-11-28T14:00:44.068638Z",
         "updatedAt": "2025-11-28T14:00:44.068638Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -103331,6 +103331,84 @@
         "status": "active",
         "publishedAt": "2025-12-01T04:54:18.220088Z",
         "updatedAt": "2025-12-01T04:54:18.220088Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.fenetresurciel.verylongmcp/mcp-server-template-nodejs",
+      "description": "A non functional MCP server (yet)",
+      "title": "Second server",
+      "version": "0.0.67",
+      "icons": [
+        {
+          "src": "https://alpic.ai/logo.png",
+          "mimeType": "image/png",
+          "sizes": [
+            "200x200"
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://verylongmcp.fenetresurciel.com",
+          "headers": [
+            {
+              "description": "Just put your api key",
+              "isRequired": true,
+              "name": "x-api-key"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-01T08:32:06.305666Z",
+        "updatedAt": "2025-12-01T08:32:06.305666Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.fenetresurciel.verylongmcp/mcp-server-template-nodejs",
+      "description": "A non functional MCP server (yet)",
+      "title": "Second server!",
+      "version": "0.0.68",
+      "icons": [
+        {
+          "src": "https://alpic.ai/logo.png",
+          "mimeType": "image/png",
+          "sizes": [
+            "200x200"
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://verylongmcp.fenetresurciel.com",
+          "headers": [
+            {
+              "description": "Just put your api key",
+              "isRequired": true,
+              "name": "x-api-key"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-01T08:32:18.169108Z",
+        "updatedAt": "2025-12-01T08:32:18.169108Z",
         "isLatest": true
       }
     }
