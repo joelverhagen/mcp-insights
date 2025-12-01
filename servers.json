@@ -103136,5 +103136,129 @@
         "isLatest": true
       }
     }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.totonga/odsbox-jaquel-mcp",
+      "description": "MCP server for ASAM ODS with Jaquel query tools, connection management, and data access",
+      "title": "ASAM ODS odsbox jaquel MCP Server",
+      "repository": {
+        "url": "https://github.com/totonga/odsbox-jaquel-mcp",
+        "source": "github"
+      },
+      "version": "0.3.5",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "odsbox-jaquel-mcp",
+          "version": "0.3.5",
+          "runtimeHint": "uvx",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-30T23:11:45.884854Z",
+        "updatedAt": "2025-11-30T23:11:45.884854Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.DigitalDefiance/ts-mcp-debugger",
+      "description": "Enterprise debugging for Node.js/TypeScript with 25+ tools: breakpoints, profiling, hang detection",
+      "repository": {
+        "url": "https://github.com/digitaldefiance/ai-capabilities-suite",
+        "source": "github"
+      },
+      "version": "1.0.2",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@ai-capabilities-suite/mcp-debugger-server",
+          "version": "1.0.2",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-30T23:25:59.034281Z",
+        "updatedAt": "2025-11-30T23:25:59.034281Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.isakskogstad/oecd-mcp",
+      "description": "OECD economic and statistical data via SDMX API. Access 5,000+ datasets across 17 categories.",
+      "title": "OECD MCP Server",
+      "repository": {
+        "url": "https://github.com/isakskogstad/OECD-MCP-server",
+        "source": "github"
+      },
+      "version": "3.0.0",
+      "websiteUrl": "https://github.com/isakskogstad/OECD-MCP-server",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://oecd-mcp-server.onrender.com/mcp"
+        },
+        {
+          "type": "sse",
+          "url": "https://oecd-mcp-server.onrender.com/sse"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-11-30T23:53:18.006828Z",
+        "updatedAt": "2025-11-30T23:53:18.006828Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.winedarksea/AutoTS",
+      "description": "Automated time series forecasting with model search, anomaly detection, and event risk analysis",
+      "repository": {
+        "url": "https://github.com/winedarksea/AutoTS",
+        "source": "github"
+      },
+      "version": "1.0.0",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "autots",
+          "version": "1.0.0",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-01T02:05:09.552099Z",
+        "updatedAt": "2025-12-01T02:05:09.552099Z",
+        "isLatest": true
+      }
+    }
   }
 ]
