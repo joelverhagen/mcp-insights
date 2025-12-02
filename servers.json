@@ -21959,7 +21959,7 @@
         "status": "active",
         "publishedAt": "2025-09-21T14:24:47.187745Z",
         "updatedAt": "2025-09-21T14:24:47.187745Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -92881,7 +92881,7 @@
         "status": "active",
         "publishedAt": "2025-11-26T16:08:03.251271Z",
         "updatedAt": "2025-11-26T16:08:03.251271Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -100953,7 +100953,7 @@
         "status": "active",
         "publishedAt": "2025-11-29T11:23:03.658674Z",
         "updatedAt": "2025-11-29T11:23:03.658674Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -103512,7 +103512,7 @@
         "status": "active",
         "publishedAt": "2025-12-01T11:53:18.002831Z",
         "updatedAt": "2025-12-01T11:53:18.002831Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -105723,6 +105723,451 @@
         "status": "active",
         "publishedAt": "2025-12-02T08:40:55.164673Z",
         "updatedAt": "2025-12-02T08:40:55.164673Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.github/github-mcp-server",
+      "description": "Connect AI assistants to GitHub - manage repos, issues, PRs, and workflows through natural language.",
+      "title": "GitHub",
+      "repository": {
+        "url": "https://github.com/github/github-mcp-server",
+        "source": "github"
+      },
+      "version": "0.24.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://api.githubcopilot.com/mcp/",
+          "headers": [
+            {
+              "description": "Authentication token (PAT or App token)",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "Authorization"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-02T09:17:16.618662Z",
+        "updatedAt": "2025-12-02T09:17:16.618662Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.staging.template-nodejs-d3cd3099/template-nodejs",
+      "description": "A non functional MCP server (yet)",
+      "title": "Template",
+      "version": "0.0.1",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://template-nodejs-d3cd3099.staging.alpic.live"
+        },
+        {
+          "type": "sse",
+          "url": "https://template-nodejs-d3cd3099.staging.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-02T09:43:32.655853Z",
+        "updatedAt": "2025-12-02T09:43:32.655853Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.staging.template-0f352e26/template",
+      "description": "A non functional MCP server (yet)",
+      "title": "Template",
+      "version": "0.0.1",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://template-0f352e26.staging.alpic.live"
+        },
+        {
+          "type": "sse",
+          "url": "https://template-0f352e26.staging.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-02T09:46:53.168666Z",
+        "updatedAt": "2025-12-02T09:46:53.168666Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.wordlift/mcp-server",
+      "description": "Knowledge Graph, GraphQL, GS1 Digital Link and SEO tools for semantic content optimization.",
+      "version": "1.0.6",
+      "remotes": [
+        {
+          "type": "sse",
+          "url": "https://mcp.wordlift.io/sse"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-02T09:55:31.734318Z",
+        "updatedAt": "2025-12-02T09:55:31.734318Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.wordlift/mcp-server",
+      "description": "Knowledge Graph, GraphQL, GS1 Digital Link and SEO tools for semantic content optimization.",
+      "repository": {
+        "url": "https://github.com/wordlift/mcp-wordlift",
+        "source": "github"
+      },
+      "version": "1.0.7",
+      "remotes": [
+        {
+          "type": "sse",
+          "url": "https://mcp.wordlift.io/sse"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-02T09:59:00.697951Z",
+        "updatedAt": "2025-12-02T09:59:00.697951Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.PyJudge/pdf4vllm",
+      "description": "PDF reader for vision LLMs. Auto-detects text corruption and switches to image mode.",
+      "repository": {
+        "url": "https://github.com/PyJudge/pdf4vllm-mcp",
+        "source": "github"
+      },
+      "version": "1.0.1",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "pdf4vllm-mcp",
+          "version": "1.0.1",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-02T10:24:50.185036Z",
+        "updatedAt": "2025-12-02T10:24:50.185036Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.staging.email-mcp-c880a7f7/email-mcp",
+      "description": "Still work in progress",
+      "title": "Basic mail server",
+      "version": "0.0.1",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://email-mcp-c880a7f7.staging.alpic.live"
+        },
+        {
+          "type": "sse",
+          "url": "https://email-mcp-c880a7f7.staging.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-02T10:32:30.715842Z",
+        "updatedAt": "2025-12-02T10:32:30.715842Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.staging.email-mcp-c880a7f7/email-mcp",
+      "description": "Still work in progress",
+      "title": "Basic mail server!",
+      "version": "0.0.2",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://email-mcp-c880a7f7.staging.alpic.live"
+        },
+        {
+          "type": "sse",
+          "url": "https://email-mcp-c880a7f7.staging.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-02T10:32:40.909199Z",
+        "updatedAt": "2025-12-02T10:32:40.909199Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.staging.email-mcp-c880a7f7/email-mcp",
+      "description": "Still work in progress",
+      "title": "Basic mail server",
+      "version": "0.0.3",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://email-mcp-c880a7f7.staging.alpic.live"
+        },
+        {
+          "type": "sse",
+          "url": "https://email-mcp-c880a7f7.staging.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-02T10:32:47.786946Z",
+        "updatedAt": "2025-12-02T10:32:47.786946Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.PyJudge/pdf4vllm",
+      "description": "PDF reader for vision LLMs. Auto-detects text corruption and switches to image mode.",
+      "repository": {
+        "url": "https://github.com/PyJudge/pdf4vllm-mcp",
+        "source": "github"
+      },
+      "version": "1.0.2",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "pdf4vllm-mcp",
+          "version": "1.0.2",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-02T11:30:39.401838Z",
+        "updatedAt": "2025-12-02T11:30:39.401838Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.jztan/redmine-mcp-server",
+      "description": "Production-ready MCP server for Redmine with security, pagination, and enterprise features",
+      "repository": {
+        "url": "https://github.com/jztan/redmine-mcp-server",
+        "source": "github"
+      },
+      "version": "0.7.1",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "registryBaseUrl": "https://pypi.org",
+          "identifier": "redmine-mcp-server",
+          "version": "0.7.1",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "URL of your Redmine server (e.g., https://your-redmine-server.com)",
+              "isRequired": true,
+              "format": "string",
+              "name": "REDMINE_URL"
+            },
+            {
+              "description": "Redmine username for authentication (alternative to API key)",
+              "format": "string",
+              "name": "REDMINE_USERNAME"
+            },
+            {
+              "description": "Redmine password for authentication (alternative to API key)",
+              "format": "string",
+              "isSecret": true,
+              "name": "REDMINE_PASSWORD"
+            },
+            {
+              "description": "Redmine API key for authentication (alternative to username/password)",
+              "format": "string",
+              "isSecret": true,
+              "name": "REDMINE_API_KEY"
+            },
+            {
+              "description": "Host address for the MCP server (default: 0.0.0.0)",
+              "format": "string",
+              "default": "0.0.0.0",
+              "name": "SERVER_HOST"
+            },
+            {
+              "description": "Port for the MCP server (default: 8000)",
+              "format": "number",
+              "default": "8000",
+              "name": "SERVER_PORT"
+            },
+            {
+              "description": "Public hostname for file download URLs (default: localhost)",
+              "format": "string",
+              "default": "localhost",
+              "name": "PUBLIC_HOST"
+            },
+            {
+              "description": "Public port for file download URLs (default: 8000)",
+              "format": "number",
+              "default": "8000",
+              "name": "PUBLIC_PORT"
+            },
+            {
+              "description": "Directory for storing downloaded attachments (default: ./attachments)",
+              "format": "string",
+              "default": "./attachments",
+              "name": "ATTACHMENTS_DIR"
+            },
+            {
+              "description": "Enable automatic cleanup of expired files (default: true)",
+              "format": "boolean",
+              "default": "true",
+              "name": "AUTO_CLEANUP_ENABLED"
+            },
+            {
+              "description": "Interval between cleanup runs in minutes (default: 10)",
+              "format": "number",
+              "default": "10",
+              "name": "CLEANUP_INTERVAL_MINUTES"
+            },
+            {
+              "description": "Default expiry time for attachments in minutes (default: 60)",
+              "format": "number",
+              "default": "60",
+              "name": "ATTACHMENT_EXPIRES_MINUTES"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-02T12:05:41.854023Z",
+        "updatedAt": "2025-12-02T12:05:41.854023Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.civic/nexus",
+      "description": "Zero-setup MCP gateway securely connecting AI to your tools with authentication and workflows",
+      "repository": {
+        "url": "https://github.com/civicteam/civic-mcp",
+        "source": "github",
+        "subfolder": "apps/hub"
+      },
+      "version": "0.1.51",
+      "websiteUrl": "https://nexus.civic.com",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://nexus.civic.com/hub/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-02T12:06:51.266372Z",
+        "updatedAt": "2025-12-02T12:06:51.266372Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.panbanda/omen",
+      "description": "Multi-language code analysis for complexity, debt, hotspots, ownership, and defect prediction",
+      "repository": {
+        "url": "https://github.com/panbanda/omen",
+        "source": "github"
+      },
+      "version": "1.4.6",
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/panbanda/omen:1.4.6",
+          "transport": {
+            "type": "stdio"
+          },
+          "packageArguments": [
+            {
+              "value": "mcp",
+              "type": "positional"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-02T12:11:40.948628Z",
+        "updatedAt": "2025-12-02T12:11:40.948628Z",
         "isLatest": true
       }
     }
