@@ -81843,7 +81843,7 @@
         "status": "active",
         "publishedAt": "2025-11-16T20:42:22.232422Z",
         "updatedAt": "2025-11-16T20:42:22.232422Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -105169,7 +105169,7 @@
         "status": "active",
         "publishedAt": "2025-12-01T23:36:19.398985Z",
         "updatedAt": "2025-12-01T23:36:19.398985Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -106168,6 +106168,258 @@
         "status": "active",
         "publishedAt": "2025-12-02T12:11:40.948628Z",
         "updatedAt": "2025-12-02T12:11:40.948628Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.xorrkaz/cml-mcp",
+      "description": "An MCP server that provides access to common Cisco Modeling Labs (CML) operations.",
+      "title": "Cisco Modeling Labs (CML)",
+      "repository": {
+        "url": "https://github.com/xorrkaz/cml-mcp",
+        "source": "github"
+      },
+      "version": "0.14.3",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "registryBaseUrl": "https://pypi.org",
+          "identifier": "cml-mcp",
+          "version": "0.14.3",
+          "runtimeHint": "uvx",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "URL for the CML Server",
+              "isRequired": true,
+              "format": "string",
+              "name": "CML_URL"
+            },
+            {
+              "description": "Username for CML authentication",
+              "isRequired": true,
+              "format": "string",
+              "name": "CML_USERNAME"
+            },
+            {
+              "description": "Password for CML authentication",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "CML_PASSWORD"
+            },
+            {
+              "description": "Username for authentication to devices running in CML",
+              "format": "string",
+              "name": "PYATS_USERNAME"
+            },
+            {
+              "description": "Password for authentication to devices running in CML",
+              "format": "string",
+              "isSecret": true,
+              "name": "PYATS_PASSWORD"
+            },
+            {
+              "description": "Enable password for authentication to devices running in CML",
+              "format": "string",
+              "isSecret": true,
+              "name": "PYATS_AUTH_PASS"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-02T13:31:49.918084Z",
+        "updatedAt": "2025-12-02T13:31:49.918084Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.SamMorrowDrums/remarkable",
+      "description": "Access your reMarkable tablet - read documents, browse files, extract text and OCR",
+      "title": "reMarkable MCP Server",
+      "repository": {
+        "url": "https://github.com/SamMorrowDrums/remarkable-mcp",
+        "source": "github"
+      },
+      "version": "0.7.0",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "remarkable-mcp",
+          "version": "0.7.0",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Authentication token for reMarkable Cloud API. Get one by registering at https://my.remarkable.com/device/browser/connect",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "REMARKABLE_TOKEN"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-02T13:50:27.098707Z",
+        "updatedAt": "2025-12-02T13:50:27.098707Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.Wolfe-Jam/WJTTC",
+      "description": "F1-grade MCP certification. 46 tests, 7 tiers. From the creator of IANA-registered .faf format.",
+      "repository": {
+        "url": "https://github.com/Wolfe-Jam/wjttc",
+        "source": "github"
+      },
+      "version": "1.1.0",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "wjttc",
+          "version": "1.1.0",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-02T13:55:39.709217Z",
+        "updatedAt": "2025-12-02T13:55:39.709217Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.maksimsarychau/mcp-zebrunner",
+      "description": "Unified Zebrunner MCP server for TCM test cases, suites, coverage analysis, launchers, etc.",
+      "repository": {
+        "url": "https://github.com/maksimsarychau/mcp-zebrunner",
+        "source": "github"
+      },
+      "version": "5.11.4",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "mcp-zebrunner",
+          "version": "5.11.4",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Base URL for your Zebrunner instance (e.g., https://your-instance.zebrunner.com)",
+              "isRequired": true,
+              "format": "string",
+              "name": "ZEBRUNNER_URL"
+            },
+            {
+              "description": "Your Zebrunner username/login",
+              "isRequired": true,
+              "format": "string",
+              "name": "ZEBRUNNER_LOGIN"
+            },
+            {
+              "description": "Your Zebrunner API authentication token",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "ZEBRUNNER_TOKEN"
+            },
+            {
+              "description": "API request timeout in milliseconds (default: 30000)",
+              "format": "string",
+              "name": "TIMEOUT"
+            },
+            {
+              "description": "Number of retry attempts for failed API requests (default: 3)",
+              "format": "string",
+              "name": "RETRY_ATTEMPTS"
+            },
+            {
+              "description": "Delay between retry attempts in milliseconds (default: 1000)",
+              "format": "string",
+              "name": "RETRY_DELAY"
+            },
+            {
+              "description": "Maximum page size for paginated API requests (default: 100, max: 1000)",
+              "format": "string",
+              "name": "MAX_PAGE_SIZE"
+            },
+            {
+              "description": "Default page size for paginated API requests (default: 10)",
+              "format": "string",
+              "name": "DEFAULT_PAGE_SIZE"
+            },
+            {
+              "description": "Enable debug logging (default: false)",
+              "format": "string",
+              "name": "DEBUG"
+            },
+            {
+              "description": "Enable the rules engine for test case validation (default: auto-detected from mcp-zebrunner-rules.md file)",
+              "format": "string",
+              "name": "ENABLE_RULES_ENGINE"
+            },
+            {
+              "description": "Enable strict URL validation for security (default: true)",
+              "format": "string",
+              "name": "STRICT_URL_VALIDATION"
+            },
+            {
+              "description": "Skip URL validation if it fails (less secure, more permissive) (default: false)",
+              "format": "string",
+              "name": "SKIP_URL_VALIDATION_ON_ERROR"
+            },
+            {
+              "description": "Enable rate limiting for API calls (default: true)",
+              "format": "string",
+              "name": "ENABLE_RATE_LIMITING"
+            },
+            {
+              "description": "Maximum API requests per second (default: 5, max: 100)",
+              "format": "string",
+              "name": "MAX_REQUESTS_PER_SECOND"
+            },
+            {
+              "description": "Allow burst of API requests (default: 10, max: 200)",
+              "format": "string",
+              "name": "RATE_LIMITING_BURST"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-02T16:26:08.615824Z",
+        "updatedAt": "2025-12-02T16:26:08.615824Z",
         "isLatest": true
       }
     }
