@@ -95110,7 +95110,7 @@
         "status": "active",
         "publishedAt": "2025-11-28T01:41:07.430225Z",
         "updatedAt": "2025-11-28T01:41:07.430225Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -105129,7 +105129,7 @@
         "status": "active",
         "publishedAt": "2025-12-01T23:11:06.056174Z",
         "updatedAt": "2025-12-01T23:11:06.056174Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -105638,6 +105638,91 @@
         "status": "active",
         "publishedAt": "2025-12-02T04:39:16.028244Z",
         "updatedAt": "2025-12-02T04:39:16.028244Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.w31r4/codex-mcp-go",
+      "description": "MCP server wrapping Codex CLI for stdio-based tool calls.",
+      "repository": {
+        "url": "https://github.com/w31r4/codex-mcp-go",
+        "source": "github"
+      },
+      "version": "0.0.5",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@zenfun510/codex-mcp-go",
+          "version": "0.0.5",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-02T04:54:27.109438Z",
+        "updatedAt": "2025-12-02T04:54:27.109438Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.staging.mcp-template-e37c5898/mcp-template",
+      "description": "A non functional MCP server (yet)",
+      "title": "Template server!",
+      "version": "0.0.4",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp-template-e37c5898.staging.alpic.live"
+        },
+        {
+          "type": "sse",
+          "url": "https://mcp-template-e37c5898.staging.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-02T08:38:44.819399Z",
+        "updatedAt": "2025-12-02T08:38:44.819399Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.staging.mcp-server-a2d17427/mcp-server",
+      "description": "A non functional MCP server (yet)",
+      "title": "My MCP Server!",
+      "version": "0.0.1",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp-server-a2d17427.staging.alpic.live"
+        },
+        {
+          "type": "sse",
+          "url": "https://mcp-server-a2d17427.staging.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-02T08:40:55.164673Z",
+        "updatedAt": "2025-12-02T08:40:55.164673Z",
         "isLatest": true
       }
     }
