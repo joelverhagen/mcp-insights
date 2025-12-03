@@ -81638,7 +81638,7 @@
         "status": "active",
         "publishedAt": "2025-11-16T13:41:16.648611Z",
         "updatedAt": "2025-11-16T13:41:16.648611Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -86275,7 +86275,7 @@
         "status": "active",
         "publishedAt": "2025-11-19T13:35:53.660217Z",
         "updatedAt": "2025-11-19T13:35:53.660217Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -87317,7 +87317,7 @@
         "status": "active",
         "publishedAt": "2025-11-20T13:16:17.21701Z",
         "updatedAt": "2025-11-20T13:16:17.21701Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -87609,7 +87609,7 @@
         "status": "active",
         "publishedAt": "2025-11-20T18:00:55.174988Z",
         "updatedAt": "2025-11-20T18:00:55.174988Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -94719,7 +94719,7 @@
         "status": "active",
         "publishedAt": "2025-11-27T17:11:14.735025Z",
         "updatedAt": "2025-11-27T17:11:14.735025Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -106849,7 +106849,7 @@
         "status": "active",
         "publishedAt": "2025-12-02T21:31:20.265457Z",
         "updatedAt": "2025-12-02T21:31:20.265457Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -109176,7 +109176,7 @@
         "status": "active",
         "publishedAt": "2025-12-03T12:39:38.455327Z",
         "updatedAt": "2025-12-03T12:39:38.455327Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -109302,6 +109302,350 @@
         "status": "active",
         "publishedAt": "2025-12-03T16:27:04.464604Z",
         "updatedAt": "2025-12-03T16:27:04.464604Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "ai.exa/exa",
+      "description": "Fast, intelligent web search and web crawling.\n\nNew mcp tool: Exa-code is a context tool for coding ",
+      "repository": {
+        "url": "https://github.com/exa-labs/exa-mcp-server",
+        "source": "github"
+      },
+      "version": "3.1.1",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.exa.ai/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-03T16:45:12.14883Z",
+        "updatedAt": "2025-12-03T16:45:12.14883Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json#/definitions/ServerDetail",
+      "name": "com.smartbear/smartbear-mcp",
+      "description": "MCP server for AI access to SmartBear tools, including BugSnag, Reflect, Swagger, PactFlow.",
+      "title": "SmartBear MCP",
+      "repository": {
+        "url": "https://github.com/SmartBear/smartbear-mcp",
+        "source": "github"
+      },
+      "version": "0.12.0",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@smartbear/mcp",
+          "version": "0.12.0",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "BugSnag auth token. Leave empty to disable BugSnag tools. Learn more: https://developer.smartbear.com/smartbear-mcp/docs/bugsnag-integration",
+              "isSecret": true,
+              "name": "BUGSNAG_AUTH_TOKEN"
+            },
+            {
+              "description": "BugSnag project API key (optional; narrows interactions to a single project). Learn more: https://developer.smartbear.com/smartbear-mcp/docs/bugsnag-integration",
+              "name": "BUGSNAG_PROJECT_API_KEY"
+            },
+            {
+              "description": "Reflect API token. Leave empty to disable Reflect tools. Learn more: https://developer.smartbear.com/smartbear-mcp/docs/test-hub-integration",
+              "isSecret": true,
+              "name": "REFLECT_API_TOKEN"
+            },
+            {
+              "description": "Swagger API key. Leave empty to disable Swagger tools. Learn more: https://developer.smartbear.com/smartbear-mcp/docs/swagger-portal-integration",
+              "isSecret": true,
+              "name": "SWAGGER_API_KEY"
+            },
+            {
+              "description": "PactFlow/Pact Broker base URL. Leave empty to disable Pact tools. Learn more: https://developer.smartbear.com/smartbear-mcp/docs/contract-testing-with-pactflow",
+              "name": "PACT_BROKER_BASE_URL"
+            },
+            {
+              "description": "PactFlow authentication token. Learn more: https://developer.smartbear.com/smartbear-mcp/docs/contract-testing-with-pactflow",
+              "isSecret": true,
+              "name": "PACT_BROKER_TOKEN"
+            },
+            {
+              "description": "Pact Broker username (alternative to token). Learn more: https://developer.smartbear.com/smartbear-mcp/docs/contract-testing-with-pactflow",
+              "name": "PACT_BROKER_USERNAME"
+            },
+            {
+              "description": "Pact Broker password (alternative to token). Learn more: https://developer.smartbear.com/smartbear-mcp/docs/contract-testing-with-pactflow",
+              "isSecret": true,
+              "name": "PACT_BROKER_PASSWORD"
+            },
+            {
+              "description": "The Zephyr Cloud API token for authentication. Learn more: https://support.smartbear.com/zephyr/docs/en/rest-api/api-access-tokens-management.html",
+              "isSecret": true,
+              "name": "ZEPHYR_API_TOKEN"
+            },
+            {
+              "description": " The Zephyr Cloud API base url. Should be changed depending on the region of your Jira instance. Learn more: https://support.smartbear.com/zephyr-scale-cloud/api-docs/#section/Authentication/Accessing-the-API",
+              "name": "ZEPHYR_BASE_URL"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-03T16:47:44.393514Z",
+        "updatedAt": "2025-12-03T16:47:44.393514Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.brave/brave-search-mcp-server",
+      "description": "Brave Search MCP Server: web results, images, videos, rich results, AI summaries, and more.",
+      "repository": {
+        "url": "https://github.com/brave/brave-search-mcp-server",
+        "source": "github"
+      },
+      "version": "2.0.62",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@brave/brave-search-mcp-server",
+          "version": "2.0.62",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your API key for the service",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "BRAVE_API_KEY"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-03T17:57:14.921102Z",
+        "updatedAt": "2025-12-03T17:57:14.921102Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.KevinRabun/FedRAMP20xMCP",
+      "description": "An MCP server that provides access to FedRAMP 20x security requirements and controls.",
+      "title": "FedRAMP 20x Requirements",
+      "repository": {
+        "url": "https://github.com/KevinRabun/FedRAMP20xMCP",
+        "source": "github"
+      },
+      "version": "0.4.5",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "fedramp-20x-mcp",
+          "version": "0.4.5",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-03T18:31:01.945526Z",
+        "updatedAt": "2025-12-03T18:31:01.945526Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.umbraco/Umbraco-CMS-MCP-Dev",
+      "description": "A developer focused model context protocol (MCP) server for Umbraco CMS",
+      "title": "Umbraco CMS Developer MCP",
+      "repository": {
+        "url": "https://github.com/umbraco/Umbraco-CMS-MCP-Dev",
+        "source": "github"
+      },
+      "version": "17.0.0",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@umbraco-cms/mcp-dev",
+          "version": "17.0.0",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Umbraco API user client ID",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "UMBRACO_CLIENT_ID"
+            },
+            {
+              "description": "Umbraco API user client secret",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "UMBRACO_CLIENT_SECRET"
+            },
+            {
+              "description": "Base URL of your Umbraco instance",
+              "isRequired": true,
+              "format": "string",
+              "name": "UMBRACO_BASE_URL"
+            },
+            {
+              "description": "Comma-separated list of tool collections to include (e.g., document,media,document-type)",
+              "format": "string",
+              "name": "UMBRACO_INCLUDE_TOOL_COLLECTIONS"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-03T18:55:28.175078Z",
+        "updatedAt": "2025-12-03T18:55:28.175078Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.sbroenne/mcp-server-excel",
+      "description": "Excel automation for AI - Sheets, Power Query, DAX, VBA, Tables, Ranges and more. Windows only.",
+      "title": "MCP Server for Excel",
+      "repository": {
+        "url": "https://github.com/sbroenne/mcp-server-excel",
+        "source": "github"
+      },
+      "version": "1.4.30",
+      "packages": [
+        {
+          "registryType": "nuget",
+          "identifier": "Sbroenne.ExcelMcp.McpServer",
+          "version": "1.4.30",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-03T19:02:27.436392Z",
+        "updatedAt": "2025-12-03T19:02:27.436392Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.KevinRabun/FedRAMP20xMCP",
+      "description": "An MCP server that provides access to FedRAMP 20x security requirements and controls.",
+      "title": "FedRAMP 20x Requirements",
+      "repository": {
+        "url": "https://github.com/KevinRabun/FedRAMP20xMCP",
+        "source": "github"
+      },
+      "version": "0.4.6",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "fedramp-20x-mcp",
+          "version": "0.4.6",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-03T19:11:16.499911Z",
+        "updatedAt": "2025-12-03T19:11:16.499911Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.hopx-ai/hopx-mcp",
+      "description": "Execute code in isolated cloud containers. Supports Python, JavaScript, Bash, and Go.",
+      "version": "0.2.1"
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-03T19:11:19.714751Z",
+        "updatedAt": "2025-12-03T19:11:19.714751Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.KevinRabun/FedRAMP20xMCP",
+      "description": "An MCP server that provides access to FedRAMP 20x security requirements and controls.",
+      "title": "FedRAMP 20x Requirements",
+      "repository": {
+        "url": "https://github.com/KevinRabun/FedRAMP20xMCP",
+        "source": "github"
+      },
+      "version": "0.4.7",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "fedramp-20x-mcp",
+          "version": "0.4.7",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-03T19:25:14.317443Z",
+        "updatedAt": "2025-12-03T19:25:14.317443Z",
         "isLatest": true
       }
     }
