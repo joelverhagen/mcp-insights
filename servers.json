@@ -104173,7 +104173,7 @@
         "status": "active",
         "publishedAt": "2025-12-01T16:00:08.751357Z",
         "updatedAt": "2025-12-01T16:00:08.751357Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -105669,7 +105669,7 @@
         "status": "active",
         "publishedAt": "2025-12-02T04:54:27.109438Z",
         "updatedAt": "2025-12-02T04:54:27.109438Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -108777,6 +108777,116 @@
         "status": "active",
         "publishedAt": "2025-12-03T04:18:47.876061Z",
         "updatedAt": "2025-12-03T04:18:47.876061Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.homeassistant-ai/ha-mcp",
+      "description": "Comprehensive Model Context Protocol server for managing Home Assistant through AI assistants.",
+      "repository": {
+        "url": "https://github.com/homeassistant-ai/ha-mcp.git",
+        "source": "github"
+      },
+      "version": "4.12.0",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "ha-mcp",
+          "version": "4.12.0",
+          "transport": {
+            "type": "stdio"
+          }
+        },
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/homeassistant-ai/ha-mcp:4.12.0",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-03T05:03:05.036301Z",
+        "updatedAt": "2025-12-03T05:03:05.036301Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.w31r4/codex-mcp-go",
+      "description": "MCP server wrapping Codex CLI for stdio-based tool calls.",
+      "repository": {
+        "url": "https://github.com/w31r4/codex-mcp-go",
+        "source": "github"
+      },
+      "version": "0.0.6",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@zenfun510/codex-mcp-go",
+          "version": "0.0.6",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-03T06:40:02.535868Z",
+        "updatedAt": "2025-12-03T06:40:02.535868Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.ggozad/haiku-rag",
+      "description": "Opinionated agentic RAG powered by LanceDB, Pydantic AI, and Docling",
+      "repository": {
+        "url": "https://github.com/ggozad/haiku.rag",
+        "source": "github"
+      },
+      "version": "0.19.6",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "registryBaseUrl": "https://pypi.org",
+          "identifier": "haiku-rag",
+          "version": "0.19.6",
+          "runtimeHint": "uvx",
+          "transport": {
+            "type": "stdio"
+          },
+          "runtimeArguments": [
+            {
+              "value": "serve",
+              "type": "positional"
+            },
+            {
+              "type": "named",
+              "name": "--mcp"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-03T07:01:02.766879Z",
+        "updatedAt": "2025-12-03T07:01:02.766879Z",
         "isLatest": true
       }
     }
