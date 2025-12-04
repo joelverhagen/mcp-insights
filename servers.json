@@ -106133,7 +106133,7 @@
         "status": "active",
         "publishedAt": "2025-12-02T12:06:51.266372Z",
         "updatedAt": "2025-12-02T12:06:51.266372Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -109646,6 +109646,167 @@
         "status": "active",
         "publishedAt": "2025-12-03T19:25:14.317443Z",
         "updatedAt": "2025-12-03T19:25:14.317443Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.ConnorBritain/mssql",
+      "description": "MCP server for Microsoft SQL Server - schema discovery, profiling, and safe data operations",
+      "repository": {
+        "url": "https://github.com/ConnorBritain/mssql-mcp-server",
+        "source": "github"
+      },
+      "version": "0.1.2",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@connorbritain/mssql-mcp-server",
+          "version": "0.1.2",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "SQL Server hostname or IP address",
+              "isRequired": true,
+              "format": "string",
+              "name": "SERVER_NAME"
+            },
+            {
+              "description": "Target database name",
+              "isRequired": true,
+              "format": "string",
+              "name": "DATABASE_NAME"
+            },
+            {
+              "description": "Authentication mode: sql, windows, or aad",
+              "format": "string",
+              "name": "SQL_AUTH_MODE"
+            },
+            {
+              "description": "Username for SQL or Windows auth",
+              "format": "string",
+              "name": "SQL_USERNAME"
+            },
+            {
+              "description": "Password for SQL or Windows auth",
+              "format": "string",
+              "isSecret": true,
+              "name": "SQL_PASSWORD"
+            },
+            {
+              "description": "SQL Server port (default: 1433)",
+              "format": "string",
+              "name": "SQL_PORT"
+            },
+            {
+              "description": "Set true for self-signed certs",
+              "format": "string",
+              "name": "TRUST_SERVER_CERTIFICATE"
+            },
+            {
+              "description": "Set true to disable write operations",
+              "format": "string",
+              "name": "READONLY"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-03T20:39:13.464159Z",
+        "updatedAt": "2025-12-03T20:39:13.464159Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.KevinRabun/FedRAMP20xMCP",
+      "description": "An MCP server that provides access to FedRAMP 20x security requirements and controls.",
+      "title": "FedRAMP 20x Requirements",
+      "repository": {
+        "url": "https://github.com/KevinRabun/FedRAMP20xMCP",
+        "source": "github"
+      },
+      "version": "0.4.9",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "fedramp-20x-mcp",
+          "version": "0.4.9",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-03T20:45:57.106968Z",
+        "updatedAt": "2025-12-03T20:45:57.106968Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.civic/nexus",
+      "description": "Zero-setup MCP gateway securely connecting AI to your tools with authentication and workflows",
+      "repository": {
+        "url": "https://github.com/civicteam/civic-mcp",
+        "source": "github",
+        "subfolder": "apps/hub"
+      },
+      "version": "0.1.52",
+      "websiteUrl": "https://nexus.civic.com",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://nexus.civic.com/hub/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-03T21:48:33.15787Z",
+        "updatedAt": "2025-12-03T21:48:33.15787Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.mcpimmo-10e693d9/mcpimmo",
+      "description": "Description of my MCP server",
+      "title": "My MCP Server",
+      "version": "0.0.1",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcpimmo-10e693d9.alpic.live"
+        },
+        {
+          "type": "sse",
+          "url": "https://mcpimmo-10e693d9.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-03T23:34:44.935536Z",
+        "updatedAt": "2025-12-03T23:34:44.935536Z",
         "isLatest": true
       }
     }
