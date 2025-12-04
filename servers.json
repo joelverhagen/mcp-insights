@@ -109568,7 +109568,7 @@
         "status": "active",
         "publishedAt": "2025-12-03T19:02:27.436392Z",
         "updatedAt": "2025-12-03T19:02:27.436392Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -109807,6 +109807,82 @@
         "status": "active",
         "publishedAt": "2025-12-03T23:34:44.935536Z",
         "updatedAt": "2025-12-03T23:34:44.935536Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.jongalloway/dotnet-mcp",
+      "description": "AI assistant access to .NET SDK for projects, packages, building, testing, and development tools.",
+      "title": ".NET MCP Server",
+      "repository": {
+        "url": "https://github.com/jongalloway/dotnet-mcp",
+        "source": "github"
+      },
+      "version": "0.1.0-rc1",
+      "packages": [
+        {
+          "registryType": "nuget",
+          "registryBaseUrl": "https://api.nuget.org",
+          "identifier": "Community.Mcp.DotNet",
+          "version": "0.1.0-rc1",
+          "runtimeHint": "dnx",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Skip .NET CLI first-time setup experience",
+              "value": "1",
+              "name": "DOTNET_SKIP_FIRST_TIME_EXPERIENCE"
+            },
+            {
+              "description": "Suppress .NET logo and startup messages",
+              "value": "1",
+              "name": "DOTNET_NOLOGO"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-04T06:50:39.415289Z",
+        "updatedAt": "2025-12-04T06:50:39.415289Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.sbroenne/mcp-server-excel",
+      "description": "Excel automation for AI - Sheets, Power Query, DAX, VBA, Tables, Ranges and more. Windows only.",
+      "title": "MCP Server for Excel",
+      "repository": {
+        "url": "https://github.com/sbroenne/mcp-server-excel",
+        "source": "github"
+      },
+      "version": "1.4.31",
+      "packages": [
+        {
+          "registryType": "nuget",
+          "identifier": "Sbroenne.ExcelMcp.McpServer",
+          "version": "1.4.31",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-04T07:16:05.117339Z",
+        "updatedAt": "2025-12-04T07:16:05.117339Z",
         "isLatest": true
       }
     }
