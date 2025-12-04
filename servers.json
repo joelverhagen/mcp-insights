@@ -109780,7 +109780,7 @@
         "status": "active",
         "publishedAt": "2025-12-03T21:48:33.15787Z",
         "updatedAt": "2025-12-03T21:48:33.15787Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -109883,6 +109883,289 @@
         "status": "active",
         "publishedAt": "2025-12-04T07:16:05.117339Z",
         "updatedAt": "2025-12-04T07:16:05.117339Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.antvis/mcp-server-chart",
+      "description": "A Model Context Protocol server for generating charts using AntV.",
+      "repository": {
+        "url": "https://github.com/antvis/mcp-server-chart",
+        "source": "github"
+      },
+      "version": "0.9.6",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@antv/mcp-server-chart",
+          "version": "0.9.6",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "URL for the chart generation service. Defaults to the public AntV service, but can be overridden for private deployments.",
+              "format": "string",
+              "default": "https://antv-studio.alipay.com/api/gpt-vis",
+              "name": "VIS_REQUEST_SERVER"
+            },
+            {
+              "description": "A unique identifier for your service, used for tracking chart generation records. This may be required for certain service levels or features.",
+              "format": "string",
+              "isSecret": true,
+              "name": "SERVICE_ID"
+            },
+            {
+              "description": "Comma-separated list of tool names to disable.",
+              "format": "string",
+              "name": "DISABLED_TOOLS"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-04T09:45:03.80826Z",
+        "updatedAt": "2025-12-04T09:45:03.80826Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.sbroenne/mcp-server-excel",
+      "description": "Excel automation for AI - Sheets, Power Query, DAX, VBA, Tables, Ranges and more. Windows only.",
+      "title": "MCP Server for Excel",
+      "repository": {
+        "url": "https://github.com/sbroenne/mcp-server-excel",
+        "source": "github"
+      },
+      "version": "1.4.32",
+      "packages": [
+        {
+          "registryType": "nuget",
+          "identifier": "Sbroenne.ExcelMcp.McpServer",
+          "version": "1.4.32",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-04T09:48:47.610309Z",
+        "updatedAt": "2025-12-04T09:48:47.610309Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.StudiousXiaoYu/oracle-link",
+      "description": "Oracle MCP Query Server (Node.js) - Read-only SELECT via MCP",
+      "repository": {
+        "url": "https://github.com/StudiousXiaoYu/oracle-link",
+        "source": "github"
+      },
+      "version": "0.2.0",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@studious-xiaoyu/oracle-link",
+          "version": "0.2.0",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Oracle DB username (optional when using tool url)",
+              "format": "string",
+              "name": "ORACLE_USERNAME"
+            },
+            {
+              "description": "Oracle DB password (optional when using tool url)",
+              "format": "string",
+              "isSecret": true,
+              "name": "ORACLE_PASSWORD"
+            },
+            {
+              "description": "Oracle connect string host:port/service (optional when using tool url)",
+              "format": "string",
+              "name": "ORACLE_CONNECT_STRING"
+            },
+            {
+              "description": "Admin privilege (SYSDBA or SYSOPER), optional",
+              "format": "string",
+              "name": "ORACLE_PRIVILEGE"
+            },
+            {
+              "description": "Default max rows for queries",
+              "format": "string",
+              "name": "DEFAULT_MAX_ROWS"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-04T11:48:38.659495Z",
+        "updatedAt": "2025-12-04T11:48:38.659495Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.civic/nexus",
+      "description": "Zero-setup MCP gateway securely connecting AI to your tools with authentication and workflows",
+      "repository": {
+        "url": "https://github.com/civicteam/civic-mcp",
+        "source": "github",
+        "subfolder": "apps/hub"
+      },
+      "version": "0.1.53",
+      "websiteUrl": "https://nexus.civic.com",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://nexus.civic.com/hub/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-04T12:03:55.357109Z",
+        "updatedAt": "2025-12-04T12:03:55.357109Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.StudiousXiaoYu/oracle-link",
+      "description": "Oracle MCP Query Server (Node.js) - Read-only SELECT via MCP",
+      "repository": {
+        "url": "https://github.com/StudiousXiaoYu/oracle-link",
+        "source": "github"
+      },
+      "version": "0.2.1",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@studious-xiaoyu/oracle-link",
+          "version": "0.2.1",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Oracle DB username (optional when using tool url)",
+              "format": "string",
+              "name": "ORACLE_USERNAME"
+            },
+            {
+              "description": "Oracle DB password (optional when using tool url)",
+              "format": "string",
+              "isSecret": true,
+              "name": "ORACLE_PASSWORD"
+            },
+            {
+              "description": "Oracle connect string host:port/service (optional when using tool url)",
+              "format": "string",
+              "name": "ORACLE_CONNECT_STRING"
+            },
+            {
+              "description": "Admin privilege (SYSDBA or SYSOPER), optional",
+              "format": "string",
+              "name": "ORACLE_PRIVILEGE"
+            },
+            {
+              "description": "Default max rows for queries",
+              "format": "string",
+              "name": "DEFAULT_MAX_ROWS"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-04T12:28:58.404015Z",
+        "updatedAt": "2025-12-04T12:28:58.404015Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.StudiousXiaoYu/oracle-link",
+      "description": "Oracle MCP Query Server (Node.js) - Read-only SELECT via MCP",
+      "repository": {
+        "url": "https://github.com/StudiousXiaoYu/oracle-link",
+        "source": "github"
+      },
+      "version": "0.2.2",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@studious-xiaoyu/oracle-link",
+          "version": "0.2.2",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Oracle DB username (optional when using tool url)",
+              "format": "string",
+              "name": "ORACLE_USERNAME"
+            },
+            {
+              "description": "Oracle DB password (optional when using tool url)",
+              "format": "string",
+              "isSecret": true,
+              "name": "ORACLE_PASSWORD"
+            },
+            {
+              "description": "Oracle connect string host:port/service (optional when using tool url)",
+              "format": "string",
+              "name": "ORACLE_CONNECT_STRING"
+            },
+            {
+              "description": "Admin privilege (SYSDBA or SYSOPER), optional",
+              "format": "string",
+              "name": "ORACLE_PRIVILEGE"
+            },
+            {
+              "description": "Default max rows for queries",
+              "format": "string",
+              "name": "DEFAULT_MAX_ROWS"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-04T12:51:51.721686Z",
+        "updatedAt": "2025-12-04T12:51:51.721686Z",
         "isLatest": true
       }
     }
