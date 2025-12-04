@@ -79861,7 +79861,7 @@
         "status": "active",
         "publishedAt": "2025-11-13T17:47:50.690541Z",
         "updatedAt": "2025-11-13T17:47:50.690541Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -104776,7 +104776,7 @@
         "status": "active",
         "publishedAt": "2025-12-01T22:02:49.064424Z",
         "updatedAt": "2025-12-01T22:02:49.064424Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -109752,7 +109752,7 @@
         "status": "active",
         "publishedAt": "2025-12-03T20:45:57.106968Z",
         "updatedAt": "2025-12-03T20:45:57.106968Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -109964,7 +109964,7 @@
         "status": "active",
         "publishedAt": "2025-12-04T09:48:47.610309Z",
         "updatedAt": "2025-12-04T09:48:47.610309Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -110247,6 +110247,249 @@
         "status": "active",
         "publishedAt": "2025-12-04T14:10:45.257672Z",
         "updatedAt": "2025-12-04T14:10:45.257672Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.firebase/firebase-mcp",
+      "description": "Gives AI development tools Firebase-specific capabilities and expertise.",
+      "repository": {
+        "url": "https://github.com/firebase/firebase-tools",
+        "source": "github",
+        "subfolder": "src/mcp"
+      },
+      "version": "0.3.0",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "firebase-tools",
+          "version": "14.27.0",
+          "runtimeHint": "npx",
+          "transport": {
+            "type": "stdio"
+          },
+          "runtimeArguments": [
+            {
+              "value": "mcp",
+              "type": "positional"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-04T17:56:29.057916Z",
+        "updatedAt": "2025-12-04T17:56:29.057916Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.sbroenne/mcp-server-excel",
+      "description": "Excel automation for AI - Sheets, Power Query, DAX, VBA, Tables, Ranges and more. Windows only.",
+      "title": "MCP Server for Excel",
+      "repository": {
+        "url": "https://github.com/sbroenne/mcp-server-excel",
+        "source": "github"
+      },
+      "version": "1.4.33",
+      "packages": [
+        {
+          "registryType": "nuget",
+          "identifier": "Sbroenne.ExcelMcp.McpServer",
+          "version": "1.4.33",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-04T18:19:59.167098Z",
+        "updatedAt": "2025-12-04T18:19:59.167098Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "ai.xpoz/social-insights",
+      "description": "Twitter/X, Instagram, TikTok data for AI agents. 1.5B+ posts, profiles & comments. No API keys.",
+      "title": "XPOZ Social Insights",
+      "version": "1.1.0",
+      "websiteUrl": "https://www.xpoz.ai",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.xpoz.ai/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-04T19:01:17.657631Z",
+        "updatedAt": "2025-12-04T19:01:17.657631Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.KevinRabun/FedRAMP20xMCP",
+      "description": "An MCP server that provides access to FedRAMP 20x security requirements and controls.",
+      "title": "FedRAMP 20x Requirements",
+      "repository": {
+        "url": "https://github.com/KevinRabun/FedRAMP20xMCP",
+        "source": "github"
+      },
+      "version": "0.5.0",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "fedramp-20x-mcp",
+          "version": "0.5.0",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-04T19:07:58.717689Z",
+        "updatedAt": "2025-12-04T19:07:58.717689Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.totonga/odsbox-jaquel-mcp",
+      "description": "MCP server for ASAM ODS with Jaquel query tools, connection management, and data access",
+      "title": "ASAM ODS odsbox jaquel MCP Server",
+      "repository": {
+        "url": "https://github.com/totonga/odsbox-jaquel-mcp",
+        "source": "github"
+      },
+      "version": "0.3.7",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "odsbox-jaquel-mcp",
+          "version": "0.3.7",
+          "runtimeHint": "uvx",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-04T20:06:21.45931Z",
+        "updatedAt": "2025-12-04T20:06:21.45931Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.totonga/odsbox-jaquel-mcp",
+      "description": "MCP server for ASAM ODS with Jaquel query tools, connection management, and data access",
+      "title": "ASAM ODS odsbox jaquel MCP Server",
+      "repository": {
+        "url": "https://github.com/totonga/odsbox-jaquel-mcp",
+        "source": "github"
+      },
+      "version": "0.3.8",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "odsbox-jaquel-mcp",
+          "version": "0.3.8",
+          "runtimeHint": "uvx",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-04T20:23:59.851285Z",
+        "updatedAt": "2025-12-04T20:23:59.851285Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.elankeeran/companies-house-mcp",
+      "description": "Search UK companies, retrieve profiles, officers, charges, and generate due diligence reports",
+      "title": "UK Companies House",
+      "version": "1.0.0",
+      "websiteUrl": "https://github.com/elankeeran/Companies-House-MCP-Server",
+      "remotes": [
+        {
+          "type": "sse",
+          "url": "https://companies-house-mcp-server.onrender.com"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-04T20:27:15.485463Z",
+        "updatedAt": "2025-12-04T20:27:15.485463Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.KevinRabun/FedRAMP20xMCP",
+      "description": "An MCP server that provides access to FedRAMP 20x security requirements and controls.",
+      "title": "FedRAMP 20x Requirements",
+      "repository": {
+        "url": "https://github.com/KevinRabun/FedRAMP20xMCP",
+        "source": "github"
+      },
+      "version": "0.6.0",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "fedramp-20x-mcp",
+          "version": "0.6.0",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-04T20:31:11.339463Z",
+        "updatedAt": "2025-12-04T20:31:11.339463Z",
         "isLatest": true
       }
     }
