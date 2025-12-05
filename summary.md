@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2025-12-05T16:38:37.2161886+00:00
+Generated on: 2025-12-05T20:33:59.4784301+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 2437
-- Total unique server names: 983
+- Total records processed: 2453
+- Total unique server names: 994
 - Date range: 2025-09-08 to 2025-12-05
 - Peak day: 2025-09-09 with 54 unique server names
-- Average unique server names per day: 18.44
+- Average unique server names per day: 18.56
 
 ## Top 5 busiest days
 - 2025-09-09: 54 unique servers
@@ -22,17 +22,17 @@ Generated on: 2025-12-05T16:38:37.2161886+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| remote | 430 | 43.74% |
-| npm | 281 | 28.59% |
-| pypi | 129 | 13.12% |
-| oci | 53 | 5.39% |
-| none | 35 | 3.56% |
-| mcpb | 17 | 1.73% |
-| oci+pypi | 14 | 1.42% |
-| nuget | 8 | 0.81% |
-| npm+oci | 6 | 0.61% |
-| mcpb+npm+oci | 4 | 0.41% |
-| mcpb+npm | 3 | 0.31% |
+| remote | 431 | 43.36% |
+| npm | 285 | 28.67% |
+| pypi | 130 | 13.08% |
+| oci | 53 | 5.33% |
+| none | 35 | 3.52% |
+| mcpb | 17 | 1.71% |
+| oci+pypi | 14 | 1.41% |
+| nuget | 9 | 0.91% |
+| mcpb+npm | 7 | 0.7% |
+| npm+oci | 6 | 0.6% |
+| mcpb+npm+oci | 4 | 0.4% |
 | npm+oci+pypi | 1 | 0.1% |
 | npm+nuget | 1 | 0.1% |
 | mcpb+pypi | 1 | 0.1% |
@@ -44,6 +44,7 @@ Generated on: 2025-12-05T16:38:37.2161886+00:00
 | smithery.ai | 211 | remote |
 | waystation.ai | 12 | remote |
 | staging.alpic.live | 8 | remote |
+| domdomegg.github.io | 7 | mcpb+npm, mcpb+npm+oci, nuget, pypi |
 | cyanheads.github.io | 6 | npm |
 | huoshuiai42.github.io | 5 | pypi |
 | aplaceforallmystuff.github.io | 5 | npm |
@@ -60,4 +61,3 @@ Generated on: 2025-12-05T16:38:37.2161886+00:00
 | ruvnet.github.io | 3 | npm |
 | noahgift.github.io | 3 | none |
 | neverinfamous.github.io | 3 | oci, oci+pypi |
-| n0zer0d4y.github.io | 3 | npm |
