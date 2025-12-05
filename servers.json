@@ -108814,7 +108814,7 @@
         "status": "active",
         "publishedAt": "2025-12-03T05:03:05.036301Z",
         "updatedAt": "2025-12-03T05:03:05.036301Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -110316,7 +110316,7 @@
         "status": "active",
         "publishedAt": "2025-12-04T18:19:59.167098Z",
         "updatedAt": "2025-12-04T18:19:59.167098Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -110832,6 +110832,144 @@
         "status": "active",
         "publishedAt": "2025-12-05T03:00:58.74245Z",
         "updatedAt": "2025-12-05T03:00:58.74245Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.nonatofabio/local-faiss-mcp",
+      "description": "Local FAISS vector database for RAG with document ingestion, semantic search, and MCP prompts.",
+      "title": "Local FAISS MCP Server",
+      "repository": {
+        "url": "https://github.com/nonatofabio/local_faiss_mcp",
+        "source": "github"
+      },
+      "version": "0.2.0-rc.2",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "local-faiss-mcp",
+          "version": "0.2.0-rc.2",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-05T05:35:13.256017Z",
+        "updatedAt": "2025-12-05T05:35:13.256017Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.homeassistant-ai/ha-mcp",
+      "description": "Comprehensive Model Context Protocol server for managing Home Assistant through AI assistants.",
+      "repository": {
+        "url": "https://github.com/homeassistant-ai/ha-mcp.git",
+        "source": "github"
+      },
+      "version": "4.13.0",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "ha-mcp",
+          "version": "4.13.0",
+          "transport": {
+            "type": "stdio"
+          }
+        },
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/homeassistant-ai/ha-mcp:4.13.0",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-05T06:16:16.547393Z",
+        "updatedAt": "2025-12-05T06:16:16.547393Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.testdino-inc/testdino-mcp",
+      "description": "A MCP server for TestDino",
+      "repository": {
+        "url": "https://github.com/testdino-inc/testdino-mcp",
+        "source": "github"
+      },
+      "version": "1.0.2",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "testdino-mcp",
+          "version": "1.0.2",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your API key for the service",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "YOUR_API_KEY"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-05T06:48:15.603477Z",
+        "updatedAt": "2025-12-05T06:48:15.603477Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.sbroenne/mcp-server-excel",
+      "description": "Excel automation for AI - Sheets, Power Query, DAX, VBA, Tables, Ranges and more. Windows only.",
+      "title": "MCP Server for Excel",
+      "repository": {
+        "url": "https://github.com/sbroenne/mcp-server-excel",
+        "source": "github"
+      },
+      "version": "1.4.34",
+      "packages": [
+        {
+          "registryType": "nuget",
+          "identifier": "Sbroenne.ExcelMcp.McpServer",
+          "version": "1.4.34",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-05T07:34:07.082185Z",
+        "updatedAt": "2025-12-05T07:34:07.082185Z",
         "isLatest": true
       }
     }
