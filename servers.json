@@ -104707,7 +104707,7 @@
         "status": "active",
         "publishedAt": "2025-12-01T21:24:38.898467Z",
         "updatedAt": "2025-12-01T21:24:38.898467Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -105412,7 +105412,7 @@
         "status": "active",
         "publishedAt": "2025-12-02T04:21:06.82968Z",
         "updatedAt": "2025-12-02T04:21:06.82968Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -105514,7 +105514,7 @@
         "status": "active",
         "publishedAt": "2025-12-02T04:32:13.227754Z",
         "updatedAt": "2025-12-02T04:32:13.227754Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -105638,7 +105638,7 @@
         "status": "active",
         "publishedAt": "2025-12-02T04:39:16.028244Z",
         "updatedAt": "2025-12-02T04:39:16.028244Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -110050,7 +110050,7 @@
         "status": "active",
         "publishedAt": "2025-12-04T12:03:55.357109Z",
         "updatedAt": "2025-12-04T12:03:55.357109Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -110970,6 +110970,440 @@
         "status": "active",
         "publishedAt": "2025-12-05T07:34:07.082185Z",
         "updatedAt": "2025-12-05T07:34:07.082185Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.aws/mcp-proxy-for-aws",
+      "description": "AWS MCP Server lets AI securely access AWS using docs, API calls, and SOP workflows.",
+      "title": "AWS MCP Server",
+      "repository": {
+        "url": "https://github.com/aws/mcp-proxy-for-aws",
+        "source": "github"
+      },
+      "version": "1.0.0-preview",
+      "websiteUrl": "https://docs.aws.amazon.com/aws-mcp",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "mcp-proxy-for-aws",
+          "version": "1.1.4",
+          "runtimeHint": "uvx",
+          "transport": {
+            "type": "stdio"
+          },
+          "packageArguments": [
+            {
+              "description": "AWS MCP endpoint URL",
+              "value": "https://aws-mcp.us-east-1.api.aws/mcp",
+              "type": "positional",
+              "valueHint": "mcp_endpoint_url"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-05T09:11:27.738224Z",
+        "updatedAt": "2025-12-05T09:11:27.738224Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.aws/mcp-proxy-for-aws",
+      "description": "AWS MCP Server lets AI securely access AWS using docs, API calls, and SOP workflows.",
+      "title": "AWS MCP Server",
+      "version": "1.0.0-preview.0",
+      "websiteUrl": "https://docs.aws.amazon.com/aws-mcp",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "mcp-proxy-for-aws",
+          "version": "1.1.4",
+          "runtimeHint": "uvx",
+          "transport": {
+            "type": "stdio"
+          },
+          "packageArguments": [
+            {
+              "description": "AWS MCP endpoint URL",
+              "value": "https://aws-mcp.us-east-1.api.aws/mcp",
+              "type": "positional",
+              "valueHint": "mcp_endpoint_url"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-05T09:23:44.894499Z",
+        "updatedAt": "2025-12-05T09:23:44.894499Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "ai.seltz/seltz-ai-seltz-mcp",
+      "description": "Provides AI assistants with access to Seltz's powerful Web Search capabilities.\n",
+      "version": "1.0.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.seltz.ai/mcp",
+          "headers": [
+            {
+              "description": "Bearer token for Smithery authentication",
+              "isRequired": true,
+              "value": "Bearer {smithery_api_key}",
+              "isSecret": true,
+              "name": "Authorization"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-05T09:24:21.447908Z",
+        "updatedAt": "2025-12-05T09:24:21.447908Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.gojinko.mcp/jinko",
+      "description": "Turn your ChatGPT to a super travel agent",
+      "title": "Jinko MCP",
+      "version": "0.0.1",
+      "websiteUrl": "https://gojinko.com",
+      "icons": [
+        {
+          "src": "https://statics.gojinko.com/assets/images/jinko-logo-h6x8s.png",
+          "mimeType": "image/png",
+          "sizes": [
+            "200x200"
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.gojinko.com"
+        },
+        {
+          "type": "sse",
+          "url": "https://mcp.gojinko.com"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-05T09:28:09.824211Z",
+        "updatedAt": "2025-12-05T09:28:09.824211Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.containers/kubernetes-mcp-server",
+      "description": "A Model Context Protocol (MCP) server for Kubernetes and OpenShift",
+      "repository": {
+        "url": "https://github.com/containers/kubernetes-mcp-server",
+        "source": "github"
+      },
+      "version": "0.0.51"
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-05T09:37:53.268144Z",
+        "updatedAt": "2025-12-05T09:37:53.268144Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.dorukardahan/twitterapi-docs-mcp",
+      "description": "Offline access to TwitterAPI.io docs for AI assistants. 52 endpoints, guides, pricing.",
+      "repository": {
+        "url": "https://github.com/dorukardahan/twitterapi-docs-mcp",
+        "source": "github"
+      },
+      "version": "1.0.3",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "twitterapi-docs-mcp",
+          "version": "1.0.3",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-05T10:51:46.23882Z",
+        "updatedAt": "2025-12-05T10:51:46.23882Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.appium/appium-mcp",
+      "description": "MCP server for Appium mobile automation on iOS and Android devices with test creation tools.",
+      "title": "MCP Appium - Mobile Development and Automation Server",
+      "version": "1.3.0",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "appium-mcp",
+          "version": "1.3.0",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-05T10:54:17.509199Z",
+        "updatedAt": "2025-12-05T10:54:17.509199Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.shinpr/mcp-local-rag",
+      "description": "Easy-to-setup local RAG server with minimal configuration",
+      "repository": {
+        "url": "https://github.com/shinpr/mcp-local-rag",
+        "source": "github"
+      },
+      "version": "0.2.3",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "mcp-local-rag",
+          "version": "0.2.3",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Base directory for document storage (defaults to current working directory)",
+              "format": "string",
+              "name": "BASE_DIR"
+            },
+            {
+              "description": "Path to LanceDB database directory (defaults to ./lancedb/)",
+              "format": "string",
+              "name": "DB_PATH"
+            },
+            {
+              "description": "Directory where Transformers.js models are cached (defaults to ./models/)",
+              "format": "string",
+              "name": "CACHE_DIR"
+            },
+            {
+              "description": "Embedding model name (defaults to Xenova/all-MiniLM-L6-v2)",
+              "format": "string",
+              "name": "MODEL_NAME"
+            },
+            {
+              "description": "Maximum file size in bytes (defaults to 104857600 / 100MB)",
+              "format": "string",
+              "name": "MAX_FILE_SIZE"
+            },
+            {
+              "description": "Text chunk size for splitting documents (defaults to 512)",
+              "format": "string",
+              "name": "CHUNK_SIZE"
+            },
+            {
+              "description": "Overlap between consecutive chunks (defaults to 100)",
+              "format": "string",
+              "name": "CHUNK_OVERLAP"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-05T11:07:43.217078Z",
+        "updatedAt": "2025-12-05T11:07:43.217078Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.shinpr/sub-agents-mcp",
+      "description": "MCP server for delegating tasks to specialized AI assistants in Cursor and other tools",
+      "repository": {
+        "url": "https://github.com/shinpr/sub-agents-mcp",
+        "source": "github"
+      },
+      "version": "0.2.3",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "sub-agents-mcp",
+          "version": "0.2.3",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Absolute path to the directory containing agent definition files (.md or .txt)",
+              "isRequired": true,
+              "format": "string",
+              "name": "AGENTS_DIR"
+            },
+            {
+              "description": "Type of AI CLI to use: 'cursor' or 'claude'",
+              "isRequired": true,
+              "format": "string",
+              "name": "AGENT_TYPE"
+            },
+            {
+              "description": "Maximum execution time for agents in milliseconds (default: 300000, max: 600000)",
+              "format": "string",
+              "name": "EXECUTION_TIMEOUT_MS"
+            },
+            {
+              "description": "Enable session management to maintain execution history across agent calls (default: false)",
+              "format": "string",
+              "name": "SESSION_ENABLED"
+            },
+            {
+              "description": "Directory path for storing session files (default: .mcp-sessions in current working directory)",
+              "format": "string",
+              "name": "SESSION_DIR"
+            },
+            {
+              "description": "Number of days to retain session history before automatic cleanup (default: 7)",
+              "format": "string",
+              "name": "SESSION_RETENTION_DAYS"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-05T11:15:27.376267Z",
+        "updatedAt": "2025-12-05T11:15:27.376267Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.shinpr/mcp-image",
+      "description": "AI image generation MCP server using Nano Banana Pro with intelligent prompt enhancement",
+      "repository": {
+        "url": "https://github.com/shinpr/mcp-image",
+        "source": "github"
+      },
+      "version": "0.5.2",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "mcp-image",
+          "version": "0.5.2",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Google Gemini API key for image generation (get from https://aistudio.google.com/apikey)",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "GEMINI_API_KEY"
+            },
+            {
+              "description": "Absolute path to directory where generated images will be saved (defaults to ./output)",
+              "format": "string",
+              "name": "IMAGE_OUTPUT_DIR"
+            },
+            {
+              "description": "Set to 'true' to disable automatic prompt optimization and use direct prompts",
+              "format": "boolean",
+              "name": "SKIP_PROMPT_ENHANCEMENT"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-05T11:22:24.25776Z",
+        "updatedAt": "2025-12-05T11:22:24.25776Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.civic/nexus",
+      "description": "Zero-setup MCP gateway securely connecting AI to your tools with authentication and workflows",
+      "repository": {
+        "url": "https://github.com/civicteam/civic-mcp",
+        "source": "github",
+        "subfolder": "apps/hub"
+      },
+      "version": "0.1.54",
+      "websiteUrl": "https://nexus.civic.com",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://nexus.civic.com/hub/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-05T12:46:59.715764Z",
+        "updatedAt": "2025-12-05T12:46:59.715764Z",
         "isLatest": true
       }
     }
