@@ -59044,7 +59044,7 @@
         "status": "active",
         "publishedAt": "2025-10-25T15:08:23.261174Z",
         "updatedAt": "2025-10-25T15:08:23.261174Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -74830,7 +74830,7 @@
         "status": "active",
         "publishedAt": "2025-11-07T21:19:42.406302Z",
         "updatedAt": "2025-11-07T21:19:42.406302Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -110580,7 +110580,7 @@
         "status": "active",
         "publishedAt": "2025-12-04T20:59:29.845352Z",
         "updatedAt": "2025-12-04T20:59:29.845352Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -112159,7 +112159,7 @@
         "status": "active",
         "publishedAt": "2025-12-05T20:24:57.836896Z",
         "updatedAt": "2025-12-05T20:24:57.836896Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -112182,6 +112182,255 @@
         "status": "active",
         "publishedAt": "2025-12-05T20:26:09.740828Z",
         "updatedAt": "2025-12-05T20:26:09.740828Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.homeassistant-ai/ha-mcp",
+      "description": "Comprehensive Model Context Protocol server for managing Home Assistant through AI assistants.",
+      "repository": {
+        "url": "https://github.com/homeassistant-ai/ha-mcp.git",
+        "source": "github"
+      },
+      "version": "4.14.2",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "ha-mcp",
+          "version": "4.14.2",
+          "transport": {
+            "type": "stdio"
+          }
+        },
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/homeassistant-ai/ha-mcp:4.14.2",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-05T20:40:23.040001Z",
+        "updatedAt": "2025-12-05T20:40:23.040001Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.homeassistant-ai/ha-mcp",
+      "description": "Comprehensive Model Context Protocol server for managing Home Assistant through AI assistants.",
+      "repository": {
+        "url": "https://github.com/homeassistant-ai/ha-mcp.git",
+        "source": "github"
+      },
+      "version": "4.15.0",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "ha-mcp",
+          "version": "4.15.0",
+          "transport": {
+            "type": "stdio"
+          }
+        },
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/homeassistant-ai/ha-mcp:4.15.0",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-05T21:03:54.868172Z",
+        "updatedAt": "2025-12-05T21:03:54.868172Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "dev.svelte/mcp",
+      "description": "The official Svelte MCP server providing docs and autofixing tools for Svelte development",
+      "title": "Svelte MCP",
+      "repository": {
+        "url": "https://github.com/sveltejs/mcp",
+        "source": "github",
+        "id": "1054419133",
+        "subfolder": "packages/mcp-stdio"
+      },
+      "version": "0.1.13",
+      "websiteUrl": "https://svelte.dev/docs/mcp/overview",
+      "icons": [
+        {
+          "src": "https://mcp.svelte.dev/logo.svg",
+          "mimeType": "image/svg+xml"
+        },
+        {
+          "src": "https://mcp.svelte.dev/logo.png",
+          "mimeType": "image/png"
+        }
+      ],
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@sveltejs/mcp",
+          "version": "0.1.13",
+          "runtimeHint": "npx",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.svelte.dev/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-05T21:35:36.361108Z",
+        "updatedAt": "2025-12-05T21:35:36.361108Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "ai.exa/exa",
+      "description": "Fast, intelligent web search and web crawling.\n\nNew mcp tool: Exa-code is a context tool for coding ",
+      "repository": {
+        "url": "https://github.com/exa-labs/exa-mcp-server",
+        "source": "github"
+      },
+      "version": "3.1.3",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.exa.ai/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-05T21:51:53.421065Z",
+        "updatedAt": "2025-12-05T21:51:53.421065Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.homeassistant-ai/ha-mcp",
+      "description": "Comprehensive Model Context Protocol server for managing Home Assistant through AI assistants.",
+      "repository": {
+        "url": "https://github.com/homeassistant-ai/ha-mcp.git",
+        "source": "github"
+      },
+      "version": "4.15.1",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "ha-mcp",
+          "version": "4.15.1",
+          "transport": {
+            "type": "stdio"
+          }
+        },
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/homeassistant-ai/ha-mcp:4.15.1",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-05T23:01:20.193653Z",
+        "updatedAt": "2025-12-05T23:01:20.193653Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.RoleModel/optics-mcp",
+      "description": "MCP Server for Optics Design System documentation and token usage.",
+      "repository": {
+        "url": "https://github.com/RoleModel/optics-mcp",
+        "source": "github"
+      },
+      "version": "0.2.6",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "optics-mcp",
+          "version": "0.2.6",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-05T23:07:51.354595Z",
+        "updatedAt": "2025-12-05T23:07:51.354595Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.DollhouseMCP/mcp-server",
+      "description": "OSS to create Personas, Skills, Templates, Agents, and Memories to customize your AI experience.",
+      "title": "DollhouseMCP",
+      "repository": {
+        "url": "https://github.com/DollhouseMCP/mcp-server",
+        "source": "github"
+      },
+      "version": "1.9.27",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@dollhousemcp/mcp-server",
+          "version": "1.9.27",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-05T23:28:03.579814Z",
+        "updatedAt": "2025-12-05T23:28:03.579814Z",
         "isLatest": true
       }
     }
