@@ -112520,7 +112520,7 @@
         "status": "active",
         "publishedAt": "2025-12-06T07:51:58.415646Z",
         "updatedAt": "2025-12-06T07:51:58.415646Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -114344,6 +114344,141 @@
         "status": "active",
         "publishedAt": "2025-12-08T03:54:15.958217Z",
         "updatedAt": "2025-12-08T03:54:15.958217Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.index9-org/mcp",
+      "description": "Real-time model intelligence for your AI assistant.",
+      "repository": {
+        "url": "https://github.com/index9-org/mcp",
+        "source": "github"
+      },
+      "version": "1.0.11",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@index9/mcp",
+          "version": "1.0.11",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Optional OpenRouter API key for live model testing.",
+              "format": "string",
+              "isSecret": true,
+              "name": "OPENROUTER_API_KEY"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-08T05:56:04.799838Z",
+        "updatedAt": "2025-12-08T05:56:04.799838Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.standardbeagle/devtool-mcp",
+      "description": "Development tooling MCP server with process management, proxy, and frontend diagnostics",
+      "title": "DevTool MCP",
+      "repository": {
+        "url": "https://github.com/standardbeagle/devtool-mcp",
+        "source": "github"
+      },
+      "version": "0.3.1",
+      "websiteUrl": "https://standardbeagle.github.io/devtool-mcp/",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@standardbeagle/devtool-mcp",
+          "version": "0.3.1",
+          "transport": {
+            "type": "stdio"
+          }
+        },
+        {
+          "registryType": "pypi",
+          "registryBaseUrl": "https://pypi.org",
+          "identifier": "devtool-mcp",
+          "version": "0.3.1",
+          "runtimeHint": "uvx",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-08T07:10:45.121987Z",
+        "updatedAt": "2025-12-08T07:10:45.121987Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.template-server-8e74ee32/template-server",
+      "description": "Description of my MCP server",
+      "title": "Template server",
+      "version": "0.0.1",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://template-server-8e74ee32.alpic.live"
+        },
+        {
+          "type": "sse",
+          "url": "https://template-server-8e74ee32.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-08T08:10:18.091018Z",
+        "updatedAt": "2025-12-08T08:10:18.091018Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.template-server-ed7df515/template-server",
+      "description": "Description of my MCP server",
+      "title": "Template server",
+      "version": "0.0.1",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://template-server-ed7df515.alpic.live"
+        },
+        {
+          "type": "sse",
+          "url": "https://template-server-ed7df515.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-08T08:44:05.099752Z",
+        "updatedAt": "2025-12-08T08:44:05.099752Z",
         "isLatest": true
       }
     }
