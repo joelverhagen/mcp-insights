@@ -111326,7 +111326,7 @@
         "status": "active",
         "publishedAt": "2025-12-05T11:15:27.376267Z",
         "updatedAt": "2025-12-05T11:15:27.376267Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -111719,7 +111719,7 @@
         "status": "active",
         "publishedAt": "2025-12-05T17:31:14.853557Z",
         "updatedAt": "2025-12-05T17:31:14.853557Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -114213,6 +114213,137 @@
         "status": "active",
         "publishedAt": "2025-12-07T20:28:11.169305Z",
         "updatedAt": "2025-12-07T20:28:11.169305Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.domdomegg/starling-bank-mcp",
+      "description": "Allow AI systems to view and control your Starling Bank account via MCP.",
+      "title": "Starling Bank",
+      "repository": {
+        "url": "https://github.com/domdomegg/starling-bank-mcp.git",
+        "source": "github"
+      },
+      "version": "1.1.0",
+      "websiteUrl": "https://github.com/domdomegg/starling-bank-mcp#readme",
+      "icons": [
+        {
+          "src": "https://raw.githubusercontent.com/domdomegg/starling-bank-mcp/refs/heads/master/icon.png",
+          "mimeType": "image/png"
+        }
+      ],
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "starling-bank-mcp",
+          "version": "1.1.0",
+          "runtimeHint": "npx",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Starling Bank personal access token. Sign up for the Starling Developer Portal, link your account, and create a Personal Access Token.",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "STARLING_BANK_ACCESS_TOKEN"
+            },
+            {
+              "description": "Optional: Key UID of the signing key for sending payments.",
+              "isSecret": true,
+              "name": "STARLING_BANK_PRIVATE_KEY_UID"
+            },
+            {
+              "description": "Optional: PEM-encoded signing key for sending payments.",
+              "isSecret": true,
+              "name": "STARLING_BANK_PRIVATE_KEY_PEM"
+            }
+          ]
+        },
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/domdomegg/starling-bank-mcp/releases/download/v1.1.0/starling-bank-mcp.mcpb",
+          "version": "1.1.0",
+          "fileSha256": "6fd5fa6f256f3b25f1b21896059b0a373b9a7111fdc8708c2611c88647379268",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-08T03:10:21.942807Z",
+        "updatedAt": "2025-12-08T03:10:21.942807Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.shinpr/sub-agents-mcp",
+      "description": "MCP server for delegating tasks to specialized AI assistants in Cursor, Claude, and Gemini",
+      "repository": {
+        "url": "https://github.com/shinpr/sub-agents-mcp",
+        "source": "github"
+      },
+      "version": "0.3.0",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "sub-agents-mcp",
+          "version": "0.3.0",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Absolute path to the directory containing agent definition files (.md or .txt)",
+              "isRequired": true,
+              "format": "string",
+              "name": "AGENTS_DIR"
+            },
+            {
+              "description": "Type of AI CLI to use: 'cursor', 'claude', or 'gemini'",
+              "isRequired": true,
+              "format": "string",
+              "name": "AGENT_TYPE"
+            },
+            {
+              "description": "Maximum execution time for agents in milliseconds (default: 300000, max: 600000)",
+              "format": "string",
+              "name": "EXECUTION_TIMEOUT_MS"
+            },
+            {
+              "description": "Enable session management to maintain execution history across agent calls (default: false)",
+              "format": "string",
+              "name": "SESSION_ENABLED"
+            },
+            {
+              "description": "Directory path for storing session files (default: .mcp-sessions in current working directory)",
+              "format": "string",
+              "name": "SESSION_DIR"
+            },
+            {
+              "description": "Number of days to retain session history before automatic cleanup (default: 7)",
+              "format": "string",
+              "name": "SESSION_RETENTION_DAYS"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-08T03:54:15.958217Z",
+        "updatedAt": "2025-12-08T03:54:15.958217Z",
         "isLatest": true
       }
     }
