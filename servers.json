@@ -87560,7 +87560,7 @@
         "status": "active",
         "publishedAt": "2025-11-20T15:45:28.037863Z",
         "updatedAt": "2025-11-20T15:45:28.037863Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -92129,7 +92129,7 @@
         "status": "active",
         "publishedAt": "2025-11-26T09:56:59.546524Z",
         "updatedAt": "2025-11-26T09:56:59.546524Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -106105,7 +106105,7 @@
         "status": "active",
         "publishedAt": "2025-12-02T12:05:41.854023Z",
         "updatedAt": "2025-12-02T12:05:41.854023Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -111404,7 +111404,7 @@
         "status": "active",
         "publishedAt": "2025-12-05T12:46:59.715764Z",
         "updatedAt": "2025-12-05T12:46:59.715764Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -112122,7 +112122,7 @@
         "status": "active",
         "publishedAt": "2025-12-05T19:01:27.57922Z",
         "updatedAt": "2025-12-05T19:01:27.57922Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -112706,7 +112706,7 @@
         "status": "active",
         "publishedAt": "2025-12-06T15:04:28.573613Z",
         "updatedAt": "2025-12-06T15:04:28.573613Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -114279,7 +114279,7 @@
         "status": "active",
         "publishedAt": "2025-12-08T03:10:21.942807Z",
         "updatedAt": "2025-12-08T03:10:21.942807Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -114665,6 +114665,589 @@
         "status": "active",
         "publishedAt": "2025-12-08T11:44:51.42447Z",
         "updatedAt": "2025-12-08T11:44:51.42447Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.civic/nexus",
+      "description": "Zero-setup MCP gateway securely connecting AI to your tools with authentication and workflows",
+      "repository": {
+        "url": "https://github.com/civicteam/civic-mcp",
+        "source": "github",
+        "subfolder": "apps/hub"
+      },
+      "version": "0.1.55",
+      "websiteUrl": "https://nexus.civic.com",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://nexus.civic.com/hub/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-08T13:07:20.163146Z",
+        "updatedAt": "2025-12-08T13:07:20.163146Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.domdomegg/computer-use-mcp",
+      "description": "Control your computer with screenshots, mouse, and keyboard automation.",
+      "title": "Computer Use",
+      "repository": {
+        "url": "https://github.com/domdomegg/computer-use-mcp.git",
+        "source": "github"
+      },
+      "version": "1.3.2",
+      "websiteUrl": "https://github.com/domdomegg/computer-use-mcp#readme",
+      "icons": [
+        {
+          "src": "https://raw.githubusercontent.com/domdomegg/computer-use-mcp/refs/heads/master/icon.png",
+          "mimeType": "image/png"
+        }
+      ],
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "computer-use-mcp",
+          "version": "1.3.2",
+          "runtimeHint": "npx",
+          "transport": {
+            "type": "stdio"
+          }
+        },
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/domdomegg/computer-use-mcp/releases/download/v1.3.2/computer-use-mcp.mcpb",
+          "version": "1.3.2",
+          "fileSha256": "5f70d0a230a0752e14c5d5eb45288505575391080b549dc8c799a6e522fc4950",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-08T13:17:31.871001Z",
+        "updatedAt": "2025-12-08T13:17:31.871001Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.domdomegg/starling-bank-mcp",
+      "description": "Allow AI systems to view and control your Starling Bank account via MCP.",
+      "title": "Starling Bank",
+      "repository": {
+        "url": "https://github.com/domdomegg/starling-bank-mcp.git",
+        "source": "github"
+      },
+      "version": "1.1.1",
+      "websiteUrl": "https://github.com/domdomegg/starling-bank-mcp#readme",
+      "icons": [
+        {
+          "src": "https://raw.githubusercontent.com/domdomegg/starling-bank-mcp/refs/heads/master/icon.png",
+          "mimeType": "image/png"
+        }
+      ],
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "starling-bank-mcp",
+          "version": "1.1.1",
+          "runtimeHint": "npx",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Starling Bank personal access token. Sign up for the Starling Developer Portal, link your account, and create a Personal Access Token.",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "STARLING_BANK_ACCESS_TOKEN"
+            },
+            {
+              "description": "Optional: Key UID of the signing key for sending payments.",
+              "isSecret": true,
+              "name": "STARLING_BANK_PRIVATE_KEY_UID"
+            },
+            {
+              "description": "Optional: PEM-encoded signing key for sending payments.",
+              "isSecret": true,
+              "name": "STARLING_BANK_PRIVATE_KEY_PEM"
+            }
+          ]
+        },
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/domdomegg/starling-bank-mcp/releases/download/v1.1.1/starling-bank-mcp.mcpb",
+          "version": "1.1.1",
+          "fileSha256": "862aab44f5df93c8aaa9fc6063fb1d499a945c40f844b6fc5f986188c4a83693",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-08T13:18:28.93661Z",
+        "updatedAt": "2025-12-08T13:18:28.93661Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.domdomegg/airtable-mcp-server",
+      "description": "Read and write access to Airtable database schemas, tables, and records.",
+      "title": "Airtable",
+      "repository": {
+        "url": "https://github.com/domdomegg/airtable-mcp-server.git",
+        "source": "github"
+      },
+      "version": "1.9.6",
+      "websiteUrl": "https://github.com/domdomegg/airtable-mcp-server#readme",
+      "icons": [
+        {
+          "src": "https://raw.githubusercontent.com/domdomegg/airtable-mcp-server/refs/heads/master/icon.png",
+          "mimeType": "image/png"
+        }
+      ],
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "airtable-mcp-server",
+          "version": "1.9.6",
+          "runtimeHint": "npx",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Airtable personal access token (e.g., pat123.abc123). Create at https://airtable.com/create/tokens/new with scopes: schema.bases:read, data.records:read, and optionally schema.bases:write and data.records:write.",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "AIRTABLE_API_KEY"
+            }
+          ]
+        },
+        {
+          "registryType": "oci",
+          "identifier": "docker.io/domdomegg/airtable-mcp-server:1.9.6",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Airtable personal access token (e.g., pat123.abc123). Create at https://airtable.com/create/tokens/new with scopes: schema.bases:read, data.records:read, and optionally schema.bases:write and data.records:write.",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "AIRTABLE_API_KEY"
+            }
+          ]
+        },
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/domdomegg/airtable-mcp-server/releases/download/v1.9.6/airtable-mcp-server.mcpb",
+          "version": "1.9.6",
+          "fileSha256": "69f2e031257028a2d5ce07078f3320e0c06faf9b7e5de026b32df025a524e722",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-08T13:22:16.268159Z",
+        "updatedAt": "2025-12-08T13:22:16.268159Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.Ray0907/git-mcp-server",
+      "description": "MCP server for GitLab and GitHub",
+      "repository": {
+        "url": "https://github.com/Ray0907/git-mcp-server",
+        "source": "github"
+      },
+      "version": "0.2.3",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@raytien/git-mcp-server",
+          "version": "0.2.3",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Provider type: gitlab or github",
+              "format": "string",
+              "name": "GIT_PROVIDER"
+            },
+            {
+              "description": "Personal Access Token for GitHub or GitLab",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "GIT_TOKEN"
+            },
+            {
+              "description": "API URL for self-hosted instances",
+              "format": "string",
+              "name": "GIT_API_URL"
+            },
+            {
+              "description": "Disable write operations (true/false)",
+              "format": "string",
+              "name": "GIT_READ_ONLY"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-08T14:38:49.935857Z",
+        "updatedAt": "2025-12-08T14:38:49.935857Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.sbroenne/mcp-server-excel",
+      "description": "Excel automation for AI - Sheets, Power Query, DAX, VBA, Tables, Ranges and more. Windows only.",
+      "title": "MCP Server for Excel",
+      "repository": {
+        "url": "https://github.com/sbroenne/mcp-server-excel",
+        "source": "github"
+      },
+      "version": "1.4.38",
+      "packages": [
+        {
+          "registryType": "nuget",
+          "identifier": "Sbroenne.ExcelMcp.McpServer",
+          "version": "1.4.38",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-08T14:53:43.402439Z",
+        "updatedAt": "2025-12-08T14:53:43.402439Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.byteplant-dev/byteplant-mcp",
+      "description": "An MCP server that provides Email, Phone and Address Validation Services from Byteplant",
+      "repository": {
+        "url": "https://github.com/byteplant-dev/byteplant-mcp",
+        "source": "github"
+      },
+      "version": "1.0.0",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "byteplant-mcp",
+          "version": "1.0.0",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Email Validator API Token",
+              "format": "string",
+              "isSecret": true,
+              "name": "EV_TOKEN"
+            },
+            {
+              "description": "Address Validator API Token",
+              "format": "string",
+              "isSecret": true,
+              "name": "AV_TOKEN"
+            },
+            {
+              "description": "Phone Validator API Token",
+              "format": "string",
+              "isSecret": true,
+              "name": "PV_TOKEN"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-08T15:00:09.282325Z",
+        "updatedAt": "2025-12-08T15:00:09.282325Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.jztan/redmine-mcp-server",
+      "description": "Production-ready MCP server for Redmine with security, pagination, and enterprise features",
+      "repository": {
+        "url": "https://github.com/jztan/redmine-mcp-server",
+        "source": "github"
+      },
+      "version": "0.8.0",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "registryBaseUrl": "https://pypi.org",
+          "identifier": "redmine-mcp-server",
+          "version": "0.8.0",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "URL of your Redmine server (e.g., https://your-redmine-server.com)",
+              "isRequired": true,
+              "format": "string",
+              "name": "REDMINE_URL"
+            },
+            {
+              "description": "Redmine username for authentication (alternative to API key)",
+              "format": "string",
+              "name": "REDMINE_USERNAME"
+            },
+            {
+              "description": "Redmine password for authentication (alternative to API key)",
+              "format": "string",
+              "isSecret": true,
+              "name": "REDMINE_PASSWORD"
+            },
+            {
+              "description": "Redmine API key for authentication (alternative to username/password)",
+              "format": "string",
+              "isSecret": true,
+              "name": "REDMINE_API_KEY"
+            },
+            {
+              "description": "Host address for the MCP server (default: 0.0.0.0)",
+              "format": "string",
+              "default": "0.0.0.0",
+              "name": "SERVER_HOST"
+            },
+            {
+              "description": "Port for the MCP server (default: 8000)",
+              "format": "number",
+              "default": "8000",
+              "name": "SERVER_PORT"
+            },
+            {
+              "description": "Public hostname for file download URLs (default: localhost)",
+              "format": "string",
+              "default": "localhost",
+              "name": "PUBLIC_HOST"
+            },
+            {
+              "description": "Public port for file download URLs (default: 8000)",
+              "format": "number",
+              "default": "8000",
+              "name": "PUBLIC_PORT"
+            },
+            {
+              "description": "Directory for storing downloaded attachments (default: ./attachments)",
+              "format": "string",
+              "default": "./attachments",
+              "name": "ATTACHMENTS_DIR"
+            },
+            {
+              "description": "Enable automatic cleanup of expired files (default: true)",
+              "format": "boolean",
+              "default": "true",
+              "name": "AUTO_CLEANUP_ENABLED"
+            },
+            {
+              "description": "Interval between cleanup runs in minutes (default: 10)",
+              "format": "number",
+              "default": "10",
+              "name": "CLEANUP_INTERVAL_MINUTES"
+            },
+            {
+              "description": "Default expiry time for attachments in minutes (default: 60)",
+              "format": "number",
+              "default": "60",
+              "name": "ATTACHMENT_EXPIRES_MINUTES"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-08T15:25:35.629134Z",
+        "updatedAt": "2025-12-08T15:25:35.629134Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.kontent-ai/mcp-server",
+      "description": "Connect to Kontent.ai to manage content, types, taxonomies, and workflows via natural language",
+      "repository": {
+        "url": "https://github.com/kontent-ai/mcp-server",
+        "source": "github"
+      },
+      "version": "0.22.1",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@kontent-ai/mcp-server",
+          "version": "0.22.1",
+          "transport": {
+            "type": "stdio"
+          },
+          "packageArguments": [
+            {
+              "value": "stdio",
+              "type": "positional"
+            }
+          ],
+          "environmentVariables": [
+            {
+              "description": "Kontent.ai Management API key",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "KONTENT_API_KEY"
+            },
+            {
+              "description": "Kontent.ai environment ID",
+              "isRequired": true,
+              "name": "KONTENT_ENVIRONMENT_ID"
+            }
+          ]
+        },
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@kontent-ai/mcp-server",
+          "version": "0.22.1",
+          "transport": {
+            "type": "streamable-http",
+            "url": "http://localhost:3001/mcp"
+          },
+          "packageArguments": [
+            {
+              "value": "shttp",
+              "type": "positional"
+            }
+          ],
+          "environmentVariables": [
+            {
+              "description": "Kontent.ai Management API key",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "KONTENT_API_KEY"
+            },
+            {
+              "description": "Kontent.ai environment ID",
+              "isRequired": true,
+              "name": "KONTENT_ENVIRONMENT_ID"
+            },
+            {
+              "description": "Server port for HTTP transport (shttp mode only)",
+              "name": "PORT"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-08T15:46:43.34477Z",
+        "updatedAt": "2025-12-08T15:46:43.34477Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.domdomegg/computer-use-mcp",
+      "description": "Control your computer with screenshots, mouse, and keyboard automation.",
+      "title": "Computer Use",
+      "repository": {
+        "url": "https://github.com/domdomegg/computer-use-mcp.git",
+        "source": "github"
+      },
+      "version": "1.4.0",
+      "websiteUrl": "https://github.com/domdomegg/computer-use-mcp#readme",
+      "icons": [
+        {
+          "src": "https://raw.githubusercontent.com/domdomegg/computer-use-mcp/refs/heads/master/icon.png",
+          "mimeType": "image/png"
+        }
+      ],
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "computer-use-mcp",
+          "version": "1.4.0",
+          "runtimeHint": "npx",
+          "transport": {
+            "type": "stdio"
+          }
+        },
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/domdomegg/computer-use-mcp/releases/download/v1.4.0/computer-use-mcp.mcpb",
+          "version": "1.4.0",
+          "fileSha256": "54df1a40485653ab4bd2671bbf3cbc3c411638d70e0fb512b0b3d8e4cd93ed49",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-08T16:28:40.341214Z",
+        "updatedAt": "2025-12-08T16:28:40.341214Z",
         "isLatest": true
       }
     }
