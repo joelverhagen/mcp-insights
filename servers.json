@@ -106707,7 +106707,7 @@
         "status": "active",
         "publishedAt": "2025-12-02T19:30:48.428318Z",
         "updatedAt": "2025-12-02T19:30:48.428318Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -114599,7 +114599,7 @@
         "status": "active",
         "publishedAt": "2025-12-08T10:27:26.852541Z",
         "updatedAt": "2025-12-08T10:27:26.852541Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -115248,6 +115248,332 @@
         "status": "active",
         "publishedAt": "2025-12-08T16:28:40.341214Z",
         "updatedAt": "2025-12-08T16:28:40.341214Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.maksimsarychau/mcp-zebrunner",
+      "description": "Unified Zebrunner MCP server for TCM test cases, suites, coverage analysis, launchers, etc.",
+      "repository": {
+        "url": "https://github.com/maksimsarychau/mcp-zebrunner",
+        "source": "github"
+      },
+      "version": "5.15.0",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "mcp-zebrunner",
+          "version": "5.15.0",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Base URL for your Zebrunner instance (e.g., https://your-instance.zebrunner.com)",
+              "isRequired": true,
+              "format": "string",
+              "name": "ZEBRUNNER_URL"
+            },
+            {
+              "description": "Your Zebrunner username/login",
+              "isRequired": true,
+              "format": "string",
+              "name": "ZEBRUNNER_LOGIN"
+            },
+            {
+              "description": "Your Zebrunner API authentication token",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "ZEBRUNNER_TOKEN"
+            },
+            {
+              "description": "API request timeout in milliseconds (default: 30000)",
+              "format": "string",
+              "name": "TIMEOUT"
+            },
+            {
+              "description": "Number of retry attempts for failed API requests (default: 3)",
+              "format": "string",
+              "name": "RETRY_ATTEMPTS"
+            },
+            {
+              "description": "Delay between retry attempts in milliseconds (default: 1000)",
+              "format": "string",
+              "name": "RETRY_DELAY"
+            },
+            {
+              "description": "Maximum page size for paginated API requests (default: 100, max: 1000)",
+              "format": "string",
+              "name": "MAX_PAGE_SIZE"
+            },
+            {
+              "description": "Default page size for paginated API requests (default: 10)",
+              "format": "string",
+              "name": "DEFAULT_PAGE_SIZE"
+            },
+            {
+              "description": "Enable debug logging (default: false)",
+              "format": "string",
+              "name": "DEBUG"
+            },
+            {
+              "description": "Enable the rules engine for test case validation (default: auto-detected from mcp-zebrunner-rules.md file)",
+              "format": "string",
+              "name": "ENABLE_RULES_ENGINE"
+            },
+            {
+              "description": "Enable strict URL validation for security (default: true)",
+              "format": "string",
+              "name": "STRICT_URL_VALIDATION"
+            },
+            {
+              "description": "Skip URL validation if it fails (less secure, more permissive) (default: false)",
+              "format": "string",
+              "name": "SKIP_URL_VALIDATION_ON_ERROR"
+            },
+            {
+              "description": "Enable rate limiting for API calls (default: true)",
+              "format": "string",
+              "name": "ENABLE_RATE_LIMITING"
+            },
+            {
+              "description": "Maximum API requests per second (default: 5, max: 100)",
+              "format": "string",
+              "name": "MAX_REQUESTS_PER_SECOND"
+            },
+            {
+              "description": "Allow burst of API requests (default: 10, max: 200)",
+              "format": "string",
+              "name": "RATE_LIMITING_BURST"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-08T17:39:36.176283Z",
+        "updatedAt": "2025-12-08T17:39:36.176283Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.Koneisto/no-as-a-service",
+      "description": "1000+ creative ways to say no. Polite, humorous, professional rejection responses.",
+      "repository": {
+        "url": "https://github.com/Koneisto/no-as-a-service",
+        "source": "github"
+      },
+      "version": "1.0.2",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "no-as-service",
+          "version": "1.0.2",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-08T17:48:48.911581Z",
+        "updatedAt": "2025-12-08T17:48:48.911581Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.jackfioru92/aruba-email",
+      "description": "MCP server for Aruba email and calendar via IMAP/SMTP/CalDAV",
+      "title": "Aruba Email & Calendar",
+      "repository": {
+        "url": "https://github.com/jackfioru92/mcp-aruba-email",
+        "source": "github"
+      },
+      "version": "0.2.1",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "mcp-aruba",
+          "version": "0.2.1",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your Aruba email address",
+              "isRequired": true,
+              "format": "string",
+              "name": "EMAIL_USER"
+            },
+            {
+              "description": "Your Aruba email password",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "EMAIL_PASSWORD"
+            },
+            {
+              "description": "IMAP server hostname (default: imaps.aruba.it)",
+              "format": "string",
+              "name": "IMAP_HOST"
+            },
+            {
+              "description": "SMTP server hostname (default: smtps.aruba.it)",
+              "format": "string",
+              "name": "SMTP_HOST"
+            },
+            {
+              "description": "CalDAV server URL (default: https://calendar.aruba.it/dav.php)",
+              "format": "string",
+              "name": "CALDAV_URL"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-08T17:52:01.37779Z",
+        "updatedAt": "2025-12-08T17:52:01.37779Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "dev.storage/mcp",
+      "description": "Tigris MCP Server seamlessly connects AI agents to Tigris bucket and object management.",
+      "title": "Tigris MCP Server",
+      "repository": {
+        "url": "https://github.com/tigrisdata/mcp",
+        "source": "github"
+      },
+      "version": "1.8.1",
+      "websiteUrl": "https://mcp.storage.dev",
+      "icons": [
+        {
+          "src": "https://mcp.storage.dev/favicon.jpg",
+          "mimeType": "image/jpg"
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.storage.dev/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-08T17:56:29.108165Z",
+        "updatedAt": "2025-12-08T17:56:29.108165Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.Koneisto/HomeAssistant-Light-MCP",
+      "description": "Control Home Assistant lights and scenes. Lights only by design for safety.",
+      "repository": {
+        "url": "https://github.com/Koneisto/HomeAssistant-Light-MCP",
+        "source": "github"
+      },
+      "version": "0.6.1",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "ha-mcp-server",
+          "version": "0.6.1",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Home Assistant URL (e.g., http://192.168.1.100:8123)",
+              "isRequired": true,
+              "format": "string",
+              "name": "HA_URL"
+            },
+            {
+              "description": "Home Assistant long-lived access token",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "HA_TOKEN"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-08T18:08:33.081891Z",
+        "updatedAt": "2025-12-08T18:08:33.081891Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.Coolver/home-assistant-mcp",
+      "description": "Vibecode your Home Assistant setup from your IDE: automations, dashboards, themes and configs",
+      "repository": {
+        "url": "https://github.com/Coolver/home-assistant-mcp",
+        "source": "github"
+      },
+      "version": "3.2.12",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@coolver/home-assistant-mcp",
+          "version": "3.2.12",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "URL of your on-board Home Assistant Vibecode Agent add-on (generated after installation of the add-on)",
+              "isRequired": true,
+              "format": "string",
+              "name": "HA_AGENT_URL"
+            },
+            {
+              "description": "Access key generated by the Home Assistant Vibecode Agent add-on after installation",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "HA_AGENT_KEY"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-08T18:29:15.600846Z",
+        "updatedAt": "2025-12-08T18:29:15.600846Z",
         "isLatest": true
       }
     }
