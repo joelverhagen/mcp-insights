@@ -86019,7 +86019,7 @@
         "status": "active",
         "publishedAt": "2025-11-19T08:08:48.054521Z",
         "updatedAt": "2025-11-19T08:08:48.054521Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -105758,7 +105758,7 @@
         "status": "active",
         "publishedAt": "2025-12-02T09:17:16.618662Z",
         "updatedAt": "2025-12-02T09:17:16.618662Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -109145,7 +109145,7 @@
         "status": "active",
         "publishedAt": "2025-12-03T11:16:49.077997Z",
         "updatedAt": "2025-12-03T11:16:49.077997Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -112482,7 +112482,7 @@
         "status": "active",
         "publishedAt": "2025-12-06T07:25:48.787938Z",
         "updatedAt": "2025-12-06T07:25:48.787938Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -114479,6 +114479,192 @@
         "status": "active",
         "publishedAt": "2025-12-08T08:44:05.099752Z",
         "updatedAt": "2025-12-08T08:44:05.099752Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.github/github-mcp-server",
+      "description": "Connect AI assistants to GitHub - manage repos, issues, PRs, and workflows through natural language.",
+      "title": "GitHub",
+      "repository": {
+        "url": "https://github.com/github/github-mcp-server",
+        "source": "github"
+      },
+      "version": "0.24.1",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://api.githubcopilot.com/mcp/",
+          "headers": [
+            {
+              "description": "Authentication token (PAT or App token)",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "Authorization"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-08T10:19:24.868255Z",
+        "updatedAt": "2025-12-08T10:19:24.868255Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.varun29ankuS/shodh-memory",
+      "description": "Persistent AI memory with semantic search. Store and recall context across sessions.",
+      "repository": {
+        "url": "https://github.com/varun29ankuS/shodh-memory",
+        "source": "github",
+        "subfolder": "mcp-server"
+      },
+      "version": "0.1.4",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@shodh/memory-mcp",
+          "version": "0.1.4",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "URL of the shodh-memory backend server",
+              "format": "string",
+              "default": "http://127.0.0.1:3030",
+              "name": "SHODH_API_URL"
+            },
+            {
+              "description": "API key for authentication",
+              "format": "string",
+              "isSecret": true,
+              "name": "SHODH_API_KEY"
+            },
+            {
+              "description": "User ID for memory isolation",
+              "format": "string",
+              "default": "default",
+              "name": "SHODH_USER_ID"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-08T10:22:05.098465Z",
+        "updatedAt": "2025-12-08T10:22:05.098465Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "dev.storage/mcp",
+      "description": "Tigris MCP Server seamlessly connects AI agents to Tigris bucket and object management.",
+      "title": "Tigris MCP Server",
+      "repository": {
+        "url": "https://github.com/tigrisdata/mcp",
+        "source": "github"
+      },
+      "version": "1.8.0",
+      "websiteUrl": "https://mcp.storage.dev",
+      "icons": [
+        {
+          "src": "https://mcp.storage.dev/favicon.jpg",
+          "mimeType": "image/jpg"
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.storage.dev/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-08T10:27:26.852541Z",
+        "updatedAt": "2025-12-08T10:27:26.852541Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.mobile-next/mobile-mcp",
+      "description": "MCP server for iOS and Android Mobile Development, Automation and Testing",
+      "repository": {
+        "url": "https://github.com/mobile-next/mobile-mcp",
+        "source": "github"
+      },
+      "version": "0.0.37",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@mobilenext/mobile-mcp",
+          "version": "0.0.37",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "name": ""
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-08T10:29:12.603Z",
+        "updatedAt": "2025-12-08T10:29:12.603Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.roeiba/pmd",
+      "description": "MCP server for PMD static code analyzer - run code analysis and detect duplicates",
+      "repository": {
+        "url": "https://github.com/roeiba/pmd",
+        "source": "github"
+      },
+      "version": "0.1.2",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@springsoftware/pmd-mcp",
+          "version": "0.1.2",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-08T11:44:51.42447Z",
+        "updatedAt": "2025-12-08T11:44:51.42447Z",
         "isLatest": true
       }
     }
