@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2025-12-09T04:38:24.6728262+00:00
+Generated on: 2025-12-09T08:42:40.6834216+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 2538
-- Total unique server names: 1018
+- Total records processed: 2542
+- Total unique server names: 1021
 - Date range: 2025-09-08 to 2025-12-09
 - Peak day: 2025-09-09 with 54 unique server names
-- Average unique server names per day: 18.37
+- Average unique server names per day: 18.4
 
 ## Top 5 busiest days
 - 2025-09-09: 54 unique servers
@@ -22,16 +22,16 @@ Generated on: 2025-12-09T04:38:24.6728262+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| remote | 434 | 42.63% |
-| npm | 297 | 29.17% |
-| pypi | 135 | 13.26% |
-| oci | 54 | 5.3% |
-| none | 36 | 3.54% |
+| remote | 435 | 42.61% |
+| npm | 298 | 29.19% |
+| pypi | 135 | 13.22% |
+| oci | 54 | 5.29% |
+| none | 36 | 3.53% |
 | mcpb | 17 | 1.67% |
-| oci+pypi | 14 | 1.38% |
+| oci+pypi | 14 | 1.37% |
 | nuget | 10 | 0.98% |
+| npm+oci | 7 | 0.69% |
 | mcpb+npm | 7 | 0.69% |
-| npm+oci | 6 | 0.59% |
 | mcpb+npm+oci | 4 | 0.39% |
 | npm+pypi | 1 | 0.1% |
 | npm+oci+pypi | 1 | 0.1% |
@@ -54,6 +54,7 @@ Generated on: 2025-12-09T04:38:24.6728262+00:00
 | neo4j-contrib.github.io | 4 | pypi |
 | mintmcp.com | 4 | remote |
 | jkawamoto.github.io | 4 | mcpb |
+| digital-defiance.github.io | 4 | npm, npm+oci |
 | bytedance.github.io | 4 | npm |
 | victoriametrics-community.github.io | 3 | oci |
 | therealtimex.github.io | 3 | npm, pypi |
@@ -61,4 +62,3 @@ Generated on: 2025-12-09T04:38:24.6728262+00:00
 | shinpr.github.io | 3 | npm |
 | ruvnet.github.io | 3 | npm |
 | noahgift.github.io | 3 | none |
-| neverinfamous.github.io | 3 | oci, oci+pypi |
