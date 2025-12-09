@@ -47386,7 +47386,7 @@
         "status": "active",
         "publishedAt": "2025-10-13T05:12:37.461499Z",
         "updatedAt": "2025-10-13T05:12:37.461499Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -83069,7 +83069,7 @@
         "status": "active",
         "publishedAt": "2025-11-17T16:25:20.403523Z",
         "updatedAt": "2025-11-17T16:25:20.403523Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -115484,7 +115484,7 @@
         "status": "active",
         "publishedAt": "2025-12-08T17:56:29.108165Z",
         "updatedAt": "2025-12-08T17:56:29.108165Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -115574,6 +115574,155 @@
         "status": "active",
         "publishedAt": "2025-12-08T18:29:15.600846Z",
         "updatedAt": "2025-12-08T18:29:15.600846Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "dev.storage/mcp",
+      "description": "Tigris MCP Server seamlessly connects AI agents to Tigris bucket and object management.",
+      "title": "Tigris MCP Server",
+      "repository": {
+        "url": "https://github.com/tigrisdata/mcp",
+        "source": "github"
+      },
+      "version": "1.8.2",
+      "websiteUrl": "https://mcp.storage.dev",
+      "icons": [
+        {
+          "src": "https://mcp.storage.dev/favicon.jpg",
+          "mimeType": "image/jpg"
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.storage.dev/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-08T20:42:56.558872Z",
+        "updatedAt": "2025-12-08T20:42:56.558872Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "ai.kubit/mcp-server",
+      "description": "Bring Kubit into your AI workflow — query your warehouse with natural language",
+      "title": "Kubit",
+      "repository": {
+        "url": "https://github.com/Kubit-AI/mcp-server",
+        "source": "github"
+      },
+      "version": "1.0.0",
+      "websiteUrl": "https://docs.kubit.ai/docs/mcp-server",
+      "icons": [
+        {
+          "src": "https://kubit.ai/wp-content/uploads/2025/12/Logo-Blue-Background-Stacked.png",
+          "mimeType": "image/png",
+          "theme": "light"
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.kubit.ai/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-09T00:18:46.752966Z",
+        "updatedAt": "2025-12-09T00:18:46.752966Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.neverinfamous/postgres-mcp-server",
+      "description": "Enterprise PostgreSQL MCP server with 63 tools, 10 resources, 10 prompts for AI-native operations",
+      "title": "PostgreSQL MCP Server",
+      "repository": {
+        "url": "https://github.com/neverinfamous/postgres-mcp.git",
+        "source": "github"
+      },
+      "version": "1.2.0",
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "docker.io/writenotenow/postgres-mcp-enhanced:v1.2.0",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-09T00:22:40.072526Z",
+        "updatedAt": "2025-12-09T00:22:40.072526Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.altmetric/altmetric-mcp",
+      "description": "MCP server for Altmetric APIs - track research attention across news, policy, social media, and more",
+      "repository": {
+        "url": "https://github.com/altmetric/altmetric-mcp",
+        "source": "github"
+      },
+      "version": "0.2.1",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "altmetric-mcp",
+          "version": "0.2.1",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "API key for Altmetric Details Page API. At least one credential set required: either this key OR both Explorer API credentials",
+              "format": "string",
+              "isSecret": true,
+              "name": "ALTMETRIC_DETAILS_API_KEY"
+            },
+            {
+              "description": "API key for Altmetric Explorer API (requires ALTMETRIC_EXPLORER_API_SECRET). At least one credential set required",
+              "format": "string",
+              "isSecret": true,
+              "name": "ALTMETRIC_EXPLORER_API_KEY"
+            },
+            {
+              "description": "API secret for Altmetric Explorer API HMAC authentication (requires ALTMETRIC_EXPLORER_API_KEY)",
+              "format": "string",
+              "isSecret": true,
+              "name": "ALTMETRIC_EXPLORER_API_SECRET"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-09T00:54:40.539319Z",
+        "updatedAt": "2025-12-09T00:54:40.539319Z",
         "isLatest": true
       }
     }
