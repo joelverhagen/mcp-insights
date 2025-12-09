@@ -91166,7 +91166,7 @@
         "status": "active",
         "publishedAt": "2025-11-25T06:44:18.707221Z",
         "updatedAt": "2025-11-25T06:44:18.707221Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -114635,7 +114635,7 @@
         "status": "active",
         "publishedAt": "2025-12-08T10:29:12.603Z",
         "updatedAt": "2025-12-08T10:29:12.603Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -115865,7 +115865,7 @@
         "status": "active",
         "publishedAt": "2025-12-09T05:36:31.155195Z",
         "updatedAt": "2025-12-09T05:36:31.155195Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -116182,6 +116182,196 @@
         "status": "active",
         "publishedAt": "2025-12-09T13:02:33.683983Z",
         "updatedAt": "2025-12-09T13:02:33.683983Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.mobile-next/mobile-mcp",
+      "description": "MCP server for iOS and Android Mobile Development, Automation and Testing",
+      "repository": {
+        "url": "https://github.com/mobile-next/mobile-mcp",
+        "source": "github"
+      },
+      "version": "0.0.38",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@mobilenext/mobile-mcp",
+          "version": "0.0.38",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "name": ""
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-09T13:23:57.375463Z",
+        "updatedAt": "2025-12-09T13:23:57.375463Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.gradion-ai/ipybox",
+      "description": "Python code execution sandbox with first-class support for programmatic MCP tool use.",
+      "repository": {
+        "url": "https://github.com/gradion-ai/ipybox",
+        "source": "github"
+      },
+      "version": "0.7.0",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "registryBaseUrl": "https://pypi.org",
+          "identifier": "ipybox",
+          "version": "0.7.0",
+          "runtimeHint": "uvx",
+          "transport": {
+            "type": "stdio"
+          },
+          "packageArguments": [
+            {
+              "description": "Code workspace directory",
+              "type": "named",
+              "name": "--workspace",
+              "valueHint": "directory_path"
+            },
+            {
+              "description": "Run kernel gateway in sandbox (macOS only)",
+              "type": "named",
+              "name": "--sandbox"
+            },
+            {
+              "description": "Sandbox config file path",
+              "type": "named",
+              "name": "--sandbox-config",
+              "valueHint": "file_path"
+            },
+            {
+              "description": "Logging level",
+              "type": "named",
+              "name": "--log-level",
+              "valueHint": "DEBUG|INFO|WARNING|ERROR|CRITICAL"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-09T13:40:26.146273Z",
+        "updatedAt": "2025-12-09T13:40:26.146273Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.email-mcp-ded4e7db/email-mcp",
+      "description": "Description of my MCP server",
+      "title": "Template",
+      "version": "0.0.1",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://email-mcp-ded4e7db.alpic.live"
+        },
+        {
+          "type": "sse",
+          "url": "https://email-mcp-ded4e7db.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-09T14:14:58.781159Z",
+        "updatedAt": "2025-12-09T14:14:58.781159Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.panbanda/omen",
+      "description": "Multi-language code analysis for complexity, debt, hotspots, ownership, and defect prediction",
+      "repository": {
+        "url": "https://github.com/panbanda/omen",
+        "source": "github"
+      },
+      "version": "2.3.0",
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/panbanda/omen:2.3.0",
+          "transport": {
+            "type": "stdio"
+          },
+          "packageArguments": [
+            {
+              "value": "mcp",
+              "type": "positional"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-09T15:14:46.613381Z",
+        "updatedAt": "2025-12-09T15:14:46.613381Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.panbanda/omen",
+      "description": "Multi-language code analysis for complexity, debt, hotspots, ownership, and defect prediction",
+      "repository": {
+        "url": "https://github.com/panbanda/omen",
+        "source": "github"
+      },
+      "version": "2.4.0",
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/panbanda/omen:2.4.0",
+          "transport": {
+            "type": "stdio"
+          },
+          "packageArguments": [
+            {
+              "value": "mcp",
+              "type": "positional"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-09T15:42:34.978454Z",
+        "updatedAt": "2025-12-09T15:42:34.978454Z",
         "isLatest": true
       }
     }
