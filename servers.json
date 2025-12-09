@@ -90638,7 +90638,7 @@
         "status": "active",
         "publishedAt": "2025-11-24T10:13:02.789217Z",
         "updatedAt": "2025-11-24T10:13:02.789217Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -114693,7 +114693,7 @@
         "status": "active",
         "publishedAt": "2025-12-08T13:07:20.163146Z",
         "updatedAt": "2025-12-08T13:07:20.163146Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -115608,7 +115608,7 @@
         "status": "active",
         "publishedAt": "2025-12-08T20:42:56.558872Z",
         "updatedAt": "2025-12-08T20:42:56.558872Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -115959,6 +115959,229 @@
         "status": "active",
         "publishedAt": "2025-12-09T08:41:07.361941Z",
         "updatedAt": "2025-12-09T08:41:07.361941Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "dev.storage/mcp",
+      "description": "Tigris MCP Server seamlessly connects AI agents to Tigris bucket and object management.",
+      "title": "Tigris MCP Server",
+      "repository": {
+        "url": "https://github.com/tigrisdata/mcp",
+        "source": "github"
+      },
+      "version": "1.8.3",
+      "websiteUrl": "https://mcp.storage.dev",
+      "icons": [
+        {
+          "src": "https://mcp.storage.dev/favicon.jpg",
+          "mimeType": "image/jpg"
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.storage.dev/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-09T09:41:30.291319Z",
+        "updatedAt": "2025-12-09T09:41:30.291319Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.aybelatchane/mcp-server-terminal",
+      "description": "MCP server for AI agents to interact with terminal applications. Think Playwright for terminals.",
+      "title": "Terminal MCP Server",
+      "repository": {
+        "url": "https://github.com/aybelatchane/mcp-server-terminal",
+        "source": "github"
+      },
+      "version": "1.0.3",
+      "websiteUrl": "https://github.com/aybelatchane/mcp-server-terminal",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "mcp-server-terminal",
+          "version": "1.0.3",
+          "transport": {
+            "type": "stdio"
+          },
+          "packageArguments": [
+            {
+              "description": "Run in headless mode without spawning visible terminal windows",
+              "type": "named",
+              "name": "--headless"
+            }
+          ],
+          "environmentVariables": [
+            {
+              "description": "X11 display for visual mode (Linux/WSL). Example: :0",
+              "name": "DISPLAY"
+            },
+            {
+              "description": "Logging level: error, warn, info, debug, trace",
+              "default": "info",
+              "name": "RUST_LOG"
+            }
+          ]
+        }
+      ],
+      "_meta": {
+        "io.modelcontextprotocol.registry/publisher-provided": {
+          "architectures": [
+            "x64",
+            "arm64"
+          ],
+          "categories": [
+            "terminal",
+            "automation",
+            "development-tools",
+            "tui",
+            "testing"
+          ],
+          "features": [
+            "Terminal State Tree (TST) representation",
+            "UI element detection (menus, tables, buttons, inputs)",
+            "Multi-platform PTY management",
+            "Visual mode with xterm/tmux",
+            "Headless mode for CI/automation",
+            "10 MCP tools for terminal interaction"
+          ],
+          "platforms": [
+            "linux",
+            "macos",
+            "wsl"
+          ],
+          "tags": [
+            "rust",
+            "terminal",
+            "tui",
+            "cli",
+            "playwright",
+            "automation",
+            "testing",
+            "ai-agents"
+          ],
+          "useCases": [
+            "Automate TUI applications with AI agents",
+            "Test terminal applications programmatically",
+            "Control CLI tools through structured interfaces",
+            "Build terminal automation workflows"
+          ]
+        }
+      }
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-09T11:56:07.32197Z",
+        "updatedAt": "2025-12-09T11:56:07.32197Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.dynatrace-oss/Dynatrace-mcp",
+      "description": "Model Context Protocol server for Dynatrace - access logs, events, metrics from Dynatrace via MCP.",
+      "repository": {
+        "url": "https://github.com/dynatrace-oss/Dynatrace-mcp",
+        "source": "github"
+      },
+      "version": "1.0.1",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@dynatrace-oss/dynatrace-mcp-server",
+          "version": "1.0.1",
+          "runtimeHint": "npx",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "The URL of your Dynatrace environment (e.g. 'https://abc12345.apps.dynatrace.com')",
+              "isRequired": true,
+              "format": "string",
+              "name": "DT_ENVIRONMENT"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-09T12:01:40.540336Z",
+        "updatedAt": "2025-12-09T12:01:40.540336Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.civic/nexus",
+      "description": "Zero-setup MCP gateway securely connecting AI to your tools with authentication and workflows",
+      "repository": {
+        "url": "https://github.com/civicteam/civic-mcp",
+        "source": "github",
+        "subfolder": "apps/hub"
+      },
+      "version": "0.1.56",
+      "websiteUrl": "https://nexus.civic.com",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://nexus.civic.com/hub/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-09T12:52:43.68723Z",
+        "updatedAt": "2025-12-09T12:52:43.68723Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "live.alpic.send-email-49a8d7ee/send-email",
+      "description": "Description of my MCP server",
+      "title": "My MCP Server",
+      "version": "0.0.1",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://send-email-49a8d7ee.alpic.live"
+        },
+        {
+          "type": "sse",
+          "url": "https://send-email-49a8d7ee.alpic.live"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-09T13:02:33.683983Z",
+        "updatedAt": "2025-12-09T13:02:33.683983Z",
         "isLatest": true
       }
     }
