@@ -113857,7 +113857,7 @@
         "status": "active",
         "publishedAt": "2025-12-07T11:38:32.923799Z",
         "updatedAt": "2025-12-07T11:38:32.923799Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -114117,7 +114117,7 @@
         "status": "active",
         "publishedAt": "2025-12-07T15:24:28.901688Z",
         "updatedAt": "2025-12-07T15:24:28.901688Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -115723,6 +115723,113 @@
         "status": "active",
         "publishedAt": "2025-12-09T00:54:40.539319Z",
         "updatedAt": "2025-12-09T00:54:40.539319Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.panbanda/omen",
+      "description": "Multi-language code analysis for complexity, debt, hotspots, ownership, and defect prediction",
+      "repository": {
+        "url": "https://github.com/panbanda/omen",
+        "source": "github"
+      },
+      "version": "2.0.0",
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/panbanda/omen:2.0.0",
+          "transport": {
+            "type": "stdio"
+          },
+          "packageArguments": [
+            {
+              "value": "mcp",
+              "type": "positional"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-09T02:22:07.479307Z",
+        "updatedAt": "2025-12-09T02:22:07.479307Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.homeassistant-ai/ha-mcp",
+      "description": "Comprehensive Model Context Protocol server for managing Home Assistant through AI assistants.",
+      "repository": {
+        "url": "https://github.com/homeassistant-ai/ha-mcp.git",
+        "source": "github"
+      },
+      "version": "4.20.0",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "ha-mcp",
+          "version": "4.20.0",
+          "transport": {
+            "type": "stdio"
+          }
+        },
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/homeassistant-ai/ha-mcp:4.20.0",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-09T03:07:55.308865Z",
+        "updatedAt": "2025-12-09T03:07:55.308865Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.panbanda/omen",
+      "description": "Multi-language code analysis for complexity, debt, hotspots, ownership, and defect prediction",
+      "repository": {
+        "url": "https://github.com/panbanda/omen",
+        "source": "github"
+      },
+      "version": "2.1.0",
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/panbanda/omen:2.1.0",
+          "transport": {
+            "type": "stdio"
+          },
+          "packageArguments": [
+            {
+              "value": "mcp",
+              "type": "positional"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-09T04:26:27.316361Z",
+        "updatedAt": "2025-12-09T04:26:27.316361Z",
         "isLatest": true
       }
     }
