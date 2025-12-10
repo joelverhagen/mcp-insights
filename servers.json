@@ -92701,7 +92701,7 @@
         "status": "active",
         "publishedAt": "2025-11-26T15:33:56.215423Z",
         "updatedAt": "2025-11-26T15:33:56.215423Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -109448,7 +109448,7 @@
         "status": "active",
         "publishedAt": "2025-12-03T17:57:14.921102Z",
         "updatedAt": "2025-12-03T17:57:14.921102Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -118117,7 +118117,7 @@
         "status": "active",
         "publishedAt": "2025-12-10T14:36:41.858496Z",
         "updatedAt": "2025-12-10T14:36:41.858496Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -118583,6 +118583,370 @@
         "status": "active",
         "publishedAt": "2025-12-10T16:32:30.597664Z",
         "updatedAt": "2025-12-10T16:32:30.597664Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "dev.storage/mcp",
+      "description": "Tigris MCP Server seamlessly connects AI agents to Tigris bucket and object management.",
+      "title": "Tigris MCP Server",
+      "repository": {
+        "url": "https://github.com/tigrisdata/mcp",
+        "source": "github"
+      },
+      "version": "1.9.1",
+      "websiteUrl": "https://mcp.storage.dev",
+      "icons": [
+        {
+          "src": "https://mcp.storage.dev/favicon.jpg",
+          "mimeType": "image/jpg"
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.storage.dev/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-10T16:43:21.954103Z",
+        "updatedAt": "2025-12-10T16:43:21.954103Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.brave/brave-search-mcp-server",
+      "description": "Brave Search MCP Server: web results, images, videos, rich results, AI summaries, and more.",
+      "repository": {
+        "url": "https://github.com/brave/brave-search-mcp-server",
+        "source": "github"
+      },
+      "version": "2.0.63",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@brave/brave-search-mcp-server",
+          "version": "2.0.63",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your API key for the service",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "BRAVE_API_KEY"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-10T17:38:09.867893Z",
+        "updatedAt": "2025-12-10T17:38:09.867893Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.j0hanz/superfetch",
+      "description": "Intelligent web content fetcher MCP server that converts HTML to clean, AI-readable JSONL format",
+      "repository": {
+        "url": "https://github.com/j0hanz/super-fetch-mcp-server",
+        "source": "github"
+      },
+      "version": "1.0.2",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@j0hanz/superfetch",
+          "version": "1.0.2",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-10T18:51:53.751638Z",
+        "updatedAt": "2025-12-10T18:51:53.751638Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.timescale/tiger-skills",
+      "description": "Provider agnostic skills implementation, with skills sourced from local paths or GitHub repositories",
+      "repository": {
+        "url": "https://github.com/timescale/tiger-skills-mcp-server",
+        "source": "github"
+      },
+      "version": "0.1.4",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@tigerdata/tiger-skills-mcp-server",
+          "version": "0.1.4",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Token to access (private) GitHub repos",
+              "format": "string",
+              "isSecret": true,
+              "name": "GITHUB_TOKEN"
+            },
+            {
+              "description": "Location of configuration file for skills",
+              "format": "string",
+              "name": "SKILLS_FILE"
+            }
+          ]
+        },
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/timescale/tiger-skills-mcp-server:0.1.4",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Token to access (private) GitHub repos",
+              "format": "string",
+              "isSecret": true,
+              "name": "GITHUB_TOKEN"
+            },
+            {
+              "description": "Location of configuration file for skills",
+              "format": "string",
+              "name": "SKILLS_FILE"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-10T18:54:41.43134Z",
+        "updatedAt": "2025-12-10T18:54:41.43134Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.arm/arm-mcp",
+      "description": "Official Arm MCP server for code migration, optimization, and Arm architecture guidance",
+      "title": "Arm MCP Server",
+      "repository": {
+        "url": "https://github.com/arm/mcp",
+        "source": "github"
+      },
+      "version": "1.0.1",
+      "websiteUrl": "https://github.com/arm/mcp",
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "docker.io/armlimited/arm-mcp:1.0.1",
+          "runtimeHint": "docker",
+          "transport": {
+            "type": "stdio"
+          },
+          "runtimeArguments": [
+            {
+              "value": "run",
+              "type": "positional"
+            },
+            {
+              "value": "--rm",
+              "type": "positional"
+            },
+            {
+              "value": "-i",
+              "type": "positional"
+            },
+            {
+              "description": "Mount a local directory into the container for the MCP server to access",
+              "isRequired": true,
+              "value": "{workspace_path}:/workspace",
+              "variables": {
+                "workspace_path": {
+                  "description": "Local directory to make accessible to the MCP server (e.g., your project root)",
+                  "isRequired": true,
+                  "format": "filepath",
+                  "placeholder": "/path/to/your/project"
+                }
+              },
+              "type": "named",
+              "name": "-v"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-10T18:55:00.806305Z",
+        "updatedAt": "2025-12-10T18:55:00.806305Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.postman/postman-mcp-server",
+      "description": "A basic MCP server to operate on the Postman API.",
+      "repository": {
+        "url": "https://github.com/postmanlabs/postman-mcp-server",
+        "source": "github"
+      },
+      "version": "2.5.2",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@postman/postman-mcp-server",
+          "version": "2.5.2",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "A valid Postman API key.",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "POSTMAN_API_KEY"
+            }
+          ]
+        },
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/postmanlabs/postman-mcp-server/releases/download/v2.5.2/postman-mcp-server-minimal.mcpb",
+          "fileSha256": "e9ea60c96cde6f41c6767d59e62487d30b5929d0899b71f3cedb05b602e072fe",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "A valid Postman API key.",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "POSTMAN_API_KEY"
+            }
+          ]
+        },
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/postmanlabs/postman-mcp-server/releases/download/v2.5.2/postman-mcp-server-full.mcpb",
+          "fileSha256": "444006d5f629a761cbef8db0987fd4663a8de433934ce80de8348464076c95d1",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "A valid Postman API key.",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "POSTMAN_API_KEY"
+            }
+          ]
+        },
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/postmanlabs/postman-mcp-server/releases/download/v2.5.2/postman-mcp-server-code.mcpb",
+          "fileSha256": "f0f397379243b392939eed200659a5a689f5c32262fd3332ab7cc093d80716a4",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "A valid Postman API key.",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "POSTMAN_API_KEY"
+            }
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.postman.com/mcp",
+          "headers": [
+            {
+              "description": "A Bearer token and a valid Postman API key for authentication.",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "Authorization"
+            }
+          ]
+        },
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.postman.com/minimal",
+          "headers": [
+            {
+              "description": "A Bearer token and a valid Postman API key for authentication.",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "Authorization"
+            }
+          ]
+        },
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.eu.postman.com/mcp",
+          "headers": [
+            {
+              "description": "A Bearer token and a valid Postman API key for authentication.",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "Authorization"
+            }
+          ]
+        },
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.eu.postman.com/minimal",
+          "headers": [
+            {
+              "description": "A Bearer token and a valid Postman API key for authentication.",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "Authorization"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-10T20:13:22.308082Z",
+        "updatedAt": "2025-12-10T20:13:22.308082Z",
         "isLatest": true
       }
     }
