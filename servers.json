@@ -108887,7 +108887,7 @@
         "status": "active",
         "publishedAt": "2025-12-03T07:01:02.766879Z",
         "updatedAt": "2025-12-03T07:01:02.766879Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -109037,7 +109037,7 @@
         "status": "active",
         "publishedAt": "2025-12-03T10:06:23.627536Z",
         "updatedAt": "2025-12-03T10:06:23.627536Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -110247,7 +110247,7 @@
         "status": "active",
         "publishedAt": "2025-12-04T14:10:45.257672Z",
         "updatedAt": "2025-12-04T14:10:45.257672Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -117352,7 +117352,7 @@
         "status": "active",
         "publishedAt": "2025-12-10T05:03:42.419946Z",
         "updatedAt": "2025-12-10T05:03:42.419946Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -117672,6 +117672,310 @@
         "status": "active",
         "publishedAt": "2025-12-10T08:38:52.786595Z",
         "updatedAt": "2025-12-10T08:38:52.786595Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.tonymaynard97/blockscholes-mcp-server",
+      "description": "Real-time & historical data: volatility surfaces, options, futures, funding rates, spot and more.",
+      "title": "Block Scholes - Professional-grade cryptocurrency derivatives data and analytics",
+      "version": "1.0.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.blockscholes.com/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-10T09:41:00.043411Z",
+        "updatedAt": "2025-12-10T09:41:00.043411Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.vfa-khuongdv/mcp-backlog",
+      "description": "MCP server for Backlog API integration with AI agents.",
+      "repository": {
+        "url": "https://github.com/vfa-khuongdv/mcp-backlog",
+        "source": "github"
+      },
+      "version": "1.0.0",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@duongkhuong/mcp-backlog",
+          "version": "1.0.0",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your Backlog instance URL (e.g., your-space-id.backlog.com)",
+              "isRequired": true,
+              "format": "string",
+              "name": "BACKLOG_HOST"
+            },
+            {
+              "description": "Your Backlog API key from account settings",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "BACKLOG_API_KEY"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-10T09:43:52.299632Z",
+        "updatedAt": "2025-12-10T09:43:52.299632Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.ChromeDevTools/chrome-devtools-mcp",
+      "description": "MCP server for Chrome DevTools",
+      "title": "Chrome DevTools MCP",
+      "repository": {
+        "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+        "source": "github"
+      },
+      "version": "0.12.0",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "chrome-devtools-mcp",
+          "version": "0.12.0",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-10T09:50:45.507478Z",
+        "updatedAt": "2025-12-10T09:50:45.507478Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.tonymaynard97/blockscholes-mcp-server",
+      "description": "Real-time & historical data: volatility surfaces, options, futures, funding rates, spot and more.",
+      "title": "Block Scholes - Professional-grade cryptocurrency derivatives data and analytics",
+      "version": "1.1.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.non-blockscholes.com/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-10T10:34:27.632272Z",
+        "updatedAt": "2025-12-10T10:34:27.632272Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.tonymaynard97/blockscholes-mcp-server",
+      "description": "NaN - DO not use, test.",
+      "title": "NaN",
+      "version": "1.1.1",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.TEST-blockscholes.com/mcp-test"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-10T10:35:10.600783Z",
+        "updatedAt": "2025-12-10T10:35:10.600783Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.safedep/vet-mcp",
+      "description": "Protect your AI agents and IDEs from malicious open-source packages.",
+      "title": "SafeDep Vet MCP",
+      "repository": {
+        "url": "https://github.com/safedep/vet",
+        "source": "github"
+      },
+      "version": "1.12.16",
+      "websiteUrl": "https://safedep.io",
+      "icons": [
+        {
+          "src": "https://raw.githubusercontent.com/safedep/.github/9275c7d1b59f718d73e47cecd93df92e7bfbea25/assets/logo/safedep-logo-darkshade.svg",
+          "mimeType": "image/svg+xml",
+          "sizes": [
+            "48x48",
+            "96x96"
+          ],
+          "theme": "light"
+        },
+        {
+          "src": "https://raw.githubusercontent.com/safedep/.github/9275c7d1b59f718d73e47cecd93df92e7bfbea25/assets/logo/safedep-logo.svg",
+          "mimeType": "image/svg+xml",
+          "sizes": [
+            "48x48",
+            "96x96"
+          ],
+          "theme": "dark"
+        }
+      ],
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/safedep/vet:v1.12.16",
+          "runtimeHint": "docker",
+          "transport": {
+            "type": "stdio"
+          },
+          "runtimeArguments": [
+            {
+              "type": "named",
+              "name": "--rm"
+            },
+            {
+              "type": "named",
+              "name": "-i"
+            }
+          ],
+          "packageArguments": [
+            {
+              "value": "-s",
+              "type": "positional"
+            },
+            {
+              "value": "/tmp/vet-mcp.log",
+              "type": "named",
+              "name": "-l"
+            },
+            {
+              "value": "server",
+              "type": "positional"
+            },
+            {
+              "value": "mcp",
+              "type": "positional"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-10T10:58:13.018394Z",
+        "updatedAt": "2025-12-10T10:58:13.018394Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.ggozad/haiku-rag",
+      "description": "Opinionated agentic RAG powered by LanceDB, Pydantic AI, and Docling",
+      "repository": {
+        "url": "https://github.com/ggozad/haiku.rag",
+        "source": "github"
+      },
+      "version": "0.20.0",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "registryBaseUrl": "https://pypi.org",
+          "identifier": "haiku-rag",
+          "version": "0.20.0",
+          "runtimeHint": "uvx",
+          "transport": {
+            "type": "stdio"
+          },
+          "runtimeArguments": [
+            {
+              "value": "serve",
+              "type": "positional"
+            },
+            {
+              "type": "named",
+              "name": "--mcp"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-10T11:12:18.226352Z",
+        "updatedAt": "2025-12-10T11:12:18.226352Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.panbanda/omen",
+      "description": "Multi-language code analysis for complexity, debt, hotspots, ownership, and defect prediction",
+      "repository": {
+        "url": "https://github.com/panbanda/omen",
+        "source": "github"
+      },
+      "version": "2.6.2",
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/panbanda/omen:2.6.2",
+          "transport": {
+            "type": "stdio"
+          },
+          "packageArguments": [
+            {
+              "value": "mcp",
+              "type": "positional"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-10T11:42:27.838418Z",
+        "updatedAt": "2025-12-10T11:42:27.838418Z",
         "isLatest": true
       }
     }
