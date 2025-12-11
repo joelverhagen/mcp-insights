@@ -119613,5 +119613,131 @@
         "isLatest": true
       }
     }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.byteplant-dev/byteplant-mcp",
+      "description": "An MCP server that provides Email, Phone and Address Validation Services from Byteplant",
+      "repository": {
+        "url": "https://github.com/byteplant-dev/byteplant-mcp",
+        "source": "github"
+      },
+      "version": "1.0.0.post1",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "byteplant-mcp",
+          "version": "1.0.0",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Email Validator API Token",
+              "format": "string",
+              "isSecret": true,
+              "name": "EV_TOKEN"
+            },
+            {
+              "description": "Address Validator API Token",
+              "format": "string",
+              "isSecret": true,
+              "name": "AV_TOKEN"
+            },
+            {
+              "description": "Phone Validator API Token",
+              "format": "string",
+              "isSecret": true,
+              "name": "PV_TOKEN"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-11T13:11:19.187538Z",
+        "updatedAt": "2025-12-11T13:11:19.187538Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.bahfahh/noteit-mcp",
+      "description": "MCP server for AI agent profiles and smart notes. 60+ coding prompt packs with expert personas.",
+      "repository": {
+        "url": "https://github.com/bahfahh/noteit-mcp",
+        "source": "github"
+      },
+      "version": "1.0.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://www.noteit-mcp.com/api/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-11T13:23:30.700177Z",
+        "updatedAt": "2025-12-11T13:23:30.700177Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.byteplant-dev/byteplant-mcp",
+      "description": "An MCP server that provides Email, Phone and Address Validation Services from Byteplant",
+      "repository": {
+        "url": "https://github.com/byteplant-dev/byteplant-mcp",
+        "source": "github"
+      },
+      "version": "1.0.0.post2",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "byteplant-mcp",
+          "version": "1.0.0",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Email Validator API Token",
+              "format": "string",
+              "isSecret": true,
+              "name": "EV_TOKEN"
+            },
+            {
+              "description": "Address Validator API Token",
+              "format": "string",
+              "isSecret": true,
+              "name": "AV_TOKEN"
+            },
+            {
+              "description": "Phone Validator API Token",
+              "format": "string",
+              "isSecret": true,
+              "name": "PV_TOKEN"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-11T15:09:02.912651Z",
+        "updatedAt": "2025-12-11T15:09:02.912651Z",
+        "isLatest": false
+      }
+    }
   }
 ]
