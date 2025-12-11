@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2025-12-11T02:21:57.6932242+00:00
+Generated on: 2025-12-11T04:44:23.6311489+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 2611
-- Total unique server names: 1049
+- Total records processed: 2613
+- Total unique server names: 1050
 - Date range: 2025-09-08 to 2025-12-11
 - Peak day: 2025-09-09 with 54 unique server names
-- Average unique server names per day: 18.57
+- Average unique server names per day: 18.59
 
 ## Top 5 busiest days
 - 2025-09-09: 54 unique servers
@@ -22,9 +22,9 @@ Generated on: 2025-12-11T02:21:57.6932242+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| remote | 443 | 42.23% |
-| npm | 310 | 29.55% |
-| pypi | 140 | 13.35% |
+| remote | 443 | 42.19% |
+| npm | 311 | 29.62% |
+| pypi | 140 | 13.33% |
 | oci | 55 | 5.24% |
 | none | 36 | 3.43% |
 | mcpb | 17 | 1.62% |
@@ -43,8 +43,8 @@ Generated on: 2025-12-11T02:21:57.6932242+00:00
 | Domain | Unique Server Names | Categories |
 |--------|---------------------:|------------|
 | smithery.ai | 211 | remote |
+| domdomegg.github.io | 13 | mcpb+npm, mcpb+npm+oci, npm, nuget, pypi |
 | waystation.ai | 12 | remote |
-| domdomegg.github.io | 12 | mcpb+npm, mcpb+npm+oci, npm, nuget, pypi |
 | staging.alpic.live | 8 | remote |
 | cyanheads.github.io | 6 | npm |
 | huoshuiai42.github.io | 5 | pypi |
