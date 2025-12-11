@@ -118472,7 +118472,7 @@
         "status": "active",
         "publishedAt": "2025-12-10T15:20:10.47685Z",
         "updatedAt": "2025-12-10T15:20:10.47685Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -118947,6 +118947,386 @@
         "status": "active",
         "publishedAt": "2025-12-10T20:13:22.308082Z",
         "updatedAt": "2025-12-10T20:13:22.308082Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.scrapfly.mcp/mcp",
+      "description": "Scrape any website, extract structured data, and collect web content at scale with AI agents",
+      "repository": {
+        "url": "https://github.com/scrapfly/scrapfly-mcp",
+        "source": "github"
+      },
+      "version": "1.0.0",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "scrapfly-mcp",
+          "version": "1.0.0",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-10T21:16:20.266801Z",
+        "updatedAt": "2025-12-10T21:16:20.266801Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.domdomegg/google-contacts-mcp",
+      "description": "Allow AI systems to list, search, and manage contacts via Google Contacts.",
+      "title": "Google Contacts",
+      "repository": {
+        "url": "https://github.com/domdomegg/google-contacts-mcp.git",
+        "source": "github"
+      },
+      "version": "1.0.0",
+      "websiteUrl": "https://github.com/domdomegg/google-contacts-mcp#readme",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "google-contacts-mcp",
+          "version": "1.0.0",
+          "runtimeHint": "npx",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Google OAuth access token.",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "GOOGLE_ACCESS_TOKEN"
+            }
+          ]
+        },
+        {
+          "registryType": "npm",
+          "identifier": "google-contacts-mcp",
+          "version": "1.0.0",
+          "runtimeHint": "npx",
+          "transport": {
+            "type": "streamable-http",
+            "url": "http://localhost:3000/mcp"
+          },
+          "environmentVariables": [
+            {
+              "description": "Transport type.",
+              "isRequired": true,
+              "value": "http",
+              "name": "MCP_TRANSPORT"
+            },
+            {
+              "description": "Google OAuth client ID.",
+              "isRequired": true,
+              "name": "GOOGLE_CLIENT_ID"
+            },
+            {
+              "description": "Google OAuth client secret.",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "GOOGLE_CLIENT_SECRET"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-11T00:20:06.137526Z",
+        "updatedAt": "2025-12-11T00:20:06.137526Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.domdomegg/google-maps-places-mcp",
+      "description": "Allow AI systems to search for places and get business info via Google Maps Places API.",
+      "title": "Google Maps Places",
+      "repository": {
+        "url": "https://github.com/domdomegg/google-maps-places-mcp.git",
+        "source": "github"
+      },
+      "version": "1.0.0",
+      "websiteUrl": "https://github.com/domdomegg/google-maps-places-mcp#readme",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "google-maps-places-mcp",
+          "version": "1.0.0",
+          "runtimeHint": "npx",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Google OAuth access token with cloud-platform scope.",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "GOOGLE_ACCESS_TOKEN"
+            }
+          ]
+        },
+        {
+          "registryType": "npm",
+          "identifier": "google-maps-places-mcp",
+          "version": "1.0.0",
+          "runtimeHint": "npx",
+          "transport": {
+            "type": "streamable-http",
+            "url": "http://localhost:3000/mcp"
+          },
+          "environmentVariables": [
+            {
+              "description": "Transport type.",
+              "isRequired": true,
+              "value": "http",
+              "name": "MCP_TRANSPORT"
+            },
+            {
+              "description": "Google OAuth client ID.",
+              "isRequired": true,
+              "name": "GOOGLE_CLIENT_ID"
+            },
+            {
+              "description": "Google OAuth client secret.",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "GOOGLE_CLIENT_SECRET"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-11T00:53:30.050389Z",
+        "updatedAt": "2025-12-11T00:53:30.050389Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.domdomegg/gmail-mcp",
+      "description": "Allow AI systems to read, send, archive, and manage emails via Gmail.",
+      "title": "Gmail",
+      "repository": {
+        "url": "https://github.com/domdomegg/gmail-mcp.git",
+        "source": "github"
+      },
+      "version": "2.0.0",
+      "websiteUrl": "https://github.com/domdomegg/gmail-mcp#readme",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "gmail-mcp",
+          "version": "2.0.0",
+          "runtimeHint": "npx",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Google OAuth access token with Gmail scopes.",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "GOOGLE_ACCESS_TOKEN"
+            }
+          ]
+        },
+        {
+          "registryType": "npm",
+          "identifier": "gmail-mcp",
+          "version": "2.0.0",
+          "runtimeHint": "npx",
+          "transport": {
+            "type": "streamable-http",
+            "url": "http://localhost:3000/mcp"
+          },
+          "environmentVariables": [
+            {
+              "description": "Transport type.",
+              "isRequired": true,
+              "value": "http",
+              "name": "MCP_TRANSPORT"
+            },
+            {
+              "description": "Google OAuth client ID.",
+              "isRequired": true,
+              "name": "GOOGLE_CLIENT_ID"
+            },
+            {
+              "description": "Google OAuth client secret.",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "GOOGLE_CLIENT_SECRET"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-11T01:49:04.043482Z",
+        "updatedAt": "2025-12-11T01:49:04.043482Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.domdomegg/google-sheets-mcp",
+      "description": "Allow AI systems to read, write, and query spreadsheet data via Google Sheets.",
+      "title": "Google Sheets",
+      "repository": {
+        "url": "https://github.com/domdomegg/google-sheets-mcp.git",
+        "source": "github"
+      },
+      "version": "1.0.0",
+      "websiteUrl": "https://github.com/domdomegg/google-sheets-mcp#readme",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "google-sheets-mcp",
+          "version": "1.0.0",
+          "runtimeHint": "npx",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Google OAuth access token with Sheets scopes.",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "GOOGLE_ACCESS_TOKEN"
+            }
+          ]
+        },
+        {
+          "registryType": "npm",
+          "identifier": "google-sheets-mcp",
+          "version": "1.0.0",
+          "runtimeHint": "npx",
+          "transport": {
+            "type": "streamable-http",
+            "url": "http://localhost:3000/mcp"
+          },
+          "environmentVariables": [
+            {
+              "description": "Transport type.",
+              "isRequired": true,
+              "value": "http",
+              "name": "MCP_TRANSPORT"
+            },
+            {
+              "description": "Google OAuth client ID.",
+              "isRequired": true,
+              "name": "GOOGLE_CLIENT_ID"
+            },
+            {
+              "description": "Google OAuth client secret.",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "GOOGLE_CLIENT_SECRET"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-11T02:09:40.552256Z",
+        "updatedAt": "2025-12-11T02:09:40.552256Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.domdomegg/google-documents-mcp",
+      "description": "Allow AI systems to read and edit Google Docs.",
+      "title": "Google Docs",
+      "repository": {
+        "url": "https://github.com/domdomegg/google-documents-mcp.git",
+        "source": "github"
+      },
+      "version": "1.0.0",
+      "websiteUrl": "https://github.com/domdomegg/google-documents-mcp#readme",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "google-documents-mcp",
+          "version": "1.0.0",
+          "runtimeHint": "npx",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Google OAuth access token with Docs scope.",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "GOOGLE_ACCESS_TOKEN"
+            }
+          ]
+        },
+        {
+          "registryType": "npm",
+          "identifier": "google-documents-mcp",
+          "version": "1.0.0",
+          "runtimeHint": "npx",
+          "transport": {
+            "type": "streamable-http",
+            "url": "http://localhost:3000/mcp"
+          },
+          "environmentVariables": [
+            {
+              "description": "Transport type.",
+              "isRequired": true,
+              "value": "http",
+              "name": "MCP_TRANSPORT"
+            },
+            {
+              "description": "Google OAuth client ID.",
+              "isRequired": true,
+              "name": "GOOGLE_CLIENT_ID"
+            },
+            {
+              "description": "Google OAuth client secret.",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "GOOGLE_CLIENT_SECRET"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-11T02:16:19.818596Z",
+        "updatedAt": "2025-12-11T02:16:19.818596Z",
         "isLatest": true
       }
     }
