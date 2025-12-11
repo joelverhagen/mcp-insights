@@ -211,7 +211,7 @@
         "status": "active",
         "publishedAt": "2025-09-09T03:30:11.72135Z",
         "updatedAt": "2025-09-09T03:30:11.72135Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -119434,6 +119434,54 @@
         "status": "active",
         "publishedAt": "2025-12-11T04:07:13.425509Z",
         "updatedAt": "2025-12-11T04:07:13.425509Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.TiM00R/remote-terminal",
+      "description": "Complete SSH terminal for Linux with AI/user control and dual-stream visibility",
+      "repository": {},
+      "version": "1.0.0"
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-11T06:32:40.0934Z",
+        "updatedAt": "2025-12-11T06:32:40.0934Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.king-of-the-grackles/reddit-research-mcp",
+      "description": "Turn Reddit's chaos into structured insights with full citations - MCP server for Reddit research",
+      "repository": {
+        "url": "https://github.com/king-of-the-grackles/reddit-research-mcp",
+        "source": "github"
+      },
+      "version": "1.0.1",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "reddit-research-mcp",
+          "version": "1.0.1",
+          "runtimeHint": "uvx",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-11T08:16:39.511285Z",
+        "updatedAt": "2025-12-11T08:16:39.511285Z",
         "isLatest": true
       }
     }
