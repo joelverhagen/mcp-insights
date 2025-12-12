@@ -122543,5 +122543,121 @@
         "isLatest": true
       }
     }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.tmonk/mcp-stata",
+      "description": "A lightweight MCP server for Stata.",
+      "title": "Stata MCP Server",
+      "version": "1.0.3",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "mcp-stata",
+          "version": "1.0.3",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-12T17:19:38.825162Z",
+        "updatedAt": "2025-12-12T17:19:38.825162Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.k8ika0s/mcp-tmux",
+      "description": "Model Context Protocol server that lets LLMs collaboratively drive tmux",
+      "repository": {
+        "url": "https://github.com/k8ika0s/mcp-tmux",
+        "source": "github"
+      },
+      "version": "0.1.2",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@k8ika0s/mcp-tmux",
+          "version": "0.1.2",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Optional default SSH host alias to use when none is provided.",
+              "format": "string",
+              "name": "MCP_TMUX_HOST"
+            },
+            {
+              "description": "Optional default tmux session name to use when none is provided.",
+              "format": "string",
+              "name": "MCP_TMUX_SESSION"
+            },
+            {
+              "description": "Optional path to tmux binary if not on PATH.",
+              "format": "string",
+              "name": "TMUX_BIN"
+            },
+            {
+              "description": "Timeout in milliseconds for tmux/ssh invocations (default 15000).",
+              "format": "number",
+              "name": "MCP_TMUX_TIMEOUT_MS"
+            },
+            {
+              "description": "Override log directory (defaults to ~/.config/mcp-tmux/logs).",
+              "format": "string",
+              "name": "MCP_TMUX_LOG_DIR"
+            },
+            {
+              "description": "Optional JSON file for per-host tmux PATH/bin overrides.",
+              "format": "string",
+              "name": "MCP_TMUX_HOSTS_FILE"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-12T17:49:20.158254Z",
+        "updatedAt": "2025-12-12T17:49:20.158254Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.tmonk/mcp-stata",
+      "description": "A lightweight MCP server for Stata.",
+      "title": "Stata MCP Server",
+      "version": "1.0.4",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "mcp-stata",
+          "version": "1.0.4",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-12T18:12:40.819876Z",
+        "updatedAt": "2025-12-12T18:12:40.819876Z",
+        "isLatest": true
+      }
+    }
   }
 ]
