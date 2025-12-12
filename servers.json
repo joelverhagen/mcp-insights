@@ -57530,7 +57530,7 @@
         "status": "active",
         "publishedAt": "2025-10-24T10:32:48.053911Z",
         "updatedAt": "2025-10-24T10:32:48.053911Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -60897,7 +60897,7 @@
         "status": "active",
         "publishedAt": "2025-10-28T06:16:07.27445Z",
         "updatedAt": "2025-10-28T06:16:07.27445Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -72306,7 +72306,7 @@
         "status": "active",
         "publishedAt": "2025-11-04T12:35:13.780332Z",
         "updatedAt": "2025-11-04T12:35:13.780332Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -72456,7 +72456,7 @@
         "status": "active",
         "publishedAt": "2025-11-04T13:50:39.80944Z",
         "updatedAt": "2025-11-04T13:50:39.80944Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -109302,7 +109302,7 @@
         "status": "active",
         "publishedAt": "2025-12-03T16:27:04.464604Z",
         "updatedAt": "2025-12-03T16:27:04.464604Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -117772,7 +117772,7 @@
         "status": "active",
         "publishedAt": "2025-12-10T09:50:45.507478Z",
         "updatedAt": "2025-12-10T09:50:45.507478Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -117941,7 +117941,7 @@
         "status": "active",
         "publishedAt": "2025-12-10T11:12:18.226352Z",
         "updatedAt": "2025-12-10T11:12:18.226352Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -118617,7 +118617,7 @@
         "status": "active",
         "publishedAt": "2025-12-10T16:43:21.954103Z",
         "updatedAt": "2025-12-10T16:43:21.954103Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -119610,7 +119610,7 @@
         "status": "active",
         "publishedAt": "2025-12-11T12:04:33.232342Z",
         "updatedAt": "2025-12-11T12:04:33.232342Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -120072,6 +120072,1584 @@
         "status": "active",
         "publishedAt": "2025-12-12T01:07:47.813021Z",
         "updatedAt": "2025-12-12T01:07:47.813021Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.ggozad/haiku-rag",
+      "description": "Opinionated agentic RAG powered by LanceDB, Pydantic AI, and Docling",
+      "repository": {
+        "url": "https://github.com/ggozad/haiku.rag",
+        "source": "github"
+      },
+      "version": "0.20.2",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "registryBaseUrl": "https://pypi.org",
+          "identifier": "haiku-rag",
+          "version": "0.20.2",
+          "runtimeHint": "uvx",
+          "transport": {
+            "type": "stdio"
+          },
+          "runtimeArguments": [
+            {
+              "value": "serve",
+              "type": "positional"
+            },
+            {
+              "type": "named",
+              "name": "--mcp"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-12T08:49:36.934333Z",
+        "updatedAt": "2025-12-12T08:49:36.934333Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.maxi-moss/test-mcp",
+      "description": "A minimal test server for MCP registry publishing verification",
+      "title": "Test MCP Server",
+      "version": "1.0.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp-registry-test-server-513943347567.europe-west1.run.app/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-12T09:21:01.125714Z",
+        "updatedAt": "2025-12-12T09:21:01.125714Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "dev.storage/mcp",
+      "description": "Tigris MCP Server seamlessly connects AI agents to Tigris bucket and object management.",
+      "title": "Tigris MCP Server",
+      "repository": {
+        "url": "https://github.com/tigrisdata/mcp",
+        "source": "github"
+      },
+      "version": "1.9.2",
+      "websiteUrl": "https://mcp.storage.dev",
+      "icons": [
+        {
+          "src": "https://mcp.storage.dev/favicon.jpg",
+          "mimeType": "image/jpg"
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.storage.dev/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-12T09:45:21.827846Z",
+        "updatedAt": "2025-12-12T09:45:21.827846Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.docfork/docfork-mcp",
+      "description": "Up-to-date documentation to 9,000+ libraries for devs and AI agents.",
+      "repository": {
+        "url": "https://github.com/docfork/docfork-mcp",
+        "source": "github"
+      },
+      "version": "1.0.5",
+      "icons": [
+        {
+          "src": "https://mcp.docfork.com/icon.svg",
+          "mimeType": "image/svg+xml",
+          "sizes": [
+            "48x48",
+            "96x96",
+            "any"
+          ]
+        }
+      ],
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "docfork",
+          "version": "1.0.0",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.docfork.com/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-12T10:01:56.689688Z",
+        "updatedAt": "2025-12-12T10:01:56.689688Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.maxi-moss/test-mcp",
+      "description": "Medical RAG: semantic search for clinical guidelines, drug interactions, diagnoses & EHR data.",
+      "title": "Medical RAG - Clinical Decision Support & Healthcare Knowledge Retrieval",
+      "version": "1.0.1",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp-registry-test-server-513943347567.europe-west1.run.app/mcp"
+        }
+      ],
+      "_meta": {
+        "io.modelcontextprotocol.registry/publisher-provided": {
+          "capabilities": [
+            "semantic search",
+            "RAG",
+            "vector similarity",
+            "cross-encoder reranking",
+            "cited retrieval",
+            "source attribution"
+          ],
+          "compliance": [
+            "HIPAA",
+            "healthcare data privacy"
+          ],
+          "dataTypes": [
+            "patient records",
+            "lab results",
+            "medical literature",
+            "drug databases",
+            "clinical guidelines",
+            "medical ontologies"
+          ],
+          "tags": [
+            "medical",
+            "healthcare",
+            "RAG",
+            "clinical",
+            "HIPAA",
+            "EHR",
+            "diagnosis",
+            "treatment",
+            "drug-interactions",
+            "clinical-guidelines",
+            "medical-literature",
+            "semantic-search"
+          ],
+          "useCases": [
+            "clinical decision support",
+            "medical chatbot",
+            "diagnostic assistant",
+            "treatment recommendation",
+            "drug interaction checker",
+            "medical literature search",
+            "clinical guideline retrieval",
+            "patient record search"
+          ]
+        }
+      }
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-12T10:25:40.064366Z",
+        "updatedAt": "2025-12-12T10:25:40.064366Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.mongodb-js/mongodb-mcp-server",
+      "description": "MongoDB Model Context Protocol Server",
+      "repository": {
+        "url": "https://github.com/mongodb-js/mongodb-mcp-server",
+        "source": "github"
+      },
+      "version": "1.3.0",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "mongodb-mcp-server",
+          "version": "1.3.0",
+          "transport": {
+            "type": "stdio"
+          },
+          "packageArguments": [
+            {
+              "description": "When set to true, allows configuration values to be overridden via request headers and query parameters.",
+              "format": "boolean",
+              "type": "named",
+              "name": "--allowRequestOverrides"
+            },
+            {
+              "description": "Atlas API client ID for authentication. Required for running Atlas tools.",
+              "type": "named",
+              "name": "--apiClientId"
+            },
+            {
+              "description": "Atlas API client secret for authentication. Required for running Atlas tools.",
+              "type": "named",
+              "name": "--apiClientSecret"
+            },
+            {
+              "description": "Time in milliseconds that temporary database users created when connecting to MongoDB Atlas clusters will remain active before being automatically deleted.",
+              "format": "number",
+              "type": "named",
+              "name": "--atlasTemporaryDatabaseUserLifetimeMs"
+            },
+            {
+              "description": "Comma separated values of tool names that require user confirmation before execution. Requires the client to support elicitation.",
+              "type": "named",
+              "name": "--confirmationRequiredTools"
+            },
+            {
+              "description": "MongoDB connection string for direct database connections. Optional, if not set, you'll need to call the connect tool before interacting with MongoDB data.",
+              "type": "named",
+              "name": "--connectionString"
+            },
+            {
+              "description": "Comma separated values of tool names, operation types, and/or categories of tools that will be disabled.",
+              "type": "named",
+              "name": "--disabledTools"
+            },
+            {
+              "description": "When true, runs the server in dry mode: dumps configuration and enabled tools, then exits without starting the server.",
+              "format": "boolean",
+              "type": "named",
+              "name": "--dryRun"
+            },
+            {
+              "description": "When set to false, disables validation of embeddings dimensions.",
+              "format": "boolean",
+              "type": "named",
+              "name": "--embeddingsValidation"
+            },
+            {
+              "description": "Time in milliseconds between export cleanup cycles that remove expired export files.",
+              "format": "number",
+              "type": "named",
+              "name": "--exportCleanupIntervalMs"
+            },
+            {
+              "description": "Time in milliseconds after which an export is considered expired and eligible for cleanup.",
+              "format": "number",
+              "type": "named",
+              "name": "--exportTimeoutMs"
+            },
+            {
+              "description": "Folder to store exported data files.",
+              "type": "named",
+              "name": "--exportsPath"
+            },
+            {
+              "description": "Header that the HTTP server will validate when making requests (only used when transport is 'http').",
+              "type": "named",
+              "name": "--httpHeaders"
+            },
+            {
+              "description": "Host address to bind the HTTP server to (only used when transport is 'http').",
+              "type": "named",
+              "name": "--httpHost"
+            },
+            {
+              "description": "Port number for the HTTP server (only used when transport is 'http'). Use 0 for a random port.",
+              "format": "number",
+              "type": "named",
+              "name": "--httpPort"
+            },
+            {
+              "description": "Idle timeout for a client to disconnect (only applies to http transport).",
+              "format": "number",
+              "type": "named",
+              "name": "--idleTimeoutMs"
+            },
+            {
+              "description": "When set to true, enforces that query operations must use an index, rejecting queries that perform a collection scan.",
+              "format": "boolean",
+              "type": "named",
+              "name": "--indexCheck"
+            },
+            {
+              "description": "Folder to store logs.",
+              "type": "named",
+              "name": "--logPath"
+            },
+            {
+              "description": "Comma separated values of logger types.",
+              "type": "named",
+              "name": "--loggers"
+            },
+            {
+              "description": "The maximum size in bytes for results from a find or aggregate tool call. This serves as an upper bound for the responseBytesLimit parameter in those tools.",
+              "format": "number",
+              "type": "named",
+              "name": "--maxBytesPerQuery"
+            },
+            {
+              "description": "The maximum number of documents that can be returned by a find or aggregate tool call. For the find tool, the effective limit will be the smaller of this value and the tool's limit parameter.",
+              "format": "number",
+              "type": "named",
+              "name": "--maxDocumentsPerQuery"
+            },
+            {
+              "description": "Notification timeout for a client to be aware of disconnect (only applies to http transport).",
+              "format": "number",
+              "type": "named",
+              "name": "--notificationTimeoutMs"
+            },
+            {
+              "description": "Comma separated values of preview features that are enabled.",
+              "type": "named",
+              "name": "--previewFeatures"
+            },
+            {
+              "description": "When set to true, only allows read, connect, and metadata operation types, disabling create/update/delete operations.",
+              "format": "boolean",
+              "type": "named",
+              "name": "--readOnly"
+            },
+            {
+              "description": "When set to disabled, disables telemetry collection.",
+              "type": "named",
+              "name": "--telemetry"
+            },
+            {
+              "description": "Either 'stdio' or 'http'.",
+              "type": "named",
+              "name": "--transport"
+            },
+            {
+              "description": "Default number of dimensions for vector search embeddings.",
+              "format": "number",
+              "type": "named",
+              "name": "--vectorSearchDimensions"
+            },
+            {
+              "description": "Default similarity function for vector search: 'euclidean', 'cosine', or 'dotProduct'.",
+              "type": "named",
+              "name": "--vectorSearchSimilarityFunction"
+            },
+            {
+              "description": "API key for Voyage AI embeddings service (required for vector search operations with text-to-embedding conversion).",
+              "type": "named",
+              "name": "--voyageApiKey"
+            }
+          ],
+          "environmentVariables": [
+            {
+              "description": "When set to true, allows configuration values to be overridden via request headers and query parameters.",
+              "format": "boolean",
+              "name": "MDB_MCP_ALLOW_REQUEST_OVERRIDES"
+            },
+            {
+              "description": "Atlas API client ID for authentication. Required for running Atlas tools.",
+              "format": "string",
+              "isSecret": true,
+              "name": "MDB_MCP_API_CLIENT_ID"
+            },
+            {
+              "description": "Atlas API client secret for authentication. Required for running Atlas tools.",
+              "format": "string",
+              "isSecret": true,
+              "name": "MDB_MCP_API_CLIENT_SECRET"
+            },
+            {
+              "description": "Time in milliseconds that temporary database users created when connecting to MongoDB Atlas clusters will remain active before being automatically deleted.",
+              "format": "number",
+              "name": "MDB_MCP_ATLAS_TEMPORARY_DATABASE_USER_LIFETIME_MS"
+            },
+            {
+              "description": "Comma separated values of tool names that require user confirmation before execution. Requires the client to support elicitation.",
+              "format": "string",
+              "name": "MDB_MCP_CONFIRMATION_REQUIRED_TOOLS"
+            },
+            {
+              "description": "MongoDB connection string for direct database connections. Optional, if not set, you'll need to call the connect tool before interacting with MongoDB data.",
+              "format": "string",
+              "isSecret": true,
+              "name": "MDB_MCP_CONNECTION_STRING"
+            },
+            {
+              "description": "Comma separated values of tool names, operation types, and/or categories of tools that will be disabled.",
+              "format": "string",
+              "name": "MDB_MCP_DISABLED_TOOLS"
+            },
+            {
+              "description": "When true, runs the server in dry mode: dumps configuration and enabled tools, then exits without starting the server.",
+              "format": "boolean",
+              "name": "MDB_MCP_DRY_RUN"
+            },
+            {
+              "description": "When set to false, disables validation of embeddings dimensions.",
+              "format": "boolean",
+              "name": "MDB_MCP_EMBEDDINGS_VALIDATION"
+            },
+            {
+              "description": "Time in milliseconds between export cleanup cycles that remove expired export files.",
+              "format": "number",
+              "name": "MDB_MCP_EXPORT_CLEANUP_INTERVAL_MS"
+            },
+            {
+              "description": "Time in milliseconds after which an export is considered expired and eligible for cleanup.",
+              "format": "number",
+              "name": "MDB_MCP_EXPORT_TIMEOUT_MS"
+            },
+            {
+              "description": "Folder to store exported data files.",
+              "format": "string",
+              "name": "MDB_MCP_EXPORTS_PATH"
+            },
+            {
+              "description": "Header that the HTTP server will validate when making requests (only used when transport is 'http').",
+              "format": "string",
+              "name": "MDB_MCP_HTTP_HEADERS"
+            },
+            {
+              "description": "Host address to bind the HTTP server to (only used when transport is 'http').",
+              "format": "string",
+              "name": "MDB_MCP_HTTP_HOST"
+            },
+            {
+              "description": "Port number for the HTTP server (only used when transport is 'http'). Use 0 for a random port.",
+              "format": "number",
+              "name": "MDB_MCP_HTTP_PORT"
+            },
+            {
+              "description": "Idle timeout for a client to disconnect (only applies to http transport).",
+              "format": "number",
+              "name": "MDB_MCP_IDLE_TIMEOUT_MS"
+            },
+            {
+              "description": "When set to true, enforces that query operations must use an index, rejecting queries that perform a collection scan.",
+              "format": "boolean",
+              "name": "MDB_MCP_INDEX_CHECK"
+            },
+            {
+              "description": "Folder to store logs.",
+              "format": "string",
+              "name": "MDB_MCP_LOG_PATH"
+            },
+            {
+              "description": "Comma separated values of logger types.",
+              "format": "string",
+              "name": "MDB_MCP_LOGGERS"
+            },
+            {
+              "description": "The maximum size in bytes for results from a find or aggregate tool call. This serves as an upper bound for the responseBytesLimit parameter in those tools.",
+              "format": "number",
+              "name": "MDB_MCP_MAX_BYTES_PER_QUERY"
+            },
+            {
+              "description": "The maximum number of documents that can be returned by a find or aggregate tool call. For the find tool, the effective limit will be the smaller of this value and the tool's limit parameter.",
+              "format": "number",
+              "name": "MDB_MCP_MAX_DOCUMENTS_PER_QUERY"
+            },
+            {
+              "description": "Notification timeout for a client to be aware of disconnect (only applies to http transport).",
+              "format": "number",
+              "name": "MDB_MCP_NOTIFICATION_TIMEOUT_MS"
+            },
+            {
+              "description": "Comma separated values of preview features that are enabled.",
+              "format": "string",
+              "name": "MDB_MCP_PREVIEW_FEATURES"
+            },
+            {
+              "description": "When set to true, only allows read, connect, and metadata operation types, disabling create/update/delete operations.",
+              "format": "boolean",
+              "name": "MDB_MCP_READ_ONLY"
+            },
+            {
+              "description": "When set to disabled, disables telemetry collection.",
+              "format": "string",
+              "name": "MDB_MCP_TELEMETRY"
+            },
+            {
+              "description": "Either 'stdio' or 'http'.",
+              "format": "string",
+              "name": "MDB_MCP_TRANSPORT"
+            },
+            {
+              "description": "Default number of dimensions for vector search embeddings.",
+              "format": "number",
+              "name": "MDB_MCP_VECTOR_SEARCH_DIMENSIONS"
+            },
+            {
+              "description": "Default similarity function for vector search: 'euclidean', 'cosine', or 'dotProduct'.",
+              "format": "string",
+              "name": "MDB_MCP_VECTOR_SEARCH_SIMILARITY_FUNCTION"
+            },
+            {
+              "description": "API key for Voyage AI embeddings service (required for vector search operations with text-to-embedding conversion).",
+              "format": "string",
+              "isSecret": true,
+              "name": "MDB_MCP_VOYAGE_API_KEY"
+            }
+          ]
+        },
+        {
+          "registryType": "oci",
+          "identifier": "docker.io/mongodb/mongodb-mcp-server:1.3.0",
+          "transport": {
+            "type": "stdio"
+          },
+          "packageArguments": [
+            {
+              "description": "When set to true, allows configuration values to be overridden via request headers and query parameters.",
+              "format": "boolean",
+              "type": "named",
+              "name": "--allowRequestOverrides"
+            },
+            {
+              "description": "Atlas API client ID for authentication. Required for running Atlas tools.",
+              "type": "named",
+              "name": "--apiClientId"
+            },
+            {
+              "description": "Atlas API client secret for authentication. Required for running Atlas tools.",
+              "type": "named",
+              "name": "--apiClientSecret"
+            },
+            {
+              "description": "Time in milliseconds that temporary database users created when connecting to MongoDB Atlas clusters will remain active before being automatically deleted.",
+              "format": "number",
+              "type": "named",
+              "name": "--atlasTemporaryDatabaseUserLifetimeMs"
+            },
+            {
+              "description": "Comma separated values of tool names that require user confirmation before execution. Requires the client to support elicitation.",
+              "type": "named",
+              "name": "--confirmationRequiredTools"
+            },
+            {
+              "description": "MongoDB connection string for direct database connections. Optional, if not set, you'll need to call the connect tool before interacting with MongoDB data.",
+              "type": "named",
+              "name": "--connectionString"
+            },
+            {
+              "description": "Comma separated values of tool names, operation types, and/or categories of tools that will be disabled.",
+              "type": "named",
+              "name": "--disabledTools"
+            },
+            {
+              "description": "When true, runs the server in dry mode: dumps configuration and enabled tools, then exits without starting the server.",
+              "format": "boolean",
+              "type": "named",
+              "name": "--dryRun"
+            },
+            {
+              "description": "When set to false, disables validation of embeddings dimensions.",
+              "format": "boolean",
+              "type": "named",
+              "name": "--embeddingsValidation"
+            },
+            {
+              "description": "Time in milliseconds between export cleanup cycles that remove expired export files.",
+              "format": "number",
+              "type": "named",
+              "name": "--exportCleanupIntervalMs"
+            },
+            {
+              "description": "Time in milliseconds after which an export is considered expired and eligible for cleanup.",
+              "format": "number",
+              "type": "named",
+              "name": "--exportTimeoutMs"
+            },
+            {
+              "description": "Folder to store exported data files.",
+              "type": "named",
+              "name": "--exportsPath"
+            },
+            {
+              "description": "Header that the HTTP server will validate when making requests (only used when transport is 'http').",
+              "type": "named",
+              "name": "--httpHeaders"
+            },
+            {
+              "description": "Host address to bind the HTTP server to (only used when transport is 'http').",
+              "type": "named",
+              "name": "--httpHost"
+            },
+            {
+              "description": "Port number for the HTTP server (only used when transport is 'http'). Use 0 for a random port.",
+              "format": "number",
+              "type": "named",
+              "name": "--httpPort"
+            },
+            {
+              "description": "Idle timeout for a client to disconnect (only applies to http transport).",
+              "format": "number",
+              "type": "named",
+              "name": "--idleTimeoutMs"
+            },
+            {
+              "description": "When set to true, enforces that query operations must use an index, rejecting queries that perform a collection scan.",
+              "format": "boolean",
+              "type": "named",
+              "name": "--indexCheck"
+            },
+            {
+              "description": "Folder to store logs.",
+              "type": "named",
+              "name": "--logPath"
+            },
+            {
+              "description": "Comma separated values of logger types.",
+              "type": "named",
+              "name": "--loggers"
+            },
+            {
+              "description": "The maximum size in bytes for results from a find or aggregate tool call. This serves as an upper bound for the responseBytesLimit parameter in those tools.",
+              "format": "number",
+              "type": "named",
+              "name": "--maxBytesPerQuery"
+            },
+            {
+              "description": "The maximum number of documents that can be returned by a find or aggregate tool call. For the find tool, the effective limit will be the smaller of this value and the tool's limit parameter.",
+              "format": "number",
+              "type": "named",
+              "name": "--maxDocumentsPerQuery"
+            },
+            {
+              "description": "Notification timeout for a client to be aware of disconnect (only applies to http transport).",
+              "format": "number",
+              "type": "named",
+              "name": "--notificationTimeoutMs"
+            },
+            {
+              "description": "Comma separated values of preview features that are enabled.",
+              "type": "named",
+              "name": "--previewFeatures"
+            },
+            {
+              "description": "When set to true, only allows read, connect, and metadata operation types, disabling create/update/delete operations.",
+              "format": "boolean",
+              "type": "named",
+              "name": "--readOnly"
+            },
+            {
+              "description": "When set to disabled, disables telemetry collection.",
+              "type": "named",
+              "name": "--telemetry"
+            },
+            {
+              "description": "Either 'stdio' or 'http'.",
+              "type": "named",
+              "name": "--transport"
+            },
+            {
+              "description": "Default number of dimensions for vector search embeddings.",
+              "format": "number",
+              "type": "named",
+              "name": "--vectorSearchDimensions"
+            },
+            {
+              "description": "Default similarity function for vector search: 'euclidean', 'cosine', or 'dotProduct'.",
+              "type": "named",
+              "name": "--vectorSearchSimilarityFunction"
+            },
+            {
+              "description": "API key for Voyage AI embeddings service (required for vector search operations with text-to-embedding conversion).",
+              "type": "named",
+              "name": "--voyageApiKey"
+            }
+          ],
+          "environmentVariables": [
+            {
+              "description": "When set to true, allows configuration values to be overridden via request headers and query parameters.",
+              "format": "boolean",
+              "name": "MDB_MCP_ALLOW_REQUEST_OVERRIDES"
+            },
+            {
+              "description": "Atlas API client ID for authentication. Required for running Atlas tools.",
+              "format": "string",
+              "isSecret": true,
+              "name": "MDB_MCP_API_CLIENT_ID"
+            },
+            {
+              "description": "Atlas API client secret for authentication. Required for running Atlas tools.",
+              "format": "string",
+              "isSecret": true,
+              "name": "MDB_MCP_API_CLIENT_SECRET"
+            },
+            {
+              "description": "Time in milliseconds that temporary database users created when connecting to MongoDB Atlas clusters will remain active before being automatically deleted.",
+              "format": "number",
+              "name": "MDB_MCP_ATLAS_TEMPORARY_DATABASE_USER_LIFETIME_MS"
+            },
+            {
+              "description": "Comma separated values of tool names that require user confirmation before execution. Requires the client to support elicitation.",
+              "format": "string",
+              "name": "MDB_MCP_CONFIRMATION_REQUIRED_TOOLS"
+            },
+            {
+              "description": "MongoDB connection string for direct database connections. Optional, if not set, you'll need to call the connect tool before interacting with MongoDB data.",
+              "format": "string",
+              "isSecret": true,
+              "name": "MDB_MCP_CONNECTION_STRING"
+            },
+            {
+              "description": "Comma separated values of tool names, operation types, and/or categories of tools that will be disabled.",
+              "format": "string",
+              "name": "MDB_MCP_DISABLED_TOOLS"
+            },
+            {
+              "description": "When true, runs the server in dry mode: dumps configuration and enabled tools, then exits without starting the server.",
+              "format": "boolean",
+              "name": "MDB_MCP_DRY_RUN"
+            },
+            {
+              "description": "When set to false, disables validation of embeddings dimensions.",
+              "format": "boolean",
+              "name": "MDB_MCP_EMBEDDINGS_VALIDATION"
+            },
+            {
+              "description": "Time in milliseconds between export cleanup cycles that remove expired export files.",
+              "format": "number",
+              "name": "MDB_MCP_EXPORT_CLEANUP_INTERVAL_MS"
+            },
+            {
+              "description": "Time in milliseconds after which an export is considered expired and eligible for cleanup.",
+              "format": "number",
+              "name": "MDB_MCP_EXPORT_TIMEOUT_MS"
+            },
+            {
+              "description": "Folder to store exported data files.",
+              "format": "string",
+              "name": "MDB_MCP_EXPORTS_PATH"
+            },
+            {
+              "description": "Header that the HTTP server will validate when making requests (only used when transport is 'http').",
+              "format": "string",
+              "name": "MDB_MCP_HTTP_HEADERS"
+            },
+            {
+              "description": "Host address to bind the HTTP server to (only used when transport is 'http').",
+              "format": "string",
+              "name": "MDB_MCP_HTTP_HOST"
+            },
+            {
+              "description": "Port number for the HTTP server (only used when transport is 'http'). Use 0 for a random port.",
+              "format": "number",
+              "name": "MDB_MCP_HTTP_PORT"
+            },
+            {
+              "description": "Idle timeout for a client to disconnect (only applies to http transport).",
+              "format": "number",
+              "name": "MDB_MCP_IDLE_TIMEOUT_MS"
+            },
+            {
+              "description": "When set to true, enforces that query operations must use an index, rejecting queries that perform a collection scan.",
+              "format": "boolean",
+              "name": "MDB_MCP_INDEX_CHECK"
+            },
+            {
+              "description": "Folder to store logs.",
+              "format": "string",
+              "name": "MDB_MCP_LOG_PATH"
+            },
+            {
+              "description": "Comma separated values of logger types.",
+              "format": "string",
+              "name": "MDB_MCP_LOGGERS"
+            },
+            {
+              "description": "The maximum size in bytes for results from a find or aggregate tool call. This serves as an upper bound for the responseBytesLimit parameter in those tools.",
+              "format": "number",
+              "name": "MDB_MCP_MAX_BYTES_PER_QUERY"
+            },
+            {
+              "description": "The maximum number of documents that can be returned by a find or aggregate tool call. For the find tool, the effective limit will be the smaller of this value and the tool's limit parameter.",
+              "format": "number",
+              "name": "MDB_MCP_MAX_DOCUMENTS_PER_QUERY"
+            },
+            {
+              "description": "Notification timeout for a client to be aware of disconnect (only applies to http transport).",
+              "format": "number",
+              "name": "MDB_MCP_NOTIFICATION_TIMEOUT_MS"
+            },
+            {
+              "description": "Comma separated values of preview features that are enabled.",
+              "format": "string",
+              "name": "MDB_MCP_PREVIEW_FEATURES"
+            },
+            {
+              "description": "When set to true, only allows read, connect, and metadata operation types, disabling create/update/delete operations.",
+              "format": "boolean",
+              "name": "MDB_MCP_READ_ONLY"
+            },
+            {
+              "description": "When set to disabled, disables telemetry collection.",
+              "format": "string",
+              "name": "MDB_MCP_TELEMETRY"
+            },
+            {
+              "description": "Either 'stdio' or 'http'.",
+              "format": "string",
+              "name": "MDB_MCP_TRANSPORT"
+            },
+            {
+              "description": "Default number of dimensions for vector search embeddings.",
+              "format": "number",
+              "name": "MDB_MCP_VECTOR_SEARCH_DIMENSIONS"
+            },
+            {
+              "description": "Default similarity function for vector search: 'euclidean', 'cosine', or 'dotProduct'.",
+              "format": "string",
+              "name": "MDB_MCP_VECTOR_SEARCH_SIMILARITY_FUNCTION"
+            },
+            {
+              "description": "API key for Voyage AI embeddings service (required for vector search operations with text-to-embedding conversion).",
+              "format": "string",
+              "isSecret": true,
+              "name": "MDB_MCP_VOYAGE_API_KEY"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-12T10:33:04.828233Z",
+        "updatedAt": "2025-12-12T10:33:04.828233Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.taybenlor/runno",
+      "description": "MCP Server for the Runno Sandbox",
+      "repository": {
+        "url": "https://github.com/taybenlor/runno",
+        "source": "github"
+      },
+      "version": "0.10.2",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@runno/mcp",
+          "version": "0.10.6",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-12T10:35:23.616937Z",
+        "updatedAt": "2025-12-12T10:35:23.616937Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.taybenlor/runno",
+      "description": "MCP Server for the Runno Sandbox",
+      "repository": {
+        "url": "https://github.com/taybenlor/runno",
+        "source": "github"
+      },
+      "version": "0.10.6",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@runno/mcp",
+          "version": "0.10.6",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-12T10:35:34.733982Z",
+        "updatedAt": "2025-12-12T10:35:34.733982Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.UI5/mcp-server",
+      "description": "MCP server for UI5 application development",
+      "repository": {
+        "url": "https://github.com/UI5/mcp-server",
+        "source": "github"
+      },
+      "version": "0.2.0",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@ui5/mcp-server",
+          "version": "0.2.0",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "A comma-separated list of domains that are allowed to be used in the 'oDataV4Url' parameter of the 'create_ui5_app' tool, for example: 'localhost, example.com, sub.example.com'. Set to an empty string to allow any domains. For wildcard subdomains, prefix the domain with a dot: '.example.com'. This will match 'www.example.com' but not 'example.com'.",
+              "format": "string",
+              "default": "localhost, services.odata.org",
+              "name": "UI5_MCP_SERVER_ALLOWED_ODATA_DOMAINS"
+            },
+            {
+              "description": "Set to any value to disable structured content in the MCP server responses.",
+              "format": "boolean",
+              "default": "false",
+              "name": "UI5_MCP_SERVER_RESPONSE_NO_STRUCTURED_CONTENT"
+            },
+            {
+              "description": "Set to any value to disable resources in the MCP server responses, see https://modelcontextprotocol.io/specification/2025-06-18/server/resource. This is useful for clients that do not support resources, see https://modelcontextprotocol.io/clients, such as Cursor or the Gemini CLI.",
+              "format": "string",
+              "default": "false",
+              "name": "UI5_MCP_SERVER_RESPONSE_NO_RESOURCES"
+            },
+            {
+              "description": "Internal log level (https://ui5.github.io/cli/stable/pages/Troubleshooting/#changing-the-log-level): 'silent', 'error', 'warn', 'info', 'perf', 'verbose' or 'silly'",
+              "format": "string",
+              "default": "info",
+              "name": "UI5_LOG_LVL"
+            },
+            {
+              "description": "Directory where the MCP server stores its data, such as cached API references.",
+              "format": "string",
+              "default": "The '.ui5' directory in the user's home directory",
+              "name": "UI5_DATA_DIR"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-12T10:52:40.43175Z",
+        "updatedAt": "2025-12-12T10:52:40.43175Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.cyanheads/git-mcp-server",
+      "description": "Comprehensive Git MCP server enabling native git tools including clone, commit, worktree, & more.",
+      "repository": {
+        "url": "https://github.com/cyanheads/git-mcp-server",
+        "source": "github"
+      },
+      "version": "2.6.1",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@cyanheads/git-mcp-server",
+          "version": "2.6.1",
+          "runtimeHint": "bun",
+          "transport": {
+            "type": "stdio"
+          },
+          "packageArguments": [
+            {
+              "value": "run",
+              "type": "positional"
+            },
+            {
+              "value": "start:stdio",
+              "type": "positional"
+            }
+          ],
+          "environmentVariables": [
+            {
+              "description": "Sets the minimum log level for output (e.g., 'debug', 'info', 'warn').",
+              "format": "string",
+              "default": "info",
+              "name": "MCP_LOG_LEVEL"
+            },
+            {
+              "description": "Optional absolute path to restrict all git operations to a specific directory tree. Provides security sandboxing for multi-tenant or shared environments.",
+              "format": "string",
+              "name": "GIT_BASE_DIR"
+            }
+          ]
+        },
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@cyanheads/git-mcp-server",
+          "version": "2.6.1",
+          "runtimeHint": "bun",
+          "transport": {
+            "type": "streamable-http",
+            "url": "http://localhost:3015/mcp"
+          },
+          "packageArguments": [
+            {
+              "value": "run",
+              "type": "positional"
+            },
+            {
+              "value": "start:http",
+              "type": "positional"
+            }
+          ],
+          "environmentVariables": [
+            {
+              "description": "The hostname for the HTTP server.",
+              "format": "string",
+              "default": "127.0.0.1",
+              "name": "MCP_HTTP_HOST"
+            },
+            {
+              "description": "The port to run the HTTP server on.",
+              "format": "string",
+              "default": "3015",
+              "name": "MCP_HTTP_PORT"
+            },
+            {
+              "description": "The endpoint path for the MCP server.",
+              "format": "string",
+              "default": "/mcp",
+              "name": "MCP_HTTP_ENDPOINT_PATH"
+            },
+            {
+              "description": "Authentication mode to use: 'none', 'jwt', or 'oauth'.",
+              "format": "string",
+              "default": "none",
+              "name": "MCP_AUTH_MODE"
+            },
+            {
+              "description": "Sets the minimum log level for output (e.g., 'debug', 'info', 'warn').",
+              "format": "string",
+              "default": "info",
+              "name": "MCP_LOG_LEVEL"
+            },
+            {
+              "description": "Optional absolute path to restrict all git operations to a specific directory tree. Provides security sandboxing for multi-tenant or shared environments.",
+              "format": "string",
+              "name": "GIT_BASE_DIR"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-12T11:17:15.299778Z",
+        "updatedAt": "2025-12-12T11:17:15.299778Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.maxi-moss/medical-rag-mcp-test",
+      "description": "Medical RAG: semantic search for clinical guidelines, drug interactions, diagnoses & EHR data.",
+      "title": "Medical RAG MCP - Semantic search and retrieval of high-quality clinical medical data",
+      "repository": {
+        "url": "https://github.com/maxi-moss/medical-rag-mcp-test.git",
+        "source": "github"
+      },
+      "version": "1.0.0",
+      "websiteUrl": "https://github.com/maxi-moss/medical-rag-mcp-test",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://medical-rag-mcp-test-513943347567.europe-west1.run.app/mcp"
+        }
+      ],
+      "_meta": {
+        "io.modelcontextprotocol.registry/publisher-provided": {
+          "capabilities": [
+            "semantic search",
+            "RAG",
+            "vector similarity",
+            "cross-encoder reranking",
+            "cited retrieval",
+            "source attribution",
+            "medical information retrieval"
+          ],
+          "compliance": [
+            "HIPAA",
+            "healthcare data privacy"
+          ],
+          "dataTypes": [
+            "patient records",
+            "lab results",
+            "medical literature",
+            "drug databases",
+            "clinical guidelines",
+            "medical ontologies"
+          ],
+          "tags": [
+            "medical",
+            "healthcare",
+            "RAG",
+            "clinical",
+            "HIPAA",
+            "EHR",
+            "diagnosis",
+            "treatment",
+            "drug-interactions",
+            "clinical-guidelines",
+            "medical-literature",
+            "semantic-search",
+            "retrieval-augmented-generation"
+          ],
+          "useCases": [
+            "clinical decision support",
+            "medical chatbot",
+            "diagnostic assistant",
+            "treatment recommendation",
+            "drug interaction checker",
+            "medical literature search",
+            "clinical guideline retrieval",
+            "patient record search",
+            "oncology research assistant"
+          ]
+        }
+      }
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-12T11:18:23.445684Z",
+        "updatedAt": "2025-12-12T11:18:23.445684Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.cyanheads/git-mcp-server",
+      "description": "Comprehensive Git MCP server enabling native git tools including clone, commit, worktree, & more.",
+      "repository": {
+        "url": "https://github.com/cyanheads/git-mcp-server",
+        "source": "github"
+      },
+      "version": "2.6.2",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@cyanheads/git-mcp-server",
+          "version": "2.6.2",
+          "runtimeHint": "bun",
+          "transport": {
+            "type": "stdio"
+          },
+          "packageArguments": [
+            {
+              "value": "run",
+              "type": "positional"
+            },
+            {
+              "value": "start:stdio",
+              "type": "positional"
+            }
+          ],
+          "environmentVariables": [
+            {
+              "description": "Sets the minimum log level for output (e.g., 'debug', 'info', 'warn').",
+              "format": "string",
+              "default": "info",
+              "name": "MCP_LOG_LEVEL"
+            },
+            {
+              "description": "Optional absolute path to restrict all git operations to a specific directory tree. Provides security sandboxing for multi-tenant or shared environments.",
+              "format": "string",
+              "name": "GIT_BASE_DIR"
+            }
+          ]
+        },
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@cyanheads/git-mcp-server",
+          "version": "2.6.2",
+          "runtimeHint": "bun",
+          "transport": {
+            "type": "streamable-http",
+            "url": "http://localhost:3015/mcp"
+          },
+          "packageArguments": [
+            {
+              "value": "run",
+              "type": "positional"
+            },
+            {
+              "value": "start:http",
+              "type": "positional"
+            }
+          ],
+          "environmentVariables": [
+            {
+              "description": "The hostname for the HTTP server.",
+              "format": "string",
+              "default": "127.0.0.1",
+              "name": "MCP_HTTP_HOST"
+            },
+            {
+              "description": "The port to run the HTTP server on.",
+              "format": "string",
+              "default": "3015",
+              "name": "MCP_HTTP_PORT"
+            },
+            {
+              "description": "The endpoint path for the MCP server.",
+              "format": "string",
+              "default": "/mcp",
+              "name": "MCP_HTTP_ENDPOINT_PATH"
+            },
+            {
+              "description": "Authentication mode to use: 'none', 'jwt', or 'oauth'.",
+              "format": "string",
+              "default": "none",
+              "name": "MCP_AUTH_MODE"
+            },
+            {
+              "description": "Sets the minimum log level for output (e.g., 'debug', 'info', 'warn').",
+              "format": "string",
+              "default": "info",
+              "name": "MCP_LOG_LEVEL"
+            },
+            {
+              "description": "Optional absolute path to restrict all git operations to a specific directory tree. Provides security sandboxing for multi-tenant or shared environments.",
+              "format": "string",
+              "name": "GIT_BASE_DIR"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-12T11:55:12.134357Z",
+        "updatedAt": "2025-12-12T11:55:12.134357Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.codescene/codescene-mcp-server",
+      "description": "An MCP server that provides CodeScene Code Health analysis tools.",
+      "repository": {
+        "url": "https://github.com/codescene-oss/codescene-mcp-server",
+        "source": "github"
+      },
+      "version": "1.0.2",
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "docker.io/codescene/codescene-mcp:latest",
+          "transport": {
+            "type": "stdio"
+          },
+          "runtimeArguments": [
+            {
+              "description": "Mount the path to code to be analysed by CodeScene",
+              "isRequired": true,
+              "value": "type=bind,src={source_path},dst=/mount/,ro",
+              "variables": {
+                "source_path": {
+                  "description": "Path to code to be analysed by CodeScene",
+                  "isRequired": true,
+                  "format": "filepath"
+                }
+              },
+              "type": "named",
+              "name": "--mount"
+            }
+          ],
+          "environmentVariables": [
+            {
+              "description": "CodeScene API Token",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "CS_ACCESS_TOKEN"
+            },
+            {
+              "description": "CodeScene ACE API Token",
+              "format": "string",
+              "isSecret": true,
+              "name": "CS_ACE_ACCESS_TOKEN"
+            },
+            {
+              "description": "CodeScene Path to code",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "CS_MOUNT_PATH"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-12T12:10:03.180543Z",
+        "updatedAt": "2025-12-12T12:10:03.180543Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.ChromeDevTools/chrome-devtools-mcp",
+      "description": "MCP server for Chrome DevTools",
+      "title": "Chrome DevTools MCP",
+      "repository": {
+        "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+        "source": "github"
+      },
+      "version": "0.12.1",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "chrome-devtools-mcp",
+          "version": "0.12.1",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-12T12:37:51.139397Z",
+        "updatedAt": "2025-12-12T12:37:51.139397Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.jackdark425/aigroup-mdtoword-mcp",
+      "description": "本地 Markdown 到 Word 文档转换工具，支持最新 MCP 协议特性、完整的页眉页脚页码功能、增强的表格功能、数据导入和数学公式支持，修复本地相对路径图片嵌入问题",
+      "repository": {
+        "url": "https://github.com/jackdark425/aigroup-mdtoword-mcp",
+        "source": "github"
+      },
+      "version": "4.0.2",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "aigroup-mdtoword-mcp",
+          "version": "4.0.2",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-12T12:39:38.593717Z",
+        "updatedAt": "2025-12-12T12:39:38.593717Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.civic/nexus",
+      "description": "Zero-setup MCP gateway securely connecting AI to your tools with authentication and workflows",
+      "repository": {
+        "url": "https://github.com/civicteam/civic-mcp",
+        "source": "github",
+        "subfolder": "apps/hub"
+      },
+      "version": "0.1.59",
+      "websiteUrl": "https://nexus.civic.com",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://nexus.civic.com/hub/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-12T12:44:11.442296Z",
+        "updatedAt": "2025-12-12T12:44:11.442296Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.cyanheads/git-mcp-server",
+      "description": "Comprehensive Git MCP server enabling native git tools including clone, commit, worktree, & more.",
+      "repository": {
+        "url": "https://github.com/cyanheads/git-mcp-server",
+        "source": "github"
+      },
+      "version": "2.6.3",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@cyanheads/git-mcp-server",
+          "version": "2.6.3",
+          "runtimeHint": "bun",
+          "transport": {
+            "type": "stdio"
+          },
+          "packageArguments": [
+            {
+              "value": "run",
+              "type": "positional"
+            },
+            {
+              "value": "start:stdio",
+              "type": "positional"
+            }
+          ],
+          "environmentVariables": [
+            {
+              "description": "Sets the minimum log level for output (e.g., 'debug', 'info', 'warn').",
+              "format": "string",
+              "default": "info",
+              "name": "MCP_LOG_LEVEL"
+            },
+            {
+              "description": "Optional absolute path to restrict all git operations to a specific directory tree. Provides security sandboxing for multi-tenant or shared environments.",
+              "format": "string",
+              "name": "GIT_BASE_DIR"
+            }
+          ]
+        },
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@cyanheads/git-mcp-server",
+          "version": "2.6.3",
+          "runtimeHint": "bun",
+          "transport": {
+            "type": "streamable-http",
+            "url": "http://localhost:3015/mcp"
+          },
+          "packageArguments": [
+            {
+              "value": "run",
+              "type": "positional"
+            },
+            {
+              "value": "start:http",
+              "type": "positional"
+            }
+          ],
+          "environmentVariables": [
+            {
+              "description": "The hostname for the HTTP server.",
+              "format": "string",
+              "default": "127.0.0.1",
+              "name": "MCP_HTTP_HOST"
+            },
+            {
+              "description": "The port to run the HTTP server on.",
+              "format": "string",
+              "default": "3015",
+              "name": "MCP_HTTP_PORT"
+            },
+            {
+              "description": "The endpoint path for the MCP server.",
+              "format": "string",
+              "default": "/mcp",
+              "name": "MCP_HTTP_ENDPOINT_PATH"
+            },
+            {
+              "description": "Authentication mode to use: 'none', 'jwt', or 'oauth'.",
+              "format": "string",
+              "default": "none",
+              "name": "MCP_AUTH_MODE"
+            },
+            {
+              "description": "Sets the minimum log level for output (e.g., 'debug', 'info', 'warn').",
+              "format": "string",
+              "default": "info",
+              "name": "MCP_LOG_LEVEL"
+            },
+            {
+              "description": "Optional absolute path to restrict all git operations to a specific directory tree. Provides security sandboxing for multi-tenant or shared environments.",
+              "format": "string",
+              "name": "GIT_BASE_DIR"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-12T12:56:11.360494Z",
+        "updatedAt": "2025-12-12T12:56:11.360494Z",
         "isLatest": true
       }
     }
