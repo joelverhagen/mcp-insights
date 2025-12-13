@@ -114963,7 +114963,7 @@
         "status": "active",
         "publishedAt": "2025-12-08T14:53:43.402439Z",
         "updatedAt": "2025-12-08T14:53:43.402439Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -124019,6 +124019,99 @@
         "status": "active",
         "publishedAt": "2025-12-13T09:00:12.819709Z",
         "updatedAt": "2025-12-13T09:00:12.819709Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.isdaniel/mcp_weather_server",
+      "description": "providing weather information, air quality data, and timezone utilities using the Open-Meteo API.",
+      "title": "Weather MCP Server",
+      "repository": {
+        "url": "https://github.com/isdaniel/mcp_weather_server",
+        "source": "github"
+      },
+      "version": "0.6.1",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "mcp-weather-server",
+          "version": "0.6.1",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-13T13:24:59.941971Z",
+        "updatedAt": "2025-12-13T13:24:59.941971Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.isdaniel/pgtuner_mcp",
+      "description": "provides AI-powered PostgreSQL performance tuning capabilities.",
+      "title": "PostgreSQL performance Tuner MCP Server",
+      "repository": {
+        "url": "https://github.com/isdaniel/pgtuner_mcp",
+        "source": "github"
+      },
+      "version": "0.5.2",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "pgtuner-mcp",
+          "version": "0.5.2",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-13T13:44:31.670747Z",
+        "updatedAt": "2025-12-13T13:44:31.670747Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.sbroenne/mcp-server-excel",
+      "description": "Excel automation for AI - Sheets, Power Query, DAX, VBA, Tables, Ranges and more. Windows only.",
+      "title": "MCP Server for Excel",
+      "repository": {
+        "url": "https://github.com/sbroenne/mcp-server-excel",
+        "source": "github"
+      },
+      "version": "1.4.39",
+      "packages": [
+        {
+          "registryType": "nuget",
+          "identifier": "Sbroenne.ExcelMcp.McpServer",
+          "version": "1.4.39",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-13T16:08:14.183672Z",
+        "updatedAt": "2025-12-13T16:08:14.183672Z",
         "isLatest": true
       }
     }
