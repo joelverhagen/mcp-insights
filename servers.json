@@ -117026,7 +117026,7 @@
         "status": "active",
         "publishedAt": "2025-12-10T00:06:49.887206Z",
         "updatedAt": "2025-12-10T00:06:49.887206Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -124644,6 +124644,107 @@
         "status": "active",
         "publishedAt": "2025-12-14T02:26:21.334631Z",
         "updatedAt": "2025-12-14T02:26:21.334631Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.hyperpolymath/poly-db-mcp",
+      "description": "Unified MCP for 20 databases: SurrealDB, ArangoDB, Virtuoso, CouchDB, Cassandra, and more",
+      "title": "Polyglot Database MCP",
+      "repository": {
+        "url": "https://github.com/hyperpolymath/poly-db-mcp",
+        "source": "github"
+      },
+      "version": "1.0.0",
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/hyperpolymath/poly-db-mcp:main",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-14T02:40:19.1713Z",
+        "updatedAt": "2025-12-14T02:40:19.1713Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.hyperpolymath/poly-ssg-mcp",
+      "description": "Unified MCP for 28 static site generators across 19 languages: Zola, Hakyll, and more",
+      "title": "Polyglot SSG MCP",
+      "repository": {
+        "url": "https://github.com/hyperpolymath/poly-ssg-mcp",
+        "source": "github"
+      },
+      "version": "1.0.0",
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/hyperpolymath/poly-ssg-mcp:main",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-14T02:40:21.109668Z",
+        "updatedAt": "2025-12-14T02:40:21.109668Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "com.glean/mcp",
+      "description": "Remote MCP Server that securely connects Glean Enterprise Knowledge with your IDE, LLM, or agents.",
+      "title": "Glean Remote MCP Server",
+      "repository": {
+        "url": "https://github.com/gleanwork/remote-mcp-server",
+        "source": "github"
+      },
+      "version": "1.0.2",
+      "websiteUrl": "https://docs.glean.com/administration/platform/mcp/enable-mcp-servers",
+      "icons": [
+        {
+          "src": "https://developers.glean.com/img/glean-logo.svg",
+          "mimeType": "image/svg+xml",
+          "sizes": [
+            "any"
+          ]
+        },
+        {
+          "src": "https://developers.glean.com/img/glean-logo.png",
+          "mimeType": "image/png"
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://acme-be.glean.com/mcp/default"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-14T04:01:20.474977Z",
+        "updatedAt": "2025-12-14T04:01:20.474977Z",
         "isLatest": true
       }
     }
