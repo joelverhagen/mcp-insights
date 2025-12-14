@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2025-12-13T20:31:23.8820639+00:00
+Generated on: 2025-12-14T02:28:33.4804852+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 2680
-- Total unique server names: 1071
-- Date range: 2025-09-08 to 2025-12-13
+- Total records processed: 2690
+- Total unique server names: 1076
+- Date range: 2025-09-08 to 2025-12-14
 - Peak day: 2025-09-09 with 54 unique server names
-- Average unique server names per day: 18.77
+- Average unique server names per day: 18.66
 
 ## Top 5 busiest days
 - 2025-09-09: 54 unique servers
@@ -22,13 +22,13 @@ Generated on: 2025-12-13T20:31:23.8820639+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| remote | 448 | 41.83% |
-| npm | 319 | 29.79% |
-| pypi | 146 | 13.63% |
-| oci | 55 | 5.14% |
-| none | 37 | 3.45% |
-| mcpb | 18 | 1.68% |
-| oci+pypi | 14 | 1.31% |
+| remote | 448 | 41.64% |
+| npm | 323 | 30.02% |
+| pypi | 146 | 13.57% |
+| oci | 56 | 5.2% |
+| none | 37 | 3.44% |
+| mcpb | 18 | 1.67% |
+| oci+pypi | 14 | 1.3% |
 | nuget | 10 | 0.93% |
 | npm+oci | 9 | 0.84% |
 | mcpb+npm | 7 | 0.65% |
@@ -43,7 +43,7 @@ Generated on: 2025-12-13T20:31:23.8820639+00:00
 | Domain | Unique Server Names | Categories |
 |--------|---------------------:|------------|
 | smithery.ai | 211 | remote |
-| domdomegg.github.io | 14 | mcpb+npm, mcpb+npm+oci, npm, nuget, pypi |
+| domdomegg.github.io | 16 | mcpb+npm, mcpb+npm+oci, npm, nuget, pypi |
 | waystation.ai | 12 | remote |
 | staging.alpic.live | 8 | remote |
 | cyanheads.github.io | 6 | npm |
@@ -51,6 +51,7 @@ Generated on: 2025-12-13T20:31:23.8820639+00:00
 | aplaceforallmystuff.github.io | 5 | npm |
 | wolfe-jam.github.io | 4 | npm |
 | paiml.github.io | 4 | none |
+| neverinfamous.github.io | 4 | oci, oci+pypi |
 | neo4j-contrib.github.io | 4 | pypi |
 | mintmcp.com | 4 | remote |
 | jkawamoto.github.io | 4 | mcpb |
@@ -61,4 +62,3 @@ Generated on: 2025-12-13T20:31:23.8820639+00:00
 | spences10.github.io | 3 | npm |
 | shinpr.github.io | 3 | npm |
 | ruvnet.github.io | 3 | npm |
-| noahgift.github.io | 3 | none |
