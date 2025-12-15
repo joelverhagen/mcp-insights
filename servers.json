@@ -46250,7 +46250,7 @@
         "status": "active",
         "publishedAt": "2025-10-11T19:30:39.16081Z",
         "updatedAt": "2025-10-11T19:30:39.16081Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -81590,7 +81590,7 @@
         "status": "active",
         "publishedAt": "2025-11-16T12:33:01.976247Z",
         "updatedAt": "2025-11-16T12:33:01.976247Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -117406,7 +117406,7 @@
         "status": "active",
         "publishedAt": "2025-12-10T05:26:14.861421Z",
         "updatedAt": "2025-12-10T05:26:14.861421Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -118583,7 +118583,7 @@
         "status": "active",
         "publishedAt": "2025-12-10T16:32:30.597664Z",
         "updatedAt": "2025-12-10T16:32:30.597664Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -124545,7 +124545,7 @@
         "status": "active",
         "publishedAt": "2025-12-14T02:21:01.233881Z",
         "updatedAt": "2025-12-14T02:21:01.233881Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -125076,6 +125076,355 @@
         "status": "active",
         "publishedAt": "2025-12-15T06:42:11.793283Z",
         "updatedAt": "2025-12-15T06:42:11.793283Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.youdotcom-oss/mcp",
+      "description": "Web search, AI agent, and content extraction via You.com APIs",
+      "title": "You.com Web Access & AI",
+      "repository": {
+        "url": "https://github.com/youdotcom-oss/dx-toolkit",
+        "source": "github"
+      },
+      "version": "1.3.9",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@youdotcom-oss/mcp",
+          "version": "1.3.9",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "You.com API key",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "YDC_API_KEY"
+            }
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://api.you.com/mcp",
+          "headers": [
+            {
+              "description": "Bearer (You.com API key)",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "Authorization"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-15T09:29:08.038849Z",
+        "updatedAt": "2025-12-15T09:29:08.038849Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.SymbioticSec/mcp",
+      "description": "Symbiotic CLI MCP Server for security scanning and analysis",
+      "repository": {
+        "url": "https://github.com/SymbioticSec/mcp",
+        "source": "github"
+      },
+      "version": "1.0.1",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@symbioticsec/symbiotic-mcp-server",
+          "version": "1.0.1",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your Symbiotic Security personal access token",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "SYMBIOTIC_API_TOKEN"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-15T09:35:38.927931Z",
+        "updatedAt": "2025-12-15T09:35:38.927931Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.svnscha/mcp-windbg",
+      "description": "A Model Context Protocol server for Windows crash dump analysis using WinDbg/CDB",
+      "title": "MCP Server for WinDbg Crash Analysis",
+      "repository": {
+        "url": "https://github.com/svnscha/mcp-windbg",
+        "source": "github"
+      },
+      "version": "0.12.2",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "registryBaseUrl": "https://pypi.org",
+          "identifier": "mcp-windbg",
+          "version": "0.12.2",
+          "runtimeHint": "uvx",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Custom path to cdb.exe (optional)",
+              "format": "string",
+              "name": "CDB_PATH"
+            },
+            {
+              "description": "Symbol path for Windows debugging (optional, defaults to Microsoft symbol server)",
+              "format": "string",
+              "name": "_NT_SYMBOL_PATH"
+            }
+          ]
+        },
+        {
+          "registryType": "pypi",
+          "registryBaseUrl": "https://pypi.org",
+          "identifier": "mcp-windbg",
+          "version": "0.12.2",
+          "runtimeHint": "uvx",
+          "transport": {
+            "type": "streamable-http",
+            "url": "http://localhost:{port}/mcp"
+          },
+          "runtimeArguments": [
+            {
+              "value": "streamable-http",
+              "type": "named",
+              "name": "--transport"
+            },
+            {
+              "description": "Port for HTTP transport",
+              "default": "8000",
+              "type": "named",
+              "name": "--port",
+              "valueHint": "port"
+            }
+          ],
+          "environmentVariables": [
+            {
+              "description": "Custom path to cdb.exe (optional)",
+              "format": "string",
+              "name": "CDB_PATH"
+            },
+            {
+              "description": "Symbol path for Windows debugging (optional, defaults to Microsoft symbol server)",
+              "format": "string",
+              "name": "_NT_SYMBOL_PATH"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-15T10:59:09.119039Z",
+        "updatedAt": "2025-12-15T10:59:09.119039Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.panbanda/omen",
+      "description": "Multi-language code analysis for complexity, debt, hotspots, ownership, and defect prediction",
+      "repository": {
+        "url": "https://github.com/panbanda/omen",
+        "source": "github"
+      },
+      "version": "2.7.0",
+      "packages": [
+        {
+          "registryType": "oci",
+          "identifier": "ghcr.io/panbanda/omen:2.7.0",
+          "transport": {
+            "type": "stdio"
+          },
+          "packageArguments": [
+            {
+              "value": "mcp",
+              "type": "positional"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-15T11:24:39.139953Z",
+        "updatedAt": "2025-12-15T11:24:39.139953Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.youdotcom-oss/mcp",
+      "description": "Web search, AI agent, and content extraction via You.com APIs",
+      "title": "You.com Web Access & AI",
+      "repository": {
+        "url": "https://github.com/youdotcom-oss/dx-toolkit",
+        "source": "github"
+      },
+      "version": "1.3.10",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@youdotcom-oss/mcp",
+          "version": "1.3.10",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "You.com API key",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "YDC_API_KEY"
+            }
+          ]
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://api.you.com/mcp",
+          "headers": [
+            {
+              "description": "Bearer (You.com API key)",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "Authorization"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-15T11:35:34.051162Z",
+        "updatedAt": "2025-12-15T11:35:34.051162Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.brightdata/brightdata-mcp",
+      "description": "Bright Data's Web MCP server enabling AI agents to search, extract & navigate the web",
+      "repository": {
+        "url": "https://github.com/brightdata/brightdata-mcp",
+        "source": "github"
+      },
+      "version": "2.7.0",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@brightdata/mcp",
+          "version": "2.7.0",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your API key for Bright Data",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "API_TOKEN"
+            },
+            {
+              "description": "Your unlocker zone name",
+              "format": "string",
+              "name": "WEB_UNLOCKER_ZONE"
+            },
+            {
+              "description": "Your browser zone name",
+              "format": "string",
+              "name": "BROWSER_ZONE"
+            },
+            {
+              "description": "To enable PRO_MODE - set to true",
+              "format": "boolean",
+              "name": "PRO_MODE"
+            },
+            {
+              "description": "Comma-separated tool group IDs (e.g., 'ecommerce,browser')",
+              "format": "string",
+              "name": "GROUPS"
+            },
+            {
+              "description": "Comma-separated tool names to enable",
+              "format": "string",
+              "name": "TOOLS"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-15T12:00:34.218153Z",
+        "updatedAt": "2025-12-15T12:00:34.218153Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.tomohiro-owada/devrag",
+      "description": "Lightweight local RAG MCP server. 40x token reduction.",
+      "repository": {
+        "url": "https://github.com/tomohiro-owada/devrag",
+        "source": "github"
+      },
+      "version": "1.2.0"
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-15T12:06:31.58143Z",
+        "updatedAt": "2025-12-15T12:06:31.58143Z",
         "isLatest": true
       }
     }
