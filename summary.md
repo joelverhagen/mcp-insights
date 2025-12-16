@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2025-12-16T16:43:33.7445305+00:00
+Generated on: 2025-12-16T20:35:36.5402349+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 2740
-- Total unique server names: 1091
+- Total records processed: 2748
+- Total unique server names: 1095
 - Date range: 2025-09-08 to 2025-12-16
 - Peak day: 2025-09-09 with 54 unique server names
-- Average unique server names per day: 18.71
+- Average unique server names per day: 18.77
 
 ## Top 5 busiest days
 - 2025-09-09: 54 unique servers
@@ -22,14 +22,14 @@ Generated on: 2025-12-16T16:43:33.7445305+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| remote | 452 | 41.43% |
-| npm | 330 | 30.25% |
-| pypi | 148 | 13.57% |
-| oci | 58 | 5.32% |
-| none | 37 | 3.39% |
-| mcpb | 18 | 1.65% |
+| remote | 455 | 41.55% |
+| npm | 330 | 30.14% |
+| pypi | 148 | 13.52% |
+| oci | 59 | 5.39% |
+| none | 37 | 3.38% |
+| mcpb | 18 | 1.64% |
 | oci+pypi | 14 | 1.28% |
-| nuget | 10 | 0.92% |
+| nuget | 10 | 0.91% |
 | npm+oci | 9 | 0.82% |
 | mcpb+npm | 7 | 0.64% |
 | mcpb+npm+oci | 4 | 0.37% |
@@ -58,7 +58,7 @@ Generated on: 2025-12-16T16:43:33.7445305+00:00
 | digital-defiance.github.io | 4 | npm, npm+oci |
 | bytedance.github.io | 4 | npm |
 | victoriametrics-community.github.io | 3 | oci |
+| usewire.io | 3 | remote |
+| timescale.github.io | 3 | npm+oci, oci |
 | therealtimex.github.io | 3 | npm, pypi |
 | spences10.github.io | 3 | npm |
-| shinpr.github.io | 3 | npm |
-| ruvnet.github.io | 3 | npm |
