@@ -116127,7 +116127,7 @@
         "status": "active",
         "publishedAt": "2025-12-09T12:01:40.540336Z",
         "updatedAt": "2025-12-09T12:01:40.540336Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -126310,6 +126310,176 @@
         "status": "active",
         "publishedAt": "2025-12-16T04:32:08.51866Z",
         "updatedAt": "2025-12-16T04:32:08.51866Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.foxitsoftware/foxit-pdf-api-mcp-server",
+      "description": "MCP server that exposes Foxit PDF API capabilities via stdio.",
+      "title": "Foxit PDF API MCP Server",
+      "repository": {
+        "url": "https://github.com/foxitsoftware/foxit-pdf-api-mcp-server",
+        "source": "github"
+      },
+      "version": "0.2.3",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@foxitsoftware/foxit-pdf-api-mcp-server",
+          "version": "0.2.3",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Get API key from Foxit PDF API portal (https://www.foxit.com/api/pdf-api/)",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "FOXIT_PDF_API_KEY"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-16T06:03:20.15809Z",
+        "updatedAt": "2025-12-16T06:03:20.15809Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.oabolade/figma_mcp_server_actor",
+      "description": "MCP server enabling AI assistants to interact with Figma designs via natural language commands",
+      "title": "Figma MCP Server",
+      "repository": {
+        "url": "https://github.com/oabolade/figma_mcp_server_actor",
+        "source": "github"
+      },
+      "version": "2.1.0",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@oabolade-pegasus/figma-mcp-server",
+          "version": "2.1.0",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Figma Personal Access Token for API authentication. Get yours at https://www.figma.com/developers/api#access-tokens",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "FIGMA_ACCESS_TOKEN"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-16T06:06:33.833733Z",
+        "updatedAt": "2025-12-16T06:06:33.833733Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.foxitsoftware/foxit-pdf-api-mcp-server",
+      "description": "MCP server that exposes Foxit PDF API capabilities via stdio.",
+      "title": "Foxit PDF API MCP Server",
+      "repository": {
+        "url": "https://github.com/foxitsoftware/foxit-pdf-api-mcp-server",
+        "source": "github"
+      },
+      "version": "0.2.4",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@foxitsoftware/foxit-pdf-api-mcp-server",
+          "version": "0.2.3",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Foxit PDF Services host, e.g. https://na1.fusion.foxit.com/pdf-services",
+              "isRequired": true,
+              "name": "FOXIT_CLOUD_API_HOST"
+            },
+            {
+              "description": "Client ID for Foxit PDF API from foxit developer portal(https://developer-api.foxit.com/)",
+              "isRequired": true,
+              "name": "FOXIT_CLOUD_API_CLIENT_ID"
+            },
+            {
+              "description": "Client secret for Foxit PDF API from foxit developer portal(https://developer-api.foxit.com/)",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "FOXIT_CLOUD_API_CLIENT_SECRET"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-16T06:18:50.500818Z",
+        "updatedAt": "2025-12-16T06:18:50.500818Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "name": "io.github.dynatrace-oss/Dynatrace-mcp",
+      "description": "Model Context Protocol server for Dynatrace - access logs, events, metrics from Dynatrace via MCP.",
+      "repository": {
+        "url": "https://github.com/dynatrace-oss/Dynatrace-mcp",
+        "source": "github"
+      },
+      "version": "1.1.0",
+      "packages": [
+        {
+          "registryType": "npm",
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "identifier": "@dynatrace-oss/dynatrace-mcp-server",
+          "version": "1.1.0",
+          "runtimeHint": "npx",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "The URL of your Dynatrace environment (e.g. 'https://abc12345.apps.dynatrace.com')",
+              "isRequired": true,
+              "format": "string",
+              "name": "DT_ENVIRONMENT"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-16T08:33:22.364089Z",
+        "updatedAt": "2025-12-16T08:33:22.364089Z",
         "isLatest": true
       }
     }
