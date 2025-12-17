@@ -84661,7 +84661,7 @@
         "status": "active",
         "publishedAt": "2025-11-18T08:54:38.869798Z",
         "updatedAt": "2025-11-18T08:54:38.869798Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -88428,7 +88428,7 @@
         "status": "active",
         "publishedAt": "2025-11-21T14:13:11.796856Z",
         "updatedAt": "2025-11-21T14:13:11.796856Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -112307,7 +112307,7 @@
         "status": "active",
         "publishedAt": "2025-12-05T21:35:36.361108Z",
         "updatedAt": "2025-12-05T21:35:36.361108Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -125580,7 +125580,7 @@
         "status": "active",
         "publishedAt": "2025-12-15T17:20:27.151684Z",
         "updatedAt": "2025-12-15T17:20:27.151684Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -126221,7 +126221,7 @@
         "status": "active",
         "publishedAt": "2025-12-15T23:02:58.51625Z",
         "updatedAt": "2025-12-15T23:02:58.51625Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -128232,6 +128232,390 @@
         "status": "active",
         "publishedAt": "2025-12-17T16:24:08.298531Z",
         "updatedAt": "2025-12-17T16:24:08.298531Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "name": "io.getunleash/unleash-mcp",
+      "description": "MCP server for managing Unleash feature flags",
+      "repository": {
+        "url": "https://github.com/Unleash/unleash-mcp",
+        "source": "github"
+      },
+      "version": "0.2.7",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@unleash/mcp",
+          "version": "0.2.7",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your Unleash instance URL (local or hosted)",
+              "isRequired": true,
+              "format": "string",
+              "name": "UNLEASH_BASE_URL"
+            },
+            {
+              "description": "Your Unleash Personal Access Token (PAT) for authentication",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "UNLEASH_PAT"
+            },
+            {
+              "description": "The default project ID the MCP should use",
+              "format": "string",
+              "name": "UNLEASH_DEFAULT_PROJECT"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-17T17:27:29.767945Z",
+        "updatedAt": "2025-12-17T17:27:29.767945Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "name": "io.github.robinmordasiewicz/f5xc-terraform-mcp",
+      "description": "F5 Distributed Cloud Terraform provider docs, 270+ OpenAPI specs, and subscription info for AI.",
+      "title": "F5 Distributed Cloud Terraform Provider",
+      "repository": {
+        "url": "https://github.com/robinmordasiewicz/terraform-provider-f5xc",
+        "source": "github",
+        "subfolder": "mcp-server"
+      },
+      "version": "2.12.10",
+      "websiteUrl": "https://github.com/robinmordasiewicz/terraform-provider-f5xc/tree/main/mcp-server#readme",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@robinmordasiewicz/f5xc-terraform-mcp",
+          "version": "2.12.10",
+          "runtimeHint": "npx",
+          "transport": {
+            "type": "stdio"
+          }
+        },
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/robinmordasiewicz/terraform-provider-f5xc/releases/download/v2.12.10/f5xc-terraform-mcp-2.12.10.mcpb",
+          "version": "2.12.10",
+          "fileSha256": "1883b20c4dbbbef8498b10ce523c7fc46e327ab831cbc23303eb71e196943207",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-17T17:37:01.867027Z",
+        "updatedAt": "2025-12-17T17:37:01.867027Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "name": "io.github.robinmordasiewicz/f5xc-terraform-mcp",
+      "description": "F5 Distributed Cloud Terraform provider docs, 270+ OpenAPI specs, and subscription info for AI.",
+      "title": "F5 Distributed Cloud Terraform Provider",
+      "repository": {
+        "url": "https://github.com/robinmordasiewicz/terraform-provider-f5xc",
+        "source": "github",
+        "subfolder": "mcp-server"
+      },
+      "version": "2.12.11",
+      "websiteUrl": "https://github.com/robinmordasiewicz/terraform-provider-f5xc/tree/main/mcp-server#readme",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@robinmordasiewicz/f5xc-terraform-mcp",
+          "version": "2.12.11",
+          "runtimeHint": "npx",
+          "transport": {
+            "type": "stdio"
+          }
+        },
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/robinmordasiewicz/terraform-provider-f5xc/releases/download/v2.12.11/f5xc-terraform-mcp-2.12.11.mcpb",
+          "version": "2.12.11",
+          "fileSha256": "84cb0ce13cbd939531f51be68b56796a5596110275a746f0ebe508b428d647a7",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-17T18:48:37.559993Z",
+        "updatedAt": "2025-12-17T18:48:37.559993Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "name": "dev.svelte/mcp",
+      "description": "The official Svelte MCP server providing docs and autofixing tools for Svelte development",
+      "title": "Svelte MCP",
+      "repository": {
+        "url": "https://github.com/sveltejs/mcp",
+        "source": "github",
+        "id": "1054419133",
+        "subfolder": "packages/mcp-stdio"
+      },
+      "version": "0.1.15",
+      "websiteUrl": "https://svelte.dev/docs/mcp/overview",
+      "icons": [
+        {
+          "src": "https://mcp.svelte.dev/logo.svg",
+          "mimeType": "image/svg+xml"
+        },
+        {
+          "src": "https://mcp.svelte.dev/logo.png",
+          "mimeType": "image/png"
+        }
+      ],
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@sveltejs/mcp",
+          "version": "0.1.15",
+          "runtimeHint": "npx",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.svelte.dev/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-17T18:49:37.739596Z",
+        "updatedAt": "2025-12-17T18:49:37.739596Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "name": "io.github.KevinRabun/FedRAMP20xMCP",
+      "description": "An MCP server that provides access to FedRAMP 20x security requirements and controls.",
+      "title": "FedRAMP 20x Requirements",
+      "repository": {
+        "url": "https://github.com/KevinRabun/FedRAMP20xMCP",
+        "source": "github"
+      },
+      "version": "0.12.1",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "identifier": "fedramp-20x-mcp",
+          "version": "0.12.1",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-17T19:15:17.868218Z",
+        "updatedAt": "2025-12-17T19:15:17.868218Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "name": "io.github.perplexityai/mcp-server",
+      "description": "Real-time web search, reasoning, and research through Perplexity's API",
+      "title": "Perplexity API Platform",
+      "version": "0.5.2",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@perplexity-ai/mcp-server",
+          "version": "0.5.2",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ],
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.perplexity.ai/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-17T20:06:04.744439Z",
+        "updatedAt": "2025-12-17T20:06:04.744439Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "name": "io.github.f/prompts.chat-mcp",
+      "description": "Search and retrieve AI prompts from prompts.chat, the social platform for AI prompts.",
+      "title": "prompts.chat MCP Server",
+      "repository": {
+        "url": "https://github.com/f/prompts.chat-mcp",
+        "source": "github"
+      },
+      "version": "1.0.9",
+      "icons": [
+        {
+          "src": "https://prompts.chat/logo.svg",
+          "mimeType": "image/svg+xml",
+          "sizes": [
+            "any"
+          ]
+        }
+      ],
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@fkadev/prompts.chat-mcp",
+          "version": "1.0.9",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "API key for authenticated requests (enables save_prompt tool)",
+              "isSecret": true,
+              "name": "PROMPTS_API_KEY"
+            },
+            {
+              "description": "Query string to filter prompts (e.g., users=a,b&categories=c,d&tags=e,f)",
+              "name": "PROMPTS_QUERY"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-17T20:14:09.438934Z",
+        "updatedAt": "2025-12-17T20:14:09.438934Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "name": "io.github.bpamiri/u2-mcp",
+      "description": "Connect AI assistants to Rocket Universe/UniData MultiValue databases via MCP.",
+      "title": "U2 MCP Server",
+      "repository": {
+        "url": "https://github.com/bpamiri/u2-mcp",
+        "source": "github"
+      },
+      "version": "0.1.1",
+      "websiteUrl": "https://github.com/bpamiri/u2-mcp",
+      "packages": [
+        {
+          "registryType": "pypi",
+          "registryBaseUrl": "https://pypi.org",
+          "identifier": "u2-mcp",
+          "version": "0.1.1",
+          "runtimeHint": "uvx",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Universe/UniData server hostname or IP address",
+              "name": "U2_HOST"
+            },
+            {
+              "description": "Database username",
+              "name": "U2_USER"
+            },
+            {
+              "description": "Database password",
+              "name": "U2_PASSWORD"
+            },
+            {
+              "description": "Account name to connect to",
+              "name": "U2_ACCOUNT"
+            },
+            {
+              "description": "Service type: 'uvcs' for Universe, 'udcs' for UniData",
+              "default": "uvcs",
+              "name": "U2_SERVICE"
+            },
+            {
+              "description": "Server port",
+              "default": "31438",
+              "name": "U2_PORT"
+            },
+            {
+              "description": "Enable SSL connection",
+              "default": "false",
+              "name": "U2_SSL"
+            },
+            {
+              "description": "Disable write operations for safe exploration",
+              "default": "false",
+              "name": "U2_READ_ONLY"
+            },
+            {
+              "description": "Maximum records returned from SELECT queries",
+              "default": "10000",
+              "name": "U2_MAX_RECORDS"
+            },
+            {
+              "description": "Comma-separated list of blocked TCL commands",
+              "default": "DELETE.FILE,CLEAR.FILE",
+              "name": "U2_BLOCKED_COMMANDS"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-17T20:22:31.353273Z",
+        "updatedAt": "2025-12-17T20:22:31.353273Z",
         "isLatest": true
       }
     }
