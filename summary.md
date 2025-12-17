@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2025-12-17T13:04:40.9679379+00:00
+Generated on: 2025-12-17T16:43:07.0665853+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 2758
-- Total unique server names: 1098
+- Total records processed: 2767
+- Total unique server names: 1103
 - Date range: 2025-09-08 to 2025-12-17
 - Peak day: 2025-09-09 with 54 unique server names
-- Average unique server names per day: 18.66
+- Average unique server names per day: 18.72
 
 ## Top 5 busiest days
 - 2025-09-09: 54 unique servers
@@ -22,16 +22,16 @@ Generated on: 2025-12-17T13:04:40.9679379+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| remote | 455 | 41.44% |
-| npm | 331 | 30.15% |
-| pypi | 149 | 13.57% |
-| oci | 59 | 5.37% |
-| none | 38 | 3.46% |
-| mcpb | 18 | 1.64% |
-| oci+pypi | 14 | 1.28% |
+| remote | 456 | 41.34% |
+| npm | 332 | 30.1% |
+| pypi | 150 | 13.6% |
+| oci | 60 | 5.44% |
+| none | 39 | 3.54% |
+| mcpb | 18 | 1.63% |
+| oci+pypi | 14 | 1.27% |
 | nuget | 10 | 0.91% |
 | npm+oci | 9 | 0.82% |
-| mcpb+npm | 7 | 0.64% |
+| mcpb+npm | 7 | 0.63% |
 | mcpb+npm+oci | 4 | 0.36% |
 | npm+pypi | 1 | 0.09% |
 | npm+oci+pypi | 1 | 0.09% |
@@ -50,6 +50,7 @@ Generated on: 2025-12-17T13:04:40.9679379+00:00
 | huoshuiai42.github.io | 5 | pypi |
 | aplaceforallmystuff.github.io | 5 | npm |
 | wolfe-jam.github.io | 4 | npm |
+| victoriametrics-community.github.io | 4 | oci |
 | paiml.github.io | 4 | none |
 | neverinfamous.github.io | 4 | oci, oci+pypi |
 | neo4j-contrib.github.io | 4 | pypi |
@@ -57,7 +58,6 @@ Generated on: 2025-12-17T13:04:40.9679379+00:00
 | jkawamoto.github.io | 4 | mcpb |
 | digital-defiance.github.io | 4 | npm, npm+oci |
 | bytedance.github.io | 4 | npm |
-| victoriametrics-community.github.io | 3 | oci |
 | usewire.io | 3 | remote |
 | timescale.github.io | 3 | npm+oci, oci |
 | therealtimex.github.io | 3 | npm, pypi |
