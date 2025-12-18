@@ -109852,7 +109852,7 @@
         "status": "active",
         "publishedAt": "2025-12-04T06:50:39.415289Z",
         "updatedAt": "2025-12-04T06:50:39.415289Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -128368,7 +128368,7 @@
         "status": "active",
         "publishedAt": "2025-12-17T18:48:37.559993Z",
         "updatedAt": "2025-12-17T18:48:37.559993Z",
-        "isLatest": true
+        "isLatest": false
       }
     }
   },
@@ -128616,6 +128616,354 @@
         "status": "active",
         "publishedAt": "2025-12-17T20:22:31.353273Z",
         "updatedAt": "2025-12-17T20:22:31.353273Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "name": "io.github.robinmordasiewicz/f5xc-terraform-mcp",
+      "description": "F5 Distributed Cloud Terraform provider docs, 270+ OpenAPI specs, and subscription info for AI.",
+      "title": "F5 Distributed Cloud Terraform Provider",
+      "repository": {
+        "url": "https://github.com/robinmordasiewicz/terraform-provider-f5xc",
+        "source": "github",
+        "subfolder": "mcp-server"
+      },
+      "version": "2.14.1",
+      "websiteUrl": "https://github.com/robinmordasiewicz/terraform-provider-f5xc/tree/main/mcp-server#readme",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@robinmordasiewicz/f5xc-terraform-mcp",
+          "version": "2.14.1",
+          "runtimeHint": "npx",
+          "transport": {
+            "type": "stdio"
+          }
+        },
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/robinmordasiewicz/terraform-provider-f5xc/releases/download/v2.14.1/f5xc-terraform-mcp-2.14.1.mcpb",
+          "version": "2.14.1",
+          "fileSha256": "4b6fd65735e461a1b163f2cd369820a2e001bb083be6db8a039dd1d6bc340bcd",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-17T20:43:37.073616Z",
+        "updatedAt": "2025-12-17T20:43:37.073616Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "name": "io.github.jongalloway/dotnet-mcp",
+      "description": "AI assistant access to .NET SDK for projects, packages, building, testing, and development tools.",
+      "title": ".NET MCP Server",
+      "repository": {
+        "url": "https://github.com/jongalloway/dotnet-mcp",
+        "source": "github"
+      },
+      "version": "0.1.0-rc4",
+      "packages": [
+        {
+          "registryType": "nuget",
+          "registryBaseUrl": "https://api.nuget.org/v3/index.json",
+          "identifier": "Community.Mcp.DotNet",
+          "version": "0.1.0-rc4",
+          "runtimeHint": "dnx",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Skip .NET CLI first-time setup experience",
+              "value": "1",
+              "name": "DOTNET_SKIP_FIRST_TIME_EXPERIENCE"
+            },
+            {
+              "description": "Suppress .NET logo and startup messages",
+              "value": "1",
+              "name": "DOTNET_NOLOGO"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-17T21:10:43.879457Z",
+        "updatedAt": "2025-12-17T21:10:43.879457Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "name": "io.github.robinmordasiewicz/f5xc-terraform-mcp",
+      "description": "F5 Distributed Cloud Terraform provider docs, 270+ OpenAPI specs, and subscription info for AI.",
+      "title": "F5 Distributed Cloud Terraform Provider",
+      "repository": {
+        "url": "https://github.com/robinmordasiewicz/terraform-provider-f5xc",
+        "source": "github",
+        "subfolder": "mcp-server"
+      },
+      "version": "2.14.2",
+      "websiteUrl": "https://github.com/robinmordasiewicz/terraform-provider-f5xc/tree/main/mcp-server#readme",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@robinmordasiewicz/f5xc-terraform-mcp",
+          "version": "2.14.2",
+          "runtimeHint": "npx",
+          "transport": {
+            "type": "stdio"
+          }
+        },
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/robinmordasiewicz/terraform-provider-f5xc/releases/download/v2.14.2/f5xc-terraform-mcp-2.14.2.mcpb",
+          "version": "2.14.2",
+          "fileSha256": "a101ca04f1ac3d7aa45f024e9a08448babe780428ec4de87752a0cd56d06953a",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-17T21:23:43.40371Z",
+        "updatedAt": "2025-12-17T21:23:43.40371Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "name": "io.github.getsentry/sentry-mcp",
+      "description": "MCP server for Sentry - error monitoring, issue tracking, and debugging for AI assistants",
+      "repository": {
+        "url": "https://github.com/getsentry/sentry-mcp",
+        "source": "github",
+        "subfolder": "packages/mcp-server"
+      },
+      "version": "0.25.0",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@sentry/mcp-server",
+          "version": "0.25.0",
+          "transport": {
+            "type": "stdio"
+          },
+          "environmentVariables": [
+            {
+              "description": "Your Sentry user authentication token",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true,
+              "name": "SENTRY_ACCESS_TOKEN"
+            }
+          ]
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-17T21:32:51.730221Z",
+        "updatedAt": "2025-12-17T21:32:51.730221Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "name": "io.github.robinmordasiewicz/f5xc-terraform-mcp",
+      "description": "F5 Distributed Cloud Terraform provider docs, 270+ OpenAPI specs, and subscription info for AI.",
+      "title": "F5 Distributed Cloud Terraform Provider",
+      "repository": {
+        "url": "https://github.com/robinmordasiewicz/terraform-provider-f5xc",
+        "source": "github",
+        "subfolder": "mcp-server"
+      },
+      "version": "2.14.3",
+      "websiteUrl": "https://github.com/robinmordasiewicz/terraform-provider-f5xc/tree/main/mcp-server#readme",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@robinmordasiewicz/f5xc-terraform-mcp",
+          "version": "2.14.3",
+          "runtimeHint": "npx",
+          "transport": {
+            "type": "stdio"
+          }
+        },
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/robinmordasiewicz/terraform-provider-f5xc/releases/download/v2.14.3/f5xc-terraform-mcp-2.14.3.mcpb",
+          "version": "2.14.3",
+          "fileSha256": "9dc85145c7a9ce7323e9db98846127ba5fc86a37d285aeff3d31cd36ca911840",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-17T21:53:04.654742Z",
+        "updatedAt": "2025-12-17T21:53:04.654742Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "name": "io.github.robinmordasiewicz/f5xc-terraform-mcp",
+      "description": "F5 Distributed Cloud Terraform provider docs, 270+ OpenAPI specs, and subscription info for AI.",
+      "title": "F5 Distributed Cloud Terraform Provider",
+      "repository": {
+        "url": "https://github.com/robinmordasiewicz/terraform-provider-f5xc",
+        "source": "github",
+        "subfolder": "mcp-server"
+      },
+      "version": "2.14.4",
+      "websiteUrl": "https://github.com/robinmordasiewicz/terraform-provider-f5xc/tree/main/mcp-server#readme",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@robinmordasiewicz/f5xc-terraform-mcp",
+          "version": "2.14.4",
+          "runtimeHint": "npx",
+          "transport": {
+            "type": "stdio"
+          }
+        },
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/robinmordasiewicz/terraform-provider-f5xc/releases/download/v2.14.4/f5xc-terraform-mcp-2.14.4.mcpb",
+          "version": "2.14.4",
+          "fileSha256": "4b0eb21c2cbd033ca477b93ca80d557f1595087dcd292a732ec5c716a027a6b7",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-17T22:12:32.799605Z",
+        "updatedAt": "2025-12-17T22:12:32.799605Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "name": "io.github.robinmordasiewicz/f5xc-terraform-mcp",
+      "description": "F5 Distributed Cloud Terraform provider docs, 270+ OpenAPI specs, and subscription info for AI.",
+      "title": "F5 Distributed Cloud Terraform Provider",
+      "repository": {
+        "url": "https://github.com/robinmordasiewicz/terraform-provider-f5xc",
+        "source": "github",
+        "subfolder": "mcp-server"
+      },
+      "version": "2.14.5",
+      "websiteUrl": "https://github.com/robinmordasiewicz/terraform-provider-f5xc/tree/main/mcp-server#readme",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@robinmordasiewicz/f5xc-terraform-mcp",
+          "version": "2.14.5",
+          "runtimeHint": "npx",
+          "transport": {
+            "type": "stdio"
+          }
+        },
+        {
+          "registryType": "mcpb",
+          "identifier": "https://github.com/robinmordasiewicz/terraform-provider-f5xc/releases/download/v2.14.5/f5xc-terraform-mcp-2.14.5.mcpb",
+          "version": "2.14.5",
+          "fileSha256": "59a559925a27d86d0ccdbb2d2f34077fc3f24094e1ded9ce2862e10554dc7692",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-17T23:02:08.830654Z",
+        "updatedAt": "2025-12-17T23:02:08.830654Z",
+        "isLatest": true
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "name": "com.getguru/mcp-server",
+      "description": "Guru MCP Server - Connect AI tools to your Guru knowledge base",
+      "version": "1.0.0",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.api.getguru.com/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-18T00:10:01.552724Z",
+        "updatedAt": "2025-12-18T00:10:01.552724Z",
+        "isLatest": false
+      }
+    }
+  },
+  {
+    "server": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "name": "com.getguru/mcp-server",
+      "description": "Guru MCP Server - Connect AI tools to your Guru knowledge base",
+      "repository": {
+        "url": "https://github.com/guruhq/remote-mcp-server",
+        "source": "github"
+      },
+      "version": "1.0.1",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.api.getguru.com/mcp"
+        }
+      ]
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "publishedAt": "2025-12-18T00:16:46.462321Z",
+        "updatedAt": "2025-12-18T00:16:46.462321Z",
         "isLatest": true
       }
     }
