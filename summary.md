@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2025-12-29T04:56:24.3545315+00:00
+Generated on: 2025-12-29T08:46:27.5550513+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 3007
-- Total unique server names: 1166
+- Total records processed: 3012
+- Total unique server names: 1170
 - Date range: 2025-09-08 to 2025-12-29
 - Peak day: 2025-09-09 with 54 unique server names
-- Average unique server names per day: 18.08
+- Average unique server names per day: 18.12
 
 ## Top 5 busiest days
 - 2025-09-09: 54 unique servers
@@ -22,16 +22,16 @@ Generated on: 2025-12-29T04:56:24.3545315+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| remote | 464 | 39.79% |
-| npm | 365 | 31.3% |
-| pypi | 164 | 14.07% |
-| oci | 63 | 5.4% |
-| none | 43 | 3.69% |
+| remote | 464 | 39.66% |
+| npm | 369 | 31.54% |
+| pypi | 164 | 14.02% |
+| oci | 63 | 5.38% |
+| none | 43 | 3.68% |
 | mcpb | 18 | 1.54% |
 | oci+pypi | 14 | 1.2% |
-| nuget | 10 | 0.86% |
+| nuget | 10 | 0.85% |
 | npm+oci | 9 | 0.77% |
-| mcpb+npm | 8 | 0.69% |
+| mcpb+npm | 8 | 0.68% |
 | mcpb+npm+oci | 4 | 0.34% |
 | npm+pypi | 1 | 0.09% |
 | npm+oci+pypi | 1 | 0.09% |
@@ -47,6 +47,7 @@ Generated on: 2025-12-29T04:56:24.3545315+00:00
 | waystation.ai | 12 | remote |
 | staging.alpic.live | 8 | remote |
 | cyanheads.github.io | 6 | npm |
+| mcp-z.github.io | 5 | npm |
 | huoshuiai42.github.io | 5 | pypi |
 | aplaceforallmystuff.github.io | 5 | npm |
 | wolfe-jam.github.io | 4 | npm |
@@ -61,4 +62,3 @@ Generated on: 2025-12-29T04:56:24.3545315+00:00
 | usewire.io | 3 | remote |
 | timescale.github.io | 3 | npm+oci, oci |
 | therealtimex.github.io | 3 | npm, pypi |
-| spences10.github.io | 3 | npm |
