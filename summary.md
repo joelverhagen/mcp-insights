@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2026-01-03T04:41:00.9857358+00:00
+Generated on: 2026-01-03T08:39:08.3054197+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 3124
-- Total unique server names: 1225
+- Total records processed: 3132
+- Total unique server names: 1230
 - Date range: 2025-09-08 to 2026-01-03
 - Peak day: 2025-09-09 with 54 unique server names
-- Average unique server names per day: 18.14
+- Average unique server names per day: 18.19
 
 ## Top 5 busiest days
 - 2025-09-09: 54 unique servers
@@ -22,14 +22,14 @@ Generated on: 2026-01-03T04:41:00.9857358+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| remote | 476 | 38.86% |
-| npm | 386 | 31.51% |
-| pypi | 183 | 14.94% |
-| oci | 65 | 5.31% |
-| none | 43 | 3.51% |
-| mcpb | 22 | 1.8% |
+| remote | 476 | 38.7% |
+| npm | 387 | 31.46% |
+| pypi | 187 | 15.2% |
+| oci | 65 | 5.28% |
+| none | 43 | 3.5% |
+| mcpb | 22 | 1.79% |
 | oci+pypi | 15 | 1.22% |
-| nuget | 10 | 0.82% |
+| nuget | 10 | 0.81% |
 | npm+oci | 9 | 0.73% |
 | mcpb+npm | 8 | 0.65% |
 | mcpb+npm+oci | 4 | 0.33% |
@@ -61,4 +61,4 @@ Generated on: 2026-01-03T04:41:00.9857358+00:00
 | jkawamoto.github.io | 4 | mcpb |
 | digital-defiance.github.io | 4 | npm, npm+oci |
 | bytedance.github.io | 4 | npm |
-| usewire.io | 3 | remote |
+| andylbrummer.github.io | 4 | pypi |
