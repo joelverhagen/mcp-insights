@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2026-01-09T13:05:10.6538543+00:00
+Generated on: 2026-01-09T16:42:40.9212998+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 3388
-- Total unique server names: 1288
+- Total records processed: 3396
+- Total unique server names: 1289
 - Date range: 2025-09-08 to 2026-01-09
 - Peak day: 2025-09-09 with 54 unique server names
-- Average unique server names per day: 18.4
+- Average unique server names per day: 18.44
 
 ## Top 5 busiest days
 - 2025-09-09: 54 unique servers
@@ -22,12 +22,12 @@ Generated on: 2026-01-09T13:05:10.6538543+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| remote | 495 | 38.43% |
-| npm | 408 | 31.68% |
-| pypi | 197 | 15.3% |
+| remote | 496 | 38.48% |
+| npm | 408 | 31.65% |
+| pypi | 197 | 15.28% |
 | oci | 67 | 5.2% |
 | none | 43 | 3.34% |
-| mcpb | 23 | 1.79% |
+| mcpb | 23 | 1.78% |
 | oci+pypi | 16 | 1.24% |
 | nuget | 10 | 0.78% |
 | npm+oci | 9 | 0.7% |
@@ -43,7 +43,7 @@ Generated on: 2026-01-09T13:05:10.6538543+00:00
 
 | Domain | Unique Server Names | Categories |
 |--------|---------------------:|------------|
-| smithery.ai | 212 | remote |
+| smithery.ai | 213 | remote |
 | domdomegg.github.io | 16 | mcpb+npm, mcpb+npm+oci, npm, nuget, pypi |
 | asklokesh.github.io | 16 | pypi |
 | waystation.ai | 12 | remote |
