@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2026-01-10T20:33:18.1232629+00:00
+Generated on: 2026-01-11T02:37:32.6573960+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 3426
-- Total unique server names: 1295
-- Date range: 2025-09-08 to 2026-01-10
+- Total records processed: 3432
+- Total unique server names: 1298
+- Date range: 2025-09-08 to 2026-01-11
 - Peak day: 2025-09-09 with 54 unique server names
-- Average unique server names per day: 18.44
+- Average unique server names per day: 18.33
 
 ## Top 5 busiest days
 - 2025-09-09: 54 unique servers
@@ -22,13 +22,13 @@ Generated on: 2026-01-10T20:33:18.1232629+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| remote | 496 | 38.3% |
-| npm | 412 | 31.81% |
-| pypi | 198 | 15.29% |
-| oci | 67 | 5.17% |
-| none | 43 | 3.32% |
+| remote | 498 | 38.37% |
+| npm | 412 | 31.74% |
+| pypi | 199 | 15.33% |
+| oci | 67 | 5.16% |
+| none | 43 | 3.31% |
 | mcpb | 24 | 1.85% |
-| oci+pypi | 16 | 1.24% |
+| oci+pypi | 16 | 1.23% |
 | nuget | 10 | 0.77% |
 | npm+oci | 9 | 0.69% |
 | mcpb+npm | 9 | 0.69% |
@@ -60,6 +60,6 @@ Generated on: 2026-01-10T20:33:18.1232629+00:00
 | neverinfamous.github.io | 4 | oci, oci+pypi |
 | neo4j-contrib.github.io | 4 | pypi |
 | mintmcp.com | 4 | remote |
+| mcp.com.ai | 4 | oci, remote |
 | marcelo-ochoa.github.io | 4 | npm |
 | jkawamoto.github.io | 4 | mcpb |
-| digital-defiance.github.io | 4 | npm, npm+oci |
