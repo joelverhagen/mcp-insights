@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2026-01-14T13:07:24.0371279+00:00
+Generated on: 2026-01-14T16:47:43.7680180+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 3534
-- Total unique server names: 1331
+- Total records processed: 3550
+- Total unique server names: 1339
 - Date range: 2025-09-08 to 2026-01-14
 - Peak day: 2025-09-09 with 54 unique server names
-- Average unique server names per day: 18.4
+- Average unique server names per day: 18.51
 
 ## Top 5 busiest days
 - 2025-09-09: 54 unique servers
@@ -22,22 +22,22 @@ Generated on: 2026-01-14T13:07:24.0371279+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| remote | 504 | 37.87% |
-| npm | 430 | 32.31% |
-| pypi | 204 | 15.33% |
-| oci | 69 | 5.18% |
-| none | 43 | 3.23% |
-| mcpb | 24 | 1.8% |
-| oci+pypi | 17 | 1.28% |
-| nuget | 11 | 0.83% |
-| npm+oci | 9 | 0.68% |
-| mcpb+npm | 9 | 0.68% |
+| remote | 507 | 37.86% |
+| npm | 431 | 32.19% |
+| pypi | 207 | 15.46% |
+| oci | 70 | 5.23% |
+| none | 43 | 3.21% |
+| mcpb | 24 | 1.79% |
+| oci+pypi | 17 | 1.27% |
+| nuget | 11 | 0.82% |
+| npm+oci | 9 | 0.67% |
+| mcpb+npm | 9 | 0.67% |
 | mcpb+npm+oci | 4 | 0.3% |
-| npm+pypi | 3 | 0.23% |
-| npm+oci+pypi | 1 | 0.08% |
-| npm+nuget | 1 | 0.08% |
-| mcpb+pypi | 1 | 0.08% |
-| mcpb+oci | 1 | 0.08% |
+| npm+pypi | 3 | 0.22% |
+| npm+oci+pypi | 1 | 0.07% |
+| npm+nuget | 1 | 0.07% |
+| mcpb+pypi | 1 | 0.07% |
+| mcpb+oci | 1 | 0.07% |
 
 ## Top 20 domains by unique server names
 
@@ -49,6 +49,7 @@ Generated on: 2026-01-14T13:07:24.0371279+00:00
 | waystation.ai | 12 | remote |
 | staging.alpic.live | 8 | remote |
 | cyanheads.github.io | 6 | npm |
+| wmarceau.github.io | 5 | pypi |
 | verygoodplugins.github.io | 5 | npm, pypi |
 | mcp-z.github.io | 5 | npm |
 | huoshuiai42.github.io | 5 | pypi |
@@ -62,4 +63,3 @@ Generated on: 2026-01-14T13:07:24.0371279+00:00
 | mintmcp.com | 4 | remote |
 | mcp.com.ai | 4 | oci, remote |
 | marcelo-ochoa.github.io | 4 | npm |
-| jkawamoto.github.io | 4 | mcpb |
