@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2026-01-15T08:45:55.3261956+00:00
+Generated on: 2026-01-15T13:06:18.8142741+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 3576
-- Total unique server names: 1346
+- Total records processed: 3580
+- Total unique server names: 1347
 - Date range: 2025-09-08 to 2026-01-15
 - Peak day: 2025-09-09 with 54 unique server names
-- Average unique server names per day: 18.52
+- Average unique server names per day: 18.55
 
 ## Top 5 busiest days
 - 2025-09-09: 54 unique servers
@@ -22,9 +22,9 @@ Generated on: 2026-01-15T08:45:55.3261956+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| remote | 508 | 37.74% |
-| npm | 434 | 32.24% |
-| pypi | 208 | 15.45% |
+| remote | 509 | 37.79% |
+| npm | 434 | 32.22% |
+| pypi | 208 | 15.44% |
 | oci | 71 | 5.27% |
 | none | 43 | 3.19% |
 | mcpb | 25 | 1.86% |
@@ -43,7 +43,7 @@ Generated on: 2026-01-15T08:45:55.3261956+00:00
 
 | Domain | Unique Server Names | Categories |
 |--------|---------------------:|------------|
-| smithery.ai | 213 | remote |
+| smithery.ai | 214 | remote |
 | domdomegg.github.io | 16 | mcpb+npm, mcpb+npm+oci, npm, nuget, pypi |
 | asklokesh.github.io | 16 | pypi |
 | waystation.ai | 12 | remote |
