@@ -1,32 +1,32 @@
 # Servers published summary
 
-Generated on: 2026-01-16T02:27:27.1865372+00:00
+Generated on: 2026-01-16T04:49:11.1249351+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 3603
-- Total unique server names: 1358
+- Total records processed: 3605
+- Total unique server names: 1359
 - Date range: 2025-09-08 to 2026-01-16
 - Peak day: 2025-09-09 with 54 unique server names
-- Average unique server names per day: 18.55
+- Average unique server names per day: 18.56
 
 ## Top 5 busiest days
 - 2025-09-09: 54 unique servers
 - 2025-09-10: 51 unique servers
 - 2025-09-18: 41 unique servers
-- 2026-01-14: 39 unique servers
 - 2025-09-17: 39 unique servers
+- 2026-01-14: 39 unique servers
 
 ## Unique server names by category
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| remote | 512 | 37.7% |
-| npm | 436 | 32.11% |
-| pypi | 213 | 15.68% |
-| oci | 71 | 5.23% |
-| none | 43 | 3.17% |
+| remote | 512 | 37.67% |
+| npm | 436 | 32.08% |
+| pypi | 214 | 15.75% |
+| oci | 71 | 5.22% |
+| none | 43 | 3.16% |
 | mcpb | 26 | 1.91% |
 | oci+pypi | 17 | 1.25% |
 | nuget | 11 | 0.81% |
@@ -48,8 +48,8 @@ Generated on: 2026-01-16T02:27:27.1865372+00:00
 | asklokesh.github.io | 16 | pypi |
 | waystation.ai | 12 | remote |
 | staging.alpic.live | 8 | remote |
+| wmarceau.github.io | 6 | pypi |
 | cyanheads.github.io | 6 | npm |
-| wmarceau.github.io | 5 | pypi |
 | verygoodplugins.github.io | 5 | npm, pypi |
 | mcp-z.github.io | 5 | npm |
 | huoshuiai42.github.io | 5 | pypi |
