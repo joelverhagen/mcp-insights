@@ -1,34 +1,34 @@
 # Servers published summary
 
-Generated on: 2026-01-16T08:44:02.7406589+00:00
+Generated on: 2026-01-16T13:05:05.0656870+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 3611
-- Total unique server names: 1363
+- Total records processed: 3618
+- Total unique server names: 1366
 - Date range: 2025-09-08 to 2026-01-16
 - Peak day: 2025-09-09 with 54 unique server names
-- Average unique server names per day: 18.61
+- Average unique server names per day: 18.66
 
 ## Top 5 busiest days
 - 2025-09-09: 54 unique servers
 - 2025-09-10: 51 unique servers
 - 2025-09-18: 41 unique servers
-- 2025-09-17: 39 unique servers
 - 2026-01-14: 39 unique servers
+- 2025-09-17: 39 unique servers
 
 ## Unique server names by category
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| remote | 512 | 37.56% |
-| npm | 439 | 32.21% |
-| pypi | 215 | 15.77% |
-| oci | 71 | 5.21% |
+| remote | 513 | 37.55% |
+| npm | 440 | 32.21% |
+| pypi | 215 | 15.74% |
+| oci | 72 | 5.27% |
 | none | 43 | 3.15% |
-| mcpb | 26 | 1.91% |
-| oci+pypi | 17 | 1.25% |
+| mcpb | 26 | 1.9% |
+| oci+pypi | 17 | 1.24% |
 | nuget | 11 | 0.81% |
 | npm+oci | 9 | 0.66% |
 | mcpb+npm | 9 | 0.66% |
@@ -52,6 +52,7 @@ Generated on: 2026-01-16T08:44:02.7406589+00:00
 | cyanheads.github.io | 6 | npm |
 | verygoodplugins.github.io | 5 | npm, pypi |
 | shashwatgtm.github.io | 5 | npm |
+| mcp.com.ai | 5 | oci, remote |
 | mcp-z.github.io | 5 | npm |
 | huoshuiai42.github.io | 5 | pypi |
 | aplaceforallmystuff.github.io | 5 | npm |
@@ -62,4 +63,3 @@ Generated on: 2026-01-16T08:44:02.7406589+00:00
 | olgasafonova.github.io | 4 | mcpb, mcpb+oci, oci |
 | neverinfamous.github.io | 4 | oci, oci+pypi |
 | neo4j-contrib.github.io | 4 | pypi |
-| mintmcp.com | 4 | remote |
