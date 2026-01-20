@@ -1,34 +1,34 @@
 # Servers published summary
 
-Generated on: 2026-01-20T04:54:32.9354272+00:00
+Generated on: 2026-01-20T08:49:18.9343638+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 3799
-- Total unique server names: 1422
+- Total records processed: 3816
+- Total unique server names: 1435
 - Date range: 2025-09-08 to 2026-01-20
 - Peak day: 2025-09-09 with 54 unique server names
-- Average unique server names per day: 18.97
+- Average unique server names per day: 19.09
 
 ## Top 5 busiest days
 - 2025-09-09: 54 unique servers
 - 2025-09-10: 51 unique servers
 - 2025-09-18: 41 unique servers
-- 2026-01-14: 39 unique servers
 - 2025-09-17: 39 unique servers
+- 2026-01-14: 39 unique servers
 
 ## Unique server names by category
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| remote | 521 | 36.64% |
-| npm | 463 | 32.56% |
-| pypi | 233 | 16.39% |
-| oci | 72 | 5.06% |
-| none | 43 | 3.02% |
-| mcpb | 28 | 1.97% |
-| oci+pypi | 17 | 1.2% |
+| remote | 521 | 36.31% |
+| npm | 464 | 32.33% |
+| pypi | 233 | 16.24% |
+| oci | 72 | 5.02% |
+| none | 55 | 3.83% |
+| mcpb | 28 | 1.95% |
+| oci+pypi | 17 | 1.18% |
 | nuget | 11 | 0.77% |
 | npm+oci | 11 | 0.77% |
 | mcpb+npm | 9 | 0.63% |
@@ -44,12 +44,12 @@ Generated on: 2026-01-20T04:54:32.9354272+00:00
 | Domain | Unique Server Names | Categories |
 |--------|---------------------:|------------|
 | smithery.ai | 214 | remote |
+| nirholas.github.io | 19 | none, pypi |
 | domdomegg.github.io | 16 | mcpb+npm, mcpb+npm+oci, npm, nuget, pypi |
 | asklokesh.github.io | 16 | pypi |
 | waystation.ai | 12 | remote |
 | staging.alpic.live | 8 | remote |
 | shashwatgtm.github.io | 8 | npm |
-| nirholas.github.io | 7 | none, pypi |
 | wmarceau.github.io | 6 | pypi |
 | cyanheads.github.io | 6 | npm |
 | verygoodplugins.github.io | 5 | npm, pypi |
