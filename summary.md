@@ -1,33 +1,33 @@
 # Servers published summary
 
-Generated on: 2026-01-21T17:14:07.9522242+00:00
+Generated on: 2026-01-21T20:45:52.6393108+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 3869
-- Total unique server names: 1460
+- Total records processed: 3872
+- Total unique server names: 1461
 - Date range: 2025-09-08 to 2026-01-21
 - Peak day: 2025-09-09 with 54 unique server names
-- Average unique server names per day: 19.25
+- Average unique server names per day: 19.27
 
 ## Top 5 busiest days
 - 2025-09-09: 54 unique servers
 - 2025-09-10: 51 unique servers
 - 2026-01-20: 42 unique servers
 - 2025-09-18: 41 unique servers
-- 2025-09-17: 39 unique servers
+- 2026-01-14: 39 unique servers
 
 ## Unique server names by category
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| remote | 530 | 36.3% |
-| npm | 474 | 32.47% |
-| pypi | 237 | 16.23% |
+| remote | 530 | 36.28% |
+| npm | 474 | 32.44% |
+| pypi | 237 | 16.22% |
 | oci | 72 | 4.93% |
-| none | 56 | 3.84% |
-| mcpb | 29 | 1.99% |
+| none | 56 | 3.83% |
+| mcpb | 29 | 1.98% |
 | oci+pypi | 17 | 1.16% |
 | nuget | 11 | 0.75% |
 | npm+oci | 11 | 0.75% |
@@ -35,8 +35,8 @@ Generated on: 2026-01-21T17:14:07.9522242+00:00
 | npm+pypi | 4 | 0.27% |
 | mcpb+npm+oci | 4 | 0.27% |
 | mcpb+pypi | 3 | 0.21% |
+| npm+nuget | 2 | 0.14% |
 | npm+oci+pypi | 1 | 0.07% |
-| npm+nuget | 1 | 0.07% |
 | mcpb+oci | 1 | 0.07% |
 
 ## Top 20 domains by unique server names
@@ -53,6 +53,7 @@ Generated on: 2026-01-21T17:14:07.9522242+00:00
 | wmarceau.github.io | 6 | pypi |
 | verygoodplugins.github.io | 6 | npm, pypi |
 | cyanheads.github.io | 6 | npm |
+| microsoft.com | 5 | npm+nuget, nuget, remote |
 | mcp.com.ai | 5 | oci, remote |
 | mcp-z.github.io | 5 | npm |
 | huoshuiai42.github.io | 5 | pypi |
@@ -62,4 +63,3 @@ Generated on: 2026-01-21T17:14:07.9522242+00:00
 | usewire.io | 4 | remote |
 | stayce.github.io | 4 | remote |
 | sidneybissoli.github.io | 4 | npm |
-| paiml.github.io | 4 | none |
