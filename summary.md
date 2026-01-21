@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2026-01-21T04:53:39.4937684+00:00
+Generated on: 2026-01-21T08:47:56.2045844+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 3844
-- Total unique server names: 1448
+- Total records processed: 3850
+- Total unique server names: 1450
 - Date range: 2025-09-08 to 2026-01-21
 - Peak day: 2025-09-09 with 54 unique server names
-- Average unique server names per day: 19.11
+- Average unique server names per day: 19.15
 
 ## Top 5 busiest days
 - 2025-09-09: 54 unique servers
@@ -22,11 +22,11 @@ Generated on: 2026-01-21T04:53:39.4937684+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| remote | 527 | 36.4% |
-| npm | 468 | 32.32% |
-| pypi | 234 | 16.16% |
+| remote | 527 | 36.34% |
+| npm | 470 | 32.41% |
+| pypi | 234 | 16.14% |
 | oci | 72 | 4.97% |
-| none | 56 | 3.87% |
+| none | 56 | 3.86% |
 | mcpb | 29 | 2% |
 | oci+pypi | 17 | 1.17% |
 | nuget | 11 | 0.76% |
@@ -51,8 +51,8 @@ Generated on: 2026-01-21T04:53:39.4937684+00:00
 | staging.alpic.live | 8 | remote |
 | shashwatgtm.github.io | 8 | npm |
 | wmarceau.github.io | 6 | pypi |
+| verygoodplugins.github.io | 6 | npm, pypi |
 | cyanheads.github.io | 6 | npm |
-| verygoodplugins.github.io | 5 | npm, pypi |
 | mcp.com.ai | 5 | oci, remote |
 | mcp-z.github.io | 5 | npm |
 | huoshuiai42.github.io | 5 | pypi |
