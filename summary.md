@@ -1,39 +1,39 @@
 # Servers published summary
 
-Generated on: 2026-01-21T13:10:51.7177733+00:00
+Generated on: 2026-01-21T17:14:07.9522242+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 3857
-- Total unique server names: 1452
+- Total records processed: 3869
+- Total unique server names: 1460
 - Date range: 2025-09-08 to 2026-01-21
 - Peak day: 2025-09-09 with 54 unique server names
-- Average unique server names per day: 19.17
+- Average unique server names per day: 19.25
 
 ## Top 5 busiest days
 - 2025-09-09: 54 unique servers
 - 2025-09-10: 51 unique servers
 - 2026-01-20: 42 unique servers
 - 2025-09-18: 41 unique servers
-- 2026-01-14: 39 unique servers
+- 2025-09-17: 39 unique servers
 
 ## Unique server names by category
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| remote | 528 | 36.36% |
-| npm | 470 | 32.37% |
-| pypi | 235 | 16.18% |
-| oci | 72 | 4.96% |
-| none | 56 | 3.86% |
-| mcpb | 29 | 2% |
-| oci+pypi | 17 | 1.17% |
-| nuget | 11 | 0.76% |
-| npm+oci | 11 | 0.76% |
+| remote | 530 | 36.3% |
+| npm | 474 | 32.47% |
+| pypi | 237 | 16.23% |
+| oci | 72 | 4.93% |
+| none | 56 | 3.84% |
+| mcpb | 29 | 1.99% |
+| oci+pypi | 17 | 1.16% |
+| nuget | 11 | 0.75% |
+| npm+oci | 11 | 0.75% |
 | mcpb+npm | 9 | 0.62% |
-| npm+pypi | 4 | 0.28% |
-| mcpb+npm+oci | 4 | 0.28% |
+| npm+pypi | 4 | 0.27% |
+| mcpb+npm+oci | 4 | 0.27% |
 | mcpb+pypi | 3 | 0.21% |
 | npm+oci+pypi | 1 | 0.07% |
 | npm+nuget | 1 | 0.07% |
@@ -60,6 +60,6 @@ Generated on: 2026-01-21T13:10:51.7177733+00:00
 | wolfe-jam.github.io | 4 | npm |
 | victoriametrics-community.github.io | 4 | oci |
 | usewire.io | 4 | remote |
+| stayce.github.io | 4 | remote |
 | sidneybissoli.github.io | 4 | npm |
 | paiml.github.io | 4 | none |
-| olgasafonova.github.io | 4 | mcpb, mcpb+oci, oci |
