@@ -1,30 +1,30 @@
 # Servers published summary
 
-Generated on: 2026-01-22T02:32:06.2493681+00:00
+Generated on: 2026-01-22T04:56:30.4773859+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 3885
-- Total unique server names: 1465
+- Total records processed: 3887
+- Total unique server names: 1467
 - Date range: 2025-09-08 to 2026-01-22
 - Peak day: 2025-09-09 with 54 unique server names
-- Average unique server names per day: 19.2
+- Average unique server names per day: 19.21
 
 ## Top 5 busiest days
 - 2025-09-09: 54 unique servers
 - 2025-09-10: 51 unique servers
 - 2026-01-20: 42 unique servers
 - 2025-09-18: 41 unique servers
-- 2026-01-14: 39 unique servers
+- 2025-09-17: 39 unique servers
 
 ## Unique server names by category
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| remote | 530 | 36.18% |
-| npm | 476 | 32.49% |
-| pypi | 239 | 16.31% |
+| remote | 531 | 36.2% |
+| npm | 477 | 32.52% |
+| pypi | 239 | 16.29% |
 | oci | 72 | 4.91% |
 | none | 56 | 3.82% |
 | mcpb | 29 | 1.98% |
@@ -52,9 +52,9 @@ Generated on: 2026-01-22T02:32:06.2493681+00:00
 | shashwatgtm.github.io | 8 | npm |
 | wmarceau.github.io | 7 | pypi |
 | verygoodplugins.github.io | 6 | npm, pypi |
+| mcp.com.ai | 6 | oci, remote |
 | cyanheads.github.io | 6 | npm |
 | microsoft.com | 5 | npm+nuget, nuget, remote |
-| mcp.com.ai | 5 | oci, remote |
 | mcp-z.github.io | 5 | npm |
 | huoshuiai42.github.io | 5 | pypi |
 | aplaceforallmystuff.github.io | 5 | npm |
