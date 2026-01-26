@@ -1,11 +1,11 @@
 # Servers published summary
 
-Generated on: 2026-01-26T02:39:10.0808900+00:00
+Generated on: 2026-01-26T05:01:30.7004985+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 4034
+- Total records processed: 4035
 - Total unique server names: 1512
 - Date range: 2025-09-08 to 2026-01-26
 - Peak day: 2025-09-09 with 54 unique server names
@@ -16,7 +16,7 @@ Generated on: 2026-01-26T02:39:10.0808900+00:00
 - 2025-09-10: 51 unique servers
 - 2026-01-20: 42 unique servers
 - 2025-09-18: 41 unique servers
-- 2025-09-17: 39 unique servers
+- 2026-01-14: 39 unique servers
 
 ## Unique server names by category
 
