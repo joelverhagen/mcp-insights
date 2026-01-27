@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2026-01-27T16:45:57.2160397+00:00
+Generated on: 2026-01-27T20:36:02.8648579+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 4110
-- Total unique server names: 1526
+- Total records processed: 4118
+- Total unique server names: 1529
 - Date range: 2025-09-08 to 2026-01-27
 - Peak day: 2025-09-09 with 54 unique server names
-- Average unique server names per day: 19.64
+- Average unique server names per day: 19.68
 
 ## Top 5 busiest days
 - 2025-09-09: 54 unique servers
@@ -22,16 +22,16 @@ Generated on: 2026-01-27T16:45:57.2160397+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| remote | 543 | 35.58% |
-| npm | 509 | 33.36% |
-| pypi | 246 | 16.12% |
-| oci | 72 | 4.72% |
-| none | 57 | 3.74% |
-| mcpb | 30 | 1.97% |
-| oci+pypi | 19 | 1.25% |
-| npm+oci | 12 | 0.79% |
+| remote | 544 | 35.58% |
+| npm | 509 | 33.29% |
+| pypi | 247 | 16.15% |
+| oci | 73 | 4.77% |
+| none | 57 | 3.73% |
+| mcpb | 30 | 1.96% |
+| oci+pypi | 19 | 1.24% |
+| npm+oci | 12 | 0.78% |
 | nuget | 11 | 0.72% |
-| mcpb+npm | 10 | 0.66% |
+| mcpb+npm | 10 | 0.65% |
 | npm+pypi | 6 | 0.39% |
 | mcpb+npm+oci | 4 | 0.26% |
 | mcpb+pypi | 3 | 0.2% |
@@ -48,9 +48,9 @@ Generated on: 2026-01-27T16:45:57.2160397+00:00
 | domdomegg.github.io | 16 | mcpb+npm, mcpb+npm+oci, npm, nuget, pypi |
 | asklokesh.github.io | 16 | pypi |
 | waystation.ai | 12 | remote |
+| wmarceau.github.io | 8 | pypi |
 | staging.alpic.live | 8 | remote |
 | shashwatgtm.github.io | 8 | npm |
-| wmarceau.github.io | 7 | pypi |
 | verygoodplugins.github.io | 6 | npm, pypi |
 | mcp.com.ai | 6 | oci, remote |
 | cyanheads.github.io | 6 | npm |
