@@ -1,35 +1,35 @@
 # Servers published summary
 
-Generated on: 2026-01-31T20:38:03.2626709+00:00
+Generated on: 2026-02-01T03:26:34.6983686+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 4339
-- Total unique server names: 1606
-- Date range: 2025-09-08 to 2026-01-31
+- Total records processed: 4346
+- Total unique server names: 1611
+- Date range: 2025-09-08 to 2026-02-01
 - Peak day: 2025-09-09 with 54 unique server names
-- Average unique server names per day: 20.22
+- Average unique server names per day: 20.13
 
 ## Top 5 busiest days
 - 2025-09-09: 54 unique servers
 - 2025-09-10: 51 unique servers
 - 2026-01-29: 44 unique servers
+- 2026-01-31: 43 unique servers
 - 2026-01-20: 42 unique servers
-- 2025-09-18: 41 unique servers
 
 ## Unique server names by category
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| remote | 559 | 34.81% |
-| npm | 553 | 34.43% |
-| pypi | 259 | 16.13% |
-| oci | 74 | 4.61% |
-| none | 58 | 3.61% |
+| remote | 559 | 34.7% |
+| npm | 557 | 34.57% |
+| pypi | 260 | 16.14% |
+| oci | 74 | 4.59% |
+| none | 58 | 3.6% |
 | mcpb | 32 | 1.99% |
-| oci+pypi | 20 | 1.25% |
-| npm+oci | 12 | 0.75% |
+| oci+pypi | 20 | 1.24% |
+| npm+oci | 12 | 0.74% |
 | nuget | 11 | 0.68% |
 | mcpb+npm | 10 | 0.62% |
 | npm+pypi | 6 | 0.37% |
@@ -61,5 +61,5 @@ Generated on: 2026-01-31T20:38:03.2626709+00:00
 | huoshuiai42.github.io | 5 | pypi |
 | houtini-ai.github.io | 5 | npm |
 | aplaceforallmystuff.github.io | 5 | npm |
+| ansvar-systems.github.io | 5 | npm, pypi |
 | victoriametrics-community.github.io | 4 | oci |
-| usewire.io | 4 | remote |
