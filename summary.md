@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2026-02-02T08:59:52.8792474+00:00
+Generated on: 2026-02-02T13:22:53.6970494+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 4409
-- Total unique server names: 1631
+- Total records processed: 4424
+- Total unique server names: 1636
 - Date range: 2025-09-08 to 2026-02-02
 - Peak day: 2025-09-09 with 54 unique server names
-- Average unique server names per day: 20.25
+- Average unique server names per day: 20.34
 
 ## Top 5 busiest days
 - 2025-09-09: 54 unique servers
@@ -22,19 +22,19 @@ Generated on: 2026-02-02T08:59:52.8792474+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| remote | 565 | 34.64% |
-| npm | 565 | 34.64% |
-| pypi | 263 | 16.13% |
-| oci | 76 | 4.66% |
-| none | 59 | 3.62% |
+| npm | 567 | 34.66% |
+| remote | 566 | 34.6% |
+| pypi | 265 | 16.2% |
+| oci | 76 | 4.65% |
+| none | 59 | 3.61% |
 | mcpb | 32 | 1.96% |
-| oci+pypi | 20 | 1.23% |
-| npm+oci | 12 | 0.74% |
+| oci+pypi | 20 | 1.22% |
+| npm+oci | 12 | 0.73% |
 | nuget | 11 | 0.67% |
 | mcpb+npm | 10 | 0.61% |
 | npm+pypi | 6 | 0.37% |
-| mcpb+pypi | 4 | 0.25% |
-| mcpb+npm+oci | 4 | 0.25% |
+| mcpb+pypi | 4 | 0.24% |
+| mcpb+npm+oci | 4 | 0.24% |
 | npm+nuget | 2 | 0.12% |
 | npm+oci+pypi | 1 | 0.06% |
 | mcpb+oci | 1 | 0.06% |
@@ -53,13 +53,13 @@ Generated on: 2026-02-02T08:59:52.8792474+00:00
 | shashwatgtm.github.io | 8 | npm |
 | verygoodplugins.github.io | 6 | npm, pypi |
 | mcp.com.ai | 6 | oci, remote |
+| houtini-ai.github.io | 6 | npm |
 | cyanheads.github.io | 6 | npm |
 | wolfe-jam.github.io | 5 | npm, pypi |
 | neverinfamous.github.io | 5 | npm+oci, oci, oci+pypi |
 | microsoft.com | 5 | npm+nuget, nuget, remote |
 | mcp-z.github.io | 5 | npm |
 | huoshuiai42.github.io | 5 | pypi |
-| houtini-ai.github.io | 5 | npm |
 | aplaceforallmystuff.github.io | 5 | npm |
 | ansvar-systems.github.io | 5 | npm, pypi |
 | victoriametrics-community.github.io | 4 | oci |
