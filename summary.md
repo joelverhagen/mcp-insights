@@ -1,35 +1,35 @@
 # Servers published summary
 
-Generated on: 2026-02-10T09:09:23.3298831+00:00
+Generated on: 2026-02-10T13:48:54.6005864+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 4976
-- Total unique server names: 1828
+- Total records processed: 4999
+- Total unique server names: 1834
 - Date range: 2025-09-08 to 2026-02-10
 - Peak day: 2026-02-09 with 64 unique server names
-- Average unique server names per day: 21.7
+- Average unique server names per day: 21.78
 
 ## Top 5 busiest days
 - 2026-02-09: 64 unique servers
 - 2026-02-03: 55 unique servers
-- 2025-09-09: 54 unique servers
 - 2026-02-06: 54 unique servers
+- 2025-09-09: 54 unique servers
 - 2025-09-10: 51 unique servers
 
 ## Unique server names by category
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| npm | 648 | 35.45% |
-| remote | 620 | 33.92% |
-| pypi | 310 | 16.96% |
-| oci | 78 | 4.27% |
-| none | 60 | 3.28% |
-| mcpb | 38 | 2.08% |
-| oci+pypi | 20 | 1.09% |
-| npm+oci | 14 | 0.77% |
+| npm | 652 | 35.55% |
+| remote | 621 | 33.86% |
+| pypi | 310 | 16.9% |
+| oci | 78 | 4.25% |
+| none | 60 | 3.27% |
+| mcpb | 38 | 2.07% |
+| oci+pypi | 21 | 1.15% |
+| npm+oci | 14 | 0.76% |
 | nuget | 11 | 0.6% |
 | mcpb+npm | 10 | 0.55% |
 | npm+pypi | 6 | 0.33% |
@@ -38,7 +38,7 @@ Generated on: 2026-02-10T09:09:23.3298831+00:00
 | npm+nuget | 2 | 0.11% |
 | npm+oci+pypi | 1 | 0.05% |
 | mcpb+oci | 1 | 0.05% |
-| mcpb+npm+oci+pypi | 1 | 0.05% |
+| mcpb+npm+nuget+oci+pypi | 1 | 0.05% |
 
 ## Top 20 domains by unique server names
 
@@ -62,5 +62,5 @@ Generated on: 2026-02-10T09:09:23.3298831+00:00
 | qiskit.github.io | 5 | pypi |
 | microsoft.com | 5 | npm+nuget, nuget, remote |
 | mcp-z.github.io | 5 | npm |
+| marcelo-ochoa.github.io | 5 | npm |
 | huoshuiai42.github.io | 5 | pypi |
-| aplaceforallmystuff.github.io | 5 | npm |
