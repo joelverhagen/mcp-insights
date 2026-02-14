@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2026-02-14T08:48:36.1028467+00:00
+Generated on: 2026-02-14T13:11:27.1799855+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 5425
-- Total unique server names: 1987
+- Total records processed: 5442
+- Total unique server names: 1993
 - Date range: 2025-09-08 to 2026-02-14
 - Peak day: 2026-02-11 with 79 unique server names
-- Average unique server names per day: 23.07
+- Average unique server names per day: 23.12
 
 ## Top 5 busiest days
 - 2026-02-11: 79 unique servers
@@ -22,14 +22,14 @@ Generated on: 2026-02-14T08:48:36.1028467+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| npm | 739 | 37.19% |
-| remote | 651 | 32.76% |
-| pypi | 335 | 16.86% |
-| oci | 81 | 4.08% |
-| none | 60 | 3.02% |
+| npm | 744 | 37.33% |
+| remote | 652 | 32.71% |
+| pypi | 335 | 16.81% |
+| oci | 81 | 4.06% |
+| none | 60 | 3.01% |
 | mcpb | 38 | 1.91% |
-| oci+pypi | 21 | 1.06% |
-| npm+oci | 17 | 0.86% |
+| oci+pypi | 21 | 1.05% |
+| npm+oci | 17 | 0.85% |
 | nuget | 12 | 0.6% |
 | mcpb+npm | 10 | 0.5% |
 | npm+pypi | 7 | 0.35% |
@@ -61,8 +61,8 @@ Generated on: 2026-02-14T08:48:36.1028467+00:00
 | microsoft.com | 6 | mcpb+npm+nuget, npm+nuget, nuget, remote |
 | houtini-ai.github.io | 6 | npm |
 | cyanheads.github.io | 6 | npm |
+| ansvar.eu | 6 | npm |
 | wolfe-jam.github.io | 5 | npm, pypi |
 | sidneybissoli.github.io | 5 | npm |
 | qiskit.github.io | 5 | pypi |
 | mcp-z.github.io | 5 | npm |
-| marcelo-ochoa.github.io | 5 | npm |
