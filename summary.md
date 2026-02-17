@@ -1,41 +1,41 @@
 # Servers published summary
 
-Generated on: 2026-02-17T17:12:35.6710877+00:00
+Generated on: 2026-02-17T20:53:16.0090663+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 5713
-- Total unique server names: 2093
+- Total records processed: 5742
+- Total unique server names: 2115
 - Date range: 2025-09-08 to 2026-02-17
 - Peak day: 2026-02-14 with 83 unique server names
-- Average unique server names per day: 23.88
+- Average unique server names per day: 24.04
 
 ## Top 5 busiest days
 - 2026-02-14: 83 unique servers
+- 2026-02-17: 79 unique servers
 - 2026-02-11: 79 unique servers
 - 2026-02-13: 72 unique servers
 - 2026-02-16: 67 unique servers
-- 2026-02-09: 64 unique servers
 
 ## Unique server names by category
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| npm | 800 | 38.22% |
-| remote | 668 | 31.92% |
-| pypi | 355 | 16.96% |
-| oci | 82 | 3.92% |
-| none | 61 | 2.91% |
-| mcpb | 43 | 2.05% |
-| oci+pypi | 21 | 1% |
-| npm+oci | 17 | 0.81% |
+| npm | 816 | 38.58% |
+| remote | 672 | 31.77% |
+| pypi | 356 | 16.83% |
+| oci | 82 | 3.88% |
+| none | 62 | 2.93% |
+| mcpb | 43 | 2.03% |
+| oci+pypi | 21 | 0.99% |
+| npm+oci | 17 | 0.8% |
 | nuget | 12 | 0.57% |
-| mcpb+npm | 10 | 0.48% |
+| mcpb+npm | 10 | 0.47% |
 | npm+pypi | 7 | 0.33% |
-| mcpb+pypi | 6 | 0.29% |
+| mcpb+pypi | 6 | 0.28% |
 | mcpb+npm+oci | 4 | 0.19% |
-| npm+nuget | 2 | 0.1% |
+| npm+nuget | 2 | 0.09% |
 | nuget+oci+pypi | 1 | 0.05% |
 | npm+oci+pypi | 1 | 0.05% |
 | mcpb+oci | 1 | 0.05% |
@@ -56,6 +56,7 @@ Generated on: 2026-02-17T17:12:35.6710877+00:00
 | waystation.ai | 12 | remote |
 | staging.alpic.live | 8 | remote |
 | shashwatgtm.github.io | 8 | npm |
+| dpozimski.github.io | 8 | npm |
 | verygoodplugins.github.io | 7 | npm, pypi |
 | mcp.com.ai | 7 | oci, remote |
 | neverinfamous.github.io | 6 | npm+oci, oci, oci+pypi |
@@ -65,4 +66,3 @@ Generated on: 2026-02-17T17:12:35.6710877+00:00
 | cyanheads.github.io | 6 | npm |
 | ansvar.eu | 6 | npm |
 | wolfe-jam.github.io | 5 | npm, pypi |
-| sidneybissoli.github.io | 5 | npm |
