@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2026-02-19T13:40:49.2277221+00:00
+Generated on: 2026-02-19T17:09:36.0018206+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 5913
-- Total unique server names: 2186
+- Total records processed: 5934
+- Total unique server names: 2194
 - Date range: 2025-09-08 to 2026-02-19
 - Peak day: 2026-02-17 with 88 unique server names
-- Average unique server names per day: 24.45
+- Average unique server names per day: 24.56
 
 ## Top 5 busiest days
 - 2026-02-17: 88 unique servers
@@ -22,14 +22,14 @@ Generated on: 2026-02-19T13:40:49.2277221+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| npm | 851 | 38.93% |
-| remote | 693 | 31.7% |
-| pypi | 363 | 16.61% |
-| oci | 84 | 3.84% |
-| none | 66 | 3.02% |
-| mcpb | 43 | 1.97% |
-| oci+pypi | 22 | 1.01% |
-| npm+oci | 17 | 0.78% |
+| npm | 854 | 38.92% |
+| remote | 697 | 31.77% |
+| pypi | 364 | 16.59% |
+| oci | 84 | 3.83% |
+| none | 66 | 3.01% |
+| mcpb | 43 | 1.96% |
+| oci+pypi | 22 | 1% |
+| npm+oci | 17 | 0.77% |
 | nuget | 13 | 0.59% |
 | mcpb+npm | 10 | 0.46% |
 | npm+pypi | 7 | 0.32% |
@@ -54,11 +54,11 @@ Generated on: 2026-02-19T13:40:49.2277221+00:00
 | expertvagabond.github.io | 13 | npm |
 | wmarceau.github.io | 12 | pypi |
 | waystation.ai | 12 | remote |
+| mcp.com.ai | 9 | oci, remote |
 | staging.alpic.live | 8 | remote |
 | shashwatgtm.github.io | 8 | npm |
 | dpozimski.github.io | 8 | npm |
 | verygoodplugins.github.io | 7 | npm, pypi |
-| mcp.com.ai | 7 | oci, remote |
 | neverinfamous.github.io | 6 | npm+oci, oci, oci+pypi |
 | microsoft.com | 6 | mcpb+npm+nuget, npm+nuget, nuget, remote |
 | j0hanz.github.io | 6 | npm |
