@@ -1,40 +1,40 @@
 # Servers published summary
 
-Generated on: 2026-02-21T20:38:27.4566099+00:00
+Generated on: 2026-02-22T03:14:36.7376383+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 6180
-- Total unique server names: 2278
-- Date range: 2025-09-08 to 2026-02-21
-- Peak day: 2026-02-17 with 88 unique server names
-- Average unique server names per day: 25.22
+- Total records processed: 6222
+- Total unique server names: 2300
+- Date range: 2025-09-08 to 2026-02-22
+- Peak day: 2026-02-21 with 88 unique server names
+- Average unique server names per day: 25.27
 
 ## Top 5 busiest days
+- 2026-02-21: 88 unique servers
 - 2026-02-17: 88 unique servers
 - 2026-02-14: 83 unique servers
 - 2026-02-11: 79 unique servers
 - 2026-02-19: 76 unique servers
-- 2026-02-18: 73 unique servers
 
 ## Unique server names by category
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| npm | 887 | 38.94% |
-| remote | 716 | 31.43% |
-| pypi | 392 | 17.21% |
-| oci | 85 | 3.73% |
-| none | 67 | 2.94% |
-| mcpb | 45 | 1.98% |
-| oci+pypi | 22 | 0.97% |
-| npm+oci | 17 | 0.75% |
-| nuget | 13 | 0.57% |
-| mcpb+npm | 10 | 0.44% |
-| npm+pypi | 7 | 0.31% |
+| npm | 904 | 39.3% |
+| remote | 718 | 31.22% |
+| pypi | 394 | 17.13% |
+| oci | 85 | 3.7% |
+| none | 67 | 2.91% |
+| mcpb | 45 | 1.96% |
+| oci+pypi | 22 | 0.96% |
+| npm+oci | 17 | 0.74% |
+| nuget | 14 | 0.61% |
+| mcpb+npm | 10 | 0.43% |
+| npm+pypi | 7 | 0.3% |
 | mcpb+pypi | 6 | 0.26% |
-| mcpb+npm+oci | 4 | 0.18% |
+| mcpb+npm+oci | 4 | 0.17% |
 | npm+nuget | 2 | 0.09% |
 | nuget+oci+pypi | 1 | 0.04% |
 | npm+oci+pypi | 1 | 0.04% |
@@ -51,6 +51,7 @@ Generated on: 2026-02-21T20:38:27.4566099+00:00
 | nirholas.github.io | 19 | none, pypi |
 | domdomegg.github.io | 18 | mcpb+npm, mcpb+npm+oci, npm, nuget, pypi |
 | asklokesh.github.io | 16 | pypi |
+| thenextgennexus.github.io | 15 | npm |
 | expertvagabond.github.io | 13 | npm |
 | wmarceau.github.io | 12 | pypi |
 | waystation.ai | 12 | remote |
@@ -65,4 +66,3 @@ Generated on: 2026-02-21T20:38:27.4566099+00:00
 | houtini-ai.github.io | 6 | npm |
 | cyanheads.github.io | 6 | npm |
 | ansvar.eu | 6 | npm |
-| wolfe-jam.github.io | 5 | npm, pypi |
