@@ -1,33 +1,33 @@
 # Servers published summary
 
-Generated on: 2026-02-26T05:25:26.9906993+00:00
+Generated on: 2026-02-26T09:02:32.3240871+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 6925
-- Total unique server names: 2629
+- Total records processed: 6942
+- Total unique server names: 2633
 - Date range: 2025-09-08 to 2026-02-26
 - Peak day: 2026-02-25 with 160 unique server names
-- Average unique server names per day: 27.72
+- Average unique server names per day: 27.79
 
 ## Top 5 busiest days
 - 2026-02-25: 160 unique servers
 - 2026-02-22: 148 unique servers
 - 2026-02-23: 118 unique servers
 - 2026-02-24: 91 unique servers
-- 2026-02-21: 88 unique servers
+- 2026-02-17: 88 unique servers
 
 ## Unique server names by category
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| npm | 1099 | 41.8% |
-| remote | 783 | 29.78% |
-| pypi | 451 | 17.15% |
-| oci | 89 | 3.39% |
-| none | 68 | 2.59% |
-| mcpb | 48 | 1.83% |
+| npm | 1101 | 41.82% |
+| remote | 783 | 29.74% |
+| pypi | 453 | 17.2% |
+| oci | 89 | 3.38% |
+| none | 68 | 2.58% |
+| mcpb | 48 | 1.82% |
 | oci+pypi | 24 | 0.91% |
 | npm+oci | 17 | 0.65% |
 | nuget | 14 | 0.53% |
@@ -65,5 +65,5 @@ Generated on: 2026-02-26T05:25:26.9906993+00:00
 | dpozimski.github.io | 8 | npm |
 | verygoodplugins.github.io | 7 | npm, pypi |
 | j0hanz.github.io | 7 | npm |
+| stucchi.github.io | 6 | pypi |
 | neverinfamous.github.io | 6 | npm+oci, oci, oci+pypi |
-| microsoft.com | 6 | mcpb+npm+nuget, npm+nuget, nuget, remote |
