@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2026-03-01T16:43:08.8425489+00:00
+Generated on: 2026-03-01T20:40:10.8547229+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 7418
-- Total unique server names: 2821
+- Total records processed: 7465
+- Total unique server names: 2840
 - Date range: 2025-09-08 to 2026-03-01
 - Peak day: 2026-02-25 with 160 unique server names
-- Average unique server names per day: 29.23
+- Average unique server names per day: 29.36
 
 ## Top 5 busiest days
 - 2026-02-25: 160 unique servers
@@ -22,17 +22,17 @@ Generated on: 2026-03-01T16:43:08.8425489+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| npm | 1176 | 41.69% |
-| remote | 845 | 29.95% |
-| pypi | 487 | 17.26% |
-| oci | 92 | 3.26% |
-| none | 73 | 2.59% |
-| mcpb | 51 | 1.81% |
+| npm | 1184 | 41.69% |
+| remote | 854 | 30.07% |
+| pypi | 488 | 17.18% |
+| oci | 92 | 3.24% |
+| none | 73 | 2.57% |
+| mcpb | 51 | 1.8% |
 | oci+pypi | 26 | 0.92% |
 | npm+oci | 17 | 0.6% |
 | nuget | 15 | 0.53% |
 | mcpb+npm | 11 | 0.39% |
-| npm+pypi | 8 | 0.28% |
+| npm+pypi | 9 | 0.32% |
 | mcpb+pypi | 7 | 0.25% |
 | mcpb+npm+oci | 4 | 0.14% |
 | mcpb+npm+nuget+pypi | 2 | 0.07% |
@@ -65,5 +65,5 @@ Generated on: 2026-03-01T16:43:08.8425489+00:00
 | shashwatgtm.github.io | 8 | npm |
 | dpozimski.github.io | 8 | npm |
 | verygoodplugins.github.io | 7 | npm, pypi |
+| taru0208.github.io | 7 | remote |
 | stucchi.github.io | 7 | pypi |
-| microsoft.com | 7 | mcpb+npm+nuget+oci+pypi, mcpb+npm+nuget+pypi, npm+nuget, nuget, remote |
