@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2026-03-03T05:19:22.8831190+00:00
+Generated on: 2026-03-03T08:58:25.2705375+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 7710
-- Total unique server names: 2914
+- Total records processed: 7726
+- Total unique server names: 2921
 - Date range: 2025-09-08 to 2026-03-03
 - Peak day: 2026-02-25 with 160 unique server names
-- Average unique server names per day: 29.89
+- Average unique server names per day: 29.97
 
 ## Top 5 busiest days
 - 2026-02-25: 160 unique servers
@@ -22,11 +22,11 @@ Generated on: 2026-03-03T05:19:22.8831190+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| npm | 1214 | 41.66% |
-| remote | 872 | 29.92% |
-| pypi | 508 | 17.43% |
-| oci | 94 | 3.23% |
-| none | 74 | 2.54% |
+| npm | 1216 | 41.63% |
+| remote | 873 | 29.89% |
+| pypi | 512 | 17.53% |
+| oci | 94 | 3.22% |
+| none | 74 | 2.53% |
 | mcpb | 51 | 1.75% |
 | oci+pypi | 26 | 0.89% |
 | npm+oci | 18 | 0.62% |
@@ -65,5 +65,5 @@ Generated on: 2026-03-03T05:19:22.8831190+00:00
 | shashwatgtm.github.io | 8 | npm |
 | j0hanz.github.io | 8 | npm |
 | dpozimski.github.io | 8 | npm |
+| crunchtools.github.io | 8 | pypi |
 | verygoodplugins.github.io | 7 | npm, pypi |
-| taru0208.github.io | 7 | remote |
