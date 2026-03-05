@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2026-03-05T08:59:21.0642333+00:00
+Generated on: 2026-03-05T13:24:09.5363803+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 8146
-- Total unique server names: 3044
+- Total records processed: 8164
+- Total unique server names: 3051
 - Date range: 2025-09-08 to 2026-03-05
 - Peak day: 2026-02-25 with 160 unique server names
-- Average unique server names per day: 31.13
+- Average unique server names per day: 31.22
 
 ## Top 5 busiest days
 - 2026-02-25: 160 unique servers
@@ -22,15 +22,15 @@ Generated on: 2026-03-05T08:59:21.0642333+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| npm | 1287 | 42.28% |
-| remote | 894 | 29.37% |
-| pypi | 532 | 17.48% |
-| oci | 99 | 3.25% |
+| npm | 1291 | 42.31% |
+| remote | 896 | 29.37% |
+| pypi | 533 | 17.47% |
+| oci | 99 | 3.24% |
 | none | 74 | 2.43% |
-| mcpb | 55 | 1.81% |
+| mcpb | 55 | 1.8% |
 | oci+pypi | 26 | 0.85% |
 | npm+oci | 18 | 0.59% |
-| nuget | 16 | 0.53% |
+| nuget | 16 | 0.52% |
 | mcpb+npm | 11 | 0.36% |
 | npm+pypi | 10 | 0.33% |
 | mcpb+pypi | 7 | 0.23% |
@@ -62,8 +62,8 @@ Generated on: 2026-03-05T08:59:21.0642333+00:00
 | wmarceau.github.io | 12 | pypi |
 | waystation.ai | 12 | remote |
 | mcp.com.ai | 9 | oci, remote |
+| j0hanz.github.io | 9 | npm |
 | staging.alpic.live | 8 | remote |
 | shashwatgtm.github.io | 8 | npm |
-| j0hanz.github.io | 8 | npm |
 | dpozimski.github.io | 8 | npm |
 | crunchtools.github.io | 8 | pypi |
