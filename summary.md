@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2026-03-05T05:17:46.6149207+00:00
+Generated on: 2026-03-05T08:59:21.0642333+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 8116
-- Total unique server names: 3024
+- Total records processed: 8146
+- Total unique server names: 3044
 - Date range: 2025-09-08 to 2026-03-05
 - Peak day: 2026-02-25 with 160 unique server names
-- Average unique server names per day: 30.98
+- Average unique server names per day: 31.13
 
 ## Top 5 busiest days
 - 2026-02-25: 160 unique servers
@@ -22,14 +22,14 @@ Generated on: 2026-03-05T05:17:46.6149207+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| npm | 1271 | 42.03% |
-| remote | 891 | 29.46% |
-| pypi | 531 | 17.56% |
-| oci | 99 | 3.27% |
-| none | 74 | 2.45% |
-| mcpb | 55 | 1.82% |
-| oci+pypi | 26 | 0.86% |
-| npm+oci | 18 | 0.6% |
+| npm | 1287 | 42.28% |
+| remote | 894 | 29.37% |
+| pypi | 532 | 17.48% |
+| oci | 99 | 3.25% |
+| none | 74 | 2.43% |
+| mcpb | 55 | 1.81% |
+| oci+pypi | 26 | 0.85% |
+| npm+oci | 18 | 0.59% |
 | nuget | 16 | 0.53% |
 | mcpb+npm | 11 | 0.36% |
 | npm+pypi | 10 | 0.33% |
@@ -56,6 +56,7 @@ Generated on: 2026-03-05T05:17:46.6149207+00:00
 | iowarp.github.io | 16 | pypi |
 | asklokesh.github.io | 16 | pypi |
 | thenextgennexus.github.io | 15 | npm |
+| cryptoapis-io.github.io | 14 | npm |
 | martc03.github.io | 13 | remote |
 | expertvagabond.github.io | 13 | npm |
 | wmarceau.github.io | 12 | pypi |
@@ -66,4 +67,3 @@ Generated on: 2026-03-05T05:17:46.6149207+00:00
 | j0hanz.github.io | 8 | npm |
 | dpozimski.github.io | 8 | npm |
 | crunchtools.github.io | 8 | pypi |
-| verygoodplugins.github.io | 7 | npm, pypi |
