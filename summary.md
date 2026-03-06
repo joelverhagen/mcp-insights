@@ -1,41 +1,41 @@
 # Servers published summary
 
-Generated on: 2026-03-06T08:55:20.0683337+00:00
+Generated on: 2026-03-06T13:20:04.7751417+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 8334
-- Total unique server names: 3123
+- Total records processed: 8438
+- Total unique server names: 3185
 - Date range: 2025-09-08 to 2026-03-06
-- Peak day: 2026-02-25 with 160 unique server names
-- Average unique server names per day: 31.73
+- Peak day: 2026-03-06 with 168 unique server names
+- Average unique server names per day: 32.21
 
 ## Top 5 busiest days
+- 2026-03-06: 168 unique servers
 - 2026-02-25: 160 unique servers
 - 2026-02-22: 148 unique servers
 - 2026-03-03: 128 unique servers
 - 2026-03-04: 123 unique servers
-- 2026-02-23: 118 unique servers
 
 ## Unique server names by category
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| npm | 1315 | 42.11% |
-| remote | 919 | 29.43% |
-| pypi | 555 | 17.77% |
-| oci | 101 | 3.23% |
-| none | 74 | 2.37% |
-| mcpb | 56 | 1.79% |
-| oci+pypi | 26 | 0.83% |
-| npm+oci | 18 | 0.58% |
-| nuget | 16 | 0.51% |
+| npm | 1341 | 42.1% |
+| remote | 952 | 29.89% |
+| pypi | 557 | 17.49% |
+| oci | 102 | 3.2% |
+| none | 74 | 2.32% |
+| mcpb | 56 | 1.76% |
+| oci+pypi | 26 | 0.82% |
+| npm+oci | 18 | 0.57% |
+| nuget | 16 | 0.5% |
 | mcpb+npm | 11 | 0.35% |
-| npm+pypi | 10 | 0.32% |
+| npm+pypi | 10 | 0.31% |
 | mcpb+pypi | 7 | 0.22% |
 | mcpb+npm+oci | 4 | 0.13% |
-| mcpb+oci | 3 | 0.1% |
+| mcpb+oci | 3 | 0.09% |
 | mcpb+npm+nuget+pypi | 2 | 0.06% |
 | mcpb+npm+nuget+oci+pypi | 2 | 0.06% |
 | nuget+oci+pypi | 1 | 0.03% |
@@ -48,8 +48,9 @@ Generated on: 2026-03-06T08:55:20.0683337+00:00
 | Domain | Unique Server Names | Categories |
 |--------|---------------------:|------------|
 | smithery.ai | 214 | remote |
-| ansvar.eu | 76 | npm |
+| ansvar.eu | 97 | npm |
 | ryudi84.github.io | 49 | npm |
+| ryan-clinton.github.io | 31 | remote |
 | dave-london.github.io | 26 | npm |
 | nirholas.github.io | 20 | none, pypi |
 | domdomegg.github.io | 18 | mcpb+npm, mcpb+npm+oci, npm, nuget, pypi |
@@ -66,4 +67,3 @@ Generated on: 2026-03-06T08:55:20.0683337+00:00
 | mcp.com.ai | 9 | oci, remote |
 | j0hanz.github.io | 9 | npm |
 | staging.alpic.live | 8 | remote |
-| shashwatgtm.github.io | 8 | npm |
