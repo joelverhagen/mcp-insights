@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2026-03-19T09:00:21.0681404+00:00
+Generated on: 2026-03-19T13:41:47.6646182+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 11010
-- Total unique server names: 3987
+- Total records processed: 11036
+- Total unique server names: 3999
 - Date range: 2025-09-08 to 2026-03-19
 - Peak day: 2026-03-06 with 219 unique server names
-- Average unique server names per day: 38.38
+- Average unique server names per day: 38.48
 
 ## Top 5 busiest days
 - 2026-03-06: 219 unique servers
@@ -22,16 +22,16 @@ Generated on: 2026-03-19T09:00:21.0681404+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| npm | 1717 | 43.06% |
-| remote | 1201 | 30.12% |
-| pypi | 665 | 16.68% |
-| oci | 120 | 3.01% |
-| none | 90 | 2.26% |
-| mcpb | 72 | 1.81% |
+| npm | 1721 | 43.04% |
+| remote | 1206 | 30.16% |
+| pypi | 666 | 16.65% |
+| oci | 120 | 3% |
+| none | 90 | 2.25% |
+| mcpb | 72 | 1.8% |
 | oci+pypi | 30 | 0.75% |
 | npm+oci | 28 | 0.7% |
-| nuget | 16 | 0.4% |
-| npm+pypi | 14 | 0.35% |
+| nuget | 17 | 0.43% |
+| npm+pypi | 15 | 0.38% |
 | mcpb+npm | 11 | 0.28% |
 | mcpb+pypi | 7 | 0.18% |
 | mcpb+npm+oci | 4 | 0.1% |
@@ -52,7 +52,7 @@ Generated on: 2026-03-19T09:00:21.0681404+00:00
 | ryan-clinton.github.io | 80 | remote |
 | ryudi84.github.io | 49 | npm |
 | dave-london.github.io | 26 | npm |
-| nirholas.github.io | 20 | none, pypi |
+| nirholas.github.io | 21 | none, npm, pypi |
 | junct-bot.github.io | 18 | remote |
 | domdomegg.github.io | 18 | mcpb+npm, mcpb+npm+oci, npm, nuget, pypi |
 | microsoft.com | 16 | mcpb+npm+nuget+oci+pypi, mcpb+npm+nuget+pypi, npm+nuget, nuget, remote |
