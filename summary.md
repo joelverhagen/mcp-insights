@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2026-03-24T09:07:21.6676381+00:00
+Generated on: 2026-03-24T13:48:59.2495932+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 11953
-- Total unique server names: 4208
+- Total records processed: 11996
+- Total unique server names: 4223
 - Date range: 2025-09-08 to 2026-03-24
 - Peak day: 2026-03-06 with 188 unique server names
-- Average unique server names per day: 40.15
+- Average unique server names per day: 40.32
 
 ## Top 5 busiest days
 - 2026-03-06: 188 unique servers
@@ -22,19 +22,19 @@ Generated on: 2026-03-24T09:07:21.6676381+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| npm | 1897 | 45.08% |
-| remote | 1183 | 28.11% |
-| pypi | 709 | 16.85% |
-| oci | 125 | 2.97% |
-| none | 92 | 2.19% |
-| mcpb | 73 | 1.73% |
+| npm | 1905 | 45.11% |
+| remote | 1189 | 28.16% |
+| pypi | 709 | 16.79% |
+| oci | 125 | 2.96% |
+| none | 92 | 2.18% |
+| mcpb | 74 | 1.75% |
 | oci+pypi | 33 | 0.78% |
 | npm+oci | 29 | 0.69% |
 | nuget | 18 | 0.43% |
 | npm+pypi | 15 | 0.36% |
 | mcpb+npm | 11 | 0.26% |
 | mcpb+pypi | 7 | 0.17% |
-| mcpb+npm+oci | 4 | 0.1% |
+| mcpb+npm+oci | 4 | 0.09% |
 | mcpb+oci | 3 | 0.07% |
 | npm+oci+pypi | 2 | 0.05% |
 | mcpb+npm+nuget+pypi | 2 | 0.05% |
@@ -65,5 +65,5 @@ Generated on: 2026-03-24T09:07:21.6676381+00:00
 | martc03.github.io | 13 | remote |
 | lordbasilaiassistant-sudo.github.io | 13 | npm |
 | expertvagabond.github.io | 13 | npm |
+| cyanheads.github.io | 13 | npm |
 | wmarceau.github.io | 12 | pypi |
-| waystation.ai | 12 | remote |
