@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2026-03-28T16:51:06.2877471+00:00
+Generated on: 2026-03-28T20:49:09.4728506+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 12862
-- Total unique server names: 4493
+- Total records processed: 12900
+- Total unique server names: 4505
 - Date range: 2025-09-08 to 2026-03-28
 - Peak day: 2026-03-06 with 187 unique server names
-- Average unique server names per day: 42.31
+- Average unique server names per day: 42.43
 
 ## Top 5 busiest days
 - 2026-03-06: 187 unique servers
@@ -22,14 +22,14 @@ Generated on: 2026-03-28T16:51:06.2877471+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| npm | 2039 | 45.38% |
-| remote | 1255 | 27.93% |
-| pypi | 761 | 16.94% |
-| oci | 130 | 2.89% |
-| none | 92 | 2.05% |
-| mcpb | 83 | 1.85% |
+| npm | 2044 | 45.37% |
+| remote | 1257 | 27.9% |
+| pypi | 764 | 16.96% |
+| oci | 132 | 2.93% |
+| none | 92 | 2.04% |
+| mcpb | 83 | 1.84% |
 | oci+pypi | 33 | 0.73% |
-| npm+oci | 29 | 0.65% |
+| npm+oci | 29 | 0.64% |
 | nuget | 19 | 0.42% |
 | npm+pypi | 18 | 0.4% |
 | mcpb+npm | 11 | 0.24% |
@@ -62,8 +62,8 @@ Generated on: 2026-03-28T16:51:06.2877471+00:00
 | thenextgennexus.github.io | 15 | npm |
 | ofershap.github.io | 14 | npm |
 | expertvagabond.github.io | 14 | npm |
+| daedalus.github.io | 14 | pypi |
 | cryptoapis-io.github.io | 14 | npm |
 | martc03.github.io | 13 | remote |
 | lordbasilaiassistant-sudo.github.io | 13 | npm |
 | cyanheads.github.io | 13 | npm |
-| wmarceau.github.io | 12 | pypi |
