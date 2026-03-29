@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2026-03-28T20:49:09.4728506+00:00
+Generated on: 2026-03-29T03:34:38.3542716+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 12900
-- Total unique server names: 4505
-- Date range: 2025-09-08 to 2026-03-28
+- Total records processed: 12937
+- Total unique server names: 4514
+- Date range: 2025-09-08 to 2026-03-29
 - Peak day: 2026-03-06 with 187 unique server names
-- Average unique server names per day: 42.43
+- Average unique server names per day: 42.34
 
 ## Top 5 busiest days
 - 2026-03-06: 187 unique servers
@@ -22,10 +22,10 @@ Generated on: 2026-03-28T20:49:09.4728506+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| npm | 2044 | 45.37% |
-| remote | 1257 | 27.9% |
-| pypi | 764 | 16.96% |
-| oci | 132 | 2.93% |
+| npm | 2046 | 45.33% |
+| remote | 1261 | 27.94% |
+| pypi | 767 | 16.99% |
+| oci | 132 | 2.92% |
 | none | 92 | 2.04% |
 | mcpb | 83 | 1.84% |
 | oci+pypi | 33 | 0.73% |
@@ -58,11 +58,11 @@ Generated on: 2026-03-28T20:49:09.4728506+00:00
 | microsoft.com | 16 | mcpb+npm+nuget+oci+pypi, mcpb+npm+nuget+pypi, npm+nuget, nuget, remote |
 | markswendsen-code.github.io | 16 | npm |
 | iowarp.github.io | 16 | pypi |
+| daedalus.github.io | 16 | pypi |
 | asklokesh.github.io | 16 | pypi |
 | thenextgennexus.github.io | 15 | npm |
 | ofershap.github.io | 14 | npm |
 | expertvagabond.github.io | 14 | npm |
-| daedalus.github.io | 14 | pypi |
 | cryptoapis-io.github.io | 14 | npm |
 | martc03.github.io | 13 | remote |
 | lordbasilaiassistant-sudo.github.io | 13 | npm |
