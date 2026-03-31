@@ -1,41 +1,41 @@
 # Servers published summary
 
-Generated on: 2026-03-30T14:02:05.6121452+00:00
+Generated on: 2026-03-31T03:28:39.3435441+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 13178
-- Total unique server names: 4594
-- Date range: 2025-09-08 to 2026-03-30
+- Total records processed: 13315
+- Total unique server names: 4646
+- Date range: 2025-09-08 to 2026-03-31
 - Peak day: 2026-03-06 with 187 unique server names
-- Average unique server names per day: 43.01
+- Average unique server names per day: 43.29
 
 ## Top 5 busiest days
 - 2026-03-06: 187 unique servers
 - 2026-02-25: 160 unique servers
 - 2026-03-19: 155 unique servers
 - 2026-03-25: 153 unique servers
-- 2026-03-24: 149 unique servers
+- 2026-03-30: 151 unique servers
 
 ## Unique server names by category
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| npm | 2090 | 45.49% |
-| remote | 1277 | 27.8% |
-| pypi | 781 | 17% |
-| oci | 133 | 2.9% |
-| none | 94 | 2.05% |
-| mcpb | 83 | 1.81% |
-| oci+pypi | 34 | 0.74% |
-| npm+oci | 29 | 0.63% |
-| npm+pypi | 20 | 0.44% |
-| nuget | 19 | 0.41% |
+| npm | 2111 | 45.44% |
+| remote | 1302 | 28.02% |
+| pypi | 785 | 16.9% |
+| oci | 133 | 2.86% |
+| none | 95 | 2.04% |
+| mcpb | 83 | 1.79% |
+| oci+pypi | 34 | 0.73% |
+| npm+oci | 29 | 0.62% |
+| nuget | 20 | 0.43% |
+| npm+pypi | 20 | 0.43% |
 | mcpb+npm | 11 | 0.24% |
 | mcpb+pypi | 7 | 0.15% |
 | mcpb+npm+oci | 4 | 0.09% |
-| mcpb+oci | 3 | 0.07% |
+| mcpb+oci | 3 | 0.06% |
 | npm+oci+pypi | 2 | 0.04% |
 | mcpb+npm+nuget+pypi | 2 | 0.04% |
 | mcpb+npm+nuget+oci+pypi | 2 | 0.04% |
@@ -54,16 +54,16 @@ Generated on: 2026-03-30T14:02:05.6121452+00:00
 | dave-london.github.io | 26 | npm |
 | junct-bot.github.io | 24 | remote |
 | nirholas.github.io | 21 | none, npm, pypi |
-| daedalus.github.io | 19 | pypi |
+| daedalus.github.io | 20 | pypi |
+| markswendsen-code.github.io | 19 | npm |
 | domdomegg.github.io | 18 | mcpb+npm, mcpb+npm+oci, npm, nuget, pypi |
 | microsoft.com | 16 | mcpb+npm+nuget+oci+pypi, mcpb+npm+nuget+pypi, npm+nuget, nuget, remote |
-| markswendsen-code.github.io | 16 | npm |
 | iowarp.github.io | 16 | pypi |
 | asklokesh.github.io | 16 | pypi |
 | thenextgennexus.github.io | 15 | npm |
+| cyanheads.github.io | 15 | npm |
+| trendsmcp.ai | 14 | remote |
 | ofershap.github.io | 14 | npm |
 | expertvagabond.github.io | 14 | npm |
 | cryptoapis-io.github.io | 14 | npm |
 | martc03.github.io | 13 | remote |
-| lordbasilaiassistant-sudo.github.io | 13 | npm |
-| cyanheads.github.io | 13 | npm |
