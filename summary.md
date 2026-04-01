@@ -1,39 +1,39 @@
 # Servers published summary
 
-Generated on: 2026-04-01T14:03:09.0750743+00:00
+Generated on: 2026-04-01T21:01:14.5045892+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 13628
-- Total unique server names: 4802
+- Total records processed: 13736
+- Total unique server names: 4864
 - Date range: 2025-09-08 to 2026-04-01
 - Peak day: 2026-03-31 with 190 unique server names
-- Average unique server names per day: 44.36
+- Average unique server names per day: 44.79
 
 ## Top 5 busiest days
 - 2026-03-31: 190 unique servers
 - 2026-03-06: 187 unique servers
+- 2026-04-01: 182 unique servers
 - 2026-02-25: 160 unique servers
 - 2026-03-19: 155 unique servers
-- 2026-03-25: 153 unique servers
 
 ## Unique server names by category
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| npm | 2197 | 45.75% |
-| remote | 1353 | 28.18% |
-| pypi | 797 | 16.6% |
-| oci | 134 | 2.79% |
-| none | 96 | 2% |
-| mcpb | 84 | 1.75% |
-| oci+pypi | 34 | 0.71% |
+| npm | 2209 | 45.42% |
+| remote | 1393 | 28.64% |
+| pypi | 807 | 16.59% |
+| oci | 134 | 2.75% |
+| none | 96 | 1.97% |
+| mcpb | 84 | 1.73% |
+| oci+pypi | 34 | 0.7% |
 | npm+oci | 30 | 0.62% |
-| nuget | 23 | 0.48% |
-| npm+pypi | 20 | 0.42% |
+| nuget | 23 | 0.47% |
+| npm+pypi | 20 | 0.41% |
 | mcpb+npm | 11 | 0.23% |
-| mcpb+pypi | 7 | 0.15% |
+| mcpb+pypi | 7 | 0.14% |
 | mcpb+npm+oci | 4 | 0.08% |
 | mcpb+oci | 3 | 0.06% |
 | npm+oci+pypi | 2 | 0.04% |
@@ -51,10 +51,11 @@ Generated on: 2026-04-01T14:03:09.0750743+00:00
 | ansvar.eu | 97 | npm |
 | ryudi84.github.io | 49 | npm |
 | theyahia.github.io | 47 | npm |
+| pipeworx-io.github.io | 35 | remote |
 | rog0x.github.io | 33 | npm |
 | dave-london.github.io | 26 | npm |
 | junct-bot.github.io | 24 | remote |
-| daedalus.github.io | 23 | pypi |
+| daedalus.github.io | 24 | pypi |
 | nirholas.github.io | 22 | none, npm, pypi |
 | markswendsen-code.github.io | 19 | npm |
 | olyport.com | 18 | remote |
@@ -66,4 +67,3 @@ Generated on: 2026-04-01T14:03:09.0750743+00:00
 | cyanheads.github.io | 15 | npm |
 | trendsmcp.ai | 14 | remote |
 | ofershap.github.io | 14 | npm |
-| expertvagabond.github.io | 14 | npm |
