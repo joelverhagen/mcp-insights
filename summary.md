@@ -1,20 +1,20 @@
 # Servers published summary
 
-Generated on: 2026-04-01T21:01:14.5045892+00:00
+Generated on: 2026-04-02T03:24:57.0533156+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 13736
-- Total unique server names: 4864
-- Date range: 2025-09-08 to 2026-04-01
-- Peak day: 2026-03-31 with 190 unique server names
-- Average unique server names per day: 44.79
+- Total records processed: 13840
+- Total unique server names: 4901
+- Date range: 2025-09-08 to 2026-04-02
+- Peak day: 2026-04-01 with 206 unique server names
+- Average unique server names per day: 44.91
 
 ## Top 5 busiest days
+- 2026-04-01: 206 unique servers
 - 2026-03-31: 190 unique servers
 - 2026-03-06: 187 unique servers
-- 2026-04-01: 182 unique servers
 - 2026-02-25: 160 unique servers
 - 2026-03-19: 155 unique servers
 
@@ -22,17 +22,17 @@ Generated on: 2026-04-01T21:01:14.5045892+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| npm | 2209 | 45.42% |
-| remote | 1393 | 28.64% |
-| pypi | 807 | 16.59% |
-| oci | 134 | 2.75% |
-| none | 96 | 1.97% |
-| mcpb | 84 | 1.73% |
-| oci+pypi | 34 | 0.7% |
-| npm+oci | 30 | 0.62% |
+| npm | 2222 | 45.34% |
+| remote | 1410 | 28.77% |
+| pypi | 811 | 16.55% |
+| oci | 134 | 2.73% |
+| none | 98 | 2% |
+| mcpb | 84 | 1.71% |
+| oci+pypi | 34 | 0.69% |
+| npm+oci | 30 | 0.61% |
 | nuget | 23 | 0.47% |
-| npm+pypi | 20 | 0.41% |
-| mcpb+npm | 11 | 0.23% |
+| npm+pypi | 21 | 0.43% |
+| mcpb+npm | 11 | 0.22% |
 | mcpb+pypi | 7 | 0.14% |
 | mcpb+npm+oci | 4 | 0.08% |
 | mcpb+oci | 3 | 0.06% |
@@ -53,12 +53,12 @@ Generated on: 2026-04-01T21:01:14.5045892+00:00
 | theyahia.github.io | 47 | npm |
 | pipeworx-io.github.io | 35 | remote |
 | rog0x.github.io | 33 | npm |
+| olyport.com | 29 | remote |
 | dave-london.github.io | 26 | npm |
 | junct-bot.github.io | 24 | remote |
 | daedalus.github.io | 24 | pypi |
 | nirholas.github.io | 22 | none, npm, pypi |
 | markswendsen-code.github.io | 19 | npm |
-| olyport.com | 18 | remote |
 | domdomegg.github.io | 18 | mcpb+npm, mcpb+npm+oci, npm, nuget, pypi |
 | microsoft.com | 16 | mcpb+npm+nuget+oci+pypi, mcpb+npm+nuget+pypi, npm+nuget, nuget, remote |
 | iowarp.github.io | 16 | pypi |
