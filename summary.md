@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2026-04-04T02:57:41.1428039+00:00
+Generated on: 2026-04-04T05:28:27.4306191+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 14320
-- Total unique server names: 5122
+- Total records processed: 14351
+- Total unique server names: 5139
 - Date range: 2025-09-08 to 2026-04-04
 - Peak day: 2026-04-03 with 242 unique server names
-- Average unique server names per day: 46.26
+- Average unique server names per day: 46.37
 
 ## Top 5 busiest days
 - 2026-04-03: 242 unique servers
@@ -22,12 +22,12 @@ Generated on: 2026-04-04T02:57:41.1428039+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| npm | 2279 | 44.49% |
-| remote | 1548 | 30.22% |
-| pypi | 822 | 16.05% |
-| oci | 136 | 2.66% |
+| npm | 2282 | 44.41% |
+| remote | 1559 | 30.34% |
+| pypi | 825 | 16.05% |
+| oci | 136 | 2.65% |
 | none | 101 | 1.97% |
-| mcpb | 86 | 1.68% |
+| mcpb | 86 | 1.67% |
 | npm+oci | 36 | 0.7% |
 | oci+pypi | 35 | 0.68% |
 | nuget | 23 | 0.45% |
@@ -54,16 +54,16 @@ Generated on: 2026-04-04T02:57:41.1428039+00:00
 | theyahia.github.io | 47 | npm |
 | olyport.com | 35 | remote |
 | rog0x.github.io | 33 | npm |
-| daedalus.github.io | 27 | pypi |
+| daedalus.github.io | 30 | pypi |
 | dave-london.github.io | 26 | npm |
 | junct-bot.github.io | 24 | remote |
 | nirholas.github.io | 22 | none, npm, pypi |
 | markswendsen-code.github.io | 19 | npm |
 | cyanheads.github.io | 19 | npm |
 | domdomegg.github.io | 18 | mcpb+npm, mcpb+npm+oci, npm, nuget, pypi |
+| therealmrfunguy.github.io | 17 | remote |
 | ansvar-systems.github.io | 17 | npm, pypi, remote |
 | microsoft.com | 16 | mcpb+npm+nuget+oci+pypi, mcpb+npm+nuget+pypi, npm+nuget, nuget, remote |
 | iowarp.github.io | 16 | pypi |
 | asklokesh.github.io | 16 | pypi |
 | thenextgennexus.github.io | 15 | npm |
-| trendsmcp.ai | 14 | remote |
