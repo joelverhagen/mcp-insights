@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2026-04-11T16:55:13.2772159+00:00
+Generated on: 2026-04-11T20:52:32.9718627+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 16163
-- Total unique server names: 5661
+- Total records processed: 16207
+- Total unique server names: 5687
 - Date range: 2025-09-08 to 2026-04-11
 - Peak day: 2026-04-03 with 242 unique server names
-- Average unique server names per day: 49.97
+- Average unique server names per day: 50.12
 
 ## Top 5 busiest days
 - 2026-04-03: 242 unique servers
@@ -22,16 +22,16 @@ Generated on: 2026-04-11T16:55:13.2772159+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| npm | 2532 | 44.73% |
-| remote | 1717 | 30.33% |
-| pypi | 908 | 16.04% |
-| oci | 143 | 2.53% |
-| none | 110 | 1.94% |
-| mcpb | 91 | 1.61% |
-| oci+pypi | 40 | 0.71% |
+| npm | 2537 | 44.61% |
+| remote | 1722 | 30.28% |
+| pypi | 909 | 15.98% |
+| oci | 143 | 2.51% |
+| none | 111 | 1.95% |
+| mcpb | 105 | 1.85% |
+| oci+pypi | 40 | 0.7% |
 | npm+oci | 37 | 0.65% |
 | npm+pypi | 24 | 0.42% |
-| nuget | 23 | 0.41% |
+| nuget | 23 | 0.4% |
 | mcpb+npm | 11 | 0.19% |
 | mcpb+pypi | 7 | 0.12% |
 | mcpb+npm+oci | 4 | 0.07% |
@@ -64,6 +64,6 @@ Generated on: 2026-04-11T16:55:13.2772159+00:00
 | therealmrfunguy.github.io | 17 | remote |
 | ansvar-systems.github.io | 17 | npm, pypi, remote |
 | microsoft.com | 16 | mcpb+npm+nuget+oci+pypi, mcpb+npm+nuget+pypi, npm+nuget, nuget, remote |
+| mcpbundles.com | 16 | mcpb |
 | iowarp.github.io | 16 | pypi |
 | asklokesh.github.io | 16 | pypi |
-| thenextgennexus.github.io | 15 | npm |
