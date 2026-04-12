@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2026-04-11T20:52:32.9718627+00:00
+Generated on: 2026-04-12T03:44:18.5182148+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 16207
-- Total unique server names: 5687
-- Date range: 2025-09-08 to 2026-04-11
+- Total records processed: 16319
+- Total unique server names: 5771
+- Date range: 2025-09-08 to 2026-04-12
 - Peak day: 2026-04-03 with 242 unique server names
-- Average unique server names per day: 50.12
+- Average unique server names per day: 50.35
 
 ## Top 5 busiest days
 - 2026-04-03: 242 unique servers
@@ -22,14 +22,14 @@ Generated on: 2026-04-11T20:52:32.9718627+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| npm | 2537 | 44.61% |
-| remote | 1722 | 30.28% |
-| pypi | 909 | 15.98% |
-| oci | 143 | 2.51% |
-| none | 111 | 1.95% |
-| mcpb | 105 | 1.85% |
-| oci+pypi | 40 | 0.7% |
-| npm+oci | 37 | 0.65% |
+| npm | 2582 | 44.74% |
+| remote | 1760 | 30.5% |
+| pypi | 910 | 15.77% |
+| oci | 143 | 2.48% |
+| none | 111 | 1.92% |
+| mcpb | 105 | 1.82% |
+| oci+pypi | 40 | 0.69% |
+| npm+oci | 37 | 0.64% |
 | npm+pypi | 24 | 0.42% |
 | nuget | 23 | 0.4% |
 | mcpb+npm | 11 | 0.19% |
@@ -37,9 +37,9 @@ Generated on: 2026-04-11T20:52:32.9718627+00:00
 | mcpb+npm+oci | 4 | 0.07% |
 | npm+oci+pypi | 3 | 0.05% |
 | mcpb+oci | 3 | 0.05% |
-| npm+nuget | 2 | 0.04% |
-| mcpb+npm+nuget+pypi | 2 | 0.04% |
-| mcpb+npm+nuget+oci+pypi | 2 | 0.04% |
+| npm+nuget | 2 | 0.03% |
+| mcpb+npm+nuget+pypi | 2 | 0.03% |
+| mcpb+npm+nuget+oci+pypi | 2 | 0.03% |
 | nuget+oci+pypi | 1 | 0.02% |
 | nuget+oci | 1 | 0.02% |
 
@@ -54,6 +54,8 @@ Generated on: 2026-04-11T20:52:32.9718627+00:00
 | theyahia.github.io | 47 | npm |
 | daedalus.github.io | 44 | pypi |
 | olyport.com | 38 | remote |
+| codespar.github.io | 37 | npm |
+| br0ski777.github.io | 34 | remote |
 | rog0x.github.io | 33 | npm |
 | dave-london.github.io | 26 | npm |
 | junct-bot.github.io | 24 | remote |
@@ -65,5 +67,3 @@ Generated on: 2026-04-11T20:52:32.9718627+00:00
 | ansvar-systems.github.io | 17 | npm, pypi, remote |
 | microsoft.com | 16 | mcpb+npm+nuget+oci+pypi, mcpb+npm+nuget+pypi, npm+nuget, nuget, remote |
 | mcpbundles.com | 16 | mcpb |
-| iowarp.github.io | 16 | pypi |
-| asklokesh.github.io | 16 | pypi |
