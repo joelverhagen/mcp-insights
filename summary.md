@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2026-04-13T06:28:19.7031073+00:00
+Generated on: 2026-04-13T10:09:37.6095711+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 16553
-- Total unique server names: 5889
+- Total records processed: 16618
+- Total unique server names: 5928
 - Date range: 2025-09-08 to 2026-04-13
 - Peak day: 2026-04-03 with 242 unique server names
-- Average unique server names per day: 50.93
+- Average unique server names per day: 51.18
 
 ## Top 5 busiest days
 - 2026-04-03: 242 unique servers
@@ -22,14 +22,14 @@ Generated on: 2026-04-13T06:28:19.7031073+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| npm | 2632 | 44.69% |
-| remote | 1817 | 30.85% |
-| pypi | 918 | 15.59% |
-| oci | 143 | 2.43% |
-| none | 112 | 1.9% |
-| mcpb | 105 | 1.78% |
-| oci+pypi | 41 | 0.7% |
-| npm+oci | 37 | 0.63% |
+| npm | 2635 | 44.45% |
+| remote | 1849 | 31.19% |
+| pypi | 922 | 15.55% |
+| oci | 143 | 2.41% |
+| none | 112 | 1.89% |
+| mcpb | 105 | 1.77% |
+| oci+pypi | 41 | 0.69% |
+| npm+oci | 37 | 0.62% |
 | npm+pypi | 25 | 0.42% |
 | nuget | 23 | 0.39% |
 | mcpb+npm | 11 | 0.19% |
@@ -50,7 +50,7 @@ Generated on: 2026-04-13T06:28:19.7031073+00:00
 | smithery.ai | 214 | remote |
 | pipeworx-io.github.io | 119 | remote |
 | ansvar.eu | 97 | npm |
-| br0ski777.github.io | 65 | remote |
+| br0ski777.github.io | 94 | remote |
 | codespar.github.io | 57 | npm |
 | ryudi84.github.io | 49 | npm |
 | theyahia.github.io | 47 | npm |
