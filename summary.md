@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2026-04-17T21:02:46.5847057+00:00
+Generated on: 2026-04-18T03:30:16.6635562+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 17627
-- Total unique server names: 6256
-- Date range: 2025-09-08 to 2026-04-17
+- Total records processed: 17665
+- Total unique server names: 6269
+- Date range: 2025-09-08 to 2026-04-18
 - Peak day: 2026-04-03 with 241 unique server names
-- Average unique server names per day: 53.45
+- Average unique server names per day: 53.35
 
 ## Top 5 busiest days
 - 2026-04-03: 241 unique servers
@@ -22,16 +22,16 @@ Generated on: 2026-04-17T21:02:46.5847057+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| npm | 2761 | 44.13% |
-| remote | 1985 | 31.73% |
-| pypi | 967 | 15.46% |
-| oci | 145 | 2.32% |
+| npm | 2767 | 44.14% |
+| remote | 1987 | 31.7% |
+| pypi | 971 | 15.49% |
+| oci | 145 | 2.31% |
 | none | 116 | 1.85% |
-| mcpb | 110 | 1.76% |
+| mcpb | 111 | 1.77% |
 | oci+pypi | 43 | 0.69% |
 | npm+oci | 40 | 0.64% |
 | npm+pypi | 27 | 0.43% |
-| nuget | 26 | 0.42% |
+| nuget | 26 | 0.41% |
 | mcpb+npm | 11 | 0.18% |
 | mcpb+pypi | 7 | 0.11% |
 | mcpb+npm+oci | 4 | 0.06% |
@@ -54,7 +54,7 @@ Generated on: 2026-04-17T21:02:46.5847057+00:00
 | codespar.github.io | 57 | npm |
 | ryudi84.github.io | 49 | npm |
 | theyahia.github.io | 47 | npm |
-| daedalus.github.io | 44 | pypi |
+| daedalus.github.io | 45 | pypi |
 | olyport.com | 38 | remote |
 | rog0x.github.io | 33 | npm |
 | dave-london.github.io | 26 | npm |
