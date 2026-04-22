@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2026-04-21T21:06:29.3882634+00:00
+Generated on: 2026-04-22T03:41:01.0518198+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 18702
-- Total unique server names: 6526
-- Date range: 2025-09-08 to 2026-04-21
+- Total records processed: 18894
+- Total unique server names: 6677
+- Date range: 2025-09-08 to 2026-04-22
 - Peak day: 2026-04-12 with 241 unique server names
-- Average unique server names per day: 55.18
+- Average unique server names per day: 55.69
 
 ## Top 5 busiest days
 - 2026-04-12: 241 unique servers
@@ -22,33 +22,33 @@ Generated on: 2026-04-21T21:06:29.3882634+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| npm | 2877 | 44.09% |
-| remote | 2073 | 31.77% |
-| pypi | 1022 | 15.66% |
-| oci | 147 | 2.25% |
-| none | 116 | 1.78% |
-| mcpb | 115 | 1.76% |
-| oci+pypi | 44 | 0.67% |
-| npm+oci | 40 | 0.61% |
-| npm+pypi | 29 | 0.44% |
-| nuget | 26 | 0.4% |
-| mcpb+npm | 11 | 0.17% |
-| mcpb+pypi | 7 | 0.11% |
+| npm | 2885 | 43.21% |
+| remote | 2211 | 33.11% |
+| pypi | 1026 | 15.37% |
+| oci | 148 | 2.22% |
+| none | 116 | 1.74% |
+| mcpb | 115 | 1.72% |
+| oci+pypi | 44 | 0.66% |
+| npm+oci | 40 | 0.6% |
+| npm+pypi | 29 | 0.43% |
+| nuget | 26 | 0.39% |
+| mcpb+npm | 11 | 0.16% |
+| mcpb+pypi | 7 | 0.1% |
 | mcpb+oci | 4 | 0.06% |
 | mcpb+npm+oci | 4 | 0.06% |
-| npm+oci+pypi | 3 | 0.05% |
+| npm+oci+pypi | 3 | 0.04% |
 | npm+nuget | 2 | 0.03% |
 | mcpb+npm+nuget+pypi | 2 | 0.03% |
 | mcpb+npm+nuget+oci+pypi | 2 | 0.03% |
-| nuget+oci+pypi | 1 | 0.02% |
-| nuget+oci | 1 | 0.02% |
+| nuget+oci+pypi | 1 | 0.01% |
+| nuget+oci | 1 | 0.01% |
 
 ## Top 20 domains by unique server names
 
 | Domain | Unique Server Names | Categories |
 |--------|---------------------:|------------|
+| pipeworx-io.github.io | 252 | remote |
 | smithery.ai | 214 | remote |
-| pipeworx-io.github.io | 119 | remote |
 | ansvar.eu | 105 | npm, remote |
 | br0ski777.github.io | 100 | remote |
 | codespar.github.io | 57 | npm |
