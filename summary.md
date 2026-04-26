@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2026-04-26T13:41:46.4051706+00:00
+Generated on: 2026-04-26T20:58:33.9661711+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 20088
-- Total unique server names: 6981
+- Total records processed: 20224
+- Total unique server names: 7025
 - Date range: 2025-09-08 to 2026-04-26
 - Peak day: 2026-04-22 with 291 unique server names
-- Average unique server names per day: 57.93
+- Average unique server names per day: 58.23
 
 ## Top 5 busiest days
 - 2026-04-22: 291 unique servers
@@ -22,13 +22,13 @@ Generated on: 2026-04-26T13:41:46.4051706+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| npm | 2988 | 42.8% |
-| remote | 2322 | 33.26% |
-| pypi | 1081 | 15.48% |
-| oci | 157 | 2.25% |
-| none | 121 | 1.73% |
-| mcpb | 116 | 1.66% |
-| oci+pypi | 57 | 0.82% |
+| npm | 2999 | 42.69% |
+| remote | 2353 | 33.49% |
+| pypi | 1083 | 15.42% |
+| oci | 157 | 2.23% |
+| none | 121 | 1.72% |
+| mcpb | 116 | 1.65% |
+| oci+pypi | 57 | 0.81% |
 | npm+oci | 42 | 0.6% |
 | npm+pypi | 31 | 0.44% |
 | nuget | 28 | 0.4% |
@@ -57,6 +57,7 @@ Generated on: 2026-04-26T13:41:46.4051706+00:00
 | theyahia.github.io | 47 | npm |
 | olyport.com | 38 | remote |
 | rog0x.github.io | 33 | npm |
+| thenextgennexus.com | 27 | remote |
 | dave-london.github.io | 26 | npm |
 | geraservicesuk.github.io | 25 | npm |
 | junct-bot.github.io | 24 | remote |
@@ -66,4 +67,3 @@ Generated on: 2026-04-26T13:41:46.4051706+00:00
 | domdomegg.github.io | 18 | mcpb+npm, mcpb+npm+oci, npm, nuget, pypi |
 | therealmrfunguy.github.io | 17 | remote |
 | ansvar-systems.github.io | 17 | npm, pypi, remote |
-| microsoft.com | 16 | mcpb+npm+nuget+oci+pypi, mcpb+npm+nuget+pypi, npm+nuget, nuget, remote |
