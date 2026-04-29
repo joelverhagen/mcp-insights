@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2026-04-28T21:20:43.0466922+00:00
+Generated on: 2026-04-29T04:02:01.0706526+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 20806
-- Total unique server names: 7143
-- Date range: 2025-09-08 to 2026-04-28
+- Total records processed: 20920
+- Total unique server names: 7198
+- Date range: 2025-09-08 to 2026-04-29
 - Peak day: 2026-04-22 with 291 unique server names
-- Average unique server names per day: 59.15
+- Average unique server names per day: 59.24
 
 ## Top 5 busiest days
 - 2026-04-22: 291 unique servers
@@ -22,14 +22,14 @@ Generated on: 2026-04-28T21:20:43.0466922+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| npm | 3038 | 42.53% |
-| remote | 2393 | 33.5% |
-| pypi | 1113 | 15.58% |
-| oci | 160 | 2.24% |
-| none | 123 | 1.72% |
-| mcpb | 119 | 1.67% |
-| oci+pypi | 57 | 0.8% |
-| npm+oci | 42 | 0.59% |
+| npm | 3044 | 42.29% |
+| remote | 2437 | 33.86% |
+| pypi | 1115 | 15.49% |
+| oci | 162 | 2.25% |
+| none | 123 | 1.71% |
+| mcpb | 120 | 1.67% |
+| oci+pypi | 57 | 0.79% |
+| npm+oci | 42 | 0.58% |
 | npm+pypi | 31 | 0.43% |
 | nuget | 28 | 0.39% |
 | mcpb+npm | 11 | 0.15% |
@@ -55,6 +55,7 @@ Generated on: 2026-04-28T21:20:43.0466922+00:00
 | ryudi84.github.io | 49 | npm |
 | daedalus.github.io | 48 | pypi |
 | theyahia.github.io | 47 | npm |
+| srotzin.github.io | 47 | remote |
 | olyport.com | 38 | remote |
 | rog0x.github.io | 33 | npm |
 | thenextgennexus.com | 27 | remote |
@@ -62,8 +63,7 @@ Generated on: 2026-04-28T21:20:43.0466922+00:00
 | geraservicesuk.github.io | 25 | npm |
 | junct-bot.github.io | 24 | remote |
 | nirholas.github.io | 22 | none, npm, pypi |
-| cyanheads.github.io | 21 | npm |
+| cyanheads.github.io | 22 | npm |
 | markswendsen-code.github.io | 19 | npm |
 | domdomegg.github.io | 18 | mcpb+npm, mcpb+npm+oci, npm, nuget, pypi |
 | therealmrfunguy.github.io | 17 | remote |
-| ansvar-systems.github.io | 17 | npm, pypi, remote |
