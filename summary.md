@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2026-04-29T06:37:29.2740085+00:00
+Generated on: 2026-04-29T10:22:47.8278384+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 20958
-- Total unique server names: 7206
+- Total records processed: 20995
+- Total unique server names: 7219
 - Date range: 2025-09-08 to 2026-04-29
 - Peak day: 2026-04-22 with 291 unique server names
-- Average unique server names per day: 59.36
+- Average unique server names per day: 59.46
 
 ## Top 5 busiest days
 - 2026-04-22: 291 unique servers
@@ -22,12 +22,12 @@ Generated on: 2026-04-29T06:37:29.2740085+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| npm | 3045 | 42.26% |
-| remote | 2444 | 33.92% |
-| pypi | 1115 | 15.47% |
-| oci | 162 | 2.25% |
-| none | 123 | 1.71% |
-| mcpb | 120 | 1.67% |
+| npm | 3048 | 42.22% |
+| remote | 2454 | 33.99% |
+| pypi | 1115 | 15.45% |
+| oci | 162 | 2.24% |
+| none | 123 | 1.7% |
+| mcpb | 120 | 1.66% |
 | oci+pypi | 57 | 0.79% |
 | npm+oci | 42 | 0.58% |
 | npm+pypi | 31 | 0.43% |
@@ -53,8 +53,8 @@ Generated on: 2026-04-29T06:37:29.2740085+00:00
 | br0ski777.github.io | 101 | remote |
 | codespar.github.io | 57 | npm |
 | ryudi84.github.io | 49 | npm |
+| theyahia.github.io | 48 | npm, remote |
 | daedalus.github.io | 48 | pypi |
-| theyahia.github.io | 47 | npm |
 | srotzin.github.io | 47 | remote |
 | olyport.com | 38 | remote |
 | rog0x.github.io | 33 | npm |
@@ -62,7 +62,7 @@ Generated on: 2026-04-29T06:37:29.2740085+00:00
 | dave-london.github.io | 26 | npm |
 | geraservicesuk.github.io | 25 | npm |
 | junct-bot.github.io | 24 | remote |
-| nirholas.github.io | 22 | none, npm, pypi |
+| nirholas.github.io | 23 | none, npm, pypi, remote |
 | cyanheads.github.io | 22 | npm |
 | markswendsen-code.github.io | 19 | npm |
 | domdomegg.github.io | 18 | mcpb+npm, mcpb+npm+oci, npm, nuget, pypi |
