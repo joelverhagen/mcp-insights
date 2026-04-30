@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2026-04-29T21:21:12.7571453+00:00
+Generated on: 2026-04-30T04:03:46.2702711+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 21199
-- Total unique server names: 7265
-- Date range: 2025-09-08 to 2026-04-29
+- Total records processed: 21258
+- Total unique server names: 7278
+- Date range: 2025-09-08 to 2026-04-30
 - Peak day: 2026-04-22 with 291 unique server names
-- Average unique server names per day: 59.87
+- Average unique server names per day: 59.74
 
 ## Top 5 busiest days
 - 2026-04-22: 291 unique servers
@@ -22,20 +22,20 @@ Generated on: 2026-04-29T21:21:12.7571453+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| npm | 3067 | 42.22% |
-| remote | 2459 | 33.85% |
-| pypi | 1127 | 15.51% |
+| npm | 3071 | 42.2% |
+| remote | 2465 | 33.87% |
+| pypi | 1128 | 15.5% |
 | oci | 171 | 2.35% |
-| none | 123 | 1.69% |
+| none | 124 | 1.7% |
 | mcpb | 120 | 1.65% |
 | oci+pypi | 57 | 0.78% |
 | npm+oci | 43 | 0.59% |
 | npm+pypi | 31 | 0.43% |
-| nuget | 28 | 0.39% |
+| nuget | 29 | 0.4% |
 | mcpb+npm | 11 | 0.15% |
 | mcpb+pypi | 8 | 0.11% |
 | mcpb+oci | 5 | 0.07% |
-| mcpb+npm+oci | 4 | 0.06% |
+| mcpb+npm+oci | 4 | 0.05% |
 | npm+oci+pypi | 3 | 0.04% |
 | npm+nuget | 2 | 0.03% |
 | mcpb+npm+nuget+pypi | 2 | 0.03% |
@@ -52,10 +52,10 @@ Generated on: 2026-04-29T21:21:12.7571453+00:00
 | ansvar.eu | 105 | npm, remote |
 | br0ski777.github.io | 101 | remote |
 | codespar.github.io | 57 | npm |
+| srotzin.github.io | 50 | remote |
 | ryudi84.github.io | 49 | npm |
 | theyahia.github.io | 48 | npm, remote |
 | daedalus.github.io | 48 | pypi |
-| srotzin.github.io | 47 | remote |
 | olyport.com | 38 | remote |
 | rog0x.github.io | 33 | npm |
 | thenextgennexus.com | 27 | remote |
@@ -63,7 +63,7 @@ Generated on: 2026-04-29T21:21:12.7571453+00:00
 | geraservicesuk.github.io | 25 | npm |
 | junct-bot.github.io | 24 | remote |
 | nirholas.github.io | 23 | none, npm, pypi, remote |
-| cyanheads.github.io | 22 | npm |
+| cyanheads.github.io | 23 | npm |
 | markswendsen-code.github.io | 19 | npm |
 | domdomegg.github.io | 18 | mcpb+npm, mcpb+npm+oci, npm, nuget, pypi |
 | therealmrfunguy.github.io | 17 | remote |
