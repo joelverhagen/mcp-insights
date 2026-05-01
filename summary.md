@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2026-05-01T13:54:04.3880851+00:00
+Generated on: 2026-05-01T21:09:37.1404301+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 21654
-- Total unique server names: 7343
+- Total records processed: 21726
+- Total unique server names: 7361
 - Date range: 2025-09-08 to 2026-05-01
 - Peak day: 2026-04-22 with 291 unique server names
-- Average unique server names per day: 60.33
+- Average unique server names per day: 60.49
 
 ## Top 5 busiest days
 - 2026-04-22: 291 unique servers
@@ -22,14 +22,14 @@ Generated on: 2026-05-01T13:54:04.3880851+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| npm | 3100 | 42.22% |
-| remote | 2489 | 33.9% |
-| pypi | 1138 | 15.5% |
-| oci | 171 | 2.33% |
-| none | 126 | 1.72% |
-| mcpb | 120 | 1.63% |
-| oci+pypi | 57 | 0.78% |
-| npm+oci | 43 | 0.59% |
+| npm | 3109 | 42.24% |
+| remote | 2492 | 33.85% |
+| pypi | 1137 | 15.45% |
+| oci | 177 | 2.4% |
+| none | 126 | 1.71% |
+| mcpb | 121 | 1.64% |
+| oci+pypi | 57 | 0.77% |
+| npm+oci | 43 | 0.58% |
 | npm+pypi | 31 | 0.42% |
 | nuget | 29 | 0.39% |
 | mcpb+npm | 11 | 0.15% |
@@ -66,4 +66,4 @@ Generated on: 2026-05-01T13:54:04.3880851+00:00
 | cyanheads.github.io | 23 | npm |
 | markswendsen-code.github.io | 19 | npm |
 | domdomegg.github.io | 18 | mcpb+npm, mcpb+npm+oci, npm, nuget, pypi |
-| therealmrfunguy.github.io | 17 | remote |
+| wyre-technology.github.io | 17 | oci |
