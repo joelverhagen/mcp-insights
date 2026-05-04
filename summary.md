@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2026-05-03T21:02:28.8879559+00:00
+Generated on: 2026-05-04T04:07:58.3992421+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 22161
-- Total unique server names: 7467
-- Date range: 2025-09-08 to 2026-05-03
+- Total records processed: 22263
+- Total unique server names: 7498
+- Date range: 2025-09-08 to 2026-05-04
 - Peak day: 2026-04-22 with 291 unique server names
-- Average unique server names per day: 61
+- Average unique server names per day: 61.1
 
 ## Top 5 busiest days
 - 2026-04-22: 291 unique servers
@@ -22,16 +22,16 @@ Generated on: 2026-05-03T21:02:28.8879559+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| npm | 3148 | 42.16% |
-| remote | 2530 | 33.88% |
-| pypi | 1160 | 15.54% |
-| oci | 178 | 2.38% |
-| none | 126 | 1.69% |
+| npm | 3159 | 42.13% |
+| remote | 2539 | 33.86% |
+| pypi | 1168 | 15.58% |
+| oci | 178 | 2.37% |
+| none | 126 | 1.68% |
 | mcpb | 122 | 1.63% |
-| oci+pypi | 58 | 0.78% |
-| npm+oci | 44 | 0.59% |
-| npm+pypi | 31 | 0.42% |
-| nuget | 30 | 0.4% |
+| oci+pypi | 58 | 0.77% |
+| npm+oci | 45 | 0.6% |
+| nuget | 32 | 0.43% |
+| npm+pypi | 31 | 0.41% |
 | mcpb+npm | 11 | 0.15% |
 | mcpb+pypi | 8 | 0.11% |
 | mcpb+oci | 6 | 0.08% |
@@ -51,8 +51,8 @@ Generated on: 2026-05-03T21:02:28.8879559+00:00
 | smithery.ai | 214 | remote |
 | ansvar.eu | 105 | npm, remote |
 | br0ski777.github.io | 101 | remote |
+| srotzin.github.io | 60 | remote |
 | codespar.github.io | 57 | npm |
-| srotzin.github.io | 53 | remote |
 | theyahia.github.io | 49 | npm, remote |
 | ryudi84.github.io | 49 | npm |
 | daedalus.github.io | 48 | pypi |
