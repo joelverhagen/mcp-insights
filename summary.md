@@ -1,39 +1,39 @@
 # Servers published summary
 
-Generated on: 2026-05-05T10:15:56.6055865+00:00
+Generated on: 2026-05-05T21:17:32.4220326+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 22523
-- Total unique server names: 7587
+- Total records processed: 22738
+- Total unique server names: 7687
 - Date range: 2025-09-08 to 2026-05-05
 - Peak day: 2026-04-22 with 291 unique server names
-- Average unique server names per day: 61.62
+- Average unique server names per day: 62.32
 
 ## Top 5 busiest days
 - 2026-04-22: 291 unique servers
 - 2026-04-12: 241 unique servers
 - 2026-04-03: 240 unique servers
+- 2026-05-05: 223 unique servers
 - 2026-04-01: 206 unique servers
-- 2026-04-23: 204 unique servers
 
 ## Unique server names by category
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| npm | 3191 | 42.06% |
-| remote | 2572 | 33.9% |
-| pypi | 1188 | 15.66% |
-| oci | 179 | 2.36% |
-| none | 129 | 1.7% |
-| mcpb | 122 | 1.61% |
-| oci+pypi | 58 | 0.76% |
+| npm | 3209 | 41.75% |
+| remote | 2583 | 33.6% |
+| pypi | 1193 | 15.52% |
+| oci | 180 | 2.34% |
+| none | 130 | 1.69% |
+| mcpb | 123 | 1.6% |
+| oci+pypi | 120 | 1.56% |
 | npm+oci | 45 | 0.59% |
-| nuget | 32 | 0.42% |
-| npm+pypi | 31 | 0.41% |
+| nuget | 33 | 0.43% |
+| npm+pypi | 31 | 0.4% |
 | mcpb+npm | 11 | 0.14% |
-| mcpb+pypi | 8 | 0.11% |
+| mcpb+pypi | 8 | 0.1% |
 | mcpb+oci | 6 | 0.08% |
 | mcpb+npm+oci | 4 | 0.05% |
 | npm+oci+pypi | 3 | 0.04% |
@@ -51,6 +51,7 @@ Generated on: 2026-05-05T10:15:56.6055865+00:00
 | smithery.ai | 214 | remote |
 | ansvar.eu | 105 | npm, remote |
 | br0ski777.github.io | 101 | remote |
+| mcparmory.com | 75 | oci+pypi |
 | srotzin.github.io | 60 | remote |
 | codespar.github.io | 57 | npm |
 | theyahia.github.io | 49 | npm, remote |
@@ -66,4 +67,3 @@ Generated on: 2026-05-05T10:15:56.6055865+00:00
 | cyanheads.github.io | 23 | npm |
 | markswendsen-code.github.io | 19 | npm |
 | domdomegg.github.io | 18 | mcpb+npm, mcpb+npm+oci, npm, nuget, pypi |
-| wyre-technology.github.io | 17 | oci |
