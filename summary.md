@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2026-05-06T21:24:20.7137754+00:00
+Generated on: 2026-05-07T04:03:30.5053583+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 23002
-- Total unique server names: 7755
-- Date range: 2025-09-08 to 2026-05-06
+- Total records processed: 23062
+- Total unique server names: 7782
+- Date range: 2025-09-08 to 2026-05-07
 - Peak day: 2026-04-22 with 291 unique server names
-- Average unique server names per day: 62.81
+- Average unique server names per day: 62.75
 
 ## Top 5 busiest days
 - 2026-04-22: 291 unique servers
@@ -22,15 +22,15 @@ Generated on: 2026-05-06T21:24:20.7137754+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| npm | 3237 | 41.74% |
-| remote | 2605 | 33.59% |
-| pypi | 1207 | 15.56% |
-| oci | 181 | 2.33% |
-| none | 130 | 1.68% |
+| npm | 3248 | 41.74% |
+| remote | 2613 | 33.58% |
+| pypi | 1207 | 15.51% |
+| oci | 187 | 2.4% |
+| none | 132 | 1.7% |
 | mcpb | 125 | 1.61% |
-| oci+pypi | 121 | 1.56% |
+| oci+pypi | 121 | 1.55% |
 | npm+oci | 45 | 0.58% |
-| nuget | 33 | 0.43% |
+| nuget | 33 | 0.42% |
 | npm+pypi | 31 | 0.4% |
 | mcpb+npm | 11 | 0.14% |
 | mcpb+pypi | 8 | 0.1% |
@@ -63,7 +63,7 @@ Generated on: 2026-05-06T21:24:20.7137754+00:00
 | dave-london.github.io | 26 | npm |
 | geraservicesuk.github.io | 25 | npm |
 | junct-bot.github.io | 24 | remote |
+| wyre-technology.github.io | 23 | oci |
 | nirholas.github.io | 23 | none, npm, pypi, remote |
 | cyanheads.github.io | 23 | npm |
 | markswendsen-code.github.io | 19 | npm |
-| domdomegg.github.io | 18 | mcpb+npm, mcpb+npm+oci, npm, nuget, pypi |
