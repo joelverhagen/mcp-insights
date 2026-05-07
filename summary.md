@@ -1,37 +1,37 @@
 # Servers published summary
 
-Generated on: 2026-05-07T06:53:44.3333753+00:00
+Generated on: 2026-05-07T10:37:58.8106852+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 23080
-- Total unique server names: 7787
+- Total records processed: 23298
+- Total unique server names: 7985
 - Date range: 2025-09-08 to 2026-05-07
 - Peak day: 2026-04-22 with 291 unique server names
-- Average unique server names per day: 62.81
+- Average unique server names per day: 63.7
 
 ## Top 5 busiest days
 - 2026-04-22: 291 unique servers
+- 2026-05-07: 259 unique servers
 - 2026-04-12: 241 unique servers
 - 2026-04-03: 240 unique servers
 - 2026-05-05: 238 unique servers
-- 2026-04-01: 206 unique servers
 
 ## Unique server names by category
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| npm | 3248 | 41.71% |
-| remote | 2617 | 33.61% |
-| pypi | 1208 | 15.51% |
-| oci | 187 | 2.4% |
-| none | 132 | 1.7% |
-| mcpb | 125 | 1.61% |
-| oci+pypi | 121 | 1.55% |
-| npm+oci | 45 | 0.58% |
-| nuget | 33 | 0.42% |
-| npm+pypi | 31 | 0.4% |
+| npm | 3253 | 40.74% |
+| remote | 2622 | 32.84% |
+| pypi | 1395 | 17.47% |
+| oci | 188 | 2.35% |
+| none | 132 | 1.65% |
+| mcpb | 125 | 1.57% |
+| oci+pypi | 121 | 1.52% |
+| npm+oci | 45 | 0.56% |
+| nuget | 33 | 0.41% |
+| npm+pypi | 31 | 0.39% |
 | mcpb+npm | 11 | 0.14% |
 | mcpb+pypi | 8 | 0.1% |
 | mcpb+oci | 6 | 0.08% |
@@ -49,6 +49,7 @@ Generated on: 2026-05-07T06:53:44.3333753+00:00
 |--------|---------------------:|------------|
 | pipeworx-io.github.io | 252 | remote |
 | smithery.ai | 214 | remote |
+| csoai-org.github.io | 194 | pypi |
 | ansvar.eu | 105 | npm, remote |
 | br0ski777.github.io | 101 | remote |
 | mcparmory.com | 75 | oci+pypi |
@@ -66,4 +67,3 @@ Generated on: 2026-05-07T06:53:44.3333753+00:00
 | wyre-technology.github.io | 23 | oci |
 | nirholas.github.io | 23 | none, npm, pypi, remote |
 | cyanheads.github.io | 23 | npm |
-| markswendsen-code.github.io | 19 | npm |
