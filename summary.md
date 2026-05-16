@@ -1,31 +1,31 @@
 # Servers published summary
 
-Generated on: 2026-05-16T04:01:58.8448535+00:00
+Generated on: 2026-05-16T06:36:22.7958849+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 26042
-- Total unique server names: 8745
+- Total records processed: 26062
+- Total unique server names: 8750
 - Date range: 2025-09-08 to 2026-05-16
 - Peak day: 2026-05-07 with 396 unique server names
-- Average unique server names per day: 67.88
+- Average unique server names per day: 67.93
 
 ## Top 5 busiest days
 - 2026-05-07: 396 unique servers
 - 2026-04-22: 291 unique servers
 - 2026-05-12: 243 unique servers
-- 2026-04-03: 240 unique servers
 - 2026-04-12: 240 unique servers
+- 2026-04-03: 240 unique servers
 
 ## Unique server names by category
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| npm | 3504 | 40.07% |
-| remote | 2999 | 34.29% |
-| pypi | 1452 | 16.6% |
-| oci | 207 | 2.37% |
+| npm | 3506 | 40.07% |
+| remote | 3000 | 34.29% |
+| pypi | 1453 | 16.61% |
+| oci | 208 | 2.38% |
 | none | 163 | 1.86% |
 | oci+pypi | 132 | 1.51% |
 | mcpb | 132 | 1.51% |
