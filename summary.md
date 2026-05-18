@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2026-05-18T11:59:07.2714577+00:00
+Generated on: 2026-05-18T16:00:06.7448596+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 26821
-- Total unique server names: 8932
+- Total records processed: 26899
+- Total unique server names: 8973
 - Date range: 2025-09-08 to 2026-05-18
 - Peak day: 2026-05-07 with 396 unique server names
-- Average unique server names per day: 69.28
+- Average unique server names per day: 69.53
 
 ## Top 5 busiest days
 - 2026-05-07: 396 unique servers
@@ -22,14 +22,14 @@ Generated on: 2026-05-18T11:59:07.2714577+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| npm | 3549 | 39.73% |
-| remote | 3112 | 34.84% |
-| pypi | 1472 | 16.48% |
-| oci | 210 | 2.35% |
+| npm | 3584 | 39.94% |
+| remote | 3115 | 34.72% |
+| pypi | 1473 | 16.42% |
+| oci | 211 | 2.35% |
 | none | 163 | 1.82% |
-| mcpb | 134 | 1.5% |
-| oci+pypi | 133 | 1.49% |
-| npm+oci | 47 | 0.53% |
+| oci+pypi | 134 | 1.49% |
+| mcpb | 134 | 1.49% |
+| npm+oci | 47 | 0.52% |
 | nuget | 36 | 0.4% |
 | npm+pypi | 34 | 0.38% |
 | mcpb+npm | 12 | 0.13% |
@@ -63,8 +63,8 @@ Generated on: 2026-05-18T11:59:07.2714577+00:00
 | daedalus.github.io | 49 | pypi |
 | olyport.com | 38 | remote |
 | rog0x.github.io | 33 | npm |
+| pulsemcp.com | 29 | npm |
 | wyre-technology.github.io | 27 | oci |
 | thenextgennexus.com | 27 | remote |
 | dave-london.github.io | 26 | npm |
 | geraservicesuk.github.io | 25 | npm |
-| junct-bot.github.io | 24 | remote |
