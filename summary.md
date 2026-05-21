@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2026-05-21T04:45:51.9855546+00:00
+Generated on: 2026-05-21T11:41:33.5934470+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 27887
-- Total unique server names: 9345
+- Total records processed: 28041
+- Total unique server names: 9402
 - Date range: 2025-09-08 to 2026-05-21
 - Peak day: 2026-05-07 with 396 unique server names
-- Average unique server names per day: 71.29
+- Average unique server names per day: 71.7
 
 ## Top 5 busiest days
 - 2026-05-07: 396 unique servers
@@ -22,15 +22,15 @@ Generated on: 2026-05-21T04:45:51.9855546+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| npm | 3682 | 39.4% |
-| remote | 3327 | 35.6% |
-| pypi | 1503 | 16.08% |
-| oci | 216 | 2.31% |
-| none | 168 | 1.8% |
-| mcpb | 150 | 1.61% |
+| npm | 3723 | 39.6% |
+| remote | 3340 | 35.52% |
+| pypi | 1505 | 16.01% |
+| oci | 217 | 2.31% |
+| none | 168 | 1.79% |
+| mcpb | 150 | 1.6% |
 | oci+pypi | 135 | 1.44% |
 | npm+oci | 48 | 0.51% |
-| nuget | 38 | 0.41% |
+| nuget | 38 | 0.4% |
 | npm+pypi | 35 | 0.37% |
 | mcpb+npm | 12 | 0.13% |
 | mcpb+pypi | 9 | 0.1% |
@@ -50,7 +50,7 @@ Generated on: 2026-05-21T04:45:51.9855546+00:00
 |--------|---------------------:|------------|
 | pipeworx-io.github.io | 502 | remote |
 | smithery.ai | 214 | remote |
-| csoai-org.github.io | 209 | pypi |
+| csoai-org.github.io | 210 | pypi |
 | ansvar.eu | 105 | npm, remote |
 | br0ski777.github.io | 101 | remote |
 | mcparmory.com | 76 | oci+pypi |
@@ -62,9 +62,9 @@ Generated on: 2026-05-21T04:45:51.9855546+00:00
 | ryudi84.github.io | 49 | npm |
 | daedalus.github.io | 49 | pypi |
 | olyport.com | 38 | remote |
+| mindstone.github.io | 35 | npm |
 | rog0x.github.io | 33 | npm |
 | pulsemcp.com | 28 | npm |
 | wyre-technology.github.io | 27 | oci |
 | thenextgennexus.com | 27 | remote |
 | dave-london.github.io | 26 | npm |
-| geraservicesuk.github.io | 25 | npm |
