@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2026-05-21T15:55:25.4304055+00:00
+Generated on: 2026-05-21T21:52:15.2629235+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 28118
-- Total unique server names: 9420
+- Total records processed: 28209
+- Total unique server names: 9443
 - Date range: 2025-09-08 to 2026-05-21
 - Peak day: 2026-05-07 with 396 unique server names
-- Average unique server names per day: 71.86
+- Average unique server names per day: 72.11
 
 ## Top 5 busiest days
 - 2026-05-07: 396 unique servers
@@ -22,11 +22,11 @@ Generated on: 2026-05-21T15:55:25.4304055+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| npm | 3729 | 39.59% |
-| remote | 3349 | 35.55% |
-| pypi | 1507 | 16% |
+| npm | 3738 | 39.58% |
+| remote | 3360 | 35.58% |
+| pypi | 1509 | 15.98% |
 | oci | 217 | 2.3% |
-| none | 169 | 1.79% |
+| none | 170 | 1.8% |
 | mcpb | 150 | 1.59% |
 | oci+pypi | 135 | 1.43% |
 | npm+oci | 48 | 0.51% |
@@ -62,7 +62,7 @@ Generated on: 2026-05-21T15:55:25.4304055+00:00
 | ryudi84.github.io | 49 | npm |
 | daedalus.github.io | 49 | pypi |
 | olyport.com | 38 | remote |
-| mindstone.github.io | 35 | npm |
+| mindstone.github.io | 36 | npm |
 | rog0x.github.io | 33 | npm |
 | pulsemcp.com | 28 | npm |
 | wyre-technology.github.io | 27 | oci |
