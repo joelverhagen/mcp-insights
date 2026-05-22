@@ -1,36 +1,36 @@
 # Servers published summary
 
-Generated on: 2026-05-22T15:23:14.7881244+00:00
+Generated on: 2026-05-22T21:26:48.4085711+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 28470
-- Total unique server names: 9529
+- Total records processed: 28573
+- Total unique server names: 9546
 - Date range: 2025-09-08 to 2026-05-22
 - Peak day: 2026-05-07 with 396 unique server names
-- Average unique server names per day: 72.53
+- Average unique server names per day: 72.65
 
 ## Top 5 busiest days
 - 2026-05-07: 396 unique servers
 - 2026-05-16: 321 unique servers
 - 2026-04-22: 291 unique servers
-- 2026-05-20: 260 unique servers
+- 2026-05-20: 259 unique servers
 - 2026-05-19: 255 unique servers
 
 ## Unique server names by category
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| npm | 3759 | 39.45% |
-| remote | 3379 | 35.46% |
-| pypi | 1519 | 15.94% |
-| oci | 221 | 2.32% |
+| npm | 3765 | 39.44% |
+| remote | 3386 | 35.47% |
+| pypi | 1521 | 15.93% |
+| oci | 222 | 2.33% |
 | none | 200 | 2.1% |
 | mcpb | 150 | 1.57% |
-| oci+pypi | 135 | 1.42% |
+| oci+pypi | 135 | 1.41% |
 | npm+oci | 49 | 0.51% |
-| nuget | 39 | 0.41% |
+| nuget | 40 | 0.42% |
 | npm+pypi | 35 | 0.37% |
 | mcpb+npm | 12 | 0.13% |
 | mcpb+pypi | 9 | 0.09% |
@@ -64,7 +64,7 @@ Generated on: 2026-05-22T15:23:14.7881244+00:00
 | olyport.com | 38 | remote |
 | mindstone.github.io | 36 | npm |
 | rog0x.github.io | 33 | npm |
+| wyre-technology.github.io | 31 | oci |
 | rocnubie.github.io | 31 | none |
-| wyre-technology.github.io | 30 | oci |
 | pulsemcp.com | 28 | npm |
 | thenextgennexus.com | 27 | remote |
