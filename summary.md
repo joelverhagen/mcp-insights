@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2026-06-01T13:52:42.5408791+00:00
+Generated on: 2026-06-01T20:31:43.4115328+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 31636
-- Total unique server names: 10423
+- Total records processed: 31751
+- Total unique server names: 10506
 - Date range: 2025-09-08 to 2026-06-01
 - Peak day: 2026-05-07 with 396 unique server names
-- Average unique server names per day: 77.87
+- Average unique server names per day: 78.27
 
 ## Top 5 busiest days
 - 2026-05-07: 396 unique servers
@@ -22,18 +22,18 @@ Generated on: 2026-06-01T13:52:42.5408791+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| npm | 4072 | 39.07% |
-| remote | 3803 | 36.49% |
-| pypi | 1614 | 15.48% |
-| oci | 245 | 2.35% |
-| none | 214 | 2.05% |
-| mcpb | 157 | 1.51% |
-| oci+pypi | 136 | 1.3% |
+| npm | 4134 | 39.35% |
+| remote | 3819 | 36.35% |
+| pypi | 1617 | 15.39% |
+| oci | 245 | 2.33% |
+| none | 215 | 2.05% |
+| mcpb | 157 | 1.49% |
+| oci+pypi | 136 | 1.29% |
 | nuget | 50 | 0.48% |
 | npm+oci | 50 | 0.48% |
-| npm+pypi | 36 | 0.35% |
+| npm+pypi | 36 | 0.34% |
 | mcpb+npm | 13 | 0.12% |
-| mcpb+pypi | 10 | 0.1% |
+| mcpb+pypi | 11 | 0.1% |
 | mcpb+oci | 6 | 0.06% |
 | npm+oci+pypi | 4 | 0.04% |
 | mcpb+npm+oci | 4 | 0.04% |
@@ -48,7 +48,7 @@ Generated on: 2026-06-01T13:52:42.5408791+00:00
 
 | Domain | Unique Server Names | Categories |
 |--------|---------------------:|------------|
-| pipeworx-io.github.io | 548 | remote |
+| pipeworx-io.github.io | 553 | remote |
 | smithery.ai | 214 | remote |
 | csoai-org.github.io | 210 | pypi |
 | ansvar.eu | 105 | npm, remote |
@@ -63,8 +63,8 @@ Generated on: 2026-06-01T13:52:42.5408791+00:00
 | theyahia.github.io | 49 | npm, remote |
 | ryudi84.github.io | 49 | npm |
 | daedalus.github.io | 49 | pypi |
+| malamutemayhem.github.io | 45 | npm |
 | wyre-technology.github.io | 43 | oci |
 | olyport.com | 38 | remote |
 | mindstone.github.io | 37 | npm |
 | rog0x.github.io | 33 | npm |
-| rocnubie.github.io | 31 | none |
