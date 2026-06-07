@@ -1,40 +1,40 @@
 # Servers published summary
 
-Generated on: 2026-06-07T14:28:41.9413438+00:00
+Generated on: 2026-06-07T21:30:34.3004246+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 33959
-- Total unique server names: 11151
+- Total records processed: 34113
+- Total unique server names: 11196
 - Date range: 2025-09-08 to 2026-06-07
 - Peak day: 2026-05-07 with 396 unique server names
-- Average unique server names per day: 82.17
+- Average unique server names per day: 82.49
 
 ## Top 5 busiest days
 - 2026-05-07: 396 unique servers
 - 2026-06-02: 385 unique servers
 - 2026-05-29: 332 unique servers
 - 2026-05-16: 321 unique servers
-- 2026-05-28: 304 unique servers
+- 2026-06-07: 307 unique servers
 
 ## Unique server names by category
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| npm | 4318 | 38.72% |
-| remote | 4109 | 36.85% |
-| pypi | 1715 | 15.38% |
-| oci | 257 | 2.3% |
-| none | 224 | 2.01% |
-| mcpb | 205 | 1.84% |
-| oci+pypi | 137 | 1.23% |
+| npm | 4330 | 38.67% |
+| remote | 4125 | 36.84% |
+| pypi | 1717 | 15.34% |
+| oci | 260 | 2.32% |
+| none | 226 | 2.02% |
+| mcpb | 214 | 1.91% |
+| oci+pypi | 137 | 1.22% |
 | nuget | 50 | 0.45% |
 | npm+oci | 50 | 0.45% |
 | npm+pypi | 37 | 0.33% |
 | mcpb+npm | 13 | 0.12% |
 | mcpb+pypi | 11 | 0.1% |
-| mcpb+oci | 7 | 0.06% |
+| mcpb+oci | 8 | 0.07% |
 | npm+oci+pypi | 4 | 0.04% |
 | mcpb+npm+oci | 4 | 0.04% |
 | mcpb+npm+nuget+oci+pypi | 3 | 0.03% |
@@ -60,11 +60,11 @@ Generated on: 2026-06-07T14:28:41.9413438+00:00
 | srotzin.github.io | 60 | remote |
 | codespar.github.io | 57 | npm |
 | lazymac2x.github.io | 55 | npm, remote |
+| servosity.github.io | 51 | mcpb |
 | theyahia.github.io | 49 | npm, remote |
 | ryudi84.github.io | 49 | npm |
 | daedalus.github.io | 49 | pypi |
 | wyre-technology.github.io | 47 | oci |
 | malamutemayhem.github.io | 45 | npm |
-| servosity.github.io | 42 | mcpb |
 | olyport.com | 38 | remote |
 | mindstone.github.io | 37 | npm |
