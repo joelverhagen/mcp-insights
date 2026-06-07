@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2026-06-07T10:43:35.8856999+00:00
+Generated on: 2026-06-07T14:28:41.9413438+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 33847
-- Total unique server names: 11126
+- Total records processed: 33959
+- Total unique server names: 11151
 - Date range: 2025-09-08 to 2026-06-07
 - Peak day: 2026-05-07 with 396 unique server names
-- Average unique server names per day: 81.86
+- Average unique server names per day: 82.17
 
 ## Top 5 busiest days
 - 2026-05-07: 396 unique servers
@@ -22,12 +22,12 @@ Generated on: 2026-06-07T10:43:35.8856999+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| npm | 4310 | 38.74% |
-| remote | 4104 | 36.89% |
-| pypi | 1713 | 15.4% |
-| oci | 255 | 2.29% |
+| npm | 4318 | 38.72% |
+| remote | 4109 | 36.85% |
+| pypi | 1715 | 15.38% |
+| oci | 257 | 2.3% |
 | none | 224 | 2.01% |
-| mcpb | 197 | 1.77% |
+| mcpb | 205 | 1.84% |
 | oci+pypi | 137 | 1.23% |
 | nuget | 50 | 0.45% |
 | npm+oci | 50 | 0.45% |
@@ -65,6 +65,6 @@ Generated on: 2026-06-07T10:43:35.8856999+00:00
 | daedalus.github.io | 49 | pypi |
 | wyre-technology.github.io | 47 | oci |
 | malamutemayhem.github.io | 45 | npm |
+| servosity.github.io | 42 | mcpb |
 | olyport.com | 38 | remote |
 | mindstone.github.io | 37 | npm |
-| servosity.github.io | 34 | mcpb |
