@@ -1,19 +1,19 @@
 # Servers published summary
 
-Generated on: 2026-06-09T15:32:56.6606344+00:00
+Generated on: 2026-06-09T22:06:47.3136535+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 34854
-- Total unique server names: 11411
+- Total records processed: 35055
+- Total unique server names: 11471
 - Date range: 2025-09-08 to 2026-06-09
 - Peak day: 2026-05-07 with 396 unique server names
-- Average unique server names per day: 83.74
+- Average unique server names per day: 84.13
 
 ## Top 5 busiest days
 - 2026-05-07: 396 unique servers
-- 2026-06-02: 385 unique servers
+- 2026-06-02: 384 unique servers
 - 2026-06-07: 342 unique servers
 - 2026-05-29: 332 unique servers
 - 2026-05-16: 321 unique servers
@@ -22,21 +22,21 @@ Generated on: 2026-06-09T15:32:56.6606344+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| npm | 4381 | 38.39% |
-| remote | 4251 | 37.25% |
-| pypi | 1740 | 15.25% |
-| oci | 270 | 2.37% |
-| none | 228 | 2% |
-| mcpb | 214 | 1.88% |
-| oci+pypi | 138 | 1.21% |
-| nuget | 51 | 0.45% |
+| npm | 4391 | 38.28% |
+| remote | 4297 | 37.46% |
+| pypi | 1743 | 15.19% |
+| oci | 270 | 2.35% |
+| none | 228 | 1.99% |
+| mcpb | 214 | 1.87% |
+| oci+pypi | 139 | 1.21% |
+| nuget | 51 | 0.44% |
 | npm+oci | 50 | 0.44% |
 | npm+pypi | 37 | 0.32% |
 | mcpb+npm | 13 | 0.11% |
 | mcpb+pypi | 11 | 0.1% |
 | mcpb+oci | 9 | 0.08% |
-| npm+oci+pypi | 4 | 0.04% |
-| mcpb+npm+oci | 4 | 0.04% |
+| npm+oci+pypi | 4 | 0.03% |
+| mcpb+npm+oci | 4 | 0.03% |
 | mcpb+npm+nuget+oci+pypi | 3 | 0.03% |
 | npm+nuget | 2 | 0.02% |
 | mcpb+npm+nuget+pypi | 2 | 0.02% |
@@ -48,7 +48,7 @@ Generated on: 2026-06-09T15:32:56.6606344+00:00
 
 | Domain | Unique Server Names | Categories |
 |--------|---------------------:|------------|
-| pipeworx-io.github.io | 713 | remote |
+| pipeworx-io.github.io | 741 | remote |
 | csoai-org.github.io | 234 | pypi |
 | smithery.ai | 214 | remote |
 | ansvar.eu | 105 | npm, remote |
