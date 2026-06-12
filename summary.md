@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2026-06-12T05:07:14.8193259+00:00
+Generated on: 2026-06-12T11:59:29.6807912+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 36442
-- Total unique server names: 11994
+- Total records processed: 36607
+- Total unique server names: 12048
 - Date range: 2025-09-08 to 2026-06-12
 - Peak day: 2026-06-10 with 486 unique server names
-- Average unique server names per day: 86.96
+- Average unique server names per day: 87.38
 
 ## Top 5 busiest days
 - 2026-06-10: 486 unique servers
@@ -22,22 +22,22 @@ Generated on: 2026-06-12T05:07:14.8193259+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| remote | 4626 | 38.57% |
-| npm | 4475 | 37.31% |
-| pypi | 1835 | 15.3% |
-| oci | 275 | 2.29% |
-| none | 233 | 1.94% |
-| mcpb | 219 | 1.83% |
-| oci+pypi | 139 | 1.16% |
-| nuget | 51 | 0.43% |
+| remote | 4646 | 38.56% |
+| npm | 4502 | 37.37% |
+| pypi | 1841 | 15.28% |
+| oci | 275 | 2.28% |
+| none | 233 | 1.93% |
+| mcpb | 220 | 1.83% |
+| oci+pypi | 139 | 1.15% |
+| nuget | 51 | 0.42% |
 | npm+oci | 50 | 0.42% |
 | npm+pypi | 37 | 0.31% |
-| mcpb+npm | 15 | 0.13% |
+| mcpb+npm | 15 | 0.12% |
 | mcpb+pypi | 11 | 0.09% |
-| mcpb+oci | 9 | 0.08% |
+| mcpb+oci | 9 | 0.07% |
 | npm+oci+pypi | 4 | 0.03% |
 | mcpb+npm+oci | 4 | 0.03% |
-| mcpb+npm+nuget+oci+pypi | 3 | 0.03% |
+| mcpb+npm+nuget+oci+pypi | 3 | 0.02% |
 | npm+nuget | 2 | 0.02% |
 | mcpb+npm+nuget+pypi | 2 | 0.02% |
 | nuget+oci+pypi | 1 | 0.01% |
@@ -55,7 +55,7 @@ Generated on: 2026-06-12T05:07:14.8193259+00:00
 | ansvar.eu | 105 | npm, remote |
 | br0ski777.github.io | 101 | remote |
 | evozim.github.io | 99 | npm, remote |
-| cyanheads.github.io | 97 | npm |
+| cyanheads.github.io | 98 | npm |
 | mcp-dir.github.io | 88 | remote |
 | mcparmory.com | 76 | oci+pypi |
 | tooloracle.io | 61 | remote |
