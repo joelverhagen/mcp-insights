@@ -1,19 +1,19 @@
 # Servers published summary
 
-Generated on: 2026-06-11T22:18:33.8804830+00:00
+Generated on: 2026-06-12T05:07:14.8193259+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 36306
-- Total unique server names: 11938
-- Date range: 2025-09-08 to 2026-06-11
+- Total records processed: 36442
+- Total unique server names: 11994
+- Date range: 2025-09-08 to 2026-06-12
 - Peak day: 2026-06-10 with 486 unique server names
-- Average unique server names per day: 86.86
+- Average unique server names per day: 86.96
 
 ## Top 5 busiest days
 - 2026-06-10: 486 unique servers
-- 2026-06-11: 416 unique servers
+- 2026-06-11: 458 unique servers
 - 2026-05-07: 396 unique servers
 - 2026-06-02: 384 unique servers
 - 2026-06-07: 342 unique servers
@@ -22,11 +22,11 @@ Generated on: 2026-06-11T22:18:33.8804830+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| remote | 4580 | 38.36% |
-| npm | 4468 | 37.43% |
-| pypi | 1833 | 15.35% |
-| oci | 275 | 2.3% |
-| none | 232 | 1.94% |
+| remote | 4626 | 38.57% |
+| npm | 4475 | 37.31% |
+| pypi | 1835 | 15.3% |
+| oci | 275 | 2.29% |
+| none | 233 | 1.94% |
 | mcpb | 219 | 1.83% |
 | oci+pypi | 139 | 1.16% |
 | nuget | 51 | 0.43% |
@@ -56,7 +56,7 @@ Generated on: 2026-06-11T22:18:33.8804830+00:00
 | br0ski777.github.io | 101 | remote |
 | evozim.github.io | 99 | npm, remote |
 | cyanheads.github.io | 97 | npm |
-| mcp-dir.github.io | 87 | remote |
+| mcp-dir.github.io | 88 | remote |
 | mcparmory.com | 76 | oci+pypi |
 | tooloracle.io | 61 | remote |
 | srotzin.github.io | 60 | remote |
