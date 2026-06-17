@@ -1,31 +1,31 @@
 # Servers published summary
 
-Generated on: 2026-06-17T18:37:09.5241325+00:00
+Generated on: 2026-06-17T22:18:13.2560220+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 38820
-- Total unique server names: 12616
+- Total records processed: 38869
+- Total unique server names: 12628
 - Date range: 2025-09-08 to 2026-06-17
 - Peak day: 2026-06-10 with 486 unique server names
-- Average unique server names per day: 91.29
+- Average unique server names per day: 91.4
 
 ## Top 5 busiest days
 - 2026-06-10: 486 unique servers
 - 2026-06-11: 457 unique servers
-- 2026-05-07: 396 unique servers
 - 2026-06-12: 396 unique servers
+- 2026-05-07: 396 unique servers
 - 2026-06-02: 384 unique servers
 
 ## Unique server names by category
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| remote | 4921 | 39.01% |
-| npm | 4681 | 37.1% |
-| pypi | 1923 | 15.24% |
-| oci | 282 | 2.24% |
+| remote | 4925 | 39% |
+| npm | 4684 | 37.09% |
+| pypi | 1928 | 15.27% |
+| oci | 282 | 2.23% |
 | none | 237 | 1.88% |
 | mcpb | 233 | 1.85% |
 | oci+pypi | 139 | 1.1% |
@@ -64,9 +64,9 @@ Generated on: 2026-06-17T18:37:09.5241325+00:00
 | codespar.github.io | 57 | npm |
 | servosity.github.io | 55 | mcpb |
 | lazymac2x.github.io | 55 | npm, remote |
+| daedalus.github.io | 50 | pypi |
 | theyahia.github.io | 49 | npm, remote |
 | ryudi84.github.io | 49 | npm |
-| daedalus.github.io | 49 | pypi |
 | wyre-technology.github.io | 47 | oci |
 | malamutemayhem.github.io | 45 | npm |
 | olyport.com | 38 | remote |
