@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2026-06-23T11:36:00.6578811+00:00
+Generated on: 2026-06-23T15:30:29.5630165+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 41228
-- Total unique server names: 13281
+- Total records processed: 41307
+- Total unique server names: 13312
 - Date range: 2025-09-08 to 2026-06-23
 - Peak day: 2026-06-10 with 486 unique server names
-- Average unique server names per day: 95.47
+- Average unique server names per day: 95.67
 
 ## Top 5 busiest days
 - 2026-06-10: 486 unique servers
@@ -22,12 +22,12 @@ Generated on: 2026-06-23T11:36:00.6578811+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| remote | 5245 | 39.49% |
-| npm | 4903 | 36.92% |
-| pypi | 2009 | 15.13% |
+| remote | 5255 | 39.48% |
+| npm | 4921 | 36.97% |
+| pypi | 2011 | 15.11% |
 | oci | 287 | 2.16% |
 | none | 246 | 1.85% |
-| mcpb | 243 | 1.83% |
+| mcpb | 244 | 1.83% |
 | oci+pypi | 140 | 1.05% |
 | nuget | 55 | 0.41% |
 | npm+oci | 52 | 0.39% |
@@ -50,7 +50,7 @@ Generated on: 2026-06-23T11:36:00.6578811+00:00
 
 | Domain | Unique Server Names | Categories |
 |--------|---------------------:|------------|
-| pipeworx-io.github.io | 834 | remote |
+| pipeworx-io.github.io | 835 | remote |
 | csoai-org.github.io | 301 | pypi |
 | smithery.ai | 214 | remote |
 | cyanheads.github.io | 116 | npm |
@@ -69,4 +69,4 @@ Generated on: 2026-06-23T11:36:00.6578811+00:00
 | theyahia.github.io | 49 | npm, remote |
 | ryudi84.github.io | 49 | npm |
 | malamutemayhem.github.io | 45 | npm |
-| olyport.com | 38 | remote |
+| nirholas.github.io | 42 | none, npm, pypi, remote |
