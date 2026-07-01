@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2026-07-01T15:06:42.7939188+00:00
+Generated on: 2026-07-01T21:54:19.1299575+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 44475
-- Total unique server names: 14377
+- Total records processed: 44620
+- Total unique server names: 14426
 - Date range: 2025-09-08 to 2026-07-01
 - Peak day: 2026-06-10 with 485 unique server names
-- Average unique server names per day: 100.75
+- Average unique server names per day: 101.1
 
 ## Top 5 busiest days
 - 2026-06-10: 485 unique servers
@@ -22,17 +22,17 @@ Generated on: 2026-07-01T15:06:42.7939188+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| remote | 5919 | 41.17% |
-| npm | 5180 | 36.03% |
-| pypi | 2114 | 14.7% |
-| oci | 303 | 2.11% |
-| none | 250 | 1.74% |
-| mcpb | 248 | 1.72% |
-| oci+pypi | 142 | 0.99% |
+| remote | 5942 | 41.19% |
+| npm | 5196 | 36.02% |
+| pypi | 2120 | 14.7% |
+| oci | 303 | 2.1% |
+| none | 251 | 1.74% |
+| mcpb | 251 | 1.74% |
+| oci+pypi | 142 | 0.98% |
 | nuget | 62 | 0.43% |
 | npm+oci | 55 | 0.38% |
 | npm+pypi | 43 | 0.3% |
-| mcpb+npm | 18 | 0.13% |
+| mcpb+npm | 18 | 0.12% |
 | mcpb+pypi | 12 | 0.08% |
 | mcpb+oci | 9 | 0.06% |
 | npm+oci+pypi | 5 | 0.03% |
@@ -50,7 +50,7 @@ Generated on: 2026-07-01T15:06:42.7939188+00:00
 
 | Domain | Unique Server Names | Categories |
 |--------|---------------------:|------------|
-| pipeworx-io.github.io | 1157 | remote |
+| pipeworx-io.github.io | 1171 | remote |
 | csoai-org.github.io | 305 | pypi |
 | smithery.ai | 214 | remote |
 | cyanheads.github.io | 124 | npm |
@@ -63,7 +63,7 @@ Generated on: 2026-07-01T15:06:42.7939188+00:00
 | nirholas.github.io | 63 | none, npm, pypi, remote |
 | tooloracle.io | 61 | remote |
 | srotzin.github.io | 60 | remote |
-| servosity.github.io | 55 | mcpb |
+| servosity.github.io | 57 | mcpb |
 | lazymac2x.github.io | 55 | npm, remote |
 | wyre-technology.github.io | 50 | oci |
 | daedalus.github.io | 50 | pypi |
