@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2026-06-30T21:55:08.1243677+00:00
+Generated on: 2026-07-01T04:58:35.0218728+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 44196
-- Total unique server names: 14294
-- Date range: 2025-09-08 to 2026-06-30
+- Total records processed: 44311
+- Total unique server names: 14327
+- Date range: 2025-09-08 to 2026-07-01
 - Peak day: 2026-06-10 with 485 unique server names
-- Average unique server names per day: 100.39
+- Average unique server names per day: 100.34
 
 ## Top 5 busiest days
 - 2026-06-10: 485 unique servers
@@ -22,14 +22,14 @@ Generated on: 2026-06-30T21:55:08.1243677+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| remote | 5868 | 41.05% |
-| npm | 5157 | 36.08% |
-| pypi | 2107 | 14.74% |
+| remote | 5888 | 41.1% |
+| npm | 5168 | 36.07% |
+| pypi | 2108 | 14.71% |
 | oci | 302 | 2.11% |
-| none | 250 | 1.75% |
+| none | 250 | 1.74% |
 | mcpb | 248 | 1.73% |
 | oci+pypi | 142 | 0.99% |
-| nuget | 61 | 0.43% |
+| nuget | 62 | 0.43% |
 | npm+oci | 55 | 0.38% |
 | npm+pypi | 43 | 0.3% |
 | mcpb+npm | 18 | 0.13% |
@@ -50,7 +50,7 @@ Generated on: 2026-06-30T21:55:08.1243677+00:00
 
 | Domain | Unique Server Names | Categories |
 |--------|---------------------:|------------|
-| pipeworx-io.github.io | 1126 | remote |
+| pipeworx-io.github.io | 1137 | remote |
 | csoai-org.github.io | 305 | pypi |
 | smithery.ai | 214 | remote |
 | cyanheads.github.io | 124 | npm |
@@ -60,9 +60,9 @@ Generated on: 2026-06-30T21:55:08.1243677+00:00
 | evozim.github.io | 99 | npm, remote |
 | mcp-dir.github.io | 97 | remote |
 | mcparmory.com | 76 | oci+pypi |
+| nirholas.github.io | 63 | none, npm, pypi, remote |
 | tooloracle.io | 61 | remote |
 | srotzin.github.io | 60 | remote |
-| nirholas.github.io | 59 | none, npm, pypi, remote |
 | servosity.github.io | 55 | mcpb |
 | lazymac2x.github.io | 55 | npm, remote |
 | wyre-technology.github.io | 50 | oci |
