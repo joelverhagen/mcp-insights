@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2026-07-02T18:26:33.2723629+00:00
+Generated on: 2026-07-02T21:28:58.4423897+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 45142
-- Total unique server names: 14595
+- Total records processed: 45210
+- Total unique server names: 14620
 - Date range: 2025-09-08 to 2026-07-02
 - Peak day: 2026-06-10 with 485 unique server names
-- Average unique server names per day: 102.01
+- Average unique server names per day: 102.18
 
 ## Top 5 busiest days
 - 2026-06-10: 485 unique servers
@@ -22,12 +22,12 @@ Generated on: 2026-07-02T18:26:33.2723629+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| remote | 6046 | 41.43% |
-| npm | 5233 | 35.85% |
-| pypi | 2138 | 14.65% |
-| oci | 306 | 2.1% |
-| mcpb | 255 | 1.75% |
-| none | 252 | 1.73% |
+| remote | 6056 | 41.42% |
+| npm | 5241 | 35.85% |
+| pypi | 2143 | 14.66% |
+| oci | 306 | 2.09% |
+| mcpb | 255 | 1.74% |
+| none | 254 | 1.74% |
 | oci+pypi | 142 | 0.97% |
 | nuget | 62 | 0.42% |
 | npm+oci | 56 | 0.38% |
@@ -50,7 +50,7 @@ Generated on: 2026-07-02T18:26:33.2723629+00:00
 
 | Domain | Unique Server Names | Categories |
 |--------|---------------------:|------------|
-| pipeworx-io.github.io | 1214 | remote |
+| pipeworx-io.github.io | 1215 | remote |
 | csoai-org.github.io | 305 | pypi |
 | smithery.ai | 214 | remote |
 | cyanheads.github.io | 124 | npm |
