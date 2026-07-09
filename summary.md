@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2026-07-09T04:18:46.0331738+00:00
+Generated on: 2026-07-09T11:31:35.2796005+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 48400
-- Total unique server names: 15637
+- Total records processed: 48557
+- Total unique server names: 15716
 - Date range: 2025-09-08 to 2026-07-09
 - Peak day: 2026-06-10 with 484 unique server names
-- Average unique server names per day: 107.14
+- Average unique server names per day: 107.53
 
 ## Top 5 busiest days
 - 2026-06-10: 484 unique servers
@@ -22,13 +22,13 @@ Generated on: 2026-07-09T04:18:46.0331738+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| remote | 6553 | 41.91% |
-| npm | 5523 | 35.32% |
-| pypi | 2314 | 14.8% |
-| oci | 325 | 2.08% |
-| mcpb | 277 | 1.77% |
-| none | 268 | 1.71% |
-| oci+pypi | 142 | 0.91% |
+| remote | 6610 | 42.06% |
+| npm | 5532 | 35.2% |
+| pypi | 2324 | 14.79% |
+| oci | 326 | 2.07% |
+| mcpb | 278 | 1.77% |
+| none | 269 | 1.71% |
+| oci+pypi | 142 | 0.9% |
 | nuget | 66 | 0.42% |
 | npm+oci | 57 | 0.36% |
 | npm+pypi | 48 | 0.31% |
@@ -60,6 +60,7 @@ Generated on: 2026-07-09T04:18:46.0331738+00:00
 | br0ski777.github.io | 101 | remote |
 | evozim.github.io | 99 | npm, remote |
 | mcp-dir.github.io | 97 | remote |
+| wishpool.app | 81 | remote |
 | mcparmory.com | 76 | oci+pypi |
 | nirholas.github.io | 63 | none, npm, pypi, remote |
 | tooloracle.io | 61 | remote |
@@ -67,7 +68,6 @@ Generated on: 2026-07-09T04:18:46.0331738+00:00
 | servosity.github.io | 57 | mcpb |
 | lazymac2x.github.io | 55 | npm, remote |
 | wyre-technology.github.io | 51 | oci |
-| wishpool.app | 50 | remote |
 | daedalus.github.io | 50 | pypi |
 | theyahia.github.io | 49 | npm, remote |
 | ryudi84.github.io | 49 | npm |
