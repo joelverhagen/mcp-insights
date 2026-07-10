@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2026-07-09T21:49:49.1382687+00:00
+Generated on: 2026-07-10T04:18:53.5245311+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 48809
-- Total unique server names: 15794
-- Date range: 2025-09-08 to 2026-07-09
+- Total records processed: 48942
+- Total unique server names: 15836
+- Date range: 2025-09-08 to 2026-07-10
 - Peak day: 2026-06-10 with 484 unique server names
-- Average unique server names per day: 108.08
+- Average unique server names per day: 108.03
 
 ## Top 5 busiest days
 - 2026-06-10: 484 unique servers
@@ -22,12 +22,12 @@ Generated on: 2026-07-09T21:49:49.1382687+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| remote | 6655 | 42.14% |
-| npm | 5552 | 35.15% |
-| pypi | 2332 | 14.77% |
-| oci | 326 | 2.06% |
-| mcpb | 278 | 1.76% |
-| none | 270 | 1.71% |
+| remote | 6680 | 42.18% |
+| npm | 5566 | 35.15% |
+| pypi | 2334 | 14.74% |
+| oci | 328 | 2.07% |
+| mcpb | 277 | 1.75% |
+| none | 270 | 1.7% |
 | oci+pypi | 142 | 0.9% |
 | nuget | 69 | 0.44% |
 | npm+oci | 57 | 0.36% |
@@ -55,12 +55,12 @@ Generated on: 2026-07-09T21:49:49.1382687+00:00
 | csoai-org.github.io | 305 | pypi |
 | smithery.ai | 214 | remote |
 | codespar.github.io | 126 | npm |
-| cyanheads.github.io | 124 | npm |
+| cyanheads.github.io | 125 | npm |
 | ansvar.eu | 102 | npm, remote |
 | br0ski777.github.io | 101 | remote |
+| wishpool.app | 99 | remote |
 | evozim.github.io | 99 | npm, remote |
 | mcp-dir.github.io | 97 | remote |
-| wishpool.app | 89 | remote |
 | mcparmory.com | 76 | oci+pypi |
 | nirholas.github.io | 63 | none, npm, pypi, remote |
 | tooloracle.io | 61 | remote |
