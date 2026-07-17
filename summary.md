@@ -1,18 +1,18 @@
 # Servers published summary
 
-Generated on: 2026-07-17T12:06:56.1538713+00:00
+Generated on: 2026-07-17T15:03:57.9748367+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 53323
-- Total unique server names: 17185
+- Total records processed: 53400
+- Total unique server names: 17216
 - Date range: 2025-09-08 to 2026-07-17
-- Peak day: 2026-07-13 with 541 unique server names
-- Average unique server names per day: 115.34
+- Peak day: 2026-07-13 with 540 unique server names
+- Average unique server names per day: 115.52
 
 ## Top 5 busiest days
-- 2026-07-13: 541 unique servers
+- 2026-07-13: 540 unique servers
 - 2026-06-10: 483 unique servers
 - 2026-06-22: 471 unique servers
 - 2026-07-16: 467 unique servers
@@ -22,12 +22,12 @@ Generated on: 2026-07-17T12:06:56.1538713+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| remote | 7408 | 43.11% |
-| npm | 5931 | 34.51% |
-| pypi | 2494 | 14.51% |
-| oci | 354 | 2.06% |
-| mcpb | 300 | 1.75% |
-| none | 290 | 1.69% |
+| remote | 7425 | 43.13% |
+| npm | 5938 | 34.49% |
+| pypi | 2499 | 14.52% |
+| oci | 355 | 2.06% |
+| mcpb | 300 | 1.74% |
+| none | 290 | 1.68% |
 | oci+pypi | 146 | 0.85% |
 | nuget | 72 | 0.42% |
 | npm+oci | 59 | 0.34% |
@@ -42,12 +42,12 @@ Generated on: 2026-07-17T12:06:56.1538713+00:00
 | mcpb+npm+nuget+oci+pypi | 3 | 0.02% |
 | cargo | 3 | 0.02% |
 | mcpb+npm+nuget+pypi | 2 | 0.01% |
+| cargo+oci | 2 | 0.01% |
 | nuget+oci+pypi | 1 | 0.01% |
 | nuget+oci | 1 | 0.01% |
 | npm+nuget+pypi | 1 | 0.01% |
 | mcpb+npm+pypi | 1 | 0.01% |
 | mcpb+npm+oci+pypi | 1 | 0.01% |
-| cargo+oci | 1 | 0.01% |
 | cargo+mcpb | 1 | 0.01% |
 
 ## Top 20 domains by unique server names
@@ -69,8 +69,8 @@ Generated on: 2026-07-17T12:06:56.1538713+00:00
 | tooloracle.io | 61 | remote |
 | srotzin.github.io | 60 | remote |
 | servosity.github.io | 58 | mcpb |
+| usefulapi.io | 56 | remote |
 | lazymac2x.github.io | 55 | npm, remote |
 | wyre-technology.github.io | 51 | oci |
-| usefulapi.io | 50 | remote |
 | daedalus.github.io | 50 | pypi |
 | theyahia.github.io | 49 | npm, remote |
