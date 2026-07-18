@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2026-07-18T03:34:10.6630737+00:00
+Generated on: 2026-07-18T06:27:22.1979840+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 53808
-- Total unique server names: 17305
+- Total records processed: 53851
+- Total unique server names: 17325
 - Date range: 2025-09-08 to 2026-07-18
 - Peak day: 2026-07-13 with 540 unique server names
-- Average unique server names per day: 115.92
+- Average unique server names per day: 116.02
 
 ## Top 5 busiest days
 - 2026-07-13: 540 unique servers
@@ -22,9 +22,9 @@ Generated on: 2026-07-18T03:34:10.6630737+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| remote | 7472 | 43.18% |
-| npm | 5961 | 34.45% |
-| pypi | 2512 | 14.52% |
+| remote | 7490 | 43.23% |
+| npm | 5961 | 34.41% |
+| pypi | 2513 | 14.51% |
 | oci | 359 | 2.07% |
 | mcpb | 300 | 1.73% |
 | none | 291 | 1.68% |
@@ -37,10 +37,10 @@ Generated on: 2026-07-18T03:34:10.6630737+00:00
 | mcpb+oci | 9 | 0.05% |
 | npm+oci+pypi | 5 | 0.03% |
 | mcpb+npm+oci | 4 | 0.02% |
+| cargo | 4 | 0.02% |
 | npm+nuget | 3 | 0.02% |
 | mcpb+oci+pypi | 3 | 0.02% |
 | mcpb+npm+nuget+oci+pypi | 3 | 0.02% |
-| cargo | 3 | 0.02% |
 | mcpb+npm+nuget+pypi | 2 | 0.01% |
 | cargo+oci | 2 | 0.01% |
 | nuget+oci+pypi | 1 | 0.01% |
@@ -65,11 +65,11 @@ Generated on: 2026-07-18T03:34:10.6630737+00:00
 | evozim.github.io | 99 | npm, remote |
 | mcp-dir.github.io | 97 | remote |
 | mcparmory.com | 76 | oci+pypi |
+| usefulapi.io | 63 | remote |
 | nirholas.github.io | 63 | none, npm, pypi, remote |
 | tooloracle.io | 61 | remote |
 | srotzin.github.io | 60 | remote |
 | servosity.github.io | 58 | mcpb |
-| usefulapi.io | 56 | remote |
 | lazymac2x.github.io | 55 | npm, remote |
 | wyre-technology.github.io | 51 | oci |
 | daedalus.github.io | 50 | pypi |
