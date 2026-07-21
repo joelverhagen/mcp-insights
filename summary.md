@@ -1,35 +1,35 @@
 # Servers published summary
 
-Generated on: 2026-07-20T21:32:10.7528128+00:00
+Generated on: 2026-07-21T03:49:51.9606278+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 55703
-- Total unique server names: 17769
-- Date range: 2025-09-08 to 2026-07-20
+- Total records processed: 55855
+- Total unique server names: 17803
+- Date range: 2025-09-08 to 2026-07-21
 - Peak day: 2026-07-13 with 540 unique server names
-- Average unique server names per day: 118.89
+- Average unique server names per day: 118.88
 
 ## Top 5 busiest days
 - 2026-07-13: 540 unique servers
 - 2026-07-17: 490 unique servers
 - 2026-06-10: 483 unique servers
 - 2026-06-22: 471 unique servers
-- 2026-07-16: 466 unique servers
+- 2026-07-20: 470 unique servers
 
 ## Unique server names by category
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| remote | 7737 | 43.54% |
-| npm | 6084 | 34.24% |
-| pypi | 2556 | 14.38% |
+| remote | 7758 | 43.58% |
+| npm | 6094 | 34.23% |
+| pypi | 2559 | 14.37% |
 | oci | 370 | 2.08% |
-| mcpb | 307 | 1.73% |
+| mcpb | 307 | 1.72% |
 | none | 297 | 1.67% |
 | oci+pypi | 149 | 0.84% |
-| nuget | 72 | 0.41% |
+| nuget | 72 | 0.4% |
 | npm+oci | 59 | 0.33% |
 | npm+pypi | 57 | 0.32% |
 | mcpb+npm | 23 | 0.13% |
@@ -67,7 +67,7 @@ Generated on: 2026-07-20T21:32:10.7528128+00:00
 | mcp-dir.github.io | 97 | remote |
 | usefulapi.io | 83 | remote |
 | mcparmory.com | 76 | oci+pypi |
-| nirholas.github.io | 64 | none, npm, pypi, remote |
+| nirholas.github.io | 69 | none, npm, pypi, remote |
 | tooloracle.io | 61 | remote |
 | srotzin.github.io | 60 | remote |
 | servosity.github.io | 58 | mcpb |
