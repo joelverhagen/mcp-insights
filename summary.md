@@ -1,19 +1,19 @@
 # Servers published summary
 
-Generated on: 2026-07-21T12:21:14.5449607+00:00
+Generated on: 2026-07-22T06:52:42.7963822+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 56048
-- Total unique server names: 17841
-- Date range: 2025-09-08 to 2026-07-21
+- Total records processed: 56578
+- Total unique server names: 17986
+- Date range: 2025-09-08 to 2026-07-22
 - Peak day: 2026-07-13 with 540 unique server names
-- Average unique server names per day: 119.37
+- Average unique server names per day: 120.09
 
 ## Top 5 busiest days
 - 2026-07-13: 540 unique servers
-- 2026-07-17: 490 unique servers
+- 2026-07-17: 489 unique servers
 - 2026-06-10: 483 unique servers
 - 2026-06-22: 471 unique servers
 - 2026-07-20: 469 unique servers
@@ -22,21 +22,21 @@ Generated on: 2026-07-21T12:21:14.5449607+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| remote | 7774 | 43.57% |
-| npm | 6106 | 34.22% |
-| pypi | 2566 | 14.38% |
-| oci | 373 | 2.09% |
-| mcpb | 308 | 1.73% |
-| none | 295 | 1.65% |
-| oci+pypi | 149 | 0.84% |
+| remote | 7870 | 43.76% |
+| npm | 6135 | 34.11% |
+| pypi | 2581 | 14.35% |
+| oci | 373 | 2.07% |
+| mcpb | 310 | 1.72% |
+| none | 296 | 1.65% |
+| oci+pypi | 149 | 0.83% |
 | nuget | 72 | 0.4% |
-| npm+oci | 60 | 0.34% |
+| npm+oci | 60 | 0.33% |
 | npm+pypi | 57 | 0.32% |
 | mcpb+npm | 23 | 0.13% |
 | mcpb+pypi | 13 | 0.07% |
-| mcpb+oci | 9 | 0.05% |
+| mcpb+oci | 10 | 0.06% |
 | cargo | 7 | 0.04% |
-| npm+oci+pypi | 5 | 0.03% |
+| npm+oci+pypi | 6 | 0.03% |
 | mcpb+npm+oci | 4 | 0.02% |
 | npm+nuget | 3 | 0.02% |
 | mcpb+oci+pypi | 3 | 0.02% |
@@ -55,7 +55,7 @@ Generated on: 2026-07-21T12:21:14.5449607+00:00
 
 | Domain | Unique Server Names | Categories |
 |--------|---------------------:|------------|
-| pipeworx-io.github.io | 1258 | remote |
+| pipeworx-io.github.io | 1261 | remote |
 | csoai-org.github.io | 305 | pypi |
 | smithery.ai | 213 | remote |
 | codespar.github.io | 126 | npm |
