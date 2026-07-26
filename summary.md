@@ -1,19 +1,19 @@
 # Servers published summary
 
-Generated on: 2026-07-26T14:03:59.6351093+00:00
+Generated on: 2026-07-26T21:36:08.9548966+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 59082
-- Total unique server names: 18573
+- Total records processed: 59281
+- Total unique server names: 18621
 - Date range: 2025-09-08 to 2026-07-26
 - Peak day: 2026-07-13 with 540 unique server names
-- Average unique server names per day: 123.62
+- Average unique server names per day: 123.98
 
 ## Top 5 busiest days
 - 2026-07-13: 540 unique servers
-- 2026-06-10: 483 unique servers
+- 2026-06-10: 482 unique servers
 - 2026-07-17: 482 unique servers
 - 2026-06-22: 471 unique servers
 - 2026-07-16: 465 unique servers
@@ -22,14 +22,14 @@ Generated on: 2026-07-26T14:03:59.6351093+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| remote | 8177 | 44.03% |
-| npm | 6293 | 33.88% |
-| pypi | 2645 | 14.24% |
-| oci | 395 | 2.13% |
-| mcpb | 325 | 1.75% |
+| remote | 8200 | 44.04% |
+| npm | 6307 | 33.87% |
+| pypi | 2651 | 14.24% |
+| oci | 396 | 2.13% |
+| mcpb | 328 | 1.76% |
 | none | 303 | 1.63% |
 | oci+pypi | 151 | 0.81% |
-| nuget | 73 | 0.39% |
+| nuget | 74 | 0.4% |
 | npm+oci | 61 | 0.33% |
 | npm+pypi | 60 | 0.32% |
 | mcpb+npm | 24 | 0.13% |
@@ -55,7 +55,7 @@ Generated on: 2026-07-26T14:03:59.6351093+00:00
 
 | Domain | Unique Server Names | Categories |
 |--------|---------------------:|------------|
-| pipeworx-io.github.io | 1273 | remote |
+| pipeworx-io.github.io | 1274 | remote |
 | csoai-org.github.io | 305 | pypi |
 | smithery.ai | 213 | remote |
 | codespar.github.io | 126 | npm |
@@ -72,6 +72,6 @@ Generated on: 2026-07-26T14:03:59.6351093+00:00
 | srotzin.github.io | 60 | remote |
 | servosity.github.io | 58 | mcpb |
 | lazymac2x.github.io | 55 | npm, remote |
-| wyre-technology.github.io | 52 | oci |
+| wyre-technology.github.io | 53 | oci |
 | daedalus.github.io | 50 | pypi |
 | theyahia.github.io | 49 | npm, remote |
