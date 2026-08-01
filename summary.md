@@ -1,31 +1,31 @@
 # Servers published summary
 
-Generated on: 2026-07-31T21:32:01.2012783+00:00
+Generated on: 2026-08-01T03:58:04.8498894+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 63016
-- Total unique server names: 19419
-- Date range: 2025-09-08 to 2026-07-31
+- Total records processed: 63173
+- Total unique server names: 19466
+- Date range: 2025-09-08 to 2026-08-01
 - Peak day: 2026-07-13 with 540 unique server names
-- Average unique server names per day: 129.69
+- Average unique server names per day: 129.64
 
 ## Top 5 busiest days
 - 2026-07-13: 540 unique servers
 - 2026-07-30: 530 unique servers
 - 2026-07-27: 527 unique servers
+- 2026-07-31: 502 unique servers
 - 2026-06-10: 482 unique servers
-- 2026-07-17: 480 unique servers
 
 ## Unique server names by category
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| remote | 8669 | 44.64% |
-| npm | 6496 | 33.45% |
-| pypi | 2725 | 14.03% |
-| oci | 398 | 2.05% |
+| remote | 8698 | 44.68% |
+| npm | 6509 | 33.44% |
+| pypi | 2727 | 14.01% |
+| oci | 401 | 2.06% |
 | mcpb | 340 | 1.75% |
 | none | 331 | 1.7% |
 | oci+pypi | 160 | 0.82% |
@@ -74,6 +74,6 @@ Generated on: 2026-07-31T21:32:01.2012783+00:00
 | srotzin.github.io | 60 | remote |
 | servosity.github.io | 58 | mcpb |
 | lazymac2x.github.io | 55 | npm, remote |
-| wyre-technology.github.io | 53 | oci |
+| wyre-technology.github.io | 54 | oci |
 | rocnubie.github.io | 50 | none |
 | daedalus.github.io | 50 | pypi |
