@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2026-08-01T14:06:09.5315220+00:00
+Generated on: 2026-08-01T21:19:26.0104430+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 63400
-- Total unique server names: 19527
+- Total records processed: 63631
+- Total unique server names: 19589
 - Date range: 2025-09-08 to 2026-08-01
 - Peak day: 2026-07-13 with 540 unique server names
-- Average unique server names per day: 130.14
+- Average unique server names per day: 130.54
 
 ## Top 5 busiest days
 - 2026-07-13: 540 unique servers
@@ -22,15 +22,15 @@ Generated on: 2026-08-01T14:06:09.5315220+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| remote | 8723 | 44.67% |
-| npm | 6519 | 33.38% |
-| pypi | 2746 | 14.06% |
-| oci | 405 | 2.07% |
-| mcpb | 342 | 1.75% |
-| none | 331 | 1.7% |
+| remote | 8764 | 44.74% |
+| npm | 6536 | 33.37% |
+| pypi | 2747 | 14.02% |
+| oci | 407 | 2.08% |
+| mcpb | 343 | 1.75% |
+| none | 330 | 1.68% |
 | oci+pypi | 160 | 0.82% |
 | nuget | 75 | 0.38% |
-| npm+pypi | 62 | 0.32% |
+| npm+pypi | 63 | 0.32% |
 | npm+oci | 61 | 0.31% |
 | mcpb+npm | 26 | 0.13% |
 | mcpb+pypi | 14 | 0.07% |
@@ -57,7 +57,7 @@ Generated on: 2026-08-01T14:06:09.5315220+00:00
 
 | Domain | Unique Server Names | Categories |
 |--------|---------------------:|------------|
-| pipeworx-io.github.io | 1305 | remote |
+| pipeworx-io.github.io | 1310 | remote |
 | csoai-org.github.io | 305 | pypi |
 | smithery.ai | 213 | remote |
 | codespar.github.io | 126 | npm |
@@ -65,9 +65,9 @@ Generated on: 2026-08-01T14:06:09.5315220+00:00
 | cyanheads.github.io | 125 | npm |
 | ansvar.eu | 102 | npm, remote |
 | br0ski777.github.io | 101 | remote |
+| usefulapi.io | 99 | remote |
 | evozim.github.io | 99 | npm, remote |
 | mcp-dir.github.io | 97 | remote |
-| usefulapi.io | 83 | remote |
 | mcparmory.com | 76 | oci+pypi |
 | nirholas.github.io | 69 | none, npm, pypi, remote |
 | tooloracle.io | 61 | remote |
@@ -75,5 +75,5 @@ Generated on: 2026-08-01T14:06:09.5315220+00:00
 | servosity.github.io | 58 | mcpb |
 | lazymac2x.github.io | 55 | npm, remote |
 | wyre-technology.github.io | 54 | oci |
+| chrischall.github.io | 52 | npm |
 | rocnubie.github.io | 50 | none |
-| daedalus.github.io | 50 | pypi |
