@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2026-08-02T14:06:12.7815857+00:00
+Generated on: 2026-08-02T21:20:52.6773638+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 64014
-- Total unique server names: 19675
+- Total records processed: 64259
+- Total unique server names: 19740
 - Date range: 2025-09-08 to 2026-08-02
 - Peak day: 2026-07-13 with 540 unique server names
-- Average unique server names per day: 131
+- Average unique server names per day: 131.45
 
 ## Top 5 busiest days
 - 2026-07-13: 540 unique servers
@@ -22,12 +22,12 @@ Generated on: 2026-08-02T14:06:12.7815857+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| remote | 8813 | 44.79% |
-| npm | 6561 | 33.35% |
-| pypi | 2753 | 13.99% |
-| oci | 407 | 2.07% |
-| mcpb | 346 | 1.76% |
-| none | 331 | 1.68% |
+| remote | 8852 | 44.84% |
+| npm | 6574 | 33.3% |
+| pypi | 2761 | 13.99% |
+| oci | 408 | 2.07% |
+| mcpb | 347 | 1.76% |
+| none | 333 | 1.69% |
 | oci+pypi | 160 | 0.81% |
 | nuget | 75 | 0.38% |
 | npm+pypi | 63 | 0.32% |
@@ -35,7 +35,7 @@ Generated on: 2026-08-02T14:06:12.7815857+00:00
 | mcpb+npm | 27 | 0.14% |
 | mcpb+pypi | 14 | 0.07% |
 | mcpb+oci | 13 | 0.07% |
-| cargo | 12 | 0.06% |
+| cargo | 13 | 0.07% |
 | npm+oci+pypi | 7 | 0.04% |
 | npm+nuget | 7 | 0.04% |
 | mcpb+npm+oci | 4 | 0.02% |
@@ -63,7 +63,7 @@ Generated on: 2026-08-02T14:06:12.7815857+00:00
 | codespar.github.io | 126 | npm |
 | wishpool.app | 125 | remote |
 | cyanheads.github.io | 125 | npm |
-| ansvar.eu | 102 | npm, remote |
+| ansvar.eu | 106 | npm, remote |
 | br0ski777.github.io | 101 | remote |
 | usefulapi.io | 99 | remote |
 | evozim.github.io | 99 | npm, remote |
