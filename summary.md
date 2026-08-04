@@ -1,15 +1,15 @@
 # Servers published summary
 
-Generated on: 2026-08-04T16:28:11.6403221+00:00
+Generated on: 2026-08-04T18:15:23.2754916+00:00
 
 ![Unique servers per day](servers-per-day.svg)
 
 ## Quick facts
-- Total records processed: 65400
-- Total unique server names: 19988
+- Total records processed: 65501
+- Total unique server names: 20015
 - Date range: 2025-09-08 to 2026-08-04
 - Peak day: 2026-07-13 with 540 unique server names
-- Average unique server names per day: 132.94
+- Average unique server names per day: 133.13
 
 ## Top 5 busiest days
 - 2026-07-13: 540 unique servers
@@ -22,36 +22,36 @@ Generated on: 2026-08-04T16:28:11.6403221+00:00
 
 | Category | Unique Server Names | % of Total |
 |----------|---------------------:|-----------:|
-| remote | 9001 | 45.03% |
-| npm | 6641 | 33.22% |
-| pypi | 2779 | 13.9% |
-| oci | 413 | 2.07% |
-| mcpb | 351 | 1.76% |
+| remote | 9016 | 45.05% |
+| npm | 6646 | 33.21% |
+| pypi | 2784 | 13.91% |
+| oci | 413 | 2.06% |
+| mcpb | 352 | 1.76% |
 | none | 336 | 1.68% |
 | oci+pypi | 160 | 0.8% |
-| nuget | 75 | 0.38% |
+| nuget | 76 | 0.38% |
 | npm+pypi | 64 | 0.32% |
 | npm+oci | 62 | 0.31% |
-| mcpb+npm | 27 | 0.14% |
+| mcpb+npm | 27 | 0.13% |
 | mcpb+pypi | 14 | 0.07% |
-| mcpb+oci | 13 | 0.07% |
-| cargo | 13 | 0.07% |
-| npm+oci+pypi | 7 | 0.04% |
-| npm+nuget | 7 | 0.04% |
+| mcpb+oci | 13 | 0.06% |
+| cargo | 13 | 0.06% |
+| npm+oci+pypi | 7 | 0.03% |
+| npm+nuget | 7 | 0.03% |
 | mcpb+npm+oci | 4 | 0.02% |
 | cargo+oci | 4 | 0.02% |
-| mcpb+oci+pypi | 3 | 0.02% |
-| mcpb+npm+nuget+oci+pypi | 3 | 0.02% |
+| mcpb+oci+pypi | 3 | 0.01% |
+| mcpb+npm+nuget+oci+pypi | 3 | 0.01% |
 | mcpb+npm+nuget+pypi | 2 | 0.01% |
-| nuget+oci+pypi | 1 | 0.01% |
-| nuget+oci | 1 | 0.01% |
-| npm+nuget+pypi | 1 | 0.01% |
-| mcpb+nuget | 1 | 0.01% |
-| mcpb+npm+pypi | 1 | 0.01% |
-| mcpb+npm+oci+pypi | 1 | 0.01% |
-| cargo+pypi | 1 | 0.01% |
-| cargo+npm | 1 | 0.01% |
-| cargo+mcpb | 1 | 0.01% |
+| nuget+oci+pypi | 1 | 0% |
+| nuget+oci | 1 | 0% |
+| npm+nuget+pypi | 1 | 0% |
+| mcpb+nuget | 1 | 0% |
+| mcpb+npm+pypi | 1 | 0% |
+| mcpb+npm+oci+pypi | 1 | 0% |
+| cargo+pypi | 1 | 0% |
+| cargo+npm | 1 | 0% |
+| cargo+mcpb | 1 | 0% |
 
 ## Top 20 domains by unique server names
 
